@@ -1,0 +1,23 @@
+//          GetBracketHeader(Rec,FilingStatusToGetTypes::Either);
+//          EmployeeTaxAuthInfo.RESET();
+//          EmployeeTaxAuthInfo.SETRANGE("Employee No.", Rec."Employee No.");
+//          IF EmployeeTaxAuthInfo.FINDFIRST() THEN BEGIN
+//              EmployeeRate.RESET;
+//              EmployeeRate.SETRANGE("Employee No.", Rec."Employee No.");
+//              EmployeeRate.SETFILTER("Payroll Rate Code", 'SALARY');
+//                IF EmployeeRate.FINDFIRST THEN BEGIN
+//                    BracketDetail2.RESET;
+//                    BracketDetail2.SETCURRENTKEY(Amount);
+//                    BracketDetail2.ASCENDING(FALSE);
+//                    BracketDetail2.SETRANGE("Bracket Code", BracketHeader.Code); 
+//                    BracketDetail2.SETRANGE("Bracket Type Code", BracketHeader."Bracket Type Code");
+//                    BracketDetail2.SETRANGE("Bracket Effective Date", BracketHeader."Effective Date");
+//                    IF EmployeeTaxAuthInfo.Allowances >=4 THEN 
+//                          BracketDetail2.SETRANGE("From Allowance",4)
+//                    ELSE
+//                          BracketDetail2.SETRANGE("From Allowance",EmployeeTaxAuthInfo.Allowances);
+//                    BracketDetail2.SETFILTER(Amount ,'<%1',EmployeeRate.Amount);
+//                    IF BracketDetail2.FINDFIRST() THEN
+//                        "Adjusted Amount" := BracketDetail2."Max. Amount" * -1;
+//                END;
+//            END;
