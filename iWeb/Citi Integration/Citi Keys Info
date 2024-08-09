@@ -1,0 +1,23 @@
+# Summary of Keys and Methods :
+    
+    $ RSA (2048-bit): Used for signing and signature verification.
+        Certificates: Client Sign-In Certificate (for signing), Citi Sign-In Certificate (for verification).
+    
+    $ AES-256-GCM: Used for encrypting and decrypting data.
+        Certificates: Client Encryption Certificate (for encryption), Citi Encryption Certificate (for decryption).
+    
+    $ TLS v1.2: Used for secure communication.
+        Certificates: Client TLS Certificate, Citi TLS Certificate.
+
+# Certificates Involved
+    
+    $ Client TLS Certificate: For secure TLS communication.
+    $ Client Encryption Certificate: For encrypting requests (AES-256-GCM).
+    $ Client Sign-In Certificate: For signing requests (RSA).
+    $ Citi TLS Certificate: For securing the communication channel.
+    $ Citi Encryption Certificate: For decrypting responses (AES-256-GCM).
+    $ Citi Sign-In Certificate: For verifying signatures in responses (RSA).
+
+
+# Steps
+
