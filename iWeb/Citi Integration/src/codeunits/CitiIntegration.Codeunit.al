@@ -1,9 +1,6 @@
-codeunit 50100 "Citi Integration"
+codeunit 50140 "Citi Integration"
 {
-
     trigger OnRun()
-    var
-        CertificateRequest: Codeunit CertificateRequest;
     begin
     end;
 
@@ -93,6 +90,4 @@ codeunit 50100 "Citi Integration"
         XmlDoc.WriteTo(XmlData);
         exit(XmlData);
     end;
-
-
 }

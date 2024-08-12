@@ -14,7 +14,7 @@ codeunit 50147 "Export Bank Statement"
             repeat
                 SynceBankStatement(CustLedgEntry);
             until CustLedgEntry.Next() = 0;
-        CustLedgEntry.DeleteAll();
+
         // UpdateOutStanding(CustLedgEntry);
 
         // UpdateUnallocated(CustLedgEntry);
@@ -264,7 +264,7 @@ codeunit 50147 "Export Bank Statement"
     end;
 
     var
-NotSuccessStatusErr: Label 'Request returned with status code %1', Comment = '%1= Returning status code';
+        NotSuccessStatusErr: Label 'Request returned with status code %1', Comment = '%1= Returning status code';
         HttpRequestFailedErr: Label 'Http request failed';
         AccessToken: SecretText;
 

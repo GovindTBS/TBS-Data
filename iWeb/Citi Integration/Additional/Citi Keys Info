@@ -1,0 +1,31 @@
+<!-- # Summary of Keys and Methods :
+    
+    $ RSA (2048-bit): Used for signing and signature verification.
+        Certificates: Client Sign-In Certificate (for signing), Citi Sign-In Certificate (for verification).
+    
+    $ AES-256-GCM: Used for encrypting and decrypting data.
+        Certificates: Client Encryption Certificate (for encryption), Citi Encryption Certificate (for decryption).
+    
+    $ TLS v1.2: Used for secure communication.
+        Certificates: Client TLS Certificate, Citi TLS Certificate.
+
+# Certificates Involved
+    
+    $ Client TLS Certificate: For secure TLS communication.
+    $ Client Encryption Certificate: For encrypting requests (AES-256-GCM).
+    $ Client Sign-In Certificate: For signing requests (RSA).
+    $ Citi TLS Certificate: For securing the communication channel.
+    $ Citi Encryption Certificate: For decrypting responses (AES-256-GCM).
+    $ Citi Sign-In Certificate: For verifying signatures in responses (RSA).
+
+# Steps
+    $ SigningXmlDocument
+        I have not tried using SignedXML Codeunit, but I gone through these functions while working on a project.
+        You can try to use these functions from this CU.
+        InitializeSignedXml(SigningXmlDocument: XmlDocument) // Your document that need to be signed
+        SetSigningKey(XmlString: Text) //This is the key used to sign your document like at the end
+        GetXml(): XmlElement // To get the signed xml back
+        <RSAKeyValue><Modulus>vIVB/S+boTqUH03VpVw8cIJ9XkXXirW/iXIJgdYUnkgpEglWP7w6ZWvpOQ+xdtc7u4Fn5w2zlOgkvjvGtGWjLR/OGjMILPIaTcKalCP9ccuSIF573VkYps5FGrvNpQrrJ4Kl10VW4vvw6db6RWdGWD0sS7UV0Twh66+tSLA+LX2nuHCv0S5ob5rQbxLoL5Py4kOUFoQBidvpk4MMIDv9Y/+RCzkpibyyQnCpv3jOBkRmLbHu9eaoRsc+hD4I2Lau5wg2F4ZhNw2qCVxtW5hLmPvxdNqm+3CP79Ba9L86+ZUsHvChPm6otfTwXrGEQEAagmo9Bn7xghK1d4Ngihc/Nw==</Modulus><Exponent>AQAB</Exponent>
+        ........
+        6XHMRPXrBmWISUvHimmK0L1r7D/lFBkRPlDFnCa1JxsuC2urYcSDcB7SWmhQFMCz6v7fnqgZzm0ukCDYkRhVhfeGL9bG+64ObsSgG3vhmhjJoduAjQ+LE1jpuPZBQ71KT6dlr4KllJxmSFWcNj+L1HrTqskyB6502JXOKsQJhzQaw8vOAk/+/bwzkJ5+UeoQ==</D></RSAKeyValue>
+ -->
