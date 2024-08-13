@@ -4,6 +4,7 @@ page 50141 "Citi Bank Intg. Keys"
     ApplicationArea = All;
     UsageCategory = None;
     SourceTable = "Citi Bank Intg. Keys";
+    Editable = false;
 
     layout
     {
@@ -21,17 +22,14 @@ page 50141 "Citi Bank Intg. Keys"
                 {
                     ToolTip = 'Specifies if the certificate is uploaded.';
                     ApplicationArea = all;
+                    Editable = false;
                 }
 
                 field("File Name"; Rec."File Name")
                 {
                     ToolTip = 'Specifies the name of the certificate file.';
                     ApplicationArea = all;
-                }
-                field(Password; Rec.Password)
-                {
-                    ToolTip = 'Specifies the password if the certificate is password protected.';
-                    ApplicationArea = all;
+                    Editable = false;
                 }
             }
         }
@@ -49,14 +47,20 @@ page 50141 "Citi Bank Intg. Keys"
                 Image = Import;
                 trigger OnAction()
                 var
-                    InStream: InStream;
+                    IStream: InStream;
                     OStream: OutStream;
                 begin
-                    File.UploadIntoStream('Upload the certificate file', '', 'All files (*.*)|*.*', Rec."File Name", InStream);
-                    Rec."Value".CreateOutStream(OStream);
-                    CopyStream(OStream, InStream);
-                    Rec.Uploaded := true;
-                    Rec.Modify();
+                    if Rec.Uploaded = false and checkAllowKeysModification() then begin
+                        if File.UploadIntoStream('Upload the certificate file', '', 'PEM files (*.pem)|*.pem', Rec."File Name", IStream) then begin
+                            ValidatePemFileFormatFromStream(IStream);
+                            Rec."Value".CreateOutStream(OStream);
+                            CopyStream(OStream, IStream);
+                            Rec.Uploaded := true;
+                            Rec.Modify();
+                        end else
+                            exit;
+                    end else
+                        Message('%1 certificate is already uploaded', rec."Certificate Name");
                 end;
             }
 
@@ -70,11 +74,12 @@ page 50141 "Citi Bank Intg. Keys"
                 var
                     InStream: InStream;
                 begin
-                    if Rec.Uploaded = false then
-                        exit;
-                    Rec.CalcFields(Value);
-                    Rec."Value".CreateInStream(InStream);
-                    DownloadFromStream(InStream, '', '', '', Rec."File Name");
+                    if Rec.Uploaded = true then begin
+                        Rec.CalcFields(Value);
+                        Rec."Value".CreateInStream(InStream);
+                        DownloadFromStream(InStream, '', '', '', Rec."File Name");
+                    end else
+                        Message('%1 certificate is not uploaded', rec."Certificate Name");
                 end;
             }
 
@@ -85,19 +90,68 @@ page 50141 "Citi Bank Intg. Keys"
                 Caption = 'Delete Certificate';
                 Image = Import;
                 trigger OnAction()
-                var
-                    InStream: InStream;
                 begin
-                    if Rec.Uploaded = false then
-                        exit;
-                    Clear(Rec.Uploaded);
-                    Clear(Rec.Password);
-                    Clear(Rec."File Name");
-                    Clear(Rec.Value);
+                    if Rec.Uploaded = true and checkAllowKeysModification() then begin
+                        Clear(Rec.Uploaded);
+                        Clear(Rec."File Name");
+                        Clear(Rec.Value);
+                        Rec.Modify();
+                    end else
+                        Message('%1 certificate is not uploaded', Rec."Certificate Name");
                 end;
             }
         }
     }
+
+    trigger OnOpenPage()
+    begin
+        GetCitiIntgSetup();
+    end;
+
+    var
+        CitiIntgSetup: Record "Citi Bank Intg. Setup";
+
+    local procedure GetCitiIntgSetup()
+    begin
+        CitiIntgSetup.Get();
+    end;
+
+    local procedure checkAllowKeysModification(): Boolean
+    begin
+        GetCitiIntgSetup();
+        if CitiIntgSetup."Integration Enabled" then
+            Error('Disable Integration to modify key values.')
+        else
+            exit(true);
+    end;
+
+    procedure ValidatePemFileFormatFromStream(var IStream: InStream): Boolean;
+    var
+        PemFileContent: Text;
+
+        StartMarker: Text;
+        EndMarker: Text;
+        StartPos: Integer;
+        EndPos: Integer;
+    begin
+        StartMarker := '-----BEGIN CERTIFICATE-----';
+        EndMarker := '-----END CERTIFICATE-----';
+
+        PemFileContent := Rec.ReturnKeyText(IStream);
+
+        StartPos := StrPos(PemFileContent, StartMarker);
+        EndPos := StrPos(PemFileContent, EndMarker);
+
+        if (StartPos = 0) or (EndPos = 0) or (EndPos < StartPos) then
+            Error('Invalid PEM file format: Missing or incorrectly ordered certificate markers.');
+
+        if (EndPos - (StartPos + StrLen(StartMarker))) <= 0 then
+            Error('Invalid PEM file format: No content found between certificate markers.');
+
+        exit(true);
+    end;
+
+
 }
 
 
