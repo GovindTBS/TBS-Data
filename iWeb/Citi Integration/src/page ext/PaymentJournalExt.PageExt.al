@@ -2,6 +2,14 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
 {
     actions
     {
+        addlast(Promoted)
+        {
+            group("Citi")
+            {
+                actionref(InitiatePayment; "Initiate Payment") { }
+            }
+        }
+
         addlast(processing)
         {
             action("Initiate Payment")
@@ -9,11 +17,8 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
                 ApplicationArea = All;
                 ToolTip = 'Allows to initiate the payment.';
                 Caption = 'Initiate Payment';
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
                 Image = VendorPayment;
-                Visible = CitiIntgSetup."Integration Enabled";
+                Visible = IntegrationEnabled;
 
                 trigger OnAction()
                 var
@@ -26,9 +31,11 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
     }
     var
         CitiIntgSetup: Record "Citi Bank Intg. Setup";
+        IntegrationEnabled: Boolean;
 
     trigger OnOpenPage()
     begin
         CitiIntgSetup.Get();
+        IntegrationEnabled := CitiIntgSetup."Integration Enabled";
     end;
 }
