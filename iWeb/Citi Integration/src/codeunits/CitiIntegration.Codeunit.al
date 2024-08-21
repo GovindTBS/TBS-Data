@@ -1,74 +1,166 @@
-// ! Test
+//! Test 
 codeunit 50141 "Citi Integration"
 {
     procedure InitiatePayment(PaymentJnlRec: Record "Gen. Journal Line")
+    var
+        XmlPayload: Text;
     begin
         CitiIntgSetup.Get();
 
-        CreateXmlDemo();
+        XmlPayload := CreateXmlDemo();
 
-        GetSigningKey(CitiIntgKeys);
+        SignXmlPayload(XmlPayload);
 
-        SignXml();
-
+        EncryptPayload(XmlPayload);
     end;
-
 
     local procedure CreateXmlDemo(): Text
     var
-        xmlElem2: XmlElement;
-        xmlElem3: XmlElement;
-        xmlElem: XmlElement;
+        RootElement: XmlElement;
+        DataItemsElement: XmlElement;
+        DataItemElement: XmlElement;
         XmlDoc: XmlDocument;
-        XmlDec: XmlDeclaration;
+        XmlDecl: XmlDeclaration;
     begin
-        xmlDoc := xmlDocument.Create();
-        xmlDec := xmlDeclaration.Create('1.0', 'utf-8', 'yes');
-        xmlDoc.SetDeclaration(xmlDec);
-        xmlElem := xmlElement.Create('DemoXMLFile');
-        xmlElem.SetAttribute('attribute1', 'value1');
-        xmlElem.SetAttribute('attribute2', 'value2');
-        xmlElem2 := XmlElement.Create('DataItems');
-        xmlElem3 := XmlElement.Create('DataItem');
-        xmlElem3.Add(XmlText.Create('textvalue'));
-        xmlElem2.Add(xmlElem3);
-        xmlElem.Add(xmlElem2);
-        XmlDoc.Add(xmlElem);
-        XmlDoc.WriteTo(xmlTxt);
-        exit(xmlTxt);
+        XmlDoc := XmlDocument.Create();
+        XmlDecl := XmlDeclaration.Create('1.0', 'utf-8', 'yes');
+        XmlDoc.SetDeclaration(XmlDecl);
+
+        RootElement := XmlElement.Create('DemoXMLFile');
+        RootElement.SetAttribute('attribute1', 'value1');
+        RootElement.SetAttribute('attribute2', 'value2');
+
+        DataItemsElement := XmlElement.Create('DataItems');
+        DataItemElement := XmlElement.Create('DataItem');
+        DataItemElement.Add(XmlText.Create('textvalue'));
+        DataItemsElement.Add(DataItemElement);
+
+        RootElement.Add(DataItemsElement);
+        XmlDoc.Add(RootElement);
+
+        XmlDoc.WriteTo(payload);
+        exit(payload);
     end;
 
-    procedure GetSigningKey(CitiIntgKey: Record "Citi Bank Intg. Keys"): Text
+    procedure SignXmlPayload(XmlPayload: Text)
     var
-        IStream: InStream;
+        RSACryptoProvider: Codeunit "RSACryptoServiceProvider";
+        DataInStream: InStream;
+        SignatureStream: OutStream;
+        HashAlgorithm: Enum "Hash Algorithm";
+        Signature: Text;
     begin
-        CitiIntgKey.Get(CitiIntgKey."Certificate Name"::"Citi sign-in certificate");
-        CitiIntgKey.CalcFields(Value);
-        if CitiIntgKey.Uploaded then
-            CitiIntgKey.Value.CreateInStream(IStream);
-        KeyText := CitiIntgKey.ReturnKeyText(IStream);
-        Clear(KeyText);
-        KeyText := 'BwIAAACkAABSU0EyAAQAAAEAAQD99dvdVctFcYP6fGCvz/8QcoJqjpfKMPxCIsVRAZSCaKTB6Dl0DbEQBcaLNe8Cm31lzMYyf/2vh6gM+GUHmKcBYo2Z7JvauTGXFXEyv02ai8RINlvAGAicZwWoyGJb5h4sM881Q5+BuDTcoyefk+b7x7KBQjMD/wNuPCWijZ0lsP+Gt1tPryE757QDDl95jQk04ZS+70vGOAO836f+RCyeA6c0ZEA1eYzsM/PVsv+nLwh7pTj7KLFSha5CM304SdcDnyOnt1ARyv1BQsRhyN3IAOH/Se00OfWhcc0sZCjg+xvDebKuoODHDhUfHJPchOmyvhSxjyNACJuxg1uGh3XRmaPoceXXFCuNhFGheK5cQrfUGHpWeJKrpWM/+f3XcrYob0jQCloBIicXfvhhPnkPojiOquxmjy0rA8/JRjHov3+znJY+pQgFC5cUmvGWxhWygm+qDwYco6yCSRkkaIp/K39uJXQ2pQf9XapqjtAJipRo5xX0o/itiDyF1qPT7TumZROMUhU3znXGnxPelZ2bA7SgPiu6BBKADfqG1XJE1K50ydaEfyXYceYHIs7UAMLw9aTptqHbPPGp1hDL2xpWBR6hvqkPqouiVJ7VgPHkjxwT/hgXBvJbHOm/ghq/xA/1oTtXLJHXCASVdylt+nwauOp5qR0Dfdbz7IQGjChYzBHuqDuKorpmfHhZl+bDTHpJ1PjWrojoBfAt2v5zlBnw/ipjkD9MXKrNlPqbgeYXUAeAzfFKQhF2kr3zlmExIS8=';
+        RSACryptoProvider.InitializeRSA(2048);
+        RSACryptoProvider.CreateRSAKeyPair(PublicKey, PrivateKey);
+        Message(PublicKey);
+
+        TempBlob.CreateOutStream(SignatureStream);
+        SignatureStream.Write(XmlPayload);
+        TempBlob.CreateInStream(DataInStream);
+
+        Clear(SignatureStream);
+        TempBlob1.CreateOutStream(SignatureStream);
+
+        DataInStream.ResetPosition();
+        HashAlgorithm := HashAlgorithm::SHA256;
+        RSACryptoProvider.SignData(PrivateKey, DataInStream, HashAlgorithm, SignatureStream);
+
+        Clear(DataInStream);
+        TempBlob1.CreateInStream(DataInStream);
+        Signature := '';
+        DataInStream.ReadText(Signature);
+
+        Message('Signed XML Payload: %1', Signature);
+
+        VerifyXmlSignature(XmlPayload, Signature);
     end;
 
-    procedure SignXml(): Text;
+    procedure VerifyXmlSignature(XmlPayload: Text; Signature: Text): Boolean
     var
-        SignedXmlText: Text;
+        RSACryptoProvider: Codeunit "RSACryptoServiceProvider";
+        DataInStream: InStream;
+        SignatureInStream: InStream;
+        HashAlgorithm: Enum "Hash Algorithm";
+        IsValidSignature: Boolean;
     begin
-        Message(KeyText);
-        SignedXmlText := SignXmlMgmt.SignXmlText(xmlTxt, KeyText);
-        exit(SignedXmlText);
+        RSACryptoProvider.InitializeRSA(2048);
+
+        TempBlob.CreateOutStream(OutputStream);
+        OutputStream.Write(XmlPayload);
+        TempBlob.CreateInStream(DataInStream);
+
+        TempBlob1.CreateOutStream(OutputStream);
+        OutputStream.Write(Signature);
+        TempBlob1.CreateInStream(SignatureInStream);
+
+        HashAlgorithm := HashAlgorithm::SHA256;
+
+        Message('Data for verification: %1', XmlPayload);
+        Message('Signature for verification: %1', Signature);
+
+        IsValidSignature := RSACryptoProvider.VerifyData(PublicKey, DataInStream, HashAlgorithm, SignatureInStream);
+
+        if IsValidSignature then
+            Message('Signature verification succeeded.')
+        else
+            Message('Signature verification failed.');
+
+        exit(IsValidSignature);
     end;
 
+    procedure EncryptPayload(var XmlPayload: Text)
+    var
+        RSACryptoProvider: Codeunit "RSACryptoServiceProvider";
+        PlainTextInStream: InStream;
+        EncryptedTextStream: OutStream;
+    begin
+        RSACryptoProvider.InitializeRSA(2048);
+        TempBlob.CreateOutStream(EncryptedTextStream);
+        EncryptedTextStream.Write(XmlPayload);
+        TempBlob.CreateInStream(PlainTextInStream);
+
+        TempBlob1.CreateOutStream(EncryptedTextStream);
+        RSACryptoProvider.Encrypt(PublicKey, PlainTextInStream, false, EncryptedTextStream);
+
+        TempBlob1.CreateInStream(PlainTextInStream);
+        XmlPayload := '';
+        PlainTextInStream.ReadText(XmlPayload);
+
+        Message('Encrypted XML Payload: %1', XmlPayload);
+
+        DecryptPayload(XmlPayload);
+    end;
+
+    procedure DecryptPayload(XmlPayload: Text)
+    var
+        RSACryptoProvider: Codeunit "RSACryptoServiceProvider";
+        EncryptedTextInStream: InStream;
+        EncryptedTextOutStream: OutStream;
+        DecryptedTextStream: OutStream;
+        DecryptedTextInStream: InStream;
+        DecryptedPayload: Text;
+    begin
+        RSACryptoProvider.InitializeRSA(2048);
+        TempBlob.CreateOutStream(EncryptedTextOutStream);
+        EncryptedTextOutStream.Write(XmlPayload);
+        TempBlob.CreateInStream(EncryptedTextInStream);
+
+        TempBlob1.CreateOutStream(DecryptedTextStream);
+        RSACryptoProvider.Decrypt(PrivateKey, EncryptedTextInStream, false, DecryptedTextStream);
+
+        TempBlob1.CreateInStream(DecryptedTextInStream);
+        DecryptedPayload := '';
+        DecryptedTextInStream.Read(DecryptedPayload);
+
+        Message('Decrypted XML Payload: %1', DecryptedPayload);
+    end;
 
     var
         CitiIntgSetup: Record "Citi Bank Intg. Setup";
-        CitiIntgKeys: Record "Citi Bank Intg. Keys";
-        SignXmlMgmt: Codeunit "Signed XML Mgt.";
-        xmlTxt: Text;
-        KeyText: Text;
-
+        TempBlob: Codeunit "Temp Blob";
+        TempBlob1: Codeunit "Temp Blob";
+        payload: Text;
+        PublicKey: Text;
+        PrivateKey: SecretText;
+        OutputStream: OutStream;
 }
-
-
-
