@@ -1,4 +1,4 @@
-//! Test 
+//! Test (Static)
 codeunit 50141 "Citi Integration"
 {
     procedure InitiatePayment(PaymentJnlRec: Record "Gen. Journal Line")

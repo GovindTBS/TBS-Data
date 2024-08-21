@@ -4,7 +4,7 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
     {
         addlast(Promoted)
         {
-            group("Citi")
+            group("Citi Bank")
             {
                 actionref(InitiatePayment; "Initiate Payment") { }
             }
