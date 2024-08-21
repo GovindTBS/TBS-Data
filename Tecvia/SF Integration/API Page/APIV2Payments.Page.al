@@ -130,6 +130,9 @@ page 50146 "APIV2 - Payments"
         if OrderNumber <> '' then
             Rec.validate("Applies-to Doc. No.", GetInvoiceNumberByOrderNumber(OrderNumber));
 
+        if (Rec."Applied Doc Numbers" <> '') and (StrPos(Rec."Applied Doc Numbers", ',') = 0) then
+            Rec.Validate("Applies-to Doc. No.", Rec."Applied Doc Numbers");
+
         ApplypaymentEntries.ApplyDocuments(Rec);
 
         exit(true);
