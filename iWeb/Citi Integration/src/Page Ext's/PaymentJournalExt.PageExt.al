@@ -22,20 +22,21 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
 
                 trigger OnAction()
                 var
-                    CitiIntegration: Codeunit "Citi Integration";
+                    CitiAPIHandler: Codeunit "Citi Intg API Handler";
                 begin
-                    CitiIntegration.InitiatePayment(Rec);
+                    CitiAPIHandler.InitiatePayment(Rec);
                 end;
             }
         }
     }
-    var
-        CitiIntgSetup: Record "Citi Bank Intg. Setup";
-        IntegrationEnabled: Boolean;
 
     trigger OnOpenPage()
     begin
         CitiIntgSetup.Get();
         IntegrationEnabled := CitiIntgSetup."Integration Enabled";
     end;
+
+    var
+        CitiIntgSetup: Record "Citi Bank Intg. Setup";
+        IntegrationEnabled: Boolean;
 }
