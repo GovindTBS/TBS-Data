@@ -4,37 +4,40 @@ codeunit 50141 "Citi Intg Encryption Handler"
     procedure SignXmlPayload(var XmlPayload: Text)
     var
         RSACryptoProvider: Codeunit "RSACryptoServiceProvider";
+        SignXmlMgt: Codeunit "Signed XML Mgt.";
         DataInStream: InStream;
-        SignatureStream: OutStream;
+        OutputStream: OutStream;
         HashAlgorithm: Enum "Hash Algorithm";
         Signature: Text;
     begin
         CitiIntgKeys.Get(CitiIntgKeys."Certificate Name"::"Citi sign-in certificate");
-        GetPublicKey(CitiIntgKeys);
 
         RSACryptoProvider.InitializeRSA(2048);
         RSACryptoProvider.CreateRSAKeyPair(PublicKey, PrivateKey);
+        PublicKey := GetPublicKey(CitiIntgKeys);
 
-        TempBlob.CreateOutStream(SignatureStream);
-        SignatureStream.Write(XmlPayload);
+        TempBlob.CreateOutStream(OutputStream);
+        OutputStream.Write(XmlPayload);
         TempBlob.CreateInStream(DataInStream);
 
-        Clear(SignatureStream);
-        TempBlob1.CreateOutStream(SignatureStream);
+        Clear(OutputStream);
+        TempBlob1.CreateOutStream(OutputStream);
 
         DataInStream.ResetPosition();
-        HashAlgorithm := HashAlgorithm::SHA256;
-        RSACryptoProvider.SignData(PrivateKey, DataInStream, HashAlgorithm, SignatureStream);
+        // RSACryptoProvider.SignData(PublicKey, DataInStream, HashAlgorithm::SHA256, OutputStream);
 
         Clear(DataInStream);
         TempBlob1.CreateInStream(DataInStream);
         Signature := '';
         DataInStream.ReadText(Signature);
 
-        AddPayloadSignature(XmlPayload, Signature);
+        XmlPayload := SignXmlMgt.SignXmlText(XmlPayload, PublicKey);
+        Message(XmlPayload);
+
+        AddSignaturetoPayload(XmlPayload, Signature);
     end;
 
-    local procedure GetPublicKey(var CitiIntgKey: Record "Citi Bank Intg. Keys")
+    local procedure GetPublicKey(var CitiIntgKey: Record "Citi Bank Intg. Keys"): Text
     var
         X509Certificate2: Codeunit X509Certificate2;
         InputStream: InStream;
@@ -51,12 +54,20 @@ codeunit 50141 "Citi Intg Encryption Handler"
 
         if (StartPos > 0) and (EndPos > 0) then begin
             StartPos := StartPos + StrLen('-----BEGIN CERTIFICATE-----');
-            EndPos := EndPos - StartPos - 1;
+            EndPos := EndPos - StartPos;
             KeyValue := CopyStr(KeyValue, StartPos, EndPos);
         end else
             Error('Key not found in the certificate.');
 
-        PublicKey := X509Certificate2.GetCertificatePublicKey(KeyValue, Password);
+        KeyValue := X509Certificate2.GetCertificatePublicKey(KeyValue, Password);
+        exit(KeyValue);
+    end;
+
+    local procedure AddSignaturetoPayload(var XmlPayload: Text; Signature: Text)
+    var
+        XmlDoc: XmlDocument;
+    begin
+        XmlDocument.ReadFrom(XmlPayload, XmlDoc);
     end;
 
     procedure VerifyXmlSignature(XmlPayload: Text; Signature: Text): Boolean
@@ -66,6 +77,7 @@ codeunit 50141 "Citi Intg Encryption Handler"
         SignatureInStream: InStream;
         HashAlgorithm: Enum "Hash Algorithm";
         IsValidSignature: Boolean;
+        OutputStream: OutStream;
     begin
         RSACryptoProvider.InitializeRSA(2048);
 
@@ -139,20 +151,12 @@ codeunit 50141 "Citi Intg Encryption Handler"
         Message('Decrypted XML Payload: %1', DecryptedPayload);
     end;
 
-    local procedure AddPayloadSignature(var XmlPayload: Text; Signature: Text)
-    var
-        XmlDoc: XmlDocument;
-    begin
-        XmlDocument.ReadFrom(XmlPayload, XmlDoc);
-    end;
-
     var
         CitiIntgKeys: Record "Citi Bank Intg. Keys";
         TempBlob: Codeunit "Temp Blob";
         TempBlob1: Codeunit "Temp Blob";
         PublicKey: Text;
         PrivateKey: SecretText;
-        OutputStream: OutStream;
         Password: SecretText;
 }
 
