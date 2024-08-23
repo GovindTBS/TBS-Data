@@ -128,7 +128,6 @@ page 50141 "Citi Bank Intg. Keys"
     procedure ValidatePemFileFormatFromStream(var IStream: InStream): Boolean;
     var
         PemFileContent: Text;
-
         StartMarker: Text;
         EndMarker: Text;
         StartPos: Integer;
