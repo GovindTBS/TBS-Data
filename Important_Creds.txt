@@ -11,6 +11,10 @@
 		PWord : No@s!h21
 		Uname : SIM-HOME\Shalin
 		
+	$ 104.60.23.60:3383
+		UName: Shalin
+		PWord: No@s!h21
+		
 # Login Credentials and URL's
 	$ iWeb : https://app.assembla.com/spaces/iweb-etc/tickets/1943-create-custom-tax-table-for-mozambique-offices/details
 		UNAME : hrithik.jain
@@ -20,12 +24,20 @@
 		UNAME : dj.sims@sylogist.com
 		PWORD : Citibank1
 		
+	$ Citi Partner : https://partner.citi.com/user/login
+		UNAME : GovindTBS
+		PWORD : 123Abc_&
+		
 	$ Github: https://github.com/Techcronus-Business-Solutions/
 	
 # Tecvia Developer
 	UNAME : development@tecvia.co.uk
 	PWORD : Lot88441
-	
+
+# NAV Credentials
+	$ Pathfinder NAV Syologist
+		server name: VAZFINSQL01
+		database name. : PI US 2017 TEST
 	
 # Shared URL's
 	$ https://chatgpt.com/share/b3813d15-3a32-4d5d-aef2-a5ab5cbbad96
