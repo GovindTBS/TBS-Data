@@ -77,6 +77,12 @@ page 50140 "Citi Bank Intg. Setup"
 
     trigger OnOpenPage()
     begin
+        Rec.Reset();
+        if not Rec.Get() then begin
+            Rec.Init();
+            Rec.Insert();
+        end;
+
         if not GuidedExperience.IsAssistedSetupComplete(ObjectType::Page, Page::"Citi Intg. Setup Wizard") then
             Page.RunModal(Page::"Citi Intg. Setup Wizard");
     end;

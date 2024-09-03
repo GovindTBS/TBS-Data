@@ -47,14 +47,14 @@ page 50141 "Citi Bank Intg. Keys"
                 Image = Import;
                 trigger OnAction()
                 var
-                    IStream: InStream;
-                    OStream: OutStream;
+                    InputStream: InStream;
+                    OutputStream: OutStream;
+                    KeyValue: Text;
                 begin
                     if Rec.Uploaded = false and checkAllowKeysModification() then begin
-                        if File.UploadIntoStream('Upload the certificate file', '', 'PEM files (*.pem)|*.pem', Rec."File Name", IStream) then begin
-                            ValidatePemFileFormatFromStream(IStream);
-                            Rec."Value".CreateOutStream(OStream);
-                            CopyStream(OStream, IStream);
+                        if File.UploadIntoStream('Upload the certificate file', '', 'PEM files (*.pem)|*.pem', Rec."File Name", InputStream) then begin
+                            Rec."Value".CreateOutStream(OutputStream);
+                            CopyStream(OutputStream, InputStream);
                             Rec.Uploaded := true;
                             Rec.Modify();
                         end else
@@ -73,6 +73,7 @@ page 50141 "Citi Bank Intg. Keys"
                 trigger OnAction()
                 var
                     InStream: InStream;
+                    KeyValue: Text;
                 begin
                     if Rec.Uploaded = true then begin
                         Rec.CalcFields(Value);
@@ -125,7 +126,7 @@ page 50141 "Citi Bank Intg. Keys"
             exit(true);
     end;
 
-    procedure ValidatePemFileFormatFromStream(var IStream: InStream): Boolean;
+    procedure ValidatePemFileFormatFromStream(var InputStream: InStream): Boolean;
     var
         PemFileContent: Text;
         StartMarker: Text;
@@ -136,7 +137,7 @@ page 50141 "Citi Bank Intg. Keys"
         StartMarker := '-----BEGIN CERTIFICATE-----';
         EndMarker := '-----END CERTIFICATE-----';
 
-        PemFileContent := Rec.ReturnKeyText(IStream);
+        PemFileContent := Rec.ReturnKeyText(InputStream);
 
         StartPos := StrPos(PemFileContent, StartMarker);
         EndPos := StrPos(PemFileContent, EndMarker);

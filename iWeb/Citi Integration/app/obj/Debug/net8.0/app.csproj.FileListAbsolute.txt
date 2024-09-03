@@ -1,0 +1,15 @@
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\bin\Debug\net8.0\app.exe
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\bin\Debug\net8.0\app.deps.json
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\bin\Debug\net8.0\app.runtimeconfig.json
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\bin\Debug\net8.0\app.dll
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\bin\Debug\net8.0\app.pdb
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.GeneratedMSBuildEditorConfig.editorconfig
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.AssemblyInfoInputs.cache
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.AssemblyInfo.cs
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.csproj.CoreCompileInputs.cache
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.sourcelink.json
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.dll
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\refint\app.dll
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.pdb
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.genruntimeconfig.cache
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\ref\app.dll

@@ -5,6 +5,9 @@ codeunit 50100 "Citi Intg. Setup Subscribers"
     var
         AssistedSetup: Codeunit "Guided Experience";
     begin
+        if AssistedSetup.Exists(Enum::"Guided Experience Type"::"Assisted Setup", ObjectType::Page, Page::"Citi Intg. Setup Wizard") then
+            AssistedSetup.Remove(Enum::"Guided Experience Type"::"Assisted Setup", ObjectType::Page, Page::"Citi Intg. Setup Wizard");
+
         AssistedSetup.InsertAssistedSetup(SetupTxt, SetupTxt, SetupTxt, 1000, ObjectType::Page, Page::"Citi Intg. Setup Wizard",
                         "Assisted Setup Group"::Connect,
                         '',
@@ -13,5 +16,5 @@ codeunit 50100 "Citi Intg. Setup Subscribers"
     end;
 
     var
-        SetupTxt: Label 'Set up Citi Bank Integration';
+        SetupTxt: Label 'Set up Citi Bank API';
 }

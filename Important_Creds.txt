@@ -42,3 +42,8 @@
 # Shared URL's
 	$ https://chatgpt.com/share/b3813d15-3a32-4d5d-aef2-a5ab5cbbad96
 	$ https://simplanova.com/blog/upload-file-to-dynamics-365-business-central/
+
+	
+# Key-Pair: 
+	$ Test.pem
+		PKEY : IAh4TauObFZwyDgZbHhwBl3WGiaA/smS8eQZjpo6pe8

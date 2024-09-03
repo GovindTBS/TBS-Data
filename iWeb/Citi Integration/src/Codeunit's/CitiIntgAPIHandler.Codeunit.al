@@ -25,7 +25,9 @@ codeunit 50142 "Citi Intg API Handler"
         CitiIntgEncyptionHandler.SignXmlPayload(XmlPayload);
 
         //encrypt payload
-        CitiIntgEncyptionHandler.EncryptPayload(XmlPayload);
+        CitiIntgEncyptionHandler.EncryptXmlElement(XmlPayload);
+
+        CitiIntgEncyptionHandler.AESEncryptionExample(XmlPayload);
     end;
 
     procedure PostPaymentStatus()

@@ -34,13 +34,11 @@ table 50140 "Citi Bank Intg. Setup"
             Caption = 'Token Issued At';
             DataClassification = CustomerContent;
         }
-    }
 
-    keys
-    {
-        key(PK; "Primary Key")
+        field(6; "Auth Token"; Code[50])
         {
-            Clustered = true;
+            Caption = 'Auth Token';
+            DataClassification = CustomerContent;
         }
     }
 }
