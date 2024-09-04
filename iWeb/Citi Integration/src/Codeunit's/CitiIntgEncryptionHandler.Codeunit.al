@@ -12,7 +12,7 @@ codeunit 50141 "Citi Intg Encryption Handler"
         Message(XmlPayload);
     end;
 
-    procedure VerifyXmlSignature(XmlPayload: Text; Signature: Text): Boolean
+    procedure VerifyXmlSignature(XmlPayload: Text): Boolean
     var
         SignXmlMgt: Codeunit "Signed XML Mgt.";
         IsValidSignature: Boolean;
@@ -57,21 +57,21 @@ codeunit 50141 "Citi Intg Encryption Handler"
         // DecryptPayload(Encrypted);
     end;
 
-    procedure AESEncryptionExample(XmlPayload: Text)
-    var
-        RijndaelCryptography: Codeunit "Rijndael Cryptography";
-        Base64Convert: Codeunit "Base64 Convert";
-        EncryptedText: Text;
-        DecryptedText: Text;
-    begin
-        RijndaelCryptography.SetEncryptionData(Base64Convert.ToBase64('m2CF5y1bUCi1YTDYWNx10MN2bkfDMjHh3TzEZ+oDfL/bJ9qb4DFLfTRP74ZZO78ZxXh9zXLTWbGBoKZdiz+60NK3c5uDTHEIBf/rz0BW4+3YFWfRRBl+VUi/5gbwaT49S0lGxtK/xBV/vQPts87kZsEzHLjK+x0jrkItrAKZNKv/UE1Nt5ZCF2OEm95uyCPdXJNCCCZ5P7arfORYDY7ek2/OxXsBWHtYpQOm/IbxR6vX/+7ilXifwD7zUrER2MHXbSqK6aepBvIZTjibJ6PC1mK7zEFtKd85fnXCO/6P1xjHXqYBluIa8uTkLQFuVHtU/qaBj/ivKq5HuPfZBeQw+Q=='), Base64Convert.ToBase64(XmlPayload));
-        RijndaelCryptography.SetBlockSize(256);
-        RijndaelCryptography.SetCipherMode('CBC');
-        EncryptedText := RijndaelCryptography.Encrypt('Hello world');
-        DecryptedText := RijndaelCryptography.Decrypt(EncryptedText);
+    // procedure AESEncryptionExample(XmlPayload: Text)
+    // var
+    //     RijndaelCryptography: Codeunit "Rijndael Cryptography";
+    //     Base64Convert: Codeunit "Base64 Convert";
+    //     EncryptedText: Text;
+    //     DecryptedText: Text;
+    // begin
+    //     RijndaelCryptography.SetEncryptionData(Base64Convert.ToBase64('m2CF5y1bUCi1YTDYWNx10MN2bkfDMjHh3TzEZ+oDfL/bJ9qb4DFLfTRP74ZZO78ZxXh9zXLTWbGBoKZdiz+60NK3c5uDTHEIBf/rz0BW4+3YFWfRRBl+VUi/5gbwaT49S0lGxtK/xBV/vQPts87kZsEzHLjK+x0jrkItrAKZNKv/UE1Nt5ZCF2OEm95uyCPdXJNCCCZ5P7arfORYDY7ek2/OxXsBWHtYpQOm/IbxR6vX/+7ilXifwD7zUrER2MHXbSqK6aepBvIZTjibJ6PC1mK7zEFtKd85fnXCO/6P1xjHXqYBluIa8uTkLQFuVHtU/qaBj/ivKq5HuPfZBeQw+Q=='), Base64Convert.ToBase64(XmlPayload));
+    //     RijndaelCryptography.SetBlockSize(256);
+    //     RijndaelCryptography.SetCipherMode('CBC');
+    //     EncryptedText := RijndaelCryptography.Encrypt('Hello world');
+    //     DecryptedText := RijndaelCryptography.Decrypt(EncryptedText);
 
-        Message('EncryptedText: %1, DecryptedText: %2', EncryptedText, DecryptedText);
-    end;
+    //     Message('EncryptedText: %1, DecryptedText: %2', EncryptedText, DecryptedText);
+    // end;
 
     procedure DecryptPayload(XmlPayload: Text)
     var
@@ -80,7 +80,6 @@ codeunit 50141 "Citi Intg Encryption Handler"
         TempBlob1: Codeunit "Temp Blob";
         OutputStream: OutStream;
         InputStream: InStream;
-        Encrypted: Text;
         PublicKey: Text;
     begin
         PublicKey := GetPublicKey();

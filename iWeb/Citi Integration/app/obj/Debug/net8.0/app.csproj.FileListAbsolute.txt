@@ -13,3 +13,6 @@ G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\ref
 G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.pdb
 G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.genruntimeconfig.cache
 G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\ref\app.dll
+g:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+g:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.csproj.AssemblyReference.cache
+G:\GovindSinghRajpurohit\TBS-Data\iWeb\Citi Integration\app\obj\Debug\net8.0\app.csproj.Up2Date

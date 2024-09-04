@@ -28,6 +28,25 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
                 end;
             }
         }
+
+        addlast(processing)
+        {
+            action("Check / Post Status")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Allows to initiate the payment.';
+                Caption = 'Initiate Payment';
+                Image = VendorPayment;
+                Visible = IntegrationEnabled;
+
+                trigger OnAction()
+                var
+                    CitiAPIHandler: Codeunit "Citi Intg API Handler";
+                begin
+                    CitiAPIHandler.SendEnhancedPaymentStatusInquiry('', '');
+                end;
+            }
+        }
     }
 
     trigger OnOpenPage()

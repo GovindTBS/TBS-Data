@@ -29,13 +29,13 @@ table 50140 "Citi Bank Intg. Setup"
             DataClassification = CustomerContent;
         }
 
-        field(5; "Token Issued At"; DateTime)
+        field(5; "Token Expires At"; Time)
         {
-            Caption = 'Token Issued At';
+            Caption = 'Token Expires At';
             DataClassification = CustomerContent;
         }
 
-        field(6; "Auth Token"; Code[50])
+        field(6; "Auth Token"; Text[1000])
         {
             Caption = 'Auth Token';
             DataClassification = CustomerContent;
