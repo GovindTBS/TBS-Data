@@ -12,6 +12,21 @@ codeunit 50141 "Citi Intg Encryption Handler"
         Message(XmlPayload);
     end;
 
+
+    procedure SignPayload(var Payload: Text)
+    var
+        SignXmlMgt: Codeunit "Signed XML Mgt.";
+        TempBlob: Codeunit "Temp Blob";
+        CryptMgt: Codeunit "Cryptography Management";
+        PrivateKey1: Text;
+        OutputStream: OutStream;
+    begin
+        // CitiIntgKeys.Get();
+        PrivateKey1 := GetPrivateKey();
+        TempBlob.CreateOutStream(OutputStream);
+        CryptMgt.SignData(Payload, PrivateKey1, Enum::"Hash Algorithm"::SHA256, OutputStream);
+    end;
+
     procedure VerifyXmlSignature(XmlPayload: Text): Boolean
     var
         SignXmlMgt: Codeunit "Signed XML Mgt.";

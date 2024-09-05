@@ -64,26 +64,6 @@ page 50141 "Citi Bank Intg. Keys"
                 end;
             }
 
-            action("Download Certificate")
-            {
-                ToolTip = 'Allows to download the certificate file.';
-                ApplicationArea = All;
-                Caption = 'Download Certificate';
-                Image = Import;
-                trigger OnAction()
-                var
-                    InStream: InStream;
-                    KeyValue: Text;
-                begin
-                    if Rec.Uploaded = true then begin
-                        Rec.CalcFields(Value);
-                        Rec."Value".CreateInStream(InStream);
-                        DownloadFromStream(InStream, '', '', '', Rec."File Name");
-                    end else
-                        Message('%1 certificate is not uploaded', rec."Certificate Name");
-                end;
-            }
-
             action("Delete Certificate")
             {
                 ToolTip = 'Allows to Delete the certificate file.';
