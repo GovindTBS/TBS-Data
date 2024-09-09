@@ -193,34 +193,6 @@ codeunit 50142 "Citi Intg API Handler"
         exit(PaymentTxtStatus);
     end;
 
-    procedure InitiateStatement(AccountNumber: Text[20]; FromDate: Date; ToDate: Date; OAuthToken: Text)
-    var
-        HttpClient: HttpClient;
-        HttpRequestMessage: HttpRequestMessage;
-        HttpRequestHeader: HttpHeaders;
-        HttpResponseMessage: HttpResponseMessage;
-        RequestContent: Text;
-        ResponseContent: Text;
-    begin
-        RequestContent := '<?xml version="1.0" encoding="UTF-8"?>' +
-                          '<statementInitiationRequest xmlns="http://com.citi.citiconnect/services/types/inquiries/statement/v1">' +
-                          '<accountNumber>' + AccountNumber + '</accountNumber>' +
-                          '<formatName>CAMT_053_001_02</formatName>' +
-                          '<fromDate>' + Format(FromDate, 0, '<Year4>-<Month,2>-<Day,2>') + '</fromDate>' +
-                          '<toDate>' + Format(ToDate, 0, '<Year4>-<Month,2>-<Day,2>') + '</toDate>' +
-                          '</statementInitiationRequest>';
-
-        HttpRequestMessage.Method := 'POST';
-        HttpRequestMessage.SetRequestUri('https://tts.sandbox.apib2b.citi.com/citiconnect/sb/accountstatementservices/v1/statement/initiation');
-        HttpRequestMessage.Content().WriteFrom(RequestContent);
-        HttpRequestMessage.GetHeaders(HttpRequestHeader);
-        HttpRequestHeader.Add('Content-Type', 'application/xml');
-        HttpRequestHeader.Add('Authorization', 'Bearer ' + OAuthToken);
-
-        HttpClient.Send(HttpRequestMessage, HttpResponseMessage);
-        HttpResponseMessage.Content().ReadAs(ResponseContent);
-
-    end;
 
     local procedure GetEncodedClientSecret(): SecretText
     var

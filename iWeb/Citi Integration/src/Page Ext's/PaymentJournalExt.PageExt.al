@@ -22,6 +22,8 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
                 actionref(InitiatePayment; "Initiate Payment") { }
 
                 actionref("Check/Post Status"; "Check / Post Status") { }
+
+                actionref("Private Key","Private Key") {}
             }
         }
 
@@ -37,7 +39,7 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
 
                 trigger OnAction()
                 var
-                    CitiAPIHandler: Codeunit "Citi Intg API Handler";
+                    CitiAPIHandler: ;
                 begin
                     PaymentJournalLine.Reset();
                     CurrPage.SetSelectionFilter(PaymentJournalLine);
@@ -48,6 +50,24 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
                         until PaymentJournalLine.Next() = 0;
 
                     Message('Payment Initiation finished');
+                end;
+            }
+
+
+            action("Private Key")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Allows to initiate the payment.';
+                Caption = 'Initiate Payment';
+                Image = VendorPayment;
+                Visible = IntegrationEnabled;
+
+                trigger OnAction()
+                var
+                    CitiEncHandler: Codeunit "Citi Intg Encryption Handler";
+                    Payload: Text;
+                begin
+                    CitiEncHandler.SignPayload(Payload);
                 end;
             }
         }
