@@ -23,7 +23,7 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
 
                 actionref("Check/Post Status"; "Check / Post Status") { }
 
-                actionref("Private Key","Private Key") {}
+                actionref("PrivateKey"; "Private Key") { }
             }
         }
 
@@ -39,12 +39,14 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
 
                 trigger OnAction()
                 var
-                    CitiAPIHandler: ;
+                    CitiAPIHandler: Codeunit "Citi Intg API Handler";
                 begin
+
                     PaymentJournalLine.Reset();
                     CurrPage.SetSelectionFilter(PaymentJournalLine);
                     if PaymentJournalLine.FindFirst() then
                         repeat
+
                             PaymentJournalLine."Payment Request ID" := Format(CitiAPIHandler.InitiatePayment(PaymentJournalLine));
                             PaymentJournalLine.Modify();
                         until PaymentJournalLine.Next() = 0;
@@ -65,9 +67,12 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
                 trigger OnAction()
                 var
                     CitiEncHandler: Codeunit "Citi Intg Encryption Handler";
-                    Payload: Text;
+                    xmloptions: XmlWriteOptions;
+                    key1: Boolean;
                 begin
-                    CitiEncHandler.SignPayload(Payload);
+                    CitiEncHandler.SignXmlPayload();
+                    CitiEncHandler.EncryptXmlPayload();
+                    Message('%1', key1);
                 end;
             }
         }
