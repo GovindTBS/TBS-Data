@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<doc>
+    <application>
+        <id>8874ed3a-0643-4247-9ced-7a7002f7135d</id>
+        <name>System</name>
+        <publisher>Microsoft</publisher>
+        <version>24.0.21458.0</version>
+    </application>
+    <members>
+        <member name="F:Table::System#Tooling#Page Table Field.Index">
+            <summary>
+            The field index.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Type">
+            <summary>
+            The field type.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Length">
+            <summary>
+            The field length, if applicable.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Caption[80]">
+            <summary>
+             The caption of the field.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Status">
+             <summary>
+             The status of the field.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.IsTableField">
+            <summary>
+            Specifies whether the field is a table field or a page field bound to a table field (true) or a page field bound to an expression (false).
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Scope">
+            <summary>
+            Specifies how the source of the field (page, page extension, table, or table extension) and how it is currently used on the page (not used, hidden, or visible).
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Tooltip[2048]">
+            <summary>
+            The information as a JSON used to build the tooltip.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.FieldKind">
+            <summary>
+            The type of field.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Name[256]">
+            <summary>
+            The field name.
+            </summary>
+        </member>
+        <member name="F:Table::System#Tooling#Page Table Field.Field ID">
+            <summary>
+            The field ID. This represents the field ID for table field and the runtime control ID for page fields.
+            </summary>
+        </member>
+        <member name="F:Table::System#Integration#External Event Log Entry.Event Version[43]">
+            <summary>
+            The evnet version set in the event decleration.
+            </summary>
+        </member>
+        <member name="F:Table::System#Integration#External Event Subscription.Event Version[43]">
+            <summary>
+            The event version set in the event declaration.
+            </summary>
+        </member>
+        <member name="F:Table::System#Integration#External Event Subscription.Subscription State">
+            <summary>
+            The subscription state - active or disabled.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#Application Dependency">
+            <summary>
+            This table contains the dependency relationship between published applications.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Runtime Package ID">
+            <summary>
+            The runtime package identifier for the dependent app.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Package ID">
+            <summary>
+            The package identifier for the dependent app.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Dependency App ID">
+            <summary>
+            The dependency's application identifier.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Dependency Name[250]">
+            <summary>
+            The dependency's application name.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Dependency Publisher[250]">
+            <summary>
+            The dependency's application publisher.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Dependency Version Major">
+            <summary>
+            The dependency's application major version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Dependency Version Minor">
+            <summary>
+            The dependency's application minor version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Dependency Version Build">
+            <summary>
+            The dependency's application build version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Dependency.Dependency Version Revision">
+            <summary>
+            The dependency's application revision version.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#Application Object Metadata">
+            <summary>
+            This table contains object metadata from published applications.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Runtime Package ID">
+            <summary>
+            The runtime package identifier for the application this object belongs to.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Package ID">
+            <summary>
+            The package identifier for the application this object belongs to.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Object Type">
+            <summary>
+            The object type.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Object ID">
+            <summary>
+            The object identifier.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Metadata Format">
+            <summary>
+            The object's metadata format.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Metadata">
+            <summary>
+            The object's metadata.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.User Code">
+            <summary>
+            The object runtime code.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.User AL Code">
+            <summary>
+            The object AL code.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Metadata Version">
+            <summary>
+            The object metadata version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Object Subtype[30]">
+            <summary>
+            The object sub type.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Object Name[30]">
+            <summary>
+            The object name.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Metadata Hash[64]">
+            <summary>
+            The object metadata's hash.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.User Code Hash[64]">
+            <summary>
+            The object runtime code's hash.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Object Flags">
+            <summary>
+            The object flags.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Emit Version">
+            <summary>
+            The Emit Version field
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.User AL Code Hash[64]">
+            <summary>
+            The object AL source code's hash.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Object Metadata.Schema Hash">
+            <summary>
+            The object schema hash.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#Application Resource">
+            <summary>
+            This table contains the resources of a published application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Resource.Runtime Package ID">
+            <summary>
+            The runtime package identifier for the application this resource belongs to.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Resource.Package ID">
+            <summary>
+            The package identifier for the application this resource belongs to.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Resource.Type">
+            <summary>
+            The resource type.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Resource.Name[250]">
+            <summary>
+            The resource name.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Resource.Content">
+            <summary>
+            The resource content.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Resource.Hash[64]">
+            <summary>
+            The resource hash.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Application Resource.Emit Version">
+            <summary>
+            The Emit Version field
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#Inplace Installed Application">
+            <summary>
+            This table contains installed applications.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Inplace Installed Application.Runtime Package ID">
+            <summary>
+            The runtime package identifier for the installed application's package.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Inplace Installed Application.Emit Version">
+            <summary>
+            The Emit version
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Inplace Installed Application.ID">
+            <summary>
+            The identifier context of inplace publishing
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#Installed Application">
+            <summary>
+            This table contains installed applications.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Installed Application.Runtime Package ID">
+            <summary>
+            The runtime package identifier for the installed application's package.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Installed Application.Package ID">
+            <summary>
+            The package identifier for the installed application's package.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Installed Application.Tenant ID[128]">
+            <summary>
+            The tenant identifier. Indicates which tenant has installed this application.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#NAV App Dependencies">
+            <summary>
+            This table contains the dependency relationship between published applications.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#NAV App Installed App.Published As">
+            <summary>
+            The "Published As" option. Indicates how the application was published.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#NAV App Resource">
+            <summary>
+            This table contains the resources of a published application.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#NAV App Tenant App">
+            <summary>
+            This table contains installed applications for tenants.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#NAV App">
+            <summary>
+            This table contains published applications.
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#Published Application">
+            <summary>
+            This table contains published applications.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Runtime Package ID">
+            <summary>
+            The runtime package identifier. Is uniquely generated for each publish event.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Package ID">
+            <summary>
+            The package identifier. Belongs to the input package and is uniquely generated upon compiling.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.ID">
+            <summary>
+            The app identifier. Should uniquely identify the application and remains static across versions.
+             Also is not modified after name and publisher rebranding.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Name[250]">
+            <summary>
+            The app name. A human-readable name for the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Publisher[250]">
+            <summary>
+            The app publisher. A human-readable publisher for the application.
+            The publisher represents the individual or organization who created or
+            currently maintains the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Version Major">
+            <summary>
+            The major version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Version Minor">
+            <summary>
+            The minor version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Version Build">
+            <summary>
+            The build version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Version Revision">
+            <summary>
+            The revision version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Package Type">
+            <summary>
+            The package type. Indicates which package type the application is.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Published As">
+            <summary>
+            The "Published As" option. Indicates how the application was published.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Tenant ID[128]">
+            <summary>
+            The tenant identifier. Is empty for global applications but filled in for
+            PTEs (per-tenant extensions) or DEV extensions.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Installed">
+            <summary>
+            Indicates if the application is installed or not.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Brief[250]">
+            <summary>
+            A short description of the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Description">
+            <summary>
+            A description of the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Privacy Statement[250]">
+            <summary>
+            A URL pointing to the application's privacy statement.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.EULA[250]">
+            <summary>
+            A URL pointing to the application's end-user license agreement.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Url[250]">
+            <summary>
+            A URL pointing to the application's website.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Help[250]">
+            <summary>
+            A URL pointing a website containing support or help documentation for the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Logo">
+            <summary>
+            The application's logo.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Screenshots">
+            <summary>
+            Screenshots of the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Blob">
+            <summary>
+            The package BLOB of the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.responseUrl[250]">
+            <summary>
+            The application's response URL.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.requestId[250]">
+            <summary>
+            The application's request identifier.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Symbols">
+            <summary>
+            The application's symbols.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Content Hash[250]">
+            <summary>
+            The application's content hash.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Show My Code">
+            <summary>
+            A field indicating whether or not the source code of this application is shown during debugging.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Package Hash[64]">
+            <summary>
+            The application package's hash.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Application Insights Key">
+            <summary>
+            The application's "Azure Application Insights" key for custom telemetry.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Tenant Visible">
+            <summary>
+            A field indicating whether this application is visible to the tenant.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.PerTenant Or Installed">
+            <summary>
+            A field indicating whether this application is a PTE or if it is a Global application that is installed for the tenant.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Key Vault URLs[250]">
+            <summary>
+            A comma-separated list of URLs for the key vaults that contain the app's secrets.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Publisher AAD Tenant ID">
+            <summary>
+            The AAD tenant ID of the app publisher.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Documentation">
+            <summary>
+            The documentation of the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.App Insights Connection String[512]">
+            <summary>
+            A connection string for an Application Insights resource. Takes presedence over Application Insights Key
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Resource Exposure Policy">
+            <summary>
+            Resource Exposure Policy defines an application intelectual property protection policy.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Published Application.Resource Exposure Policy Applicable To Dev Extension">
+            <summary>
+            Resource Exposure Policy Applicable To Dev Extension specifies if the Resource Exposure Policy should also be enforced on DEV extensions
+            </summary>
+        </member>
+        <member name="O:Table::System#Apps#Tenant Application Storage">
+            <summary>
+            This table contains Tenant applications.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.ID">
+            <summary>
+             The app identifier. Should uniquely identify the application and remains static across versions.
+             Also is not modified after name and publisher rebranding.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Target Release[43]">
+            <summary>
+            Specifies the release that this PTE is staged for.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Package ID">
+            <summary>
+            The package identifier. Belongs to the input package and is uniquely generated upon compiling.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Name[250]">
+            <summary>
+            The app name. A human-readable name for the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Publisher[250]">
+            <summary>
+            The app publisher. A human-readable publisher for the application. 
+            The publisher represents the individual or organization who created or 
+            currently maintains the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Version[43]">
+            <summary>
+            The app version.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.ApplicationVersion[43]">
+            <summary>
+            Application version mentioned in the manifes of the app
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Dependencies">
+            <summary>
+            A list of dircet dependencies of the app in json format 
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Sync Mode">
+            <summary>
+            Specifies the sync mode which will be used for synchronizing the app.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Installed">
+            <summary>
+            Indicates if the application is installed or not.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Blob">
+            <summary>
+            The package BLOB of the application.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Tenant Application Storage.Package Hash[64]">
+            <summary>
+            The application package's hash.
+            </summary>
+        </member>
+        <member name="F:Table::System#Apps#Extension Database Snapshot.Published As">
+            <summary>
+            The "Published As" option. Indicates how the application was published.
+            </summary>
+        </member>
+        <member name="F:Table::System#Device#Printer.Payload[2048]">
+            <summary>
+            The information about the printer.
+            </summary>
+        </member>
+        <member name="F:Table::System#Device#Printer.Description[250]">
+            <summary>
+            The representation of the printer.
+            </summary>
+        </member>
+    </members>
+</doc>
