@@ -1,4 +1,4 @@
-tableextension 50141 "Company Information Extension" extends "Company Information"
+tableextension 50101 "Company Information Extension" extends "Company Information"
 {
     fields
     {

@@ -1,6 +1,6 @@
 reportextension 50100 "Sales - Invoice Ext" extends "Standard Sales - Invoice"
 {
-    RDLCLayout = './src/Reports/Report Extension Layout/Invoice.rdl';
+    RDLCLayout = 'src/report/report layout/Invoice.rdl';
 
     dataset
     {
