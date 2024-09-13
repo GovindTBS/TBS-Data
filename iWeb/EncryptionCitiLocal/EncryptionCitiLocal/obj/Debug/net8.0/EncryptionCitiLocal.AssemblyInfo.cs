@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EncryptionCitiLocal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4106c025c3603a76d28a926fe87e868848f8091f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8638c256a36073f8e6aa41c6815220ad9ac7099")]
 [assembly: System.Reflection.AssemblyProductAttribute("EncryptionCitiLocal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EncryptionCitiLocal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
