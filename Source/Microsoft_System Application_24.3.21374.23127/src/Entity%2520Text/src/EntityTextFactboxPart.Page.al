@@ -237,8 +237,8 @@ page 2011 "Entity Text Factbox Part"
         CanCreate: Boolean;
         HasSuggestion: Boolean;
         CallerModuleInfo: ModuleInfo;
-        NotEnabledPlaceholderTxt: Label 'Select Edit to add text', Comment = 'Edit refers to an action on this part with the same name';
-        DefaultPlaceholderTxt: Label '[Create text](). Then review and edit based on your needs.', Comment = 'Text contained in [here]() will be clickable to invoke the suggest action';
+NotEnabledPlaceholderTxt: Label 'Select Edit to add text', Comment = 'Edit refers to an action on this part with the same name';
+DefaultPlaceholderTxt: Label '[Create text](). Then review and edit based on your needs.', Comment = 'Text contained in [here]() will be clickable to invoke the suggest action';
         ContextNotSetErr: Label 'The context has not been set on the part. Ensure SetContext has been called from the parent page, contact your partner to fix this.';
         NoHandlerErr: Label 'There was no handler to provide an edit page for this entity. Contact your partner.';
         TelemetryNoEditPageTxt: Label 'No custom page was specified for edit by partner: table %1, scenario %2.', Locked = true;

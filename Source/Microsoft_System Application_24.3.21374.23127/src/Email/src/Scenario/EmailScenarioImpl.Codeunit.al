@@ -337,5 +337,5 @@ codeunit 8892 "Email Scenario Impl."
         EmailAccountImpl: Codeunit "Email Account Impl.";
         AccountDisplayLbl: Label '%1 (%2)', Locked = true;
         ChangeEmailAccountForScenarioTxt: Label 'Change e-mail account used for the selected scenarios';
-        ScenariosForAccountCaptionTxt: Label 'Assign scenarios to account %1', Comment = '%1 = the name of the e-mail accout, e.g. Notification Account (notification@cronus.com)';
+ScenariosForAccountCaptionTxt: Label 'Assign scenarios to account %1', Comment = '%1 = the name of the e-mail accout, e.g. Notification Account (notification@cronus.com)';
 }

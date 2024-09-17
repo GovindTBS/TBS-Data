@@ -22,23 +22,23 @@ codeunit 2500 "Extension Installation Impl"
         InstallerHasBeenCreated: Boolean;
         InstalledTxt: Label 'Installed';
         NotInstalledTxt: Label 'Not Installed';
-        FullVersionStringTxt: Label '%1.%2.%3.%4', Comment = '%1=Version Major, %2=Version Minor, %3=Version build, %4=Version revision';
-        NoRevisionVersionStringTxt: Label '%1.%2.%3', Comment = '%1=Version Major, %2=Version Minor, %3=Version build';
+FullVersionStringTxt: Label '%1.%2.%3.%4', Comment = '%1=Version Major, %2=Version Minor, %3=Version build, %4=Version revision';
+NoRevisionVersionStringTxt: Label '%1.%2.%3', Comment = '%1=Version Major, %2=Version Minor, %3=Version build';
         NoBuildVersionStringTxt: Label '%1.%2', Comment = '%1=Version Major, %2=Version Minor';
         PermissionErr: Label 'You do not have the required permissions to install the selected app. Contact your Partner or system administrator to install the app or assign you permissions.';
-        DependenciesFoundQst: Label 'The extension %1 has a dependency on one or more extensions: %2. \ \Do you want to install %1 and all of its dependencies?', Comment = '%1=name of app, %2=semicolon separated list of uninstalled dependencies';
-        DependentsFoundQst: Label 'The extension %1 is a dependency for one or more extensions: %2. \ \Do you want to uninstall %1 and all of its dependents?', Comment = '%1=name of app, %2=semicolon separated list of installed dependents';
-        AlreadyInstalledMsg: Label 'The extension %1 is already installed.', Comment = '%1=name of app';
-        AlreadyUninstalledMsg: Label 'The extension %1 is not installed.', Comment = '%1=name of app';
-        RestartActivityUninstallMsg: Label 'The %1 extension was successfully uninstalled. All active users must sign out and sign in again to see the navigation changes.', Comment = 'Indicates that users need to restart their activity to pick up new menusuite items. %1=Name of Extension';
-        ClearExtensionSchemaQst: Label 'Enabling Delete Extension Data will delete the tables that contain data for the %1 extension and all of its dependents on uninstall. This action cannot be undone. Do you want to continue?', Comment = '%1=name of app';
-        ClearExtensionSchemaMsg: Label 'You have selected to delete extension data for the %1 extension and all of its dependents: %2. Continuing uninstall will delete the tables that contain data for the %1 extension and all of its dependents. This action cannot be undone. Do you want to continue?', Comment = '%1=name of app ,%2= all dependent extensions';
-        ClearExtensionSchemaOrphanMsg: Label 'You have selected to delete extension data for the %1 extension. Continuing deletion will delete the tables that contain data for the %1 extension and all of its dependents. This action cannot be undone. Do you want to continue?', Comment = '%1=name of app';
+DependenciesFoundQst: Label 'The extension %1 has a dependency on one or more extensions: %2. \ \Do you want to install %1 and all of its dependencies?', Comment = '%1=name of app, %2=semicolon separated list of uninstalled dependencies';
+DependentsFoundQst: Label 'The extension %1 is a dependency for one or more extensions: %2. \ \Do you want to uninstall %1 and all of its dependents?', Comment = '%1=name of app, %2=semicolon separated list of installed dependents';
+AlreadyInstalledMsg: Label 'The extension %1 is already installed.', Comment = '%1=name of app';
+AlreadyUninstalledMsg: Label 'The extension %1 is not installed.', Comment = '%1=name of app';
+RestartActivityUninstallMsg: Label 'The %1 extension was successfully uninstalled. All active users must sign out and sign in again to see the navigation changes.', Comment = 'Indicates that users need to restart their activity to pick up new menusuite items. %1=Name of Extension';
+ClearExtensionSchemaQst: Label 'Enabling Delete Extension Data will delete the tables that contain data for the %1 extension and all of its dependents on uninstall. This action cannot be undone. Do you want to continue?', Comment = '%1=name of app';
+ClearExtensionSchemaMsg: Label 'You have selected to delete extension data for the %1 extension and all of its dependents: %2. Continuing uninstall will delete the tables that contain data for the %1 extension and all of its dependents. This action cannot be undone. Do you want to continue?', Comment = '%1=name of app ,%2= all dependent extensions';
+ClearExtensionSchemaOrphanMsg: Label 'You have selected to delete extension data for the %1 extension. Continuing deletion will delete the tables that contain data for the %1 extension and all of its dependents. This action cannot be undone. Do you want to continue?', Comment = '%1=name of app';
         NotSufficientPermissionErr: Label 'You do not have sufficient permissions to manage extensions. Please contact your administrator.';
-        InstallationBestPracticesUrlLbl: Label 'https://go.microsoft.com/fwlink/?linkid=2138922', Comment = 'link to the best practices and tips about the installing and publishing a new extension.', Locked = true;
-        DisclaimerUrlLbl: Label 'https://go.microsoft.com/fwlink/?linkid=2193002&clcid=0x409', Comment = 'link to the Business Central PTE disclaimer.', Locked = true;
-        PrivacyPolicyUrlLbl: Label 'https://go.microsoft.com/fwlink/?LinkId=521839', Comment = 'link to the privacy and cookies docs.', Locked = true;
-        ExtensionNotInstalledErr: Label 'The %1 app is not installed.', Comment = '%1 = name of extension';
+InstallationBestPracticesUrlLbl: Label 'https://go.microsoft.com/fwlink/?linkid=2138922', Comment = 'link to the best practices and tips about the installing and publishing a new extension.', Locked = true;
+DisclaimerUrlLbl: Label 'https://go.microsoft.com/fwlink/?linkid=2193002&clcid=0x409', Comment = 'link to the Business Central PTE disclaimer.', Locked = true;
+PrivacyPolicyUrlLbl: Label 'https://go.microsoft.com/fwlink/?LinkId=521839', Comment = 'link to the privacy and cookies docs.', Locked = true;
+ExtensionNotInstalledErr: Label 'The %1 app is not installed.', Comment = '%1 = name of extension';
 
     procedure IsInstalledByPackageId(PackageID: Guid): Boolean
     var

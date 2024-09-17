@@ -22,10 +22,10 @@ codeunit 9263 "Cust. Exp. Survey Req. Impl."
         CouldNotGetGraphAccessTokenErr: Label 'Could not get graph access token. ', Locked = true;
         BearerLbl: Label 'Bearer %1', Locked = true, Comment = '%1 - Bearer token';
         CategoryTok: Label 'Customer Experience Survey', Locked = true;
-        FailedGetRequestErr: Label 'GET %1 request failed with status code %2. Error message: %3', Locked = true, Comment = '%1 - Request, %2 - HTTP status code, %3 - Error message';
-        FailedPostRequestErr: Label 'POST %1 request failed with status code %2. Error message: %3', Locked = true, Comment = '%1 - Request, %2 - HTTP status code, %3 - Error message';
-        GetRequestSuccessfulLbl: Label 'GET %1 request was successful.', Locked = true, Comment = '%1 - Request';
-        PostRequestSuccessfulLbl: Label 'POST %1 request was successful.', Locked = true, Comment = '%1 - Request';
+FailedGetRequestErr: Label 'GET %1 request failed with status code %2. Error message: %3', Locked = true, Comment = '%1 - Request, %2 - HTTP status code, %3 - Error message';
+FailedPostRequestErr: Label 'POST %1 request failed with status code %2. Error message: %3', Locked = true, Comment = '%1 - Request, %2 - HTTP status code, %3 - Error message';
+GetRequestSuccessfulLbl: Label 'GET %1 request was successful.', Locked = true, Comment = '%1 - Request';
+PostRequestSuccessfulLbl: Label 'POST %1 request was successful.', Locked = true, Comment = '%1 - Request';
         MissingClientIdOrCertificateTelemetryTxt: Label 'The client id or certificate have not been initialized.', Locked = true;
         MissingScopeTelemetryTxt: Label 'The scope have not been initialized.', Locked = true;
         ClientIdAKVSecretNameLbl: Label 'bctocesappid', Locked = true;

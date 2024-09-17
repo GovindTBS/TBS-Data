@@ -21,7 +21,7 @@ codeunit 8963 "AFS Optional Parameters Impl."
 
     procedure Range(BytesStartValue: Integer; BytesEndValue: Integer)
     var
-        RangeBytesLbl: Label 'bytes=%1-%2', Comment = '%1 = Start Range; %2 = End Range', Locked = true;
+RangeBytesLbl: Label 'bytes=%1-%2', Comment = '%1 = Start Range; %2 = End Range', Locked = true;
     begin
         SetRequestHeader('x-ms-range', StrSubstNo(RangeBytesLbl, BytesStartValue, BytesEndValue));
     end;

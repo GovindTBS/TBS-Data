@@ -21,9 +21,9 @@ codeunit 8888 "Email Dispatcher"
         Success: Boolean;
         EmailCategoryLbl: Label 'Email', Locked = true;
         EmailFeatureNameLbl: Label 'Emailing', Locked = true;
-        FailedToFindEmailMessageMsg: Label 'Failed to find email message %1', Comment = '%1 - Email Message Id', Locked = true;
+FailedToFindEmailMessageMsg: Label 'Failed to find email message %1', Comment = '%1 - Email Message Id', Locked = true;
         FailedToFindEmailMessageErrorMsg: Label 'The email message has been deleted by another user.';
-        AttachmentMsg: Label 'Sending email with attachment file size: %1, Content type: %2', Comment = '%1 - File size, %2 - Content type', Locked = true;
+AttachmentMsg: Label 'Sending email with attachment file size: %1, Content type: %2', Comment = '%1 - File size, %2 - Content type', Locked = true;
 
     trigger OnRun()
     var

@@ -1,10 +1,12 @@
-tableextension 50101 "Company Information Extension" extends "Company Information"
+tableextension 50101 "Company Information Ext" extends "Company Information"
 {
     fields
     {
-        field(50101; "Shellfish Permit"; code[20])
+        field(50101; "Shellfish Permit"; Code[20])
         {
             Caption = 'Shellfish Permit';
+            ToolTip = 'Specifies the Shellfish Permit no.';
+            DataClassification = CustomerContent;
         }
     }
 }

@@ -413,7 +413,7 @@ page 1751 "Data Classification Worksheet"
         FieldContentEnabled: Boolean;
         LastModifiedByUser: Text;
         DeletedUserTok: Label 'Deleted User';
-        ClassifyAllfieldsQst: Label 'Do you want to set data sensitivity to %1 on %2 fields?', Comment = '%1=Choosen sensitivity %2=total number of fields';
+ClassifyAllfieldsQst: Label 'Do you want to set data sensitivity to %1 on %2 fields?', Comment = '%1=Choosen sensitivity %2=total number of fields';
 
     local procedure SetSensitivityToSelection(Sensitivity: Option)
     var

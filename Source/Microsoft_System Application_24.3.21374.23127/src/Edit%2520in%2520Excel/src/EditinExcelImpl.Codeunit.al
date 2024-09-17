@@ -37,7 +37,7 @@ codeunit 1482 "Edit in Excel Impl."
         EditInExcelUsageWithCentralizedDeploymentsTxt: Label 'Edit in Excel invoked with "Use Centralized deployments" = %1', Locked = true;
         NoEdmFieldTypeFoundForFieldTypeTxt: Label 'No edm field type could be found for field type %1.', Locked = true;
         CreatingExcelDocumentWithIdTxt: Label 'Creating excel document with id %1.', Locked = true;
-        WebServiceHasBeenDisabledErr: Label 'You can''t edit this page in Excel because it''s not set up for it. To use the Edit in Excel feature, you must publish the web service called ''%1''. Contact your system administrator for help.', Comment = '%1 = Web service name';
+WebServiceHasBeenDisabledErr: Label 'You can''t edit this page in Excel because it''s not set up for it. To use the Edit in Excel feature, you must publish the web service called ''%1''. Contact your system administrator for help.', Comment = '%1 = Web service name';
 #endif
         EditInExcelTelemetryCategoryTxt: Label 'Edit in Excel', Locked = true;
         CreateEndpointForObjectTxt: Label 'Creating endpoint for %1 %2.', Locked = true;

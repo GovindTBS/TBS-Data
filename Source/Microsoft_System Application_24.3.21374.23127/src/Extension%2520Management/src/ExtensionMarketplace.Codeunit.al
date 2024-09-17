@@ -34,19 +34,19 @@ codeunit 2501 "Extension Marketplace"
     var
         HttpWebRequest: DotNet HttpWebRequest;
         GlobalPropertyValue: Text;
-        ParseFailureErr: Label 'Failed to extract ''%1'' property from JSON object.', Comment = 'JSON parsing error. %1=target property name';
-        TelemetryBodyTxt: Label '{"acquisitionResult":"%1", "detail":"%2"}', Comment = '%1=AppSource operation result option, %2=details describing the context or reason for the result', Locked = true;
-        ParseApplicationIdErr: Label 'Failed to extract ''%1'' token from Application Id.', Comment = '%1=Name of token that we expected   ';
+ParseFailureErr: Label 'Failed to extract ''%1'' property from JSON object.', Comment = 'JSON parsing error. %1=target property name';
+TelemetryBodyTxt: Label '{"acquisitionResult":"%1", "detail":"%2"}', Comment = '%1=AppSource operation result option, %2=details describing the context or reason for the result', Locked = true;
+ParseApplicationIdErr: Label 'Failed to extract ''%1'' token from Application Id.', Comment = '%1=Name of token that we expected   ';
         Token: Option PUBID,AID,PAPPID;
         MarketplaceDisabledSecretTxt: Label 'extmgmt-marketplace-disable', Locked = true;
         MarketPlaceSuccInstallTxt: Label 'The extension was successfully installed.';
-        MarketPlaceUnsuccInstallTxt: Label 'The market place extension installation has failed with the result ''%1''. Error message: ''%2''', Comment = '%1 - OperationResult parameter value, %2 - Error message';
-        AlreadyInstalledMsg: Label 'The extension %1 is already installed.', Comment = '%1=name of app';
+MarketPlaceUnsuccInstallTxt: Label 'The market place extension installation has failed with the result ''%1''. Error message: ''%2''', Comment = '%1 - OperationResult parameter value, %2 - Error message';
+AlreadyInstalledMsg: Label 'The extension %1 is already installed.', Comment = '%1=name of app';
         AppsourceTxt: Label 'https://appsource.microsoft.com', Locked = true;
         EmbedRelativeTxt: Label '/embed/en-us/marketplace?product=dynamics-365-business-central', Locked = true;
-        ExtensionNotFoundErr: Label 'Selected extension could not be installed because a valid App Id is not passed.', Comment = 'Error message for trying to install an extension where a valid id is not passed;';
-        TelemetryExtensionNotFoundErr: Label 'Selected extension could not be installed because a valid App Id is not passed. Application ID : %1.', Comment = 'Telemetry error message for trying to install an extension a valid id is not passed; %1 is the applicaiton id recieved from appsource.';
-        MissingAppIdErr: Label 'Selected extension could not be installed because the extension is not published and a valid App Id is not passed. Application ID : %1.', Comment = 'Telemetry error message for trying to install an extension a valid id is not passed; %1 is the applicaiton id recieved from appsource.';
+ExtensionNotFoundErr: Label 'Selected extension could not be installed because a valid App Id is not passed.', Comment = 'Error message for trying to install an extension where a valid id is not passed;';
+TelemetryExtensionNotFoundErr: Label 'Selected extension could not be installed because a valid App Id is not passed. Application ID : %1.', Comment = 'Telemetry error message for trying to install an extension a valid id is not passed; %1 is the applicaiton id recieved from appsource.';
+MissingAppIdErr: Label 'Selected extension could not be installed because the extension is not published and a valid App Id is not passed. Application ID : %1.', Comment = 'Telemetry error message for trying to install an extension a valid id is not passed; %1 is the applicaiton id recieved from appsource.';
         TelemetryTok: Label 'ExtensionManagementTelemetryCategoryTok', Locked = true;
         OperationResult: Option UserNotAuthorized,DeploymentFailedDueToPackage,DeploymentFailed,Successful,UserCancel,UserTimeOut;
         AppDoesntNeedSetupMsg: Label 'Your app is installed and ready to use.';

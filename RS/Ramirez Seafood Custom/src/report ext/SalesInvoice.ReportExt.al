@@ -1,61 +1,123 @@
 reportextension 50100 "Sales - Invoice Ext" extends "Standard Sales - Invoice"
 {
-    RDLCLayout = 'src/report/report layout/Invoice.rdl';
+    RDLCLayout = 'src/report ext/report layout/Invoice.rdl';
 
     dataset
     {
         add(header)
         {
-            column(CompanyInfo_Address; CompanyInfo.Address) { }
-            column(CompanyInfo_Address2; CompanyInfo."Address 2") { }
-            column(CompanyInfo_City; CompanyInfo.City) { }
-            column(CompanyInfo_County; CompanyInfo.County) { }
-            column(CompanyInfo_PostCode; CompanyInfo."Post Code") { }
-            column(CompanyInfo_CountryRegionCode; CompanyInfo."Country/Region Code") { }
-            column(CompanyFaxNo; CompanyInfo."Fax No.") { }
-            column(Bill_to_Name; "Bill-to Name") { }
-            column(Bill_to_Address; "Bill-to Address") { }
-            column(Bill_to_Address_2; "Bill-to Address 2") { }
-            column(Bill_to_City; "Bill-to City") { }
-            column(Bill_to_County; "Bill-to County") { }
-            column(Bill_to_Country_Region_Code; "Bill-to Country/Region Code") { }
-            column(Bill_to_Post_Code; "Bill-to Post Code") { }
-            column(Ship_to_Address; "Ship-to Address") { }
-            column(Ship_to_Address_2; "Ship-to Address 2") { }
-            column(Ship_to_City; "Ship-to City") { }
-            column(Ship_to_County; "Ship-to County") { }
-            column(Ship_to_Country_Region_Code; "Ship-to Country/Region Code") { }
-            column(Ship_to_Post_Code; "Ship-to Post Code") { }
-            column(ShellfishPermit; CompanyInfo."Shellfish Permit") { }
-            column(TERMS_Lbl; TERMS_Lbl) { }
-            column(REP_Lbl; REP_Lbl) { }
-            column(PHONE_Lbl; PHONE_Lbl) { }
-            column(UM_Lbl; UM_Lbl) { }
-            column(PRODUCTDESCRIPTION_Lbl; PRODUCTDESCRIPTION_Lbl) { }
-            column(AMOUNT_Lbl; AMOUNT_Lbl) { }
-            column(RECEIVEDBY_Lbl; RECEIVEDBY_Lbl) { }
-            column(TIMEOFSHIPMENT_Lbl; TIMEOFSHIPMENT_Lbl) { }
-            column(TOTAL__Lbl; TOTAL__Lbl) { }
-            column(PRICE__Lbl; PRICE__Lbl) { }
-            column(DocumentNo_Barcode; DocNoBarcode) { }
+            column(CompanyInfo_Address; CompanyInfo.Address)
+            { }
+            column(CompanyInfo_Address2; CompanyInfo."Address 2")
+            { }
+            column(CompanyInfo_City; CompanyInfo.City)
+            { }
+            column(CompanyInfo_County; CompanyInfo.County)
+            { }
+            column(CompanyInfo_PostCode; CompanyInfo."Post Code")
+            { }
+            column(CompanyInfo_CountryRegionCode; CompanyInfo."Country/Region Code")
+            { }
+            column(CompanyFaxNo; CompanyInfo."Fax No.")
+            { }
+            column(Bill_to_Name; "Bill-to Name")
+            { }
+            column(Bill_to_Address; "Bill-to Address")
+            { }
+            column(Bill_to_Address_2; "Bill-to Address 2")
+            { }
+            column(Bill_to_City; "Bill-to City")
+            { }
+            column(Bill_to_County; "Bill-to County")
+            { }
+            column(Bill_to_Country_Region_Code; "Bill-to Country/Region Code")
+            { }
+            column(Bill_to_Post_Code; "Bill-to Post Code")
+            { }
+            column(Ship_to_Address; "Ship-to Address")
+            { }
+            column(Ship_to_Address_2; "Ship-to Address 2")
+            { }
+            column(Ship_to_City; "Ship-to City")
+            { }
+            column(Ship_to_County; "Ship-to County")
+            { }
+            column(Ship_to_Country_Region_Code; "Ship-to Country/Region Code")
+            { }
+            column(Ship_to_Post_Code; "Ship-to Post Code")
+            { }
+            column(ShellfishPermit; CompanyInfo."Shellfish Permit")
+            { }
+            column(TERMS_Lbl; TERMS_Lbl)
+            { }
+            column(REP_Lbl; REP_Lbl)
+            { }
+            column(PHONE_Lbl; PHONE_Lbl)
+            { }
+            column(UM_Lbl; UM_Lbl)
+            { }
+            column(PRODUCTDESCRIPTION_Lbl; PRODUCTDESCRIPTION_Lbl)
+            { }
+            column(AMOUNT_Lbl; AMOUNT_Lbl)
+            { }
+            column(RECEIVEDBY_Lbl; RECEIVEDBY_Lbl)
+            { }
+            column(TIMEOFSHIPMENT_Lbl; TIMEOFSHIPMENT_Lbl)
+            { }
+            column(TOTAL__Lbl; TOTAL__Lbl)
+            { }
+            column(PRICE__Lbl; PRICE__Lbl)
+            { }
+            column(DocumentNo_Barcode; DocNoBarcode)
+            { }
         }
         add(line)
         {
-            column(Amount; Amount) { }
-            column(CommentLine; CommentLine) { }
-            column(Document_No_; "Document No.") { }
+            column(Amount; Amount)
+            { }
+            column(CommentLine; CommentLine)
+            { }
+            column(Document_No_; "Document No.")
+            { }
+
+            column(CatchMethod; CatchMethod)
+            { }
+
+            column(CountryOfOrigin; CountryOfOrigin)
+            { }
+
+            column(CatchMethodLbl; CatchMethodLbl)
+            { }
+
+            column(CountryOfOriginLbl; CountryOfOriginLbl)
+            { }
+
+            column(ItemDescription; ItemDecscription)
+            { }
+
         }
 
         add(header)
         {
-            column(Sell_to_Customer_Name; "Sell-to Customer Name") { }
-            column(DocumentDate1; DocumentDate) { }
+            column(Sell_to_Customer_Name; "Sell-to Customer Name")
+            { }
+            column(DocumentDate1; DocumentDate)
+            { }
         }
         modify(Line)
         {
             trigger OnAfterAfterGetRecord()
+            var
+                Item: Record Item;
             begin
-                clear(CommentLine);
+                Item.Get(Line."No.");
+                CatchMethod := Format(Item."Catch Method");
+                CatchMethodLbl := Item.FieldCaption("Catch Method");
+                CountryOfOrigin := Item."Country/Region of Origin Code";
+                CountryOfOriginLbl := 'Country of Origin';
+                ItemDecscription := Item.Description;
+
+                Clear(CommentLine);
                 SalesCommentLine.Reset();
                 SalesCommentLine.SetRange("Document Type", "Sales Comment Line"."Document Type"::"Posted Invoice");
                 SalesCommentLine.SetFilter("No.", Line."Document No.");
@@ -118,4 +180,9 @@ reportextension 50100 "Sales - Invoice Ext" extends "Standard Sales - Invoice"
         DocNoBarcode: Text;
         CommentLine: Text[2034];
         DocumentDate: Text;
+        CatchMethod: Text;
+        CountryOfOrigin: Text;
+        CatchMethodLbl: Text;
+        CountryOfOriginLbl: Text;
+        ItemDecscription: Text;
 }

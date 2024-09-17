@@ -28,9 +28,9 @@ codeunit 1489 "Edit in Excel Workbook Impl."
         MemoryStream: DotNet MemoryStream; // Global var used for export, to avoid cleaning up before output is read from returned InputStream
         EditInExcelTelemetryCategoryTxt: Label 'Edit in Excel', Locked = true;
         EditInExcelUsageWithCentralizedDeploymentsTxt: Label 'Edit in Excel invoked with "Use Centralized deployments" = %1', Locked = true;
-        WebServiceHasBeenDisabledErr: Label 'You can''t edit this page in Excel because it''s not set up for it. To use the Edit in Excel feature, you must publish the web service called ''%1''. Contact your system administrator for help.', Comment = '%1 = Web service name';
+WebServiceHasBeenDisabledErr: Label 'You can''t edit this page in Excel because it''s not set up for it. To use the Edit in Excel feature, you must publish the web service called ''%1''. Contact your system administrator for help.', Comment = '%1 = Web service name';
         CreatingExcelDocumentWithIdTxt: Label 'Creating excel document with id %1.', Locked = true;
-        WebServiceDoesNotExistErr: Label 'Cannot initialize Edit in Excel workbook since the web service ''%1'' does not exist.', Comment = '%1 = name of the web service';
+WebServiceDoesNotExistErr: Label 'Cannot initialize Edit in Excel workbook since the web service ''%1'' does not exist.', Comment = '%1 = name of the web service';
         NoColumnsExistErr: Label 'No columns were added to the workbook.';
         ExternalizedServiceName: Text;
 

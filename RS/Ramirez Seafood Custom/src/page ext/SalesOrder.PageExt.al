@@ -1,18 +1,13 @@
-pageextension 50103 "Posted Sales Invoice Ext" extends "Posted Sales Invoice"
+pageextension 50144 "Sales Order Ext" extends "Sales Order"
 {
-    layout
-    {
-
-    }
-
     actions
     {
-        addlast(Category_Category6)
+        addlast(Category_Report)
         {
             actionref("Print Labels"; PrintLabel) { }
         }
 
-        addafter(Print)
+        addlast(reporting)
         {
             action(PrintLabel)
             {
@@ -23,13 +18,13 @@ pageextension 50103 "Posted Sales Invoice Ext" extends "Posted Sales Invoice"
 
                 trigger OnAction()
                 var
+                    SalesHeader: Record "Sales Header";
                 begin
-                    Report.Run(Report::"Standard Sales - Invoice");
+                    SalesHeader := Rec;
+                    CurrPage.SetSelectionFilter(SalesHeader);
+                    Report.Run(Report::"Sales Order Labels", true, false, SalesHeader);
                 end;
             }
         }
     }
-
-    var
-        myInt: Integer;
 }

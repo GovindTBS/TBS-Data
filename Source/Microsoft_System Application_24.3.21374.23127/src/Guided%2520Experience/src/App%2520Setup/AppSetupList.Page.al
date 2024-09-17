@@ -159,7 +159,7 @@ page 1991 "App Setup List"
     var
         StatusStyleTxt: Text;
         SetupNotDefinedErr: Label 'This app doesn''t require set-up.';
-        CaptionTok: Label 'Setups for %1', Comment = '%1 = App Name';
+CaptionTok: Label 'Setups for %1', Comment = '%1 = App Name';
         RunInitialSetupQst: Label 'Do you want to run the initial setup?';
         FirstRun: Boolean;
 }

@@ -73,7 +73,7 @@ codeunit 8961 "AFS Directory Content Helper"
     [NonDebuggable]
     local procedure AddParentEntries(DirectoryPath: Text; var AFSDirectoryContent: Record "AFS Directory Content")
     var
-        FullNameTooLongErr: Label 'The full name (%1) of the directory is too long (over %2 characters).', Comment = '%1 - full name, %2 - max length';
+FullNameTooLongErr: Label 'The full name (%1) of the directory is too long (over %2 characters).', Comment = '%1 - full name, %2 - max length';
         ParentEntries: List of [Text];
         CurrentParent, ParentEntryFullName, ParentEntryName : Text[2048];
         Level, EntryNo : Integer;

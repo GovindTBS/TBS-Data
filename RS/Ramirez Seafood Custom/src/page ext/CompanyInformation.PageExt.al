@@ -1,4 +1,4 @@
-pageextension 50102 "Company Information" extends "Company Information"
+pageextension 50102 "Company Information Ext" extends "Company Information"
 {
     layout
     {
@@ -7,12 +7,7 @@ pageextension 50102 "Company Information" extends "Company Information"
             field("Shellfish Permit"; Rec."Shellfish Permit")
             {
                 ApplicationArea = All;
-                ToolTip = 'Specifies the Shellfish Permit no.';
             }
         }
-    }
-
-    actions
-    {
     }
 }

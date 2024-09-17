@@ -33,9 +33,9 @@ codeunit 1993 "Checklist Implementation"
         UserResurfacedBannerLbl: Label 'Checklist banner resurfaced.', Locked = true;
         UserResurfacedBannerNewSessionLbl: Label 'Checklist banner resurfaced, new session requested.', Locked = true;
         ChecklistInitializedLbl: Label 'Checklist banner initialized.', Locked = true;
-        MicrosoftLearnLongTitleLbl: Label 'Find training on Microsoft Learn', MaxLength = 53, Comment = '*Onboarding Checklist*';
-        MicrosoftLearnShortTitleLbl: Label 'Microsoft Learn', MaxLength = 34, Comment = '*Onboarding Checklist*';
-        MicrosoftLearnDescriptionLbl: Label 'Explore the free e-learning material for Business Central on the Microsoft Learn site in a new browser tab.', MaxLength = 180, Comment = '*Onboarding Checklist*';
+MicrosoftLearnLongTitleLbl: Label 'Find training on Microsoft Learn', MaxLength = 53, Comment = '*Onboarding Checklist*';
+MicrosoftLearnShortTitleLbl: Label 'Microsoft Learn', MaxLength = 34, Comment = '*Onboarding Checklist*';
+MicrosoftLearnDescriptionLbl: Label 'Explore the free e-learning material for Business Central on the Microsoft Learn site in a new browser tab.', MaxLength = 180, Comment = '*Onboarding Checklist*';
         ShowChecklistLbl: Label 'Show checklist on the role center';
 
     procedure Insert(GuidedExperienceType: Enum "Guided Experience Type"; ObjectTypeToRun: ObjectType; ObjectIDToRun: Integer; Link: Text[250]; SpotlightTourType: Enum "Spotlight Tour Type"; ShouldEveryoneComplete: Boolean; OrderID: Integer; var TempAllProfile: Record "All Profile" temporary; var TempUsers: Record User temporary)

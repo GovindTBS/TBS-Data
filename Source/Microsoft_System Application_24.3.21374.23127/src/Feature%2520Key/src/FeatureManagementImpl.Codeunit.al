@@ -29,11 +29,11 @@ codeunit 2610 "Feature Management Impl."
         ImplementedId: Text[50];
         SignInAgainMsg: Label 'You must sign out and then sign in again to make the changes take effect.', Comment = '"sign out" and "sign in" are the same terms as shown in the Business Central client.';
         SignInAgainNotificationGuidTok: Label '63b6f5ec-6db4-4e87-b103-c4bcb539f09e', Locked = true;
-        PreviewFeatureParameterTxt: Label 'previewfeatures=%1', Comment = '%1 = the feature ID for the feature to be previewed', Locked = true;
-        ErrorTraceTagMsg: Label 'Error on the feature data update task for feature %1 in company %2: %3', Comment = '%1- Feature id; %2 - CompanyName; %3 - error message', Locked = true;
-        ScheduledTraceTagMsg: Label 'The task for updating data for feature %1 in company %2 is scheduled to start at %3.', Comment = '%1- Feature id; %2 - CompanyName; %3 - DateTime', Locked = true;
-        StartedTraceTagMsg: Label 'The task for updating data for feature %1 in company %2 is started.', Comment = '%1- Feature id; %2 - CompanyName', Locked = true;
-        FinishedTraceTagMsg: Label 'Data is updated for feature %1 in company %2.', Comment = '%1- Feature id; %2 - CompanyName', Locked = true;
+PreviewFeatureParameterTxt: Label 'previewfeatures=%1', Comment = '%1 = the feature ID for the feature to be previewed', Locked = true;
+ErrorTraceTagMsg: Label 'Error on the feature data update task for feature %1 in company %2: %3', Comment = '%1- Feature id; %2 - CompanyName; %3 - error message', Locked = true;
+ScheduledTraceTagMsg: Label 'The task for updating data for feature %1 in company %2 is scheduled to start at %3.', Comment = '%1- Feature id; %2 - CompanyName; %3 - DateTime', Locked = true;
+StartedTraceTagMsg: Label 'The task for updating data for feature %1 in company %2 is started.', Comment = '%1- Feature id; %2 - CompanyName', Locked = true;
+FinishedTraceTagMsg: Label 'Data is updated for feature %1 in company %2.', Comment = '%1- Feature id; %2 - CompanyName', Locked = true;
         TagCategoryTxt: Label 'Feature Data Update', Locked = true;
 
     /// <summary>
@@ -46,7 +46,7 @@ codeunit 2610 "Feature Management Impl."
         DotNetUri: DotNet Uri;
         QueryString: Text;
         ClientUrl: Text;
-        QueryStringLbl: Label '%1&%2', Comment = '%1 - Query string, %2 - Preview feature parameter', Locked = true;
+QueryStringLbl: Label '%1&%2', Comment = '%1 - Query string, %2 - Preview feature parameter', Locked = true;
     begin
         ClientUrl := GetUrl(ClientType::Web);
         DotNetUriBuilder := DotNetUriBuilder.UriBuilder(ClientUrl);

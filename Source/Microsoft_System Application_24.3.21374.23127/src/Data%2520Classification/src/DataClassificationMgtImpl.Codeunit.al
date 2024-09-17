@@ -17,7 +17,7 @@ codeunit 1753 "Data Classification Mgt. Impl."
                   tabledata "Table Relations Metadata" = r;
 
     var
-        DataSensitivityOptionStringTxt: Label 'Unclassified,Sensitive,Personal,Company Confidential,Normal', Comment = 'It needs to be translated as the field Data Sensitivity on Page 1751 Data Classification WorkSheet and field Data Sensitivity of Table 1180 Data Privacy Entities';
+DataSensitivityOptionStringTxt: Label 'Unclassified,Sensitive,Personal,Company Confidential,Normal', Comment = 'It needs to be translated as the field Data Sensitivity on Page 1751 Data Classification WorkSheet and field Data Sensitivity of Table 1180 Data Privacy Entities';
         LegalDisclaimerTxt: Label 'Microsoft is providing this Data Classification feature as a matter of convenience only. It''s your responsibility to classify the data appropriately and comply with any laws and regulations that are applicable to you. Microsoft disclaims all responsibility towards any claims related to your classification of the data.';
 
     procedure PopulateDataSensitivityTable()
@@ -146,7 +146,7 @@ codeunit 1753 "Data Classification Mgt. Impl."
     var
         "Field": Record "Field";
         RecordRef: RecordRef;
-        TableNameFilterLbl: Label '*%1*', Comment = '%1 - Table name', Locked = true;
+TableNameFilterLbl: Label '*%1*', Comment = '%1 - Table name', Locked = true;
     begin
         Field.SetRange(DataClassification, Field.DataClassification::CustomerContent);
         Field.SetFilter(ObsoleteState, '<>%1', Field.ObsoleteState::Removed);
@@ -338,7 +338,7 @@ codeunit 1753 "Data Classification Mgt. Impl."
 
     procedure GetSensitiveFields(var "Field": Record "Field")
     var
-        DataClassificationFilterLbl: Label '%1|%2|%3', Comment = '%1 - Customer content, %2 - EUII, %3 = EUPI', Locked = true;
+DataClassificationFilterLbl: Label '%1|%2|%3', Comment = '%1 - Customer content, %2 - EUII, %3 = EUPI', Locked = true;
     begin
         Field.SetFilter(
           DataClassification,
@@ -351,7 +351,7 @@ codeunit 1753 "Data Classification Mgt. Impl."
     local procedure GetFilterTextForFieldValuesInTable(var RecordRef: RecordRef; FieldNo: Integer): Text
     var
         FilterText: Text;
-        FilterTextOrLbl: Label '%1|%2', Comment = '%1 - Filter text, %2 - Field ref', Locked = true;
+FilterTextOrLbl: Label '%1|%2', Comment = '%1 - Filter text, %2 - Field ref', Locked = true;
     begin
         if RecordRef.FindSet() then begin
             repeat
@@ -379,7 +379,7 @@ codeunit 1753 "Data Classification Mgt. Impl."
     var
         DataSensitivity: Record "Data Sensitivity";
         DataClassificationMgtImpl: Codeunit "Data Classification Mgt. Impl.";
-        DataClassificationFilterLbl: Label '%1|%2', Comment = '%1 - Personal data sensitivity, %2 - Sensitive data sensitivity', Locked = true;
+DataClassificationFilterLbl: Label '%1|%2', Comment = '%1 - Personal data sensitivity, %2 - Sensitive data sensitivity', Locked = true;
     begin
         DataSensitivity.SetRange("Company Name", CompanyName());
         DataSensitivity.SetRange("Table No", TableNo);

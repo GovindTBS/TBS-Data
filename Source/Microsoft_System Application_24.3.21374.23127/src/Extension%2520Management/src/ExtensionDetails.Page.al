@@ -436,7 +436,7 @@ page 2501 "Extension Details"
         Step1Enabled: Boolean;
         ClearSchema: Boolean;
         InstallationPageCaptionMsg: Label 'Extension Installation', Comment = 'Caption for when extension needs to be installed';
-        UninstallationPageCaptionMsg: Label 'Extension Uninstallation', Comment = 'Caption for when extension needs to be uninstalled';
+UninstallationPageCaptionMsg: Label 'Extension Uninstallation', Comment = 'Caption for when extension needs to be uninstalled';
         TermsLbl: Label 'Terms and Conditions';
         PrivacyLbl: Label 'Privacy Statement', Comment = 'Label for privacy statement link';
         UrlLbl: Label 'Website';

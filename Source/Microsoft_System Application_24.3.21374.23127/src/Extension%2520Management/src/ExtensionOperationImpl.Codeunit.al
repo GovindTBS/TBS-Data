@@ -26,7 +26,7 @@ codeunit 2503 "Extension Operation Impl"
         DotNetNavAppALInstaller: DotNet NavAppALInstaller;
         OperationInvokerHasBeenCreated: Boolean;
         InstallerHasBeenCreated: Boolean;
-        ExtensionFileNameTxt: Label '%1_%2_%3.zip', Comment = '%1=Name, %2=Publisher, %3=Version', Locked = true;
+ExtensionFileNameTxt: Label '%1_%2_%3.zip', Comment = '%1=Name, %2=Publisher, %3=Version', Locked = true;
         CurrentOperationProgressMsg: Label 'Extension installation is in progress. Please check the Extension Installation Status page for updates.';
         ScheduledOperationMajorProgressMsg: Label 'Extension installation has been scheduled for the next major version. Please check the Extension Installation Status page for updates.';
         ScheduledOperationMinorProgressMsg: Label 'Extension installation has been scheduled for the next minor version. Please check the Extension Installation Status page for updates.';

@@ -14,7 +14,7 @@ codeunit 1466 "EncryptedXml Impl."
     InherentPermissions = X;
 
     var
-        ElementNotFoundErr: Label 'The "%1" element was not found.', Comment = '%1: The name of the xml element that could not be found.';
+ElementNotFoundErr: Label 'The "%1" element was not found.', Comment = '%1: The name of the xml element that could not be found.';
         UnsupportedSymmetricAlgorithmErr: Label 'Unsupported symmetric algorithm.';
         XmlEncElementUrlTok: Label 'http://www.w3.org/2001/04/xmlenc#Element', Locked = true;
         XmlEncRSA15UrlTok: Label 'http://www.w3.org/2001/04/xmlenc#rsa-1_5', Locked = true;

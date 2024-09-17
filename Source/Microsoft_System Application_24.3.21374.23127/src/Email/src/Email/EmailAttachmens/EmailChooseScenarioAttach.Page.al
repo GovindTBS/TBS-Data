@@ -128,6 +128,6 @@ page 8896 "Email Choose Scenario Attach"
     var
         EmailScenarioAttachmentsImpl: Codeunit "Email Scenario Attach Impl.";
         EmailScenario: Enum "Email Scenario";
-        EmailAttachmentsZipFileNameTxt: Label 'EmailAttachments.zip', Comment = 'Name of the zip file containing email attachments.';
+EmailAttachmentsZipFileNameTxt: Label 'EmailAttachments.zip', Comment = 'Name of the zip file containing email attachments.';
         DownloadActionEnabled: Boolean;
 }

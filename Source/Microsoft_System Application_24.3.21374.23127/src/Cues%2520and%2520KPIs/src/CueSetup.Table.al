@@ -76,7 +76,7 @@ table 9701 "Cue Setup"
         field(5; "Low Range Style"; Enum "Cues And KPIs Style")
         {
             DataClassification = SystemMetadata;
-            Caption = 'Low Range Style', Comment = 'The Style to use if the cue''s value is below Threshold 1';
+Caption = 'Low Range Style', Comment = 'The Style to use if the cue''s value is below Threshold 1';
         }
         field(6; "Threshold 1"; Decimal)
         {
@@ -92,7 +92,7 @@ table 9701 "Cue Setup"
         field(7; "Middle Range Style"; Enum "Cues And KPIs Style")
         {
             DataClassification = SystemMetadata;
-            Caption = 'Middle Range Style', Comment = 'The Style to use if the cue''s value is between Threshold 1 and Threshold 2';
+Caption = 'Middle Range Style', Comment = 'The Style to use if the cue''s value is between Threshold 1 and Threshold 2';
         }
         field(8; "Threshold 2"; Decimal)
         {
@@ -108,7 +108,7 @@ table 9701 "Cue Setup"
         field(9; "High Range Style"; Enum "Cues And KPIs Style")
         {
             DataClassification = SystemMetadata;
-            Caption = 'High Range Style', Comment = 'The Style to use if the cue''s value is above Threshold 2';
+Caption = 'High Range Style', Comment = 'The Style to use if the cue''s value is above Threshold 2';
         }
         field(10; "Table Name"; Text[249])
         {

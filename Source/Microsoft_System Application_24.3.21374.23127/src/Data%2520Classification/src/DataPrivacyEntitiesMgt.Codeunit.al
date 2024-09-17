@@ -15,7 +15,7 @@ codeunit 1758 "Data Privacy Entities Mgt."
     Permissions = tabledata "Data Privacy Entities" = r;
 
     var
-        SimilarFieldsLbl: Label 'Classify Similar Fields for %1', Comment = '%1=Table Caption';
+SimilarFieldsLbl: Label 'Classify Similar Fields for %1', Comment = '%1=Table Caption';
 
     procedure DataPrivacyEntitiesExist(): Boolean
     var

@@ -17,15 +17,15 @@ codeunit 1470 "Headlines Impl."
     Permissions = tabledata User = r;
 
     var
-        MorningGreetingWithUsernameTxt: Label 'Good morning, %1!', Comment = 'Displayed between 00:00 and 10:59. %1 is the user name.';
-        NoonGreetingWithUsernameTxt: Label 'Hi, %1!', Comment = 'Displayed between 11:00 and 13:59. %1 is the user name.';
-        AfternoonGreetingWithUsernameTxt: Label 'Good afternoon, %1!', Comment = 'Displayed between 14:00 and 18:59. %1 is the user name.';
-        EveningGreetingWithUsernameTxt: Label 'Good evening, %1!', Comment = 'Displayed between 19:00 and 23:59. %1 is the user name.';
+MorningGreetingWithUsernameTxt: Label 'Good morning, %1!', Comment = 'Displayed between 00:00 and 10:59. %1 is the user name.';
+NoonGreetingWithUsernameTxt: Label 'Hi, %1!', Comment = 'Displayed between 11:00 and 13:59. %1 is the user name.';
+AfternoonGreetingWithUsernameTxt: Label 'Good afternoon, %1!', Comment = 'Displayed between 14:00 and 18:59. %1 is the user name.';
+EveningGreetingWithUsernameTxt: Label 'Good evening, %1!', Comment = 'Displayed between 19:00 and 23:59. %1 is the user name.';
 
-        MorningGreetingWithoutUsernameTxt: Label 'Good morning!', Comment = 'Displayed between 00:00 and 10:59.';
-        NoonGreetingWithoutUsernameTxt: Label 'Hi!', Comment = 'Displayed between 11:00 and 13:59.';
-        AfternoonGreetingWithoutUsernameTxt: Label 'Good afternoon!', Comment = 'Displayed between 14:00 and 18:59.';
-        EveningGreetingWithoutUsernameTxt: Label 'Good evening!', Comment = 'Displayed between 19:00 and 23:59.';
+MorningGreetingWithoutUsernameTxt: Label 'Good morning!', Comment = 'Displayed between 00:00 and 10:59.';
+NoonGreetingWithoutUsernameTxt: Label 'Hi!', Comment = 'Displayed between 11:00 and 13:59.';
+AfternoonGreetingWithoutUsernameTxt: Label 'Good afternoon!', Comment = 'Displayed between 14:00 and 18:59.';
+EveningGreetingWithoutUsernameTxt: Label 'Good evening!', Comment = 'Displayed between 19:00 and 23:59.';
 
     procedure Truncate(TextToTruncate: Text; MaxLength: Integer): Text;
     var
@@ -47,7 +47,7 @@ codeunit 1470 "Headlines Impl."
 
     procedure Emphasize(TextToEmphasize: Text): Text;
     var
-        EmphasizeLbl: Label '<emphasize>%1</emphasize>', Comment = '%1 - Text to be emphasized', Locked = true;
+EmphasizeLbl: Label '<emphasize>%1</emphasize>', Comment = '%1 - Text to be emphasized', Locked = true;
     begin
         if TextToEmphasize <> '' then
             exit(StrSubstNo(EmphasizeLbl, TextToEmphasize));
@@ -75,7 +75,7 @@ codeunit 1470 "Headlines Impl."
 
     local procedure GetPayloadText(PayloadText: Text): Text;
     var
-        PayloadLbl: Label '<payload>%1</payload>', Comment = '%1 - The payload', Locked = true;
+PayloadLbl: Label '<payload>%1</payload>', Comment = '%1 - The payload', Locked = true;
     begin
         if PayloadText <> '' then
             exit(StrSubstNo(PayloadLbl, PayloadText));
@@ -83,7 +83,7 @@ codeunit 1470 "Headlines Impl."
 
     local procedure GetQualifierText(QualifierText: Text): Text;
     var
-        QualifierLbl: Label '<qualifier>%1</qualifier>', Comment = '%1 - The qualifier', Locked = true;
+QualifierLbl: Label '<qualifier>%1</qualifier>', Comment = '%1 - The qualifier', Locked = true;
     begin
         if QualifierText <> '' then
             exit(StrSubstNo(QualifierLbl, QualifierText));

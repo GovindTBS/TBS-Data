@@ -19,8 +19,8 @@ codeunit 1491 "Edit in Excel Filters Impl."
     var
         FieldFilters: DotNet GenericDictionary2; // Dictionary of [Text, DotNet FilterCollectionNode];
         FieldTypes: Dictionary of [Text, Text];
-        FilterAlreadyExistErr: Label 'A filter for field %1 already exist, please use the existing entry.', Comment = '%1 = ODataFieldName, ex.: No_';
-        FilterDoesNotExistErr: Label 'No filter exists for field %1.', Comment = '%1 = ODataFieldName, ex.: No_';
+FilterAlreadyExistErr: Label 'A filter for field %1 already exist, please use the existing entry.', Comment = '%1 = ODataFieldName, ex.: No_';
+FilterDoesNotExistErr: Label 'No filter exists for field %1.', Comment = '%1 = ODataFieldName, ex.: No_';
         EditInExcelTelemetryCategoryTxt: Label 'Edit in Excel Filters', Locked = true;
         ChildNodesJsonTok: Label 'childNodes', Locked = true;
         TypeJsonTok: Label 'type', Locked = true;

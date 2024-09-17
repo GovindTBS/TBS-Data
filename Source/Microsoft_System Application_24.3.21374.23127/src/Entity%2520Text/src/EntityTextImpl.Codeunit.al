@@ -334,7 +334,7 @@ codeunit 2012 "Entity Text Impl."
         DurationAsBigInt: BigInteger;
         Result: Text;
         EntityTextModuleInfo: ModuleInfo;
-        ResponseErr: Label 'AOAI Operation failed, response error code: %1', Comment = '%1 = Error code', Locked = true;
+ResponseErr: Label 'AOAI Operation failed, response error code: %1', Comment = '%1 = Error code', Locked = true;
     begin
         NavApp.GetCurrentModuleInfo(EntityTextModuleInfo);
         if (not (Endpoint = '')) and (not (Deployment = ''))
@@ -401,8 +401,8 @@ codeunit 2012 "Entity Text Impl."
         ApiKey: SecretText;
         FactTemplateTxt: Label '- %1: %2%3', Locked = true;
         EncodedNewlineTok: Label '<br />', Locked = true;
-        NoteParagraphTxt: Label '%1Note:%1', Locked = true, Comment = 'This constant is used to limit the cases when the model goes out of format and must stay in English only.';
-        TranslationParagraphTxt: Label 'Translation:%1', Locked = true, Comment = 'This constant is used to limit the cases when the model goes out of format and must stay in English only.';
+NoteParagraphTxt: Label '%1Note:%1', Locked = true, Comment = 'This constant is used to limit the cases when the model goes out of format and must stay in English only.';
+TranslationParagraphTxt: Label 'Translation:%1', Locked = true, Comment = 'This constant is used to limit the cases when the model goes out of format and must stay in English only.';
         NoFactsErr: Label 'There''s no information available to draft a text from.';
         CannotGenerateErr: Label 'Text cannot be generated. Please check your configuration and contact your partner.';
         CapabilityDisabledErr: Label 'Sorry, your Copilot isn''t activated for Entity Text. Contact the system administrator.';

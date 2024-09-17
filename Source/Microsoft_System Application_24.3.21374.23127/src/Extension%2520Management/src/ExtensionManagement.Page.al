@@ -271,7 +271,7 @@ page 2500 "Extension Management"
         {
             group(Category_Category5)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Extension Marketplace_Promoted"; "Extension Marketplace") { }
                 actionref("Upload Extension_Promoted"; "Upload Extension") { }
@@ -323,10 +323,10 @@ page 2500 "Extension Management"
         VersionDisplay: Text;
         ActionsEnabled: Boolean;
         IsSaaS: Boolean;
-        VersionFormatTxt: Label 'v. %1', Comment = 'v=version abbr, %1=Version string';
-        SaaSCaptionTxt: Label 'Installed Extensions', Comment = 'The caption to display when on SaaS';
+VersionFormatTxt: Label 'v. %1', Comment = 'v=version abbr, %1=Version string';
+SaaSCaptionTxt: Label 'Installed Extensions', Comment = 'The caption to display when on SaaS';
         IsTenantExtension: Boolean;
-        CannotUnpublishIfInstalledMsg: Label 'The extension %1 cannot be unpublished because it is installed.', Comment = '%1 = name of extension';
+CannotUnpublishIfInstalledMsg: Label 'The extension %1 cannot be unpublished because it is installed.', Comment = '%1 = name of extension';
         MultiSelectNotSupportedErr: Label 'Multi-select is not supported on this action';
         IsMarketplaceEnabled: Boolean;
         IsOnPremDisplay: Boolean;

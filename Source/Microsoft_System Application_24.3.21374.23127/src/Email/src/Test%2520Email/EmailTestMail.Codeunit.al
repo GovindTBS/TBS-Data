@@ -15,8 +15,8 @@ codeunit 8887 "Email Test Mail"
     var
         TestEmailChoiceTxt: Label 'Choose the email address that should receive a test email message:';
         TestEmailSubjectTxt: Label 'Test Email Message';
-        TestEmailBodyTxt: Label '<body><p style="font-family:Verdana,Arial;font-size:10pt"><b>The user %1 sent this message to test their email settings. You do not need to reply to this message.</b></p><p style="font-family:Verdana,Arial;font-size:9pt"><b>Sent through connector:</b> %2<BR></p></body>', Comment = '%1 is an email address, such as user@domain.com; %2 is the name of a connector, such as SMTP;';
-        TestEmailSuccessMsg: Label 'Test email has been sent to %1.\Check your email for messages to make sure that the email was delivered successfully.', Comment = '%1 is an email address.';
+TestEmailBodyTxt: Label '<body><p style="font-family:Verdana,Arial;font-size:10pt"><b>The user %1 sent this message to test their email settings. You do not need to reply to this message.</b></p><p style="font-family:Verdana,Arial;font-size:9pt"><b>Sent through connector:</b> %2<BR></p></body>', Comment = '%1 is an email address, such as user@domain.com; %2 is the name of a connector, such as SMTP;';
+TestEmailSuccessMsg: Label 'Test email has been sent to %1.\Check your email for messages to make sure that the email was delivered successfully.', Comment = '%1 is an email address.';
         TestEmailFailedMsg: Label 'An error has occured while sending the email, please look at the Outbox to find the error.';
         TestEmailOtherTxt: Label 'Other...';
         TestExceedsRateLimitMsg: Label 'Email is not sent because the sent emails exceed the rate limit for the email account.';

@@ -18,7 +18,7 @@ codeunit 1928 "Media Cleanup Impl."
 
     var
         TenantMediaNotTemporaryErr: Label 'The tenant media is not temporary.';
-        MediaContentDefaultFileNameTxt: Label 'MediaContent', Comment = 'Name of the file that will be downloaded when you try to download media content without a file name.';
+MediaContentDefaultFileNameTxt: Label 'MediaContent', Comment = 'Name of the file that will be downloaded when you try to download media content without a file name.';
         CannotScheduleTaskRunManuallyQst: Label 'You are not able to schedule tasks, would you like to run the media cleanup in the foreground instead?';
         CleanupJobScheduledMsg: Label 'A background task has been scheduled to cleanup all detached Media.';
         ScheduledTaskAlreadyExistContinueQst: Label 'A task has already been scheduled for cleaning up data, do you want to continue?';

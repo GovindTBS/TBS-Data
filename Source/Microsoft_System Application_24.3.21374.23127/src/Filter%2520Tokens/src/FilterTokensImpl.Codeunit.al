@@ -15,18 +15,18 @@ codeunit 58 "Filter Tokens Impl."
     var
         FilterTokens: Codeunit "Filter Tokens";
         FilterType: Option DateTime,Date,Time;
-        TodayTxt: Label 'TODAY', Comment = 'Must be uppercase';
-        WorkdateTxt: Label 'WORKDATE', Comment = 'Must be uppercase';
-        AlphabetTxt: Label 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', Comment = 'Uppercase - translate into entire alphabet.';
-        NowTxt: Label 'NOW', Comment = 'Must be uppercase.';
-        YesterdayTxt: Label 'YESTERDAY', Comment = 'Must be uppercase';
-        TomorrowTxt: Label 'TOMORROW', Comment = 'Must be uppercase';
-        WeekTxt: Label 'WEEK', Comment = 'Must be uppercase';
-        MonthTxt: Label 'MONTH', Comment = 'Must be uppercase';
-        QuarterTxt: Label 'QUARTER', Comment = 'Must be uppercase';
-        UserTxt: Label 'USER', Comment = 'Must be uppercase';
-        MeTxt: Label 'ME', Comment = 'Must be uppercase';
-        CompanyTxt: Label 'COMPANY', Comment = 'Must be uppercase';
+TodayTxt: Label 'TODAY', Comment = 'Must be uppercase';
+WorkdateTxt: Label 'WORKDATE', Comment = 'Must be uppercase';
+AlphabetTxt: Label 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', Comment = 'Uppercase - translate into entire alphabet.';
+NowTxt: Label 'NOW', Comment = 'Must be uppercase.';
+YesterdayTxt: Label 'YESTERDAY', Comment = 'Must be uppercase';
+TomorrowTxt: Label 'TOMORROW', Comment = 'Must be uppercase';
+WeekTxt: Label 'WEEK', Comment = 'Must be uppercase';
+MonthTxt: Label 'MONTH', Comment = 'Must be uppercase';
+QuarterTxt: Label 'QUARTER', Comment = 'Must be uppercase';
+UserTxt: Label 'USER', Comment = 'Must be uppercase';
+MeTxt: Label 'ME', Comment = 'Must be uppercase';
+CompanyTxt: Label 'COMPANY', Comment = 'Must be uppercase';
 
     procedure MakeDateFilter(var DateFilter: Text)
     begin
@@ -254,7 +254,7 @@ codeunit 58 "Filter Tokens Impl."
         Text1: Text;
         Text2: Text;
         RangeStartPosition: Integer;
-        DateFilterRangeLbl: Label '%1..%2', Comment = '%1 - From date, %2 - Till date', Locked = true;
+DateFilterRangeLbl: Label '%1..%2', Comment = '%1 - From date, %2 - Till date', Locked = true;
     begin
         DateFilter := DelChr(DateFilter, '<>');
         if DateFilter = '' then

@@ -288,7 +288,7 @@ page 2014 "Copilot Information"
         AzureOpenAiTxt: Label 'Azure OpenAI', Locked = true;
         SupplementalTermsLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2227013', Locked = true;
         ProductDescriptionsLearnMoreLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2226375', Locked = true;
-        EnableHttpCallsTxt: Label 'Communication with external services is turned off by default in Sandbox environments. By accepting these terms, you also allow %1 by %2 to communicate with external services. You can always change this from the Extension Management page.', Comment = '%1 = The name of the extension, for example System Application; %2 = the extension publisher, for example Microsoft.';
+EnableHttpCallsTxt: Label 'Communication with external services is turned off by default in Sandbox environments. By accepting these terms, you also allow %1 by %2 to communicate with external services. You can always change this from the Extension Management page.', Comment = '%1 = The name of the extension, for example System Application; %2 = the extension publisher, for example Microsoft.';
 
     local procedure CheckHttpNoticeVisibility()
     var

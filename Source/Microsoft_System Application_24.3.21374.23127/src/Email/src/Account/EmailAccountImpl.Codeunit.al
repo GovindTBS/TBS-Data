@@ -21,7 +21,7 @@ codeunit 8889 "Email Account Impl."
     var
         ConfirmDeleteQst: Label 'Go ahead and delete?';
         ChooseNewDefaultTxt: Label 'Choose a Default Account';
-        InvalidEmailAddressErr: Label 'The email address "%1" is not valid.', Comment = '%1=The email address';
+InvalidEmailAddressErr: Label 'The email address "%1" is not valid.', Comment = '%1=The email address';
         EmptyEmailAddressErr: Label 'The email address cannot be empty.';
         CannotManageSetupErr: Label 'Your user account does not give you permission to set up email. Please contact your administrator.';
 

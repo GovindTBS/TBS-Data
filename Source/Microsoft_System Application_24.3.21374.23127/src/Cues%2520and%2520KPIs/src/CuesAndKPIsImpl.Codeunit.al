@@ -19,7 +19,7 @@ codeunit 9702 "Cues And KPIs Impl."
     var
         TempGlobalCueSetup: Record "Cue Setup" temporary;
         CuesAndKPIs: Codeunit "Cues And KPIs";
-        WrongThresholdsErr: Label '%1 must be greater than %2.', Comment = '%1 Upper threshold %2 Lower threshold';
+WrongThresholdsErr: Label '%1 must be greater than %2.', Comment = '%1 Upper threshold %2 Lower threshold';
 
     procedure OpenCustomizePageForCurrentUser(TableId: Integer)
     var

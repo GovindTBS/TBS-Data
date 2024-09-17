@@ -17,7 +17,7 @@ codeunit 7803 "Azure Functions Impl"
 
     var
         SendRequstErr: Label 'Sending the request has failed.';
-        HttpResponseErr: Label '%1.\\Response Code: %2 %3', Comment = '%1 = Default Error Message ; %2 = Status Code; %3 = Reason Phrase';
+HttpResponseErr: Label '%1.\\Response Code: %2 %3', Comment = '%1 = Default Error Message ; %2 = Status Code; %3 = Reason Phrase';
         AuthenticationFailedErr: Label 'Authentication failed';
         AzureFunctionCategoryLbl: Label 'Connect to Azure Functions', Locked = true;
         RequestSucceededMsg: Label 'Request sent to Azure function succeeded', Locked = true;

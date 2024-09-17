@@ -231,7 +231,7 @@ page 2612 "Schedule Feature Data Update"
         CanCreateTask: Boolean;
         ReviewDataTok: Label 'Review affected data';
         NoDataMsg: Label 'There is no data to be updated. Complete the update in the current session to enable the feature.';
-        NotImplementedMsg: Label 'The feature %1 cannot be enabled because data update handling is not implemented.', Comment = '%1 - feature key id';
+NotImplementedMsg: Label 'The feature %1 cannot be enabled because data update handling is not implemented.', Comment = '%1 - feature key id';
         DataUpdateImplemented: Boolean;
         Step1Visible: Boolean;
         Step2Visible: Boolean;

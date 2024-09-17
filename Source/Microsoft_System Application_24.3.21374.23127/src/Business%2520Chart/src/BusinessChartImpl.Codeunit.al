@@ -20,7 +20,7 @@ codeunit 478 "Business Chart Impl."
         DotNetDataTable: DotNet DataTable;
         MeasureNameToValueMap: Dictionary of [Text, Text];
         IsInitialized: Boolean;
-        InvalidDataTypeForMeasureErr: Label 'Data Type must be Integer or Decimal for Measure %1.', Comment = '%1 - name of the measure';
+InvalidDataTypeForMeasureErr: Label 'Data Type must be Integer or Decimal for Measure %1.', Comment = '%1 - name of the measure';
 
     procedure Initialize()
     var

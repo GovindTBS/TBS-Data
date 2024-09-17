@@ -549,11 +549,11 @@ codeunit 8906 "Email Editor"
         EmailMessageOpenPermissionErr: Label 'You do not have permission to open the email message.';
         NoSubjectlineQst: Label 'Do you want to send this message without a subject?';
         NoFromAccountErr: Label 'You must specify a valid email account to send the message to.';
-        LoadingTemplateMsg: Label 'Applied word template to email body with size: %1.', Comment = '%1 - File size', Locked = true;
-        UploadingAttachmentMsg: Label 'Attached file with size: %1, Content type: %2', Comment = '%1 - File size, %2 - Content type', Locked = true;
-        UploadingTemplateAttachmentMsg: Label 'Attached word template with size: %1, Content type: %2', Comment = '%1 - File size, %2 - Content type', Locked = true;
+LoadingTemplateMsg: Label 'Applied word template to email body with size: %1.', Comment = '%1 - File size', Locked = true;
+UploadingAttachmentMsg: Label 'Attached file with size: %1, Content type: %2', Comment = '%1 - File size, %2 - Content type', Locked = true;
+UploadingTemplateAttachmentMsg: Label 'Attached word template with size: %1, Content type: %2', Comment = '%1 - File size, %2 - Content type', Locked = true;
         EmailCategoryLbl: Label 'Email', Locked = true;
-        SendingFailedErr: Label 'The email was not sent because of the following error: "%1" \\Depending on the error, you might need to contact your administrator.', Comment = '%1 - the error that occurred.';
+SendingFailedErr: Label 'The email was not sent because of the following error: "%1" \\Depending on the error, you might need to contact your administrator.', Comment = '%1 - the error that occurred.';
         NoRelatedAttachmentsErr: Label 'Did not find any attachments related to this email.';
         LoadingTemplateExitedMsg: Label 'Did not apply word template to email as user exited dialog.';
         NoPrimarySourceOnEmailErr: Label 'Failed to find the primary source entity';

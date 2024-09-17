@@ -14,7 +14,7 @@ codeunit 8957 "AFS URI Helper"
     var
         [NonDebuggable]
         OptionalUriParameters: Dictionary of [Text, Text];
-        FileShareBaseUrlLbl: Label 'https://%1.file.core.windows.net', Comment = '%1 = Storage Account Name', Locked = true;
+FileShareBaseUrlLbl: Label 'https://%1.file.core.windows.net', Comment = '%1 = Storage Account Name', Locked = true;
 
     [NonDebuggable]
     procedure SetOptionalUriParameter(NewOptionalUriParameters: Dictionary of [Text, Text])
@@ -140,7 +140,7 @@ codeunit 8957 "AFS URI Helper"
     [NonDebuggable]
     local procedure TestConstructUrlParameter(StorageAccountName: Text; FileShareName: Text; Path: Text; Operation: Enum "AFS Operation")
     var
-        ValueCanNotBeEmptyErr: Label '%1 can not be empty', Comment = '%1 = Variable Name';
+ValueCanNotBeEmptyErr: Label '%1 can not be empty', Comment = '%1 = Variable Name';
         StorageAccountNameLbl: Label 'Storage Account Name';
         FileShareLbl: Label 'File Share Name';
         PathLbl: Label 'Path';

@@ -74,5 +74,5 @@ codeunit 8910 "Email Attachment Upgrade"
 
     var
         EmailCategoryLbl: Label 'Email', Locked = true;
-        MediaConversionMsg: Label 'Attachment with length: %1 and Content type: %2 Failed', Comment = '%1 - Attachment length, %2 - Content type', Locked = true;
+MediaConversionMsg: Label 'Attachment with length: %1 and Content type: %2 Failed', Comment = '%1 - Attachment length, %2 - Content type', Locked = true;
 }

@@ -1,9 +1,12 @@
-tableextension 50100 ItemExt extends Item
+tableextension 50100 "Item Ext" extends Item
 {
     fields
     {
-        field(50100; "Catch Method"; Enum "Catch Enum")
+        field(50100; "Catch Method"; Enum "Catch Method")
         {
+            Caption = 'Catch Method';
+            ToolTip = 'Specifies the Catch Method for the item.';
+            DataClassification = CustomerContent;
         }
     }
 }

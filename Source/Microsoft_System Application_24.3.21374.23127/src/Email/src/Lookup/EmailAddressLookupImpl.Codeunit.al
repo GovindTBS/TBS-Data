@@ -49,6 +49,6 @@ codeunit 8944 "Email Address Lookup Impl"
     end;
 
     var
-        NoEmailAddressMsg: Label '%1 has no email address stored', Comment = '%1 suggested address';
-        EmailAddressDuplicateMsg: Label 'Email address %1 already added', Comment = '%1 email address';
+NoEmailAddressMsg: Label '%1 has no email address stored', Comment = '%1 suggested address';
+EmailAddressDuplicateMsg: Label 'Email address %1 already added', Comment = '%1 email address';
 }

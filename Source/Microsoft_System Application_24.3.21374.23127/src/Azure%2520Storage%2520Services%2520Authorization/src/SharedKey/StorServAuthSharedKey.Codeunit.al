@@ -44,7 +44,7 @@ codeunit 9064 "Stor. Serv. Auth. Shared Key" implements "Storage Service Authori
     var
         StringToSign: Text;
         Signature: Text;
-        SignaturePlaceHolderLbl: Label 'SharedKey %1:%2', Comment = '%1 = Account Name; %2 = Calculated Signature', Locked = true;
+SignaturePlaceHolderLbl: Label 'SharedKey %1:%2', Comment = '%1 = Account Name; %2 = Calculated Signature', Locked = true;
         SecretCanNotBeEmptyErr: Label 'Secret (Access Key) must be provided';
     begin
         if Secret.IsEmpty() then
@@ -115,7 +115,7 @@ codeunit 9064 "Stor. Serv. Auth. Shared Key" implements "Storage Service Authori
         HeaderKey: Text;
         HeaderValue: array[1] of Text;
         CanonicalizedHeaders: Text;
-        KeyValuePairLbl: Label '%1:%2', Comment = '%1 = Key; %2 = Value', Locked = true;
+KeyValuePairLbl: Label '%1:%2', Comment = '%1 = Key; %2 = Value', Locked = true;
     begin
         foreach HeaderKey in Headers.Keys() do
             if HeaderKey.StartsWith('x-ms-') then
@@ -141,7 +141,7 @@ codeunit 9064 "Stor. Serv. Auth. Shared Key" implements "Storage Service Authori
         StringBuilderResource: TextBuilder;
         StringBuilderQuery: TextBuilder;
         StringBuilderCanonicalizedResource: TextBuilder;
-        KeyValuePairLbl: Label '%1:%2', Comment = '%1 = Key; %2 = Value', Locked = true;
+KeyValuePairLbl: Label '%1:%2', Comment = '%1 = Key; %2 = Value', Locked = true;
     begin
         Uri.Init(UriString);
         Uri.GetSegments(Segments);

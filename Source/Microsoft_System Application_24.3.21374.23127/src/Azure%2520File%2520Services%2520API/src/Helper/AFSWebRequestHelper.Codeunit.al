@@ -16,7 +16,7 @@ codeunit 8954 "AFS Web Request Helper"
 
     var
         ReadResponseFailedErr: Label 'Could not read response.';
-        HttpResponseInfoErr: Label '%1.\\Response Code: %2 %3', Comment = '%1 = Default Error Message ; %2 = Status Code; %3 = Reason Phrase';
+HttpResponseInfoErr: Label '%1.\\Response Code: %2 %3', Comment = '%1 = Default Error Message ; %2 = Status Code; %3 = Reason Phrase';
 
     [NonDebuggable]
     procedure GetOperationAsText(var AFSOperationPayload: Codeunit "AFS Operation Payload Impl."; var ResponseText: Text; OperationNotSuccessfulErr: Text): Codeunit "AFS Operation Response"

@@ -187,8 +187,8 @@ page 2012 "Entity Text Part"
         CallerModuleInfo: ModuleInfo;
         ContentCaption: Text;
         ContentLbl: Label 'Content';
-        TelemetrySetContextTxt: Label 'Context set for the entity text edit page. Calling module %1 (%2).', Locked = true, Comment = '%1 = the app id, %2 = the publisher name';
-        TelemetrySetModuleTxt: Label 'Attempting to update the calling module to %1 (%2). This was requested by %3 (%4).', Locked = true, Comment = '%1 the new app id, %2 the new publisher, %3 the calling app id, %4 the calling publisher';
-        TelemetryUpdateRecordTxt: Label 'Updating text on record for table %1 and scenario %2.', Locked = true, Comment = '%1 the table id, %2 the scenario id';
+TelemetrySetContextTxt: Label 'Context set for the entity text edit page. Calling module %1 (%2).', Locked = true, Comment = '%1 = the app id, %2 = the publisher name';
+TelemetrySetModuleTxt: Label 'Attempting to update the calling module to %1 (%2). This was requested by %3 (%4).', Locked = true, Comment = '%1 the new app id, %2 the new publisher, %3 the calling app id, %4 the calling publisher';
+TelemetryUpdateRecordTxt: Label 'Updating text on record for table %1 and scenario %2.', Locked = true, Comment = '%1 the table id, %2 the scenario id';
 }
 #endif
