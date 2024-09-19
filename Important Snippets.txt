@@ -1,0 +1,19 @@
+# Report Snippets
+	$SetData
+		=Code.SetData(Cstr(Fields!DocumentNo.Value) + Chr(177) +
+		Cstr(Fields!Bill_to_Name.Value) + Chr(177) +
+		Cstr(Fields!Bill_to_Address.Value) + Chr(177) +
+		Cstr(Fields!Bill_to_Address_2.Value) + Chr(177) +
+		Cstr(Fields!Bill_to_City.Value) + Chr(177) +
+		Cstr(Fields!Bill_to_County.Value) + Chr(177) +
+		Cstr(Fields!Bill_to_Country_Region_Code.Value) + Chr(177) +
+		Cstr(Fields!Bill_to_Post_Code.Value) + Chr(177) +
+		Cstr(Fields!Ship_to_Address.Value) + Chr(177) +
+		Cstr(Fields!Ship_to_Address_2.Value) + Chr(177) +
+		Cstr(Fields!Ship_to_City.Value) + Chr(177) +
+		Cstr(Fields!Ship_to_County.Value) + Chr(177) +
+		Cstr(Fields!Ship_to_Country_Region_Code.Value) + Chr(177) +
+		Cstr(Fields!Ship_to_Post_Code.Value)+ Chr(177) +
+		Cstr(Fields!DocumentNo_Barcode.Value)+ Chr(177) +
+		Cstr(Fields!TOTAL__Lbl.Value)+ Chr(177) +
+		Last(Fields!TotalAmountIncludingVAT.Value),1)

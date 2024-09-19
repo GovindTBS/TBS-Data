@@ -104,6 +104,7 @@ reportextension 50100 "Sales - Invoice Ext" extends "Standard Sales - Invoice"
             column(DocumentDate1; DocumentDate)
             { }
         }
+
         modify(Line)
         {
             trigger OnAfterAfterGetRecord()
