@@ -13,7 +13,7 @@ codeunit 9655 "Init. Server Printer Table"
     end;
 
     var
-        PrinterNotFoundErr: Label 'The printer %1 was not found on the server.', Comment = '%1=a printer name';
+PrinterNotFoundErr: Label 'The printer %1 was not found on the server.', Comment = '%1=a printer name';
 
     local procedure InitTempPrinter(var Printer: Record Printer)
     var

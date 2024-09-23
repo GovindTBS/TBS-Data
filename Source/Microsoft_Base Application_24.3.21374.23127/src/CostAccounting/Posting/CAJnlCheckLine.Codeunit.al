@@ -22,7 +22,7 @@ codeunit 1101 "CA Jnl.-Check Line"
         Text002: Label 'Balance cost center or balance cost object must be defined.\Line %1, document %2, amount %3.';
         Text003: Label 'You cannot define both balance cost center and balance cost object.\Line %1, document %2, amount %3.';
         Text004: Label 'Cost center or cost object must be defined. \Line %1, document %2, amount %3.';
-        Text005: Label 'is not within the permitted range of posting dates', Comment = 'starts with "Posting Date"';
+Text005: Label 'is not within the permitted range of posting dates', Comment = 'starts with "Posting Date"';
 
     procedure RunCheck(var CostJnlLine: Record "Cost Journal Line")
     var

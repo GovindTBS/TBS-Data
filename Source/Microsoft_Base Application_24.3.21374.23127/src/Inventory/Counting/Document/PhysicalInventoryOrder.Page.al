@@ -123,7 +123,7 @@ page 5875 "Physical Inventory Order"
                     RunPageLink = "Document Type" = const(Order),
                                   "Order No." = field("No."),
                                   "Recording No." = const(0);
-                    ToolTip = 'View or edit comments for the physical inventory order.';
+ToolTip = 'View or edit comments for the physical inventory order.';
                 }
                 action("&Recordings")
                 {
@@ -385,12 +385,12 @@ page 5875 "Physical Inventory Order"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category6)
                 {

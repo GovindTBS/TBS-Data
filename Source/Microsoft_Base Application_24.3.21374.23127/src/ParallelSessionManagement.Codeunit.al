@@ -19,7 +19,7 @@ codeunit 490 "Parallel Session Management"
         MemoryMappedFile: array[1000] of Codeunit "Memory Mapped File";
         NoOfPSEntries: Integer;
         NoOfActiveSessions: Integer;
-        RemainingTasksMsg: Label 'Waiting for background tasks to finish.\Remaining tasks: #1####', Comment = '#1## shows a number.';
+RemainingTasksMsg: Label 'Waiting for background tasks to finish.\Remaining tasks: #1####', Comment = '#1## shows a number.';
         MaxNoOfSessions: Integer;
         NoOfMemMappedFiles: Integer;
 

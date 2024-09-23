@@ -704,7 +704,7 @@ page 5905 "Service Lines"
                                   "Table Subtype" = field("Document Type"),
                                   "No." = field("Document No."),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("S&hipments")
                 {

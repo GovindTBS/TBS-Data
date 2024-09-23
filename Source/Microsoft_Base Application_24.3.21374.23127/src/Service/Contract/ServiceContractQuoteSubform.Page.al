@@ -175,9 +175,9 @@ page 6054 "Service Contract Quote Subform"
                 action("&Comments")
                 {
                     ApplicationArea = Service;
-                    Caption = '&Comments';
+Caption = '&Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or create a comment.';
+ToolTip = 'View or create a comment.';
 
                     trigger OnAction()
                     begin

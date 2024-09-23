@@ -853,7 +853,7 @@ page 9183 "Generic Chart Setup"
         Text001: Label 'All fields will be reset. Are you sure that you want to change the %1?';
         OptionalMeasuresEnabled: Boolean;
         Text002: Label 'Field %1 is already assigned to a measure or dimension. Select a different field.';
-        Text003: Label 'Do you want to replace the existing definition for %1 %2?', Comment = 'Do you want to replace the existing definition for Chart 36-06?';
+Text003: Label 'Do you want to replace the existing definition for %1 %2?', Comment = 'Do you want to replace the existing definition for Chart 36-06?';
         DataColumn1Enabled: Boolean;
         DataColumn2Enabled: Boolean;
         DataColumn3Enabled: Boolean;

@@ -4,7 +4,7 @@ using Microsoft.Manufacturing.Routing;
 
 table 5415 "Prod. Order Rtng Comment Line"
 {
-    Caption = 'Prod. Order Rtng Comment Line';
+Caption = 'Prod. Order Rtng Comment Line';
     DrillDownPageID = "Prod. Order Rtng. Cmt. List";
     LookupPageID = "Prod. Order Rtng. Cmt. List";
     DataClassification = CustomerContent;
@@ -35,7 +35,7 @@ table 5415 "Prod. Order Rtng Comment Line"
         }
         field(12; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(13; "Code"; Code[10])
         {

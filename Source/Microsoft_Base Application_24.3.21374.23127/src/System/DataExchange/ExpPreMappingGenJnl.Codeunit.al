@@ -35,8 +35,8 @@ codeunit 1273 "Exp. Pre-Mapping Gen. Jnl."
     end;
 
     var
-        ProgressMsg: Label 'Pre-processing line no. #1######.', Comment = 'Line no.';
-        EmployeeMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for employee %1.', Comment = '%1 - Employee name';
+ProgressMsg: Label 'Pre-processing line no. #1######.', Comment = 'Line no.';
+EmployeeMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for employee %1.', Comment = '%1 - Employee name';
 
     local procedure PreparePaymentExportDataJnl(GenJnlLine: Record "Gen. Journal Line"; DataExchEntryNo: Integer; LineNo: Integer)
     var

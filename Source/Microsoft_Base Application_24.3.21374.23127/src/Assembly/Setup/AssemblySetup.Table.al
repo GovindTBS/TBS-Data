@@ -58,7 +58,7 @@ table 905 "Assembly Setup"
         }
         field(120; "Copy Comments when Posting"; Boolean)
         {
-            Caption = 'Copy Comments when Posting';
+Caption = 'Copy Comments when Posting';
             InitValue = true;
         }
         field(130; "Create Movements Automatically"; Boolean)

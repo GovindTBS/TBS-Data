@@ -492,6 +492,6 @@ page 1831 "Outlook Centralized Deployment"
         IntegratedAppsLbl: Label 'Go to Microsoft 365 (opens in a new window)';
         LearnMoreFwdLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2165028', Locked = true;
         LearnMoreLbl: Label 'Learn more about the add-in for Outlook in Exchange Server';
-        SetupTelemetryTxt: Label 'Centralized deployment for Outlook Add-ins setup finished with deployment to = %1', Comment = '%1 specifies either M365 or ExchangeServer ', Locked = true;
+SetupTelemetryTxt: Label 'Centralized deployment for Outlook Add-ins setup finished with deployment to = %1', Comment = '%1 specifies either M365 or ExchangeServer ', Locked = true;
         PrivacyStatementTxt: Label 'Privacy and cookies';
 }

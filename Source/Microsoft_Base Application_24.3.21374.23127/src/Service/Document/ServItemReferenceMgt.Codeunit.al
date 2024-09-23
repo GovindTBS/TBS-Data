@@ -15,7 +15,7 @@ codeunit 5990 "Serv. Item Reference Mgt."
         ItemReference: Record "Item Reference";
         ItemVariant: Record "Item Variant";
         Found: Boolean;
-        ItemRefNotExistErr: Label 'There are no items with reference %1.', Comment = '%1=Reference No.';
+ItemRefNotExistErr: Label 'There are no items with reference %1.', Comment = '%1=Reference No.';
         ItemRefWrongTypeErr: Label 'The reference type must be Customer or Vendor.';
 
     procedure EnterServiceItemReference(var ServiceLine: Record "Service Line")

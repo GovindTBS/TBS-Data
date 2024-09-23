@@ -140,7 +140,7 @@ table 762 "Account Schedules Chart Setup"
     end;
 
     var
-        Text001: Label '%1 %2', Comment = '%1=Account Schdule Line_Description %2=Column Layout_Coulmn Header';
+Text001: Label '%1 %2', Comment = '%1=Account Schdule Line_Description %2=Column Layout_Coulmn Header';
         Text002: Label 'You cannot set %1 to %2.';
 
     procedure SetAccScheduleName(AccSchedName: Code[10])

@@ -460,7 +460,7 @@ table 5076 "Segment Header"
         Text006: Label 'Segment %1 already contains %2 %3.\Are you sure you want to reuse a %4?';
         Text010: Label 'Do you want to create %1 %2?';
         Text011: Label 'You have modified %1.\\Do you want to update the corresponding segment lines?';
-        Text012: Label 'You have modified %1.\\Do you want to apply the %1 %2 to all segment lines?', Comment = 'You have modified Meeting.\\Do you want to apply the Meeting BUS to all segment lines?';
+Text012: Label 'You have modified %1.\\Do you want to apply the %1 %2 to all segment lines?', Comment = 'You have modified Meeting.\\Do you want to apply the Meeting BUS to all segment lines?';
         WordTemplateUsedErr: Label 'You cannot use an attachment when a Word template has been specified.';
         TempTemplateFileNameLbl: Label 'Temp Template';
         TempTemplateExtensionLbl: Label '.docx', Locked = true;

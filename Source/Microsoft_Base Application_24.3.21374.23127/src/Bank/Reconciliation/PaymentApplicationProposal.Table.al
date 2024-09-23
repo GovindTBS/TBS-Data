@@ -295,10 +295,10 @@ table 1293 "Payment Application Proposal"
         StmtAmtIsFullyAppliedErr: Label 'The statement amount is already fully applied.';
         EntryDoesntExistErr: Label 'The entry does not exist.';
         CannotChangeAppliedLineErr: Label 'You cannot change the line because the entry is applied. Remove the applied entry first.';
-        TransactionDateIsBeforePostingDateMsg: Label 'The transaction date %1 is before the posting date %2.', Comment = '%1 Transaction Date; %2: Posting Date';
+TransactionDateIsBeforePostingDateMsg: Label 'The transaction date %1 is before the posting date %2.', Comment = '%1 Transaction Date; %2: Posting Date';
         PaymentAppliedErr: Label 'The payment is fully applied. To apply the payment to this entry, you must first unapply the payment from another entry.';
         WantToApplyCreditMemoAndInvoicesMsg: Label 'If you want to apply credit memos and invoices, we recommend that you start by applying credit memos and then apply all others entries.';
-        EntryAlreadyHasAnApplicationErr: Label 'This entry has an ongoing application process ''%1'', it is applied in another journal. Process this journal before proceeding.', Comment = '%1 a code for the payment application process';
+EntryAlreadyHasAnApplicationErr: Label 'This entry has an ongoing application process ''%1'', it is applied in another journal. Process this journal before proceeding.', Comment = '%1 a code for the payment application process';
 
     local procedure Unapply()
     var

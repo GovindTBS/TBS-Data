@@ -924,7 +924,7 @@ page 6630 "Sales Return Order"
                     RunPageLink = "Document Type" = const("Return Order"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(Documents)
@@ -1055,9 +1055,9 @@ page 6630 "Sales Return Order"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -1468,11 +1468,11 @@ page 6630 "Sales Return Order"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category6)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -1490,7 +1490,7 @@ page 6630 "Sales Return Order"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -1515,7 +1515,7 @@ page 6630 "Sales Return Order"
             }
             group(Category_Category7)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(CopyDocument_Promoted; CopyDocument)
                 {
@@ -1532,7 +1532,7 @@ page 6630 "Sales Return Order"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1549,7 +1549,7 @@ page 6630 "Sales Return Order"
             }
             group(Category_Category10)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 9.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -1560,7 +1560,7 @@ page 6630 "Sales Return Order"
             }
             group(Category_Category9)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1571,11 +1571,11 @@ page 6630 "Sales Return Order"
             }
             group(Category_Category8)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Category11)
             {
-                Caption = 'Return Order', Comment = 'Generated from the PromotedActionCategories property index 10.';
+Caption = 'Return Order', Comment = 'Generated from the PromotedActionCategories property index 10.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1607,11 +1607,11 @@ page 6630 "Sales Return Order"
             }
             group(Category_Category12)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 11.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 11.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1709,7 +1709,7 @@ page 6630 "Sales Return Order"
         ShowWorkflowStatus: Boolean;
         CanCancelApprovalForRecord: Boolean;
         DocumentIsPosted: Boolean;
-        OpenPostedSalesReturnOrderQst: Label 'The return order is posted as number %1 and moved to the Posted Sales Credit Memos window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
+OpenPostedSalesReturnOrderQst: Label 'The return order is posted as number %1 and moved to the Posted Sales Credit Memos window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
         IsCustomerOrContactNotEmpty: Boolean;
         IsBillToCountyVisible: Boolean;
         IsSellToCountyVisible: Boolean;

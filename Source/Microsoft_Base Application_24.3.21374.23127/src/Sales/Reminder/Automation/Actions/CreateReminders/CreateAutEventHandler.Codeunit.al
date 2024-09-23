@@ -13,7 +13,7 @@ codeunit 6761 "Create Aut. Event Handler"
 
     var
         GlobalReminderAction: Record "Reminder Action";
-        RemindersCreatedTxt: Label '%1 reminders were created.', Comment = '%1 number of reminders created';
+RemindersCreatedTxt: Label '%1 reminders were created.', Comment = '%1 number of reminders created';
         NoRemindersCreatedTxt: Label 'No reminders were created.';
         NumberOfRemindersCreated: Integer;
 

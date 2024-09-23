@@ -97,8 +97,8 @@ codeunit 5378 "VS Code Request Helper"
     local procedure FormatDependency(NavAppInstalledApp: Record "NAV App Installed App"): Text
     var
         AppVersion: Text;
-        AppVersionLbl: Label '%1.%2.%3.%4', Comment = '%1 = major, %2 = minor, %3 = build, %4 = revision', Locked = true;
-        DependencyFormatLbl: Label '%1,%2,%3,%4;', Comment = '%1 = Id, %2 = Name, %3 = Publisher, %4 = Version', Locked = true;
+AppVersionLbl: Label '%1.%2.%3.%4', Comment = '%1 = major, %2 = minor, %3 = build, %4 = revision', Locked = true;
+DependencyFormatLbl: Label '%1,%2,%3,%4;', Comment = '%1 = Id, %2 = Name, %3 = Publisher, %4 = Version', Locked = true;
     begin
         // Skip System and Base app
         case NavAppInstalledApp."App ID" of

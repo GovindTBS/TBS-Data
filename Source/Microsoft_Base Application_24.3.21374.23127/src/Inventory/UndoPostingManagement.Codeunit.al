@@ -58,7 +58,7 @@ codeunit 5817 "Undo Posting Management"
         Text013: Label 'Item ledger entries are missing for line %1.';
         Text014: Label 'You cannot undo line %1, because a revaluation has already been posted.';
         Text015: Label 'You cannot undo posting of item %1 with variant ''%2'' and unit of measure %3 because it is not available at location %4, bin code %5. The required quantity is %6. The available quantity is %7.';
-        NonSurplusResEntriesErr: Label 'You cannot undo transfer shipment line %1 because this line is Reserved. Reservation Entry No. %2', Comment = '%1 = Line No., %2 = Entry No.';
+NonSurplusResEntriesErr: Label 'You cannot undo transfer shipment line %1 because this line is Reserved. Reservation Entry No. %2', Comment = '%1 = Line No., %2 = Entry No.';
 
     procedure TestTransferShptLine(TransferShptLine: Record "Transfer Shipment Line")
     var

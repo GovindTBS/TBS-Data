@@ -89,5 +89,5 @@ table 2584 "Dim Correction Set Buffer"
     end;
 
     var
-        LedgerEntryNoFormatTxt: Label ';%1;', Locked = true, Comment = '%1 Entry No.';
+LedgerEntryNoFormatTxt: Label ';%1;', Locked = true, Comment = '%1 Entry No.';
 }

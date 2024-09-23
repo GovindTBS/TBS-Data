@@ -44,7 +44,7 @@ table 9400 "Media Repository"
 
     var
         FileManagement: Codeunit "File Management";
-        FileDoesNotExistErr: Label 'The file %1 does not exist. Import failed.', Comment = '%1 = File Path';
+FileDoesNotExistErr: Label 'The file %1 does not exist. Import failed.', Comment = '%1 = File Path';
 
     [TryFunction]
     procedure GetForCurrentClientType(FileName: Text[250])

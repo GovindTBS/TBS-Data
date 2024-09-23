@@ -136,7 +136,7 @@ page 2514 "Delete Orphaned Extension Data"
         ExtensionInstallationImpl: Codeunit "Extension Installation Impl";
         VersionDisplay: Text;
         IsSaaS: Boolean;
-        VersionFormatTxt: Label 'v. %1', Comment = 'v=version abbr, %1=Version string';
+VersionFormatTxt: Label 'v. %1', Comment = 'v=version abbr, %1=Version string';
 ClearExtensionSchemaOrphanMsg: Label 'The %1 extension data was deleted.', Comment = '%1=The extension which data was deleted';
         IsMarketplaceEnabled: Boolean;
         IsOnPremDisplay: Boolean;

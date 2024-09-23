@@ -86,7 +86,7 @@ table 5207 "Employee Absence"
         {
             CalcFormula = exist("Human Resource Comment Line" where("Table Name" = const("Employee Absence"),
                                                                      "Table Line No." = field("Entry No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

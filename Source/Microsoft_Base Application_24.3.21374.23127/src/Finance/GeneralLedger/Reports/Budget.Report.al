@@ -444,7 +444,7 @@ report 10001 Budget
         Text003: Label 'All Budgets';
         Text004: Label 'Time divisions of %1.';
         Text005: Label 'By period starting with %1';
-        Text008: Label 'P', Comment = '''P'' = Period';
+Text008: Label 'P', Comment = '''P'' = Period';
         Text006Lbl: Label 'Accounts without budgets are not included.';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
         NameCaptionLbl: Label 'Name';

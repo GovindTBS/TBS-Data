@@ -433,7 +433,7 @@ page 5906 "Service Item Worksheet"
                                       "No." = field("Document No."),
                                       "Table Line No." = field("Line No."),
                                       Type = const(Internal);
-                        ToolTip = 'View or register internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
+ToolTip = 'View or register internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
                     }
                     action(Accessories)
                     {
@@ -446,7 +446,7 @@ page 5906 "Service Item Worksheet"
                                       "No." = field("Document No."),
                                       "Table Line No." = field("Line No."),
                                       Type = const(Accessory);
-                        ToolTip = 'View or register comments for the accessories to the service item.';
+ToolTip = 'View or register comments for the accessories to the service item.';
                     }
                     action(Loaners)
                     {

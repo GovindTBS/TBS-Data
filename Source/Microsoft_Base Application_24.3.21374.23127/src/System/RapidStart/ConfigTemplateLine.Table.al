@@ -248,8 +248,8 @@ table 8619 "Config. Template Line"
 
     var
         TemplateRelationErr: Label 'A template cannot relate to itself. Specify a different template.';
-        TemplateHierarchyErr: Label 'The template %1 is already in this hierarchy.', Comment = '%1 - Field Value';
-        TemplateFieldExistsErr: Label 'Field %1 is already in the template.', Comment = '%1 - Field Name';
+TemplateHierarchyErr: Label 'The template %1 is already in this hierarchy.', Comment = '%1 - Field Value';
+TemplateFieldExistsErr: Label 'Field %1 is already in the template.', Comment = '%1 - Field Name';
         TemplateFieldLineErr: Label 'The template line cannot be edited if type is Field.';
         EmptyDefaultValueErr: Label 'The Default Value field must be filled in if the Mandatory check box is selected.';
 

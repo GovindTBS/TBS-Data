@@ -23,10 +23,10 @@ codeunit 7778 "AOAI Tools Impl"
         Tools: List of [JsonObject];
         ToolIdDoesNotExistErr: Label 'Tool id does not exist.';
 #endif
-        ToolObjectInvalidErr: Label '%1 object does not contain %2 property.', Comment = '%1 is the object name and %2 is the property that is missing.';
+ToolObjectInvalidErr: Label '%1 object does not contain %2 property.', Comment = '%1 is the object name and %2 is the property that is missing.';
         ToolTypeErr: Label 'Tool type must be of function type.';
-        TooManyFunctionsAddedErr: Label 'Too many functions have been added. Maximum number of functions is %1', Comment = '%1 is the maximum number of tools that can be added.';
-        FunctionAlreadyExistsErr: Label 'Function with the name, %1, already exists.', Comment = '%1 is the function name.';
+TooManyFunctionsAddedErr: Label 'Too many functions have been added. Maximum number of functions is %1', Comment = '%1 is the maximum number of tools that can be added.';
+FunctionAlreadyExistsErr: Label 'Function with the name, %1, already exists.', Comment = '%1 is the function name.';
 
     procedure AddTool(Tool: Interface "AOAI Function")
     var
@@ -209,7 +209,7 @@ codeunit 7778 "AOAI Tools Impl"
         MessageJArray: JsonArray;
         ToolToken: JsonToken;
         TypeToken: JsonToken;
-        XPathLbl: Label '$.type', Comment = 'For more details on response, see https://aka.ms/AAlrz36', Locked = true;
+XPathLbl: Label '$.type', Comment = 'For more details on response, see https://aka.ms/AAlrz36', Locked = true;
         i: Integer;
     begin
         MessageJArray := ConvertToJsonArray(Message);

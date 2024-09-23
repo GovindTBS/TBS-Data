@@ -340,7 +340,7 @@ page 146 "Posted Purchase Invoices"
                     RunObject = Page "Purch. Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Invoice"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -553,7 +553,7 @@ page 146 "Posted Purchase Invoices"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Update Document_Promoted"; "Update Document")
                 {
@@ -564,7 +564,7 @@ page 146 "Posted Purchase Invoices"
             }
             group(Category_Category7)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 6.';
                 actionref("&Print_Promoted"; "&Print")
                 {
                 }
@@ -574,11 +574,11 @@ page 146 "Posted Purchase Invoices"
             }
             group(Category_Category6)
             {
-                Caption = 'Print', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Print', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category4)
             {
-                Caption = 'Correct', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Correct', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ShowAs = SplitButton;
 
                 actionref(CorrectInvoice_Promoted; CorrectInvoice)
@@ -596,7 +596,7 @@ page 146 "Posted Purchase Invoices"
             }
             group(Category_Category5)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -621,11 +621,11 @@ page 146 "Posted Purchase Invoices"
             }
             group(Category_Category8)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Outstanding Purch. Order Status_Promoted"; "Outstanding Purch. Order Status")
                 {

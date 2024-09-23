@@ -17,8 +17,8 @@ codeunit 67 "Transfer-Explode BOM"
         ConfirmManagement: Codeunit "Confirm Management";
         ReservationManagement: Codeunit "Reservation Management";
         IsHandled: Boolean;
-        NotBOMErr: Label 'Item %1 is not a BOM.', Comment = '%1 - Item No.';
-        BOMContainsNonItemLinesQst: Label 'The BOM %1 has non item lines. These lines will be skipped. Do you want to continue?', Comment = '%1 - Item No.';
+NotBOMErr: Label 'Item %1 is not a BOM.', Comment = '%1 - Item No.';
+BOMContainsNonItemLinesQst: Label 'The BOM %1 has non item lines. These lines will be skipped. Do you want to continue?', Comment = '%1 - Item No.';
     begin
         IsHandled := false;
         OnBeforeOnRun(Rec, IsHandled);

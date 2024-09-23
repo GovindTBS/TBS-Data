@@ -388,7 +388,7 @@ page 9307 "Purchase Order List"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(Documents)
@@ -802,7 +802,7 @@ page 9307 "Purchase Order List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create &Whse. Receipt_Promoted"; "Create &Whse. Receipt")
                 {
@@ -813,7 +813,7 @@ page 9307 "Purchase Order List"
             }
             group(Category_Category7)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 6.';
                 ShowAs = SplitButton;
 
                 actionref(Release_Promoted; Release)
@@ -825,7 +825,7 @@ page 9307 "Purchase Order List"
             }
             group(Category_Category8)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 7.';
                 ShowAs = SplitButton;
 
                 actionref(Post_Promoted; Post)
@@ -843,7 +843,7 @@ page 9307 "Purchase Order List"
             }
             group(Category_Category5)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -857,11 +857,11 @@ page 9307 "Purchase Order List"
             }
             group(Category_Category4)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category6)
             {
-                Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -887,11 +887,11 @@ page 9307 "Purchase Order List"
             }
             group(Category_Category9)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -960,7 +960,7 @@ page 9307 "Purchase Order List"
         OpenApprovalEntriesExist: Boolean;
         CanCancelApprovalForRecord: Boolean;
         OnlyShowHeadersWithVat: Boolean;
-        ReadyToPostQst: Label 'The number of orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
+ReadyToPostQst: Label 'The number of orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
         CanRequestApprovalForFlow: Boolean;
         CanCancelApprovalForFlow: Boolean;
         StatusStyleTxt: Text;

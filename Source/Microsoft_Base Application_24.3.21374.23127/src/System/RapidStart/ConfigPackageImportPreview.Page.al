@@ -116,7 +116,7 @@ page 8617 "Config. Package Import Preview"
         PackageStyleExpr: Text;
         SelectedPackageCode: Code[20];
         TableStyleExpr: Text;
-        PackageCodeMustMatchErr: Label 'The package code in all sheets of the Excel file must match the selected package code, %1. Modify the package code in the Excel file or import this file from the Configuration Packages page to create a new package.', Comment = '%1 - package code';
+PackageCodeMustMatchErr: Label 'The package code in all sheets of the Excel file must match the selected package code, %1. Modify the package code in the Excel file or import this file from the Configuration Packages page to create a new package.', Comment = '%1 - package code';
 
     local procedure GetStyle(New: Boolean): Text
     begin

@@ -209,11 +209,11 @@ codeunit 5856 "TransferOrder-Post Transfer"
         WhseReference: Integer;
         OriginalQuantity: Decimal;
         OriginalQuantityBase: Decimal;
-        PostingLinesMsg: Label 'Posting transfer lines #2######', Comment = '#2 - line counter';
-        PostingDocumentTxt: Label 'Transfer Order %1', Comment = '%1 - document number';
-        DimCombBlockedErr: Label 'The combination of dimensions used in transfer order %1 is blocked. %2', Comment = '%1 - document number, %2 - error message';
-        DimCombLineBlockedErr: Label 'The combination of dimensions used in transfer order %1, line no. %2 is blocked. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
-        DimInvalidErr: Label 'The dimensions used in transfer order %1, line no. %2 are invalid. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
+PostingLinesMsg: Label 'Posting transfer lines #2######', Comment = '#2 - line counter';
+PostingDocumentTxt: Label 'Transfer Order %1', Comment = '%1 - document number';
+DimCombBlockedErr: Label 'The combination of dimensions used in transfer order %1 is blocked. %2', Comment = '%1 - document number, %2 - error message';
+DimCombLineBlockedErr: Label 'The combination of dimensions used in transfer order %1, line no. %2 is blocked. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
+DimInvalidErr: Label 'The dimensions used in transfer order %1, line no. %2 are invalid. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
 
     local procedure PostItemJnlLine(var TransLine3: Record "Transfer Line"; DirectTransHeader2: Record "Direct Trans. Header"; DirectTransLine2: Record "Direct Trans. Line")
     var

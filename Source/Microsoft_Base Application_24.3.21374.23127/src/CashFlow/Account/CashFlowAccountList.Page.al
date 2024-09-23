@@ -39,7 +39,7 @@ page 855 "Cash Flow Account List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the comment for the record.';
+ToolTip = 'Specifies the comment for the record.';
                 }
                 field(Blocked; Rec.Blocked)
                 {
@@ -108,7 +108,7 @@ page 855 "Cash Flow Account List"
                     RunObject = Page "Cash Flow Comment";
                     RunPageLink = "Table Name" = const("Cash Flow Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

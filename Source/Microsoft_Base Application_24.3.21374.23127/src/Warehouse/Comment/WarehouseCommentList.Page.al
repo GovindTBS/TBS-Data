@@ -2,7 +2,7 @@ namespace Microsoft.Warehouse.Comment;
 
 page 5777 "Warehouse Comment List"
 {
-    Caption = 'Comment List';
+Caption = 'Comment List';
     DataCaptionExpression = Rec.FormCaption();
     Editable = false;
     LinksAllowed = false;
@@ -24,12 +24,12 @@ page 5777 "Warehouse Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the date when the comment was created.';
+ToolTip = 'Specifies the date when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the comment.';
+ToolTip = 'Specifies the comment.';
                 }
             }
         }

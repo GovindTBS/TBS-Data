@@ -118,7 +118,7 @@ page 7392 "Posted Invt. Pick"
                     RunPageLink = "Table Name" = const("Posted Invt. Pick"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

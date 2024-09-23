@@ -116,7 +116,7 @@ codeunit 9087 "Microsoft 365 License Impl."
         M365LicenseDocumentationLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2209653', Locked = true;
         PlanConfigurationFeatureNameTok: Label 'Custom Permissions Assignment Per Plan', Locked = true;
         PlanConfigurationUpdatedLbl: Label 'Plan Configuration was modified for plan %1. Customized: %2.', Locked = true;
-        M365ConfigurationNotificationTxt: Label 'Just trying this out? Start by adding ''D365 READ'' permissions to all objects to experience how employees across the organization can read Business Central data in Microsoft Teams using only their Microsoft 365 license.', Comment = 'Do not translate ''D365 READ'', ''Business Central'', ''Microsoft Teams'' and ''Microsoft 365''';
+M365ConfigurationNotificationTxt: Label 'Just trying this out? Start by adding ''D365 READ'' permissions to all objects to experience how employees across the organization can read Business Central data in Microsoft Teams using only their Microsoft 365 license.', Comment = 'Do not translate ''D365 READ'', ''Business Central'', ''Microsoft Teams'' and ''Microsoft 365''';
         LearnMoreTok: Label 'Learn more';
         AddPermissionsTok: Label 'Add permissions to all objects';
 }

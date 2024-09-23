@@ -214,7 +214,7 @@ page 5920 "Service Document Log"
     var
         ServOrderHeaderRec: Record "Service Header";
         ServLogMgt: Codeunit ServLogManagement;
-        Text001: Label 'Service %1 %2 does not exist.', Comment = 'Service Order 2001 does not exist.';
+Text001: Label 'Service %1 %2 does not exist.', Comment = 'Service Order 2001 does not exist.';
         DocumentTypeVisible: Boolean;
         DocumentNoVisible: Boolean;
 

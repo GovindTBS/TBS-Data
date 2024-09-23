@@ -318,7 +318,7 @@ page 9302 "Sales Credit Memos"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -665,7 +665,7 @@ page 9302 "Sales Credit Memos"
         {
             group(Category_Category4)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ShowAs = SplitButton;
 
                 actionref("Re&lease_Promoted"; "Re&lease")
@@ -677,7 +677,7 @@ page 9302 "Sales Credit Memos"
             }
             group(Category_Category5)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
                 ShowAs = SplitButton;
 
                 actionref(Post_Promoted; Post)
@@ -695,11 +695,11 @@ page 9302 "Sales Credit Memos"
             }
             group(Category_Category7)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 6.';
             }
             group(Category_Category6)
             {
-                Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -722,11 +722,11 @@ page 9302 "Sales Credit Memos"
             }
             group(Category_Category8)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -762,8 +762,8 @@ page 9302 "Sales Credit Memos"
         CanCancelApprovalForFlow: Boolean;
         StatusStyleTxt: Text;
 
-        OpenPostedSalesCrMemoQst: Label 'The credit memo is posted as number %1 and moved to the Posted Sales Credit Memo window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
-        ReadyToPostQst: Label 'The number of credit memos that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
+OpenPostedSalesCrMemoQst: Label 'The credit memo is posted as number %1 and moved to the Posted Sales Credit Memo window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
+ReadyToPostQst: Label 'The number of credit memos that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
 
     protected var
         JobQueueActive: Boolean;

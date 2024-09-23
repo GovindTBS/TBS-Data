@@ -105,11 +105,11 @@ page 513 "Item Disc. Groups"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
 #if not CLEAN23
                 actionref("Sales &Line Discounts_Promoted"; "Sales &Line Discounts")

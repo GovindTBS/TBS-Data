@@ -30,14 +30,14 @@ codeunit 841 "Cash Flow Management"
     end;
 
     var
-        SourceDataDoesNotExistErr: Label 'Source data does not exist for %1: %2.', Comment = 'Source data doesn''t exist for G/L Account: 8210.';
-        SourceDataDoesNotExistInfoErr: Label 'Source data does not exist in %1 for %2: %3.', Comment = 'Source data doesn''t exist in Vendor Ledger Entry for Document No.: PO000123.';
+SourceDataDoesNotExistErr: Label 'Source data does not exist for %1: %2.', Comment = 'Source data doesn''t exist for G/L Account: 8210.';
+SourceDataDoesNotExistInfoErr: Label 'Source data does not exist in %1 for %2: %3.', Comment = 'Source data doesn''t exist in Vendor Ledger Entry for Document No.: PO000123.';
         SourceTypeNotSupportedErr: Label 'Source type is not supported.';
         DefaultTxt: Label 'Default';
         DummyDate: Date;
         CashFlowTxt: Label 'CashFlow';
         CashFlowForecastTxt: Label 'Cash Flow Forecast';
-        CashFlowAbbreviationTxt: Label 'CF', Comment = 'Abbreviation of Cash Flow';
+CashFlowAbbreviationTxt: Label 'CF', Comment = 'Abbreviation of Cash Flow';
         UpdatingMsg: Label 'Updating Cash Flow Forecast...';
         JobQueueEntryDescTxt: Label 'Auto-created for updating of cash flow figures. Can be deleted if not used. Will be recreated when the feature is activated.';
 

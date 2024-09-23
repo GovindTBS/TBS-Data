@@ -75,7 +75,7 @@ codeunit 23 "Item Jnl.-Post Batch"
         Text005: Label 'Posting lines         #3###### @4@@@@@@@@@@@@@';
         Text008: Label 'There are new postings made in the period you want to revalue item no. %1.\';
         Text009: Label 'You must calculate the inventory value again.';
-        Text010: Label 'One or more reservation entries exist for the item with %1 = %2, %3 = %4, %5 = %6 which may be disrupted if you post this negative adjustment. Do you want to continue?', Comment = 'One or more reservation entries exist for the item with Item No. = 1000, Location Code = BLUE, Variant Code = NEW which may be disrupted if you post this negative adjustment. Do you want to continue?';
+Text010: Label 'One or more reservation entries exist for the item with %1 = %2, %3 = %4, %5 = %6 which may be disrupted if you post this negative adjustment. Do you want to continue?', Comment = 'One or more reservation entries exist for the item with Item No. = 1000, Location Code = BLUE, Variant Code = NEW which may be disrupted if you post this negative adjustment. Do you want to continue?';
 
     local procedure "Code"()
     var

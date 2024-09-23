@@ -120,7 +120,7 @@ page 99000786 "Production BOM"
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "Table Name" = const("Production BOM Header"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Versions)
                 {
@@ -192,7 +192,7 @@ page 99000786 "Production BOM"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Copy &BOM_Promoted"; "Copy &BOM")
                 {
@@ -212,12 +212,12 @@ page 99000786 "Production BOM"
             }
             group(Category_Category4)
             {
-                Caption = 'Prod. BOM', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Prod. BOM', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

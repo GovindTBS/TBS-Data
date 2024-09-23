@@ -2,7 +2,7 @@ namespace Microsoft.Sales.FinanceCharge;
 
 table 306 "Fin. Charge Comment Line"
 {
-    Caption = 'Fin. Charge Comment Line';
+Caption = 'Fin. Charge Comment Line';
     DrillDownPageID = "Fin. Charge Comment List";
     LookupPageID = "Fin. Charge Comment List";
     DataClassification = CustomerContent;
@@ -37,7 +37,7 @@ table 306 "Fin. Charge Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

@@ -11,7 +11,7 @@ codeunit 2361 "HttpAuthOAuthClientCredentials" implements "Http Authentication"
     InherentPermissions = X;
 
     var
-        BearerTxt: Label 'Bearer %1', Comment = '%1 - Token', Locked = true;
+BearerTxt: Label 'Bearer %1', Comment = '%1 - Token', Locked = true;
         ScopesGlobal: List of [Text];
         ClientSecretGlobal: SecretText;
         ClientIdGlobal: Text;

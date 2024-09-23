@@ -466,7 +466,7 @@ page 344 Navigate
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Show_Promoted; Show)
                 {
@@ -480,11 +480,11 @@ page 344 Navigate
             }
             group(Category_Category4)
             {
-                Caption = 'Find By', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Find By', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

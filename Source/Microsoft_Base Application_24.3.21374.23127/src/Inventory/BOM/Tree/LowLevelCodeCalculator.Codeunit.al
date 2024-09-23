@@ -17,10 +17,10 @@ codeunit 3687 "Low-Level Code Calculator"
         NodeKeysAddedToTree: List of [Text];
         ConfirmQst: Label 'Calculate low-level code?';
         BackgroundJobQst: Label 'Would you like to run the low-level code calculation as a background job?';
-        RecordDetailsLbl: Label 'Table %1: %2', Comment = '%1 is the table caption, %2 is the record ID';
+RecordDetailsLbl: Label 'Table %1: %2', Comment = '%1 is the table caption, %2 is the record ID';
         ResetLowLevelCodeLbl: Label 'Reset code';
-        TimeTakenForRunTxt: Label 'Time taken to run low level calculation through Low- Level Code Calculator is %1.', Comment = '%1 is the time taken', Locked = true;
-        LLCResetToZeroTxt: Label 'Low- Level Codes have been reset to 0 for %1 records in the %2 table.', Comment = '%1 is the count of reset records; %2 is the table in which the reset has been done', Locked = true;
+TimeTakenForRunTxt: Label 'Time taken to run low level calculation through Low- Level Code Calculator is %1.', Comment = '%1 is the time taken', Locked = true;
+LLCResetToZeroTxt: Label 'Low- Level Codes have been reset to 0 for %1 records in the %2 table.', Comment = '%1 is the count of reset records; %2 is the table in which the reset has been done', Locked = true;
 
     trigger OnRun()
     begin

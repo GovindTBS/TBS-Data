@@ -623,7 +623,7 @@ page 5522 "Order Planning"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CalculatePlan_Promoted; CalculatePlan)
                 {
@@ -637,11 +637,11 @@ page 5522 "Order Planning"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Show Document_Promoted"; "Show Document")
                 {
@@ -667,12 +667,12 @@ page 5522 "Order Planning"
             }
             group(Category_Category5)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Category6)
             {
-                Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Event_Promoted; "Event")
                 {

@@ -195,7 +195,7 @@ page 1041 "Copy Job Tasks"
 
     var
         Text001: Label 'The project was successfully copied.';
-        Text003: Label '%1 %2 does not exist.', Comment = 'Project Task 1000 does not exist.';
+Text003: Label '%1 %2 does not exist.', Comment = 'Project Task 1000 does not exist.';
         PlanningLineTypeEnable: Boolean;
         LedgerEntryLineTypeEnable: Boolean;
         Text004: Label 'Provide a valid source %1.';

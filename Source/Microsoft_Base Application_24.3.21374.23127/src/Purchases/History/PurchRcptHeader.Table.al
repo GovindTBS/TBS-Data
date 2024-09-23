@@ -223,7 +223,7 @@ table 120 "Purch. Rcpt. Header"
             CalcFormula = exist("Purch. Comment Line" where("Document Type" = const(Receipt),
                                                              "No." = field("No."),
                                                              "Document Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

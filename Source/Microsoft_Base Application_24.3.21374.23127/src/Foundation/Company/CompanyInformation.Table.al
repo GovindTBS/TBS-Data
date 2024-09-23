@@ -655,15 +655,15 @@ table 79 "Company Information"
         PictureUpdated: Boolean;
         RecordHasBeenRead: Boolean;
 
-        NotValidIBANErr: Label 'The number %1 that you entered may not be a valid International Bank Account Number (IBAN). Do you want to continue?', Comment = '%1 - an actual IBAN';
+NotValidIBANErr: Label 'The number %1 that you entered may not be a valid International Bank Account Number (IBAN). Do you want to continue?', Comment = '%1 - an actual IBAN';
         Text10000: Label '%1 is not a valid RFC No.';
         Text10001: Label '%1 is not a valid CURP No.';
-        NoPaymentInfoQst: Label 'No payment information is provided in %1. Do you want to update it now?', Comment = '%1 = Company Information';
+NoPaymentInfoQst: Label 'No payment information is provided in %1. Do you want to update it now?', Comment = '%1 = Company Information';
         NoPaymentInfoMsg: Label 'No payment information is provided in %1. Review the report.';
         GLNCheckDigitErr: Label 'The %1 is not valid.';
         DevBetaModeTxt: Label 'DEV_BETA', Locked = true;
-        ContactUsFullTxt: Label 'Questions? Contact us at %1 or %2.', Comment = '%1 = phone number, %2 = email';
-        ContactUsShortTxt: Label 'Questions? Contact us at %1.', Comment = '%1 = phone number or email';
+ContactUsFullTxt: Label 'Questions? Contact us at %1 or %2.', Comment = '%1 = phone number, %2 = email';
+ContactUsShortTxt: Label 'Questions? Contact us at %1.', Comment = '%1 = phone number or email';
         AlTelemetryCategoryTxt: Label 'AL CompanyInfo', Locked = true;
         EmptyCountryRegionErr: Label 'Country/Region code is not set, falling back to application default: %1.', Locked = true;
 

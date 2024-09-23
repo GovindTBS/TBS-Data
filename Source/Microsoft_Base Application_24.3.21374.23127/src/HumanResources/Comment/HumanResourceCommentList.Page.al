@@ -5,7 +5,7 @@ using Microsoft.HumanResources.Employee;
 
 page 5223 "Human Resource Comment List"
 {
-    Caption = 'Comment List';
+Caption = 'Comment List';
     DataCaptionExpression = Caption(Rec);
     Editable = false;
     LinksAllowed = false;
@@ -27,17 +27,17 @@ page 5223 "Human Resource Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = BasicHR;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = BasicHR;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }
@@ -55,7 +55,7 @@ page 5223 "Human Resource Comment List"
         EmployeeRelative: Record "Employee Relative";
         MiscArticleInfo: Record "Misc. Article Information";
         ConfidentialInfo: Record "Confidential Information";
-        Text000: Label 'untitled', Comment = 'it is a caption for empty page';
+Text000: Label 'untitled', Comment = 'it is a caption for empty page';
 
     procedure Caption(HRCommentLine: Record "Human Resource Comment Line"): Text
     begin

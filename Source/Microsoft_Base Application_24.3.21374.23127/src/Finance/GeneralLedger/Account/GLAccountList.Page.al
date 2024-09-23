@@ -153,7 +153,7 @@ page 18 "G/L Account List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("G/L Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -303,7 +303,7 @@ page 18 "G/L Account List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("G/L &Account Balance_Promoted"; "G/L &Account Balance")
                 {
@@ -317,7 +317,7 @@ page 18 "G/L Account List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Trial Balance_Promoted"; "Trial Balance")
                 {
@@ -331,7 +331,7 @@ page 18 "G/L Account List"
             }
             group(Category_Category4)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Ledger E&ntries_Promoted"; "Ledger E&ntries")
                 {
@@ -345,7 +345,7 @@ page 18 "G/L Account List"
             }
             group(Category_Category5)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(SalesPriceLists_Promoted; SalesPriceLists)
                 {

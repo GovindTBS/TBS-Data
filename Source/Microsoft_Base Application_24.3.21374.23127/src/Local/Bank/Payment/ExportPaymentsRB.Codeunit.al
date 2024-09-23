@@ -21,15 +21,15 @@ codeunit 10091 "Export Payments (RB)"
     end;
 
     var
-        ExportInProcessErr: Label 'Cannot start new Export File while %1 is in process.', Comment = '%1 = the filename that is already being processed.';
-        ExportFilePathErr: Label '%1 in %2 %3 is invalid.', Comment = '%1 = the export file path, %2 the field in the table, ie, bank, customer etc, %3 = the identifier for the record, ie, bankaccount number etc. ';
-        FileAlreadyExistsErr: Label 'File %1 already exists. Check the %2 in %3 %4.', Comment = '%1 = file name, %2 file patch, the bank account table, the identifier in the bank account table, ie the .No';
+ExportInProcessErr: Label 'Cannot start new Export File while %1 is in process.', Comment = '%1 = the filename that is already being processed.';
+ExportFilePathErr: Label '%1 in %2 %3 is invalid.', Comment = '%1 = the export file path, %2 the field in the table, ie, bank, customer etc, %3 = the identifier for the record, ie, bankaccount number etc. ';
+FileAlreadyExistsErr: Label 'File %1 already exists. Check the %2 in %3 %4.', Comment = '%1 = file name, %2 file patch, the bank account table, the identifier in the bank account table, ie the .No';
         ExportDetailsFileNotStartedErr: Label 'Cannot export details until an export file is started.';
-        InvalidPaymentSpecErr: Label 'Either %1 or %2 must refer to either a %3 or a %4 for an electronic payment.', Comment = '%1 = Account Type, %2 = the account,%3 = Vendor table, %4 = Customer table';
+InvalidPaymentSpecErr: Label 'Either %1 or %2 must refer to either a %3 or a %4 for an electronic payment.', Comment = '%1 = Account Type, %2 = the account,%3 = Vendor table, %4 = Customer table';
         ExportFileNotEndedFileNotStartedErr: Label 'Cannot end export file until an export file is started.';
-        FileDoesNoteExistErr: Label 'File %1 does not exist.', Comment = '%1 = the file name.';
-        CustomerBlockedErr: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = customer.blocked';
-        PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = accountant type';
+FileDoesNoteExistErr: Label 'File %1 does not exist.', Comment = '%1 = the file name.';
+CustomerBlockedErr: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = customer.blocked';
+PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = accountant type';
         Vendor: Record Vendor;
         Customer: Record Customer;
         BankAccount: Record "Bank Account";
@@ -48,7 +48,7 @@ codeunit 10091 "Export Payments (RB)"
         ModifierValues: array[26] of Code[1];
         TraceNo: Integer;
         PaymentsThisAcct: Integer;
-        DemandDebitErr: Label 'Demand Debits are not supported. Check sign on %1 %2, %3 %4, %5 %6.', Comment = '%1= Journal Template Name Caption, %2 = Journal Template Name,%3=Journal Batch Name Caption,%4=Journal Batch Name,%5=Line No. Caption,%6=Line No.';
+DemandDebitErr: Label 'Demand Debits are not supported. Check sign on %1 %2, %3 %4, %5 %6.', Comment = '%1= Journal Template Name Caption, %2 = Journal Template Name,%3=Journal Batch Name Caption,%4=Journal Batch Name,%5=Line No. Caption,%6=Line No.';
         Transactions: Integer;
         CurrencyType: Code[3];
         NoOfCustInfoRec: Integer;

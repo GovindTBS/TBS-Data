@@ -11,13 +11,13 @@ using Microsoft.Sales.Customer;
 codeunit 10200 "EFT Recipient Bank Account Mgt"
 {
     var
-        NotVendorAccountErr: Label 'The account type or balance account type should be vendor on the following General Journal Line: Journal Template Name = %1, Line No. = %2.', Comment = '%1=Journal Template Name, %2=Line Number';
-        NotCustomerAccountErr: Label 'The account type or balance account type should be customer on the following General Journal Line: Journal Template Name = %1, Line No. = %2.', Comment = '%1=Journal Template Name, %2=Line Number';
-        EmptyRecipientBankAccountErr: Label 'The recepient bank account cannot be empty on the following General Journal Line: Journal Batch Name: %1, Journal Template Name: %2, Line No.: %3.', Comment = '%1=Journal Batch Name, %2=Journal Template Name, %3=Line Number';
-        InvalidRecepientBankAccountErr: Label 'Invalid recepient bank account on the following General Journal Line: Journal Template Name = %1, Line No. = %2.', Comment = '%1=Journal Template Name, %2=Line Number';
-        InvalidVendorBankAccountErr: Label 'This vendor bank account cannot be used for electronic payments: Vendor No. = %1, Code = %2.', Comment = '%1=Vendor Number, %2=Code property';
-        InvalidCustomerBankAccountErr: Label 'This customer bank account cannot be used for electronic payments: Customer No. = %1, Code = %2.', Comment = '%1=Customer Number, %2=Code property';
-        GenJnlLineDoesNotExistErr: Label 'The General Journal Line with Journal Template Name %1, Journal Batch Name %2 and Line No. %3 does not exist.', Comment = '%1=Journal Template Name, %2=Journal Batch Name, %3=Line Number';
+NotVendorAccountErr: Label 'The account type or balance account type should be vendor on the following General Journal Line: Journal Template Name = %1, Line No. = %2.', Comment = '%1=Journal Template Name, %2=Line Number';
+NotCustomerAccountErr: Label 'The account type or balance account type should be customer on the following General Journal Line: Journal Template Name = %1, Line No. = %2.', Comment = '%1=Journal Template Name, %2=Line Number';
+EmptyRecipientBankAccountErr: Label 'The recepient bank account cannot be empty on the following General Journal Line: Journal Batch Name: %1, Journal Template Name: %2, Line No.: %3.', Comment = '%1=Journal Batch Name, %2=Journal Template Name, %3=Line Number';
+InvalidRecepientBankAccountErr: Label 'Invalid recepient bank account on the following General Journal Line: Journal Template Name = %1, Line No. = %2.', Comment = '%1=Journal Template Name, %2=Line Number';
+InvalidVendorBankAccountErr: Label 'This vendor bank account cannot be used for electronic payments: Vendor No. = %1, Code = %2.', Comment = '%1=Vendor Number, %2=Code property';
+InvalidCustomerBankAccountErr: Label 'This customer bank account cannot be used for electronic payments: Customer No. = %1, Code = %2.', Comment = '%1=Customer Number, %2=Code property';
+GenJnlLineDoesNotExistErr: Label 'The General Journal Line with Journal Template Name %1, Journal Batch Name %2 and Line No. %3 does not exist.', Comment = '%1=Journal Template Name, %2=Journal Batch Name, %3=Line Number';
 
     procedure GetRecipientVendorBankAccount(var VendBankAccount: Record "Vendor Bank Account"; var TempEFTExportWorkset: Record "EFT Export Workset" temporary; VendorNo: Code[20])
     var

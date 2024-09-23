@@ -152,16 +152,16 @@ table 60 "Document Sending Profile"
     end;
 
     var
-        DefaultCodeTxt: Label 'DEFAULT', Comment = 'Translate as we translate default term in local languages';
+DefaultCodeTxt: Label 'DEFAULT', Comment = 'Translate as we translate default term in local languages';
         DefaultDescriptionTxt: Label 'Default rule used if no other provided';
         RecordAsTextFormatterTxt: Label '%1 ; %2';
-        FieldCaptionContentFormatterTxt: Label '%1 (%2)', Comment = '%1=Field Caption (e.g. Email), %2=Field Content (e.g. PDF) so for example ''Email (PDF)''';
+FieldCaptionContentFormatterTxt: Label '%1 (%2)', Comment = '%1=Field Caption (e.g. Email), %2=Field Content (e.g. PDF) so for example ''Email (PDF)''';
         CannotDeleteDefaultRuleErr: Label 'You cannot delete the default rule. Assign other rule to be default first.';
         CannotRemoveDefaultRuleErr: Label 'There must be one default rule in the system. To remove the default property from this rule, assign default to another rule.';
         UpdateAssCustomerQst: Label 'If you delete document sending profile %1, it will also be deleted on customer cards that use the profile.\\Do you want to continue?';
         CannotDeleteErr: Label 'Cannot delete the document sending profile.';
         CannotSendMultipleSalesDocsErr: Label 'You can only send one electronic sales document at a time.';
-        ProfileSelectionQst: Label 'Confirm the first profile and use it for all selected documents.,Confirm the profile for each document.,Use the default profile for all selected documents without confirmation.', Comment = 'Translation should contain comma separators between variants as ENU value does. No other commas should be there.';
+ProfileSelectionQst: Label 'Confirm the first profile and use it for all selected documents.,Confirm the profile for each document.,Use the default profile for all selected documents without confirmation.', Comment = 'Translation should contain comma separators between variants as ENU value does. No other commas should be there.';
         CustomerProfileSelectionInstrTxt: Label 'Customers on the selected documents might use different document sending profiles. Choose one of the following options: ';
         VendorProfileSelectionInstrTxt: Label 'Vendors on the selected documents might use different document sending profiles. Choose one of the following options: ';
         InvoicesTxt: Label 'Invoices';

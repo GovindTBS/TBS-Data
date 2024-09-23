@@ -40,15 +40,15 @@ codeunit 5334 "CRM Setup Defaults"
         CDSIntegrationMgt: Codeunit "CDS Integration Mgt.";
         CRMIntegrationManagement: Codeunit "CRM Integration Management";
 
-        IntegrationTablePrefixTok: Label 'Dataverse', Comment = 'Product name', Locked = true;
-        CustomStatisticsSynchJobDescTxt: Label 'Customer Statistics - %1 synchronization job', Comment = '%1 = CRM product name';
-        ItemAvailabilitySynchJobDescTxt: Label 'Item Availability - %1 synchronization job', Comment = '%1 = CRM product name';
-        CustomSalesOrderSynchJobDescTxt: Label 'Sales Order Status - %1 synchronization job', Comment = '%1 = CRM product name';
-        CustomSalesOrderNotesSynchJobDescTxt: Label 'Sales Order Notes - %1 synchronization job', Comment = '%1 = CRM product name';
-        ArchivedSalesOrdersSynchJobDescTxt: Label 'Archived Sales Orders - %1 synchronization job', Comment = '%1 = CRM product name';
-        AutoCreateSalesOrdersTxt: Label 'Automatically create sales orders from sales orders that are submitted in %1.', Comment = '%1 = CRM product name';
-        AutoProcessQuotesTxt: Label 'Automatically process sales quotes from sales quotes that are activated in %1.', Comment = '%1 = CRM product name';
-        OrTok: Label '%1|%2', Locked = true, Comment = '%1 and %2 - some filters';
+IntegrationTablePrefixTok: Label 'Dataverse', Comment = 'Product name', Locked = true;
+CustomStatisticsSynchJobDescTxt: Label 'Customer Statistics - %1 synchronization job', Comment = '%1 = CRM product name';
+ItemAvailabilitySynchJobDescTxt: Label 'Item Availability - %1 synchronization job', Comment = '%1 = CRM product name';
+CustomSalesOrderSynchJobDescTxt: Label 'Sales Order Status - %1 synchronization job', Comment = '%1 = CRM product name';
+CustomSalesOrderNotesSynchJobDescTxt: Label 'Sales Order Notes - %1 synchronization job', Comment = '%1 = CRM product name';
+ArchivedSalesOrdersSynchJobDescTxt: Label 'Archived Sales Orders - %1 synchronization job', Comment = '%1 = CRM product name';
+AutoCreateSalesOrdersTxt: Label 'Automatically create sales orders from sales orders that are submitted in %1.', Comment = '%1 = CRM product name';
+AutoProcessQuotesTxt: Label 'Automatically process sales quotes from sales quotes that are activated in %1.', Comment = '%1 = CRM product name';
+OrTok: Label '%1|%2', Locked = true, Comment = '%1 and %2 - some filters';
 
     procedure ResetConfiguration(CRMConnectionSetup: Record "CRM Connection Setup")
     var

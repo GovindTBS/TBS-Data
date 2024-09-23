@@ -119,31 +119,31 @@ page 459 "Sales & Receivables Setup"
                 {
                     ApplicationArea = Suite;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from blanket sales orders to sales orders.';
+ToolTip = 'Specifies whether to copy comments from blanket sales orders to sales orders.';
                 }
                 field("Copy Comments Order to Invoice"; Rec."Copy Comments Order to Invoice")
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from sales orders to sales invoices.';
+ToolTip = 'Specifies whether to copy comments from sales orders to sales invoices.';
                 }
                 field("Copy Comments Order to Shpt."; Rec."Copy Comments Order to Shpt.")
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from sales orders to shipments.';
+ToolTip = 'Specifies whether to copy comments from sales orders to shipments.';
                 }
                 field("Copy Cmts Ret.Ord. to Cr. Memo"; Rec."Copy Cmts Ret.Ord. to Cr. Memo")
                 {
                     ApplicationArea = Basic, Suite;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from sales return orders to sales credit memos.';
+ToolTip = 'Specifies whether to copy comments from sales return orders to sales credit memos.';
                 }
                 field("Copy Cmts Ret.Ord. to Ret.Rcpt"; Rec."Copy Cmts Ret.Ord. to Ret.Rcpt")
                 {
                     ApplicationArea = Basic, Suite;
                     Importance = Additional;
-                    ToolTip = 'Specifies that comments are copied from the sales return order to the posted return receipt.';
+ToolTip = 'Specifies that comments are copied from the sales return order to the posted return receipt.';
                 }
                 field("Allow VAT Difference"; Rec."Allow VAT Difference")
                 {
@@ -622,11 +622,11 @@ page 459 "Sales & Receivables Setup"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Customer Groups', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Customer Groups', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Customer Posting Groups_Promoted"; "Customer Posting Groups")
                 {
@@ -640,7 +640,7 @@ page 459 "Sales & Receivables Setup"
             }
             group(Category_Category5)
             {
-                Caption = 'Payments', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Payments', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Payment Registration Setup_Promoted"; "Payment Registration Setup")
                 {

@@ -142,13 +142,13 @@ table 10807 "Sales Tax Setup Wizard"
     }
 
     var
-        NotBlankErr: Label '%1 must not be blank when a %2 tax rate is specified.', Comment = '%1 = City, County, or State; %2 = city, county, or state';
+NotBlankErr: Label '%1 must not be blank when a %2 tax rate is specified.', Comment = '%1 = City, County, or State; %2 = city, county, or state';
         TaxAccountRequiredErr: Label 'You must specify at least one tax account.';
         NotUniqueErr: Label 'The City, County, and State must be unique.';
         TaxableCodeTxt: Label 'TAXABLE', Locked = true;
         TaxableDescriptionTxt: Label 'Taxable';
-        CityTxt: Label 'City of %1, %2', Comment = '%1 = Name of city; %2 = State abbreviation';
-        StateTxt: Label 'State of %1', Comment = '%1 = State abbreviation';
+CityTxt: Label 'City of %1, %2', Comment = '%1 = Name of city; %2 = State abbreviation';
+StateTxt: Label 'State of %1', Comment = '%1 = State abbreviation';
 
     local procedure ValidateJurisdiction()
     var

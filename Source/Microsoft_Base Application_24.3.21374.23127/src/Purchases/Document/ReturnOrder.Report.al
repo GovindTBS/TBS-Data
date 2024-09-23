@@ -885,7 +885,7 @@ report 6641 "Return Order"
         TotalAmount: Decimal;
         TotalInvoiceDiscountAmount: Decimal;
 
-        Text004: Label 'Return Order %1', Comment = '%1 = Document No.';
+Text004: Label 'Return Order %1', Comment = '%1 = Document No.';
         Text005: Label 'Page %1';
         Text007: Label 'VAT Amount Specification in ';
         Text008: Label 'Local Currency';

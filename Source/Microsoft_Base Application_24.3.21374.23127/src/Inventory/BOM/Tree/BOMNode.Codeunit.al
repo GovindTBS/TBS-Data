@@ -16,8 +16,8 @@ codeunit 3688 "BOM Node"
         ExistingLowLevelCode: Integer;
         CalculatedLowLevelCode: Integer;
         Initialized: Boolean;
-        ProdBomErr: Label 'The maximum number of BOM levels %1, was exceeded. The process stopped at %2 %3.', Comment = '%1 = max number of levels; %2 = BOM Type; %3 = BOM No.';
-        KeyTemplateTxt: Label '%1: %2', Comment = '%1 = Type and %2 = No.', Locked = true;
+ProdBomErr: Label 'The maximum number of BOM levels %1, was exceeded. The process stopped at %2 %3.', Comment = '%1 = max number of levels; %2 = BOM Type; %3 = BOM No.';
+KeyTemplateTxt: Label '%1: %2', Comment = '%1 = Type and %2 = No.', Locked = true;
 
     procedure GetType(): Enum "Production BOM Line Type"
     begin

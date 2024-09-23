@@ -17,7 +17,7 @@ codeunit 5356 "CRM Item Availability Job"
     end;
 
     var
-        ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
+ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
         StartingToRefreshItemAvailabilityMsg: Label 'Starting to refresh item availability based on item ledger entry activity.', Locked = true;
         ScheduledItemSyncJobForSelectedRecordsMsg: Label 'Scheduled item sync job for selected records.', Locked = true;
         FinishedRefreshingItemAvailabilityMsg: Label 'Finished refreshing item availability based on item ledger entry activity.', Locked = true;

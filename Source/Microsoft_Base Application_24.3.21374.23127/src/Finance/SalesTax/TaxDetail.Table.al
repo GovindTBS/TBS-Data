@@ -101,7 +101,7 @@ table 322 "Tax Detail"
     end;
 
     var
-        SpecifyTaxMsg: Label 'Please specify a %1 first.', Comment = '%1=Tax Area Code or Tax Group Code';
+SpecifyTaxMsg: Label 'Please specify a %1 first.', Comment = '%1=Tax Area Code or Tax Group Code';
         TaxDetailTemp: Record "Tax Detail" temporary;
         Text001: Label 'A tax detail already exists with the same tax jurisdiction, tax group, and tax type.';
         CannotChangeNonTaxableGroupCodeErr: Label 'You cannot change the rate for the non-taxable group.';

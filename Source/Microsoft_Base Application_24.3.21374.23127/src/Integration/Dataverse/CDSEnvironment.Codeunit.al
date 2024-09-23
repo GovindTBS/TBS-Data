@@ -24,8 +24,8 @@ codeunit 7203 "CDS Environment"
         MissingSecretErr: Label 'The consumer secret has not been initialized and are missing from the Azure Key Vault.';
         ReceivedEmptyOnBehalfOfTokenErr: Label 'The On-Behalf-Of authorization for the current user to the Global Discoverability service has failed - the token returned is empty.', Locked = true;
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;
-        SelectedDefaultEnvironmentTxt: Label 'Selected the default environment: %1', Locked = true, Comment = '%1 = The URL of the by default selected environment';
-        SelectedEnvironmentTxt: Label 'Selected environment: %1', Locked = true, Comment = '%1 = The URL of the selected environment';
+SelectedDefaultEnvironmentTxt: Label 'Selected the default environment: %1', Locked = true, Comment = '%1 = The URL of the by default selected environment';
+SelectedEnvironmentTxt: Label 'Selected environment: %1', Locked = true, Comment = '%1 = The URL of the selected environment';
         ReceivedEmptyAuthCodeTokenErr: Label 'The auth code authorization for the current user to the Global Discoverability service has failed - the token returned is empty.', Locked = true;
         AcquiringAuthCodeTokenWithCertificateTxt: Label 'Attempting to acquire a token for Global Discoverability via authorization code flow, with app id and SNI certificate.', Locked = true;
         RequestFailedTxt: Label 'Request failed', Locked = true;
@@ -37,7 +37,7 @@ codeunit 7203 "CDS Environment"
         NoEnvironmentsWhenUrlEmptyMsg: Label 'No Dataverse environments were discovered. Enter the URL of the Dataverse environment to connect to.';
         GlobalDiscoApiUrlTok: Label 'https://globaldisco.crm.dynamics.com/api/discovery/v2.0/Instances', Locked = true;
         RequestFailedWithStatusCodeTxt: Label 'Request failed with status code %1.', Locked = true;
-        EnvironmentIdFilterTok: Label '?$filter=EnvironmentId eq ''%1''', Locked = true, Comment = '%1 = The environment id to filter on';
+EnvironmentIdFilterTok: Label '?$filter=EnvironmentId eq ''%1''', Locked = true, Comment = '%1 = The environment id to filter on';
 
     [Scope('OnPrem')]
     [NonDebuggable]

@@ -101,6 +101,6 @@ page 5957 "Default Service Hours"
         EntryMissing: Boolean;
         i: Integer;
 
-        Text000: Label 'You have not specified service hours for all working days.\Do you want to close the window?', Comment = 'You have not specified service hours for all working days.\Do you want to close the window?';
+Text000: Label 'You have not specified service hours for all working days.\Do you want to close the window?', Comment = 'You have not specified service hours for all working days.\Do you want to close the window?';
 }
 

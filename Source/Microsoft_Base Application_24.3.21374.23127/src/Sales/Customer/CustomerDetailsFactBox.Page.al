@@ -93,12 +93,12 @@ page 9084 "Customer Details FactBox"
                 action(Comments)
                 {
                     ApplicationArea = Comments;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Customer),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

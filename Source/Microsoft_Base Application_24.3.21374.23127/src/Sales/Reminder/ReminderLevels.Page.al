@@ -227,7 +227,7 @@ page 432 "Reminder Levels"
         ReminderTermsCodeVisible: Boolean;
         AddFeeSetupEnabled: Boolean;
         AddFeeFieldsEnabled: Boolean;
-        ChartNotAvailableInWebErr: Label 'The chart cannot be shown in the %1 Web client. To see the chart, use the %1 Windows client.', Comment = '%1 - product name';
+ChartNotAvailableInWebErr: Label 'The chart cannot be shown in the %1 Web client. To see the chart, use the %1 Windows client.', Comment = '%1 - product name';
         IsWinClient: Boolean;
 
     local procedure CheckAddFeeCalcType()

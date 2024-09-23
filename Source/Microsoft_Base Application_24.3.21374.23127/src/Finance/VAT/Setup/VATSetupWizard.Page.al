@@ -296,8 +296,8 @@ page 1877 "VAT Setup Wizard"
         VATAssistedRatesMsg: Label 'You must select at least one item or service.';
         VATAssistedBusPostingGrpMsg: Label 'You must select at least one VAT business posting group.';
         AutoVATSetupIsAllowed: Boolean;
-        InvalidVATBusGrpMsg: Label '%1 is not valid VAT Business group.', Comment = '%1 is code for vat bus group which is not valid anymore ';
-        InvaledVATProductMsg: Label '%1 is not valid VAT product group.', Comment = '%1 is code for vat product group which is not valid anymore ';
+InvalidVATBusGrpMsg: Label '%1 is not valid VAT Business group.', Comment = '%1 is code for vat bus group which is not valid anymore ';
+InvaledVATProductMsg: Label '%1 is not valid VAT product group.', Comment = '%1 is code for vat product group which is not valid anymore ';
         EmptyGLAccountsWarning: Boolean;
 
     local procedure EnableControls()

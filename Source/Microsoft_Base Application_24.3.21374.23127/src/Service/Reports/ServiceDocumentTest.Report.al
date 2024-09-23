@@ -1633,7 +1633,7 @@ report 5915 "Service Document - Test"
     local procedure CheckType(ServiceLine2: Record "Service Line")
     var
         ItemVariant: Record "Item Variant";
-        ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
     begin
         OnBeforeCheckType(ServiceLine2, ErrorCounter, ErrorText);
         case ServiceLine2.Type of

@@ -385,7 +385,7 @@ page 379 "Bank Acc. Reconciliation"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Transfer to General Journal_Promoted"; "Transfer to General Journal")
                 {
@@ -395,7 +395,7 @@ page 379 "Bank Acc. Reconciliation"
                 }
                 group(Category_Category6)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -411,7 +411,7 @@ page 379 "Bank Acc. Reconciliation"
             }
             group(Category_Category4)
             {
-                Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ImportBankStatement_Promoted; ImportBankStatement)
                 {
@@ -422,7 +422,7 @@ page 379 "Bank Acc. Reconciliation"
             }
             group(Category_Category5)
             {
-                Caption = 'Matching', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Matching', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(MatchManually_Promoted; MatchManually)
                 {
@@ -456,7 +456,7 @@ page 379 "Bank Acc. Reconciliation"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -655,7 +655,7 @@ page 379 "Bank Acc. Reconciliation"
         BankAccountNoIsEditable: Boolean;
         ListEmptyMsg: Label 'No bank statement lines exist. Choose the Import Bank Statement action to fill in the lines from a file, or enter lines manually.';
         ImportedLinesAfterStatementDateMsg: Label 'Imported bank statement has lines dated after the statement date.';
-        StatementDateEmptyMsg: Label 'Statement date is empty. The latest bank statement line is %1. Do you want to set the statement date to this date?', Comment = '%1 - statement date';
+StatementDateEmptyMsg: Label 'Statement date is empty. The latest bank statement line is %1. Do you want to set the statement date to this date?', Comment = '%1 - statement date';
         NoBankAccReconcilliationLineWithDiffSellectedErr: Label 'Select the bank statement lines that have differences to transfer to the general journal.';
         UpdatedBankAccountLESystemId: Guid;
         IgnoreExistingBankAccReconciliationAndContinueQst: Label 'There are ongoing reconciliations for this bank account. \\Do you want to continue?';

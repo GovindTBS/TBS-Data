@@ -787,7 +787,7 @@ report 120 "Aged Accounts Receivable"
         PageGroupNo: Integer;
         NextPageGroupNo: Integer;
         CustFilterCheck: Boolean;
-        Text032Txt: Label '-%1', Comment = 'Negating the period length: %1 is the period length';
+Text032Txt: Label '-%1', Comment = 'Negating the period length: %1 is the period length';
         AgedAccReceivableCptnLbl: Label 'Aged Accounts Receivable';
         CurrReportPageNoCptnLbl: Label 'Page';
         AllAmtinLCYCptnLbl: Label 'All Amounts in LCY';

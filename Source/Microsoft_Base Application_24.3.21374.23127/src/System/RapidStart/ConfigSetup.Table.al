@@ -328,7 +328,7 @@ table 8627 "Config. Setup"
         HideDialog: Boolean;
 
         PackageAlreadyExistsQst: Label 'The imported package already exists. Do you want to import another package?';
-        PackageDataNotDefinedErr: Label '%1 should be defined in the imported package.', Comment = '%1 = "Package Code"';
+PackageDataNotDefinedErr: Label '%1 should be defined in the imported package.', Comment = '%1 = "Package Code"';
         ChooseFileTitleMsg: Label 'Choose the file to upload.';
 
     [Scope('OnPrem')]

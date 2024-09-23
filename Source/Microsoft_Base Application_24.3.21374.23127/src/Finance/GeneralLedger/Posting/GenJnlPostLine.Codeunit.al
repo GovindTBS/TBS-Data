@@ -133,18 +133,18 @@ codeunit 12 "Gen. Jnl.-Post Line"
         GLEntryInconsistent: Boolean;
         MultiplePostingGroups: Boolean;
 
-        NeedsRoundingErr: Label '%1 needs to be rounded', Comment = '%1 - amount';
-        PurchaseAlreadyExistsErr: Label 'Purchase %1 %2 already exists for this vendor.', Comment = '%1 = Document Type; %2 = Document No.';
+NeedsRoundingErr: Label '%1 needs to be rounded', Comment = '%1 - amount';
+PurchaseAlreadyExistsErr: Label 'Purchase %1 %2 already exists for this vendor.', Comment = '%1 = Document Type; %2 = Document No.';
         BankPaymentTypeMustNotBeFilledErr: Label 'Bank Payment Type must not be filled if Currency Code is different in Gen. Journal Line and Bank Account.';
-        DocNoMustBeEnteredErr: Label 'Document No. must be entered when Bank Payment Type is %1.', Comment = '%1 - option value';
-        CheckAlreadyExistsErr: Label 'Check %1 already exists for this Bank Account.', Comment = '%1 - document no.';
-        ResidualRoundingErr: Label 'Residual caused by rounding of %1', Comment = '%1 - amount';
-        DimensionUsedErr: Label 'A dimension used in %1 %2, %3, %4 has caused an error. %5.', Comment = '%1 - table caption, %2 - template name, %3 - batch name, %4 - line no., %5 - error message';
-        InvalidPostingDateErr: Label '%1 is not within the range of posting dates for deferrals for your company. Check the user setup for the allowed deferrals posting dates.', Comment = '%1=The date passed in for the posting date.';
-        DescriptionMustNotBeBlankErr: Label 'When %1 is selected for %2, %3 must have a value.', Comment = '%1: Field Omit Default Descr. in Jnl., %2 G/L Account No, %3 Description';
-        NoDeferralScheduleErr: Label 'You must create a deferral schedule if a deferral template is selected. Line: %1, Deferral Template: %2.', Comment = '%1=The line number of the general ledger transaction, %2=The Deferral Template Code';
-        ZeroDeferralAmtErr: Label 'Deferral amounts cannot be 0. Line: %1, Deferral Template: %2.', Comment = '%1=The line number of the general ledger transaction, %2=The Deferral Template Code';
-        CannotUnapplyEmptySrcCurrErr: Label 'Cannot unapply an entry when %1 is not equal to zero, and %2 is empty. Please try to unapply from an opposite entry.', Comment = '%1 - Realized Amount caption, %2 - Source Currency Code caption';
+DocNoMustBeEnteredErr: Label 'Document No. must be entered when Bank Payment Type is %1.', Comment = '%1 - option value';
+CheckAlreadyExistsErr: Label 'Check %1 already exists for this Bank Account.', Comment = '%1 - document no.';
+ResidualRoundingErr: Label 'Residual caused by rounding of %1', Comment = '%1 - amount';
+DimensionUsedErr: Label 'A dimension used in %1 %2, %3, %4 has caused an error. %5.', Comment = '%1 - table caption, %2 - template name, %3 - batch name, %4 - line no., %5 - error message';
+InvalidPostingDateErr: Label '%1 is not within the range of posting dates for deferrals for your company. Check the user setup for the allowed deferrals posting dates.', Comment = '%1=The date passed in for the posting date.';
+DescriptionMustNotBeBlankErr: Label 'When %1 is selected for %2, %3 must have a value.', Comment = '%1: Field Omit Default Descr. in Jnl., %2 G/L Account No, %3 Description';
+NoDeferralScheduleErr: Label 'You must create a deferral schedule if a deferral template is selected. Line: %1, Deferral Template: %2.', Comment = '%1=The line number of the general ledger transaction, %2=The Deferral Template Code';
+ZeroDeferralAmtErr: Label 'Deferral amounts cannot be 0. Line: %1, Deferral Template: %2.', Comment = '%1=The line number of the general ledger transaction, %2=The Deferral Template Code';
+CannotUnapplyEmptySrcCurrErr: Label 'Cannot unapply an entry when %1 is not equal to zero, and %2 is empty. Please try to unapply from an opposite entry.', Comment = '%1 - Realized Amount caption, %2 - Source Currency Code caption';
         IsGLRegInserted: Boolean;
 
     procedure GetGLReg(var NewGLReg: Record "G/L Register")

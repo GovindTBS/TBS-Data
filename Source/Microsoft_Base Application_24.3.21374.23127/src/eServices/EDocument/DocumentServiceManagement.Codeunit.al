@@ -26,7 +26,7 @@ codeunit 9510 "Document Service Management"
     var
         NoConfigErr: Label 'No online document configuration was found.';
         MultipleConfigsErr: Label 'More than one online document configuration was found.';
-        SourceFileNotFoundErr: Label 'Cannot open the specified document from the following location: %1 due to the following error: %2.', Comment = '%1=Full path to the file on disk;%2=the detailed error describing why the document could not be accessed.';
+SourceFileNotFoundErr: Label 'Cannot open the specified document from the following location: %1 due to the following error: %2.', Comment = '%1=Full path to the file on disk;%2=the detailed error describing why the document could not be accessed.';
         RequiredSourceNameErr: Label 'You must specify a source path for the document.';
         DocumentService: DotNet IDocumentService;
         DocumentServiceFactory: DotNet DocumentServiceFactory;
@@ -40,7 +40,7 @@ codeunit 9510 "Document Service Management"
         MissingClientIdOrSecretErr: Label 'The client ID or client secret have not been initialized.';
         SharePointIsoStorageSecretNotConfiguredErr: Label 'Client secret for SharePoint has not been configured.';
         SharePointIsoStorageSecretNotConfiguredLbl: Label 'Client secret for SharePoint has not been configured.', Locked = true;
-        AuthTokenOrCodeNotReceivedErr: Label 'No access token or authorization error code received. The authorization failure error is: %1.', Comment = '%1=Authentiaction Failure Error', Locked = true;
+AuthTokenOrCodeNotReceivedErr: Label 'No access token or authorization error code received. The authorization failure error is: %1.', Comment = '%1=Authentiaction Failure Error', Locked = true;
         AccessTokenAcquiredFromCacheErr: Label 'The attempt to acquire the access token form cache has failed.', Locked = false;
         OAuthAuthorityUrlLbl: Label 'https://login.microsoftonline.com/common/oauth2', Locked = true;
         SharePointTelemetryCategoryTxt: Label 'AL Sharepoint Integration', Locked = true;
@@ -56,8 +56,8 @@ codeunit 9510 "Document Service Management"
         UnknownLocationErr: Label 'An unexpected error occurred while trying to configure the Document Service. Try again later.';
         DocumentSharingNoNameErr: Label 'The document to be shared has not specified a name.';
         DocumentSharingNoExtErr: Label 'The document to be shared has not specified a file extension.';
-        SharePointFileExistsInstructionsTxt: Label 'A file named "%1" already exists in your %2 folder in OneDrive for Business.\\ Would you like to use the existing file, add this new file as the latest version of the existing file, or rename it and keep them both?', Comment = '%1 = a file name, for example "CustomerCard.xlsx"; %2 = the product name, for example "Business Central"';
-        SharePointFileExistsOptionsTxt: Label 'Use existing,Replace,Keep both', Comment = 'A comma separated list with options.';
+SharePointFileExistsInstructionsTxt: Label 'A file named "%1" already exists in your %2 folder in OneDrive for Business.\\ Would you like to use the existing file, add this new file as the latest version of the existing file, or rename it and keep them both?', Comment = '%1 = a file name, for example "CustomerCard.xlsx"; %2 = the product name, for example "Business Central"';
+SharePointFileExistsOptionsTxt: Label 'Use existing,Replace,Keep both', Comment = 'A comma separated list with options.';
         DocumentServiceCategoryLbl: Label 'AL DocumentService', Locked = true;
         DocumentSharingStartLbl: Label 'Handling document sharing event.', Locked = true;
         DocumentServiceDefaultingLbl: Label 'Configuring defaults for document service', Locked = true;
@@ -68,10 +68,10 @@ codeunit 9510 "Document Service Management"
         TokenRequestTxt: Label 'A token was requested. GetTokenFromCache: %1', Locked = true;
         CheckingDriveProgressTxt: Label 'Checking that you have a valid drive.';
         CheckingBcDocumentFolderProgressTxt: Label 'Checking that the default folder exists.';
-        SharepointUnexpectedStatusCodeErr: Label 'OneDrive returned an unexpected error code: %1.', Comment = '%1 = An error code from OneDrive, for example 503';
-        SharepointInvalidJsonErr: Label 'OneDrive returned an invalid response. Details: %1.', Comment = '%1 = The response details from OneDrive (e.g. "Your Drive is not available")';
+SharepointUnexpectedStatusCodeErr: Label 'OneDrive returned an unexpected error code: %1.', Comment = '%1 = An error code from OneDrive, for example 503';
+SharepointInvalidJsonErr: Label 'OneDrive returned an invalid response. Details: %1.', Comment = '%1 = The response details from OneDrive (e.g. "Your Drive is not available")';
         MissingOneDriveLicenseSaasErr: Label 'You don''t have a license for OneDrive.';
-        MissingOneDriveLicenseOnPremErr: Label 'You don''t have a license for OneDrive, or your Microsoft Entra application for %1 on-premises doesn''t have the necessary permissions.', Comment = '%1 = the product name for Business Central';
+MissingOneDriveLicenseOnPremErr: Label 'You don''t have a license for OneDrive, or your Microsoft Entra application for %1 on-premises doesn''t have the necessary permissions.', Comment = '%1 = the product name for Business Central';
         GraphApiUrlOnPremTxt: Label 'https://graph.microsoft.com', Locked = true;
         StartingLinkGenerationTelemetryMsg: Label 'Starting OneDrive link generation.', Locked = true;
         UsingDefaultDocumentServiceTelemetryMsg: Label 'Using default Document Service setup.', Locked = true;
@@ -89,10 +89,10 @@ codeunit 9510 "Document Service Management"
         OneDriveFeatureNameTelemetryTxt: Label 'OneDrive', Locked = true;
         TokenRequestEventTelemetryTxt: Label 'Token Request', Locked = true;
         HttpsDomainTxt: Label 'https://%1', Locked = true;
-        ValueDoesNotExistErr: Label 'Value does not exist: %1', Comment = '%1 = The response details from OneDrive (e.g. "Your Drive is not available")';
-        DownloadUrlDoesNotExistErr: Label 'Download Url does not exist: %1', Comment = '%1 = The response details from OneDrive (e.g. "Your Drive is not available")';
+ValueDoesNotExistErr: Label 'Value does not exist: %1', Comment = '%1 = The response details from OneDrive (e.g. "Your Drive is not available")';
+DownloadUrlDoesNotExistErr: Label 'Download Url does not exist: %1', Comment = '%1 = The response details from OneDrive (e.g. "Your Drive is not available")';
         SharepointUnexpectedErr: Label 'OneDrive returned an unexpected value. Try again later.';
-        SharepointItemIdMsg: Label 'OneDrive item: %1', Comment = '%1 = Item id of file', Locked = true;
+SharepointItemIdMsg: Label 'OneDrive item: %1', Comment = '%1 = Item id of file', Locked = true;
         SharepointUnableToGetDownloadUrlMsg: Label 'No download url returned by sharepoint.', Locked = true;
 
     [Scope('OnPrem')]

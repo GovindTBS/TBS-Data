@@ -329,8 +329,8 @@ report 5936 "Service Item Worksheet"
                     field(ShowComments; ShowComments)
                     {
                         ApplicationArea = Service;
-                        Caption = 'Show Comments';
-                        ToolTip = 'Specifies if you want the printed report to show any comments to a service item.';
+Caption = 'Show Comments';
+ToolTip = 'Specifies if you want the printed report to show any comments to a service item.';
                     }
                 }
             }
@@ -363,8 +363,8 @@ report 5936 "Service Item Worksheet"
         ContractNoCaptionLbl: Label 'Contract No.';
         CustomerAddressCaptionLbl: Label 'Customer Address';
         WorksheetCaptionLbl: Label 'Service Item Worksheet';
-        FaultCommentsCaptionLbl: Label 'Fault Comments';
-        ResolutionCommentsCaptionLbl: Label 'Resolution Comments';
+FaultCommentsCaptionLbl: Label 'Fault Comments';
+ResolutionCommentsCaptionLbl: Label 'Resolution Comments';
         ServiceLinesCaptionLbl: Label 'Service Lines';
         ShiptoAddressCaptionLbl: Label 'Ship-to Address';
 

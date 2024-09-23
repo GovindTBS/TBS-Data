@@ -24,8 +24,8 @@ codeunit 5346 "CRM Sales Document Posting Mgt"
         CRMSalesOrderId: Guid;
         DeletedCoupledOrderNo: Code[20];
         DeletedCoupledOrderYourReference: Text[35];
-        CRMOrderHasBeenPostedMsg: Label '%1 ''%2'' has been posted in %3.', Comment = '%1=Document Type;%2=Document Id;%3=The name of our product';
-        CRMInvoiceHasBeenPostedMsg: Label 'Invoice ''%1'' for order ''%2'' has been posted in %3.', Comment = '%1=Invoice number;%2=Order number;%3=The name of our product';
+CRMOrderHasBeenPostedMsg: Label '%1 ''%2'' has been posted in %3.', Comment = '%1=Document Type;%2=Document Id;%3=The name of our product';
+CRMInvoiceHasBeenPostedMsg: Label 'Invoice ''%1'' for order ''%2'' has been posted in %3.', Comment = '%1=Invoice number;%2=Order number;%3=The name of our product';
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Sales-Post", 'OnBeforeDeleteAfterPosting', '', false, false)]
     local procedure SetSalesOrderIdsOnSalesHeaderDeletion(var SalesHeader: Record "Sales Header"; var SalesInvoiceHeader: Record "Sales Invoice Header"; var SalesCrMemoHeader: Record "Sales Cr.Memo Header"; var SkipDelete: Boolean; CommitIsSuppressed: Boolean; EverythingInvoiced: Boolean; var TempSalesLineGlobal: Record "Sales Line" temporary)

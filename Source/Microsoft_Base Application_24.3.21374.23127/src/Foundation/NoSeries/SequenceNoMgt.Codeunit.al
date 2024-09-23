@@ -9,7 +9,7 @@ codeunit 9500 "Sequence No. Mgt."
     Permissions = TableData "Interaction Log Entry" = r, Tabledata Attachment = r;
 
     var
-        SeqNameLbl: Label 'TableSeq%1', Comment = '%1 - Table No.', Locked = true;
+SeqNameLbl: Label 'TableSeq%1', Comment = '%1 - Table No.', Locked = true;
 
     procedure GetNextSeqNo(TableNo: Integer): Integer
     var

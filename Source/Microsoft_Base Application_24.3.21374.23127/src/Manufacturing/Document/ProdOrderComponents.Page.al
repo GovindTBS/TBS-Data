@@ -469,7 +469,7 @@ page 99000818 "Prod. Order Components"
                                   "Prod. Order No." = field("Prod. Order No."),
                                   "Prod. Order Line No." = field("Prod. Order Line No."),
                                   "Prod. Order BOM Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -616,7 +616,7 @@ page 99000818 "Prod. Order Components"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Reserve_Promoted; Reserve)
                 {
@@ -626,7 +626,7 @@ page 99000818 "Prod. Order Components"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                     actionref(ItemTrackingLines_Promoted; ItemTrackingLines)
                     {
@@ -653,12 +653,12 @@ page 99000818 "Prod. Order Components"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

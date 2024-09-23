@@ -31,8 +31,8 @@ codeunit 5365 "CDS Int. Option Couple"
     var
         CRMIntegrationTableSynch: Codeunit "CRM Integration Table Synch.";
         SynchActionType: Option "None",Insert,Modify,ForceModify,IgnoreUnchanged,Fail,Skip,Delete,Uncouple,Couple;
-        NoMatchingCriteriaDefinedErr: Label 'You must specify which integration field mappings on the integration table mapping %1 should be used for match-based coupling.', Comment = '%1 - integration table mapping name';
-        NoMatchFoundErr: Label 'Failed to couple %2 record(s), because no unique uncoupled matching entity was found in %1 with the specified matching criteria.', Comment = '%1 - comma-separated list of field names, %2 - A URL, %3 - an integer, number of records';
+NoMatchingCriteriaDefinedErr: Label 'You must specify which integration field mappings on the integration table mapping %1 should be used for match-based coupling.', Comment = '%1 - integration table mapping name';
+NoMatchFoundErr: Label 'Failed to couple %2 record(s), because no unique uncoupled matching entity was found in %1 with the specified matching criteria.', Comment = '%1 - comma-separated list of field names, %2 - A URL, %3 - an integer, number of records';
         NoMatchFoundTelemetryErr: Label 'No matching entity was found for %1 in %3 by matching on following fields: %2.', Locked = true;
         SingleMatchAlreadyCoupledTelemetryErr: Label 'Single matching entity was found for %1 in %3 by matching on following fields: %2, but it is already coupled.', Locked = true;
         MultipleMatchesFoundTelemetryErr: Label 'Multiple matching entities found for %1 in %3 by matching on following fields: %2.', Locked = true;
@@ -41,7 +41,7 @@ codeunit 5365 "CDS Int. Option Couple"
         SkippingPostCouplingSynchTelemetryNoneCoupledMsg: Label 'Skipping post-coupling synchronization for integration table mapping %1, because no records were coupled.', Locked = true;
         StartingPostCouplingSynchTelemetryMsg: Label 'Starting post-coupling synchronization for integration table mapping %1, for %2 coupled records.', Locked = true;
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;
-        CouplingMsg: Label 'Coupling records...\\Processing record #1##########', Comment = '#1 place holder for record number';
+CouplingMsg: Label 'Coupling records...\\Processing record #1##########', Comment = '#1 place holder for record number';
         MappingNameWithParentTxt: Label '%1 (%2)', Locked = true;
         OptionMappingCannotBeBidirectionalErr: Label 'Option mappings can only synchronize from integration table or to integration table.';
         DataverseOrgURL: Text;

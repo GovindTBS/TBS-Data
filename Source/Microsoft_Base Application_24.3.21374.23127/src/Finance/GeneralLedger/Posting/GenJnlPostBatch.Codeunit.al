@@ -46,7 +46,7 @@ codeunit 13 "Gen. Jnl.-Post Batch"
     end;
 
     var
-        PostingStateMsg: Label 'Journal Batch Name    #1##########\\Posting @2@@@@@@@@@@@@@\#3#############', Comment = 'This is a message for dialog window. Parameters do not require translation.';
+PostingStateMsg: Label 'Journal Batch Name    #1##########\\Posting @2@@@@@@@@@@@@@\#3#############', Comment = 'This is a message for dialog window. Parameters do not require translation.';
         CheckingLinesMsg: Label 'Checking lines';
         CheckingBalanceMsg: Label 'Checking balance';
         UpdatingBalLinesMsg: Label 'Updating bal. lines';
@@ -117,7 +117,7 @@ codeunit 13 "Gen. Jnl.-Post Batch"
         LastFAAddCurrExchRate: Decimal;
         LastCurrencyCode: Code[10];
         CurrencyBalance: Decimal;
-        Text029: Label '%1 %2 posted on %3 includes more than one customer, vendor or IC Partner.', Comment = '%1 = Document Type;%2 = Document No.;%3=Posting Date';
+Text029: Label '%1 %2 posted on %3 includes more than one customer, vendor or IC Partner.', Comment = '%1 = Document Type;%2 = Document No.;%3=Posting Date';
         Text030: Label 'You cannot enter G/L Account or Bank Account in both %1 and %2.';
         Text031: Label 'Line No. %1 does not contain a G/L Account or Bank Account. When the %2 field contains an account number, either the %3 field or the %4 field must contain a G/L Account or Bank Account.';
         RefPostingState: Option "Checking lines","Checking balance","Updating bal. lines","Posting Lines","Posting revers. lines","Updating lines";
@@ -125,7 +125,7 @@ codeunit 13 "Gen. Jnl.-Post Batch"
         SkippedLineMsg: Label 'One or more lines has not been posted because the amount is zero.';
         ConfirmPostingAfterWorkingDateQst: Label 'The posting date of one or more journal lines is after the working date. Do you want to continue?';
         SuppressCommit: Boolean;
-        ReversePostingDateErr: Label 'Posting Date for reverse cannot be less than %1', Comment = '%1 = Posting Date';
+ReversePostingDateErr: Label 'Posting Date for reverse cannot be less than %1', Comment = '%1 = Posting Date';
         FirstLine: Boolean;
         TempBatchNameTxt: Label 'BD_TEMP', Locked = true;
         TwoPlaceHoldersTok: Label '%1%2', Locked = true;

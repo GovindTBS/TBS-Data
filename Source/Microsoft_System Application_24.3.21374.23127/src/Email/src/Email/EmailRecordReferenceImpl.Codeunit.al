@@ -20,7 +20,7 @@ codeunit 8903 "Email Record Reference Impl." implements "Record Reference"
 
     var
         InitializedCallerModuleId: Guid;
-        IncorrectCallerAppIdErr: Label 'The interface was initialized by a different app. Initializer app id: %1, caller app id :%2', Comment = '%1 and %2 are guid''s';
+IncorrectCallerAppIdErr: Label 'The interface was initialized by a different app. Initializer app id: %1, caller app id :%2', Comment = '%1 and %2 are guid''s';
         SystemApplicationAppIdTxt: Label '63ca2fa4-4f03-4f2b-a480-172fef340d3f', Locked = true;
         RetentionPolicyAppIdTxt: Label 'a8177fd4-0adb-4482-889c-2e123a13b50a', Locked = true;
 

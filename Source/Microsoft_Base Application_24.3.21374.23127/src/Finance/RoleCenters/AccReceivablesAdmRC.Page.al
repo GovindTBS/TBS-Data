@@ -449,7 +449,7 @@ page 9003 "Acc. Receivables Adm. RC"
                     Caption = 'Posted Deposits';
                     Image = PostedDeposit;
                     RunObject = Page "Posted Deposit List";
-                    ToolTip = 'View the posted deposit header, deposit header lines, deposit comments, and deposit dimensions.';
+ToolTip = 'View the posted deposit header, deposit header lines, deposit comments, and deposit dimensions.';
                 }
                 action("Posted Bank Deposits")
                 {
@@ -457,7 +457,7 @@ page 9003 "Acc. Receivables Adm. RC"
                     Caption = 'Posted Bank Deposits';
                     Image = PostedDeposit;
                     RunObject = codeunit "Open P. Bank Deposits L. Page";
-                    ToolTip = 'View the posted bank deposit header, bank deposit header lines, bank deposit comments, and bank deposit dimensions.';
+ToolTip = 'View the posted bank deposit header, bank deposit header lines, bank deposit comments, and bank deposit dimensions.';
                 }
                 action("Posted Bank Recs.")
                 {

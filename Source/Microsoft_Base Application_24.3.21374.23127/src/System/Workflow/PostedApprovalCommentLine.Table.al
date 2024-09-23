@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 
 table 457 "Posted Approval Comment Line"
 {
-    Caption = 'Posted Approval Comment Line';
+Caption = 'Posted Approval Comment Line';
     DrillDownPageID = "Posted Approval Comments";
     LookupPageID = "Posted Approval Comments";
     DataClassification = CustomerContent;
@@ -36,7 +36,7 @@ table 457 "Posted Approval Comment Line"
         }
         field(7; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(8; "Posted Record ID"; RecordID)
         {

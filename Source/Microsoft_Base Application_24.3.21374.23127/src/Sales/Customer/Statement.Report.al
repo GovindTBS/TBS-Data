@@ -877,19 +877,19 @@ report 116 Statement
         ShowPrintIfEmailIsMissing: Boolean;
         FirstCustomerPrinted: Boolean;
 
-        Text001Lbl: Label 'Entries %1', Comment = '%1 is the currency code';
-        Text002Lbl: Label 'Overdue Entries %1', Comment = '%1 is the currency code';
+Text001Lbl: Label 'Entries %1', Comment = '%1 is the currency code';
+Text002Lbl: Label 'Overdue Entries %1', Comment = '%1 is the currency code';
         Text003Txt: Label 'Statement ';
         Text005Txt: Label 'Multicurrency Application';
         Text006Txt: Label 'Payment Discount';
         Text007Txt: Label 'Rounding';
         Text008Err: Label 'You must specify the Aging Band Period Length.';
         Text010Err: Label 'You must specify Aging Band Ending Date.';
-        Text011Lbl: Label 'Aged Summary by %1 (%2 by %3)', Comment = '%1 is ending date, %2 is period length, %3 is Due Date or Posting Date';
+Text011Lbl: Label 'Aged Summary by %1 (%2 by %3)', Comment = '%1 is ending date, %2 is period length, %3 is Due Date or Posting Date';
         Text012Err: Label 'Period Length is out of range.';
         Text013Txt: Label 'Due Date,Posting Date';
         Text014Txt: Label 'Application Writeoffs';
-        Text036Txt: Label '-%1', Comment = 'Negating the period length: %1 is the period length';
+Text036Txt: Label '-%1', Comment = 'Negating the period length: %1 is the period length';
         StatementCaptionLbl: Label 'Statement';
         PhoneNo_CompanyInfoCaptionLbl: Label 'Phone No.';
         VATRegNo_CompanyInfoCaptionLbl: Label 'VAT Registration No.';

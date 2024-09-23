@@ -1089,7 +1089,7 @@ page 88 "Job Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Job),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Online Map")
                 {
@@ -1739,7 +1739,7 @@ page 88 "Job Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Copy Job Tasks &from..._Promoted"; "Copy Job Tasks &from...")
                 {
@@ -1756,7 +1756,7 @@ page 88 "Job Card"
             }
             group(Category_Category8)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("Report Job Quote_Promoted"; "Report Job Quote")
                 {
@@ -1767,7 +1767,7 @@ page 88 "Job Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(SalesPriceLists_Promoted; SalesPriceLists)
                 {
@@ -1830,7 +1830,7 @@ page 88 "Job Card"
             }
             group(Category_Category5)
             {
-                Caption = 'WIP', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'WIP', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("<Action82>_Promoted"; "<Action82>")
                 {
@@ -1847,7 +1847,7 @@ page 88 "Job Card"
             }
             group(Category_Category7)
             {
-                Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref("&Dimensions_Promoted"; "&Dimensions")
                 {
@@ -1878,11 +1878,11 @@ page 88 "Job Card"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Job Actual to Budget (Cost)_Promoted"; "Job Actual to Budget (Cost)")
                 {

@@ -106,7 +106,7 @@ codeunit 1368 "Monitored Field Notification"
     var
         Email: Codeunit Email;
         EmailAccount: Codeunit "Email Account";
-        ChangeStateSubjMsg: Label 'Business Central Extended Security - %1', Comment = '%1 is started or stopped as see in MonitorEnabledTxt,MonitorDisabledTxt labels';
+ChangeStateSubjMsg: Label 'Business Central Extended Security - %1', Comment = '%1 is started or stopped as see in MonitorEnabledTxt,MonitorDisabledTxt labels';
         ChangeStateBodyMsg: Label '<p style="font-family:Verdana,Arial;font-size:10pt"><b>You are signed up to receive email notifications when certain data is changed in the %1 company in Microsoft Dynamics 365 Business Central. <BR>This message is to inform you that the following change was made:</b></p><p style="font-family:Verdana,Arial;font-size:9pt"><b>Extended Security State has changed:</b><BR><b>Original State:</b> %2<BR><b>New State:</b> %3<BR><b>Changed By:</b> %4<BR><b>Changed Date/Time:</b> %5</p><p>Notification messages are sent automatically and cannot be replied to.</p>',
         Comment = '{Locked="p style=","font-family:","font-size","pt","<b>","</b>","</p>","<BR>","SMTP"} %1 is Company Name; %2 is original state, started or stopped; %3 is new state, started or stopped; %4 is Changed By, User who made the change; %5  date time';
         MonitorEnabledTxt: Label 'Started';

@@ -36,14 +36,14 @@ codeunit 9018 "Azure AD Plan Impl."
         NotBCPlanAssignedMsg: Label 'Plan is assigned to user but it is not recognized as a BC plan. Plan ID: %1', Locked = true;
         DeviceUserWithBcPlanMsg: Label 'User with authentication object ID %1 is a member of the Device group, but also has Business Central plans assigned. The Device plan will not be assigned to this user.', Locked = true;
         DeviceUserCannotBeFirstUserErr: Label 'The device user cannot be the first user to log into the system.';
-        UserGotPlanTxt: Label 'The Graph User with the authentication object ID %1 has a plan with ID %2 named %3.', Comment = '%1 = Authentication email (email); %2 = subscription plan ID (guid); %3 = Plan name (tex1t)', Locked = true;
-        PlansDifferentCheckTxt: Label 'Checking if plans different for graph user with authentication object ID %1 and BC user with security ID %2.', Comment = '%1 = Authentication email (email); %2 = user security ID (guid)', Locked = true;
+UserGotPlanTxt: Label 'The Graph User with the authentication object ID %1 has a plan with ID %2 named %3.', Comment = '%1 = Authentication email (email); %2 = subscription plan ID (guid); %3 = Plan name (tex1t)', Locked = true;
+PlansDifferentCheckTxt: Label 'Checking if plans different for graph user with authentication object ID %1 and BC user with security ID %2.', Comment = '%1 = Authentication email (email); %2 = user security ID (guid)', Locked = true;
         PlanCountDifferentTxt: Label 'The count of plans in BC is %1 and count of plans in Graph is %2.', Locked = true;
         UserNotInUserTableTxt: Label 'The user is not present in the User table. Security ID: %1.', Locked = true;
         AzureGraphUserNotFoundTxt: Label 'Could not retrieve an Azure Graph user for User Security ID: %1.', Locked = true;
         AzurePlanRoleCenterFoundTxt: Label 'Found role center %1 for user %2 from Azure Plan.', Locked = true;
         NoPlanHasRoleCenterTxt: Label 'There is no plan for the user with a valid Role Center ID.', Locked = true;
-        GraphUserHasExtraPlanTxt: Label 'Graph user has plan with ID %1 and named %2 that BC user does not have.', Locked = true, Comment = '%1 = Plan ID (guid); %2 = Plan name';
+GraphUserHasExtraPlanTxt: Label 'Graph user has plan with ID %1 and named %2 that BC user does not have.', Locked = true, Comment = '%1 = Plan ID (guid); %2 = Plan name';
         MixedPlansExistTxt: Label 'Check for mixed plans. Basic plan exists: %1, Essentials plan exists: %2; Premium plan exists: %3.', Locked = true;
         UserDoesNotExistTxt: Label 'User with user SID %1 does not exist or does not have an authentication object ID', Locked = true;
         UsersWithMixedPlansTxt: Label 'Check for mixed plans. Authentication object ID for the first conflicting user: [%1]; second conflicting user [%2].', Locked = true;
@@ -53,7 +53,7 @@ codeunit 9018 "Azure AD Plan Impl."
         PremiumPlanNameTxt: Label 'Dynamics 365 Business Central Premium', Locked = true;
         ClearPersonalizationTxt: Label 'Clear company in User Personalization', Locked = true;
         NoDelegatedRoleTxt: Label 'User does not have a delegated role (e.g. Delegated Admin or Delegated Helpdesk)', Locked = true;
-        AssigningPlanForDelegatedRoleTxt: Label 'Assigning plan %1 for a user with a delegated role (e.g. Delegated Admin or Delegated Helpdesk)', Comment = '%1 = the plan ID', Locked = true;
+AssigningPlanForDelegatedRoleTxt: Label 'Assigning plan %1 for a user with a delegated role (e.g. Delegated Admin or Delegated Helpdesk)', Comment = '%1 = the plan ID', Locked = true;
         RemovedSUPERFromUserTxt: Label 'Removed SUPER from the current user', Locked = true;
 
     [NonDebuggable]

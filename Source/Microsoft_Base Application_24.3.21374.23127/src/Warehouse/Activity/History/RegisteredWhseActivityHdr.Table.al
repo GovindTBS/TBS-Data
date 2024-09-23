@@ -63,7 +63,7 @@ table 5772 "Registered Whse. Activity Hdr."
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Rgstrd. Whse. Activity Header"),
                                                                 Type = field(Type),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

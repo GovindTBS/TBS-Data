@@ -220,7 +220,7 @@ table 290 "VAT Amount Line"
         Text002: Label '%1 must not be negative.';
         Text004: Label '%1 for %2 must not exceed %3 = %4.';
         Text005: Label '%1 must not exceed %2 = %3.';
-        InvoiceDiscAmtIsGreaterThanBaseAmtErr: Label 'The maximum %1 that you can apply is %2.', Comment = '1 Invoice Discount Amount that should be set 2 Maximum Amount that you can assign';
+InvoiceDiscAmtIsGreaterThanBaseAmtErr: Label 'The maximum %1 that you can apply is %2.', Comment = '1 Invoice Discount Amount that should be set 2 Maximum Amount that you can assign';
 
     procedure CheckVATDifference(NewCurrencyCode: Code[10]; NewAllowVATDifference: Boolean)
     var

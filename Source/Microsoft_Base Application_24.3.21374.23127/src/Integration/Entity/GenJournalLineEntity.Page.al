@@ -856,7 +856,7 @@ page 6407 "Gen. Journal Line Entity"
                 field(comment; Rec.Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comment', Locked = true;
+Caption = 'Comment', Locked = true;
                 }
                 field(checkExported; Rec."Check Exported")
                 {

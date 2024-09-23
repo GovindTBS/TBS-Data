@@ -698,8 +698,8 @@ report 10040 "Aged Accounts Receivable NA"
         ShortDateTitle: Text[20];
         PeriodEndingDate: array[5] of Date;
         AgingDate: Date;
-        AmountsAreInLbl: Label 'Amounts are in %1', Comment = '%1=currency code';
-        CustomerBlockedLbl: Label '*** This customer is blocked  for %1 processing ***  ', Comment = '%1=blocking type';
+AmountsAreInLbl: Label 'Amounts are in %1', Comment = '%1=currency code';
+CustomerBlockedLbl: Label '*** This customer is blocked  for %1 processing ***  ', Comment = '%1=blocking type';
         PrivacyBlockedTxt: Label '*** This customer is blocked for privacy ***.';
         NoLimitLbl: Label 'No Limit';
         OverLimitLbl: Label '*** Over Limit ***';
@@ -719,7 +719,7 @@ report 10040 "Aged Accounts Receivable NA"
         CurrentLbl: Label 'Current';
         OverLbl: Label 'Over';
         AmountsAreIn2Lbl: Label 'Amounts are in the customer''s local currency (report totals are in %1).';
-        ReportTotalAmountDueLbl: Label 'Report Total Amount Due (%1)', Comment = '%1=currency code';
+ReportTotalAmountDueLbl: Label 'Report Total Amount Due (%1)', Comment = '%1=currency code';
         DataLbl: Label 'Data';
         AgedAccountsReceivableLbl: Label 'Aged Accounts Receivable';
         CompanyNameLbl: Label 'Company Name';
@@ -732,7 +732,7 @@ report 10040 "Aged Accounts Receivable NA"
         InOurFunctionalCurrencyLbl: Label 'In our Functional Currency';
         AsindicatedinDataLbl: Label 'As indicated in Data';
         AgedAsOf2Lbl: Label 'Aged as of';
-        AgingDateLbl: Label 'Aging Date (%1)', Comment = '%1=date';
+AgingDateLbl: Label 'Aging Date (%1)', Comment = '%1=date';
         DocumentCurrencyLbl: Label 'Document Currency';
         CustomerCurrencyLbl: Label 'Customer Currency';
         CreditLimitLbl: Label 'Credit Limit';

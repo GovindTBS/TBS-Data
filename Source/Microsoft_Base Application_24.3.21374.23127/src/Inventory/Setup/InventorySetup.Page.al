@@ -69,13 +69,13 @@ page 461 "Inventory Setup"
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies that you want the program to copy the comments entered on the transfer order to the transfer shipment.';
+ToolTip = 'Specifies that you want the program to copy the comments entered on the transfer order to the transfer shipment.';
                 }
                 field("Copy Comments Order to Rcpt."; Rec."Copy Comments Order to Rcpt.")
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies that you want the program to copy the comments entered on the transfer order to the transfer receipt.';
+ToolTip = 'Specifies that you want the program to copy the comments entered on the transfer order to the transfer receipt.';
                 }
                 field("Outbound Whse. Handling Time"; Rec."Outbound Whse. Handling Time")
                 {
@@ -402,11 +402,11 @@ page 461 "Inventory Setup"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Schedule Cost Adjustment and Posting_Promoted"; "Schedule Cost Adjustment and Posting")
                 {
@@ -426,7 +426,7 @@ page 461 "Inventory Setup"
             }
             group(Category_Category5)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Inventory Posting Setup_Promoted"; "Inventory Posting Setup")
                 {
@@ -437,7 +437,7 @@ page 461 "Inventory Setup"
             }
             group(Category_Category6)
             {
-                Caption = 'Journal Templates', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Journal Templates', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("Item Journal Templates_Promoted"; "Item Journal Templates")
                 {

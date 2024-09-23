@@ -51,6 +51,6 @@ codeunit 104047 "Upgrade Profiles"
         TelemetryCategoryTok: Label 'AL Upg Profiles', Locked = true;
         EmployeeProfileIDTxt: Label 'EMPLOYEE', Locked = true;
         EmployeeProfileDescriptionTxt: Label 'Gives people who have a license for Teams read-only access to data in Business Central.';
-        TelemetryResultTxt: Label 'Per database upgrade attempt of Employee profile has been completed. Result: %1.', Comment = '%1 = Upgrade result', Locked = true;
+TelemetryResultTxt: Label 'Per database upgrade attempt of Employee profile has been completed. Result: %1.', Comment = '%1 = Upgrade result', Locked = true;
         BaseAppAppId: Guid;
 }

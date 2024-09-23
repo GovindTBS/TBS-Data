@@ -53,7 +53,7 @@ page 2023 "Image Analysis Scenarios Part"
     }
 
     var
-        AcsServiceNameTxt: Label 'Azure Cognitive Services', Comment = 'The product name of Azure Cognitive Services';
+AcsServiceNameTxt: Label 'Azure Cognitive Services', Comment = 'The product name of Azure Cognitive Services';
         PrivacyStatementLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=831305', Locked = true;
-        ConfirmPrivacyNoticeQst: Label '%1\\%2\\Do you want to enable this scenario?', Comment = '%1 = a long text describing the privacy notice for this feature. %2 = a link to the privacy notice';
+ConfirmPrivacyNoticeQst: Label '%1\\%2\\Do you want to enable this scenario?', Comment = '%1 = a long text describing the privacy notice for this feature. %2 = a link to the privacy notice';
 }

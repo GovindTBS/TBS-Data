@@ -23,8 +23,8 @@ codeunit 2003 "ML Prediction Management"
         LastFeatureIndex: Integer;
         UsingKeyvaultCredentials: Boolean;
         NotRecordVariantErr: Label 'The variant must be a record variant.';
-        FieldDoesNotExistErr: Label 'A field with the ID %1 does not exist.', Comment = '%1 = field ID';
-        TooManyFeaturesErr: Label 'Cannot train or predict because you have added more than %1 features to the model.', Comment = '%1 = max number of features';
+FieldDoesNotExistErr: Label 'A field with the ID %1 does not exist.', Comment = '%1 = field ID';
+TooManyFeaturesErr: Label 'Cannot train or predict because you have added more than %1 features to the model.', Comment = '%1 = max number of features';
         LabelCannotBeFeatureErr: Label 'You have used the same field as the feature and as the label. A field can be either the label or feature, but not both.';
         FeatureRepeatedErr: Label 'You can add a field as a feature only one time.';
         TrainingPercent: Decimal;
@@ -32,7 +32,7 @@ codeunit 2003 "ML Prediction Management"
         ApiKey: SecretText;
         ApiTimeout: Integer;
         TrainingPercentageErr: Label 'The training percentage must be a decimal number between 0 and 1.';
-        SomethingWentWrongErr: Label 'Oops, something went wrong when connecting to the Azure Machine Learning endpoint. Please contact your system administrator. %1.', Comment = '%1 = detailed error';
+SomethingWentWrongErr: Label 'Oops, something went wrong when connecting to the Azure Machine Learning endpoint. Please contact your system administrator. %1.', Comment = '%1 = detailed error';
         DetailedErrorErr: Label 'Details: ';
         ErrorResponseTxt: Label 'Error code: ', Locked = true;
         AzureMachineLearningLimitReachedErr: Label 'The Microsoft Azure Machine Learning limit has been reached. Please contact your system administrator.';

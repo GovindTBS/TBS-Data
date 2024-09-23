@@ -188,7 +188,7 @@ page 570 "Chart of Accounts (G/L)"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("G/L Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {
@@ -323,7 +323,7 @@ page 570 "Chart of Accounts (G/L)"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Indent Chart of Accounts_Promoted"; "Indent Chart of Accounts")
                 {
@@ -331,11 +331,11 @@ page 570 "Chart of Accounts (G/L)"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(AccountGeneralLedgerEntries_Promoted; AccountGeneralLedgerEntries)
                 {
@@ -358,7 +358,7 @@ page 570 "Chart of Accounts (G/L)"
             }
             group(Category_Category5)
             {
-                Caption = 'Underlying Entries', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Underlying Entries', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(NetChange_Promoted; NetChange)
                 {

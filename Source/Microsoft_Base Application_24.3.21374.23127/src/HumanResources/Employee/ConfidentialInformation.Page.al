@@ -28,7 +28,7 @@ page 5221 "Confidential Information"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies if a comment is associated with the entry.';
+ToolTip = 'Specifies if a comment is associated with the entry.';
                 }
             }
         }
@@ -60,7 +60,7 @@ page 5221 "Confidential Information"
                     ApplicationArea = Comments;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     var

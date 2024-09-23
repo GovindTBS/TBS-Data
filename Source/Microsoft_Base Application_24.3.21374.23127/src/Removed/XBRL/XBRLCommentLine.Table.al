@@ -6,7 +6,7 @@ namespace Microsoft.Finance.XBRL;
 
 table 396 "XBRL Comment Line"
 {
-    Caption = 'XBRL Comment Line';
+Caption = 'XBRL Comment Line';
     ObsoleteReason = 'XBRL feature will be discontinued';
     ObsoleteState = Removed;
     ObsoleteTag = '23.0';
@@ -27,7 +27,7 @@ table 396 "XBRL Comment Line"
         }
         field(3; "Comment Type"; Option)
         {
-            Caption = 'Comment Type';
+Caption = 'Comment Type';
             OptionCaption = 'Information,Notes,Reference';
             OptionMembers = Information,Notes,Reference;
         }
@@ -37,7 +37,7 @@ table 396 "XBRL Comment Line"
         }
         field(5; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(6; "Label Language Filter"; Text[10])
         {

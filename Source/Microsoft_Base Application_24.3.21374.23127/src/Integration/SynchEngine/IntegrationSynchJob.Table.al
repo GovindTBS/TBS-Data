@@ -118,7 +118,7 @@ table 5338 "Integration Synch. Job"
     end;
 
     var
-        DeleteEntriesQst: Label 'Are you sure that you want to delete the %1 entries?', Comment = '%1 = Integration Synch. Job caption';
+DeleteEntriesQst: Label 'Are you sure that you want to delete the %1 entries?', Comment = '%1 = Integration Synch. Job caption';
 
     procedure DeleteEntries(DaysOld: Integer)
     var

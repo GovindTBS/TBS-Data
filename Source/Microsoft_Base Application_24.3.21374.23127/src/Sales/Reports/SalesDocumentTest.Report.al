@@ -2310,7 +2310,7 @@ report 202 "Sales Document - Test"
         ItemVariant: Record "Item Variant";
         ErrorTextLocal: Text[250];
         IsHandled: Boolean;
-        ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
     begin
         IsHandled := false;
         OnBeforeCheckSalesLine(SalesLine2, IsHandled, ErrorCounter, ErrorText);

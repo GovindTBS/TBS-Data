@@ -1022,7 +1022,7 @@ table 36 "Sales Header"
             CalcFormula = exist("Sales Comment Line" where("Document Type" = field("Document Type"),
                                                             "No." = field("No."),
                                                             "Document Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -3317,17 +3317,17 @@ table 36 "Sales Header"
 
     var
         Text003: Label 'You cannot rename a %1.';
-        ConfirmChangeQst: Label 'Do you want to change %1?', Comment = '%1 = a Field Caption like Currency Code';
+ConfirmChangeQst: Label 'Do you want to change %1?', Comment = '%1 = a Field Caption like Currency Code';
         Text005: Label 'You cannot reset %1 because the document still has one or more lines.';
         Text006: Label 'You cannot change %1 because the order is associated with one or more purchase orders.';
         Text007: Label '%1 cannot be greater than %2 in the %3 table.';
         Text009: Label 'Deleting this document will cause a gap in the number series for shipments. An empty shipment %1 will be created to fill this gap in the number series.\\Do you want to continue?';
         Text012: Label 'Deleting this document will cause a gap in the number series for posted invoices. An empty posted invoice %1 will be created to fill this gap in the number series.\\Do you want to continue?';
         Text014: Label 'Deleting this document will cause a gap in the number series for posted credit memos. An empty posted credit memo %1 will be created to fill this gap in the number series.\\Do you want to continue?';
-        RecreateSalesLinesMsg: Label 'If you change %1, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.\\Do you want to continue?', Comment = '%1: FieldCaption';
-        ResetItemChargeAssignMsg: Label 'If you change %1, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.\The amount of the item charge assignment will be reset to 0.\\Do you want to continue?', Comment = '%1: FieldCaption';
-        LinesNotUpdatedMsg: Label 'You have changed %1 on the sales header, but it has not been changed on the existing sales lines.', Comment = 'You have changed Order Date on the sales header, but it has not been changed on the existing sales lines.';
-        LinesNotUpdatedDateMsg: Label 'You have changed the %1 on the sales header, which might affect the prices and discounts on the sales lines. You should review the lines and manually update prices and discounts if needed.', Comment = '%1: OrderDate';
+RecreateSalesLinesMsg: Label 'If you change %1, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.\\Do you want to continue?', Comment = '%1: FieldCaption';
+ResetItemChargeAssignMsg: Label 'If you change %1, the existing sales lines will be deleted and new sales lines based on the new information on the header will be created.\The amount of the item charge assignment will be reset to 0.\\Do you want to continue?', Comment = '%1: FieldCaption';
+LinesNotUpdatedMsg: Label 'You have changed %1 on the sales header, but it has not been changed on the existing sales lines.', Comment = 'You have changed Order Date on the sales header, but it has not been changed on the existing sales lines.';
+LinesNotUpdatedDateMsg: Label 'You have changed the %1 on the sales header, which might affect the prices and discounts on the sales lines. You should review the lines and manually update prices and discounts if needed.', Comment = '%1: OrderDate';
         Text019: Label 'You must update the existing sales lines manually.';
         AffectExchangeRateMsg: Label 'The change may affect the exchange rate that is used for price calculation on the sales lines.';
         Text021: Label 'Do you want to update the exchange rate?';
@@ -3336,7 +3336,7 @@ table 36 "Sales Header"
         Text027: Label 'Your identification is set up to process from %1 %2 only.';
         Text028: Label 'You cannot change the %1 when the %2 has been filled in.';
         Text030: Label 'Deleting this document will cause a gap in the number series for return receipts. An empty return receipt %1 will be created to fill this gap in the number series.\\Do you want to continue?';
-        Text031: Label 'You have modified %1.\\Do you want to update the lines?', Comment = 'You have modified Shipment Date.\\Do you want to update the lines?';
+Text031: Label 'You have modified %1.\\Do you want to update the lines?', Comment = 'You have modified Shipment Date.\\Do you want to update the lines?';
         MaxAllowedValueIs100Err: Label 'The values must be less than or equal 100.';
         DoYouWantToKeepExistingDimensionsQst: Label 'This will change the dimension specified on the document. Do you want to recalculate/update dimensions?';
         GLSetup: Record "General Ledger Setup";
@@ -3395,10 +3395,10 @@ table 36 "Sales Header"
         Text070: Label 'You cannot change %1  to %2 because an open warehouse shipment exists for the %3.';
         BilltoCustomerNoChanged: Boolean;
         SelectNoSeriesAllowed: Boolean;
-        PrepaymentInvoicesNotPaidErr: Label 'You cannot post the document of type %1 with the number %2 before all related prepayment invoices are posted.', Comment = 'You cannot post the document of type Order with the number 1001 before all related prepayment invoices are posted.';
+PrepaymentInvoicesNotPaidErr: Label 'You cannot post the document of type %1 with the number %2 before all related prepayment invoices are posted.', Comment = 'You cannot post the document of type Order with the number 1001 before all related prepayment invoices are posted.';
         StatisticsInsuffucientPermissionsErr: Label 'You don''t have permission to view statistics.';
         Text072: Label 'There are unpaid prepayment invoices related to the document of type %1 with the number %2.';
-        PrepmtIncludeTaxErr: Label 'You cannot select the %1 field for foreign currencies.', Comment = '%1 is the feildname Prepmt. Include Tax';
+PrepmtIncludeTaxErr: Label 'You cannot select the %1 field for foreign currencies.', Comment = '%1 is the feildname Prepmt. Include Tax';
         PrepmtInvoiceExistsErr: Label 'You cannot change %1 because there is a posted Prepayment Invoice.';
         DeferralLineQst: Label 'Do you want to update the deferral schedules for the lines?';
         SynchronizingMsg: Label 'Synchronizing ...\ from: Sales Header with %1\ to: Assembly Header with %2.';
@@ -3408,7 +3408,7 @@ table 36 "Sales Header"
         SelectCustomerTemplateQst: Label 'Do you want to select the customer template?';
         ModifyCustomerAddressNotificationLbl: Label 'Update the address';
         DontShowAgainActionLbl: Label 'Don''t show again';
-        ModifyCustomerAddressNotificationMsg: Label 'The address you entered for %1 is different from the customer''s existing address.', Comment = '%1=customer name';
+ModifyCustomerAddressNotificationMsg: Label 'The address you entered for %1 is different from the customer''s existing address.', Comment = '%1=customer name';
         ValidVATNoMsg: Label 'The specified VAT registration number is valid.';
         InvalidVatRegNoMsg: Label 'The VAT registration number is not valid. Try entering the number again.';
         SellToCustomerTxt: Label 'Sell-to Customer';
@@ -3419,10 +3419,10 @@ table 36 "Sales Header"
         ModifyBillToCustomerAddressNotificationDescriptionTxt: Label 'Warn if the bill-to address on sales documents is different from the customer''s existing address.';
         DuplicatedCaptionsNotAllowedErr: Label 'Field captions must not be duplicated when using this method. Use UpdateSalesLinesByFieldNo instead.';
         PhoneNoCannotContainLettersErr: Label 'You cannot enter letters in this field.';
-        SplitMessageTxt: Label '%1\%2', Comment = 'Some message text 1.\Some message text 2.', Locked = true;
-        ConfirmEmptyEmailQst: Label 'Contact %1 has no email address specified. The value in the Email field on the sales order, %2, will be deleted. Do you want to continue?', Comment = '%1 - Contact No., %2 - Email';
+SplitMessageTxt: Label '%1\%2', Comment = 'Some message text 1.\Some message text 2.', Locked = true;
+ConfirmEmptyEmailQst: Label 'Contact %1 has no email address specified. The value in the Email field on the sales order, %2, will be deleted. Do you want to continue?', Comment = '%1 - Contact No., %2 - Email';
         FullSalesTypesTxt: Label 'Sales Quote,Sales Order,Sales Invoice,Sales Credit Memo,Sales Blanket Order,Sales Return Order';
-        RecreateSalesLinesCancelErr: Label 'Change in the existing sales lines for the field %1 is cancelled by user.', Comment = '%1 - Field Name, Sample: You must delete the existing sales lines before you can change Currency Code.';
+RecreateSalesLinesCancelErr: Label 'Change in the existing sales lines for the field %1 is cancelled by user.', Comment = '%1 - Field Name, Sample: You must delete the existing sales lines before you can change Currency Code.';
         SalesLinesCategoryLbl: Label 'Sales Lines', Locked = true;
         SalesHeaderIsTemporaryLbl: Label 'Sales Header must be not temporary.', Locked = true;
         SalesHeaderDoesNotExistLbl: Label 'Sales Header must exist.', Locked = true;

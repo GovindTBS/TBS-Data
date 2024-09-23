@@ -151,7 +151,7 @@ page 99000761 "Machine Center List"
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "Table Name" = const("Machine Center"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Lo&ad")
                 {

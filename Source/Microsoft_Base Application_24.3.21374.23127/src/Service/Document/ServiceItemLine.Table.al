@@ -1187,7 +1187,7 @@ table 5901 "Service Item Line"
                                                               "No." = field("Document No."),
                                                               Type = const(Fault),
                                                               "Table Line No." = field("Line No.")));
-            Caption = 'Fault Comment';
+Caption = 'Fault Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1198,7 +1198,7 @@ table 5901 "Service Item Line"
                                                               "No." = field("Document No."),
                                                               Type = const(Resolution),
                                                               "Table Line No." = field("Line No.")));
-            Caption = 'Resolution Comment';
+Caption = 'Resolution Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1236,7 +1236,7 @@ table 5901 "Service Item Line"
                                                               "No." = field("Document No."),
                                                               Type = const("Service Item Loaner"),
                                                               "Table Line No." = field("Line No.")));
-            Caption = 'Service Item Loaner Comment';
+Caption = 'Service Item Loaner Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1670,9 +1670,9 @@ table 5901 "Service Item Line"
         Text024: Label 'Do you want to activate a warranty for this service item line?';
         Text025: Label 'Do you want to deactivate the warranty for this service item line?';
         Text026: Label 'You cannot reset the %1 field.\You can receive it by clicking Functions, Receive Loaner.';
-        Text028: Label 'You cannot change the %1, because it has been lent in connection with %2 %3 %4.\\You can receive it by clicking Functions, Receive Loaner.', Comment = '1%=FIELDCAPTION("Loaner No."); 2%=FORMAT(ServHeader."Document Type"); 3%=ServHeader.FIELDCAPTION("No."); 4%=ServHeader."No.");';
+Text028: Label 'You cannot change the %1, because it has been lent in connection with %2 %3 %4.\\You can receive it by clicking Functions, Receive Loaner.', Comment = '1%=FIELDCAPTION("Loaner No."); 2%=FORMAT(ServHeader."Document Type"); 3%=ServHeader.FIELDCAPTION("No."); 4%=ServHeader."No.");';
         Text029: Label 'Do you want to lend %1 %2?';
-        Text030: Label '%1 %2 has already been lent within %3 %4 %5.', Comment = '1%=TempServItemLine.FIELDCAPTION("Loaner No."); 2%=TempServItemLine."Loaner No."; 3%=FORMAT(ServHeader."Document Type"); 4%=ServHeader.FIELDCAPTION("No."); 5%=ServHeader."No.");';
+Text030: Label '%1 %2 has already been lent within %3 %4 %5.', Comment = '1%=TempServItemLine.FIELDCAPTION("Loaner No."); 2%=TempServItemLine."Loaner No."; 3%=FORMAT(ServHeader."Document Type"); 4%=ServHeader.FIELDCAPTION("No."); 5%=ServHeader."No.");';
         ServMgtSetup: Record "Service Mgt. Setup";
         ServOrderAlloc: Record "Service Order Allocation";
         ServItem: Record "Service Item";
@@ -1713,10 +1713,10 @@ table 5901 "Service Item Line"
         Text039: Label 'The update has been interrupted to respect the warning.';
         HideDialogBox: Boolean;
         Text040: Label 'The selected %1 has a different %2 for this %3.\\Do you want to continue?';
-        Text041: Label 'You must specify %1 on %2 in the %3 window for the %4 %5.', Comment = '1%=ServHour.FIELDCAPTION("Starting Time"); 2%=ServHour.Day; 3%=Text058=''Service Hours''; %4=ServHour.FIELDCAPTION("Service Contract No.");%5="Contract No.");';
+Text041: Label 'You must specify %1 on %2 in the %3 window for the %4 %5.', Comment = '1%=ServHour.FIELDCAPTION("Starting Time"); 2%=ServHour.Day; 3%=Text058=''Service Hours''; %4=ServHour.FIELDCAPTION("Service Contract No.");%5="Contract No.");';
         Text042: Label 'You must specify %1 on %2 in the %3 window.';
-        Text043: Label 'You must specify %1 on %2, %3 %4 in the %5 window for the %6 %7.', Comment = '3%=FIELDCAPTION("Starting Date"); 4%=ServHour."Starting Date"; 6%=ServHour.FIELDCAPTION("Service Contract No."); 7%="Contract No.");';
-        Text044: Label 'You must specify %1 on %2, %3 %4 in the %5 window.', Comment = '1%=ServHour.FIELDCAPTION("Starting Time"); 2%=ServHour.Day; 3%=ServHour.FIELDCAPTION("Starting Date"); 4%=ServHour."Starting Date"; 5%=Text057=''Default Service Hours'';';
+Text043: Label 'You must specify %1 on %2, %3 %4 in the %5 window for the %6 %7.', Comment = '3%=FIELDCAPTION("Starting Date"); 4%=ServHour."Starting Date"; 6%=ServHour.FIELDCAPTION("Service Contract No."); 7%="Contract No.");';
+Text044: Label 'You must specify %1 on %2, %3 %4 in the %5 window.', Comment = '1%=ServHour.FIELDCAPTION("Starting Time"); 2%=ServHour.Day; 3%=ServHour.FIELDCAPTION("Starting Date"); 4%=ServHour."Starting Date"; 5%=Text057=''Default Service Hours'';';
         Text045: Label 'The %1 for this %2 occurs in more than 1 year. Please verify the setting for service hours and the %3 for the %4.';
         Text047: Label 'Service item %1 is included in more than one contract.\\Do you want to assign a contract number to the service order line?';
         Text048: Label 'You cannot change the %1 because it has already been set on the header.';
@@ -1727,7 +1727,7 @@ table 5901 "Service Item Line"
         Text053: Label 'You cannot change the contract number because some of the service lines have already been posted.';
         Text054: Label 'If you change the contract number, the existing service lines for this order line will be re-created.\Do you want to continue?';
         UseServItemLineAsxRec: Boolean;
-        Text055: Label 'You cannot change the %1 because %2 %3 has not been received.', Comment = '2%=FIELDCAPTION("Loaner No."); 3%="Loaner No.";';
+Text055: Label 'You cannot change the %1 because %2 %3 has not been received.', Comment = '2%=FIELDCAPTION("Loaner No."); 3%="Loaner No.";';
         Text056: Label 'One or more service lines of %6 %7 and/or %8 exist for %1, %2 %3, %4 %5. There is a check mark in the %9 field of %10 %11, therefore %10 %11 cannot be applied to service line of %6 %7 and/or %8.\\ Do you want to apply it for other service lines?';
         Text057: Label 'Default Service Hours';
         Text058: Label 'Service Hours';

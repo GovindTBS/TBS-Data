@@ -903,5 +903,5 @@ codeunit 8905 "Email Message Impl."
 RecordNotFoundMsg: Label 'Record not found in table: %1', Comment = '%1 - File size', Locked = true;
         RgbReplacementTok: Label 'rgb($1, $2, $3)', Locked = true;
         RbgaPatternTok: Label 'rgba\((\d{1,3}),\s*(\d{1,3}),\s*(\d{1,3}),\s*1(\.0{0,2})?\)', Locked = true;
-        FileSizeTxt: Label '%1 %2', Comment = '%1 = File Size, %2 = Unit of measurement', Locked = true;
+FileSizeTxt: Label '%1 %2', Comment = '%1 = File Size, %2 = Unit of measurement', Locked = true;
 }

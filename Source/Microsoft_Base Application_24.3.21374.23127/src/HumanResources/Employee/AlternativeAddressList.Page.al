@@ -84,7 +84,7 @@ page 5204 "Alternative Address List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies if a comment was entered for this entry.';
+ToolTip = 'Specifies if a comment was entered for this entry.';
                 }
             }
         }
@@ -120,7 +120,7 @@ page 5204 "Alternative Address List"
                     RunPageLink = "Table Name" = const("Alternative Address"),
                                   "No." = field("Employee No."),
                                   "Alternative Address Code" = field(Code);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

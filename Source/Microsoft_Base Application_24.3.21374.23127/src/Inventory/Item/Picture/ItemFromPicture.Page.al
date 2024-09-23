@@ -145,7 +145,7 @@ page 7498 "Item From Picture"
     var
         ItemFromPicture: Codeunit "Item From Picture";
         NotificationLifecycleMgt: Codeunit "Notification Lifecycle Mgt.";
-        TemplateFailedOptionsTxt: Label 'Create item without template, Discard item', Comment = 'Comma separated list of options';
+TemplateFailedOptionsTxt: Label 'Create item without template, Discard item', Comment = 'Comma separated list of options';
         TemplateFailedQuestionTxt: Label 'We could not apply the item template. Contact your partner to fix this issue.\\ Do you want to create the item without applying the template?';
         AnalyzingPictureProgressTxt: Label 'Analyzing your picture...';
         ItemFromPictureStartedTelemetryTxt: Label 'Item from picture started. Image analysis enabled: %1.', Locked = true;

@@ -149,13 +149,13 @@ codeunit 699 "Exch. Rate Adjmt. Process"
         CustomerProgressBarTxt: Label 'Customer        @2@@@@@@@@@@@@@\';
         VendorProgressBarTxt: Label 'Vendor          @3@@@@@@@@@@@@@\';
         EmployeeProgressBarTxt: Label 'Employee          @5@@@@@@@@@@@@@\';
-        AdjustmentProgressBarTxt: Label 'Adjustment      #4#############', Comment = '#4 - progress bar';
+AdjustmentProgressBarTxt: Label 'Adjustment      #4#############', Comment = '#4 - progress bar';
         AdjustingVATEntriesTxt: Label 'Adjusting VAT Entries...\\';
         VATEntryProgressBarTxt: Label 'VAT Entry    @1@@@@@@@@@@@@@';
         AdjustingGeneralLedgerTxt: Label 'Adjusting general ledger...\\';
         GLAccountProgressBarTxt: Label 'G/L Account    @1@@@@@@@@@@@@@';
-        PostingDescriptionTxt: Label 'Adjmt. of %1 %2, Ex.Rate Adjust.', Comment = '%1 = Currency Code, %2= Adjust Amount';
-        ExchangeRateAdjmtMustBeErr: Label '%1 on %2 %3 must be %4. When this %2 is used in %5, the exchange rate adjustment is defined in the %6 field in the %7. %2 %3 is used in the %8 field in the %5. ', Comment = '%1, %2, &%3, %4, %5, %6, %7, %8 - field names';
+PostingDescriptionTxt: Label 'Adjmt. of %1 %2, Ex.Rate Adjust.', Comment = '%1 = Currency Code, %2= Adjust Amount';
+ExchangeRateAdjmtMustBeErr: Label '%1 on %2 %3 must be %4. When this %2 is used in %5, the exchange rate adjustment is defined in the %6 field in the %7. %2 %3 is used in the %8 field in the %5. ', Comment = '%1, %2, &%3, %4, %5, %6, %7, %8 - field names';
         PostingDateNotInPeriodErr: Label 'This posting date cannot be entered because it does not occur within the adjustment period. Reenter the posting date.';
         RatesAdjustedMsg: Label 'One or more currency exchange rates have been adjusted.';
         NothingToAdjustMsg: Label 'There is nothing to adjust.';

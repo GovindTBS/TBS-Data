@@ -22,8 +22,8 @@ codeunit 1294 "OCR Service Mgt."
     end;
 
     var
-        MissingCredentialsQst: Label '%1\ Do you want to open %2 to specify the missing values?', Comment = '%1=error message. %2=OCR Service Setup';
-        MissingCredentialsErr: Label 'You must fill the User Name, Password, and Authorization Key fields.', Comment = '%1 = OCR Service Setup';
+MissingCredentialsQst: Label '%1\ Do you want to open %2 to specify the missing values?', Comment = '%1=error message. %2=OCR Service Setup';
+MissingCredentialsErr: Label 'You must fill the User Name, Password, and Authorization Key fields.', Comment = '%1 = OCR Service Setup';
         OCRServiceSetup: Record "OCR Service Setup";
         AuthCookie: DotNet Cookie;
         ConnectionSuccessMsg: Label 'Connection succeeded.';
@@ -31,22 +31,22 @@ codeunit 1294 "OCR Service Mgt."
         NoFileContentErr: Label 'The file is empty.';
         InitiateUploadMsg: Label 'Initiate document upload.';
         GetDocumentConfirmMsg: Label 'Acknowledge document receipt.';
-        DocumentDownloadedTxt: Label 'The document was downloaded. Document ID: %1, Track ID: %2', Comment = '%1 = Document Identifier (usually a guid), %2 = Track ID';
+DocumentDownloadedTxt: Label 'The document was downloaded. Document ID: %1, Track ID: %2', Comment = '%1 = Document Identifier (usually a guid), %2 = Track ID';
         UploadFileMsg: Label 'Send to OCR service.';
         AuthenticateMsg: Label 'Log in to OCR service.';
         GetNewDocumentsMsg: Label 'Get received OCR documents.';
         GetDocumentMsg: Label 'Receive OCR document.';
-        UploadFileFailedMsg: Label 'The document failed to upload. Service Error: %1', Comment = '%1 = Response from OCR service, this will probably be an XML string';
+UploadFileFailedMsg: Label 'The document failed to upload. Service Error: %1', Comment = '%1 = Response from OCR service, this will probably be an XML string';
         UploadFileFailedTelemetryMsg: Label 'The document failed to upload. Service Error: %1', Locked = true;
         UploadFileFailedWithNoResponseMsg: Label 'The document failed to upload. The OCR service returned no response.', Locked = true;
-        UploadTotalSuccessMsg: Label 'Notify OCR service that %1 documents are ready for upload.', Comment = '%1 = Number of documents to be uploaded';
-        NewDocumentsTotalMsg: Label 'Downloaded %1 of %2 documents.', Comment = '%1 = Number of documents downloaded (e.g. 5), %2 = Number of documents processed';
-        DocumentNotDownloadedTxt: Label 'Could not download the document from the OCR service. Document ID: %1, Track ID: %2', Comment = '%1 = Document ID, %2 = Track ID';
-        DownloadNotRegisteredTxt: Label 'Could not register that the document was downloaded from the OCR service. Document ID: %1, Track ID: %2', Comment = '%1 = Document ID, %2 = Track ID';
+UploadTotalSuccessMsg: Label 'Notify OCR service that %1 documents are ready for upload.', Comment = '%1 = Number of documents to be uploaded';
+NewDocumentsTotalMsg: Label 'Downloaded %1 of %2 documents.', Comment = '%1 = Number of documents downloaded (e.g. 5), %2 = Number of documents processed';
+DocumentNotDownloadedTxt: Label 'Could not download the document from the OCR service. Document ID: %1, Track ID: %2', Comment = '%1 = Document ID, %2 = Track ID';
+DownloadNotRegisteredTxt: Label 'Could not register that the document was downloaded from the OCR service. Document ID: %1, Track ID: %2', Comment = '%1 = Document ID, %2 = Track ID';
         ImportSuccessMsg: Label 'The document was successfully received.';
         DocumentNotReadyMsg: Label 'The document cannot be received yet. Try again in a few moments.';
         NotUploadedErr: Label 'You must upload the image first.';
-        NotValidDocIDErr: Label 'Received document ID %1 contains invalid characters.', Comment = '%1 is the value.';
+NotValidDocIDErr: Label 'Received document ID %1 contains invalid characters.', Comment = '%1 is the value.';
         LoggingConstTxt: Label 'OCR Service';
         UploadSuccessMsg: Label 'The document was successfully sent to the OCR service.';
         NoOCRDataCorrectionMsg: Label 'You have made no OCR data corrections.';

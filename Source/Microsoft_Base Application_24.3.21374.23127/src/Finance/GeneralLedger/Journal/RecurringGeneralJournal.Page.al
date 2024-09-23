@@ -329,7 +329,7 @@ page 283 "Recurring General Journal"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
+ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
                     Visible = false;
                 }
                 field("Job Queue Status"; Rec."Job Queue Status")
@@ -801,11 +801,11 @@ page 283 "Recurring General Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -827,7 +827,7 @@ page 283 "Recurring General Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -838,12 +838,12 @@ page 283 "Recurring General Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
             }
             group(Category_Category7)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -851,7 +851,7 @@ page 283 "Recurring General Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

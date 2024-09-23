@@ -23,8 +23,8 @@ codeunit 925 "Assembly Header-Reserve"
 
         Text000: Label 'Reserved quantity cannot be greater than %1.';
         Text001: Label 'Codeunit is not initialized correctly.';
-        Text002: Label 'must be filled in when a quantity is reserved', Comment = 'starts with "Due Date"';
-        Text003: Label 'must not be changed when a quantity is reserved', Comment = 'starts with some field name';
+Text002: Label 'must be filled in when a quantity is reserved', Comment = 'starts with "Due Date"';
+Text003: Label 'must not be changed when a quantity is reserved', Comment = 'starts with some field name';
         AssemblyTxt: Label 'Assembly';
 
     procedure CreateReservation(var AssemblyHeader: Record "Assembly Header"; Description: Text[100]; ExpectedReceiptDate: Date; Quantity: Decimal; QuantityBase: Decimal; ForReservEntry: Record "Reservation Entry")

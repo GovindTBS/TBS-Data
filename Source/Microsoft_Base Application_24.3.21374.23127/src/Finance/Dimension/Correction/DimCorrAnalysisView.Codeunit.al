@@ -90,8 +90,8 @@ codeunit 2584 "Dim Corr Analysis View"
     end;
 
     var
-        StartingUpdateAnalysisViewsLbl: Label 'Starting Update Analysis Views, Dimension Correction - %1', Locked = true, Comment = '%1 - Number of Dimension Correction';
-        CompletedUpdateAnalysisViewsLbl: Label 'Completed Update Analysis Views, Dimension Correction - %1', Locked = true, Comment = '%1 - Number of Dimension Correction';
+StartingUpdateAnalysisViewsLbl: Label 'Starting Update Analysis Views, Dimension Correction - %1', Locked = true, Comment = '%1 - Number of Dimension Correction';
+CompletedUpdateAnalysisViewsLbl: Label 'Completed Update Analysis Views, Dimension Correction - %1', Locked = true, Comment = '%1 - Number of Dimension Correction';
         DimensionCorrectionTok: Label 'DimensionCorrection', Locked = true;
 
     [IntegrationEvent(false, false)]

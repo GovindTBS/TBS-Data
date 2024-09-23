@@ -12,7 +12,7 @@ codeunit 6515 "Package Info. Management"
 {
 
     var
-        TrackingNoInfoAlreadyExistsErr: Label '%1 already exists for %2 %3. Do you want to overwrite the existing information?', Comment = '%1 - tracking info table caption, %2 - tracking field caption, %3 - tracking field value';
+TrackingNoInfoAlreadyExistsErr: Label '%1 already exists for %2 %3. Do you want to overwrite the existing information?', Comment = '%1 - tracking info table caption, %2 - tracking field caption, %3 - tracking field value';
 
     [EventSubscriber(ObjectType::Table, Database::"Bin Content", 'OnBeforeCalcQtyWithBlockedItemTracking', '', false, false)]
     local procedure BinContentOnBeforeCalcQtyWithBlockedItemTracking(BinContent: Record "Bin Content"; var QtyWithBlockedItemTracking: Decimal)

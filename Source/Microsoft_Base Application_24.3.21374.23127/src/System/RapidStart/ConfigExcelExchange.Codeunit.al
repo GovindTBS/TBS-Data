@@ -43,9 +43,9 @@ codeunit 8618 "Config. Excel Exchange"
         VmlDrawingXmlTxt: Label '<xml xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel"><o:shapelayout v:ext="edit"><o:idmap v:ext="edit" data="1"/></o:shapelayout><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"  path="m,l,21600r21600,l21600,xe"><v:stroke joinstyle="miter"/><v:path gradientshapeok="t" o:connecttype="rect"/></v:shapetype>', Locked = true;
         EndXmlTokenTxt: Label '</xml>', Locked = true;
         FileExtensionFilterTok: Label 'Excel Files (*.xlsx)|*.xlsx|All Files (*.*)|*.*';
-        ExcelFileNameTok: Label '*%1.xlsx', Comment = '%1 = String generated from current datetime to make sure file names are unique ';
+ExcelFileNameTok: Label '*%1.xlsx', Comment = '%1 = String generated from current datetime to make sure file names are unique ';
         ExcelFileExtensionTok: Label '.xlsx';
-        InvalidDataInSheetMsg: Label 'Data in sheet ''%1'' could not be imported, because the sheet has an unexpected format.', Comment = '%1=excel sheet name';
+InvalidDataInSheetMsg: Label 'Data in sheet ''%1'' could not be imported, because the sheet has an unexpected format.', Comment = '%1=excel sheet name';
         ImportFromExcelMsg: Label 'Import from Excel';
         RapidStartTxt: Label 'RapidStart', Locked = true;
 

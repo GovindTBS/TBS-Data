@@ -174,9 +174,9 @@ page 1190 "Create Payment"
         BatchNumberNotFilledErr: Label 'You must fill the Batch Name field.';
         PostingDateNotFilledErr: Label 'You must fill the Posting Date field.';
         SpecifyStartingDocNumErr: Label 'In the Starting Document No. field, specify the first document number to be used.';
-        MessageToRecipientMsg: Label 'Payment of %1 %2 ', Comment = '%1 document type, %2 Document No.';
-        EarlierPostingDateErr: Label 'You cannot create a payment with an earlier posting date for %1 %2.', Comment = '%1 - Document Type, %2 - Document No.. You cannot create a payment with an earlier posting date for Invoice INV-001.';
-        DocToApplyLbl: Label '%1 %2', Locked = true, Comment = '%1=Document Type;%2=Vendor No.';
+MessageToRecipientMsg: Label 'Payment of %1 %2 ', Comment = '%1 document type, %2 Document No.';
+EarlierPostingDateErr: Label 'You cannot create a payment with an earlier posting date for %1 %2.', Comment = '%1 - Document Type, %2 - Document No.. You cannot create a payment with an earlier posting date for Invoice INV-001.';
+DocToApplyLbl: Label '%1 %2', Locked = true, Comment = '%1=Document Type;%2=Vendor No.';
 
     protected var
         NextDocNo: Code[20];
@@ -222,7 +222,7 @@ page 1190 "Create Payment"
         VendorLedgerEntryView: Text;
         GenJournalDocType: Enum "Gen. Journal Document Type";
         ThereAreNoPaymentsToProccesErr: Label 'There are no payments to process for the selected entries.';
-        PaymentApplicationInProcessErr: Label 'A payment application process ''%1'' is in progress for the selected entry no. %2. Make sure you have not applied this entry in ongoing journals or payment reconciliation journals.', Comment = '%1 - A code for the payment application process, %2 - The entry no. that has an ongoing application process';
+PaymentApplicationInProcessErr: Label 'A payment application process ''%1'' is in progress for the selected entry no. %2. Make sure you have not applied this entry in ongoing journals or payment reconciliation journals.', Comment = '%1 - A code for the payment application process, %2 - The entry no. that has an ongoing application process';
     begin
         TempVendorPaymentBuffer.Reset();
         TempVendorPaymentBuffer.DeleteAll();

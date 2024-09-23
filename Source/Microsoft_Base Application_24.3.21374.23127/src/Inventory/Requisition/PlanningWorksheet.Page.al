@@ -877,7 +877,7 @@ page 99000852 "Planning Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CarryOutActionMessage_Promoted; CarryOutActionMessage)
                 {
@@ -891,7 +891,7 @@ page 99000852 "Planning Worksheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(CalculateRegenerativePlan_Promoted; CalculateRegenerativePlan)
                 {
@@ -902,7 +902,7 @@ page 99000852 "Planning Worksheet"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(OrderTracking_Promoted; OrderTracking)
                 {
@@ -922,11 +922,11 @@ page 99000852 "Planning Worksheet"
             }
             group(Category_Category6)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category7)
             {
-                Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Event_Promoted; "Event")
                 {
@@ -949,7 +949,7 @@ page 99000852 "Planning Worksheet"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1014,7 +1014,7 @@ page 99000852 "Planning Worksheet"
         PlanningWkshManagement: Codeunit PlanningWkshManagement;
         ItemAvailFormsMgt: Codeunit "Item Availability Forms Mgt";
         CurrentWkshBatchName: Code[10];
-        ExcelFileNameTxt: Label 'Planning Worksheet - JournalBatchName %1 - WorksheetTemplateName %2', Comment = '%1 = Journal Batch Name; %2 = Worksheet Template Name';
+ExcelFileNameTxt: Label 'Planning Worksheet - JournalBatchName %1 - WorksheetTemplateName %2', Comment = '%1 = Journal Batch Name; %2 = Worksheet Template Name';
         OpenedFromBatch: Boolean;
         VariantCodeMandatory: Boolean;
         IsSaaSExcelAddinEnabled: Boolean;

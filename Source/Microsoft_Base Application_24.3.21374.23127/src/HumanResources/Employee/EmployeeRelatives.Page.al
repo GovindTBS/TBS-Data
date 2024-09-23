@@ -52,7 +52,7 @@ page 5209 "Employee Relatives"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies if a comment was entered for this entry.';
+ToolTip = 'Specifies if a comment was entered for this entry.';
                 }
             }
         }
@@ -88,7 +88,7 @@ page 5209 "Employee Relatives"
                     RunPageLink = "Table Name" = const("Employee Relative"),
                                   "No." = field("Employee No."),
                                   "Table Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

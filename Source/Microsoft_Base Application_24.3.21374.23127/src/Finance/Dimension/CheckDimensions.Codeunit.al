@@ -23,10 +23,10 @@ codeunit 481 "Check Dimensions"
         ErrorMessageMgt: Codeunit "Error Message Management";
         DimMgt: Codeunit DimensionManagement;
 
-        DimensionIsBlockedErr: Label 'The combination of dimensions used in %1 %2 is blocked', Comment = '%1 = Document Type, %2 = Document No, %3 = Error text';
-        LineDimensionBlockedErr: Label 'The combination of dimensions used in %1 %2, line no. %3 is blocked', Comment = '%1 = Document Type, %2 = Document No, %3 = LineNo., %4 = Error text';
-        InvalidDimensionsErr: Label 'The dimensions used in %1 %2 are invalid', Comment = '%1 = Document Type, %2 = Document No, %3 = Error text';
-        LineInvalidDimensionsErr: Label 'The dimensions used in %1 %2, line no. %3 are invalid', Comment = '%1 = Document Type, %2 = Document No, %3 = LineNo., %4 = Error text';
+DimensionIsBlockedErr: Label 'The combination of dimensions used in %1 %2 is blocked', Comment = '%1 = Document Type, %2 = Document No, %3 = Error text';
+LineDimensionBlockedErr: Label 'The combination of dimensions used in %1 %2, line no. %3 is blocked', Comment = '%1 = Document Type, %2 = Document No, %3 = LineNo., %4 = Error text';
+InvalidDimensionsErr: Label 'The dimensions used in %1 %2 are invalid', Comment = '%1 = Document Type, %2 = Document No, %3 = Error text';
+LineInvalidDimensionsErr: Label 'The dimensions used in %1 %2, line no. %3 are invalid', Comment = '%1 = Document Type, %2 = Document No, %3 = LineNo., %4 = Error text';
 
     procedure CheckPurchDim(PurchHeader: Record "Purchase Header"; var TempPurchLine: Record "Purchase Line" temporary)
     var

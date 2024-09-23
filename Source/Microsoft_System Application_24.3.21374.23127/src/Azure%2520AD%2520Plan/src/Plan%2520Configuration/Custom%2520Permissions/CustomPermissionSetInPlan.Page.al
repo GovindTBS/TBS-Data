@@ -163,7 +163,7 @@ page 9058 "Custom Permission Set In Plan"
     end;
 
     var
-        MultipleRoleIDErr: Label 'The permission set %1 is defined multiple times in this context. Use the lookup button to select the relevant permission set.', Comment = '%1 will be replaced with a Role ID code value from the Permission Set table';
+MultipleRoleIDErr: Label 'The permission set %1 is defined multiple times in this context. Use the lookup button to select the relevant permission set.', Comment = '%1 will be replaced with a Role ID code value from the Permission Set table';
         LocalPlanId: Guid;
         SkipValidation: Boolean;
         PermissionScope: Text;

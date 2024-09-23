@@ -237,7 +237,7 @@ table 6660 "Return Receipt Header"
             CalcFormula = exist("Sales Comment Line" where("Document Type" = const("Posted Return Receipt"),
                                                             "No." = field("No."),
                                                             "Document Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

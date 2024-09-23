@@ -260,7 +260,7 @@ page 89 "Job List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Job),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group("W&IP")
@@ -813,7 +813,7 @@ page 89 "Job List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CopyJob_Promoted; CopyJob)
                 {
@@ -824,7 +824,7 @@ page 89 "Job List"
             }
             group(Category_Category5)
             {
-                Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 group(Category_Dimensions)
                 {
@@ -856,7 +856,7 @@ page 89 "Job List"
             }
             group(Category_Category6)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
 #if not CLEAN23
                 actionref("&Resource_Promoted"; "&Resource")
@@ -902,7 +902,7 @@ page 89 "Job List"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(SalesPriceLines_Promoted; SalesPriceLines)
                 {
@@ -941,7 +941,7 @@ page 89 "Job List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Job - Planning Lines_Promoted"; "Job - Planning Lines")
                 {

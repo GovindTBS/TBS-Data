@@ -16,7 +16,7 @@ codeunit 1299 "Web Request Helper"
         InvalidUriErr: Label 'The URI is not valid.';
         NonSecureUriErr: Label 'The URI is not secure.';
         ProcessingWindowMsg: Label 'Please wait while the server is processing your request.\This may take several minutes.';
-        ServiceURLTxt: Label '\\Service URL: %1.', Comment = 'Example: ServiceURL: http://www.contoso.com/';
+ServiceURLTxt: Label '\\Service URL: %1.', Comment = 'Example: ServiceURL: http://www.contoso.com/';
         GlobalHttpWebResponseError: DotNet HttpWebResponse;
 
     [TryFunction]

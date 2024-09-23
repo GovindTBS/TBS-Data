@@ -389,7 +389,7 @@ table 1570 "G/L Entry Posting Preview"
         }
         field(5618; Comment; Text[250])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(8001; "Account Id"; Guid)
         {

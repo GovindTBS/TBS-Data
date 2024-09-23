@@ -220,7 +220,7 @@ page 573 "Detailed Cust. Ledg. Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Navigate_Promoted"; "&Navigate")
                 {
@@ -231,12 +231,12 @@ page 573 "Detailed Cust. Ledg. Entries"
             }
             group(Category_Category4)
             {
-                Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

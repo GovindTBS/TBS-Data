@@ -363,7 +363,7 @@ page 183 "Reverse Transaction Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Reverse_Promoted; Reverse)
                 {

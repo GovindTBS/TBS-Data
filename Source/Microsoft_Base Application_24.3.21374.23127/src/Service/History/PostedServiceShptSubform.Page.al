@@ -76,7 +76,7 @@ page 5976 "Posted Service Shpt. Subform"
                 field("Fault Comment"; Rec."Fault Comment")
                 {
                     ApplicationArea = Service;
-                    ToolTip = 'Specifies that there is a fault comment for this service item.';
+ToolTip = 'Specifies that there is a fault comment for this service item.';
                     Visible = false;
 
                     trigger OnDrillDown()
@@ -87,7 +87,7 @@ page 5976 "Posted Service Shpt. Subform"
                 field("Resolution Comment"; Rec."Resolution Comment")
                 {
                     ApplicationArea = Service;
-                    ToolTip = 'Specifies that there is a resolution comment for this service item.';
+ToolTip = 'Specifies that there is a resolution comment for this service item.';
                     Visible = false;
 
                     trigger OnDrillDown()
@@ -303,7 +303,7 @@ page 5976 "Posted Service Shpt. Subform"
                         ApplicationArea = Service;
                         Caption = 'Internal';
                         Image = Comment;
-                        ToolTip = 'View or reregister internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
+ToolTip = 'View or reregister internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
 
                         trigger OnAction()
                         begin
@@ -315,7 +315,7 @@ page 5976 "Posted Service Shpt. Subform"
                         ApplicationArea = Service;
                         Caption = 'Accessories';
                         Image = ServiceAccessories;
-                        ToolTip = 'View or register comments for the accessories to the service item.';
+ToolTip = 'View or register comments for the accessories to the service item.';
 
                         trigger OnAction()
                         begin

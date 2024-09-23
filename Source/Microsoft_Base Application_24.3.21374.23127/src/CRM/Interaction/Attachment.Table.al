@@ -134,7 +134,7 @@ table 5062 Attachment
 #endif
         Text015: Label 'The email cannot be displayed or has been deleted.';
         Text020: Label 'An Outlook dialog box is open. Close it and try again.';
-        CouldNotActivateOutlookErr: Label 'Cannot connect to Microsoft Outlook. If Microsoft Outlook is already running, make sure that you are not running either %1 or Microsoft Outlook as administrator. Close all instances of Microsoft Outlook and try again.', Comment = '%1 - product name';
+CouldNotActivateOutlookErr: Label 'Cannot connect to Microsoft Outlook. If Microsoft Outlook is already running, make sure that you are not running either %1 or Microsoft Outlook as administrator. Close all instances of Microsoft Outlook and try again.', Comment = '%1 - product name';
         UnspecifiedOutlookErr: Label ' Microsoft Outlook cannot display the message. Make sure that Microsoft Outlook is configured with access to the message that you are trying to open.';
         AttachmentImportQst: Label 'Do you want to import attachment?';
         AttachmentExportQst: Label 'Do you want to export attachment to view or edit it externaly?';

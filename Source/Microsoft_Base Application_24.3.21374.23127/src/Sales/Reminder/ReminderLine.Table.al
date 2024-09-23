@@ -567,14 +567,14 @@ table 296 "Reminder Line"
         InterestCalcDate: Date;
         CalcInterest: Boolean;
         NrOfLinesToInsert: Integer;
-        MustBeSameErr: Label 'The %1 on the %2 and the %3 must be the same.', Comment = '%1 = Field name, %2 = Table name, %3 = Table name';
-        MustBeErr: Label '%1 must be %2 or %3.', Comment = '%1 = Field name, %2 = Reminder line type value 1, %3 = Reminder line type value 2';
-        NoOpenEntriesErr: Label 'There is no open %1 with %2 %3.', Comment = '%1 = Table name, %2 = Document Type, %3 = Document No.';
-        EntryNotOverdueErr: Label '%1 %2 in %3 is not overdue.', Comment = '%1 = Document Type, %2 = Document No., %3 = Table name';
-        LineFeeAlreadyIssuedErr: Label 'The line fee for %1 %2 on reminder level %3 has already been issued.', Comment = '%1 = Document TYpe, %2 = Document No, %3 = Level number';
-        MustBePositiveErr: Label '%1 must be positive.', Comment = '%1 = Field name';
+MustBeSameErr: Label 'The %1 on the %2 and the %3 must be the same.', Comment = '%1 = Field name, %2 = Table name, %3 = Table name';
+MustBeErr: Label '%1 must be %2 or %3.', Comment = '%1 = Field name, %2 = Reminder line type value 1, %3 = Reminder line type value 2';
+NoOpenEntriesErr: Label 'There is no open %1 with %2 %3.', Comment = '%1 = Table name, %2 = Document Type, %3 = Document No.';
+EntryNotOverdueErr: Label '%1 %2 in %3 is not overdue.', Comment = '%1 = Document Type, %2 = Document No., %3 = Table name';
+LineFeeAlreadyIssuedErr: Label 'The line fee for %1 %2 on reminder level %3 has already been issued.', Comment = '%1 = Document TYpe, %2 = Document No, %3 = Level number';
+MustBePositiveErr: Label '%1 must be positive.', Comment = '%1 = Field name';
         NotEnoughSpaceToInsertErr: Label 'There is not enough space to insert lines with additional interest rates.';
-        InvalidInterestRateDateErr: Label 'Create interest rate with start date prior to %1.', Comment = '%1 - date';
+InvalidInterestRateDateErr: Label 'Create interest rate with start date prior to %1.', Comment = '%1 - date';
 
     procedure CalcFinanceCharge()
     var

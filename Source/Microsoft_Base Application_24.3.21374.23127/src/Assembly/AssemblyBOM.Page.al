@@ -291,11 +291,11 @@ page 36 "Assembly BOM"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(View_Promoted; View)
                 {
@@ -309,7 +309,7 @@ page 36 "Assembly BOM"
             }
             group(Category_Category5)
             {
-                Caption = 'BOM', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'BOM', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Show BOM_Promoted"; "Show BOM")
                 {

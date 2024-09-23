@@ -191,7 +191,7 @@ page 1263 Certificate
         IsNewRecord: Boolean;
         CertWrongPasswordErr: Label 'The password is not correct.';
         PasswordNotificationMsg: Label 'You must enter the password for this certificate.';
-        ExpiredNewCertMsg: Label 'You cannot upload the certificate%1 because it is past its expiration date.', Comment = '%1=file name, e.g. Certfile.pfx';
+ExpiredNewCertMsg: Label 'You cannot upload the certificate%1 because it is past its expiration date.', Comment = '%1=file name, e.g. Certfile.pfx';
         IsPasswordRequired: Boolean;
         CertHasExpiredMsg: Label 'The certificate has expired. To use the certificate you must upload a new certificate file.';
         IsExpired: Boolean;

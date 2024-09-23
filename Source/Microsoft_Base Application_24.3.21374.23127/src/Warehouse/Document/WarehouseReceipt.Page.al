@@ -160,7 +160,7 @@ page 5768 "Warehouse Receipt"
                     RunPageLink = "Table Name" = const("Whse. Receipt"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Posted &Whse. Receipts")
                 {
@@ -333,11 +333,11 @@ page 5768 "Warehouse Receipt"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category5)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref("Post Receipt_Promoted"; "Post Receipt")
@@ -371,7 +371,7 @@ page 5768 "Warehouse Receipt"
             }
             group(Category_Category8)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("Get Source Documents_Promoted"; "Get Source Documents")
                 {
@@ -382,7 +382,7 @@ page 5768 "Warehouse Receipt"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -390,7 +390,7 @@ page 5768 "Warehouse Receipt"
             }
             group(Category_Category6)
             {
-                Caption = 'Receipt', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Receipt', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("Co&mments_Promoted"; "Co&mments")
                 {
@@ -406,11 +406,11 @@ page 5768 "Warehouse Receipt"
             }
             group(Category_Category7)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

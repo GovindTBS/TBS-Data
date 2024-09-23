@@ -376,7 +376,7 @@ page 740 "VAT Report"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(SuggestLines_Promoted; SuggestLines)
                 {
@@ -420,7 +420,7 @@ page 740 "VAT Report"
             }
             group(Category_Category4)
             {
-                Caption = 'VAT Settlement', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'VAT Settlement', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Calc. and Post VAT Settlement_Promoted"; "Calc. and Post VAT Settlement")
                 {
@@ -428,7 +428,7 @@ page 740 "VAT Report"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

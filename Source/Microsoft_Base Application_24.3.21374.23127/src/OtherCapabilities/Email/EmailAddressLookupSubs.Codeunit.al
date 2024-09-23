@@ -339,5 +339,5 @@ codeunit 8899 "Email Address Lookup Subs"
     end;
 
     var
-        NoRecordsFoundMsg: Label 'No %1 found with an email address.', Comment = '%1 Entity type';
+NoRecordsFoundMsg: Label 'No %1 found with an email address.', Comment = '%1 Entity type';
 }

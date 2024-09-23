@@ -395,7 +395,7 @@ page 10026 "Sales Order Shipment"
                     RunObject = Page "Sales Comment Sheet";
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No.");
-                    ToolTip = 'View comments that apply.';
+ToolTip = 'View comments that apply.';
                 }
                 action("S&hipments")
                 {

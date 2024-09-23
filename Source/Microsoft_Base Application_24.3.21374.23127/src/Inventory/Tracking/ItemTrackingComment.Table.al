@@ -4,7 +4,7 @@ using Microsoft.Inventory.Item;
 
 table 6506 "Item Tracking Comment"
 {
-    Caption = 'Item Tracking Comment';
+Caption = 'Item Tracking Comment';
     DataClassification = CustomerContent;
 
     fields
@@ -39,7 +39,7 @@ table 6506 "Item Tracking Comment"
         }
         field(13; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

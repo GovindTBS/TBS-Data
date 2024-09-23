@@ -63,7 +63,7 @@ page 54 "Purchase Order Subform"
                     Editable = CurrPageIsEditable;
                     LookupPageID = "Option Lookup List";
                     TableRelation = "Option Lookup Buffer"."Option Caption" where("Lookup Type" = const(Purchases));
-                    ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
+ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
                     Visible = IsFoundation;
 
                     trigger OnValidate()
@@ -215,7 +215,7 @@ page 54 "Purchase Order Subform"
                 field(Description; Rec.Description)
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Describes what is being purchased. The suggested text comes from the item itself. You can change it to suit your needs for this document. If you change it here, the source of the text will not change. If the line''s Type field is set to Comment, you can use this field to write the comment, and leave the other fields empty.';
+ToolTip = 'Describes what is being purchased. The suggested text comes from the item itself. You can change it to suit your needs for this document. If you change it here, the source of the text will not change. If the line''s Type field is set to Comment, you can use this field to write the comment, and leave the other fields empty.';
 
                     trigger OnValidate()
                     begin
@@ -1253,7 +1253,7 @@ page 54 "Purchase Order Subform"
                     ApplicationArea = Comments;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     begin
@@ -1676,7 +1676,7 @@ page 54 "Purchase Order Subform"
         SuppressTotals: Boolean;
         UseAllocationAccountNumber: Boolean;
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Type.';
-        ExcelFileNameTxt: Label 'Purchase Order %1 - Lines', Comment = '%1 = document number, ex. 10000';
+ExcelFileNameTxt: Label 'Purchase Order %1 - Lines', Comment = '%1 = document number, ex. 10000';
 
     protected var
         Currency: Record Currency;

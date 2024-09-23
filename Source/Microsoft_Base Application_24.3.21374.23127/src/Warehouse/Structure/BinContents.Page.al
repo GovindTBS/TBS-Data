@@ -403,7 +403,7 @@ page 7374 "Bin Contents"
         DataCaption: Text[80];
         ItemDescription: Text[100];
         Text000: Label 'Location code is not allowed for user %1.';
-        ExcelFileNameTxt: Label 'BinContents - LocationCode %1 - ZoneCode %2', Comment = '%1 = Location Code; %2 = Zone Code';
+ExcelFileNameTxt: Label 'BinContents - LocationCode %1 - ZoneCode %2', Comment = '%1 = Location Code; %2 = Zone Code';
         LocFilter: Text;
         IsSaaSExcelAddinEnabled: Boolean;
 

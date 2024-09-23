@@ -460,24 +460,24 @@ report 1826 "Consolidation - Test"
         Text004Err: Label 'Enter the starting date for the consolidation period.';
         Text005Err: Label 'Enter the ending date for the consolidation period.';
         Text007Err: Label 'When using closing dates, the starting and ending dates must be the same.';
-        Text008Txt: Label 'A %1 with %2 on a closing date (%3) was found while consolidating non-closing entries.', Comment = '%1=Table Caption for Business Unit table.;%2=Field Caption for Posting Date field.;%3=Posting Date.';
-        Text009Lbl: Label 'Period: %1..%2', Comment = '%1=Consolidate Starting Date.;%2=Consolidate Ending Date.';
+Text008Txt: Label 'A %1 with %2 on a closing date (%3) was found while consolidating non-closing entries.', Comment = '%1=Table Caption for Business Unit table.;%2=Field Caption for Posting Date field.;%3=Posting Date.';
+Text009Lbl: Label 'Period: %1..%2', Comment = '%1=Consolidate Starting Date.;%2=Consolidate Ending Date.';
         Text015Txt: Label 'Copy Dimensions';
-        Text016Txt: Label '%1 %2 doesn''t exist in %3.', Comment = '%1=Selected Dimension table caption.;%2=Dimension Code value.; %3=Company Name value.';
-        Text017Txt: Label '%1 %2 in %3 has a %4 %5 that doesn''t exist in %6.', Comment = '%1=Field caption for Dimension Code field.;%2=Dimension Code value.;%3=Current Company Name value.;%4=Field caption for Consolidation Code.;%5=Consolidation Code value.;%6=Current Company name.';
-        Text018Txt: Label 'There are more than %1 errors.', Comment = '%1=The number of errors reported.';
-        Text020Txt: Label '%1 for this %2 is set to %3, but there is no %4 set up in the %2.', Comment = '%1=Field caption for Data Source field.;%2=Table caption for Business Unit table.;%3=Data Source value.;%4=Field caption for Additional Reporting Currency field.';
-        Text021Txt: Label 'Within the Subsidiary (%5), there are two G/L Accounts: %1 and %4; which refer to the same %2, but with a different %3.', Comment = '%1=Value of No. field from GL Account table.;%2=Field caption for Consol. Debit Acc. field.;%3=Field caption for Consol. Translation Method field.;%4=No. value from GL Account table.;%5=Caption for Business Unit table.';
-        Text022Txt: Label '%1 %2, referenced by Subsidiary (%5) %3 %4, does not exist in the Consolidated %3 table.', Comment = '%1=Field caption for Consol. Debit Acc. field.;%2=Consol. Debit Acc. value from GL Account table.;%3=Caption for GL Account table.;%4=No. value from GL Account table.;%5=Caption for Business Unit table.';
-        Text023Txt: Label 'Subsidiary (%7) %1 %2 must have the same %3 as Consolidated %1 %4.  (%5 <> %6)', Comment = '%1=Caption for GL Account table.;%2=Value of No. field from GL Account table.;%3=Caption for Consol. Translation Method field.;%4=Value of No. field from Consolidated GL Account table.;%5=Value of Consol. Translation Method field from GL Account.;%6=Value of Consol. Translation Method from the Consolidated GL Account table.;%7=Caption for Business Unit table.';
-        Text031Txt: Label '%1 must not be empty when %2 is not empty, in company %3.', Comment = '%1=Caption for Starting Date field.;%2=Caption for Ending Date field.;%3=Company Name value from Business Unit table.';
-        Text032Txt: Label 'The %1 is later than the %2 in company %3.', Comment = '%1=Caption for Starting Date field.;%2=Caption for Ending Date field.;%3=Company Name value from Business Unit table.';
+Text016Txt: Label '%1 %2 doesn''t exist in %3.', Comment = '%1=Selected Dimension table caption.;%2=Dimension Code value.; %3=Company Name value.';
+Text017Txt: Label '%1 %2 in %3 has a %4 %5 that doesn''t exist in %6.', Comment = '%1=Field caption for Dimension Code field.;%2=Dimension Code value.;%3=Current Company Name value.;%4=Field caption for Consolidation Code.;%5=Consolidation Code value.;%6=Current Company name.';
+Text018Txt: Label 'There are more than %1 errors.', Comment = '%1=The number of errors reported.';
+Text020Txt: Label '%1 for this %2 is set to %3, but there is no %4 set up in the %2.', Comment = '%1=Field caption for Data Source field.;%2=Table caption for Business Unit table.;%3=Data Source value.;%4=Field caption for Additional Reporting Currency field.';
+Text021Txt: Label 'Within the Subsidiary (%5), there are two G/L Accounts: %1 and %4; which refer to the same %2, but with a different %3.', Comment = '%1=Value of No. field from GL Account table.;%2=Field caption for Consol. Debit Acc. field.;%3=Field caption for Consol. Translation Method field.;%4=No. value from GL Account table.;%5=Caption for Business Unit table.';
+Text022Txt: Label '%1 %2, referenced by Subsidiary (%5) %3 %4, does not exist in the Consolidated %3 table.', Comment = '%1=Field caption for Consol. Debit Acc. field.;%2=Consol. Debit Acc. value from GL Account table.;%3=Caption for GL Account table.;%4=No. value from GL Account table.;%5=Caption for Business Unit table.';
+Text023Txt: Label 'Subsidiary (%7) %1 %2 must have the same %3 as Consolidated %1 %4.  (%5 <> %6)', Comment = '%1=Caption for GL Account table.;%2=Value of No. field from GL Account table.;%3=Caption for Consol. Translation Method field.;%4=Value of No. field from Consolidated GL Account table.;%5=Value of Consol. Translation Method field from GL Account.;%6=Value of Consol. Translation Method from the Consolidated GL Account table.;%7=Caption for Business Unit table.';
+Text031Txt: Label '%1 must not be empty when %2 is not empty, in company %3.', Comment = '%1=Caption for Starting Date field.;%2=Caption for Ending Date field.;%3=Company Name value from Business Unit table.';
+Text032Txt: Label 'The %1 is later than the %2 in company %3.', Comment = '%1=Caption for Starting Date field.;%2=Caption for Ending Date field.;%3=Company Name value from Business Unit table.';
         Consolidation___Test_DatabaseCaptionLbl: Label 'Consolidation - Test Database';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
         Selected_dimensions_will_be_copied_CaptionLbl: Label 'Selected dimensions will be copied.';
         Errors_in_Business_Unit_CaptionLbl: Label 'Errors in Business Unit:';
         Errors_in_this_G_L_Account_CaptionLbl: Label 'Errors in this G/L Account:';
-        AccountDoesNotExistTxt: Label '%1 %2 referenced by Subsidiary (%3) does not exist in the Consolidated %1 table.', Comment = '%1 is "G/L Account", %2 is the G/L Account No., %3 is "Business Unit"';
+AccountDoesNotExistTxt: Label '%1 %2 referenced by Subsidiary (%3) does not exist in the Consolidated %1 table.', Comment = '%1 is "G/L Account", %2 is the G/L Account No., %3 is "Business Unit"';
 
     local procedure AddError(Text: Text[250])
     begin

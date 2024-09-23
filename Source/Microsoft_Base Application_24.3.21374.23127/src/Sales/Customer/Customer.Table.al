@@ -408,7 +408,7 @@ table 18 Customer
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const(Customer),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -2179,20 +2179,20 @@ table 18 Customer
         Text010: Label 'The %1 %2 has been assigned to %3 %4.\The same %1 cannot be entered on more than one %3. Enter another code.';
         Text011: Label 'Reconciling IC transactions may be difficult if you change IC Partner Code because this %1 has ledger entries in a fiscal year that has not yet been closed.\ Do you still want to change the IC Partner Code?';
         Text012: Label 'You cannot change the contents of the %1 field because this %2 has one or more open ledger entries.';
-        ServiceDocumentExistErr: Label 'You cannot delete customer %1 because there is at least one outstanding Service %2 for this customer.', Comment = '%1 - customer no., %2 - service document type.';
+ServiceDocumentExistErr: Label 'You cannot delete customer %1 because there is at least one outstanding Service %2 for this customer.', Comment = '%1 - customer no., %2 - service document type.';
         Text015: Label 'You cannot delete %1 %2 because there is at least one %3 associated to this customer.';
         Text10000: Label '%1 is not a valid RFC No.';
         Text10001: Label '%1 is not a valid CURP No.';
         Text10002: Label 'The RFC number %1 is used by another company.';
         AllowPaymentToleranceQst: Label 'Do you want to allow payment tolerance for entries that are currently open?';
         RemovePaymentRoleranceQst: Label 'Do you want to remove payment tolerance from entries that are currently open?';
-        CreateNewCustTxt: Label 'Create a new customer card for %1', Comment = '%1 is the name to be used to create the customer. ';
+CreateNewCustTxt: Label 'Create a new customer card for %1', Comment = '%1 is the name to be used to create the customer. ';
         SelectCustErr: Label 'You must select an existing customer.';
         CustNotRegisteredTxt: Label 'This customer is not registered. To continue, choose one of the following options:';
         SelectCustTxt: Label 'Select an existing customer';
         OverrideImageQst: Label 'Override Image?';
-        PrivacyBlockedActionErr: Label 'You cannot %1 this type of document when Customer %2 is blocked for privacy.', Comment = '%1 = action (create or post), %2 = customer code.';
-        PrivacyBlockedGenericTxt: Label 'Privacy Blocked must not be true for customer %1.', Comment = '%1 = customer code';
+PrivacyBlockedActionErr: Label 'You cannot %1 this type of document when Customer %2 is blocked for privacy.', Comment = '%1 = action (create or post), %2 = customer code.';
+PrivacyBlockedGenericTxt: Label 'Privacy Blocked must not be true for customer %1.', Comment = '%1 = customer code';
         ConfirmBlockedPrivacyBlockedQst: Label 'If you change the Blocked field, the Privacy Blocked field is changed to No. Do you want to continue?';
         CanNotChangeBlockedDueToPrivacyBlockedErr: Label 'The Blocked field cannot be changed because the user is blocked for privacy reasons.';
         PhoneNoCannotContainLettersErr: Label 'must not contain letters';

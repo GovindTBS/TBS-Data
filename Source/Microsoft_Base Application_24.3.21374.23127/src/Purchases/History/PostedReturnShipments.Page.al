@@ -218,7 +218,7 @@ page 6652 "Posted Return Shipments"
                     RunObject = Page "Purch. Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Return Shipment"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

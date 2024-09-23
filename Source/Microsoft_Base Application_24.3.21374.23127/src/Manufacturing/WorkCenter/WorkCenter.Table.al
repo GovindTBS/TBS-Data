@@ -287,7 +287,7 @@ table 99000754 "Work Center"
         {
             CalcFormula = exist("Manufacturing Comment Line" where("Table Name" = const("Work Center"),
                                                                     "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -733,7 +733,7 @@ table 99000754 "Work Center"
         Text007: Label '%1 cannot be changed for scheduled work centers.';
         Text008: Label 'Capacity Unit of Time is corrected on\\';
         Text009: Label 'Calendar Entry    #1###### @2@@@@@@@@@@@@@';
-        Text010: Label 'You cannot delete %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Table caption; %2 = Field Value; %3 = Table Caption';
+Text010: Label 'You cannot delete %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Table caption; %2 = Field Value; %3 = Table Caption';
         Text011: Label 'If you change the %1, then all bin codes on the %2 and related %3 will be removed. Are you sure that you want to continue?';
 
     procedure AssistEdit(OldWorkCenter: Record "Work Center"): Boolean

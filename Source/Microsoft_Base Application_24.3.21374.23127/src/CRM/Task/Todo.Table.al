@@ -374,7 +374,7 @@ table 5080 "To-do"
             CalcFormula = exist("Rlshp. Mgt. Comment Line" where("Table Name" = const("To-do"),
                                                                   "No." = field("Organizer To-do No."),
                                                                   "Sub No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -865,8 +865,8 @@ table 5080 "To-do"
     var
         Text000: Label '%1 must be specified.';
         Text001: Label '%1 No. %2 has been created from recurring %3 %4.';
-        Text002: Label 'Do you want to create a Task for all contacts in the %1 Segment', Comment = '%1 = Segment Header No.';
-        Text003: Label 'Do you want to assign an activity to all Contacts in the %1 Segment', Comment = '%1 = Segment Header No.';
+Text002: Label 'Do you want to create a Task for all contacts in the %1 Segment', Comment = '%1 = Segment Header No.';
+Text003: Label 'Do you want to assign an activity to all Contacts in the %1 Segment', Comment = '%1 = Segment Header No.';
         RMSetup: Record "Marketing Setup";
         Cont: Record Contact;
         Salesperson: Record "Salesperson/Purchaser";
@@ -882,11 +882,11 @@ table 5080 "To-do"
         Text006: Label 'The valid range of dates is from %1 to %2. Please enter a date within this range.';
         Text007: Label 'Information that you have entered in this field will cause the duration to be less than 1 minute, which is not allowed. Please modify the ending date/time value.';
         Text008: Label 'Information that you have entered in this field will cause the duration to be more than 10 years, which is not allowed. Please modify the ending date/time value.';
-        Text009: Label 'You cannot change the %1 for this Task, because this salesperson is the meeting organizer.', Comment = '%1=Salesperson Code';
-        Text010: Label 'Do you want to create a new %2 value in %1 for this Task?', Comment = '%1=Task Interaction Language,%2=Language Code';
+Text009: Label 'You cannot change the %1 for this Task, because this salesperson is the meeting organizer.', Comment = '%1=Salesperson Code';
+Text010: Label 'Do you want to create a new %2 value in %1 for this Task?', Comment = '%1=Task Interaction Language,%2=Language Code';
         Text012: Label 'You cannot change a Task type from Blank or Phone Call to Meeting and vice versa. You can only change a Task type from Blank to Phone Call or from Phone Call to Blank.';
         Text015: Label 'Dear %1,';
-        Text016: Label 'You are cordially invited to attend the meeting, which will take place on %1, %2 at %3.', Comment = '%1 = Task Date,%2 = Task StartTime,%3=Task location';
+Text016: Label 'You are cordially invited to attend the meeting, which will take place on %1, %2 at %3.', Comment = '%1 = Task Date,%2 = Task StartTime,%3=Task location';
         Text017: Label 'Yours sincerely,';
         Text018: Label 'The %1 check box is not selected.';
         Text019: Label 'Send invitations to all Attendees with selected %1 check boxes.';
@@ -894,24 +894,24 @@ table 5080 "To-do"
         Text021: Label 'Do not send invitations.';
         Text022: Label 'Invitations have already been sent to Attendees with selected %1 check boxes. Do you want to resend the invitations?';
         Text023: Label 'Outlook failed to send an invitation to %1.';
-        Text029: Label 'The %1 field must be filled in for Tasks assigned to a team.', Comment = '%1=Completed By';
-        TasksWillBeDeletedQst: Label 'Tasks of the %1 team members who do not belong to the %2 team will be deleted. Do you want to continue?', Comment = '%1 = old Team code, %2 = new Team code';
-        Text032: Label 'Task No. %1 will be reassigned to %2 and the corresponding salesperson Tasks for team members will be deleted. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
-        Text033: Label 'Task No. %1 will be reassigned to %2. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
+Text029: Label 'The %1 field must be filled in for Tasks assigned to a team.', Comment = '%1=Completed By';
+TasksWillBeDeletedQst: Label 'Tasks of the %1 team members who do not belong to the %2 team will be deleted. Do you want to continue?', Comment = '%1 = old Team code, %2 = new Team code';
+Text032: Label 'Task No. %1 will be reassigned to %2 and the corresponding salesperson Tasks for team members will be deleted. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
+Text033: Label 'Task No. %1 will be reassigned to %2. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
         Text034: Label 'Do you want to close the Task?';
         Text035: Label 'You must fill in either the %1 field or the %2 field.';
         Text036: Label 'Creating Tasks...\';
-        TaskNoMsg: Label 'Task No. #1##############\', Comment = '%1 = counter';
+TaskNoMsg: Label 'Task No. #1##############\', Comment = '%1 = counter';
         Text038: Label 'Status    @2@@@@@@@@@@@@@@';
-        Text039: Label 'Task No. %1 is closed and will be reopened. The Tasks of the %2 team members who do not belong to the %3 team will be deleted. Do you want to continue?', Comment = '%1=Task No,%2=Team Code,%3=Team Code';
-        Text040: Label 'Task No. %1 is closed and will be reopened. It will be reassigned to %2, and the corresponding salesperson Tasks for team members will be deleted. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
-        Text041: Label 'Task No. %1 is closed. It will be reopened and reassigned to %2. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
-        Text042: Label 'Task No. %1 is closed. Do you want to reopen it and assign to the %2 team?', Comment = '%1=Task No.,%2=Team Code';
+Text039: Label 'Task No. %1 is closed and will be reopened. The Tasks of the %2 team members who do not belong to the %3 team will be deleted. Do you want to continue?', Comment = '%1=Task No,%2=Team Code,%3=Team Code';
+Text040: Label 'Task No. %1 is closed and will be reopened. It will be reassigned to %2, and the corresponding salesperson Tasks for team members will be deleted. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
+Text041: Label 'Task No. %1 is closed. It will be reopened and reassigned to %2. Do you want to continue?', Comment = '%1=Task No.,%2=Salesperson Code';
+Text042: Label 'Task No. %1 is closed. Do you want to reopen it and assign to the %2 team?', Comment = '%1=Task No.,%2=Team Code';
         Text043: Label 'You must fill in the %1 field.';
         Text047: Label 'You cannot use the wizard to create an attachment. You can create an attachment in the Interaction Template window.';
         Text051: Label 'Activity Code';
         Text053: Label 'You must specify %1 or %2.';
-        Text056: Label 'Activity %1 contains Tasks of type Meeting. You must fill in the Meeting Organizer field.', Comment = '%1=Activity Code';
+Text056: Label 'Activity %1 contains Tasks of type Meeting. You must fill in the Meeting Organizer field.', Comment = '%1=Activity Code';
         Text065: Label 'You must specify the Task organizer.';
         Text067: Label 'The %1 must contain an attachment if you want to send an invitation to an %2 of the contact type.';
         Text068: Label 'You cannot select the Send invitation(s) on Finish check box, because none of the %1 check boxes are selected.';

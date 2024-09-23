@@ -145,9 +145,9 @@ codeunit 2 "Company-Initialize"
 
     var
         Text000: Label 'Initializing company...';
-        SEPACTCodeTxt: Label 'SEPACT', Comment = 'No need to translate - but can be translated at will.';
+SEPACTCodeTxt: Label 'SEPACT', Comment = 'No need to translate - but can be translated at will.';
         SEPACTNameTxt: Label 'SEPA Credit Transfer';
-        SEPADDCodeTxt: Label 'SEPADD', Comment = 'No need to translate - but can be translated at will.';
+SEPADDCodeTxt: Label 'SEPADD', Comment = 'No need to translate - but can be translated at will.';
         SEPADDNameTxt: Label 'SEPA Direct Debit';
         SEPACTCode09Txt: Label 'SEPACTPAIN00100109', Locked = true;
         SEPACTName09Txt: Label 'SEPA Credit Transfer pain.001.001.09';
@@ -174,10 +174,10 @@ codeunit 2 "Company-Initialize"
         Text023: Label 'PROJJNL';
         Text024: Label 'SALESAPPL';
         Text025: Label 'Sales Entry Application';
-        PaymentReconJnlTok: Label 'PAYMTRECON', Comment = 'Payment Reconciliation Journal Code';
+PaymentReconJnlTok: Label 'PAYMTRECON', Comment = 'Payment Reconciliation Journal Code';
         Text026: Label 'PURCHAPPL';
         Text027: Label 'Purchase Entry Application';
-        EmployeeEntryApplicationCodeTxt: Label 'EMPLAPPL', Comment = 'EMPL stands for employee, APPL stands for application';
+EmployeeEntryApplicationCodeTxt: Label 'EMPLAPPL', Comment = 'EMPL stands for employee, APPL stands for application';
         EmployeeEntryApplicationTxt: Label 'Employee Entry Application';
         Text028: Label 'VATSTMT';
         Text029: Label 'COMPRGL';
@@ -234,7 +234,7 @@ codeunit 2 "Company-Initialize"
         Text085: Label 'Intercompany';
         Text086: Label 'UNAPPSALES';
         Text087: Label 'Unapplied Sales Entry Application';
-        UnappliedEmplEntryApplnCodeTxt: Label 'UNAPPEMPL', Comment = 'EMPL stands for employee, UNAPP stands for unapply';
+UnappliedEmplEntryApplnCodeTxt: Label 'UNAPPEMPL', Comment = 'EMPL stands for employee, UNAPP stands for unapply';
         UnappliedEmplEntryApplnTxt: Label 'Unapplied Employee Entry Application';
         Text088: Label 'UNAPPPURCH';
         Text089: Label 'Unapplied Purchase Entry Application';
@@ -254,22 +254,22 @@ codeunit 2 "Company-Initialize"
         Text104: Label 'Sales Value';
         Text105: Label 'Percentage of Completion';
         Text106: Label 'POC';
-        Text109: Label 'CFWKSH', Comment = 'Uppercase of the translation of cash flow work sheet with a max of 10 char';
+Text109: Label 'CFWKSH', Comment = 'Uppercase of the translation of cash flow work sheet with a max of 10 char';
         Text110: Label 'Cash Flow Worksheet';
-        Text107: Label 'ASSEMBLY', Comment = 'Uppercase of the translation of assembly with a max of 10 char';
+Text107: Label 'ASSEMBLY', Comment = 'Uppercase of the translation of assembly with a max of 10 char';
         Text108: Label 'Assembly';
         Text111: Label 'GL';
         Text112: Label 'G/L Entry to Cost Accounting';
-        Text113: Label 'CAJOUR', Comment = 'Uppercase of the translation of cost accounting journal with a max of 10 char';
+Text113: Label 'CAJOUR', Comment = 'Uppercase of the translation of cost accounting journal with a max of 10 char';
         Text114: Label 'Cost Journal';
-        Text115: Label 'ALLOC', Comment = 'Uppercase of the translation of allocation with a max of 10 char';
+Text115: Label 'ALLOC', Comment = 'Uppercase of the translation of allocation with a max of 10 char';
         Text116: Label 'Cost Allocation';
-        Text117: Label 'TRABUD', Comment = 'Uppercase of the translation of Transfer Budget to Actual with a max of 10 char';
+Text117: Label 'TRABUD', Comment = 'Uppercase of the translation of Transfer Budget to Actual with a max of 10 char';
         Text118: Label 'Transfer Budget to Actual';
         DocumentCreatedToAvoidGapInNoSeriesTxt: Label 'Document created to avoid gap in No. Series';
-        InvtReceiptsTxt: Label 'INVTRCPT', Comment = 'INVENTORY RECEIPTS';
-        InvtShipmentsTxt: Label 'INVTSHPT', Comment = 'INVENTORY SHIPMENTS';
-        InvtOrderTxt: Label 'INVTORDER', Comment = 'INVENTORY ORDERS';
+InvtReceiptsTxt: Label 'INVTRCPT', Comment = 'INVENTORY RECEIPTS';
+InvtShipmentsTxt: Label 'INVTSHPT', Comment = 'INVENTORY SHIPMENTS';
+InvtOrderTxt: Label 'INVTORDER', Comment = 'INVENTORY ORDERS';
         Text1020000: Label 'BANKRECADJ';
         Text1020001: Label 'Bank Rec. Adjustment';
         Text1020002: Label 'BANKDEP';

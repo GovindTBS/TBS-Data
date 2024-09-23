@@ -511,7 +511,7 @@ page 1826 "Company Consolidation Wizard"
         CreatingBusinessUnitsMsg: Label 'Creating Business Units...';
         RecordExistsErr: Label 'The record already exists.';
         MaxNumberOfSteps: Integer;
-        StepCaptionTxt: Label 'Business Unit %1 of %2', Comment = '%1 =The current business unit''s position in the list of all available business units being processed. %2=The total number of all available business units being processed.';
+StepCaptionTxt: Label 'Business Unit %1 of %2', Comment = '%1 =The current business unit''s position in the list of all available business units being processed. %2=The total number of all available business units being processed.';
         StepIndex: Integer;
         EmptyCompanyNameErr: Label 'You must choose a company.';
         Finished: Boolean;

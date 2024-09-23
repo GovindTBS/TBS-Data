@@ -321,7 +321,7 @@ page 495 "Currency Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCRMCoupling)
@@ -380,7 +380,7 @@ page 495 "Currency Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Change Payment &Tolerance_Promoted"; "Change Payment &Tolerance")
                 {
@@ -391,12 +391,12 @@ page 495 "Currency Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Foreign Currency Balance_Promoted"; "Foreign Currency Balance")
                 {

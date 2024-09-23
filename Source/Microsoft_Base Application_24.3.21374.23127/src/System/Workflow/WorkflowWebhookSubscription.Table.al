@@ -143,8 +143,8 @@ table 469 "Workflow Webhook Subscription"
         WorkflowWebhookSetup: Codeunit "Workflow Webhook Setup";
         UnableToParseEncodingErr: Label 'Unable to parse the Conditions. The provided Conditions were not in the correct Base64 encoded format.';
         UnableToParseInvalidJsonErr: Label 'Unable to parse the Conditions. The provided Conditions JSON was invalid.';
-        NoControlOnPageErr: Label 'Unable to find a field with control name ''%1'' on page ''%2''.', Comment = '%1=control name;%2=page name';
-        UnableToParseJsonArrayErr: Label 'Unable to parse ''%1'' because it was not a valid JSON array.', Comment = '%1=conditions property name';
+NoControlOnPageErr: Label 'Unable to find a field with control name ''%1'' on page ''%2''.', Comment = '%1=control name;%2=page name';
+UnableToParseJsonArrayErr: Label 'Unable to parse ''%1'' because it was not a valid JSON array.', Comment = '%1=conditions property name';
 
     procedure SetConditions(ConditionsTxt: Text)
     var

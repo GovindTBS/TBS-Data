@@ -716,7 +716,7 @@ report 11383 "ExportElecPayments - Word"
     end;
 
     var
-        AccountTypeErr: Label 'For Electronic Payments, the %1 must be %2 or %3.', Comment = '%1=Balance account type,%2=Customer table caption,%3=Vendor table caption';
+AccountTypeErr: Label 'For Electronic Payments, the %1 must be %2 or %3.', Comment = '%1=Balance account type,%2=Customer table caption,%3=Vendor table caption';
         CopyLoopLbl: Label '- COPY';
         CannotVoidQst: Label 'Warning:  Transactions cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?';
         UserCancelledErr: Label 'Process cancelled at user request.';

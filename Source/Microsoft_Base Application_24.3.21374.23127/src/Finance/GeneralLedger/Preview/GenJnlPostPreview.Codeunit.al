@@ -38,7 +38,7 @@ codeunit 19 "Gen. Jnl.-Post Preview"
         PreviewExitStateErr: Label 'The posting preview has stopped because of a state that is not valid.';
         TelemetryFeatureNameTxt: Label 'Posting Preview on journals and documents', Locked = true;
         EventNameTxt: Label 'Posting Preview called', Locked = true;
-        PreviewCalledForMultipleDocumentsMsg: Label 'You selected multiple documents. Posting Preview is shown for document no. %1 only.', Comment = '%1 = Document No.';
+PreviewCalledForMultipleDocumentsMsg: Label 'You selected multiple documents. Posting Preview is shown for document no. %1 only.', Comment = '%1 = Document No.';
 
     procedure Preview(Subscriber: Variant; RecVar: Variant)
     var

@@ -1026,7 +1026,7 @@ report 216 "Archived Sales Order"
         VALExchRate: Text[50];
         OutputNo: Integer;
 
-        Text004: Label 'Sales Order Archived %1', Comment = '%1 = Document No.';
+Text004: Label 'Sales Order Archived %1', Comment = '%1 = Document No.';
         Text005: Label 'Page %1';
         Text007: Label 'VAT Amount Specification in ';
         Text008: Label 'Local Currency';

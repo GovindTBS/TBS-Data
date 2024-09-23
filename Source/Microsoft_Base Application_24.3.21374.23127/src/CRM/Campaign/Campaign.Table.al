@@ -68,7 +68,7 @@ table 5071 Campaign
         {
             CalcFormula = exist("Rlshp. Mgt. Comment Line" where("Table Name" = const(Campaign),
                                                                   "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

@@ -59,8 +59,8 @@ page 1628 "Office No Vendor Dlg"
     }
 
     var
-        VendDialogLbl: Label 'Cannot find an existing vendor that matches the contact %1. Do you want to create a new vendor based on this contact?', Comment = '%1 = Contact name';
-        CreateVendLbl: Label 'Create a vendor record for %1', Comment = '%1 = Contact name';
+VendDialogLbl: Label 'Cannot find an existing vendor that matches the contact %1. Do you want to create a new vendor based on this contact?', Comment = '%1 = Contact name';
+CreateVendLbl: Label 'Create a vendor record for %1', Comment = '%1 = Contact name';
         ViewVendListLbl: Label 'View vendor list';
 }
 

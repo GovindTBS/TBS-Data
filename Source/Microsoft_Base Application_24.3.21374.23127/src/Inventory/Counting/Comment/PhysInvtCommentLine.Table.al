@@ -6,7 +6,7 @@ using Microsoft.Inventory.Counting.Recording;
 
 table 5883 "Phys. Invt. Comment Line"
 {
-    Caption = 'Phys. Invt. Comment Line';
+Caption = 'Phys. Invt. Comment Line';
     DrillDownPageID = "Phys. Inventory Comment List";
     LookupPageID = "Phys. Inventory Comment List";
     DataClassification = CustomerContent;
@@ -51,7 +51,7 @@ table 5883 "Phys. Invt. Comment Line"
         }
         field(12; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

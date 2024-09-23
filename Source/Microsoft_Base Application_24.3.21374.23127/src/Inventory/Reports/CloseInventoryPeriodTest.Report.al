@@ -277,7 +277,7 @@ report 1004 "Close Inventory Period - Test"
         ErrorHyperlinkAnchor: Code[21];
         LastItemNoStored: Code[20];
 
-        Text001: Label '%1 is missing in Inventory Period %2.', Comment = '%1 = FIELDCAPTION("Ending Date"), %2 = "Name"';
+Text001: Label '%1 is missing in Inventory Period %2.', Comment = '%1 = FIELDCAPTION("Ending Date"), %2 = "Name"';
         Text003: Label 'Item Ledger Entry %1 is open.*';
         Text004: Label '*Close the open Item Ledger Entry, for example by posting related inbound transactions, in order to resolve the negative inventory and thereby allow the Inventory Period to be closed.';
         PageCaptionLbl: Label 'Page';

@@ -595,7 +595,7 @@ table 27 Item
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const(Item),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -2873,11 +2873,11 @@ table 27 Item
 
     var
         Text000: Label 'You cannot delete %1 %2 because there is at least one outstanding Purchase %3 that includes this item.';
-        CannotDeleteItemIfSalesDocExistErr: Label 'You cannot delete %1 %2 because there is at least one outstanding Sales %3 that includes this item.', Comment = '1: Type, 2 Item No. and 3 : Type of document Order,Invoice';
+CannotDeleteItemIfSalesDocExistErr: Label 'You cannot delete %1 %2 because there is at least one outstanding Sales %3 that includes this item.', Comment = '1: Type, 2 Item No. and 3 : Type of document Order,Invoice';
         Text002: Label 'You cannot delete %1 %2 because there are one or more outstanding production orders that include this item.';
         Text003: Label 'Do you want to change %1?';
         Text004: Label 'You cannot delete %1 %2 because there are one or more certified Production BOM that include this item.';
-        CannotDeleteItemIfProdBOMVersionExistsErr: Label 'You cannot delete %1 %2 because there are one or more certified production BOM version that include this item.', Comment = '%1 - Tablecaption, %2 - No.';
+CannotDeleteItemIfProdBOMVersionExistsErr: Label 'You cannot delete %1 %2 because there are one or more certified production BOM version that include this item.', Comment = '%1 - Tablecaption, %2 - No.';
         Text006: Label 'Prices including VAT cannot be calculated when %1 is %2.';
         Text007: Label 'You cannot change %1 because there are one or more ledger entries for this item.';
         Text008: Label 'You cannot change %1 because there is at least one outstanding Purchase %2 that include this item.';
@@ -2895,7 +2895,7 @@ table 27 Item
         Text024: Label 'If you change %1 it may affect existing production orders.\';
         Text025: Label '%1 must be an integer because %2 %3 is set up to use %4.';
         Text026: Label '%1 cannot be changed because the %2 has work in process (WIP). Changing the value may offset the WIP account.';
-        Text7380: Label 'If you change the %1, the %2 and %3 are calculated.\Do you still want to change the %1?', Comment = 'If you change the Phys Invt Counting Period Code, the Next Counting Start Date and Next Counting End Date are calculated.\Do you still want to change the Phys Invt Counting Period Code?';
+Text7380: Label 'If you change the %1, the %2 and %3 are calculated.\Do you still want to change the %1?', Comment = 'If you change the Phys Invt Counting Period Code, the Next Counting Start Date and Next Counting End Date are calculated.\Do you still want to change the Phys Invt Counting Period Code?';
         Text7381: Label 'Cancelled.';
         Text99000000: Label 'The change will not affect existing entries.\';
         CommentLine: Record "Comment Line";
@@ -2941,20 +2941,20 @@ table 27 Item
         ApprovalsMgmt: Codeunit "Approvals Mgmt.";
         HasInvtSetup: Boolean;
         GLSetupRead: Boolean;
-        Text027: Label 'must be greater than 0.', Comment = 'starts with "Rounding Precision"';
+Text027: Label 'must be greater than 0.', Comment = 'starts with "Rounding Precision"';
         Text028: Label 'You cannot perform this action because entries for item %1 are unapplied in %2 by user %3.';
-        CannotChangeFieldErr: Label 'You cannot change the %1 field on %2 %3 because at least one %4 exists for this item.', Comment = '%1 = Field Caption, %2 = Item Table Name, %3 = Item No., %4 = Table Name';
-        BaseUnitOfMeasureQtyMustBeOneErr: Label 'The quantity per base unit of measure must be 1. %1 is set up with %2 per unit of measure.\\You can change this setup in the Item Units of Measure window.', Comment = '%1 Name of Unit of measure (e.g. BOX, PCS, KG...), %2 Qty. of %1 per base unit of measure ';
+CannotChangeFieldErr: Label 'You cannot change the %1 field on %2 %3 because at least one %4 exists for this item.', Comment = '%1 = Field Caption, %2 = Item Table Name, %3 = Item No., %4 = Table Name';
+BaseUnitOfMeasureQtyMustBeOneErr: Label 'The quantity per base unit of measure must be 1. %1 is set up with %2 per unit of measure.\\You can change this setup in the Item Units of Measure window.', Comment = '%1 Name of Unit of measure (e.g. BOX, PCS, KG...), %2 Qty. of %1 per base unit of measure ';
         OpenDocumentTrackingErr: Label 'You cannot change "Item Tracking Code" because there is at least one open document that includes this item with specified tracking: Source Type = %1, Document No. = %2.';
         SelectItemErr: Label 'You must select an existing item.';
-        CreateNewItemTxt: Label 'Create a new item card for %1.', Comment = '%1 is the name to be used to create the customer. ';
+CreateNewItemTxt: Label 'Create a new item card for %1.', Comment = '%1 is the name to be used to create the customer. ';
         ItemNotRegisteredTxt: Label 'This item is not registered. To continue, choose one of the following options:';
         SelectItemTxt: Label 'Select an existing item.';
-        UnitOfMeasureNotExistErr: Label 'The Unit of Measure with Code %1 does not exist.', Comment = '%1 = Code of Unit of measure';
+UnitOfMeasureNotExistErr: Label 'The Unit of Measure with Code %1 does not exist.', Comment = '%1 = Code of Unit of measure';
         ItemLedgEntryTableCaptionTxt: Label 'Item Ledger Entry';
-        ItemTrackingCodeIgnoresExpirationDateErr: Label 'The settings for expiration dates do not match on the item tracking code and the item. Both must either use, or not use, expiration dates.', Comment = '%1 is the Item number';
+ItemTrackingCodeIgnoresExpirationDateErr: Label 'The settings for expiration dates do not match on the item tracking code and the item. Both must either use, or not use, expiration dates.', Comment = '%1 is the Item number';
         ReplenishmentSystemTransferErr: Label 'The Replenishment System Transfer cannot be used for item.';
-        WhseEntriesExistErr: Label 'You cannot change %1 because there are one or more warehouse entries for this item.', Comment = '%1: Changed field name';
+WhseEntriesExistErr: Label 'You cannot change %1 because there are one or more warehouse entries for this item.', Comment = '%1: Changed field name';
 
     protected var
         ItemTrackingCode: Record "Item Tracking Code";

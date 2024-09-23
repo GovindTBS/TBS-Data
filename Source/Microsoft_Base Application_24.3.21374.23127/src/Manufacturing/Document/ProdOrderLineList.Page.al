@@ -282,7 +282,7 @@ page 5406 "Prod. Order Line List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ShowDocument_Promoted; ShowDocument)
                 {

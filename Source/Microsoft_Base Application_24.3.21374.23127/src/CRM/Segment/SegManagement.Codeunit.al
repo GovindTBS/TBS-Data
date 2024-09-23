@@ -26,11 +26,11 @@ codeunit 5051 SegManagement
     var
         InteractionTemplateSetup: Record "Interaction Template Setup";
         InterTemplateSalesInvoicesNotSpecifiedErr: Label 'The Invoices field on the Sales FastTab in the Interaction Template Setup window must be filled in.';
-        SegmentSendContactEmailFaxMissingErr: Label 'Make sure that the %1 field is specified for either contact no. %2 or the contact alternative address.', Comment = '%1 - Email or Fax No. field caption, %2 - Contact No.';
-        LoggedSegmentExistsErr: Label '%1 for Segment No. %2 already exists.', Comment = '%1 - Logged Segment Table Caption, %2 - Segment No.';
-        EmptySegmentErr: Label 'Segment %1 is empty.', Comment = '%1 - Segment No.';
-        FollowUpOnSegmentLbl: Label 'Follow-up on segment %1', Comment = '%1 - Segment No.';
-        InteractionTemplateAssignedLanguageErr: Label 'Interaction Template %1 has assigned Interaction Template Language %2.\It is not allowed to have languages assigned to templates used for system document logging.', Comment = '%1 - Interaction Template Code, %2 - Interaction Template Language Code';
+SegmentSendContactEmailFaxMissingErr: Label 'Make sure that the %1 field is specified for either contact no. %2 or the contact alternative address.', Comment = '%1 - Email or Fax No. field caption, %2 - Contact No.';
+LoggedSegmentExistsErr: Label '%1 for Segment No. %2 already exists.', Comment = '%1 - Logged Segment Table Caption, %2 - Segment No.';
+EmptySegmentErr: Label 'Segment %1 is empty.', Comment = '%1 - Segment No.';
+FollowUpOnSegmentLbl: Label 'Follow-up on segment %1', Comment = '%1 - Segment No.';
+InteractionTemplateAssignedLanguageErr: Label 'Interaction Template %1 has assigned Interaction Template Language %2.\It is not allowed to have languages assigned to templates used for system document logging.', Comment = '%1 - Interaction Template Code, %2 - Interaction Template Language Code';
         InteractionsLbl: Label 'Interactions';
 
     procedure LogSegment(SegmentHeader: Record "Segment Header"; Deliver: Boolean; Followup: Boolean)

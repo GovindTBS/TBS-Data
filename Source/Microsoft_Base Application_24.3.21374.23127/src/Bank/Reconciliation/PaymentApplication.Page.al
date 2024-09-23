@@ -458,7 +458,7 @@ page 1292 "Payment Application"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Accept_Promoted; Accept)
                 {
@@ -469,7 +469,7 @@ page 1292 "Payment Application"
             }
             group(Category_Category4)
             {
-                Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(RelatedPartyOpenEntries_Promoted; RelatedPartyOpenEntries)
                 {
@@ -492,7 +492,7 @@ page 1292 "Payment Application"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -551,7 +551,7 @@ page 1292 "Payment Application"
         AcceptedStatusTxt: Label 'Accepted';
         LineEditable: Boolean;
         SortEntriesBasedOnProbabilityVisible: Boolean;
-        ExcessiveAmountErr: Label 'The remaining amount to apply is %1.', Comment = '%1 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)';
+ExcessiveAmountErr: Label 'The remaining amount to apply is %1.', Comment = '%1 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)';
 
     protected var
         BankAccReconLine: Record "Bank Acc. Reconciliation Line";

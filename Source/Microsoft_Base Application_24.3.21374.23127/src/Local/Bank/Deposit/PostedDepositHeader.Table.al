@@ -108,7 +108,7 @@ table 10143 "Posted Deposit Header"
             CalcFormula = exist("Bank Comment Line" where("Table Name" = const("Posted Deposit"),
                                                            "Bank Account No." = field("Bank Account No."),
                                                            "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

@@ -317,15 +317,15 @@ report 596 "Exch. Rate Adjustment"
         PreviewPosting: Boolean;
         HideUI: Boolean;
         IsJournalTemplNameVisible: Boolean;
-        MustBeEnteredErr: Label '%1 must be entered.', Comment = '%1 = field name';
+MustBeEnteredErr: Label '%1 must be entered.', Comment = '%1 = field name';
         ConfirmationTxt: Label 'Do you want to adjust general ledger entries for currency fluctuations without adjusting customer, vendor and bank ledger entries? This may result in incorrect currency adjustments to payables, receivables and bank accounts.\\ ';
         ContinueTxt: Label 'Do you wish to continue?';
         AdjustmentCancelledErr: Label 'The adjustment of exchange rates has been canceled.';
-        AdjustmentDescriptionTxt: Label 'Adjmt. of %1 %2, Ex.Rate Adjust.', Comment = '%1 = Currency Code, %2= Adjust Amount';
-        FilterIsTooComplexErr: Label '%1 filter is too complex', Comment = '%1 - table caption';
+AdjustmentDescriptionTxt: Label 'Adjmt. of %1 %2, Ex.Rate Adjust.', Comment = '%1 = Currency Code, %2= Adjust Amount';
+FilterIsTooComplexErr: Label '%1 filter is too complex', Comment = '%1 - table caption';
         PostingDateNotInPeriodErr: Label 'This posting date cannot be entered because it does not occur within the adjustment period. Reenter the posting date.';
 #if not CLEAN23
-        FeatureDisabledErrorTxt: Label 'You should enable feature %1 to run Exchange Rates Adjustment report in Feature Management page.', Comment = '%1 - feature name';
+FeatureDisabledErrorTxt: Label 'You should enable feature %1 to run Exchange Rates Adjustment report in Feature Management page.', Comment = '%1 - feature name';
         FeatureDisabledTitleTxt: Label 'You cannot run Exchange Rates Adjustment report.';
         ShowFeatureManagementTxt: Label 'Show Feature Management';
 #endif

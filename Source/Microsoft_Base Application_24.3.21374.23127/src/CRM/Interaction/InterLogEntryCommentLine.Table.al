@@ -2,7 +2,7 @@ namespace Microsoft.CRM.Interaction;
 
 table 5123 "Inter. Log Entry Comment Line"
 {
-    Caption = 'Inter. Log Entry Comment Line';
+Caption = 'Inter. Log Entry Comment Line';
     DataClassification = CustomerContent;
     DrillDownPageID = "Inter. Log Entry Comment List";
     LookupPageID = "Inter. Log Entry Comment List";
@@ -29,7 +29,7 @@ table 5123 "Inter. Log Entry Comment Line"
         }
         field(7; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(8; "Last Date Modified"; Date)
         {

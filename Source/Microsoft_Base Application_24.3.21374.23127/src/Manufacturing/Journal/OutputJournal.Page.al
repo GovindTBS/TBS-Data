@@ -669,7 +669,7 @@ page 99000823 "Output Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
@@ -695,7 +695,7 @@ page 99000823 "Output Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Item Tracking Lines_Promoted"; "Item Tracking Lines")
                 {
@@ -706,7 +706,7 @@ page 99000823 "Output Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Prod. Order', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prod. Order', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("Item Ledger E&ntries_Promoted"; "Item Ledger E&ntries")
                 {
@@ -720,7 +720,7 @@ page 99000823 "Output Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(ShowLinesWithErrors_Promoted; ShowLinesWithErrors)
                 {
@@ -731,7 +731,7 @@ page 99000823 "Output Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

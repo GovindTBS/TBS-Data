@@ -68,7 +68,7 @@ table 7344 "Registered Invt. Movement Hdr."
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Registered Invt. Movement"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

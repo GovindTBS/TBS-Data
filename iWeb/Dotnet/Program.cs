@@ -1,210 +1,127 @@
 using System;
 using System.IO;
 using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using System.Threading.Tasks;
+using System.Xml;
 
-public class ApiRequestExample
+public class XmlSignerAndEncryptor
 {
-    private static readonly string apiEndpoint = "https://tts.sandbox.apib2b.citi.com/citiconnect/sb/authenticationservices/v3/oauth/token";
-    private static readonly string clientId = "18c09f8e-5b20-4d41-9b62-1dc059362b75";
-    private static readonly string clientSecret = "jN5yJ1jV3rF4aQ4kS1dL4wM3aI6rJ1dU7iW2hJ0nV7cR1qR0pL";
-    private static readonly string privateKeyPath = "MyKeys/decrypted_private_key.pem";
+    private readonly string _privateKeyPath;
+    private readonly string _publicCertPath;
+    private readonly string _recipientId;
 
-    public static async Task Main()
+    public XmlSignerAndEncryptor(string privateKeyPath, string publicCertPath, string recipientId)
     {
-        try
-        {
-            string privateKeyPem = File.ReadAllText(privateKeyPath);
-            byte[] dataToSign = Encoding.UTF8.GetBytes("This is my data.");
-
-            string signatureBase64 = SignData(privateKeyPem, dataToSign);
-            Console.WriteLine($"Signature: {signatureBase64} \n");
-
-            byte[] encryptedData = EncryptData(privateKeyPem, dataToSign);
-            string encryptedDataBase64 = Convert.ToBase64String(encryptedData);
-            Console.WriteLine($"Encrypted Data: {encryptedDataBase64} \n");
-
-            byte[] decryptedData = DecryptData(privateKeyPem, encryptedData);
-            string decryptedString = Encoding.UTF8.GetString(decryptedData);
-            Console.WriteLine($"Decrypted Data: {decryptedString} \n");
-
-            bool isSignatureValid = VerifySignature(privateKeyPem, dataToSign, Convert.FromBase64String(signatureBase64));
-            Console.WriteLine(isSignatureValid ? "Signature is valid." : "Signature is invalid.  \n");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error: {ex.Message}");
-        }
+        _privateKeyPath = privateKeyPath;
+        _publicCertPath = publicCertPath;
+        _recipientId = recipientId;
     }
 
-    // sign data
-    private static string SignData(string privateKeyPem, byte[] dataToSign)
+    public string SignAndEncryptXml(string inputXml)
     {
-        using (RSA rsa = RSA.Create())
-        {
-            rsa.ImportFromPem(privateKeyPem.ToCharArray());
-            byte[] signature = rsa.SignData(dataToSign, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
-            return Convert.ToBase64String(signature);
-        }
+        var privateKey = new X509Certificate2(_privateKeyPath);
+        using var rsaPrivate = privateKey.GetRSAPrivateKey() ?? throw new InvalidOperationException("Private key cannot be null.");
+
+        var signedXml = SignXml(inputXml, rsaPrivate);
+        var encryptedXml = EncryptXml(signedXml);
+
+        return encryptedXml;
     }
 
-    // encrypt data
-    private static byte[] EncryptData(string publicKeyPem, byte[] dataToEncrypt)
+    private string SignXml(string xml, RSA privateKey)
     {
-        using (RSA rsa = RSA.Create())
-        {
-            rsa.ImportFromPem(publicKeyPem.ToCharArray());
+        var xmlDoc = new XmlDocument();
+        xmlDoc.LoadXml(xml);
 
-            using (AesGcm aesGcm = new AesGcm(new byte[32])) 
+        var signedXml = new System.Security.Cryptography.Xml.SignedXml(xmlDoc)
+        {
+            SigningKey = privateKey
+        };
+
+        var reference = new System.Security.Cryptography.Xml.Reference
+        {
+            Uri = ""
+        };
+        signedXml.AddReference(reference);
+
+        var keyInfo = new System.Security.Cryptography.Xml.KeyInfo();
+        keyInfo.AddClause(new System.Security.Cryptography.Xml.KeyInfoX509Data(privateKey));
+        signedXml.KeyInfo = keyInfo;
+
+        signedXml.ComputeSignature();
+
+        var xmlSignature = signedXml.GetXml();
+        xmlDoc.DocumentElement.AppendChild(xmlDoc.ImportNode(xmlSignature, true));
+
+        return xmlDoc.OuterXml;
+    }
+
+    private string EncryptXml(string xml)
+    {
+        var publicCert = new X509Certificate2(_publicCertPath);
+        using var rsaPublic = publicCert.GetRSAPublicKey() ?? throw new InvalidOperationException("Public key cannot be null.");
+
+        var encryptedXmlDoc = new XmlDocument();
+        var encryptedDataElement = new System.Security.Cryptography.Xml.EncryptedData();
+
+        using (var aes = Aes.Create())
+        {
+            aes.KeySize = 256;
+            aes.GenerateKey();
+            aes.GenerateIV();
+
+            var encryptedContent = EncryptWithAes(xml, aes);
+            var encryptedKeyElement = CreateEncryptedKey(aes.Key, rsaPublic);
+
+            encryptedDataElement.CipherData = new System.Security.Cryptography.Xml.CipherData
             {
-                byte[] nonce = new byte[12]; 
-                byte[] encryptedData = new byte[dataToEncrypt.Length];
-                byte[] tag = new byte[16]; 
+                CipherValue = Convert.ToBase64String(encryptedContent)
+            };
 
-                aesGcm.Encrypt(nonce, dataToEncrypt, encryptedData, tag);
-
-                return Combine(nonce, encryptedData, tag);
-            }
+            encryptedDataElement.KeyInfo.AddClause(new System.Security.Cryptography.Xml.KeyInfoEncryptedKey(encryptedKeyElement));
+            encryptedXmlDoc.AppendChild(encryptedXmlDoc.ImportNode(encryptedDataElement.GetXml(), true));
         }
+
+        return encryptedXmlDoc.OuterXml;
     }
 
-    // decrypt data
-    private static byte[] DecryptData(string privateKeyPem, byte[] encryptedData)
+    private byte[] EncryptWithAes(string data, Aes aes)
     {
-        using (RSA rsa = RSA.Create())
+        using (var encryptor = aes.CreateEncryptor())
+        using (var ms = new MemoryStream())
+        using (var cs = new CryptoStream(ms, encryptor, CryptoStreamMode.Write))
         {
-            rsa.ImportFromPem(privateKeyPem.ToCharArray());
-
-            byte[] nonce = new byte[12];
-            byte[] tag = new byte[16];
-            byte[] ciphertext = new byte[encryptedData.Length - nonce.Length - tag.Length];
-
-            Buffer.BlockCopy(encryptedData, 0, nonce, 0, nonce.Length);
-            Buffer.BlockCopy(encryptedData, nonce.Length, ciphertext, 0, ciphertext.Length);
-            Buffer.BlockCopy(encryptedData, nonce.Length + ciphertext.Length, tag, 0, tag.Length);
-
-            using (AesGcm aesGcm = new AesGcm(new byte[32]))
-            {
-                byte[] decryptedData = new byte[ciphertext.Length];
-                aesGcm.Decrypt(nonce, ciphertext, tag, decryptedData);
-                return decryptedData;
-            }
+            var dataBytes = Encoding.UTF8.GetBytes(data);
+            cs.Write(dataBytes, 0, dataBytes.Length);
+            cs.FlushFinalBlock();
+            return ms.ToArray();
         }
     }
 
-    // verify signature
-    private static bool VerifySignature(string privateKeyPem, byte[] dataToVerify, byte[] signature)
+    private System.Security.Cryptography.Xml.EncryptedKey CreateEncryptedKey(byte[] key, RSA rsaPublic)
     {
-        using (RSA rsa = RSA.Create())
+        var encryptedKey = new System.Security.Cryptography.Xml.EncryptedKey();
+        var encryptedKeyBytes = rsaPublic.Encrypt(key, RSAEncryptionPadding.Pkcs1);
+        
+        encryptedKey.CipherData = new System.Security.Cryptography.Xml.CipherData
         {
-            rsa.ImportFromPem(privateKeyPem.ToCharArray());
-            return rsa.VerifyData(dataToVerify, signature, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
-        }
-    }
+            CipherValue = Convert.ToBase64String(encryptedKeyBytes)
+        };
 
-     private static byte[] Combine(byte[] nonce, byte[] ciphertext, byte[] tag)
-    {
-        byte[] result = new byte[nonce.Length + ciphertext.Length + tag.Length];
-        Buffer.BlockCopy(nonce, 0, result, 0, nonce.Length);
-        Buffer.BlockCopy(ciphertext, 0, result, nonce.Length, ciphertext.Length);
-        Buffer.BlockCopy(tag, 0, result, nonce.Length + ciphertext.Length, tag.Length);
-        return result;
+        return encryptedKey;
     }
 }
 
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        var signerEncryptor = new XmlSignerAndEncryptor("sylogist2.key", "sylogist2_ned_org.pem", "02e9e8730fc4e71d74c62cab42202ed358aeb59c");
+        var resultXml = signerEncryptor.SignAndEncryptXml(
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?><oAuthToken xmlns=\"http://com.citi.citiconnect/services/types/oauthtoken/v2\"><grantType>client_credentials</grantType><scope>/authenticationservices/v1</scope><sourceApplication>CCF</sourceApplication></oAuthToken>"
+        );
 
-// //! API CALL
-// using (HttpClient client = new HttpClient())
-// {
-//     client.DefaultRequestHeaders.Add("Authorization", $"Basic {Convert.ToBase64String(Encoding.UTF8.GetBytes($"{clientId}:{clientSecret}"))}");
-//     client.DefaultRequestHeaders.Add("X-Signature", signatureBase64); // Custom header for signature
-
-//     HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, apiEndpoint)
-//     {
-//         Content = new StringContent("{\"data\":\"Sample Data\"}", Encoding.UTF8, "application/json")
-//     };
-
-//     HttpResponseMessage response = await client.SendAsync(request);
-//     string responseContent = await response.Content.ReadAsStringAsync();
-//     Console.WriteLine($"Response: {responseContent}");
-//     Console.WriteLine("Done");
-// }
-
-
-// //! RSA KEYS
-// using (RSA rsa = RSA.Create(2048)) 
-// {
-//     byte[] privateKey = rsa.ExportRSAPrivateKey();
-//     byte[] publicKey = rsa.ExportRSAPublicKey();
-
-//     string privateKeyPem = Convert.ToBase64String(privateKey);
-//     string publicKeyPem = Convert.ToBase64String(publicKey);
-
-//     Console.WriteLine("Private Key (PEM Format):");
-//     Console.WriteLine(privateKeyPem);
-//     Console.WriteLine();
-//     Console.WriteLine("Public Key (PEM Format):");
-//     Console.WriteLine(publicKeyPem);
-//     Console.WriteLine();
-
-//     byte[] dataToSign = Encoding.UTF8.GetBytes("Sample Data");
-
-//     byte[] signature = rsa.SignData(dataToSign, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
-
-//     string signatureBase64 = Convert.ToBase64String(signature);
-
-//     Console.WriteLine("Signature (Base64 Format):");
-//     Console.WriteLine(signatureBase64);
-//     Console.WriteLine();
-
-//     using (RSA rsaPublic = RSA.Create())
-//     {
-//         rsaPublic.ImportRSAPublicKey(publicKey, out _);
-
-//         bool isSignatureValid = rsaPublic.VerifyData(dataToSign, signature, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
-
-//         Console.WriteLine("Signature Verification Result:");
-//         Console.WriteLine(isSignatureValid ? "Signature is valid." : "Signature is invalid.");
-//     }
-// }
-
-
-//! PRIVATE KEY FROM PFX
-// using System.Security.Cryptography.X509Certificates;
-// using System.Security.Cryptography;
-
-// X509Certificate2 certificate = new X509Certificate2("path_to_cert.pfx", "password");
-
-// using (RSA rsa = certificate.GetRSAPrivateKey())
-// {
-//     byte[] signature = rsa.SignData(dataToSign, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
-//     string signatureBase64 = Convert.ToBase64String(signature);
-//     Console.WriteLine("Signature: " + signatureBase64);
-// }
-
-
-//! SSL TLS Handshake
-
-// var handler = new HttpClientHandler();
-
-// var certificate = new X509Certificate2("path_to_your_certificate.pfx", "certificate_password");
-// handler.ClientCertificates.Add(certificate);
-
-// handler.SslProtocols = SslProtocols.Tls12; // Adjust as needed
-
-// var client = new HttpClient(handler);
-// var response = await client.GetAsync("https://yourapiendpoint.com");
-using Microsoft.Azure.Functions.Worker;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-
-var host = new HostBuilder()
-    .ConfigureFunctionsWebApplication()
-    .ConfigureServices(services => {
-        services.AddApplicationInsightsTelemetryWorkerService();
-        services.ConfigureFunctionsApplicationInsights();
-    })
-    .Build();
-
-host.Run();
+        Console.WriteLine(resultXml);
+    }
+}

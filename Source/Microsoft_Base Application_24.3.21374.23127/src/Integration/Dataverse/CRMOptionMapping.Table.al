@@ -89,7 +89,7 @@ table 5334 "CRM Option Mapping"
     }
 
     var
-        AlreadyMappedErr: Label 'Cannot couple %1 to this %2 record, because the %2 record is already coupled.', Comment = '%1 ID of the record, %2 = Dataverse service name';
+AlreadyMappedErr: Label 'Cannot couple %1 to this %2 record, because the %2 record is already coupled.', Comment = '%1 ID of the record, %2 = Dataverse service name';
 
     procedure FindRecordID(IntegrationTableID: Integer; IntegrationFieldID: Integer; OptionValue: Integer): Boolean
     begin

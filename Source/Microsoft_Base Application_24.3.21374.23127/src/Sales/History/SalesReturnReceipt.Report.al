@@ -598,7 +598,7 @@ report 6646 "Sales - Return Receipt"
         TypeInt: Integer;
         LogInteractionEnable: Boolean;
 
-        Text002: Label 'Sales - Return Receipt %1', Comment = '%1 = Document No.';
+Text002: Label 'Sales - Return Receipt %1', Comment = '%1 = Document No.';
         Text003: Label 'Page %1';
         CompanyInfoPhoneNoCaptionLbl: Label 'Phone No.';
         CompanyInfoVATRegNoCptnLbl: Label 'VAT Reg. No.';

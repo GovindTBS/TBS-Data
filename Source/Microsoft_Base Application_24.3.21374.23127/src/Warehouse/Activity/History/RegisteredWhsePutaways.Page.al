@@ -98,7 +98,7 @@ page 9343 "Registered Whse. Put-aways"
                     RunPageLink = "Table Name" = const("Rgstrd. Whse. Activity Header"),
                                   Type = field(Type),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

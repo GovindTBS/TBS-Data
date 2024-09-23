@@ -28,7 +28,7 @@ codeunit 7301 "Whse. Jnl.-Register Line"
         ItemTrackingMgt: Codeunit "Item Tracking Management";
         WMSMgt: Codeunit "WMS Management";
         WhseEntryNo: Integer;
-        Text000: Label 'is not sufficient to complete this action. The quantity in the bin is %1. %2 units are not available', Comment = '%1 = the value of the Quantity that is in the bin; %2 = the value of the Quantity that is not available.';
+Text000: Label 'is not sufficient to complete this action. The quantity in the bin is %1. %2 units are not available', Comment = '%1 = the value of the Quantity that is in the bin; %2 = the value of the Quantity that is not available.';
         Text001: Label 'Serial No. %1 is found in inventory .';
         OnMovement: Boolean;
 

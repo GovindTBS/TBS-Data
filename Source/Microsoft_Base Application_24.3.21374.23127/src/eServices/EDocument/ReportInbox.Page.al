@@ -59,7 +59,7 @@ page 680 "Report Inbox"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Open in OneDrive';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can manage or share the file.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can manage or share the file.', Comment = 'OneDrive should not be translated';
                 Image = Cloud;
                 Visible = ShareOptionsEnabled;
                 Scope = Repeater;
@@ -72,7 +72,7 @@ page 680 "Report Inbox"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Share';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and share the file. You can also see who it''s already shared with.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and share the file. You can also see who it''s already shared with.', Comment = 'OneDrive should not be translated';
                 Image = Share;
                 Visible = ShareOptionsEnabled;
                 Scope = Repeater;

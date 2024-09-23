@@ -753,7 +753,7 @@ report 20 "Calc. and Post VAT Settlement"
         Text003: Label 'Do you want to calculate and post the VAT Settlement?';
         Text004: Label 'VAT Settlement';
         Text005: Label 'Period: %1';
-        AllAmountsAreInTxt: Label 'All amounts are in %1.', Comment = '%1 = Currency Code';
+AllAmountsAreInTxt: Label 'All amounts are in %1.', Comment = '%1 = Currency Code';
         Text007: Label 'Purchase VAT settlement: #1######## #2########';
         Text008: Label 'Sales VAT settlement  : #1######## #2########';
         EnterVATDateLbl: Label 'Enter the VAT Date';

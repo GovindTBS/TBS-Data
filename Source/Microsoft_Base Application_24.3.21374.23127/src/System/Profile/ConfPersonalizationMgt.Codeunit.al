@@ -29,10 +29,10 @@ codeunit 9170 "Conf./Personalization Mgt."
         CannotDeleteDefaultProfileErr: Label 'You cannot delete the profile that is used as default.';
         CannotDeleteDefaultUserProfileErr: Label 'You cannot delete this profile because it is set up as a default profile for one or more users or user groups.';
         CannotDisableDefaultUserProfileErr: Label 'You cannot disable this profile because it is set up as a default profile for one or more users or user groups.';
-        AllProfileCustomizationsDeletedSuccessfullyMsg: Label 'All customizations for profile "%1" have been deleted successfully.', Comment = '%1 = profile caption';
+AllProfileCustomizationsDeletedSuccessfullyMsg: Label 'All customizations for profile "%1" have been deleted successfully.', Comment = '%1 = profile caption';
         ThereAreProfilesWithDuplicateIdMsg: Label 'Another profile has the same ID as this one. This can cause ambiguity in the system. Give this or the other profile another ID before you customize them. Contact your Microsoft partner for further assistance.';
         NoCurrentProfileErr: Label 'Could not find a profile for the current user.';
-        FileDoesNotExistErr: Label 'The file %1 does not exist.', Comment = '%1 File Path';
+FileDoesNotExistErr: Label 'The file %1 does not exist.', Comment = '%1 File Path';
         UrlConfigureParameterTxt: Label 'customize', Locked = true;
         UrlProfileParameterTxt: Label 'profile', Locked = true;
         CouldNotExportProfilesErr: Label 'Cannot export the profiles because one or more of them contain an error.';

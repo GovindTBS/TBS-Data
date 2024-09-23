@@ -2,7 +2,7 @@ namespace Microsoft.Foundation.Comment;
 
 table 97 "Comment Line"
 {
-    Caption = 'Comment Line';
+Caption = 'Comment Line';
     DrillDownPageID = "Comment List";
     LookupPageID = "Comment List";
     DataClassification = CustomerContent;
@@ -31,7 +31,7 @@ table 97 "Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

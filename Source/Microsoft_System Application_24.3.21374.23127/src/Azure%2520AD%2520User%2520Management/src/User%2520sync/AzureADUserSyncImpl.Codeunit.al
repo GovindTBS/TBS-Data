@@ -27,16 +27,16 @@ codeunit 9029 "Azure AD User Sync Impl."
         ProcessedUsers: List of [Text];
         UserSetupCategoryTxt: Label 'User Setup', Locked = true;
         AuthenticationEmailUpdateShouldBeTheFirstForANewUserErr: Label 'Authentication email should be the first entity to update.';
-        ApplyingUserUpdateTxt: Label 'Applying update for user security ID [%1] with authentication object ID [%2]. Blank Guids indicate users not present in BC.', Comment = '%1 = user security ID (guid) and %2 = authentication object ID (guid)', Locked = true;
-        UserCreatedTxt: Label 'A new user with authentication object ID [%1] and security ID [%2] has been created.', Comment = '%1 = authentication object ID (guid); %2 = user security ID (guid)', Locked = true;
-        ApplyingEntityUpdateTxt: Label 'Updating %1 for user [%2]', Comment = '%1 = the update entity e.g. Full name, Plan etc.; %2 = user security ID (guid)', Locked = true;
-        NewUserChangesTxt: Label 'A new user with authentication object ID [%1] received property [%2] from Graph.', Comment = '%1 = authentication object ID (guid); %2 = the update entity e.g. Full name, Plan etc.; %3 = new value of entity; %4 = original value of entity from Graph', Locked = true;
-        ExistingUserChangesTxt: Label 'Existing user [%1] has the property [%2] changed.', Comment = '%1 = user security ID (guid); %2 = the update entity e.g. Full name, Plan etc.', Locked = true;
-        ExistingUserRemovedTxt: Label 'Existing user [%1] with authentication object ID [%2] does not have a BC plan in the office portal anymore. Current plan: [%3].', Comment = '%1 = user security ID (guid); %2 = authentication object ID (guid); %3 = plan name (text).', Locked = true;
-        AddingInformationForANewUserTxt: Label 'Adding changes for a new user. Authentication object ID: [%1].', Comment = '%1 = authentication object ID', Locked = true;
-        AddingInformationForAnExistingUserTxt: Label 'Adding changes for an existing user [%1].', Comment = '%1 = user security ID', Locked = true;
-        AddingInformationForARemovedUserTxt: Label 'Adding changes for a user removed / de-licensed in Office with user security ID [%1].', Comment = '%1 = User security ID', Locked = true;
-        PlanNamesPerUserFromGraphTxt: Label 'User with object ID [%1] has plans [%2].', Comment = '%1 = authentication object ID (guid); %2 = list of plans for the user (text)', Locked = true;
+ApplyingUserUpdateTxt: Label 'Applying update for user security ID [%1] with authentication object ID [%2]. Blank Guids indicate users not present in BC.', Comment = '%1 = user security ID (guid) and %2 = authentication object ID (guid)', Locked = true;
+UserCreatedTxt: Label 'A new user with authentication object ID [%1] and security ID [%2] has been created.', Comment = '%1 = authentication object ID (guid); %2 = user security ID (guid)', Locked = true;
+ApplyingEntityUpdateTxt: Label 'Updating %1 for user [%2]', Comment = '%1 = the update entity e.g. Full name, Plan etc.; %2 = user security ID (guid)', Locked = true;
+NewUserChangesTxt: Label 'A new user with authentication object ID [%1] received property [%2] from Graph.', Comment = '%1 = authentication object ID (guid); %2 = the update entity e.g. Full name, Plan etc.; %3 = new value of entity; %4 = original value of entity from Graph', Locked = true;
+ExistingUserChangesTxt: Label 'Existing user [%1] has the property [%2] changed.', Comment = '%1 = user security ID (guid); %2 = the update entity e.g. Full name, Plan etc.', Locked = true;
+ExistingUserRemovedTxt: Label 'Existing user [%1] with authentication object ID [%2] does not have a BC plan in the office portal anymore. Current plan: [%3].', Comment = '%1 = user security ID (guid); %2 = authentication object ID (guid); %3 = plan name (text).', Locked = true;
+AddingInformationForANewUserTxt: Label 'Adding changes for a new user. Authentication object ID: [%1].', Comment = '%1 = authentication object ID', Locked = true;
+AddingInformationForAnExistingUserTxt: Label 'Adding changes for an existing user [%1].', Comment = '%1 = user security ID', Locked = true;
+AddingInformationForARemovedUserTxt: Label 'Adding changes for a user removed / de-licensed in Office with user security ID [%1].', Comment = '%1 = User security ID', Locked = true;
+PlanNamesPerUserFromGraphTxt: Label 'User with object ID [%1] has plans [%2].', Comment = '%1 = authentication object ID (guid); %2 = list of plans for the user (text)', Locked = true;
         DelimiterTxt: Label '|', Locked = true;
         DeviceGroupNameTxt: Label 'Dynamics 365 Business Central Device Users', Locked = true;
 

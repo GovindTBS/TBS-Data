@@ -214,7 +214,7 @@ page 77 "Resource List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Resource),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {
@@ -338,7 +338,7 @@ page 77 "Resource List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     action(ManageCRMCoupling)
@@ -467,7 +467,7 @@ page 77 "Resource List"
                 }
                 group(FSCoupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     ObsoleteReason = 'Field Service is moved to Field Service Integration app.';
@@ -766,7 +766,7 @@ page 77 "Resource List"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
                 actionref("New Resource Group_Promoted"; "New Resource Group")
                 {
@@ -774,7 +774,7 @@ page 77 "Resource List"
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create Time Sheets_Promoted"; "Create Time Sheets")
                 {
@@ -782,7 +782,7 @@ page 77 "Resource List"
             }
             group(Category_Category4)
             {
-                Caption = 'Resource', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Resource', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {
@@ -843,11 +843,11 @@ page 77 "Resource List"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Resource Statistics_Promoted"; "Resource Statistics")
                 {

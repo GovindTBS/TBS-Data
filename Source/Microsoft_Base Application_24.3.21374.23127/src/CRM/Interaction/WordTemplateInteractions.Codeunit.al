@@ -707,7 +707,7 @@ codeunit 5069 "Word Template Interactions"
         DataCompression: Codeunit "Data Compression";
         ZipArchive: Boolean;
         WindowDialog: Dialog;
-        IncorrectExtensionErr: Label 'Attachment %1 must have file extension doc or docx.', Comment = '%1 = Attachment No.';
+IncorrectExtensionErr: Label 'Attachment %1 must have file extension doc or docx.', Comment = '%1 = Attachment No.';
         AttachmentFileErr: Label 'Could not get attachment content.';
         FaxMailToTxt: Label 'FaxMailTo';
         MailAddressTxt: Label ' Mail Address';

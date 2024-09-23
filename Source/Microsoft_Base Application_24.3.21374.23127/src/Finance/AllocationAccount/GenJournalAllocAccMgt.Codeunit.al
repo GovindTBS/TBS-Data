@@ -587,13 +587,13 @@ codeunit 2677 "Gen. Journal Alloc. Acc. Mgt."
         PostFromBatchErr: Label 'The general journal line that are using allocation accounts must be posted from a batch.';
         PostFromBatchFilterWasNotSetErr: Label 'The filter was not set when posting from batch. Aborting the post.';
         CannotSetTheAllocationAccountToBothErr: Label 'You cannot set Allocation account to both Account type and to Balancing account type.';
-        CannotGetAllocationAccountFromLineErr: Label 'Cannot get allocation account from journal line %1.', Comment = '%1 - Line No., it is an integer that identifies the line e.g. 10000, 200000.';
-        NoLinesGeneratedLbl: Label 'No allocation account lines were generated for journal line %1.', Comment = '%1 - Unique identification of the line.';
+CannotGetAllocationAccountFromLineErr: Label 'Cannot get allocation account from journal line %1.', Comment = '%1 - Line No., it is an integer that identifies the line e.g. 10000, 200000.';
+NoLinesGeneratedLbl: Label 'No allocation account lines were generated for journal line %1.', Comment = '%1 - Unique identification of the line.';
         ChangeDimensionsOnAllocationDistributionsQst: Label 'The line is connected to the Allocation Account. Any dimensions that you change through this action will be merged with dimensions that are defined on the Allocation Line. To change the final dimensions you should invoke the Redistribute Account Allocations action.\\Do you want to continue?';
         CannotUseBothAccountTypeAndBalancingAccountTypeAsAllocationAccountErr: Label 'You cannot use both account type and balancing account type as allocation accounts.';
         DeleteManualOverridesQst: Label 'Modifying the line will delete all manual overrides for allocation account.\\Do you want to continue?';
         YouMustEnterAnAccountNoForInheritFromParentErr: Label 'You must enter the account number if the allocation account with inherit from parent is used.';
-        InvalidAccountTypeForInheritFromParentErr: Label 'Selected account type - %1 cannot be used for allocation accounts that have inherit from parent defined.', Comment = '%1 - Account type, e.g. G/L Account, Customer, Vendor, Bank Account, Fixed Asset, Item, Resource, Charge, Project, or Blank.';
+InvalidAccountTypeForInheritFromParentErr: Label 'Selected account type - %1 cannot be used for allocation accounts that have inherit from parent defined.', Comment = '%1 - Account type, e.g. G/L Account, Customer, Vendor, Bank Account, Fixed Asset, Item, Resource, Charge, Project, or Blank.';
         MustProvideAccountNoForInheritFromParentErr: Label 'You must provide an account number for allocation account with inherit from parent defined.';
         AllocationAccountsCannotBeUsedOnThisPageErr: Label 'Allocation accounts cannot be used on this page.';
 }

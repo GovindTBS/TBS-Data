@@ -59,7 +59,7 @@ table 109 "Net Balances Parameters"
 
     var
         DocNoMustContainNumberErr: Label 'Document No. must contain a number.';
-        DescriptionMsg: Label 'Net customer/vendor balances %1 %2', Comment = '%1 %2';
+DescriptionMsg: Label 'Net customer/vendor balances %1 %2', Comment = '%1 %2';
         PostingDateErr: Label 'Please enter the Posting Date.';
         DocumentNoErr: Label 'Please enter the Document No.';
 

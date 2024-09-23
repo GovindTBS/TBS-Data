@@ -645,7 +645,7 @@ page 5972 "Posted Service Credit Memo"
                     RunPageLink = Type = const(General),
                                   "Table Name" = const("Service Cr.Memo Header"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

@@ -334,7 +334,7 @@ page 99000817 "Prod. Order Routing"
                                   "Routing Reference No." = field("Routing Reference No."),
                                   "Routing No." = field("Routing No."),
                                   "Operation No." = field("Operation No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Tools)
                 {
@@ -435,11 +435,11 @@ page 99000817 "Prod. Order Routing"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
-                    Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                     actionref("Allocated Capacity_Promoted"; "Allocated Capacity")
                     {
@@ -463,7 +463,7 @@ page 99000817 "Prod. Order Routing"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

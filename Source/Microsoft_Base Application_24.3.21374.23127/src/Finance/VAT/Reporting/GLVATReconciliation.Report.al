@@ -500,7 +500,7 @@ report 11 "G/L - VAT Reconciliation"
         PeriodLbl: Label 'Period: ';
         OnlyClosedVATEntriesLbl: Label 'The report includes only closed VAT entries.';
         AllVATEntriesLbl: Label 'The report includes all VAT entries.';
-        AllAmountsLbl: Label 'All amounts are in %1', Comment = '%1 = currency';
+AllAmountsLbl: Label 'All amounts are in %1', Comment = '%1 = currency';
         VAT_Statement_Name__NameCaptionLbl: Label 'VAT Statement Name';
         VAT_Statement_Name___Statement_Template_Name_CaptionLbl: Label 'VAT Statement Template';
         CurrReport_PAGENOCaptionLbl: Label 'Page';

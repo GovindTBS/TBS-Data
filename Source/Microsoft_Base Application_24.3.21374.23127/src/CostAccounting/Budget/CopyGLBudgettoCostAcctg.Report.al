@@ -237,7 +237,7 @@ report 1135 "Copy G/L Budget to Cost Acctg."
 
         Text000: Label 'Do you want to copy the general ledger budget "%1" to cost budget "%2"?';
         Text002: Label 'Copying budget entries\No of entries #1#####\Copied        #2#####';
-        Text003: Label '%1 entries generated in budget %2.\\%3 entries were skipped because there were either no corresponding G/L accounts defined or cost center and cost object were missing.\\Copy budget?', Comment = '%2=budget name;%3=integer value';
+Text003: Label '%1 entries generated in budget %2.\\%3 entries were skipped because there were either no corresponding G/L accounts defined or cost center and cost object were missing.\\Copy budget?', Comment = '%2=budget name;%3=integer value';
         Text004: Label 'Define name of source budget.';
         Text005: Label 'Define name of target budget.';
         Text006: Label 'No entries were copied. %1 entries were skipped because no corresponding general ledger accounts were defined or because cost center and cost object were missing.';

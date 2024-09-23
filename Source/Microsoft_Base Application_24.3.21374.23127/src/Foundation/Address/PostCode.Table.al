@@ -119,7 +119,7 @@ table 225 "Post Code"
 
     var
         TimeZoneSelection: Codeunit "Time Zone Selection";
-        CodeCityAlreadyExistsErr: Label '%1 %2 already exists.', Comment = '%1 = Post code ; %2 = City name';
+CodeCityAlreadyExistsErr: Label '%1 %2 already exists.', Comment = '%1 = Post code ; %2 = City name';
 
     procedure ValidateCity(var CityTxt: Text[30]; var PostCode: Code[20]; var CountyTxt: Text[30]; var CountryCode: Code[10]; UseDialog: Boolean)
     var

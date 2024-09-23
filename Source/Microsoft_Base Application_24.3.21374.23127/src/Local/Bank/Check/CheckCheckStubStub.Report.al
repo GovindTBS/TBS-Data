@@ -1422,25 +1422,25 @@ report 10412 "Check (Check/Stub/Stub)"
     var
         Text000Err: Label 'Preview is not allowed.';
         Text001Err: Label 'Last Check No. must be filled in.';
-        Text002Err: Label 'Filters on %1 and %2 are not allowed.', Comment = '%1=Field caption for "Line No." field, %2=Field caption for "Document No." field';
+Text002Err: Label 'Filters on %1 and %2 are not allowed.', Comment = '%1=Field caption for "Line No." field, %2=Field caption for "Document No." field';
         Text003Txt: Label 'XXXXXXXXXXXXXXXX', Locked = true;
         Text004Err: Label 'must be entered';
         Text005Err: Label 'The Bank Account and the General Journal Line must have the same currency.';
         Text008Err: Label 'Both Bank Accounts must have the same currency.';
         Text010Txt: Label 'XXXXXXXXXX', Locked = true;
         Text011Txt: Label 'XXXX', Locked = true;
-        Text013Err: Label '%1 already exists.', Comment = '%1=The check number.';
-        Text014Txt: Label 'Check for %1 %2', Comment = '%1=Balancing account type (G/L Account,Customer,Vendor,Bank Account), %2=Balancing Account Number';
+Text013Err: Label '%1 already exists.', Comment = '%1=The check number.';
+Text014Txt: Label 'Check for %1 %2', Comment = '%1=Balancing account type (G/L Account,Customer,Vendor,Bank Account), %2=Balancing Account Number';
         Text016Err: Label 'In the Check report, One Check per Vendor and Document No. must not be activated when Applies-to ID is specified in the journal lines.';
         Text019Txt: Label 'Total';
-        Text020Err: Label 'The total amount of check %1 is %2. The amount must be positive.', Comment = '%1=The check number, %2=The amount of the check';
+Text020Err: Label 'The total amount of check %1 is %2. The amount must be positive.', Comment = '%1=The check number, %2=The amount of the check';
         Text021Txt: Label 'VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID', Locked = true;
         Text022Txt: Label 'NON-NEGOTIABLE', Locked = true;
         Text023Txt: Label 'Test print';
         Text024Txt: Label 'XXXX.XX', Locked = true;
         Text025Txt: Label 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Locked = true;
-        Text030Err: Label ' is already applied to %1 %2 for customer %3.', Comment = '%1=The document type, %2=The document number, %3=The customer number';
-        Text031Err: Label ' is already applied to %1 %2 for vendor %3.', Comment = '%1=The document type, %2=The document number, %3=The vendor number';
+Text030Err: Label ' is already applied to %1 %2 for customer %3.', Comment = '%1=The document type, %2=The document number, %3=The customer number';
+Text031Err: Label ' is already applied to %1 %2 for vendor %3.', Comment = '%1=The document type, %2=The document number, %3=The vendor number';
         SalespersonPurchaser: Record "Salesperson/Purchaser";
         GenJnlLine2: Record "Gen. Journal Line";
         GenJnlLine3: Record "Gen. Journal Line";
@@ -1479,8 +1479,8 @@ report 10412 "Check (Check/Stub/Stub)"
         i: Integer;
         CurrencyCode2: Code[10];
         LineAmount2: Decimal;
-        Text064Err: Label '%1 must not be %2 for %3 %4.', Comment = '%1=Field caption for "Blocked" field, %2=Field value for "Blocked Field", %3=Customer table caption, %4=Customer number';
-        PrivacyBlockedErr: Label '%1 %2 must not be blocked for privacy.', Comment = '%1=customer or vendor, %2= customer or vendor code';
+Text064Err: Label '%1 must not be %2 for %3 %4.', Comment = '%1=Field caption for "Blocked" field, %2=Field value for "Blocked Field", %3=Customer table caption, %4=Customer number';
+PrivacyBlockedErr: Label '%1 %2 must not be blocked for privacy.', Comment = '%1=customer or vendor, %2= customer or vendor code';
         Text062Txt: Label 'G/L Account,Customer,Vendor,Bank Account,,,Employee';
         USText001Qst: Label 'Warning:  Checks cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?';
         USText002Err: Label 'Process cancelled at user request.';
@@ -1501,8 +1501,8 @@ report 10412 "Check (Check/Stub/Stub)"
         PrnChkVoidText: array[2] of Text[30];
         PrnChkDateIndicator: array[2] of Text[10];
         PrnChkCurrencyCode: array[2] of Code[10];
-        USText006Err: Label 'You cannot use the <blank> %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Field caption for "Check Date Format" field, %2=Caption for table "Bank Account", %3=Bank Account number';
-        USText007Err: Label 'You cannot use the Spanish %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Field caption for "Bank Communication" field, %2=Caption for table "Bank Account", %3=Bank Account number';
+USText006Err: Label 'You cannot use the <blank> %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Field caption for "Check Date Format" field, %2=Caption for table "Bank Account", %3=Bank Account number';
+USText007Err: Label 'You cannot use the Spanish %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Field caption for "Bank Communication" field, %2=Caption for table "Bank Account", %3=Bank Account number';
         USText011Txt: Label 'Document No.';
         USText012Txt: Label 'Document Date';
         USText013Txt: Label 'Amount';
@@ -1527,8 +1527,8 @@ report 10412 "Check (Check/Stub/Stub)"
         Posting_DescriptionCaptionLbl: Label 'Posting Description';
         AmountCaptionLbl: Label 'Amount';
         CheckNoText_Control1480000CaptionLbl: Label 'Check No.';
-        AlreadyAppliedToEmployeeErr: Label ' is already applied to %1 %2 for employee %3.', Comment = '%1 = Document type, %2 = Document No., %3 = Employee No.';
-        BlockedEmplForCheckErr: Label 'You cannot print check because employee %1 is blocked due to privacy.', Comment = '%1 - Employee no.';
+AlreadyAppliedToEmployeeErr: Label ' is already applied to %1 %2 for employee %3.', Comment = '%1 = Document type, %2 = Document No., %3 = Employee No.';
+BlockedEmplForCheckErr: Label 'You cannot print check because employee %1 is blocked due to privacy.', Comment = '%1 - Employee no.';
 
     protected var
     

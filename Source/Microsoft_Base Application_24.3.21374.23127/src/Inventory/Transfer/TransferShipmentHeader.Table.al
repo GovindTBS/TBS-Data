@@ -127,7 +127,7 @@ table 5744 "Transfer Shipment Header"
         {
             CalcFormula = exist("Inventory Comment Line" where("Document Type" = const("Posted Transfer Shipment"),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -472,7 +472,7 @@ table 5744 "Transfer Shipment Header"
     var
         DimMgt: Codeunit DimensionManagement;
         ItemTrackingMgt: Codeunit "Item Tracking Management";
-        NoElectronicStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1 - Document No.';
+NoElectronicStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1 - Document No.';
 
     procedure Navigate()
     var

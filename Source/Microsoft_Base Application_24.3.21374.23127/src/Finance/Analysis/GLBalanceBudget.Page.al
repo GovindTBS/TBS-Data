@@ -377,7 +377,7 @@ page 422 "G/L Balance/Budget"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("G/L Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

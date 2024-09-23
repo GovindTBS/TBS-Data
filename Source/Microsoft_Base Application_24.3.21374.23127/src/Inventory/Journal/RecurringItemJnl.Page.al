@@ -818,7 +818,7 @@ page 286 "Recurring Item Jnl."
     end;
 
     var
-        EntryTypeErr: Label 'You cannot use entry type %1 in this journal.', Comment = '%1 - Entry Type';
+EntryTypeErr: Label 'You cannot use entry type %1 in this journal.', Comment = '%1 - Entry Type';
         Text001: Label '1,2,3,New ';
         Text002: Label '1,2,4,New ';
         Text003: Label '1,2,5,New ';

@@ -139,7 +139,7 @@ page 7315 "Warehouse Movement"
                     RunPageLink = "Table Name" = const("Whse. Activity Header"),
                                   Type = field(Type),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Registered Movements")
                 {
@@ -221,7 +221,7 @@ page 7315 "Warehouse Movement"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Register Movement_Promoted"; "&Register Movement")
                 {

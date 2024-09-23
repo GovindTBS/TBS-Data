@@ -106,7 +106,7 @@ page 11 "Shipment Methods"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCRMCoupling)
@@ -184,7 +184,7 @@ page 11 "Shipment Methods"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
             }
             group(Category_Shipment_Method)

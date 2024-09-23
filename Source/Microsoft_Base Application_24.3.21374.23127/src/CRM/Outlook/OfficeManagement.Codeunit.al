@@ -23,9 +23,9 @@ codeunit 1630 "Office Management"
         AddinDeploymentHelper: Codeunit "Add-in Deployment Helper";
         OfficeHostType: DotNet OfficeHostType;
         OfficeAddinTelemetryCategoryTxt: Label 'AL Office Add-in', Locked = true;
-        UploadSuccessMsg: Label 'Sent %1 document(s) to the OCR service successfully.', Comment = '%1=number of documents';
-        UploadIncomingDocumentSuccessMsg: Label 'Sent %1 document(s) to the Incoming Documents successfully.', Comment = '%1=number of documents';
-        UploadAttachmentSuccessMsg: Label 'Attached %1 document(s) successfully.', Comment = '%1=number of documents';
+UploadSuccessMsg: Label 'Sent %1 document(s) to the OCR service successfully.', Comment = '%1=number of documents';
+UploadIncomingDocumentSuccessMsg: Label 'Sent %1 document(s) to the Incoming Documents successfully.', Comment = '%1=number of documents';
+UploadAttachmentSuccessMsg: Label 'Attached %1 document(s) successfully.', Comment = '%1=number of documents';
         AddinInitializedTelemetryTxt: Label 'Office add-in initialized%1  Host name: %2%1  Host Type: %3%1  Mode: %4%1  Command: %5', Locked = true;
         ClientExtensionTelemetryTxt: Label 'Invoking client-side extension: %1', Locked = true;
         HandlerCodeunitTelemetryTxt: Label 'Office add-in handler codeunit: %1', Locked = true;

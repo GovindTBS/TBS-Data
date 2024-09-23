@@ -25,7 +25,7 @@ codeunit 7006 "Price Helper - V16"
     SingleInstance = true;
 
     var
-        UpdateActiveCampaignPricesQst: Label 'Campaign %1 has the active price list(s) that will be updated. Do you want to continue?', Comment = '%1 - Campaign No.';
+UpdateActiveCampaignPricesQst: Label 'Campaign %1 has the active price list(s) that will be updated. Do you want to continue?', Comment = '%1 - Campaign No.';
 
     local procedure CopyJobPrices(SourceJob: Record Job; TargetJob: Record Job)
     var

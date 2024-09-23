@@ -257,7 +257,7 @@ page 5971 "Posted Service Credit Memos"
                     RunPageLink = Type = const(General),
                                   "Table Name" = const("Service Cr.Memo Header"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -485,7 +485,7 @@ page 5971 "Posted Service Credit Memos"
         ServCrMemoHeader: Record "Service Cr.Memo Header";
         DocExchStatusStyle: Text;
         DocExchStatusVisible: Boolean;
-        ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
+ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeCalculateSalesTaxStatistics(var ServiceCrMemoHeader: Record "Service Cr.Memo Header")

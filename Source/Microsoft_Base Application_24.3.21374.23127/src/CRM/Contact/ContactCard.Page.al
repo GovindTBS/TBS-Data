@@ -573,7 +573,7 @@ page 5050 "Contact Card"
                     RunPageLink = "Table Name" = const(Contact),
                                   "No." = field("No."),
                                   "Sub No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group("Alternati&ve Address")
                 {
@@ -635,7 +635,7 @@ page 5050 "Contact Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCRMCoupling)
@@ -1299,7 +1299,7 @@ page 5050 "Contact Card"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
             }
             group(Category_Process)
@@ -1339,7 +1339,7 @@ page 5050 "Contact Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Contact', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Contact', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Co&mments_Promoted"; "Co&mments")
                 {
@@ -1402,11 +1402,11 @@ page 5050 "Contact Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(ContactCoverSheet_Promoted; ContactCoverSheet)
                 {

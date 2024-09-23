@@ -58,7 +58,7 @@ page 1610 "Office Add-in Management"
             action("Upload Default Add-in Manifest")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Upload Add-in', Comment = 'Action - Uploads a default XML manifest definition';
+Caption = 'Upload Add-in', Comment = 'Action - Uploads a default XML manifest definition';
                 Image = Import;
                 ToolTip = 'Import an XML manifest file to the add-in. The manifest determines how an add-in is activated in Office applications where it is deployed.';
 
@@ -70,7 +70,7 @@ page 1610 "Office Add-in Management"
             action("Download Add-in Manifest")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Download Add-in', Comment = 'Action - downloads the XML manifest document for the add-in';
+Caption = 'Download Add-in', Comment = 'Action - downloads the XML manifest document for the add-in';
                 Image = Export;
                 Scope = Repeater;
                 ToolTip = 'Export the add-in''s manifest to an XML file. You can then modify the manifest and upload it again.';
@@ -136,8 +136,8 @@ page 1610 "Office Add-in Management"
 
     var
         UploadManifestTxt: Label 'Upload default manifest';
-        MissingManifestErr: Label 'Cannot find a default manifest for add-in %1. To upload an XML file with the manifest, choose Upload Default Add-in Manifest.', Comment = '%1=The name of an office add-in.';
-        OverwriteManifestQst: Label 'The uploaded manifest matches the existing item with name %1, would you like to overwrite it with the values from the uploaded manifest?', Comment = '%1: An Office Add-in name.';
+MissingManifestErr: Label 'Cannot find a default manifest for add-in %1. To upload an XML file with the manifest, choose Upload Default Add-in Manifest.', Comment = '%1=The name of an office add-in.';
+OverwriteManifestQst: Label 'The uploaded manifest matches the existing item with name %1, would you like to overwrite it with the values from the uploaded manifest?', Comment = '%1: An Office Add-in name.';
         AddinManifestManagement: Codeunit "Add-in Manifest Management";
         ResetWarningQst: Label 'This will restore the original add-in manifest for each of the default add-ins. Are you sure you want to continue?';
 

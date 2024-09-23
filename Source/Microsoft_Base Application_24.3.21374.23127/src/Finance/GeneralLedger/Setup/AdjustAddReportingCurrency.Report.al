@@ -463,7 +463,7 @@ report 86 "Adjust Add. Reporting Currency"
         IsJournalTemplNameVisible: Boolean;
         DocumentNo: Code[20];
 
-        Text000Err: Label 'Enter a %1.', Comment = '%1 - Document No.';
+Text000Err: Label 'Enter a %1.', Comment = '%1 - Document No.';
         Text001Err: Label 'Enter Retained Earnings Account No.';
         Text002Txt: Label 'Processing VAT Entries @1@@@@@@@@@@\';
         Text003Txt: Label 'Processing G/L Entries...\\';
@@ -471,12 +471,12 @@ report 86 "Adjust Add. Reporting Currency"
         Text006Txt: Label 'Item No. #1##########\';
         Text007Txt: Label 'Processing Project Ledger Entries...\\';
         Text008Txt: Label 'Project No. #1##########\';
-        Text010Txt: Label 'Residual caused by rounding of %1', Comment = '%1 - additional currency amount';
+Text010Txt: Label 'Residual caused by rounding of %1', Comment = '%1 - additional currency amount';
         Text011Txt: Label 'Processing Value Entries...\\';
         Text012Txt: Label 'Processing Cost Entries...\\';
         Text99000002Txt: Label 'Prod. Order No. #1##########\';
         Text99000004Txt: Label 'Processing Finished Prod. Order Lines...\\';
-        PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
+PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
 
     procedure SetAddCurr(AddCurr: Code[10])
     begin

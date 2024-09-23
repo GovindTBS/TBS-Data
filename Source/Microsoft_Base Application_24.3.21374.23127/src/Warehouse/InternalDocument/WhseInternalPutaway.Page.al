@@ -144,7 +144,7 @@ page 7354 "Whse. Internal Put-away"
                     RunPageLink = "Table Name" = const("Internal Put-away"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Put-away Lines")
                 {
@@ -237,7 +237,7 @@ page 7354 "Whse. Internal Put-away"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CreatePutAway_Promoted; CreatePutAway)
                 {
@@ -247,7 +247,7 @@ page 7354 "Whse. Internal Put-away"
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref("Re&lease_Promoted"; "Re&lease")
@@ -271,12 +271,12 @@ page 7354 "Whse. Internal Put-away"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

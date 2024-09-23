@@ -424,20 +424,20 @@ table 130 "Incoming Document"
         TempErrorMessage: Record "Error Message" temporary;
         DocumentType: Option Invoice,"Credit Memo";
 
-        UrlTooLongErr: Label 'Only URLs with a maximum of %1 characters are allowed.', Comment = '%1 = length of the URL field (e.g. 1024).';
+UrlTooLongErr: Label 'Only URLs with a maximum of %1 characters are allowed.', Comment = '%1 = length of the URL field (e.g. 1024).';
         NoDocumentMsg: Label 'There is no incoming document for this combination of posting date and document number.';
-        AlreadyUsedInJnlErr: Label 'The incoming document has already been assigned to journal batch %1, line number. %2.', Comment = '%1 = journal batch name, %2=line number.';
-        AlreadyUsedInDocHdrErr: Label 'The incoming document has already been assigned to %1 %2 (%3).', Comment = '%1=document type, %2=document number, %3=table name, e.g. Sales Header.';
+AlreadyUsedInJnlErr: Label 'The incoming document has already been assigned to journal batch %1, line number. %2.', Comment = '%1 = journal batch name, %2=line number.';
+AlreadyUsedInDocHdrErr: Label 'The incoming document has already been assigned to %1 %2 (%3).', Comment = '%1=document type, %2=document number, %3=table name, e.g. Sales Header.';
         DocPostedErr: Label 'The document related to this incoming document has been posted.';
         DocApprovedErr: Label 'This incoming document requires releasing.';
         DetachQst: Label 'Do you want to remove the reference from this incoming document to posted document %1, posting date %2?';
-        NotSupportedPurchErr: Label 'Purchase documents of type %1 are not supported.', Comment = '%1 will be Sales/Purchase Header. %2 will be invoice, Credit Memo.';
-        NotSupportedSalesErr: Label 'Sales documents of type %1 are not supported.', Comment = '%1 will be Sales/Purchase Header. %2 will be invoice, Credit Memo.';
+NotSupportedPurchErr: Label 'Purchase documents of type %1 are not supported.', Comment = '%1 will be Sales/Purchase Header. %2 will be invoice, Credit Memo.';
+NotSupportedSalesErr: Label 'Sales documents of type %1 are not supported.', Comment = '%1 will be Sales/Purchase Header. %2 will be invoice, Credit Memo.';
         EntityNotFoundErr: Label 'Cannot create the document. Make sure the data exchange definition is correct.';
         DocAlreadyCreatedErr: Label 'The document has already been created.';
         DocNotCreatedMsg: Label 'The document was not created due to errors in the conversion process.';
-        DocCreatedMsg: Label '%1 %2 has been created.', Comment = '%1 can be Purchase Invoice, %2 is an ID (e.g. 1001)';
-        DocCreatedWarningsMsg: Label '%1 %2 has been created with warnings.', Comment = '%1 can be Purchase Invoice, %2 is an ID (e.g. 1001)';
+DocCreatedMsg: Label '%1 %2 has been created.', Comment = '%1 can be Purchase Invoice, %2 is an ID (e.g. 1001)';
+DocCreatedWarningsMsg: Label '%1 %2 has been created with warnings.', Comment = '%1 can be Purchase Invoice, %2 is an ID (e.g. 1001)';
         RemovePostedRecordManuallyMsg: Label 'The reference to the posted record has been removed.\\Remember to correct the posted record if needed.';
         DeleteRecordQst: Label 'The reference to the record has been removed.\\Do you want to delete the record?';
         DocWhenApprovalIsCompleteErr: Label 'The document can only be created when the approval process is complete.';

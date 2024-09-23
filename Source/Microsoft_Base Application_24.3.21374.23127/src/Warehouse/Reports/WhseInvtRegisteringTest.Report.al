@@ -174,7 +174,7 @@ report 7302 "Whse. Invt.-Registering - Test"
                     ItemVariant: Record "Item Variant";
                     UserSetupManagement: Codeunit "User Setup Management";
                     InvtPeriodEndDate: Date;
-                    ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
                 begin
                     OnBeforeWarehouseJournalLineOnAfterGetRecord("Warehouse Journal Line", ErrorCounter, ErrorText);
 

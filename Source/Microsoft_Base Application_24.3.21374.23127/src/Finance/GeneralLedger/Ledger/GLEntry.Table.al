@@ -437,7 +437,7 @@ table 17 "G/L Entry"
         }
         field(5618; Comment; Text[250])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(6200; "Non-Deductible VAT Amount"; Decimal)
         {

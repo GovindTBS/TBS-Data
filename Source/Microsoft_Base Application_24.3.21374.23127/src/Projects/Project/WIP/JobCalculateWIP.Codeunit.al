@@ -35,9 +35,9 @@ codeunit 1000 "Job Calculate WIP"
         ErrorMessageHandler: Codeunit "Error Message Handler";
         WIPPostingDate: Date;
         DocNo: Code[20];
-        Text001: Label 'WIP %1', Comment = 'WIP GUILDFORD, 10 CR';
-        Text002: Label 'Recognition %1', Comment = 'Recognition GUILDFORD, 10 CR';
-        Text003: Label 'Completion %1', Comment = 'Completion GUILDFORD, 10 CR';
+Text001: Label 'WIP %1', Comment = 'WIP GUILDFORD, 10 CR';
+Text002: Label 'Recognition %1', Comment = 'Recognition GUILDFORD, 10 CR';
+Text003: Label 'Completion %1', Comment = 'Completion GUILDFORD, 10 CR';
         JobComplete: Boolean;
         Text004: Label 'WIP G/L entries posted for Project %1 cannot be reversed at an earlier date than %2.';
         Text005: Label '..%1';
@@ -45,7 +45,7 @@ codeunit 1000 "Job Calculate WIP"
         JobWIPTotalChanged: Boolean;
         WIPAmount: Decimal;
         RecognizedAllocationPercentage: Decimal;
-        CannotModifyAssociatedEntriesErr: Label 'The %1 cannot be modified because the project has associated project WIP entries.', Comment = '%1=The project task table name.';
+CannotModifyAssociatedEntriesErr: Label 'The %1 cannot be modified because the project has associated project WIP entries.', Comment = '%1=The project task table name.';
 
     procedure JobCalcWIP(var Job: Record Job; WIPPostingDate2: Date; DocNo2: Code[20])
     var

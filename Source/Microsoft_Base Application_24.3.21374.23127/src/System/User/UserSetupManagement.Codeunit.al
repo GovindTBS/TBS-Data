@@ -34,9 +34,9 @@ codeunit 5700 "User Setup Management"
         Text001: Label 'vendor';
         Text002: Label 'This %1 is related to %2 %3. Your identification is setup to process from %2 %4.';
         Text003: Label 'This document will be processed in your %2.';
-        AllowedDateErr: Label 'The date in the %1 field must not be after the date in the %2 field.', Comment = '%1 - caption Allow Posting From, %2 - caption Allow Posting To';
-        AllowedPostingDateMsg: Label 'The setup of allowed posting dates is incorrect. The date in the %1 field must not be after the date in the %2 field.', Comment = '%1 - caption Allow Posting From, %2 - caption Allow Posting To';
-        AllowedVATDateMsg: Label 'The setup of allowed VAT dates is incorrect. The date in the %1 field must not be after the date in the %2 field.', Comment = '%1 - caption Allow VAT Date From, %2 - caption Allow VAT Date To';
+AllowedDateErr: Label 'The date in the %1 field must not be after the date in the %2 field.', Comment = '%1 - caption Allow Posting From, %2 - caption Allow Posting To';
+AllowedPostingDateMsg: Label 'The setup of allowed posting dates is incorrect. The date in the %1 field must not be after the date in the %2 field.', Comment = '%1 - caption Allow Posting From, %2 - caption Allow Posting To';
+AllowedVATDateMsg: Label 'The setup of allowed VAT dates is incorrect. The date in the %1 field must not be after the date in the %2 field.', Comment = '%1 - caption Allow VAT Date From, %2 - caption Allow VAT Date To';
         OpenGLSetupActionTxt: Label 'Open the General Ledger Setup window';
         OpenUserSetupActionTxt: Label 'Open the User Setup window';
         PostingDateRangeErr: Label 'The Posting Date is not within your range of allowed posting dates.';

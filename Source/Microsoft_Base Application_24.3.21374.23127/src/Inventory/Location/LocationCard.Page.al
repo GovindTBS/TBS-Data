@@ -704,7 +704,7 @@ page 5703 "Location Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Online Map_Promoted"; "Online Map")
                 {
@@ -730,11 +730,11 @@ page 5703 "Location Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Location', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Location', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

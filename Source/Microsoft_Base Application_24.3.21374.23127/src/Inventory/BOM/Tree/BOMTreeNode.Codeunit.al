@@ -12,8 +12,8 @@ codeunit 3684 "BOM Tree Node"
         ChildNodes: Codeunit "BOM Tree Node Dictionary";
         NodeContent: Codeunit "BOM Node";
         IsRootNode: Boolean;
-        RecursiveLoopFoundErr: Label 'A recursive loop was found in the following chain of nodes: %1.', Comment = '%1 = List of text keys that are part of the ancestry';
-        KeyListElementTxt: Label '%1, ', Locked = true, Comment = '%1 = the key of the node';
+RecursiveLoopFoundErr: Label 'A recursive loop was found in the following chain of nodes: %1.', Comment = '%1 = List of text keys that are part of the ancestry';
+KeyListElementTxt: Label '%1, ', Locked = true, Comment = '%1 = the key of the node';
 
     procedure Create(NewNodeContent: Codeunit "BOM Node")
     begin

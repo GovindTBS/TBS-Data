@@ -26,7 +26,7 @@ codeunit 7308 Replenishment
         RemainQtyToReplenishBase: Decimal;
         NextLineNo: Integer;
         DoNotFillQtytoHandle: Boolean;
-        MustNotBeErr: Label 'must not be %1.', Comment = '%1 - field value';
+MustNotBeErr: Label 'must not be %1.', Comment = '%1 - field value';
 
     procedure ReplenishBin(ToBinContent: Record "Bin Content"; AllowBreakBulk: Boolean)
     var

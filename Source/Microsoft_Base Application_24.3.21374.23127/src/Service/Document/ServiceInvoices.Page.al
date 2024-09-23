@@ -194,7 +194,7 @@ page 9319 "Service Invoices"
                                   "Table Subtype" = field("Document Type"),
                                   "No." = field("No."),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Dimensions")
                 {
@@ -331,7 +331,7 @@ page 9319 "Service Invoices"
         {
             group(Category_Category4)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ShowAs = SplitButton;
 
                 actionref("P&ost_Promoted"; "P&ost")
@@ -352,7 +352,7 @@ page 9319 "Service Invoices"
             }
             group(Category_Category5)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("&Dimensions_Promoted"; "&Dimensions")
                 {
@@ -369,7 +369,7 @@ page 9319 "Service Invoices"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

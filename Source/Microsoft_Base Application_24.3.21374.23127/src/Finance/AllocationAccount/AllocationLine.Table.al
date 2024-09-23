@@ -247,6 +247,6 @@ table 2672 "Allocation Line"
     var
         ParentSystemIdIsNotProvidedErr: Label 'Parent System Id is not provided';
         ParenTableIsNotProvidedErr: Label 'Parent Table Id is not provided';
-        AllocAccManualOverrideAmountDoesNotMatchErr: Label 'The sum of the allocation lines does not match the amount to allocate. Difference is %1.', Comment = '%1 Amount e.g. 1231.71';
+AllocAccManualOverrideAmountDoesNotMatchErr: Label 'The sum of the allocation lines does not match the amount to allocate. Difference is %1.', Comment = '%1 Amount e.g. 1231.71';
         DimensionPageCaptionLbl: Label '%1 %2 %3', Locked = true;
 }

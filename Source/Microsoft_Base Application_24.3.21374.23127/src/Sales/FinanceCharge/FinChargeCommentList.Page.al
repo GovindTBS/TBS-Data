@@ -3,7 +3,7 @@ namespace Microsoft.Sales.FinanceCharge;
 page 455 "Fin. Charge Comment List"
 {
     AutoSplitKey = true;
-    Caption = 'Comment List';
+Caption = 'Comment List';
     DataCaptionExpression = Caption(Rec);
     DelayedInsert = true;
     Editable = false;
@@ -21,7 +21,7 @@ page 455 "Fin. Charge Comment List"
                 field(Type; Rec.Type)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the type of document the comment is attached to: either Finance Charge Memo or Issued Finance Charge Memo.';
+ToolTip = 'Specifies the type of document the comment is attached to: either Finance Charge Memo or Issued Finance Charge Memo.';
                 }
                 field("No."; Rec."No.")
                 {
@@ -31,12 +31,12 @@ page 455 "Fin. Charge Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
             }
         }
@@ -47,7 +47,7 @@ page 455 "Fin. Charge Comment List"
     }
 
     var
-        Text000: Label 'untitled', Comment = 'it is a caption for empty page';
+Text000: Label 'untitled', Comment = 'it is a caption for empty page';
         Text001: Label 'Fin. Charge Memo';
 
     procedure Caption(FinChrgCommentLine: Record "Fin. Charge Comment Line"): Text

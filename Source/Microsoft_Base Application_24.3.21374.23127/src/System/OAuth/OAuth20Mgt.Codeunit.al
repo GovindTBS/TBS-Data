@@ -19,7 +19,7 @@ codeunit 1140 "OAuth 2.0 Mgt."
         RequestAuthCodeTxt: Label 'Request authorization code.', Locked = true;
         RequestAccessTokenTxt: Label 'Request access token.', Locked = true;
         RefreshAccessTokenTxt: Label 'Refresh access token.', Locked = true;
-        InvokeRequestTxt: Label 'Invoke %1 request.', Comment = '%1 - request type, e.g. GET, POST', Locked = true;
+InvokeRequestTxt: Label 'Invoke %1 request.', Comment = '%1 - request type, e.g. GET, POST', Locked = true;
         RefreshSuccessfulTxt: Label 'Refresh token successful.';
         RefreshFailedTxt: Label 'Refresh token failed.';
         AuthorizationSuccessfulTxt: Label 'Authorization successful.';
@@ -29,8 +29,8 @@ codeunit 1140 "OAuth 2.0 Mgt."
         ActivityLogContextTxt: Label 'OAuth 2.0', Locked = true;
         AuthorizeTxt: Label 'Authorize';
         LimitExceededTxt: Label 'Http daily request limit is exceeded.', Locked = true;
-        EnvironmentBlocksErr: Label 'Environment blocks an outgoing HTTP request to ''%1''.', Comment = '%1 - url, e.g. https://microsoft.com';
-        ConnectionErr: Label 'Connection to the remote service ''%1'' could not be established.', Comment = '%1 - url, e.g. https://microsoft.com';
+EnvironmentBlocksErr: Label 'Environment blocks an outgoing HTTP request to ''%1''.', Comment = '%1 - url, e.g. https://microsoft.com';
+ConnectionErr: Label 'Connection to the remote service ''%1'' could not be established.', Comment = '%1 - url, e.g. https://microsoft.com';
         BaseAuthorizationUrlTxt: Label '%1%2?response_type=%3&client_id=%4&scope=%5&redirect_uri=%6', Locked = true;
         AuthCodeUrlTxt: Label 'grant_type=authorization_code&client_secret=%1&client_id=%2&redirect_uri=%3&code=%4', Locked = true;
 

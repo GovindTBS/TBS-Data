@@ -545,14 +545,14 @@ report 10143 "Item List"
         MoreInfo: Boolean;
         TotalValue: Decimal;
         SeeComment: Text[30];
-        Text000: Label '(See Comment)';
+Text000: Label '(See Comment)';
         UseSKU: Boolean;
-        Text001: Label '(See SKU Comment)';
+Text001: Label '(See SKU Comment)';
         NewTotalValue: Decimal;
         UseSKUEnable: Boolean;
         Item_ListCaptionLbl: Label 'Item List';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
-        Item_CommentCaptionLbl: Label 'Comment';
+Item_CommentCaptionLbl: Label 'Comment';
         TotalValueCaptionLbl: Label 'Inventory Value ($)';
         Item__Substitutes_Exist_CaptionLbl: Label 'Substitutes Exist';
         Item_BlockedCaptionLbl: Label 'Blocked';

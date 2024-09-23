@@ -114,7 +114,7 @@ page 9330 "Inventory Movements"
                     RunPageLink = "Table Name" = const("Whse. Activity Header"),
                                   Type = field(Type),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Registered Invt. Movement")
                 {

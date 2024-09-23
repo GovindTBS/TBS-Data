@@ -20,8 +20,8 @@ codeunit 1213 "Pmt. Export Cust. Ledger Check"
     end;
 
     var
-        RecipientBankAccMissingErr: Label '%1 for one or more %2 is not specified.', Comment = '%1=Field;%2=Table';
-        WrongFieldValueErr: Label '%1 for one or more %2 is different from %3.', Comment = '%1=Field;%2=Table;%3=Value';
+RecipientBankAccMissingErr: Label '%1 for one or more %2 is not specified.', Comment = '%1=Field;%2=Table';
+WrongFieldValueErr: Label '%1 for one or more %2 is different from %3.', Comment = '%1=Field;%2=Table;%3=Value';
         MissingPmtMethodErr: Label '%1 must be used for payments.';
 
     local procedure CheckDocumentType(var CustLedgEntry: Record "Cust. Ledger Entry")

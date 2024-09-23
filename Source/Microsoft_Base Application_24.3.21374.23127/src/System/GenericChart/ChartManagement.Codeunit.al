@@ -27,8 +27,8 @@ codeunit 1315 "Chart Management"
         AgedAccReceivable: Codeunit "Aged Acc. Receivable";
         AgedAccPayable: Codeunit "Aged Acc. Payable";
         Period: Option " ",Next,Previous;
-        MediumStatusTxt: Label '%1 | View by %2', Comment = '%1 Account Schedule Chart Setup Name, %2 Period Length, %3 Current time';
-        LongStatusTxt: Label '%1 | %2..%3 | %4', Comment = '%1 Account Schedule Chart Setup Name, %2 = Start Date, %3 = End Date, %4 Period Length, %5 Current time';
+MediumStatusTxt: Label '%1 | View by %2', Comment = '%1 Account Schedule Chart Setup Name, %2 Period Length, %3 Current time';
+LongStatusTxt: Label '%1 | %2..%3 | %4', Comment = '%1 Account Schedule Chart Setup Name, %2 = Start Date, %3 = End Date, %4 Period Length, %5 Current time';
         TopTenCustomerChartNameTxt: Label 'Top Ten Customers by Sales Value';
         TopFiveCustomerChartNameTxt: Label 'Top Five Customers by Sales Value';
         SalesByCustomerGroupNameTxt: Label 'Sales Trends by Customer Groups';

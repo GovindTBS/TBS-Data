@@ -130,9 +130,9 @@ report 597 "G/L Currency Revaluation"
         CorrTxt: Label 'Corr';
         PostingDateErr: Label 'Please enter posting date.';
         GenJournalErr: Label 'Please enter general journal name.';
-        JournalIsNotEmptyErr: Label 'There are already entries in the G/L journal %1. Please post or delete them before you proceed.', Comment = '%1 - journal batch name';
-        RevaluationTxt: Label 'Gain/Loss %1 Acc. %2 of %3', Comment = '%1 - currency code, %2 - account number, %3 - posting date';
-        LinesCreatedMsg: Label '%1 currency revaluation lines have been created in the general journal %2.', Comment = '%1 - line count, %2 - journal batch name';
+JournalIsNotEmptyErr: Label 'There are already entries in the G/L journal %1. Please post or delete them before you proceed.', Comment = '%1 - journal batch name';
+RevaluationTxt: Label 'Gain/Loss %1 Acc. %2 of %3', Comment = '%1 - currency code, %2 - account number, %3 - posting date';
+LinesCreatedMsg: Label '%1 currency revaluation lines have been created in the general journal %2.', Comment = '%1 - line count, %2 - journal batch name';
 
     local procedure RunRevaluationProcess()
     var

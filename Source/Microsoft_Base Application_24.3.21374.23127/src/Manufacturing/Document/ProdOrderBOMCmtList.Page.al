@@ -3,7 +3,7 @@ namespace Microsoft.Manufacturing.Document;
 page 99000843 "Prod. Order BOM Cmt List"
 {
     AutoSplitKey = true;
-    Caption = 'Comment List';
+Caption = 'Comment List';
     Editable = false;
     LinksAllowed = false;
     PageType = List;
@@ -24,12 +24,12 @@ page 99000843 "Prod. Order BOM Cmt List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the actual comment text.';
+ToolTip = 'Specifies the actual comment text.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies a code for the comments.';
+ToolTip = 'Specifies a code for the comments.';
                     Visible = false;
                 }
             }

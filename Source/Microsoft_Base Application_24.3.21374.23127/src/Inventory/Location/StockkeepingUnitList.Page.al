@@ -178,7 +178,7 @@ page 5701 "Stockkeeping Unit List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Item),
                                   "No." = field("Item No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("E&xtended Texts")
                 {
@@ -307,7 +307,7 @@ page 5701 "Stockkeeping Unit List"
                     RunPageLink = "Item No." = field("Item No."),
                                   "Variant Code" = field("Variant Code"),
                                   "Location Code" = field("Location Code");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(Warehouse)

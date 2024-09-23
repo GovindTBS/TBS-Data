@@ -835,7 +835,7 @@ table 5940 "Service Item"
             CalcFormula = exist("Service Comment Line" where("Table Name" = const("Service Item"),
                                                               "Table Subtype" = const("0"),
                                                               "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1191,10 +1191,10 @@ table 5940 "Service Item"
         Text003: Label '%1 %2 already exists in %3 %4.';
         Text004: Label 'You cannot change %1 %2 because the %3 %4 belongs to one or more contracts.';
         Text007: Label '%1 cannot be later than %2.';
-        FieldUpdateConfirmQst: Label 'You have changed %1 on the service item, but it has not been changed on the associated service orders/quotes.\You must update them manually.', Comment = '%1 = field name';
+FieldUpdateConfirmQst: Label 'You have changed %1 on the service item, but it has not been changed on the associated service orders/quotes.\You must update them manually.', Comment = '%1 = field name';
         Text017: Label 'Service ledger entries exist for this %1\\ Do you want to change the %2?';
-        ChgCustomerErr: Label 'You cannot change the %1 in the service item because of the following outstanding service order line:\\ Order %2, line %3, service item number %4, serial number %5, customer %6, ship-to code %7.', Comment = '%1 - Field Caption; %2 - Service Order No.;%3 - Serice Line No.;%4 - Service Item No.;%5 - Serial No.;%6 - Customer No.;%7 - Ship to Code.';
-        ChangeItemQst: Label 'Changing the %1 will delete the existing %2 on the %2 list.\\Do you want to change the %1?', Comment = '%1 - Field Caption, %2 - Field Caption';
+ChgCustomerErr: Label 'You cannot change the %1 in the service item because of the following outstanding service order line:\\ Order %2, line %3, service item number %4, serial number %5, customer %6, ship-to code %7.', Comment = '%1 - Field Caption; %2 - Service Order No.;%3 - Serice Line No.;%4 - Service Item No.;%5 - Serial No.;%6 - Customer No.;%7 - Ship to Code.';
+ChangeItemQst: Label 'Changing the %1 will delete the existing %2 on the %2 list.\\Do you want to change the %1?', Comment = '%1 - Field Caption, %2 - Field Caption';
 
     procedure AssistEdit(OldServItem: Record "Service Item"): Boolean
     begin

@@ -234,7 +234,7 @@ page 5123 "Opportunity List"
                     RunObject = Page "Rlshp. Mgt. Comment Sheet";
                     RunPageLink = "Table Name" = const(Opportunity),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Show Sales Quote")
                 {
@@ -295,7 +295,7 @@ page 5123 "Opportunity List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     action(ManageCRMCoupling)
@@ -468,7 +468,7 @@ page 5123 "Opportunity List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Activate First Stage_Promoted"; "Activate First Stage")
                 {

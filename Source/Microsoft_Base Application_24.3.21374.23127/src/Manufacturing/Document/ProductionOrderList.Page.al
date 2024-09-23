@@ -215,7 +215,7 @@ page 99000815 "Production Order List"
                     RunObject = Page "Prod. Order Comment Sheet";
                     RunPageLink = Status = field(Status),
                                   "Prod. Order No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -250,7 +250,7 @@ page 99000815 "Production Order List"
         {
             group(Category_Category4)
             {
-                Caption = 'Entries', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Entries', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Item Ledger E&ntries_Promoted"; "Item Ledger E&ntries")
                 {
@@ -267,7 +267,7 @@ page 99000815 "Production Order List"
             }
             group(Category_Category5)
             {
-                Caption = 'Prod. Order', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Prod. Order', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -281,7 +281,7 @@ page 99000815 "Production Order List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

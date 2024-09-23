@@ -676,7 +676,7 @@ page 5978 "Posted Service Invoice"
                     RunPageLink = Type = const(General),
                                   "Table Name" = const("Service Invoice Header"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -894,7 +894,7 @@ page 5978 "Posted Service Invoice"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Update Document_Promoted"; "Update Document")
                 {
@@ -905,7 +905,7 @@ page 5978 "Posted Service Invoice"
             }
             group(Category_Category5)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -919,7 +919,7 @@ page 5978 "Posted Service Invoice"
             }
             group(Category_Category4)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -942,7 +942,7 @@ page 5978 "Posted Service Invoice"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

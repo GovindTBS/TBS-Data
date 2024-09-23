@@ -16,7 +16,7 @@ codeunit 99000808 PlanningRoutingManagement
         Text002: Label 'Actual number of termination processes in line %1 is %2. They should be 1. Check %3.';
         Text003: Label 'Actual number of start processes in line %1 is %2. They should be 1. Check %3.';
         Text004: Label 'Not all routing lines are sequenced backwards on line %1. Check %2.';
-        NotAllRoutingLineSequencedForwardErr: Label 'Not all routing lines are sequenced forward on line %1. Check the %2.', Comment = '%1: Field(Line No.); %2 Text ErrList:';
+NotAllRoutingLineSequencedForwardErr: Label 'Not all routing lines are sequenced forward on line %1. Check the %2.', Comment = '%1: Field(Line No.); %2 Text ErrList:';
         Text006: Label 'Previous operations for %1 cannot be found.';
         Text007: Label 'Next operations for %1 cannot be found.';
         UOMMgt: Codeunit "Unit of Measure Management";

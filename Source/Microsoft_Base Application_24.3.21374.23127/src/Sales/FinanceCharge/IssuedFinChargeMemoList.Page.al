@@ -116,7 +116,7 @@ page 452 "Issued Fin. Charge Memo List"
                     RunObject = Page "Fin. Charge Comment Sheet";
                     RunPageLink = Type = const("Issued Finance Charge Memo"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("C&ustomer")
                 {

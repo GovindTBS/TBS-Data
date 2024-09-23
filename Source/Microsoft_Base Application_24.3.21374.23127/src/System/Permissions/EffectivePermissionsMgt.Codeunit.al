@@ -18,7 +18,7 @@ codeunit 9852 "Effective Permissions Mgt."
         UserAccountHelper: DotNet NavUserAccountHelper;
         DialogFormatMsg: Label 'Reading objects...@1@@@@@@@@@@@@@@@@@@';
         CannotViewEffectivePermissionsForOtherUserErr: Label 'Only users with the SUPER or the SECURITY permission set can view effective permissions for other users.';
-        ChangeAffectsOthersMsg: Label 'Your change in permission set %1 will affect other users that the permission set is assigned to.', Comment = '%1 = permission set ID that was changed';
+ChangeAffectsOthersMsg: Label 'Your change in permission set %1 will affect other users that the permission set is assigned to.', Comment = '%1 = permission set ID that was changed';
         ChangeAffectsOthersNameTxt: Label 'Changing permission sets for other users';
         ChangeAffectsOthersDescTxt: Label 'Show a warning when changing a permission set that is assigned to other users.';
         DirectConflictWithIndirectMsg: Label 'This user has been given the Yes permission for the selected object, but their license allows them only the Indirect permission.';
@@ -27,8 +27,8 @@ codeunit 9852 "Effective Permissions Mgt."
         UserListLbl: Label 'See users affected';
         UndoChangeLbl: Label 'Undo change';
         DontShowAgainLbl: Label 'Never show again';
-        RevertChangeQst: Label 'Do you want to revert the recent change to permission set %1?', Comment = '%1 = the permission set ID that has been changed.';
-        ConflictLbl: Label '%1 (reduced)', Comment = '%1 = permission set type, e.g. Indirect';
+RevertChangeQst: Label 'Do you want to revert the recent change to permission set %1?', Comment = '%1 = the permission set ID that has been changed.';
+ConflictLbl: Label '%1 (reduced)', Comment = '%1 = permission set type, e.g. Indirect';
 
     procedure OpenPageForUser(UserSID: Guid)
     var
@@ -169,7 +169,7 @@ codeunit 9852 "Effective Permissions Mgt."
         CurrentPermissionSet: Integer;
         TotalPermissionSets: Integer;
         ProgressBarTitleLbl: Label 'Loading permission sets';
-        ProgressLbl: Label '#1#### of #2####', Comment = '#1 - Current permission set, #2 - Total number of permission sets';
+ProgressLbl: Label '#1#### of #2####', Comment = '#1 - Current permission set, #2 - Total number of permission sets';
     begin
         TotalPermissionSets := MetadataPermissionSet.Count() + TenantPermissionSet.Count();
 

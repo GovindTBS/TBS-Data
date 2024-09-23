@@ -74,7 +74,7 @@ page 589 "G/L Account Source Currencies"
         {
             group(Category_Category6)
             {
-                Caption = 'Source Currencies', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Source Currencies', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(UpdateCurrencies_Promoted; UpdateCurrencies)
                 {

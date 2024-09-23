@@ -4,7 +4,7 @@ using System.Security.User;
 
 page 661 "Posted Approval Comments"
 {
-    Caption = 'Posted Approval Comments';
+Caption = 'Posted Approval Comments';
     DeleteAllowed = false;
     Editable = false;
     InsertAllowed = false;
@@ -29,7 +29,7 @@ page 661 "Posted Approval Comments"
                 field("User ID"; Rec."User ID")
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the ID of the user who created this approval comment.';
+ToolTip = 'Specifies the ID of the user who created this approval comment.';
                     Visible = false;
 
                     trigger OnDrillDown()
@@ -42,17 +42,17 @@ page 661 "Posted Approval Comments"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies the comment. You can enter a maximum of 250 characters, both numbers and letters.';
+ToolTip = 'Specifies the comment. You can enter a maximum of 250 characters, both numbers and letters.';
                 }
                 field("Document No."; Rec."Document No.")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies the document number of the quote, order, invoice, credit memo, return order, or blanket order that the comment applies to.';
+ToolTip = 'Specifies the document number of the quote, order, invoice, credit memo, return order, or blanket order that the comment applies to.';
                 }
                 field("Date and Time"; Rec."Date and Time")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies the date and time that the comment was made.';
+ToolTip = 'Specifies the date and time that the comment was made.';
                 }
                 field(PostedRecordID; PostedRecordID)
                 {

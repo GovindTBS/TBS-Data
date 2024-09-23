@@ -11,7 +11,7 @@ using System;
 
 page 7209 "CDS Couple Salespersons"
 {
-    Caption = 'Couple Dataverse Users with Salespersons', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Couple Dataverse Users with Salespersons', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     DeleteAllowed = false;
     InsertAllowed = false;
     PageType = List;
@@ -28,9 +28,9 @@ page 7209 "CDS Couple Salespersons"
                 field(FullName; Rec.FullName)
                 {
                     ApplicationArea = Suite;
-                    Caption = 'User Name Dataverse', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'User Name Dataverse', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                     Editable = false;
-                    ToolTip = 'Specifies data from a corresponding column in a Dataverse table.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies data from a corresponding column in a Dataverse table.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                 }
                 field(InternalEMailAddress; Rec.InternalEMailAddress)
                 {
@@ -189,11 +189,11 @@ page 7209 "CDS Couple Salespersons"
         {
             group(Category_New)
             {
-                Caption = 'Create', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'Create', Comment = 'Generated from the PromotedActionCategories property index 0.';
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CreateFromCDS_Promoted; CreateFromCDS)
                 {
@@ -285,7 +285,7 @@ page 7209 "CDS Couple Salespersons"
         TeamMember: Option No,Yes;
         Coupled: Option Yes,No,Current;
         FirstColumnStyle: Text;
-        ClosePageUncoupledUserTxt: Label '%1 out of %2 users are coupled. To prevent issues in initial synchronization Business Central will create salespeople for uncoupled users, couple them and add them to default team. Would you like to continue?', Comment = '%1=No. of users that were coupled, %2=Total no. of users.';
+ClosePageUncoupledUserTxt: Label '%1 out of %2 users are coupled. To prevent issues in initial synchronization Business Central will create salespeople for uncoupled users, couple them and add them to default team. Would you like to continue?', Comment = '%1=No. of users that were coupled, %2=Total no. of users.';
         AllCoupledTxt: Label 'All users are coupled.';
         HasPermissions: Boolean;
         StartMatchBasedCouplingQst: Label 'You are about to couple Business Central salespersons to Dataverse users based on criteria that you define.\Refresh this page to update the status of the couplings.\\Do you want to continue?';

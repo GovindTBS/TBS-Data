@@ -39,7 +39,7 @@ page 654 "Requests to Approve"
                 {
                     ApplicationArea = Suite;
                     HideValue = not Rec.Comment;
-                    ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
+ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
                 }
                 field("Sender ID"; Rec."Sender ID")
                 {
@@ -136,11 +136,11 @@ page 654 "Requests to Approve"
                 action(Comments)
                 {
                     ApplicationArea = Suite;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Enabled = ShowRecCommentsEnabled;
                     Image = ViewComments;
                     Scope = Repeater;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     var
@@ -242,7 +242,7 @@ page 654 "Requests to Approve"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Record_Promoted; Record)
                 {

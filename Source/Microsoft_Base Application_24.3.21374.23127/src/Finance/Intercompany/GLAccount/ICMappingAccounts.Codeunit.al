@@ -221,9 +221,9 @@ codeunit 438 "IC Mapping Accounts"
     end;
 
     var
-        FailedToFindPartnerErr: Label 'There is no partner with code %1 in the list of your intercompany partners.', Comment = '%1 = Partner code';
-        InboxTypeNotDatabaseErr: Label 'Syncronization is only available for partners using database as their intercompany inbox type. Partner %1 inbox type is %2', Comment = '%1 = Partner code, %2 = Partner inbox type';
-        FailedToChangeCompanyErr: Label 'It was not possible to find table %1 in partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
-        MissingPermissionToReadTableErr: Label 'You do not have the necessary permissions to access the intercompany chart of accounts of partner %1.', Comment = '%1 = Partner Code';
+FailedToFindPartnerErr: Label 'There is no partner with code %1 in the list of your intercompany partners.', Comment = '%1 = Partner code';
+InboxTypeNotDatabaseErr: Label 'Syncronization is only available for partners using database as their intercompany inbox type. Partner %1 inbox type is %2', Comment = '%1 = Partner code, %2 = Partner inbox type';
+FailedToChangeCompanyErr: Label 'It was not possible to find table %1 in partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
+MissingPermissionToReadTableErr: Label 'You do not have the necessary permissions to access the intercompany chart of accounts of partner %1.', Comment = '%1 = Partner Code';
 }
 #endif

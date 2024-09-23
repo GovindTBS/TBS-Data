@@ -13,8 +13,8 @@ codeunit 3689 "Low-Level Code Parameter"
         PopulatingBOMLbl: Label 'Populating BOM tree';
         CalculatingLbl: Label 'Calculating low- level codes';
         WritingToDBLbl: Label 'Writing to database';
-        DialogContentTxt: Label '#1################## \\    #2##################################### \\    #3##################################### ', Comment = '%1 corresponds to the heading of the dialog, %2 corresponds to the BOM details, e.g. Type and No., %3 = counter info below';
-        CounterTxt: Label 'Processed %1 of %2.', Comment = '%1 corresponds to the count of entities progressed, %2 correponds to total count of entities';
+DialogContentTxt: Label '#1################## \\    #2##################################### \\    #3##################################### ', Comment = '%1 corresponds to the heading of the dialog, %2 corresponds to the BOM details, e.g. Type and No., %3 = counter info below';
+CounterTxt: Label 'Processed %1 of %2.', Comment = '%1 corresponds to the count of entities progressed, %2 correponds to total count of entities';
 
     procedure Create()
     begin

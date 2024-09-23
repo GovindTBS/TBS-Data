@@ -39,10 +39,10 @@ codeunit 1371 "Sales Batch Post Mgt."
         PostingCodeunitId: Integer;
         PostingDateIsNotSetErr: Label 'Enter the posting date.';
         BatchPostingMsg: Label 'Batch posting of sales documents.';
-        ApprovalPendingErr: Label 'Cannot post sales document no. %1 of type %2 because it is pending approval.', Comment = '%1 = Document No.; %2 = Document Type';
-        ApprovalWorkflowErr: Label 'Cannot post sales document no. %1 of type %2 due to the approval workflow.', Comment = '%1 = Document No.; %2 = Document Type';
-        InterCompanyZipFileNamePatternTok: Label 'Sales IC Batch - %1.zip', Comment = '%1 - today date, Sample: Sales IC Batch - 23-01-2024.zip';
-        ProcessBarMsg: Label 'Processing: @1@@@@@@@', Comment = '1 - overall progress';
+ApprovalPendingErr: Label 'Cannot post sales document no. %1 of type %2 because it is pending approval.', Comment = '%1 = Document No.; %2 = Document Type';
+ApprovalWorkflowErr: Label 'Cannot post sales document no. %1 of type %2 due to the approval workflow.', Comment = '%1 = Document No.; %2 = Document Type';
+InterCompanyZipFileNamePatternTok: Label 'Sales IC Batch - %1.zip', Comment = '%1 - today date, Sample: Sales IC Batch - 23-01-2024.zip';
+ProcessBarMsg: Label 'Processing: @1@@@@@@@', Comment = '1 - overall progress';
 
     procedure RunBatch(var SalesHeader: Record "Sales Header"; ReplacePostingDate: Boolean; PostingDate: Date; ReplaceDocumentDate: Boolean; CalcInvoiceDiscount: Boolean; Ship: Boolean; Invoice: Boolean)
     var

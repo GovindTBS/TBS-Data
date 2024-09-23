@@ -2115,7 +2115,7 @@ xmlport 1611 "Sales Cr.Memo - PEPPOL BIS 3.0"
         DummyVar: Text;
         SpecifyASalesCreditMemoNoErr: Label 'You must specify a sales credit memo number.';
         SpecifyAServCreditMemoNoErr: Label 'You must specify a service invoice number.';
-        UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
+UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
         ProcessedDocType: Option Sale,Service;
 
     local procedure GetTotals()

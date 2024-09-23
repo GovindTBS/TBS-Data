@@ -36,7 +36,7 @@ codeunit 5900 ServOrderManagement
         Text009: Label 'Travel fee in the %1 table with %2 %3 cannot be found.';
         Text011: Label 'There is no %1 for %2 %3.';
         Text012: Label 'You can not post %1 %2.\\%3 %4 in %5 line %6 is preventing it.';
-        NewCustomerQst: Label 'This customer already exists.\\Do you want create a new %1 instead of using the existing one?', Comment = '%1 - Table caption';
+NewCustomerQst: Label 'This customer already exists.\\Do you want create a new %1 instead of using the existing one?', Comment = '%1 - Table caption';
 
     procedure ServHeaderLookup(DocumentType: Integer; var DocumentNo: Code[20]): Boolean
     var

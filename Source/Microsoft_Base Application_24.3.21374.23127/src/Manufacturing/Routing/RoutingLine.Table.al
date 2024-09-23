@@ -309,7 +309,7 @@ table 99000764 "Routing Line"
             CalcFormula = exist("Routing Comment Line" where("Routing No." = field("Routing No."),
                                                               "Version Code" = field("Version Code"),
                                                               "Operation No." = field("Operation No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -399,8 +399,8 @@ table 99000764 "Routing Line"
         StdTaskPersonnel: Record "Standard Task Personnel";
         StdTaskQltyMeasure: Record "Standard Task Quality Measure";
         StdTaskComment: Record "Standard Task Description";
-        CannotDeleteCertifiedRoutingExistsErr: Label 'You cannot delete %1 %2 because there is at least one certified routing associated with it.', Comment = '%1 = Routing Line Type option; %2 = No.';
-        CannotDeleteCertifiedRoutingVersionExistsErr: Label 'You cannot delete %1 %2 because there is at least one certified routing version associated with it.', Comment = '%1 = Routing Line Type option; %2 = No.';
+CannotDeleteCertifiedRoutingExistsErr: Label 'You cannot delete %1 %2 because there is at least one certified routing associated with it.', Comment = '%1 = Routing Line Type option; %2 = No.';
+CannotDeleteCertifiedRoutingVersionExistsErr: Label 'You cannot delete %1 %2 because there is at least one certified routing version associated with it.', Comment = '%1 = Routing Line Type option; %2 = No.';
 
     procedure TestStatus()
     var

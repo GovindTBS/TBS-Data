@@ -906,7 +906,7 @@ report 2 "General Journal - Test"
         Text020: Label '%1 must not be %2 when %3 = %4.';
         Text021: Label 'Allocations can only be used with recurring journals.';
         Text022: Label 'Specify %1 in the %2 allocation lines.';
-        Text024: Label '%1 %2 posted on %3, must be separated by an empty line.', Comment = '%1 - document type, %2 - document number, %3 - posting date';
+Text024: Label '%1 %2 posted on %3, must be separated by an empty line.', Comment = '%1 - document type, %2 - document number, %3 - posting date';
         Text025: Label '%1 %2 is out of balance by %3.';
         Text026: Label 'The reversing entries for %1 %2 are out of balance by %3.';
         Text027: Label 'As of %1, the lines are out of balance by %2.';

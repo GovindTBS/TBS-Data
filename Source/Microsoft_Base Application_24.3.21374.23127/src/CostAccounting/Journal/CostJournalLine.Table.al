@@ -250,7 +250,7 @@ table 1101 "Cost Journal Line"
         CostType: Record "Cost Type";
         CostJournalBatch: Record "Cost Journal Batch";
         CostJournalTemplate: Record "Cost Journal Template";
-        Text000: Label 'Line Type must be %1 or Begin-Total in %2 %3.', Comment = '%2 = Cost Center or Cost Object; %3 = Cost Center or Cost Object Code';
+Text000: Label 'Line Type must be %1 or Begin-Total in %2 %3.', Comment = '%2 = Cost Center or Cost Object; %3 = Cost Center or Cost Object Code';
 
     local procedure CalcBalance()
     begin

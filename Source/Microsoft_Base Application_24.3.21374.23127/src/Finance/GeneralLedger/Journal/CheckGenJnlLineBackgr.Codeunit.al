@@ -22,7 +22,7 @@ codeunit 9081 "Check Gen. Jnl. Line. Backgr."
 
     var
         BackgroundErrorHandlingMgt: Codeunit "Background Error Handling Mgt.";
-        DocumentOutOfBalanceErr: Label 'Document No. %1 is out of balance by %2', Comment = '%1 - document number, %2 = amount';
+DocumentOutOfBalanceErr: Label 'Document No. %1 is out of balance by %2', Comment = '%1 - document number, %2 = amount';
 
     procedure RunCheck(Args: Dictionary of [Text, Text]; var TempErrorMessage: Record "Error Message" temporary)
     var

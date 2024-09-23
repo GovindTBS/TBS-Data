@@ -9,9 +9,9 @@ codeunit 18 "Financial Report Mgt."
     TableNo = "Financial Report";
 
     var
-        FinRepPrefixTxt: Label 'FIN.REP.', MaxLength = 10, Comment = 'Part of the name for the confguration package, stands for Financial Report';
+FinRepPrefixTxt: Label 'FIN.REP.', MaxLength = 10, Comment = 'Part of the name for the confguration package, stands for Financial Report';
         TwoPosTxt: Label '%1%2', Locked = true;
-        PackageNameTxt: Label 'Financial Report - %1', MaxLength = 40, Comment = '%1 - financial report name';
+PackageNameTxt: Label 'Financial Report - %1', MaxLength = 40, Comment = '%1 - financial report name';
         PackageImportErr: Label 'The financial report could not be imported.';
         RowsEditWarningNotificationMsg: Label 'Changes to this row definition will affect all financial reports using it.';
         RowsNotificationIdTok: Label 'e6374e6b-dba0-43a0-9099-0ae20ee77f4b', Locked = true;

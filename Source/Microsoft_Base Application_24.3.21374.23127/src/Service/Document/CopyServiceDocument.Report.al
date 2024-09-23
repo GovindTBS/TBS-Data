@@ -135,7 +135,7 @@ report 5979 "Copy Service Document"
         AllLinesCopied: Boolean;
 
         ShowNotCopiedLinesQst: Label 'It was not possible to copy all of the service contract lines.\\Do you want to see these lines?';
-        SameFieldValueErr: Label 'You can only copy the document with the same %1.', Comment = '%1 - field caption';
+SameFieldValueErr: Label 'You can only copy the document with the same %1.', Comment = '%1 - field caption';
         ChangeShipToCodeQst: Label 'The document has a different ship-to code.\\Do you want to continue?';
         MissingContractNoErr: Label 'You must fill in the Contract No. field.';
 

@@ -752,7 +752,7 @@ table 5409 "Prod. Order Routing Line"
     end;
 
     var
-        Text000: Label 'You cannot delete %1 %2 %3 because there is at least one %4 associated with it.', Comment = '%1 = Document status; %2 = Table Caption; %3 = Field Value; %4 = Table Caption';
+Text000: Label 'You cannot delete %1 %2 %3 because there is at least one %4 associated with it.', Comment = '%1 = Document status; %2 = Table Caption; %3 = Field Value; %4 = Table Caption';
         Text001: Label 'You cannot rename a %1.';
         Text002: Label 'This routing line cannot be moved because of critical work centers in previous operations';
         Text003: Label 'This routing line cannot be moved because of critical work centers in next operations';

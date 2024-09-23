@@ -257,9 +257,9 @@ table 1507 "Workflow Step Buffer"
     var
         ThenTextForMultipleResponsesTxt: Label '(+) %1';
         SelectResponseTxt: Label '<Select Response>';
-        EventNotExistErr: Label 'The workflow event %1 does not exist.', Comment = '%1 = event description (e.g. The workflow event A general journal batch is does not exist.)';
+EventNotExistErr: Label 'The workflow event %1 does not exist.', Comment = '%1 = event description (e.g. The workflow event A general journal batch is does not exist.)';
         WhenMissingErr: Label 'You must select a When statement first.';
-        ResponseNotExistErr: Label 'The workflow response %1 does not exist.', Comment = '%1 = response description (e.g. The workflow response Remove record does not exist.)';
+ResponseNotExistErr: Label 'The workflow response %1 does not exist.', Comment = '%1 = response description (e.g. The workflow response Remove record does not exist.)';
         WhenNextStepDescTxt: Label 'Next when "%1"';
         ThenNextStepDescTxt: Label 'Next then "%1"';
         ResponseDeleteLbl: Label 'You are about to change the "When Event". This change will cause the "On Condition" and the "Then Responses" to be deleted. Do you want to continue?';

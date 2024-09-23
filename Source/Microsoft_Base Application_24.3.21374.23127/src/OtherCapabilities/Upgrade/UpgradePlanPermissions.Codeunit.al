@@ -19,7 +19,7 @@ codeunit 104030 "Upgrade Plan Permissions"
     var
         AutomationTok: Label 'D365 AUTOMATION', MaxLength = 20, Locked = true;
         BackupRestoreTok: Label 'D365 BACKUP/RESTORE', Locked = true;
-        BackupRestoreDescriptionTxt: Label 'Backup or restore database', Comment = 'Maximum length is 30';
+BackupRestoreDescriptionTxt: Label 'Backup or restore database', Comment = 'Maximum length is 30';
         BasicTok: Label 'D365 BASIC', Locked = true;
         BasicISVTok: Label 'D365 BASIC ISV', Locked = true;
         BusFullTok: Label 'D365 BUS FULL ACCESS', Locked = true;

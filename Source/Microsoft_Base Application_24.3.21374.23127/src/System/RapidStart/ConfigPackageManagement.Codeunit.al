@@ -34,22 +34,22 @@ codeunit 8611 "Config. Package Management"
 
         ErrorTypeEnum: Option General,TableRelation;
         HideDialog: Boolean;
-        KeyFieldValueMissingErr: Label 'The value of the key field %1 has not been filled in for record %2 : %3.', Comment = 'Parameter 1 - field name, 2 - table name, 3 - code value. Example: The value of the key field Customer Posting Group has not been filled in for record Customer : XXXXX.';
+KeyFieldValueMissingErr: Label 'The value of the key field %1 has not been filled in for record %2 : %3.', Comment = 'Parameter 1 - field name, 2 - table name, 3 - code value. Example: The value of the key field Customer Posting Group has not been filled in for record Customer : XXXXX.';
         ValidatingTableRelationsMsg: Label 'Validating table relations';
-        RecordsXofYMsg: Label 'Records: %1 of %2', Comment = 'Sample: 5 of 1025. 1025 is total number of records, 5 is a number of the current record ';
-        ApplyingPackageMsg: Label 'Applying package %1', Comment = '%1 = The name of the package being applied.';
-        ApplyingTableMsg: Label 'Applying table %1', Comment = '%1 = The name of the table being applied.';
-        NoTablesAndErrorsMsg: Label '%1 tables are processed.\%2 errors found.\%3 records inserted.\%4 records modified.', Comment = '%1 = number of tables processed, %2 = number of errors, %3 = number of records inserted, %4 = number of records modified';
-        NoTablesMsg: Label '%1 tables are processed.', Comment = '%1 = The number of tables that were processed.';
+RecordsXofYMsg: Label 'Records: %1 of %2', Comment = 'Sample: 5 of 1025. 1025 is total number of records, 5 is a number of the current record ';
+ApplyingPackageMsg: Label 'Applying package %1', Comment = '%1 = The name of the package being applied.';
+ApplyingTableMsg: Label 'Applying table %1', Comment = '%1 = The name of the table being applied.';
+NoTablesAndErrorsMsg: Label '%1 tables are processed.\%2 errors found.\%3 records inserted.\%4 records modified.', Comment = '%1 = number of tables processed, %2 = number of errors, %3 = number of records inserted, %4 = number of records modified';
+NoTablesMsg: Label '%1 tables are processed.', Comment = '%1 = The number of tables that were processed.';
         UpdatingDimSetsMsg: Label 'Updating dimension sets';
-        ProcessingOrderErr: Label 'Cannot set up processing order numbers. A cycle reference exists in the primary keys for table %1.', Comment = '%1 = The name of the table.';
+ProcessingOrderErr: Label 'Cannot set up processing order numbers. A cycle reference exists in the primary keys for table %1.', Comment = '%1 = The name of the table.';
         ReferenceSameTableErr: Label 'Some lines refer to the same table. You cannot assign a table to a package more than one time.';
         BlankTxt: Label '[Blank]';
-        DimValueDoesNotExistsErr: Label 'Dimension Value %1 %2 does not exist.', Comment = '%1 = Dimension Code, %2 = Dimension Value Code';
+DimValueDoesNotExistsErr: Label 'Dimension Value %1 %2 does not exist.', Comment = '%1 = Dimension Code, %2 = Dimension Value Code';
         MSGPPackageCodeTxt: Label 'GB.ENU.CSV';
         QBPackageCodeTxt: Label 'DM.IIF';
         RapidStartTxt: Label 'RapidStart', Locked = true;
-        ImportNotAllowedErr: Label 'Cannot import table %1 through a Configuration Package.', Comment = '%1 = The name of the table.';
+ImportNotAllowedErr: Label 'Cannot import table %1 through a Configuration Package.', Comment = '%1 = The name of the table.';
         RSNotificaitonMsg: Label 'Use configuration packages to import data when setting up new companies. Depending on the amount of data, this can take time and impact system performance for all users.';
         UsingBigRSPackageTxt: Label 'The user is shown a warning for action: %1. reason: %2', Locked = true;
         AcknowledgePerformanceImpactTxt: Label 'The user was informed about the potential of poor perfomance and decided to continue. Process: %1', Locked = true;
@@ -58,9 +58,9 @@ codeunit 8611 "Config. Package Management"
         DisableNotificationLbl: Label 'Don''t show this again';
         PackagageImportedNotificationNameLbl: Label 'Configuration Package Imported';
         PackagageImportedNotificationDescriptionLbl: Label 'Notify user when a configuration package has been imported.';
-        PackageImportedNotificationTxt: Label 'Configuration package %1 has been imported, now you need to apply it.', Comment = '%1 - package code';
+PackageImportedNotificationTxt: Label 'Configuration package %1 has been imported, now you need to apply it.', Comment = '%1 - package code';
         RapidStartDocumentationUrlTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2121629';
-        ConfigurationPackageApplyDataStartMsg: Label 'Configuration package apply started: %1', Comment = '%1 - package code', Locked = true;
+ConfigurationPackageApplyDataStartMsg: Label 'Configuration package apply started: %1', Comment = '%1 - package code', Locked = true;
         ConfigurationPackageApplyDataFinishMsg: Label 'Configuration package applied successfully: %1', Locked = true;
         ConfigurationPackageDeletedMsg: Label 'Configuration package deleted successfully: %1', Locked = true;
 

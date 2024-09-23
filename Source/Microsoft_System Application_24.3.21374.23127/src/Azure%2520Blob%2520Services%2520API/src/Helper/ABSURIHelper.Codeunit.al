@@ -14,7 +14,7 @@ codeunit 9046 "ABS URI Helper"
     var
         [NonDebuggable]
         OptionalUriParameters: Dictionary of [Text, Text];
-        BlobStorageBaseUrlLbl: Label 'https://%1.blob.core.windows.net', Comment = '%1 = Storage Account Name', Locked = true;
+BlobStorageBaseUrlLbl: Label 'https://%1.blob.core.windows.net', Comment = '%1 = Storage Account Name', Locked = true;
 
     [NonDebuggable]
     procedure SetOptionalUriParameter(NewOptionalUriParameters: Dictionary of [Text, Text])
@@ -231,7 +231,7 @@ codeunit 9046 "ABS URI Helper"
     [NonDebuggable]
     local procedure TestConstructUrlParameter(StorageAccountName: Text; ContainerName: Text; BlobName: Text; Operation: Enum "ABS Operation")
     var
-        ValueCanNotBeEmptyErr: Label '%1 can not be empty', Comment = '%1 = Variable Name';
+ValueCanNotBeEmptyErr: Label '%1 can not be empty', Comment = '%1 = Variable Name';
         StorageAccountNameLbl: Label 'Storage Account Name';
         ContainerNameLbl: Label 'Container Name';
         BlobNameLbl: Label 'Blob Name';

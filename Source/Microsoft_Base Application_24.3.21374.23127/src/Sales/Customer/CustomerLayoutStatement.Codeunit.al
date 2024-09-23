@@ -15,7 +15,7 @@ codeunit 8810 "Customer Layout - Statement"
     end;
 
     var
-        StatementFileNameTxt: Label 'Statement', Comment = 'Shortened form of ''Customer Statement''';
+StatementFileNameTxt: Label 'Statement', Comment = 'Shortened form of ''Customer Statement''';
         StatementReportNotFoundErr: Label 'No customer statement report has been set up.';
         RunCustomerStatementsTxt: Label 'Run Customer Statements from Job Queue.';
         DuplicateJobQueueRecordErr: Label 'Customer statements are already scheduled to run in the job queue.';

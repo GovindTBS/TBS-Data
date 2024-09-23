@@ -208,13 +208,13 @@ page 9882 "Report Res. Govern. Settings"
         MinTimeOut: Duration;
         MaxTimeOut: Duration;
         TempTimeOut: Duration;
-        NotSupportedTypeMsg: Label 'You cannot run an object of type %1.', Comment = '%1 Other object than Report';
-        ExceedMinTimeOutMsg: Label 'The value %1 is lower than the minimum time allowed.', Comment = '%1 value as duration';
-        ExceedMaxTimeOutMsg: Label 'The value %1 is higher than the maximum time allowed.', Comment = '%1 value as duration';
-        ValueTooSmallErrorMsg: Label 'The value must be greater than or equal to %1.', Comment = '%1 value as duration';
-        LanguageTagNotFoundErrorMsg: Label 'The specified format region %1 does not exist.', Comment = '%1 language tag';
-        LanguageIdNotFoundErrorMsg: Label 'The specified language %1 does not exist.', Comment = '%1 language id';
-        LanguageNotEnabledErrorMsg: Label 'The specified language %1 is not enabled.', Comment = '%1 language id';
+NotSupportedTypeMsg: Label 'You cannot run an object of type %1.', Comment = '%1 Other object than Report';
+ExceedMinTimeOutMsg: Label 'The value %1 is lower than the minimum time allowed.', Comment = '%1 value as duration';
+ExceedMaxTimeOutMsg: Label 'The value %1 is higher than the maximum time allowed.', Comment = '%1 value as duration';
+ValueTooSmallErrorMsg: Label 'The value must be greater than or equal to %1.', Comment = '%1 value as duration';
+LanguageTagNotFoundErrorMsg: Label 'The specified format region %1 does not exist.', Comment = '%1 language tag';
+LanguageIdNotFoundErrorMsg: Label 'The specified language %1 does not exist.', Comment = '%1 language id';
+LanguageNotEnabledErrorMsg: Label 'The specified language %1 is not enabled.', Comment = '%1 language id';
 
     trigger OnOpenPage()
     var

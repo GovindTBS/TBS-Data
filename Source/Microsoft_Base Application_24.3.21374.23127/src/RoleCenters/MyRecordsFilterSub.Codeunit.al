@@ -17,9 +17,9 @@ codeunit 9150 "My Records Filter Sub."
     end;
 
     var
-        MyCustomersTxt: Label 'MYCUSTOMERS', Comment = 'Must be uppercase';
-        MyItemsTxt: Label 'MYITEMS', Comment = 'Must be uppercase';
-        MyVendorsTxt: Label 'MYVENDORS', Comment = 'Must be uppercase';
+MyCustomersTxt: Label 'MYCUSTOMERS', Comment = 'Must be uppercase';
+MyItemsTxt: Label 'MYITEMS', Comment = 'Must be uppercase';
+MyVendorsTxt: Label 'MYVENDORS', Comment = 'Must be uppercase';
         OverflowMsg: Label 'The filter contains more than 2000 numbers and has been truncated.';
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Filter Tokens", 'OnResolveTextFilterToken', '', false, false)]

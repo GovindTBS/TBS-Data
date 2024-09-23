@@ -219,9 +219,9 @@ page 1040 "Copy Job"
         PlanningLineTypeEnable: Boolean;
         LedgerEntryLineTypeEnable: Boolean;
 
-        Text001: Label 'The project no. %1 was successfully copied to the new project no. %2 with the status %3.', Comment = '%1 - The "No." of source project; %2 - The "No." of target project, %3 - project status.';
+Text001: Label 'The project no. %1 was successfully copied to the new project no. %2 with the status %3.', Comment = '%1 - The "No." of source project; %2 - The "No." of target project, %3 - project status.';
         Text002: Label 'Project No. %1 will be assigned to the new Project. Do you want to continue?';
-        Text003: Label '%1 %2 does not exist.', Comment = 'Project Task 1000 does not exist.';
+Text003: Label '%1 %2 does not exist.', Comment = 'Project Task 1000 does not exist.';
         Text004: Label 'Provide a valid source %1.';
 
     protected var

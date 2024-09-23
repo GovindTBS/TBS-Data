@@ -70,7 +70,7 @@ table 356 "Dim. Value per Account"
     }
 
     var
-        CaptionLbl: Label '%1 - %2 %3', Comment = '%1 = dimension code and %2- table name, %3 - account number', Locked = true;
+CaptionLbl: Label '%1 - %2 %3', Comment = '%1 = dimension code and %2- table name, %3 - account number', Locked = true;
 
     procedure GetCaption(): Text[250]
     begin

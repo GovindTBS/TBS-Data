@@ -221,7 +221,7 @@ table 124 "Purch. Cr. Memo Hdr."
             CalcFormula = exist("Purch. Comment Line" where("Document Type" = const("Posted Credit Memo"),
                                                              "No." = field("No."),
                                                              "Document Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

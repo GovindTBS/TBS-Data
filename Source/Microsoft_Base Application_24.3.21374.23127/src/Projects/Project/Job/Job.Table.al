@@ -237,7 +237,7 @@ table 167 Job
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const(Job),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1358,37 +1358,37 @@ table 167 Job
         JobArchiveManagement: Codeunit "Job Archive Management";
         HideValidationDialog: Boolean;
 
-        AssociatedEntriesExistErr: Label 'You cannot change %1 because one or more entries are associated with this %2.', Comment = '%1 = Name of field used in the error; %2 = The name of the Project table';
+AssociatedEntriesExistErr: Label 'You cannot change %1 because one or more entries are associated with this %2.', Comment = '%1 = Name of field used in the error; %2 = The name of the Project table';
         StatusChangeQst: Label 'This will delete any unposted WIP entries for this project and allow you to reverse the completion postings for this project.\\Do you wish to continue?';
-        ContactBusRelDiffCompErr: Label 'Contact %1 %2 is related to a different company than customer %3.', Comment = '%1 = The contact number; %2 = The contact''s name; %3 = The Bill-To Customer Number associated with this job';
-        ContactBusRelErr: Label 'Contact %1 %2 is not related to customer %3.', Comment = '%1 = The contact number; %2 = The contact''s name; %3 = The Bill-To Customer Number associated with this job';
-        ContactBusRelMissingErr: Label 'Contact %1 %2 is not related to a customer.', Comment = '%1 = The contact number; %2 = The contact''s name';
-        TestBlockedErr: Label '%1 %2 must not be blocked with type %3.', Comment = '%1 = The Project table name; %2 = The Project number; %3 = The value of the Blocked field';
-        ReverseCompletionEntriesMsg: Label 'You must run the %1 function to reverse the completion entries that have already been posted for this project.', Comment = '%1 = The name of the Project Post WIP to G/L report';
-        CheckDateErr: Label '%1 must be equal to or earlier than %2.', Comment = '%1 = The project''s starting date; %2 = The project''s ending date';
-        ApplyUsageLinkErr: Label 'A usage link cannot be enabled for the entire %1 because usage without the usage link already has been posted.', Comment = '%1 = The name of the Project table';
-        WIPMethodQst: Label 'Do you want to set the %1 on every %2 of type %3?', Comment = '%1 = The WIP Method field name; %2 = The name of the Project Task table; %3 = The current project task''s WIP Total type';
-        WIPAlreadyPostedErr: Label '%1 must be %2 because project WIP general ledger entries already were posted with this setting.', Comment = '%1 = The name of the WIP Posting Method field; %2 = The previous WIP Posting Method value of this project';
-        WIPAlreadyAssociatedErr: Label '%1 cannot be modified because the project has associated project WIP entries.', Comment = '%1 = The name of the WIP Posting Method field';
-        WIPPostMethodErr: Label 'The selected %1 requires the %2 to have %3 enabled.', Comment = '%1 = The name of the WIP Posting Method field; %2 = The name of the WIP Method field; %3 = The field caption represented by the value of this project''s WIP method';
-        EndingDateChangedMsg: Label '%1 is set to %2.', Comment = '%1 = The name of the Ending Date field; %2 = This project''s Ending Date value';
+ContactBusRelDiffCompErr: Label 'Contact %1 %2 is related to a different company than customer %3.', Comment = '%1 = The contact number; %2 = The contact''s name; %3 = The Bill-To Customer Number associated with this job';
+ContactBusRelErr: Label 'Contact %1 %2 is not related to customer %3.', Comment = '%1 = The contact number; %2 = The contact''s name; %3 = The Bill-To Customer Number associated with this job';
+ContactBusRelMissingErr: Label 'Contact %1 %2 is not related to a customer.', Comment = '%1 = The contact number; %2 = The contact''s name';
+TestBlockedErr: Label '%1 %2 must not be blocked with type %3.', Comment = '%1 = The Project table name; %2 = The Project number; %3 = The value of the Blocked field';
+ReverseCompletionEntriesMsg: Label 'You must run the %1 function to reverse the completion entries that have already been posted for this project.', Comment = '%1 = The name of the Project Post WIP to G/L report';
+CheckDateErr: Label '%1 must be equal to or earlier than %2.', Comment = '%1 = The project''s starting date; %2 = The project''s ending date';
+ApplyUsageLinkErr: Label 'A usage link cannot be enabled for the entire %1 because usage without the usage link already has been posted.', Comment = '%1 = The name of the Project table';
+WIPMethodQst: Label 'Do you want to set the %1 on every %2 of type %3?', Comment = '%1 = The WIP Method field name; %2 = The name of the Project Task table; %3 = The current project task''s WIP Total type';
+WIPAlreadyPostedErr: Label '%1 must be %2 because project WIP general ledger entries already were posted with this setting.', Comment = '%1 = The name of the WIP Posting Method field; %2 = The previous WIP Posting Method value of this project';
+WIPAlreadyAssociatedErr: Label '%1 cannot be modified because the project has associated project WIP entries.', Comment = '%1 = The name of the WIP Posting Method field';
+WIPPostMethodErr: Label 'The selected %1 requires the %2 to have %3 enabled.', Comment = '%1 = The name of the WIP Posting Method field; %2 = The name of the WIP Method field; %3 = The field caption represented by the value of this project''s WIP method';
+EndingDateChangedMsg: Label '%1 is set to %2.', Comment = '%1 = The name of the Ending Date field; %2 = This project''s Ending Date value';
         UpdateJobTaskDimQst: Label 'You have changed a dimension.\\Do you want to update the lines?';
         RunWIPFunctionsQst: Label 'You must run the Project Calculate WIP function to create completion entries for this project. \Do you want to run this function now?';
         ReservEntriesItemTrackLinesDeleteQst: Label 'All reservation entries and item tracking lines for this project will be deleted. \Do you want to continue?';
-        ReservEntriesItemTrackLinesExistErr: Label 'You cannot set the status to %1 because the project has reservations or item tracking lines on the project planning lines.', Comment = '%1=The project status name';
+ReservEntriesItemTrackLinesExistErr: Label 'You cannot set the status to %1 because the project has reservations or item tracking lines on the project planning lines.', Comment = '%1=The project status name';
         AutoReserveNotPossibleMsg: Label 'Automatic reservation is not possible for one or more project planning lines. \Please reserve manually.';
         WhseCompletelyPickedErr: Label 'All of the items on the project planning lines are completely picked.';
         WhseNoItemsToPickErr: Label 'There are no items to pick on the project planning lines.';
-        ConfirmChangeQst: Label 'Do you want to change %1?', Comment = '%1 = a Field Caption like Currency Code';
+ConfirmChangeQst: Label 'Do you want to change %1?', Comment = '%1 = a Field Caption like Currency Code';
         SellToCustomerTxt: Label 'Sell-to Customer';
         BillToCustomerTxt: Label 'Bill-to Customer';
-        StatusCompletedErr: Label 'You cannot select Project No.: %1 as it is already completed.', Comment = '%1= The Project No.';
-        ConfirmEmptyEmailQst: Label 'Contact %1 has no email address specified. The value in the Email field on the project, %2, will be deleted. Do you want to continue?', Comment = '%1 - Contact No., %2 - Email';
-        TasksNotUpdatedMsg: Label 'You have changed %1 on the project, but it has not been changed on the existing project tasks.', Comment = '%1 = a Field Caption like Location Code';
+StatusCompletedErr: Label 'You cannot select Project No.: %1 as it is already completed.', Comment = '%1= The Project No.';
+ConfirmEmptyEmailQst: Label 'Contact %1 has no email address specified. The value in the Email field on the project, %2, will be deleted. Do you want to continue?', Comment = '%1 - Contact No., %2 - Email';
+TasksNotUpdatedMsg: Label 'You have changed %1 on the project, but it has not been changed on the existing project tasks.', Comment = '%1 = a Field Caption like Location Code';
         UpdateTasksManuallyMsg: Label 'You must update the existing project tasks manually.';
-        SplitMessageTxt: Label '%1\%2', Comment = 'Some message text 1.\Some message text 2.', Locked = true;
+SplitMessageTxt: Label '%1\%2', Comment = 'Some message text 1.\Some message text 2.', Locked = true;
         UpdateBillingMethodQst: Label 'This change will make a difference to how project tasks are billed. This is irreversible. Do you want to continue?';
-        UpdateBillingMethodErr: Label 'You cannot select %1 in %2, because one or more Project Tasks exist for this %3.', Comment = '%1 = Caption of the Task Billing Method field value; %2 = Caption of the Task Billing Method field; %3 = Caption of the Project table';
+UpdateBillingMethodErr: Label 'You cannot select %1 in %2, because one or more Project Tasks exist for this %3.', Comment = '%1 = Caption of the Task Billing Method field value; %2 = Caption of the Task Billing Method field; %3 = Caption of the Project table';
         UpdateCostPricesOnRelatedLinesQst: Label 'You have changed a customer. Prices and costs needs to be updated on a related lines.\\Do you want to update related lines?';
         ConfirmDeleteQst: Label 'The items have been picked. If you delete the Job, then the items will remain in the operation area until you put them away.\Related item tracking information that is defined during the pick will be deleted.\Are you sure that you want to delete the Job?';
 

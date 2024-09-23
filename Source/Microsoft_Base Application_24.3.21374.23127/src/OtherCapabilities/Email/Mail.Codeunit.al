@@ -16,7 +16,7 @@ codeunit 397 Mail
     end;
 
     var
-        Text001: Label 'No registered email addresses exist for this %1.', Comment = '%1 = Contact Table Caption (eg. No registered email addresses found for this Contact.)';
+Text001: Label 'No registered email addresses exist for this %1.', Comment = '%1 = Contact Table Caption (eg. No registered email addresses found for this Contact.)';
         [RunOnClient]
         OutlookMessageHelper: DotNet IOutlookMessage;
 

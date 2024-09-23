@@ -84,8 +84,8 @@ codeunit 1305 "Sales-Quote to Invoice"
         SalesSetup: Record "Sales & Receivables Setup";
         SalesInvoiceHeader: Record "Sales Header";
         SpecifyCustomerErr: Label 'You must select a customer before you can convert a quote to an invoice.';
-        SpecifyBillToCustomerNoErr: Label 'You must specify the %1 before you can convert a quote to an invoice.', Comment = '%1 is Bill-To Customer No.';
-        CannotConvertAssembleToOrderItemErr: Label 'You can not convert sales quote to sales invoice because one or more lines is linked to assembly quote. Change the %1 to zero or convert the quote to order instead.', Comment = '%1 = field name';
+SpecifyBillToCustomerNoErr: Label 'You must specify the %1 before you can convert a quote to an invoice.', Comment = '%1 is Bill-To Customer No.';
+CannotConvertAssembleToOrderItemErr: Label 'You can not convert sales quote to sales invoice because one or more lines is linked to assembly quote. Change the %1 to zero or convert the quote to order instead.', Comment = '%1 = field name';
 
     local procedure ArchiveSalesQuote(var SalesHeader: Record "Sales Header")
     var

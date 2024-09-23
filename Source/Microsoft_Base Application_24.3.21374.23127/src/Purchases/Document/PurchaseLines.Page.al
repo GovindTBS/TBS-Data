@@ -367,7 +367,7 @@ page 518 "Purchase Lines"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Show Document_Promoted"; "Show Document")
                 {

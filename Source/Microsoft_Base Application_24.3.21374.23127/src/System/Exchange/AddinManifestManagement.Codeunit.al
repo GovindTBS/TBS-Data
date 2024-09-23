@@ -22,14 +22,14 @@ codeunit 1652 "Add-in Manifest Management"
 
         RuleCollectionXPathTxt: Label 'x:Rule[@xsi:type="RuleCollection" and @Mode="And"]/x:Rule[@xsi:type="RuleCollection" and @Mode="Or"]', Locked = true;
         OverridesExtensionPointXPathTxt: Label 'o10:VersionOverrides/o11:VersionOverrides/o11:Hosts/o11:Host[1]/o11:DesktopFormFactor/o11:ExtensionPoint', Locked = true;
-        MissingNodeErr: Label 'Cannot find an XML node that matches %1.', Comment = '%1=XML node name';
-        UnsupportedNodeTypeErr: Label 'You have specified a node of type %1. This type is not supported.', Comment = '%1 = The type of XML node.';
+MissingNodeErr: Label 'Cannot find an XML node that matches %1.', Comment = '%1=XML node name';
+UnsupportedNodeTypeErr: Label 'You have specified a node of type %1. This type is not supported.', Comment = '%1 = The type of XML node.';
         RuleXPathTxt: Label 'x:Rule[@xsi:type="RuleCollection" and @Mode="Or"]/x:Rule[@xsi:type="RuleCollection" and @Mode="And"]/x:Rule[@xsi:type="ItemHasRegularExpressionMatch"]', Locked = true;
-        WebClientHttpsErr: Label 'Cannot set up the add-in because the %1 Server instance is not configured to use Secure Sockets Layer (SSL), or the Web Client Base URL is not defined in the server configuration.', Comment = '%1=product name';
+WebClientHttpsErr: Label 'Cannot set up the add-in because the %1 Server instance is not configured to use Secure Sockets Layer (SSL), or the Web Client Base URL is not defined in the server configuration.', Comment = '%1=product name';
         MicrosoftTxt: Label 'Microsoft';
         BrandingFolderTxt: Label 'ProjectMadeira/', Locked = true;
         ManifestFileNameTxt: Label '%1.xml', Locked = true;
-        ManifestZipFileNameTxt: Label 'OutlookAddins.zip', Comment = 'Name of the zip file containing Outlook Addin manifest files.';
+ManifestZipFileNameTxt: Label 'OutlookAddins.zip', Comment = 'Name of the zip file containing Outlook Addin manifest files.';
 
     [Scope('OnPrem')]
     procedure DownloadManifestToClient(var NewOfficeAddin: Record "Office Add-in"; FileName: Text): Boolean

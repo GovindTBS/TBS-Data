@@ -23,12 +23,12 @@ codeunit 99000835 "Item Jnl. Line-Reserve"
         Blocked: Boolean;
         DeleteItemTracking: Boolean;
 
-        Text000Err: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
+Text000Err: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
         Text002Err: Label 'must be filled in when a quantity is reserved';
         Text003Err: Label 'must not be filled in when a quantity is reserved';
         Text004Err: Label 'must not be changed when a quantity is reserved';
         Text005Err: Label 'Codeunit is not initialized correctly.';
-        Text006Err: Label 'You cannot define item tracking on %1 %2', Comment = '%1 - Operation No. caption, %2 - Operation No. value';
+Text006Err: Label 'You cannot define item tracking on %1 %2', Comment = '%1 - Operation No. caption, %2 - Operation No. value';
 
     procedure CreateReservation(var ItemJournalLine: Record "Item Journal Line"; Description: Text[100]; ExpectedReceiptDate: Date; Quantity: Decimal; QuantityBase: Decimal; ForReservationEntry: Record "Reservation Entry")
     var

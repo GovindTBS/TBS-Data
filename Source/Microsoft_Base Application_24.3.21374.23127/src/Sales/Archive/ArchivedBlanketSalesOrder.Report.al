@@ -1028,12 +1028,12 @@ report 5176 "Archived Blanket Sales Order"
         VALSpecLCYHeader: Text[80];
         VALExchRate: Text[50];
         OutputNo: Integer;
-        ReportTitleLbl: Label 'Archived Blanket Sales Order %1', Comment = '%1 = Document No.';
-        PageCaptionLbl: Label 'Page %1', Comment = '%1 = page number';
-        VATAmountSpecTxt: Label 'VAT Amount Specification in %1', Comment = '%1 = Currency Code';
+ReportTitleLbl: Label 'Archived Blanket Sales Order %1', Comment = '%1 = Document No.';
+PageCaptionLbl: Label 'Page %1', Comment = '%1 = page number';
+VATAmountSpecTxt: Label 'VAT Amount Specification in %1', Comment = '%1 = Currency Code';
         LocalCurrencyTxt: Label 'Local Currency';
-        ExchangeRateTxt: Label 'Exchange rate: %1/%2', Comment = '%1 = exchange rate, %2 = exchange amount';
-        VersionLbl: Label 'Version %1 of %2', Comment = '%1 = current version, %2 = max. version';
+ExchangeRateTxt: Label 'Exchange rate: %1/%2', Comment = '%1 = exchange rate, %2 = exchange amount';
+VersionLbl: Label 'Version %1 of %2', Comment = '%1 = current version, %2 = max. version';
         CompanyInfo__Phone_No__CaptionLbl: Label 'Phone No.';
         CompanyInfo__Fax_No__CaptionLbl: Label 'Fax No.';
         CompanyInfo__VAT_Registration_No__CaptionLbl: Label 'VAT Reg. No.';

@@ -561,7 +561,7 @@ page 370 "Bank Account Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("Bank Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -931,7 +931,7 @@ page 370 "Bank Account Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(PagePosPayExport_Promoted; PagePosPayExport)
                 {
@@ -939,7 +939,7 @@ page 370 "Bank Account Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Bank Statement Service', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank Statement Service', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(LinkToOnlineBankAccount_Promoted; LinkToOnlineBankAccount)
                 {
@@ -962,7 +962,7 @@ page 370 "Bank Account Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Bank Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Bank Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -997,7 +997,7 @@ page 370 "Bank Account Card"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("Cash Receipt Journals_Promoted"; "Cash Receipt Journals")
                 {
@@ -1008,7 +1008,7 @@ page 370 "Bank Account Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Detail Trial Balance_Promoted"; "Detail Trial Balance")
                 {

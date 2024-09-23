@@ -216,7 +216,7 @@ page 6651 "Posted Return Shipment Subform"
                     ApplicationArea = PurchReturnOrder;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     begin

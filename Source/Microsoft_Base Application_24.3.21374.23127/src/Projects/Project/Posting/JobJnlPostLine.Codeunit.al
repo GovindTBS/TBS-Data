@@ -61,9 +61,9 @@ codeunit 1012 "Job Jnl.-Post Line"
         CalledFromInvtPutawayPick: Boolean;
         NextEntryNo: Integer;
         GLEntryNo: Integer;
-        AssemblyPostProgressMsg: Label '#1#################################\\Posting Assembly #2###########', Comment = '%1 = Text, %2 = Progress bar';
-        Format4Lbl: Label '%1 %2 %3 %4', Comment = '%1 = Job No., %2 = Job Task No., %3 = Job Planning Line No., %4 = Line No.';
-        Format2Lbl: Label '%1 %2', Comment = 'Assemble %1 = Document Type, %2 = No.';
+AssemblyPostProgressMsg: Label '#1#################################\\Posting Assembly #2###########', Comment = '%1 = Text, %2 = Progress bar';
+Format4Lbl: Label '%1 %2 %3 %4', Comment = '%1 = Job No., %2 = Job Task No., %3 = Job Planning Line No., %4 = Line No.';
+Format2Lbl: Label '%1 %2', Comment = 'Assemble %1 = Document Type, %2 = No.';
 
     procedure RunWithCheck(var JobJnlLine2: Record "Job Journal Line"): Integer
     var

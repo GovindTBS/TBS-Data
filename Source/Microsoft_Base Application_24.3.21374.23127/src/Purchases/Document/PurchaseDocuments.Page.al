@@ -102,7 +102,7 @@ page 1159 "Purchase Documents"
     var
         StyleTxt: Text;
         VendorName: Text[250];
-        FilterForRemAmtDrillDwnTxt: Label '&filter=''Detailed Vendor Ledg. Entry''.''Vendor Ledger Entry No.'' IS ''%1''', Comment = '%1 - Entry No. for Vendor ledger entry. ';
+FilterForRemAmtDrillDwnTxt: Label '&filter=''Detailed Vendor Ledg. Entry''.''Vendor Ledger Entry No.'' IS ''%1''', Comment = '%1 - Entry No. for Vendor ledger entry. ';
 
     procedure SetFilterForOverduePurInvoiceAmount()
     begin

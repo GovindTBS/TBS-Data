@@ -200,12 +200,12 @@ table 9012 "AAD Application"
 
     var
         AADApplicationSetup: Codeunit "AAD Application Setup";
-        CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 Table name';
-        UserMustExistErr: Label 'Register a user before enabling the %1', Comment = '%1 Table AAD Application';
-        NoPermissionToChangeUserErr: Label 'You need to have either %1 or %2 privileges in the user permission set to update the state.', Comment = '%1 = SUPER; %2 = SECURITY';
+CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 Table name';
+UserMustExistErr: Label 'Register a user before enabling the %1', Comment = '%1 Table AAD Application';
+NoPermissionToChangeUserErr: Label 'You need to have either %1 or %2 privileges in the user permission set to update the state.', Comment = '%1 = SUPER; %2 = SECURITY';
         SECURITYPermissionSetTxt: Label 'SECURITY', Locked = true;
         SuperPermissionSetTxt: Label 'SECURITY', Locked = true;
-        UserNameCannotbeChangedQst: Label 'A user named %1 will be created. Do you want to continue?', Comment = '%1 a user name eq. xxx yyyyyy';
+UserNameCannotbeChangedQst: Label 'A user named %1 will be created. Do you want to continue?', Comment = '%1 a user name eq. xxx yyyyyy';
 }
 
 

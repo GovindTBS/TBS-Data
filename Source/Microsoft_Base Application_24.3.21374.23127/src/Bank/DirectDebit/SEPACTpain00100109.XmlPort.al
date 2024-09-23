@@ -408,7 +408,7 @@ xmlport 1001 "SEPA CT pain.001.001.09"
 
     var
         TempPaymentExportRemittanceText: Record "Payment Export Remittance Text" temporary;
-        NoDataToExportErr: Label 'There is no data to export.', Comment = '%1=Field;%2=Value;%3=Value';
+NoDataToExportErr: Label 'There is no data to export.', Comment = '%1=Field;%2=Value;%3=Value';
 
     local procedure InitData()
     var

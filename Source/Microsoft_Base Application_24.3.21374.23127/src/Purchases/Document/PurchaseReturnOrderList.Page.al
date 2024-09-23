@@ -375,7 +375,7 @@ page 9311 "Purchase Return Order List"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(Documents)
@@ -770,7 +770,7 @@ page 9311 "Purchase Return Order List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Send IC Return Order_Promoted"; "Send IC Return Order")
                 {
@@ -793,7 +793,7 @@ page 9311 "Purchase Return Order List"
             }
             group(Category_Category6)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
                 ShowAs = SplitButton;
 
                 actionref(Release_Promoted; Release)
@@ -837,7 +837,7 @@ page 9311 "Purchase Return Order List"
             }
             group(Category_Category5)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
 #if not CLEAN22
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
@@ -860,7 +860,7 @@ page 9311 "Purchase Return Order List"
             }
             group(Category_Category4)
             {
-                Caption = 'Return Order', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Return Order', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -883,7 +883,7 @@ page 9311 "Purchase Return Order List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -915,7 +915,7 @@ page 9311 "Purchase Return Order List"
         JobQueueActive: Boolean;
         OpenApprovalEntriesExist: Boolean;
         CanCancelApprovalForRecord: Boolean;
-        ReadyToPostQst: Label 'The number of return orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
+ReadyToPostQst: Label 'The number of return orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
         StatusStyleTxt: Text;
 
     local procedure SetControlAppearance()

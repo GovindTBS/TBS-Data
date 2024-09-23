@@ -43,8 +43,8 @@ codeunit 5931 "Resource Skill Mgt."
         SkipValidationDialog: Boolean;
         Update2: Boolean;
         AssignCodesWithUpdate: Boolean;
-        Text030: Label '%1,%2', Comment = 'Delete all the related skill codes. Leave all the related skill codes.', Locked = true;
-        Text031: Label '%1\\%2', Comment = 'You have deleted the skill code(s) on the item.\\How do you want to update the resource skill codes on the related service items?  ', Locked = true;
+Text030: Label '%1,%2', Comment = 'Delete all the related skill codes. Leave all the related skill codes.', Locked = true;
+Text031: Label '%1\\%2', Comment = 'You have deleted the skill code(s) on the item.\\How do you want to update the resource skill codes on the related service items?  ', Locked = true;
 
     procedure AddResSkill(var ResSkill: Record "Resource Skill")
     var

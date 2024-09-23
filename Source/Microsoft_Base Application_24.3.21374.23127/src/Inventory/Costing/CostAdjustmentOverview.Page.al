@@ -576,7 +576,7 @@ page 5801 "Cost Adjustment Overview"
         AverageCostCalcType, AverageCostPeriod : Text;
         StatusRunStyleExpr, StatusItemStyleExpr : Text;
         SandboxActionsVisible: Boolean;
-        StrMenuOptionsTxt: Label 'Selected,All', Comment = 'Comma separated phrases must be translated separately.';
+StrMenuOptionsTxt: Label 'Selected,All', Comment = 'Comma separated phrases must be translated separately.';
         ScheduleInstructionTxt: Label 'For which items do you want to schedule the cost adjustment?';
         RunInstructionTxt: Label 'For which items do you want to run the cost adjustment?';
         NotTestEnvironmentErr: Label 'This function is only available in the demo company or in a sandbox environment.';

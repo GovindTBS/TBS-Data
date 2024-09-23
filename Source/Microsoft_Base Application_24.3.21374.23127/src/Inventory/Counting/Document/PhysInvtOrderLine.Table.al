@@ -469,11 +469,11 @@ table 5876 "Phys. Invt. Order Line"
         DimManagement: Codeunit DimensionManagement;
         PhysInvtTrackingMgt: Codeunit "Phys. Invt. Tracking Mgt.";
         ItemReferenceManagement: Codeunit "Item Reference Management";
-        CannotSetErr: Label 'You cannot use item tracking because there is a difference between the values of the fields Qty. Expected (Base) = %1 and Qty. Exp. Item Tracking (Base) = %2.\%3', Comment = '%1 and %2 - Decimal, %3 = Text';
-        IndenitiedValuesMsg: Label 'Identified values on the line:  %1 %2 %3 %4.', Comment = '%1,%2,%3,%4 - field captions';
-        DifferentSumErr: Label 'The value of the Qty. Recorded (Base) field is different from the sum of all Quantity (Base) fields on related physical inventory recordings.%1', Comment = '%1 = text';
-        MustSpecifyTrackingErr: Label 'You must specify an item tracking on physical inventory recording line %1 when the Use Item Tracking check box is selected.%2', Comment = '%1 = Recording No., %2 = Text';
-        CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = table caption';
+CannotSetErr: Label 'You cannot use item tracking because there is a difference between the values of the fields Qty. Expected (Base) = %1 and Qty. Exp. Item Tracking (Base) = %2.\%3', Comment = '%1 and %2 - Decimal, %3 = Text';
+IndenitiedValuesMsg: Label 'Identified values on the line:  %1 %2 %3 %4.', Comment = '%1,%2,%3,%4 - field captions';
+DifferentSumErr: Label 'The value of the Qty. Recorded (Base) field is different from the sum of all Quantity (Base) fields on related physical inventory recordings.%1', Comment = '%1 = text';
+MustSpecifyTrackingErr: Label 'You must specify an item tracking on physical inventory recording line %1 when the Use Item Tracking check box is selected.%2', Comment = '%1 = Recording No., %2 = Text';
+CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = table caption';
         UnknownEntryTypeErr: Label 'Unknown Entry Type.';
         TableLineTok: Label '%1 %2 %3', Locked = true;
 

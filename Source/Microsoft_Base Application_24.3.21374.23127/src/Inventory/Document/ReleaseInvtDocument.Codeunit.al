@@ -40,7 +40,7 @@ codeunit 5855 "Release Invt. Document"
     var
         InvtDocLine: Record "Invt. Document Line";
         InvtSetup: Record "Inventory Setup";
-        NothingToReleaseErr: Label 'There is nothing to release for item document %1.', Comment = '%1 - document number';
+NothingToReleaseErr: Label 'There is nothing to release for item document %1.', Comment = '%1 - document number';
 
     procedure Reopen(var InvtDocHeader: Record "Invt. Document Header")
     begin

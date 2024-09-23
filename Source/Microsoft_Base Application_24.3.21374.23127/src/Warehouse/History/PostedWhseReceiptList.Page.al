@@ -126,7 +126,7 @@ page 7333 "Posted Whse. Receipt List"
                     RunPageLink = "Table Name" = const("Posted Whse. Receipt"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Put-away Lines")
                 {

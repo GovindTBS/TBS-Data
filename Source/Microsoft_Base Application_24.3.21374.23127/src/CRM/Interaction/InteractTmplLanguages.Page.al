@@ -254,7 +254,7 @@ page 5154 "Interact. Tmpl. Languages"
     var
         CustomReportLayoutDescription: Text;
         CustLayoutVisible: Boolean;
-        CouldNotFindCustomReportLayoutErr: Label 'There is no Custom Report Layout with %1 in the description.', Comment = '%1 Description of Custom Report Layout';
+CouldNotFindCustomReportLayoutErr: Label 'There is no Custom Report Layout with %1 in the description.', Comment = '%1 Description of Custom Report Layout';
 
     local procedure UpdateAttachments(NewCustomLayoutCode: Code[20])
     begin

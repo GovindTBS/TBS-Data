@@ -87,7 +87,7 @@ page 6569 "Posted Invt. Receipts"
                     RunObject = Page "Inventory Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Inventory Receipt"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

@@ -106,13 +106,13 @@ table 503 "Reminder Email Text"
     var
         DefaultSubjectLbl: Label 'Issued Reminder';
         DefaultGreetingLbl: Label 'Hello';
-        DefaultBodyTextLbl: Label 'You are receiving this email to formally notify you that payment owed by you is past due. The payment was due on %1. Enclosed is a copy of invoice with the details of remaining amount. If you have already made the payment, please disregard this email. Thank you for your business.', Comment = '%1 = The due date';
+DefaultBodyTextLbl: Label 'You are receiving this email to formally notify you that payment owed by you is past due. The payment was due on %1. Enclosed is a copy of invoice with the details of remaining amount. If you have already made the payment, please disregard this email. Thank you for your business.', Comment = '%1 = The due date';
         DefaultClosingLbl: Label 'Sincerely';
         NoRecordSelectedErr: Label 'No reminder email text selected.';
         MissingIDErr: Label 'A reminder email text cannot be created without an ID.';
         MissingLanguageCodeErr: Label 'A reminder email text cannot be created without a language code.';
-        AlreadyExistsSelectedLanguageErr: Label 'There is already a reminder email text for the selected language %1. Remove the existing personalization before setting the default communication for that language.', Comment = '%1 = Language Code';
-        AmtDueLbl: Label 'You are receiving this email to formally notify you that payment owed by you is past due. The payment was due on %1. Enclosed is a copy of invoice with the details of remaining amount.', Comment = '%1 = A due date';
+AlreadyExistsSelectedLanguageErr: Label 'There is already a reminder email text for the selected language %1. Remove the existing personalization before setting the default communication for that language.', Comment = '%1 = Language Code';
+AmtDueLbl: Label 'You are receiving this email to formally notify you that payment owed by you is past due. The payment was due on %1. Enclosed is a copy of invoice with the details of remaining amount.', Comment = '%1 = A due date';
         DescriptionLbl: Label 'Description';
         BodyLbl: Label 'If you have already made the payment, please disregard this email. Thank you for your business.';
 

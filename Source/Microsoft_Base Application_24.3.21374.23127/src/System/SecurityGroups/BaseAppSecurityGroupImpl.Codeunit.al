@@ -11,7 +11,7 @@ codeunit 9873 "BaseApp Security Group Impl."
 
     var
         NotificationIdLbl: Label 'be01c53d-4e90-422a-aea8-b00cee30f950', Locked = true;
-        OpenLicenseConfigurationTok: Label 'Open License Configuration', Comment = 'License Configuration is the name of the page in BC';
+OpenLicenseConfigurationTok: Label 'Open License Configuration', Comment = 'License Configuration is the name of the page in BC';
         LicenseConfigurationNotificationTxt: Label 'New users who are members of security groups will also get permissions associated with their license. If you want to only use Security Groups for controlling permissions of new users, you need to clear the license configurations.';
 
     procedure SendLicenseConfigurationNotificationOnFirstRecord(var SecurityGroupBuffer: Record "Security Group Buffer")

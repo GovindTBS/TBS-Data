@@ -467,7 +467,7 @@ page 234 "Apply Employee Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ActionSetAppliesToID_Promoted; ActionSetAppliesToID)
                 {
@@ -487,7 +487,7 @@ page 234 "Apply Employee Entries"
             }
             group(Category_Category4)
             {
-                Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -501,7 +501,7 @@ page 234 "Apply Employee Entries"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -589,7 +589,7 @@ page 234 "Apply Employee Entries"
         CannotSetAppliesToIDErr: Label 'You cannot set Applies-to ID field while selecting Applies-to Doc. No field.';
         ShowAppliedEntries: Boolean;
         OK: Boolean;
-        EarlierPostingDateErr: Label 'You cannot apply and post an entry to an entry with an earlier posting date.\\Instead, post the document of type %1 with the number %2 and then apply it to the document of type %3 with the number %4.', Comment = '%1 - document type, %2 - document number,%3 - document type,%4 - document number';
+EarlierPostingDateErr: Label 'You cannot apply and post an entry to an entry with an earlier posting date.\\Instead, post the document of type %1 with the number %2 and then apply it to the document of type %3 with the number %4.', Comment = '%1 - document type, %2 - document number,%3 - document type,%4 - document number';
         PostingDone: Boolean;
         AppliesToIDVisible: Boolean;
         ActionPerformed: Boolean;

@@ -680,7 +680,7 @@ page 5975 "Posted Service Shipment"
                     RunPageLink = "No." = field("No."),
                                   "Table Name" = const("Service Shipment Header"),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

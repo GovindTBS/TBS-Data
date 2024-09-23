@@ -213,7 +213,7 @@ page 145 "Posted Purchase Receipts"
                     RunObject = Page "Purch. Comment Sheet";
                     RunPageLink = "Document Type" = const(Receipt),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -271,7 +271,7 @@ page 145 "Posted Purchase Receipts"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -281,7 +281,7 @@ page 145 "Posted Purchase Receipts"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Receipt', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Receipt', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                     actionref(Dimensions_Promoted; Dimensions)
                     {
@@ -296,12 +296,12 @@ page 145 "Posted Purchase Receipts"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

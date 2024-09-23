@@ -248,15 +248,15 @@ page 1815 "Pmt. App. Workflow Setup Wzrd."
         BatchSelectionVisible: Boolean;
         DoneVisible: Boolean;
         NAVNotSetUpQst: Label 'Payment Journal Approval has not been set up.\\Are you sure that you want to exit?';
-        MandatoryApproverErr: Label 'You must select an approver before continuing.', Comment = '%1 = User Name';
-        MandatoryBatchErr: Label 'You must select a batch before continuing.', Comment = '%1 = User Name';
-        CurrentBatchTxt: Label 'Current Batch is %1.', Comment = '%1 = Batch name. Example - Current Batch is BANK.';
+MandatoryApproverErr: Label 'You must select an approver before continuing.', Comment = '%1 = User Name';
+MandatoryBatchErr: Label 'You must select a batch before continuing.', Comment = '%1 = User Name';
+CurrentBatchTxt: Label 'Current Batch is %1.', Comment = '%1 = Batch name. Example - Current Batch is BANK.';
         ShowCurrentBatch: Boolean;
         CurrentBatchIsLabel: Text;
         SummaryText: Text;
-        OverviewTemplateTxt: Label 'An approval request will be sent to the user %1 for approving journal lines in %2.', Comment = '%1 = User Name, %2 = batch name or all batches. Example - An approval request will be sent to the user NAVUSER when the approval request is snt to all batches. ';
+OverviewTemplateTxt: Label 'An approval request will be sent to the user %1 for approving journal lines in %2.', Comment = '%1 = User Name, %2 = batch name or all batches. Example - An approval request will be sent to the user NAVUSER when the approval request is snt to all batches. ';
         AllBatchesTxt: Label 'all batches';
-        BatchNameTxt: Label 'batch %1', Comment = '%1 = Batch name';
+BatchNameTxt: Label 'batch %1', Comment = '%1 = Batch name';
 
     local procedure NextStep(Backwards: Boolean)
     begin

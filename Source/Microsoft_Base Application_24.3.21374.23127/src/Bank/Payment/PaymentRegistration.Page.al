@@ -361,11 +361,11 @@ page 981 "Payment Registration"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_New)
                 {
-                    Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
                     actionref(FinanceChargeMemo_Promoted; FinanceChargeMemo)
                     {
@@ -373,7 +373,7 @@ page 981 "Payment Registration"
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref(PostPayments_Promoted; PostPayments)
@@ -401,7 +401,7 @@ page 981 "Payment Registration"
             }
             group(Category_Category6)
             {
-                Caption = 'Search', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Search', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(SearchCustomer_Promoted; SearchCustomer)
                 {
@@ -412,20 +412,20 @@ page 981 "Payment Registration"
             }
             group(Category_Category7)
             {
-                Caption = 'Setup', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Setup', Comment = 'Generated from the PromotedActionCategories property index 6.';
             }
             group(Category_Category8)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

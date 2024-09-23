@@ -424,7 +424,7 @@ page 5805 "Item Charge Assignment (Purch)"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(SuggestItemChargeAssignment_Promoted; SuggestItemChargeAssignment)
                 {
@@ -447,12 +447,12 @@ page 5805 "Item Charge Assignment (Purch)"
             }
             group(Category_Category4)
             {
-                Caption = 'Item Charge', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item Charge', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -499,7 +499,7 @@ page 5805 "Item Charge Assignment (Purch)"
     var
         PurchLine: Record "Purchase Line";
         Text000: Label 'The sign of %1 must be the same as the sign of %2 of the item charge.';
-        Text001: Label 'The remaining amount to assign is %1. It must be zero before you can post %2 %3.\ \Are you sure that you want to close the window?', Comment = '%2 = Document Type, %3 = Document No.';
+Text001: Label 'The remaining amount to assign is %1. It must be zero before you can post %2 %3.\ \Are you sure that you want to close the window?', Comment = '%2 = Document Type, %3 = Document No.';
 
     protected var
         PurchLine2: Record "Purchase Line";

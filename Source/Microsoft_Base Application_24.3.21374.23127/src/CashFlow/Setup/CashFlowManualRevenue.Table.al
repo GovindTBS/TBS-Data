@@ -123,7 +123,7 @@ table 849 "Cash Flow Manual Revenue"
 
     var
         DimMgt: Codeunit DimensionManagement;
-        RevTxt: Label 'REV', Comment = 'Abbreviation of Revenue, used as prefix for code (e.g. REV000001)';
+RevTxt: Label 'REV', Comment = 'Abbreviation of Revenue, used as prefix for code (e.g. REV000001)';
 
     procedure ValidateShortcutDimCode(FieldNumber: Integer; var ShortcutDimCode: Code[20])
     begin
@@ -170,6 +170,6 @@ table 849 "Cash Flow Manual Revenue"
     end;
 
     var
-        CodeIsNotSetErr: Label 'Cannot insert the line because no code value is set. Please verify that you have set up the %1 with the %2 set to %3.', Comment = '%1 is Cash Flow Account, %2 is Source Type, %3 is Cash Flow Manual Revenue';
+CodeIsNotSetErr: Label 'Cannot insert the line because no code value is set. Please verify that you have set up the %1 with the %2 set to %3.', Comment = '%1 is Cash Flow Account, %2 is Source Type, %3 is Cash Flow Manual Revenue';
 }
 

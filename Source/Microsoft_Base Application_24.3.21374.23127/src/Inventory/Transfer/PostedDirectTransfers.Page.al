@@ -90,7 +90,7 @@ page 6783 "Posted Direct Transfers"
                     RunObject = Page "Inventory Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Transfer Shipment"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

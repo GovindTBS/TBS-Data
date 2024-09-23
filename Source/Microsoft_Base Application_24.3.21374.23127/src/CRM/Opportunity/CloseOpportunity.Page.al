@@ -192,7 +192,7 @@ page 5128 "Close Opportunity"
         IsOnMobile: Boolean;
 
         Text000: Label 'untitled';
-        IsNotAValidSelectionErr: Label '%1 is not a valid selection.', Comment = '%1 - Field Value';
+IsNotAValidSelectionErr: Label '%1 is not a valid selection.', Comment = '%1 - Field Value';
 
     protected var
         Opp: Record Opportunity;

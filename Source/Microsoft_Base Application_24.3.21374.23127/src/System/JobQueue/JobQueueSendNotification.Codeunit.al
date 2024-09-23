@@ -37,7 +37,7 @@ codeunit 454 "Job Queue - Send Notification"
     end;
 
     var
-        ErrorWhenProcessingTxt: Label 'Error when processing ''%1''.', Comment = '%1 = Job queue entry description';
+ErrorWhenProcessingTxt: Label 'Error when processing ''%1''.', Comment = '%1 = Job queue entry description';
         ErrorMessageLabelTxt: Label 'Error message:';
         JobQueueFinishedTxt: Label '''%1'' finished successfully.', Comment = '%1 = job description, e.g. ''Post Sales Order 1234''';
 

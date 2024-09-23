@@ -38,11 +38,11 @@ codeunit 6404 "FS Setup Defaults"
         CustomerTableMappingNameTxt: Label 'CUSTOMER', Locked = true;
         CategoryTok: Label 'AL Field Service Integration', Locked = true;
         VendorTableMappingNameTxt: Label 'VENDOR', Locked = true;
-        JobQueueEntryNameTok: Label ' %1 - %2 synchronization job.', Comment = '%1 = The Integration Table Name to synchronized (ex. CUSTOMER), %2 = CRM product name';
-        UncoupleJobQueueEntryNameTok: Label ' %1 uncouple job.', Comment = '%1 = Integration mapping description, for example, CUSTOMER <-> CRM Account';
-        CoupleJobQueueEntryNameTok: Label ' %1 coupling job.', Comment = '%1 = Integration mapping description, for example, CUSTOMER <-> CRM Account';
-        IntegrationTablePrefixTok: Label 'Dynamics CRM', Comment = 'Product name', Locked = true;
-        CRMConnectionSetupTxt: Label 'Set up %1 connection', Comment = '%1 = CRM product name';
+JobQueueEntryNameTok: Label ' %1 - %2 synchronization job.', Comment = '%1 = The Integration Table Name to synchronized (ex. CUSTOMER), %2 = CRM product name';
+UncoupleJobQueueEntryNameTok: Label ' %1 uncouple job.', Comment = '%1 = Integration mapping description, for example, CUSTOMER <-> CRM Account';
+CoupleJobQueueEntryNameTok: Label ' %1 coupling job.', Comment = '%1 = Integration mapping description, for example, CUSTOMER <-> CRM Account';
+IntegrationTablePrefixTok: Label 'Dynamics CRM', Comment = 'Product name', Locked = true;
+CRMConnectionSetupTxt: Label 'Set up %1 connection', Comment = '%1 = CRM product name';
         VideoUrlSetupCRMConnectionTxt: Label '', Locked = true;
 
     internal procedure ResetConfiguration(var FSConnectionSetup: Record "FS Connection Setup")

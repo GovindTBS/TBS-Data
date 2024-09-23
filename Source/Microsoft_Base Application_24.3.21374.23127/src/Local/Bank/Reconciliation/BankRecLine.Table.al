@@ -500,9 +500,9 @@ table 10121 "Bank Rec. Line"
         Text002: Label 'cannot be specified without %1';
         Text003: Label 'You cannot rename a %1.';
         Text014: Label 'The %1 %2 has a %3 %4.\Do you still want to use %1 %2 in this journal line?';
-        Text1020100: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = Customer.blocked';
-        PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = customer';
-        UnsupportedTypeNotificationMsg: Label '%1 is not supported account type. You can enter and post the adjustment entry in a General Journal instead.', Comment = '%1=account type';
+Text1020100: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = Customer.blocked';
+PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = customer';
+UnsupportedTypeNotificationMsg: Label '%1 is not supported account type. You can enter and post the adjustment entry in a General Journal instead.', Comment = '%1=account type';
 
     procedure SetUpNewLine(LastBankRecLine: Record "Bank Rec. Line"; Balance: Decimal; BottomLine: Boolean)
     var

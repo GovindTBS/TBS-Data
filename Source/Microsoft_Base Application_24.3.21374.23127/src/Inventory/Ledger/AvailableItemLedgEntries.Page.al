@@ -244,7 +244,7 @@ page 504 "Available - Item Ledg. Entries"
         CancelReservationQst: Label 'Do you want to cancel the reservation?';
         ReservationCannotBeCarriedErr: Label 'Reservation cannot be carried out because the available quantity is already allocated in a warehouse.';
         CanCancelInventoryReservationOnlyErr: Label 'You can only cancel reservations to inventory.';
-        CannotReserveFromSpecialOrderErr: Label 'You cannot reserve from this item ledger entry because the associated special sales order %1 has not been posted yet.', Comment = '%1: Sales Order No.';
+CannotReserveFromSpecialOrderErr: Label 'You cannot reserve from this item ledger entry because the associated special sales order %1 has not been posted yet.', Comment = '%1: Sales Order No.';
 
     protected var
         ReservEntry: Record "Reservation Entry";

@@ -364,10 +364,10 @@ page 5374 "New Synthetic Relation Wiz."
         TopBannerVisible: Boolean;
         NextActionEnabled: Boolean;
         ShowingAdvanced: Boolean;
-        FieldInTableLbl: Label 'Field in the "%1" table', Comment = '%1 - table name';
+FieldInTableLbl: Label 'Field in the "%1" table', Comment = '%1 - table name';
         YouShouldSpecifyBothFieldsMsg: Label 'Specify which columns in the native table and virtual table must match to create a relation between them.';
-        FinalizeConfirmTxt: Label 'A synthetic relation between the native table "%1" and the virtual table "%2" will be created. ', Comment = '%1 - native table name, %2 - virtual table name';
-        SyntheticRelationExistsErr: Label 'A synthetic relation between the native table "%1" and the virtual table "%2" already exists.', Comment = '%1 - native table name, %2 - virtual table name';
+FinalizeConfirmTxt: Label 'A synthetic relation between the native table "%1" and the virtual table "%2" will be created. ', Comment = '%1 - native table name, %2 - virtual table name';
+SyntheticRelationExistsErr: Label 'A synthetic relation between the native table "%1" and the virtual table "%2" already exists.', Comment = '%1 - native table name, %2 - virtual table name';
         NoApiPageFoundWithThatIDErr: Label 'No API page found in Business Central with the specified ID. Please specify a valid API page ID.';
 
     internal procedure SetExistingBCTableRelations(var TempSynthRelationMappingBuffer: Record "Synth. Relation Mapping Buffer")

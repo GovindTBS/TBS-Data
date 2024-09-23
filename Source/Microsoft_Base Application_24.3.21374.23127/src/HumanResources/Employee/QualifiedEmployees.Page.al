@@ -63,7 +63,7 @@ page 5207 "Qualified Employees"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies whether a comment was entered for this entry.';
+ToolTip = 'Specifies whether a comment was entered for this entry.';
                 }
             }
         }
@@ -99,7 +99,7 @@ page 5207 "Qualified Employees"
                     RunPageLink = "Table Name" = const("Employee Qualification"),
                                   "No." = field("Employee No."),
                                   "Table Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 separator(Action27)
                 {

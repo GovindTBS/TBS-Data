@@ -298,7 +298,7 @@ page 5825 "Review Marketing Text"
         AllFacts: Dictionary of [Text, Text];
         Facts: Dictionary of [Text, Text];
         InvalidAppErr: Label 'The Edit Marketing Text page could not be opened as it cannot be opened from another extension.';
-        DescriptionTxt: Label 'Choose how %1 suggests marketing text for ''%2'' (preview)', Comment = '%1 is Copilot, %2 is the item description.';
+DescriptionTxt: Label 'Choose how %1 suggests marketing text for ''%2'' (preview)', Comment = '%1 is Copilot, %2 is the item description.';
         MustSelectAttributeQst: Label 'At least one attribute must be included. Would you like to select one?';
         AddAttributesSuggestionTxt: Label 'Add item attributes to improve accuracy';
         ItemWithNoAttributesErr: Label 'This item does not have any item attributes.';

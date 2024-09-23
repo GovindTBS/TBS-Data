@@ -318,7 +318,7 @@ table 302 "Finance Charge Memo Header"
         {
             CalcFormula = exist("Fin. Charge Comment Line" where(Type = const("Finance Charge Memo"),
                                                                   "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

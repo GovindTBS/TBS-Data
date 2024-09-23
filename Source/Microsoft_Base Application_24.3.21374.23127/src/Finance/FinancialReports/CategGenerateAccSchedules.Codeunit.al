@@ -18,12 +18,12 @@ codeunit 571 "Categ. Generate Acc. Schedules"
     var
         GeneralLedgerSetup: Record "General Ledger Setup";
 
-        TotalingTxt: Label 'Total %1', Comment = '%1 = Account category, e.g. Assets';
-        Totaling2Txt: Label 'Total %1 & %2', Comment = '%1 and %2 = Account category, e.g. Assets';
+TotalingTxt: Label 'Total %1', Comment = '%1 = Account category, e.g. Assets';
+Totaling2Txt: Label 'Total %1 & %2', Comment = '%1 and %2 = Account category, e.g. Assets';
         GrossProfitTxt: Label 'Gross Profit';
         NetIncomeTxt: Label 'Net Income';
         AdjustmentsTxt: Label 'Adjustments to reconcile Net Income to net cash provided by operations:';
-        NetCashProviededTxt: Label 'Net Cash Provided by %1', Comment = '%1=Operating Activities or Investing Activities';
+NetCashProviededTxt: Label 'Net Cash Provided by %1', Comment = '%1=Operating Activities or Investing Activities';
         NetCashIncreaseTxt: Label 'Net Cash Increase for the Period';
         CashAtPeriodStartTxt: Label 'Cash at Beginning of the Period';
         CashAtPeriodEndTxt: Label 'Cash at End of the Period';

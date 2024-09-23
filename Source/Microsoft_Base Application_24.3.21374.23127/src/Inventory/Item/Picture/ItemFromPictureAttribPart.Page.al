@@ -87,7 +87,7 @@ page 7499 "Item From Picture-Attrib Part"
         ItemFromPicture: Codeunit "Item From Picture";
         GlobalCategoryCode: Code[20];
         UserEdited: Boolean;
-        ConfirmCategoryChangeTxt: Label 'This will change the new item category from "%1" to "%2", and will reset the item attributes.\\ Do you want to continue?', Comment = '%1, %2: two category names, for example "furniture" and "kitchen appliances"';
+ConfirmCategoryChangeTxt: Label 'This will change the new item category from "%1" to "%2", and will reset the item attributes.\\ Do you want to continue?', Comment = '%1, %2: two category names, for example "furniture" and "kitchen appliances"';
 
     procedure LoadAttributesFromCategory(CategoryCode: Code[20])
     var

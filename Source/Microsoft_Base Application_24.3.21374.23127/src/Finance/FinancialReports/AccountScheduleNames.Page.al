@@ -199,7 +199,7 @@ page 103 "Account Schedule Names"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
 #if not CLEAN22
                 actionref(Overview_Promoted; Overview)
@@ -232,7 +232,7 @@ page 103 "Account Schedule Names"
 
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
 #if not CLEAN22
                 actionref(Print_Promoted; Print)
@@ -245,7 +245,7 @@ page 103 "Account Schedule Names"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

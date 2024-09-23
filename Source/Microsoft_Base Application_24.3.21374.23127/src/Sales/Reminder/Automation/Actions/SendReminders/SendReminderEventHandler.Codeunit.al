@@ -24,11 +24,11 @@ codeunit 6753 "Send Reminder Event Handler"
         NumberOfRecordsProcessed: Integer;
         PendingOutboxMessageId: BigInteger;
         NoRemindersSentTxt: Label 'No reminders were sent.';
-        RemindersEmailedTxt: Label ' %1 reminders were emailed.', Comment = '%1 number of reminders emailed';
-        RemindersEmailFailedTxt: Label ' Sending email failed for %1 reminders.', Comment = '%1 number of reminders failed to email';
-        RemindersPrintingFailedTxt: Label ' Printing failed for %1 reminders.', Comment = '%1 number of reminders failed to print';
+RemindersEmailedTxt: Label ' %1 reminders were emailed.', Comment = '%1 number of reminders emailed';
+RemindersEmailFailedTxt: Label ' Sending email failed for %1 reminders.', Comment = '%1 number of reminders failed to email';
+RemindersPrintingFailedTxt: Label ' Printing failed for %1 reminders.', Comment = '%1 number of reminders failed to print';
         NoRemindersEmailedTxt: Label ' No reminders were emailed.';
-        RemindersPritedTxt: Label ' %1 reminders were printed.', Comment = '%1 number of reminders printed';
+RemindersPritedTxt: Label ' %1 reminders were printed.', Comment = '%1 number of reminders printed';
         NoRemindersPrintedTxt: Label ' No reminders were printed.';
 
     internal procedure SetGlobalReminderAction(ReminderAction: Record "Reminder Action")

@@ -74,6 +74,6 @@ page 1158 "Cash Account Balances"
     end;
 
     var
-        FilterForBalanceDrillDwnTxt: Label '&filter=''G/L Entry''.''G/L Account No.'' IS ''%1''', Comment = '%1 - G/L Account record No. which data type of CODE.';
+FilterForBalanceDrillDwnTxt: Label '&filter=''G/L Entry''.''G/L Account No.'' IS ''%1''', Comment = '%1 - G/L Account record No. which data type of CODE.';
 }
 

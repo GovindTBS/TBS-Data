@@ -164,7 +164,7 @@ report 10500 "GST/HST Internet File Transfer"
         OtherGSTHST: Decimal;
         NewHousingRebates: Decimal;
         FileName: Text[250];
-        Text001: Label 'Tax Files (*.tax)|*.tax|All Files (*.*)|*.*', Comment = 'Only translate ''Tax Files'' and ''All Files'' {Split=r"[\|\(]\*\.[^ |)]*[|) ]?"}';
+Text001: Label 'Tax Files (*.tax)|*.tax|All Files (*.*)|*.*', Comment = 'Only translate ''Tax Files'' and ''All Files'' {Split=r"[\|\(]\*\.[^ |)]*[|) ]?"}';
         Text002: Label 'Export HST/GST File';
         Text004: Label 'Start Date should not be blank.';
         Text005: Label 'End Date should be greater than the Start Date.';

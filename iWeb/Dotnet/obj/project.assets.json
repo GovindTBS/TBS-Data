@@ -4241,11 +4241,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "g:\\GovindSinghRajpurohit\\TBS-Data\\iWeb\\Dotnet\\Dotnet.csproj",
+      "projectUniqueName": "G:\\GovindSinghRajpurohit\\TBS-Data\\iWeb\\Dotnet\\Dotnet.csproj",
       "projectName": "Dotnet",
-      "projectPath": "g:\\GovindSinghRajpurohit\\TBS-Data\\iWeb\\Dotnet\\Dotnet.csproj",
+      "projectPath": "G:\\GovindSinghRajpurohit\\TBS-Data\\iWeb\\Dotnet\\Dotnet.csproj",
       "packagesPath": "C:\\Users\\gaurangt\\.nuget\\packages\\",
-      "outputPath": "g:\\GovindSinghRajpurohit\\TBS-Data\\iWeb\\Dotnet\\obj\\",
+      "outputPath": "G:\\GovindSinghRajpurohit\\TBS-Data\\iWeb\\Dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gaurangt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4256,6 +4256,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

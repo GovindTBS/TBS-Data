@@ -116,7 +116,7 @@ page 5733 "Item Category Card"
 
     var
         ItemCategoryManagement: Codeunit "Item Category Management";
-        DeleteQst: Label 'Delete %1?', Comment = '%1 - item category name';
+DeleteQst: Label 'Delete %1?', Comment = '%1 - item category name';
         CanDelete: Boolean;
 
     local procedure PersistCategoryAttributes()

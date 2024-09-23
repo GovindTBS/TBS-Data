@@ -94,7 +94,7 @@ page 1870 "Credit Limit Notification"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
                 actionref(NewFinanceChargeMemo_Promoted; NewFinanceChargeMemo)
                 {
@@ -102,7 +102,7 @@ page 1870 "Credit Limit Notification"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Report Customer - Balance to Date_Promoted"; "Report Customer - Balance to Date")
                 {
@@ -110,7 +110,7 @@ page 1870 "Credit Limit Notification"
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Customer_Promoted; Customer)
                 {
@@ -118,7 +118,7 @@ page 1870 "Credit Limit Notification"
             }
             group(Category_Category5)
             {
-                Caption = 'Create', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Create', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
         }
     }

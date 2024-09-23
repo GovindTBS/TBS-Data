@@ -2,7 +2,7 @@ namespace Microsoft.CRM.Comment;
 
 page 5118 "Rlshp. Mgt. Comment List"
 {
-    Caption = 'Rlshp. Mgt. Comment List';
+Caption = 'Rlshp. Mgt. Comment List';
     Editable = false;
     LinksAllowed = false;
     PageType = List;
@@ -28,12 +28,12 @@ page 5118 "Rlshp. Mgt. Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = RelationshipMgmt;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = RelationshipMgmt;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
             }
         }

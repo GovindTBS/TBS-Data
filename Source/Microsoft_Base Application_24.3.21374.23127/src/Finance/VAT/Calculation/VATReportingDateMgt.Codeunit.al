@@ -46,13 +46,13 @@ codeunit 799 "VAT Reporting Date Mgt"
         ErrorMessageManagement: Codeunit "Error Message Management";
         ForwardLinkMgt: Codeunit "Forward Link Mgt.";
         VATDateFeatureTok: Label 'VAT Date', Locked = true;
-        VATReturnToWarningMsg: Label 'VAT Return for the chosen date is already %1. Are you sure you want to make this change?', Comment = '%1 - The status of the VAT return.';
-        VATReturnFromWarningMsg: Label 'VAT Entry is in a %1 VAT Return period. Are you sure you want to make this change?', Comment = '%1 - The status of the VAT return.';
+VATReturnToWarningMsg: Label 'VAT Return for the chosen date is already %1. Are you sure you want to make this change?', Comment = '%1 - The status of the VAT return.';
+VATReturnFromWarningMsg: Label 'VAT Entry is in a %1 VAT Return period. Are you sure you want to make this change?', Comment = '%1 - The status of the VAT return.';
         VATReturnFromClosedErr: Label 'VAT Entry is in a closed VAT Return Period and can not be changed.';
         VATReturnToClosedErr: Label 'VAT Return Period is closed for the selected date. Please select another date.';
         VATDateNotAllowedErr: Label 'The VAT Date is not within the range of allowed VAT dates.';
-        VATDateInPeriodNotAllowedErr: Label 'The specified VAT Date is in a %1 VAT Return Period which was not allowed', Comment = '%1 - VAT Return Period status';
-        VATDateFromPeriodNotAllowedErr: Label 'The VAT Date is in a %1 VAT Return Period and was not allowed to change', Comment = '%1 - VAT Return Period status';
+VATDateInPeriodNotAllowedErr: Label 'The specified VAT Date is in a %1 VAT Return Period which was not allowed', Comment = '%1 - VAT Return Period status';
+VATDateFromPeriodNotAllowedErr: Label 'The VAT Date is in a %1 VAT Return Period and was not allowed to change', Comment = '%1 - VAT Return Period status';
 
     procedure UpdateLinkedEntries(VATEntry: Record "VAT Entry")
     var

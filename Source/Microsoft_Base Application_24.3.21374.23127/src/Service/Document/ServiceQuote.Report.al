@@ -754,8 +754,8 @@ report 5902 "Service Quote"
         Service_Header___E_Mail_CaptionLbl: Label 'Email';
         Header_DimensionsCaptionLbl: Label 'Header Dimensions';
         Service_Item_LinesCaptionLbl: Label 'Service Item Lines';
-        Fault_CommentsCaptionLbl: Label 'Fault Comments';
-        Resolution_CommentsCaptionLbl: Label 'Resolution Comments';
+Fault_CommentsCaptionLbl: Label 'Fault Comments';
+Resolution_CommentsCaptionLbl: Label 'Resolution Comments';
         Service_LineCaptionLbl: Label 'Service Line';
         AmtCaptionLbl: Label 'Amount';
         Gross_AmountCaptionLbl: Label 'Gross Amount';

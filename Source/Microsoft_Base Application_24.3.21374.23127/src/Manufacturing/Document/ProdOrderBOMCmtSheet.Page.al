@@ -5,7 +5,7 @@ using Microsoft.Manufacturing.ProductionBOM;
 page 99000795 "Prod. Order BOM Cmt. Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     DataCaptionExpression = Rec.Caption();
     LinksAllowed = false;
     MultipleNewLines = true;
@@ -22,17 +22,17 @@ page 99000795 "Prod. Order BOM Cmt. Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the date when the comment was created.';
+ToolTip = 'Specifies the date when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the actual comment.';
+ToolTip = 'Specifies the actual comment.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies a code for the comments.';
+ToolTip = 'Specifies a code for the comments.';
                     Visible = false;
                 }
             }

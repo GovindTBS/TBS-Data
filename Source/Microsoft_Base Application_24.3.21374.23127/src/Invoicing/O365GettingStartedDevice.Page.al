@@ -79,7 +79,7 @@ page 1307 "O365 Getting Started Device"
         FirstPageVisible: Boolean;
         BodyText: Text;
         CurrentPageID: Integer;
-        GetDevice1Txt: Label 'Welcome! Work with business data right here on your device.', Comment = '%1=PRODUCTNAME.MARKETING';
+GetDevice1Txt: Label 'Welcome! Work with business data right here on your device.', Comment = '%1=PRODUCTNAME.MARKETING';
 
     local procedure LoadRecords()
     begin

@@ -68,7 +68,7 @@ table 456 "Posted Approval Entry"
             CalcFormula = exist("Posted Approval Comment Line" where("Table ID" = field("Table ID"),
                                                                       "Document No." = field("Document No."),
                                                                       "Posted Record ID" = field("Posted Record ID")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

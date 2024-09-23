@@ -1009,7 +1009,7 @@ table 5965 "Service Contract Header"
                                                               "Table Subtype" = field("Contract Type"),
                                                               "No." = field("Contract No."),
                                                               "Table Line No." = filter(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1563,7 +1563,7 @@ table 5965 "Service Contract Header"
         Text002: Label 'You cannot delete this document. Your identification is set up to process from %1 %2 only.';
         Text003: Label 'You cannot delete %1 %2.';
         Text006: Label 'The %1 field can only be changed to Canceled.';
-        CancelTheContractQst: Label '%1 It is not possible to change a service contract to its previous status.\\Do you want to cancel the contract?', Comment = '%1: Text008';
+CancelTheContractQst: Label '%1 It is not possible to change a service contract to its previous status.\\Do you want to cancel the contract?', Comment = '%1: Text008';
         OpenPrepaymentEntriesExistTxt: Label 'Open prepayment entries exist for the contract.';
         Text009: Label 'You cannot change the %1 field to %2 when the %3 field is %4.';
         Text010: Label 'Do you want to cancel %1?';

@@ -27,7 +27,7 @@ codeunit 7701 "ADCS Communication"
         InputCounter: Integer;
         RecRefRunning: Boolean;
         Text003: Label '%1 is not a valid value for the %2 field.';
-        Text004: Label 'The field %2 in the record %1 can only contain %3 characters. (%4).', Comment = 'The field [Field Caption] in the record [Record Caption] [Field Caption] can only contain [Field Length] characters. ([Attempted value to set]).';
+Text004: Label 'The field %2 in the record %1 can only contain %3 characters. (%4).', Comment = 'The field [Field Caption] in the record [Record Caption] [Field Caption] can only contain [Field Length] characters. ([Attempted value to set]).';
         InputIsHidden: Boolean;
         Text005: Label 'Miniform %1 not found.';
         Text006: Label 'There must be one miniform that is set to %1.';

@@ -6,7 +6,7 @@ namespace Microsoft.Sales.Archive;
 
 page 5180 "Sales Archive Comment Sheet"
 {
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     Editable = false;
     PageType = List;
     SourceTable = "Sales Comment Line Archive";
@@ -26,13 +26,13 @@ page 5180 "Sales Archive Comment Sheet"
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the document line number of the quote or order to which the comment applies.';
+ToolTip = 'Specifies the document line number of the quote or order to which the comment applies.';
                     Visible = false;
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the line number for the comment.';
+ToolTip = 'Specifies the line number for the comment.';
                 }
             }
         }

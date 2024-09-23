@@ -86,7 +86,7 @@ page 105 "New Account Schedule Name"
         OldName: Code[10];
         NewName: Code[10];
         AlreadyExistsTxt: Text;
-        AlreadyExistsErr: Label 'Row definition %1 will be overwritten.', Comment = '%1 - name of the row definition.';
+AlreadyExistsErr: Label 'Row definition %1 will be overwritten.', Comment = '%1 - name of the row definition.';
 
     procedure Set(Name: Code[10])
     begin

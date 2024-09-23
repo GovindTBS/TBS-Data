@@ -124,9 +124,9 @@ page 9801 "User Subform"
     var
         User: Record User;
 #if not CLEAN22
-        InUserGroupErr: Label 'You cannot remove this permission set because it is included in user group %1.', Comment = '%1=a user group code, e.g. ADMIN or SALESDEPT';
+InUserGroupErr: Label 'You cannot remove this permission set because it is included in user group %1.', Comment = '%1=a user group code, e.g. ADMIN or SALESDEPT';
 #endif
-        MultipleRoleIDErr: Label 'The permission set %1 is defined multiple times in this context. Use the lookup button to select the relevant permission set.', Comment = '%1 will be replaced with a Role ID code value from the Permission Set table';
+MultipleRoleIDErr: Label 'The permission set %1 is defined multiple times in this context. Use the lookup button to select the relevant permission set.', Comment = '%1 will be replaced with a Role ID code value from the Permission Set table';
         SkipValidation: Boolean;
         PermissionScope: Text;
         PermissionSetNotFound: Boolean;

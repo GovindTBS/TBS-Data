@@ -322,7 +322,7 @@ table 346 "Reservation Wksh. Line"
         Item: Record Item;
         ItemUnitOfMeasure: Record "Item Unit of Measure";
         UnitOfMeasureManagement: Codeunit "Unit of Measure Management";
-        ExceedingQtyErr: Label '%1 cannot exceed %2.', Comment = '%1: Qty. to Reserve, %2: Remaining Qty. to Reserve or Available Qty. to Reserve';
+ExceedingQtyErr: Label '%1 cannot exceed %2.', Comment = '%1: Qty. to Reserve, %2: Remaining Qty. to Reserve or Available Qty. to Reserve';
 
     procedure IsOutdated(): Boolean
     var

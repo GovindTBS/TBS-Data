@@ -3,7 +3,7 @@ namespace Microsoft.CashFlow.Comment;
 page 848 "Cash Flow Comment"
 {
     AutoSplitKey = true;
-    Caption = 'Cash Flow Comment';
+Caption = 'Cash Flow Comment';
     PageType = List;
     SourceTable = "Cash Flow Account Comment";
 
@@ -17,12 +17,12 @@ page 848 "Cash Flow Comment"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the date of the cash flow comment.';
+ToolTip = 'Specifies the date of the cash flow comment.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the comment for the record.';
+ToolTip = 'Specifies the comment for the record.';
                 }
                 field("Code"; Rec.Code)
                 {

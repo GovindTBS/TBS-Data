@@ -39,11 +39,11 @@ codeunit 104 "Update Name In Ledger Entries"
         ItemJobQueueDescrTxt: Label 'Update item name in item ledger entries.';
         WarehouseDescriptionJobQueueTxt: Label 'Update item name in warehouse entries.';
         VendorJobQueueDescrTxt: Label 'Update vendor name in vendor ledger entries.';
-        ParameterNotSupportedErr: Label 'The Parameter String field must contain 18 for ''Customer'', 23 for ''Vendor'', or 27 for ''Item''. The current value ''%1'' is not supported.', Comment = '%1 - any text value';
-        CustomerNamesUpdateMsg: Label '%1 customer ledger entries with empty Customer Name field were found. Do you want to update these entries by inserting the name from the customer cards?', Comment = '%1 = number of entries';
-        VendorNamesUpdateMsg: Label '%1 vendor ledger entries with empty Vendor Name field were found. Do you want to update these entries by inserting the name from the vendor cards?', Comment = '%1 = number of entries';
-        ItemDescriptionUpdateMsg: Label '%1 ledger entries with empty Description field were found. Do you want to update these entries by inserting the description from the item cards?', Comment = '%1 = number of entries';
-        ItemDescriptionWarehouseEntriesUpdateMsg: Label '%1 warehouse entries with empty Description field were found. Do you want to update these entries by inserting the description from the item cards?', Comment = '%1 = number of entries, %2 - Table Caption';
+ParameterNotSupportedErr: Label 'The Parameter String field must contain 18 for ''Customer'', 23 for ''Vendor'', or 27 for ''Item''. The current value ''%1'' is not supported.', Comment = '%1 - any text value';
+CustomerNamesUpdateMsg: Label '%1 customer ledger entries with empty Customer Name field were found. Do you want to update these entries by inserting the name from the customer cards?', Comment = '%1 = number of entries';
+VendorNamesUpdateMsg: Label '%1 vendor ledger entries with empty Vendor Name field were found. Do you want to update these entries by inserting the name from the vendor cards?', Comment = '%1 = number of entries';
+ItemDescriptionUpdateMsg: Label '%1 ledger entries with empty Description field were found. Do you want to update these entries by inserting the description from the item cards?', Comment = '%1 = number of entries';
+ItemDescriptionWarehouseEntriesUpdateMsg: Label '%1 warehouse entries with empty Description field were found. Do you want to update these entries by inserting the description from the item cards?', Comment = '%1 = number of entries, %2 - Table Caption';
         ScheduleUpdateMsg: Label 'Schedule update';
 
     procedure ScheduleUpdate(Notification: Notification)

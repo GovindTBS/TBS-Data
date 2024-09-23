@@ -17,3 +17,7 @@
 		Cstr(Fields!DocumentNo_Barcode.Value)+ Chr(177) +
 		Cstr(Fields!TOTAL__Lbl.Value)+ Chr(177) +
 		Last(Fields!TotalAmountIncludingVAT.Value),1)
+		
+		
+	$IF Condition	
+		=IIF(Fields!Type.Value = "Item", False,True)

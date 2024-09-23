@@ -165,11 +165,11 @@ page 577 "Change Global Dimensions"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Sequential', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Sequential', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(StartSequential_Promoted; StartSequential)
                 {
@@ -177,7 +177,7 @@ page 577 "Change Global Dimensions"
             }
             group(Category_Category5)
             {
-                Caption = 'Parallel', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Parallel', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Prepare_Promoted; Prepare)
                 {

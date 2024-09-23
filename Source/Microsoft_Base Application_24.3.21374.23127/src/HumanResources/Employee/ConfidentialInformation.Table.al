@@ -43,7 +43,7 @@ table 5216 "Confidential Information"
                                                                       "No." = field("Employee No."),
                                                                       "Code" = field("Confidential Code"),
                                                                       "Table Line No." = field("Line No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -70,6 +70,6 @@ table 5216 "Confidential Information"
     var
         Confidential: Record Confidential;
 
-        Text000: Label 'You can not delete confidential information if there are comments associated with it.';
+Text000: Label 'You can not delete confidential information if there are comments associated with it.';
 }
 

@@ -8,13 +8,13 @@ codeunit 1655 "Office Add-In Sample Emails"
     var
         WelcomeTxt: Label 'We are all set up. Welcome to Your business inbox in Outlook!';
         FirstHeaderTxt: Label 'Get business done without leaving Outlook';
-        FirstParagraph_Part1Txt: Label 'With %1, your business comes to you directly in Microsoft Outlook. Getting started in Outlook is easy: use the steps below to see how quickly you can create and send documents for your business contacts.', Comment = '%1 = Application Name';
+FirstParagraph_Part1Txt: Label 'With %1, your business comes to you directly in Microsoft Outlook. Getting started in Outlook is easy: use the steps below to see how quickly you can create and send documents for your business contacts.', Comment = '%1 = Application Name';
         GetStartedTxt: Label 'Get started with contact insights';
         OutlookHeaderTxt: Label 'In Outlook:';
-        OutlookParagraphTxt: Label 'Find %1 in the ribbon, and choose Contact Insights.', Comment = '%1 = Application Name';
-        OWAHeaderTxt: Label 'In Outlook on the web:', Comment = 'Outlook on the web is a product name';
-        OWAParagraph1Txt: Label 'Choose ''More actions'' ', Comment = 'Trailing space is required. More actions is the text used in OWA - it''s not clear how this would be translated.';
-        OWAParagraph2Txt: Label ' in the upper-right corner of the email and choose %1.', Comment = '%1 = Application Name; Opening space is required.';
+OutlookParagraphTxt: Label 'Find %1 in the ribbon, and choose Contact Insights.', Comment = '%1 = Application Name';
+OWAHeaderTxt: Label 'In Outlook on the web:', Comment = 'Outlook on the web is a product name';
+OWAParagraph1Txt: Label 'Choose ''More actions'' ', Comment = 'Trailing space is required. More actions is the text used in OWA - it''s not clear how this would be translated.';
+OWAParagraph2Txt: Label ' in the upper-right corner of the email and choose %1.', Comment = '%1 = Application Name; Opening space is required.';
         SalesQuoteHdrTxt: Label 'Create a sales quote';
         SalesQuoteIntroTxt: Label 'Business Central helps you author email responses by suggesting items and quantities that you can include in an attached document.';
         SalesQuoteInst1Txt: Label 'On the app bar, choose Sales Quote from the New menu';
@@ -22,9 +22,9 @@ codeunit 1655 "Office Add-In Sample Emails"
         SalesQuoteInst3Txt: Label 'On the document''s action menu, choose Send by Email.';
         SalesQuoteInst4Txt: Label 'Review the mail and attached file before you send it.';
         SalesQuoteInst5Txt: Label 'In the add-in pane, choose the back arrow to return to the customer dashboard.';
-        SalesQuoteFirstItemNameTxt: Label 'London Swivel Chair', Comment = 'Special characters such as hyphen, brackets, parentheses and commas are not allowed.';
+SalesQuoteFirstItemNameTxt: Label 'London Swivel Chair', Comment = 'Special characters such as hyphen, brackets, parentheses and commas are not allowed.';
         SalesQuoteFirstItemQtyTxt: Label '7';
-        SalesQuoteSecondItemNameTxt: Label 'Antwerp Conference Table', Comment = 'Special characters such as hyphen, brackets, parentheses and commas are not allowed.';
+SalesQuoteSecondItemNameTxt: Label 'Antwerp Conference Table', Comment = 'Special characters such as hyphen, brackets, parentheses and commas are not allowed.';
         SalesQuoteSecondItemQtyTxt: Label '2';
         LineNo1Txt: Label '1.';
         LineNo2Txt: Label '2.';

@@ -246,7 +246,7 @@ page 62 "Applied Vendor Entries"
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ShowAs = SplitButton;
 
                 actionref("Show Posted Document_Promoted"; "Show Posted Document")
@@ -258,7 +258,7 @@ page 62 "Applied Vendor Entries"
             }
             group(Category_Category5)
             {
-                Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -269,7 +269,7 @@ page 62 "Applied Vendor Entries"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

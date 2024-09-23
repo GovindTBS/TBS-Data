@@ -141,7 +141,7 @@ report 1093 "Job Create Sales Invoice"
         InvoicePerTask: Boolean;
         OldJobNo: Code[20];
         OldJTNo: Code[20];
-        Text000: Label 'A', Comment = 'A';
+Text000: Label 'A', Comment = 'A';
 
     protected var
         JobChoice: Option Job,"Job Task";

@@ -22,15 +22,15 @@ codeunit 9822 "Plan Configuration Impl."
 
     var
         ConfirmRemoveCustomizationsQst: Label 'Restoring the default permissions will delete the customization for the selected license. Do you want to continue?';
-        ConfigurationAlreadyExistsErr: Label 'Configuration for license %1 already exists. To edit it, select it from the list.', Comment = '%1 = License name, e.g. Dynamics 365 Business Central Essentials';
+ConfigurationAlreadyExistsErr: Label 'Configuration for license %1 already exists. To edit it, select it from the list.', Comment = '%1 = License name, e.g. Dynamics 365 Business Central Essentials';
         MissingSecurityErr: Label 'You do not have permissions to configure licenses. Contact your system administrator.';
-        MissingPermissionSetErr: Label 'You don''t have rights to manage the %1 permission set for licenses. The SECURITY permission set only grants you rights to manage those permission sets that are also assigned to your account.', Comment = '%1 = permssion set name, e.g. ''D365 READ''';
-        CustomizePermissionsNotificationTxt: Label 'Customizing permissions below will affect only newly created users who are assigned %1 license. Permissions for existing users who are assigned the license will not be affected.', Comment = '%1 = license name, e.g. e.g. Dynamics 365 Business Central Essentials';
+MissingPermissionSetErr: Label 'You don''t have rights to manage the %1 permission set for licenses. The SECURITY permission set only grants you rights to manage those permission sets that are also assigned to your account.', Comment = '%1 = permssion set name, e.g. ''D365 READ''';
+CustomizePermissionsNotificationTxt: Label 'Customizing permissions below will affect only newly created users who are assigned %1 license. Permissions for existing users who are assigned the license will not be affected.', Comment = '%1 = license name, e.g. e.g. Dynamics 365 Business Central Essentials';
         DefaultConfigurationNotificationTxt: Label 'One or more of the license configurations use implicit company permissions, which is not recommended.';
         LearnMoreTok: Label 'Learn more';
         DocumentationLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2186490', Locked = true;
-        BCAdminCenterSaaSLinkTxt: Label '%1/admin', Locked = true, Comment = '%1 = Base URL (including tenant ID Guid)';
-        BCAdminCenterOnPremLinkTxt: Label '%1%2/admin', Locked = true, Comment = '%1 = Base URL, %2 = Tenant ID (Guid)';
+BCAdminCenterSaaSLinkTxt: Label '%1/admin', Locked = true, Comment = '%1 = Base URL (including tenant ID Guid)';
+BCAdminCenterOnPremLinkTxt: Label '%1%2/admin', Locked = true, Comment = '%1 = Base URL, %2 = Tenant ID (Guid)';
         M365AdminCenterLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2211746', Locked = true;
         CustomizationNotificationIdTok: Label '9d730988-ff4a-43ca-8b4f-80ee476fa3c4', Locked = true;
         PlanConfigurationFeatureNameTok: Label 'Custom Permissions Assignment Per Plan', Locked = true;

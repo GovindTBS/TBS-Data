@@ -957,10 +957,10 @@ report 595 "Adjust Exchange Rates"
         Text013Txt: Label 'VAT Entry    @1@@@@@@@@@@@@@';
         Text014Txt: Label 'Adjusting general ledger...\\';
         Text015Txt: Label 'G/L Account    @1@@@@@@@@@@@@@';
-        Text016Txt: Label 'Adjmt. of %1 %2, Ex.Rate Adjust.', Comment = '%1 = Currency Code, %2= Adjust Amount';
+Text016Txt: Label 'Adjmt. of %1 %2, Ex.Rate Adjust.', Comment = '%1 = Currency Code, %2= Adjust Amount';
         Text017Err: Label '%1 on %2 %3 must be %4. When this %2 is used in %5, the exchange rate adjustment is defined in the %6 field in the %7. %2 %3 is used in the %8 field in the %5. ';
         Text018Txt: Label 'Employee          @5@@@@@@@@@@@@@\';
-        PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
+PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
 
     local procedure PostAdjmt(GLAccNo: Code[20]; PostingAmount: Decimal; AdjBase2: Decimal; CurrencyCode2: Code[10]; var DimSetEntry: Record "Dimension Set Entry"; PostingDate2: Date; ICCode: Code[20]) TransactionNo: Integer
     var

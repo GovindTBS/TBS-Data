@@ -70,7 +70,7 @@ codeunit 7313 "Create Put-away"
         NewCrossDockBinContent: Boolean;
         CrossDock: Boolean;
         CrossDockInfo: Option;
-        TemplateDoesNotExistMsg: Label 'There are no %1 created.', Comment = '%1 = put-away template header or line table caption';
+TemplateDoesNotExistMsg: Label 'There are no %1 created.', Comment = '%1 = put-away template header or line table caption';
         PutawayNotCreatedMsg: Label 'Put-away not created for one or more items based on the template and capacity.';
         NoDefaultBinMsg: Label 'There is no default bin for one or more item.';
         BinPolicyTelemetryCategoryTok: Label 'Bin Policy', Locked = true;

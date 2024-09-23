@@ -61,7 +61,7 @@ page 804 "Online Map Parameter Setup"
                 {
                     ApplicationArea = Comments;
                     ExtendedDatatype = URL;
-                    ToolTip = 'Specifies a comment. The field is optional, and you can enter a maximum of 30 characters, both numbers and letters.';
+ToolTip = 'Specifies a comment. The field is optional, and you can enter a maximum of 30 characters, both numbers and letters.';
                 }
             }
         }

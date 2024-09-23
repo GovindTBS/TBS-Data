@@ -206,7 +206,7 @@ page 5601 "Fixed Asset List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("Fixed Asset"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group("Main Asset")
@@ -417,7 +417,7 @@ page 5601 "Fixed Asset List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CalculateDepreciation_Promoted; CalculateDepreciation)
                 {
@@ -451,7 +451,7 @@ page 5601 "Fixed Asset List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(Analysis_Promoted; Analysis)
                 {

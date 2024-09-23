@@ -14,7 +14,7 @@ codeunit 783 "Relationship Performance Mgt."
     end;
 
     var
-        CreateOpportunityQst: Label 'Do you want to create an opportunity for contact %1?', Comment = '%1 - Contact No.';
+CreateOpportunityQst: Label 'Do you want to create an opportunity for contact %1?', Comment = '%1 - Contact No.';
         CreateOpportunityCaptionTxt: Label 'Create opportunity...';
 
     local procedure CalcTopFiveOpportunities(var TempOpportunity: Record Opportunity temporary)

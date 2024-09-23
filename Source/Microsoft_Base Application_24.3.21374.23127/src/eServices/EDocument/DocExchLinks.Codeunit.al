@@ -15,7 +15,7 @@ codeunit 1411 "Doc. Exch. Links"
     var
         DocExchServiceMgt: Codeunit "Doc. Exch. Service Mgt.";
 
-        UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
+UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
 
     procedure UpdateDocumentRecord(DocRecRef: RecordRef; DocIdentifier: Text; DocOrigIdentifier: Text)
     var

@@ -320,8 +320,8 @@ report 11380 "Export Electronic Payment File"
         PayeeType: Option Vendor,Customer;
         AmountPaid: Decimal;
         TotalAmountPaid: Decimal;
-        InvalidExportFormatErr: Label '%1 is not a valid %2 in %3 %4.', Comment = '%1=Bank account export format,%2=Bank account export format field caption,%3=Bank account table caption,%4=Bank account number';
-        AccountTypeErr: Label 'For Electronic Payments, the %1 must be %2 or %3.', Comment = '%1=Balance account type,%2=Customer table caption,%3=Vendor table caption';
+InvalidExportFormatErr: Label '%1 is not a valid %2 in %3 %4.', Comment = '%1=Bank account export format,%2=Bank account export format field caption,%3=Bank account table caption,%4=Bank account number';
+AccountTypeErr: Label 'For Electronic Payments, the %1 must be %2 or %3.', Comment = '%1=Balance account type,%2=Customer table caption,%3=Vendor table caption';
         CannotVoidQst: Label 'Warning:  Transactions cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?';
         UserCancelledErr: Label 'Process cancelled at user request.';
 

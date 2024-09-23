@@ -104,7 +104,7 @@ report 5194 "Create Conts. from Vendors"
 
         Text000: Label 'Processing vendors...\\';
         Text001: Label 'Vendor No.      #1##########';
-        TooManyRecordsQst: Label 'This process will take several minutes because it involves %1 vendors. It is recommended that you schedule the process to run as a background task.\\Do you want to start the process immediately anyway?', Comment = '%1 = number of records';
+TooManyRecordsQst: Label 'This process will take several minutes because it involves %1 vendors. It is recommended that you schedule the process to run as a background task.\\Do you want to start the process immediately anyway?', Comment = '%1 = number of records';
 
     local procedure InsertNewContactIfNeeded(var Vendor: Record Vendor)
     var

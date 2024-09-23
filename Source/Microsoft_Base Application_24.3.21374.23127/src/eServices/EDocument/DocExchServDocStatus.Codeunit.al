@@ -18,8 +18,8 @@ codeunit 1420 "Doc. Exch. Serv.- Doc. Status"
 
     var
         DocExchLinks: Codeunit "Doc. Exch. Links";
-        UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
-        CheckLatestQst: Label 'Do you want to check the latest status of the electronic document?', Comment = '%1 is Document Exchange Status';
+UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
+CheckLatestQst: Label 'Do you want to check the latest status of the electronic document?', Comment = '%1 is Document Exchange Status';
 
     local procedure CheckPostedInvoices()
     var

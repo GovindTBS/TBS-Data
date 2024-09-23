@@ -112,7 +112,7 @@ page 7356 "Whse. Internal Put-away List"
                     RunPageLink = "Table Name" = const("Internal Put-away"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Put-away Lines")
                 {
@@ -170,11 +170,11 @@ page 7356 "Whse. Internal Put-away List"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Re&lease_Promoted"; "Re&lease")
                 {
@@ -185,7 +185,7 @@ page 7356 "Whse. Internal Put-away List"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Put-away Lines_Promoted"; "Put-away Lines")
                 {

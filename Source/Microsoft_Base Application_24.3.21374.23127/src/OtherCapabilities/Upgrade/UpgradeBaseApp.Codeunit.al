@@ -128,7 +128,7 @@ codeunit 104000 "Upgrade - BaseApp"
         SourceCodePurchaseDeferralTxt: Label 'Purchase Deferral', Locked = true;
         ProductionOrderLbl: Label 'PRODUCTION', Locked = true;
         ProductionOrderTxt: Label 'Production Order', Locked = true;
-        ServiceBlockedAlreadySetLbl: Label 'CopyItemSalesBlockedToServiceBlocked skipped. %1 already set for at least one record in table %2.', Comment = '%1 = Field Caption, %2 = Table Caption', Locked = true;
+ServiceBlockedAlreadySetLbl: Label 'CopyItemSalesBlockedToServiceBlocked skipped. %1 already set for at least one record in table %2.', Comment = '%1 = Field Caption, %2 = Table Caption', Locked = true;
 
     trigger OnCheckPreconditionsPerDatabase()
     begin

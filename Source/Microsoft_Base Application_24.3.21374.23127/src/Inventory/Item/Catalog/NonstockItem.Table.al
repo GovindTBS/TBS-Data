@@ -204,7 +204,7 @@ table 5718 "Nonstock Item"
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const("Nonstock Item"),
                                                       "No." = field("Entry No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

@@ -27,8 +27,8 @@ codeunit 7001 "Price Calculation Mgt."
         SubscriptionsTxt: Label 'Subscriptions', Locked = true;
         ExtendedPriceFeatureIdTok: Label 'SalesPrices', Locked = true;
         ExtendedPriceFeatureTelemetryNameLbl: Label 'New Sales Pricing', Locked = true;
-        UsedCustomLookupTxt: Label 'Used custom lookup in table %1.', Comment = '%1 = table id', Locked = true;
-        NotImplementedMethodErr: Label 'Method %1 does not have active implementations for %2 price type.', Comment = '%1 - method name, %2 - price type name';
+UsedCustomLookupTxt: Label 'Used custom lookup in table %1.', Comment = '%1 = table id', Locked = true;
+NotImplementedMethodErr: Label 'Method %1 does not have active implementations for %2 price type.', Comment = '%1 - method name, %2 - price type name';
 #if not CLEAN23
         FeatureIsOffErr: Label 'Extended price calculation feature is not enabled.';
 #endif

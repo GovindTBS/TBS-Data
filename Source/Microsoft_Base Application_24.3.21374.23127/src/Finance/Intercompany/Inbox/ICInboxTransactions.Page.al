@@ -202,14 +202,14 @@ page 615 "IC Inbox Transactions"
                 action(Comments)
                 {
                     ApplicationArea = Intercompany;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
                     RunObject = Page "IC Comment Sheet";
                     RunPageLink = "Table Name" = const("IC Inbox Transaction"),
                                   "Transaction No." = field("Transaction No."),
                                   "IC Partner Code" = field("IC Partner Code"),
                                   "Transaction Source" = field("Transaction Source");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -340,7 +340,7 @@ page 615 "IC Inbox Transactions"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Details_Promoted; Details)
                 {
@@ -367,17 +367,17 @@ page 615 "IC Inbox Transactions"
             }
             group(Category_Category4)
             {
-                Caption = 'Functions', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Functions', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Category5)
             {
-                Caption = 'Inbox Transaction', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Inbox Transaction', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Category6)
             {
-                Caption = 'Actions', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Actions', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Accept_Promoted; Accept)
                 {
@@ -394,7 +394,7 @@ page 615 "IC Inbox Transactions"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -427,7 +427,7 @@ page 615 "IC Inbox Transactions"
         ApplicationAreaMgmtFacade: Codeunit "Application Area Mgmt. Facade";
         ConfirmManagement: Codeunit "Confirm Management";
         RunReport: Boolean;
-        PurchaseInvoicePreviouslySentAsOrderMsg: Label 'A purchase order for this invoice has already been received from intercompany partner %1. Receiving it again can lead to duplicate information. Do you want to receive it?', Comment = '%1 - Intercompany Partner Code';
+PurchaseInvoicePreviouslySentAsOrderMsg: Label 'A purchase order for this invoice has already been received from intercompany partner %1. Receiving it again can lead to duplicate information. Do you want to receive it?', Comment = '%1 - Intercompany Partner Code';
     begin
         if ApplicationAreaMgmtFacade.IsFoundationEnabled() then
             RunReport := false

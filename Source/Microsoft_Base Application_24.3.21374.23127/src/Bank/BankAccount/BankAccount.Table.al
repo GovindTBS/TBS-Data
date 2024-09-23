@@ -242,7 +242,7 @@ table 270 "Bank Account"
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const("Bank Account"),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -953,15 +953,15 @@ table 270 "Bank Account"
         DimMgt: Codeunit DimensionManagement;
         InsertFromContact: Boolean;
 
-        Text000Err: Label 'You cannot change %1 because there are one or more open ledger entries for this bank account.', Comment = '%1=currency code';
-        Text003Qst: Label 'Do you wish to create a contact for %1 %2?', Comment = '%1=bank account,%2=number';
-        BankAccIdentifierIsEmptyErr: Label 'You must specify either a %1 or an %2.', Comment = '%1=bank account no,%2 is field caption of IBAN field';
-        InvalidPercentageValueErr: Label 'If %1 is %2, then the value must be between 0 and 99.', Comment = '%1 is "field caption and %2 is "Percentage"';
+Text000Err: Label 'You cannot change %1 because there are one or more open ledger entries for this bank account.', Comment = '%1=currency code';
+Text003Qst: Label 'Do you wish to create a contact for %1 %2?', Comment = '%1=bank account,%2=number';
+BankAccIdentifierIsEmptyErr: Label 'You must specify either a %1 or an %2.', Comment = '%1=bank account no,%2 is field caption of IBAN field';
+InvalidPercentageValueErr: Label 'If %1 is %2, then the value must be between 0 and 99.', Comment = '%1 is "field caption and %2 is "Percentage"';
         InvalidValueErr: Label 'The value must be positive.';
-        AutoGenerateStmtNoQst: Label 'The %1 on %2 number %3 is not specified. Do you want to use an auto-generated value?', Comment = '%1=FieldCaption,%2=TableCaption,%3=FieldValue';
-        NonIncrementingTextErr: Label 'The %1 value may contain both letters and numbers, and must contain an integer.', Comment = '%1=Field caption for a field of BankAccount that is undergoing input validation';
+AutoGenerateStmtNoQst: Label 'The %1 on %2 number %3 is not specified. Do you want to use an auto-generated value?', Comment = '%1=FieldCaption,%2=TableCaption,%3=FieldValue';
+NonIncrementingTextErr: Label 'The %1 value may contain both letters and numbers, and must contain an integer.', Comment = '%1=Field caption for a field of BankAccount that is undergoing input validation';
         DataExchNotSetErr: Label 'The Data Exchange Code field must be filled.';
-        BankStmtScheduledDownloadDescTxt: Label '%1 Bank Statement Import', Comment = '%1 - Bank Account name';
+BankStmtScheduledDownloadDescTxt: Label '%1 Bank Statement Import', Comment = '%1 - Bank Account name';
         JobQEntriesCreatedQst: Label 'A job queue entry for import of bank statements has been created.\\Do you want to open the Job Queue Entry window?';
         TransactionImportTimespanMustBePositiveErr: Label 'The value in the Number of Days Included field must be a positive number not greater than 9999.';
         MFANotSupportedErr: Label 'Cannot setup automatic bank statement import because the selected bank requires multi-factor authentication.';
@@ -970,7 +970,7 @@ table 270 "Bank Account"
         CancelTxt: Label 'Cancel';
         PhoneNoCannotContainLettersErr: Label 'must not contain letters';
         OnlineFeedStatementStatus: Option "Not Linked",Linked,"Linked and Auto. Bank Statement Enabled";
-        UnincrementableStringErr: Label 'The value in the %1 field must have a number so that we can assign the next number in the series.', Comment = '%1 = caption of field (Last Payment Statement No.)';
+UnincrementableStringErr: Label 'The value in the %1 field must have a number so that we can assign the next number in the series.', Comment = '%1 = caption of field (Last Payment Statement No.)';
         CannotDeleteBalancingBankAccountErr: Label 'You cannot delete bank account that is used as balancing account in the Payment Registration Setup.', Locked = true;
         ConfirmDeleteBalancingBankAccountQst: Label 'This bank account is used as balancing account on the Payment Registration Setup page.\\Are you sure you want to delete it?';
         DisablingMakesBankRecAutomatchSlowerWarnMsg: Label 'Disabling the optimization will make automatic bank matching slower, but it will be more precise. It is useful to disable the optimization if you have several open bank ledger entries with the same amount and posting date that you need to automatch. Do you want to turn off the optimization?';

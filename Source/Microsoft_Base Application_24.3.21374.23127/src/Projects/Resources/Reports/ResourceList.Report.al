@@ -110,7 +110,7 @@ report 1101 "Resource - List"
         GetShorDimCodeCaption2: Text[80];
         Resource___ListCaptionLbl: Label 'Resource - List';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
-        ShortcutDimension1CodeTxt: Label 'Shortcut Dimension 1 Code', Comment = 'Shortcut Dimension 1 Code';
-        ShortcutDimension2CodeTxt: Label 'Shortcut Dimension 2 Code', Comment = 'Shortcut Dimension 2 Code';
+ShortcutDimension1CodeTxt: Label 'Shortcut Dimension 1 Code', Comment = 'Shortcut Dimension 1 Code';
+ShortcutDimension2CodeTxt: Label 'Shortcut Dimension 2 Code', Comment = 'Shortcut Dimension 2 Code';
 }
 

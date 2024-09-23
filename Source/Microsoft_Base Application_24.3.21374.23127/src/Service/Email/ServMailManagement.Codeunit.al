@@ -24,7 +24,7 @@ codeunit 5916 ServMailManagement
     end;
 
     var
-        EmailSendErr: Label 'The email to %1 with subject %2 has not been sent.', Comment = '%1 - To address, %2 - Email subject';
+EmailSendErr: Label 'The email to %1 with subject %2 has not been sent.', Comment = '%1 - To address, %2 - Email subject';
 
     local procedure InitTempEmailItem(var TempEmailItem: Record "Email Item" temporary; ServiceEmailQueue: Record "Service Email Queue")
     var

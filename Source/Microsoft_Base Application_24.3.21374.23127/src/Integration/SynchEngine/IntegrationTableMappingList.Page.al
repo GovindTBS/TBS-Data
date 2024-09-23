@@ -482,11 +482,11 @@ page 5335 "Integration Table Mapping List"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Synchronization', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Synchronization', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("View Integration Synch. Job Log_Promoted"; "View Integration Synch. Job Log")
                 {
@@ -500,7 +500,7 @@ page 5335 "Integration Table Mapping List"
             }
             group(Category_Category5)
             {
-                Caption = 'Mapping', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Mapping', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(JobQueueEntry_Promoted; JobQueueEntry)
                 {
@@ -517,7 +517,7 @@ page 5335 "Integration Table Mapping List"
             }
             group(Category_Category6)
             {
-                Caption = 'Uncoupling', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Uncoupling', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("View Integration Uncouple Job Log_Promoted"; "View Integration Uncouple Job Log")
                 {
@@ -528,7 +528,7 @@ page 5335 "Integration Table Mapping List"
             }
             group(Category_Category7)
             {
-                Caption = 'Coupling', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Coupling', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref("View Integration Coupling Job Log_Promoted"; "View Integration Coupling Job Log")
                 {
@@ -578,11 +578,11 @@ page 5335 "Integration Table Mapping List"
         StartMatchBasedCouplingQst: Label 'You are about to couple records in Business Central table with records in the integration table from the selected mapping, based on the matching criteria that you must define.\The coupling will run in the background, so you can continue with other tasks.\\Do you want to continue?';
         StartUncouplingForegroundQst: Label 'You are about to uncouple the selected mappings, which means data for the records will no longer synchronize.\\Do you want to continue?';
         UncouplingCompletedMsg: Label 'Uncoupling completed.';
-        SynchronizeModifiedScheduledMsg: Label 'Synchronization is scheduled for Modified Records.\Details are available on the %1 page.', Comment = '%1 caption from page Integration Synch. Job List';
-        FullSynchronizationScheduledMsg: Label 'Full Synchronization is scheduled.\Details are available on the %1 page.', Comment = '%1 caption from page Integration Synch. Job List';
-        RemoveCouplingsScheduledMsg: Label 'Uncoupling is scheduled for %2 mappings. %3\Details are available on the %1 page.', Comment = '%1 - caption from page 5344, %2 - scheduled job count, %3 - additional foreground job message';
-        MatchBasedCouplingScheduledMsg: Label 'Match-based coupling is scheduled. \Details are available on the %1 page.', Comment = '%1 - caption from page 5344';
-        RemoveCouplingsForegroundMsg: Label '%1 mappings are uncoupled.', Comment = '%1 - foreground uncoupling count';
+SynchronizeModifiedScheduledMsg: Label 'Synchronization is scheduled for Modified Records.\Details are available on the %1 page.', Comment = '%1 caption from page Integration Synch. Job List';
+FullSynchronizationScheduledMsg: Label 'Full Synchronization is scheduled.\Details are available on the %1 page.', Comment = '%1 caption from page Integration Synch. Job List';
+RemoveCouplingsScheduledMsg: Label 'Uncoupling is scheduled for %2 mappings. %3\Details are available on the %1 page.', Comment = '%1 - caption from page 5344, %2 - scheduled job count, %3 - additional foreground job message';
+MatchBasedCouplingScheduledMsg: Label 'Match-based coupling is scheduled. \Details are available on the %1 page.', Comment = '%1 - caption from page 5344';
+RemoveCouplingsForegroundMsg: Label '%1 mappings are uncoupled.', Comment = '%1 - foreground uncoupling count';
         NoRecSelectedErr: Label 'You must choose at least one integration table mapping.';
         UserEditedIntegrationTableFilterTxt: Label 'The user edited the Integration Table Filter on %1 mapping.', Locked = true;
         TelemetryCategoryTok: Label 'AL Dataverse Integration', Locked = true;

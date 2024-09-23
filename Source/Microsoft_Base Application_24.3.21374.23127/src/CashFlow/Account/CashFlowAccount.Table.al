@@ -45,7 +45,7 @@ table 841 "Cash Flow Account"
         {
             CalcFormula = exist("Cash Flow Account Comment" where("Table Name" = const("Cash Flow Account"),
                                                                    "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

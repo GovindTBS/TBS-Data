@@ -18,13 +18,13 @@ codeunit 9842 "Legacy User Groups"
         UserGroupFeatureKeyTxt: Label 'HideLegacyUserGroups', Locked = true;
         CannotEnableTheFeatureErr: Label 'Can''t enable the feature, because there are still user groups defined in the system.';
         ConfirmConvertUserGroupsQst: Label 'There are still user groups defined in the system. Do you want to run the user group conversion guide?';
-        CannotAddUserGroupsErr: Label 'User groups can''t be created, use permission sets directly or security groups instead. To keep using user groups, switch off ''%1'' on the Feature Management page.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
+CannotAddUserGroupsErr: Label 'User groups can''t be created, use permission sets directly or security groups instead. To keep using user groups, switch off ''%1'' on the Feature Management page.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
         CannotAddUserGroupsTitleErr: Label 'Can''t add a new user group';
-        FeatureSwitchEnabledUserGroupsPresentNotificationTxt: Label 'User groups functionality is disabled in your system, but you still have user groups defined. Disable ''%1'' and enable it again to convert user group permissions.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
-        FeatureSwitchDisabledUserGroupsPresentNotificationTxt: Label 'User groups will be removed in a future release. You can convert user group permissions by enabling ''%1''.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
-        FeatureSwitchEnabledNoUserGroupsNotificationTxt: Label 'User groups functionality is disabled in your system. If you want to use extensions that depend on user groups, you need to disable ''%1''.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
-        FeatureSwitchDisabledNoUserGroupsNotificationTxt: Label 'User groups will be removed in a future release. You have no user groups defined, enable ''%1'' to hide fields, pages, and other UI elements related to use and management of user groups.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
-        OpenFeatureManagementTok: Label 'Open Feature Management', Comment = 'Feature Management is the name of the page in BC';
+FeatureSwitchEnabledUserGroupsPresentNotificationTxt: Label 'User groups functionality is disabled in your system, but you still have user groups defined. Disable ''%1'' and enable it again to convert user group permissions.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
+FeatureSwitchDisabledUserGroupsPresentNotificationTxt: Label 'User groups will be removed in a future release. You can convert user group permissions by enabling ''%1''.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
+FeatureSwitchEnabledNoUserGroupsNotificationTxt: Label 'User groups functionality is disabled in your system. If you want to use extensions that depend on user groups, you need to disable ''%1''.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
+FeatureSwitchDisabledNoUserGroupsNotificationTxt: Label 'User groups will be removed in a future release. You have no user groups defined, enable ''%1'' to hide fields, pages, and other UI elements related to use and management of user groups.', Comment = '%1 = the name of the feature switch, i. e. Feature: Convert user group permissions.';
+OpenFeatureManagementTok: Label 'Open Feature Management', Comment = 'Feature Management is the name of the page in BC';
         NotificationIdLbl: Label 'db6d3070-841f-46c8-9b05-b39621fc347b', Locked = true;
 
     /// <summary>

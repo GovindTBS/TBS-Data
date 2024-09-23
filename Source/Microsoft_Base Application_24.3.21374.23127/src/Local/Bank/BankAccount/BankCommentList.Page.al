@@ -6,7 +6,7 @@ namespace Microsoft.Bank.BankAccount;
 
 page 10131 "Bank Comment List"
 {
-    Caption = 'Bank Comment List';
+Caption = 'Bank Comment List';
     DataCaptionFields = "No.";
     Editable = false;
     PageType = List;
@@ -22,22 +22,22 @@ page 10131 "Bank Comment List"
                 field("No."; Rec."No.")
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the number of the account, bank account, customer, vendor or item to which the comment applies.';
+ToolTip = 'Specifies the number of the account, bank account, customer, vendor or item to which the comment applies.';
                 }
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

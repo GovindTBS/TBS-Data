@@ -8,7 +8,7 @@ using System.Security.User;
 
 page 9104 "Approval Comments FactBox"
 {
-    Caption = 'Comments';
+Caption = 'Comments';
     DeleteAllowed = false;
     InsertAllowed = false;
     ModifyAllowed = false;
@@ -25,12 +25,12 @@ page 9104 "Approval Comments FactBox"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies the comment. You can enter a maximum of 250 characters, both numbers and letters.';
+ToolTip = 'Specifies the comment. You can enter a maximum of 250 characters, both numbers and letters.';
                 }
                 field("User ID"; Rec."User ID")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies the ID of the user who created this approval comment.';
+ToolTip = 'Specifies the ID of the user who created this approval comment.';
 
                     trigger OnDrillDown()
                     var
@@ -42,7 +42,7 @@ page 9104 "Approval Comments FactBox"
                 field("Date and Time"; Rec."Date and Time")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies the date and time when the comment was made.';
+ToolTip = 'Specifies the date and time when the comment was made.';
                 }
             }
         }

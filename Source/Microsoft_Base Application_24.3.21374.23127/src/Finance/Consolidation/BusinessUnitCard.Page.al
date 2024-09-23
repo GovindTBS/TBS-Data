@@ -419,7 +419,7 @@ page 241 "Business Unit Card"
 #if not CLEAN24
             group(Category_Category4)
             {
-                Caption = 'Exch. Rates', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Exch. Rates', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 Visible = false;
                 ObsoleteReason = 'Use the action ConfigureExchangeRates instead.';
                 ObsoleteState = Pending;
@@ -450,7 +450,7 @@ page 241 "Business Unit Card"
 #endif
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

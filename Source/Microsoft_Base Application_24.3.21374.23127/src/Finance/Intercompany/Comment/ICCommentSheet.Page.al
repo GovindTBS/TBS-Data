@@ -7,7 +7,7 @@ namespace Microsoft.Intercompany.Comment;
 page 620 "IC Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'IC Comment Sheet';
+Caption = 'IC Comment Sheet';
     DataCaptionFields = "Table Name", "Transaction No.", "IC Partner Code";
     DelayedInsert = true;
     LinksAllowed = false;
@@ -25,19 +25,19 @@ page 620 "IC Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Intercompany;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field("Created By IC Partner Code"; Rec."Created By IC Partner Code")
                 {
                     ApplicationArea = Intercompany;
                     Caption = 'Created By';
-                    ToolTip = 'The IC Partner Code of the company that created the comment.';
+ToolTip = 'The IC Partner Code of the company that created the comment.';
                     Editable = false;
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Intercompany;
-                    ToolTip = 'Specifies the comment.';
+ToolTip = 'Specifies the comment.';
                 }
             }
         }

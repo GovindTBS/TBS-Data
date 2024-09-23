@@ -28,7 +28,7 @@ codeunit 99000769 "Production BOM-Check"
         Window: Dialog;
         NoOfItems: Integer;
         ItemCounter: Integer;
-        CircularRefInBOMErr: Label 'The production BOM %1 has a circular reference. Pay attention to the production BOM %2 that closes the loop.', Comment = '%1 = Production BOM No., %2 = Production BOM No.';
+CircularRefInBOMErr: Label 'The production BOM %1 has a circular reference. Pay attention to the production BOM %2 that closes the loop.', Comment = '%1 = Production BOM No., %2 = Production BOM No.';
 
     procedure "Code"(var ProdBOMHeader: Record "Production BOM Header"; VersionCode: Code[20])
     var

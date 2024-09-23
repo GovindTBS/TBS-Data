@@ -262,7 +262,7 @@ report 1017 "Job Task Quote"
         Currency: Record Currency;
         GLSetup: Record "General Ledger Setup";
         CurrencySymbol: Text[10];
-        CurrencyLbl: Label '%1<precision, 2:2><standard format, 0>', Comment = '%1=CurrencySymbol';
+CurrencyLbl: Label '%1<precision, 2:2><standard format, 0>', Comment = '%1=CurrencySymbol';
     begin
         if Job."Currency Code" = '' then begin
             GLSetup.Get();

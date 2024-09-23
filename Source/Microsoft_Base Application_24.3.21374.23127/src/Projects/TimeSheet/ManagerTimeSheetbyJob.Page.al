@@ -190,7 +190,7 @@ page 954 "Manager Time Sheet by Job"
             part(TimeSheetComments; "Time Sheet Comments FactBox")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Time Sheet Comments';
+Caption = 'Time Sheet Comments';
                 SubPageLink = "No." = field("Time Sheet No."), "Time Sheet Line No." = filter(0); //just header comments
                 Editable = false;
             }
@@ -251,7 +251,7 @@ page 954 "Manager Time Sheet by Job"
                     RunObject = Page "Time Sheet Comment Sheet";
                     RunPageLink = "No." = field("Time Sheet No."),
                                   "Time Sheet Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Posting E&ntries")
                 {
@@ -340,7 +340,7 @@ page 954 "Manager Time Sheet by Job"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -360,7 +360,7 @@ page 954 "Manager Time Sheet by Job"
             }
             group(Category_Category5)
             {
-                Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Line)
@@ -379,11 +379,11 @@ page 954 "Manager Time Sheet by Job"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -659,7 +659,7 @@ page 954 "Manager Time Sheet by Job"
     var
         TimeSheetLine: Record "Time Sheet Line";
         DefaultValue: Integer;
-        ConfirmSelectedLinesTxt: Label '%1\Do you want to process selected lines [%2]?', Comment = '%1 - activity type instruction, %2 - selected lines count';
+ConfirmSelectedLinesTxt: Label '%1\Do you want to process selected lines [%2]?', Comment = '%1 - activity type instruction, %2 - selected lines count';
     begin
         CurrPage.SetSelectionFilter(TimeSheetLine);
         if TimeSheetLine.Count() > 1 then begin

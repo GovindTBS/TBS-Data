@@ -215,7 +215,7 @@ page 5082 "Postponed Interactions"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that a comment exists for this interaction log entry.';
+ToolTip = 'Specifies that a comment exists for this interaction log entry.';
                 }
             }
             group(Control78)

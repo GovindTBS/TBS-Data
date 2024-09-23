@@ -116,7 +116,7 @@ table 208 "Job Posting Group"
 
     var
         PostingSetupMgt: Codeunit PostingSetupManagement;
-        YouCannotDeleteErr: Label 'You cannot delete %1.', Comment = '%1 = Code';
+YouCannotDeleteErr: Label 'You cannot delete %1.', Comment = '%1 = Code';
 
     local procedure CheckGroupUsage()
     var

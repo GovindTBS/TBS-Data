@@ -436,7 +436,7 @@ page 7326 "Whse. Phys. Invt. Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Calculate &Inventory_Promoted"; "Calculate &Inventory")
                 {
@@ -462,15 +462,15 @@ page 7326 "Whse. Phys. Invt. Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category5)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
         }
     }

@@ -36,7 +36,7 @@ page 5625 "Maintenance Registration"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a comment for the service, repairs or maintenance to be performed on the fixed asset.';
+ToolTip = 'Specifies a comment for the service, repairs or maintenance to be performed on the fixed asset.';
                 }
                 field("Service Agent Name"; Rec."Service Agent Name")
                 {

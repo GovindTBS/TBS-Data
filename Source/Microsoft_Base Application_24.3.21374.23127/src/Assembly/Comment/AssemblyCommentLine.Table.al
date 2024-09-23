@@ -5,7 +5,7 @@ using Microsoft.Assembly.History;
 
 table 906 "Assembly Comment Line"
 {
-    Caption = 'Assembly Comment Line';
+Caption = 'Assembly Comment Line';
     DrillDownPageID = "Assembly Comment Sheet";
     LookupPageID = "Assembly Comment Sheet";
     DataClassification = CustomerContent;
@@ -42,7 +42,7 @@ table 906 "Assembly Comment Line"
         }
         field(12; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

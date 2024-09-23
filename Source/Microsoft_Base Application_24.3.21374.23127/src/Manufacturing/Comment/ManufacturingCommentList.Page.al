@@ -3,7 +3,7 @@ namespace Microsoft.Manufacturing.Comment;
 page 99000785 "Manufacturing Comment List"
 {
     AutoSplitKey = true;
-    Caption = 'Comment List';
+Caption = 'Comment List';
     DataCaptionFields = "No.";
     Editable = false;
     LinksAllowed = false;
@@ -21,17 +21,17 @@ page 99000785 "Manufacturing Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the date when the comment was created.';
+ToolTip = 'Specifies the date when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the actual comment.';
+ToolTip = 'Specifies the actual comment.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

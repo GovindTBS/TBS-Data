@@ -237,6 +237,6 @@ page 12 "Email Viewer"
         EmailBody: Text;
         HasSourceRecord: Boolean;
         IsHTMLFormatted, HasAttachments : Boolean;
-        FromDisplayNameLbl: Label '%1 (%2)', Comment = '%1 - Account Name, %2 - Email address', Locked = true;
+FromDisplayNameLbl: Label '%1 (%2)', Comment = '%1 - Account Name, %2 - Email address', Locked = true;
         PageCaptionTxt: Label 'Sent Email';
 }

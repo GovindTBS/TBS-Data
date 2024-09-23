@@ -216,7 +216,7 @@ page 6646 "Purchase Return List Archive"
                                   "Document Line No." = const(0),
                                   "Doc. No. Occurrence" = field("Doc. No. Occurrence"),
                                   "Version No." = field("Version No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

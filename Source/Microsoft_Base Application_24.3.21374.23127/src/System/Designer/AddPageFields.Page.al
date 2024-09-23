@@ -649,8 +649,8 @@ page 9621 "Add Page Fields"
         MandateFieldNameErr: Label 'Field name is required.';
         RelatedFieldValidationErrorErr: Label 'Table and Field values are required.';
         FieldCreationErrorErr: Label 'Error occurred while creating the field. Please validate the input values are correct and field name is unique.';
-        InvalidRelatedFieldNameErr: Label '%1 field not found.', Comment = '%1 = Field name';
-        InvalidTableNumberOrNameErr: Label '%1 table not found.', Comment = '%1 = Table name';
+InvalidRelatedFieldNameErr: Label '%1 field not found.', Comment = '%1 = Field name';
+InvalidTableNumberOrNameErr: Label '%1 table not found.', Comment = '%1 = Table name';
         CurrentNavigationPage: Option FieldSelectionPage,FieldBasicDefinitionPage,FieldAdvancedDefinitionPage;
         DateFieldDescMsg: Label 'Stores date of an event';
         FieldTypeMessage: Text;

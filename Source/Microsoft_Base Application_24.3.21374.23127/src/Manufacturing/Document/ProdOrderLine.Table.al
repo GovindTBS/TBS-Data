@@ -918,10 +918,10 @@ table 5406 "Prod. Order Line"
 
     var
         Text000: Label 'A %1 %2 cannot be inserted, modified, or deleted.';
-        Text99000000: Label 'You cannot delete %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Table Caption; %2 = Field Value; %3 = Table Caption';
+Text99000000: Label 'You cannot delete %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Table Caption; %2 = Field Value; %3 = Table Caption';
         Text99000001: Label 'You cannot rename a %1.';
         Text99000002: Label 'You cannot change %1 when %2 is %3.';
-        Text99000004Err: Label 'You cannot modify %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Field Caption; %2 = Field Value; %3 = Table Caption';
+Text99000004Err: Label 'You cannot modify %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Field Caption; %2 = Field Value; %3 = Table Caption';
         Item: Record Item;
         SKU: Record "Stockkeeping Unit";
         ProdOrder: Record "Production Order";

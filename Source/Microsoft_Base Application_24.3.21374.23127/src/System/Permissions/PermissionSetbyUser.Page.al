@@ -326,7 +326,7 @@ page 9816 "Permission Set by User"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Permissions_Promoted; Permissions)
                 {
@@ -337,11 +337,11 @@ page 9816 "Permission Set by User"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Browse', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Browse', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(AllColumnsLeft_Promoted; AllColumnsLeft)
                 {

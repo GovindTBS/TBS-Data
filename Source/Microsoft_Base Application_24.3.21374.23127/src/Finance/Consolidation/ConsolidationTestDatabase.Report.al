@@ -479,7 +479,7 @@ report 14 "Consolidation - Test Database"
         Selected_dimensions_will_be_copied_CaptionLbl: Label 'Selected dimensions will be copied.';
         Errors_in_Business_Unit_CaptionLbl: Label 'Errors in Business Unit:';
         Errors_in_this_G_L_Account_CaptionLbl: Label 'Errors in this G/L Account:';
-        AccountDoesNotExistTxt: Label '%1 %2 referenced by Subsidiary (%3) does not exist in the Consolidated %1 table.', Comment = '%1 is G/L Account, %2 is G/L Account No., %3 Business Unit';
+AccountDoesNotExistTxt: Label '%1 %2 referenced by Subsidiary (%3) does not exist in the Consolidated %1 table.', Comment = '%1 is G/L Account, %2 is G/L Account No., %3 Business Unit';
 
     local procedure AddError(Text: Text[250])
     begin

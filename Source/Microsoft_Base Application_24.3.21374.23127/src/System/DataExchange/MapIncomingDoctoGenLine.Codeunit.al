@@ -22,15 +22,15 @@ codeunit 1224 "Map Incoming Doc to Gen. Line"
     end;
 
     var
-        NoBalanceAccountMappingErr: Label 'Could not fill the Bal. Account No. field for vendor ''''%1''''. Choose the Map Text to Account button to map ''''%1'''' to the relevant G/L account.', Comment = '%1 - vendor name';
-        NoDebitAccountMappingErr: Label 'Could not fill the %1 field for vendor ''''%2''''. Choose the Map Text to Account button to map ''''%2'''' to the relevant G/L account.', Comment = '%1 - Debit Acc. No. or Credit Acc. No. field caption, %2 - vendor name';
-        VatAmountMismatchErr: Label 'VAT amount %1 on the general journal line does not match VAT amount %2 in the incoming document.', Comment = '%1 - General Journal Line VAT amount, %2 - Incoming Document VAT  amount';
+NoBalanceAccountMappingErr: Label 'Could not fill the Bal. Account No. field for vendor ''''%1''''. Choose the Map Text to Account button to map ''''%1'''' to the relevant G/L account.', Comment = '%1 - vendor name';
+NoDebitAccountMappingErr: Label 'Could not fill the %1 field for vendor ''''%2''''. Choose the Map Text to Account button to map ''''%2'''' to the relevant G/L account.', Comment = '%1 - Debit Acc. No. or Credit Acc. No. field caption, %2 - vendor name';
+VatAmountMismatchErr: Label 'VAT amount %1 on the general journal line does not match VAT amount %2 in the incoming document.', Comment = '%1 - General Journal Line VAT amount, %2 - Incoming Document VAT  amount';
         TemplateBatchNameMissingErr: Label 'You must fill the General Journal Template Name and General Journal Batch Name fields in the Incoming Document Setup window. ';
         IncomingDocument: Record "Incoming Document";
         ErrorMessage: Record "Error Message";
         NoSeriesBatch: Codeunit "No. Series - Batch";
-        CurrencyDoesNotExistErr: Label 'The currency %1 does not exist. You must add the currency in the Currencies window.', Comment = '%1 referee to a concrete currency';
-        CurrencyExchangeDoesNotExistErr: Label 'No exchange rate exists for %1 on %2. You must add the exchange rate in the Currencies window.', Comment = '%1 reference to a concrete currency,%2 to the date for the transaction';
+CurrencyDoesNotExistErr: Label 'The currency %1 does not exist. You must add the currency in the Currencies window.', Comment = '%1 referee to a concrete currency';
+CurrencyExchangeDoesNotExistErr: Label 'No exchange rate exists for %1 on %2. You must add the exchange rate in the Currencies window.', Comment = '%1 reference to a concrete currency,%2 to the date for the transaction';
 
     local procedure CreateGeneralJournalLineFromIncomingDocument()
     var

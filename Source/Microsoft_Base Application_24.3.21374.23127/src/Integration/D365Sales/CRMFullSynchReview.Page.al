@@ -307,7 +307,7 @@ page 5331 "CRM Full Synch. Review"
         JobQueueEntryStatusStyle: Text;
         ToIntTableJobStatusStyle: Text;
         FromIntTableJobStatusStyle: Text;
-        StartInitialSynchPersonOwnershipModelQst: Label 'Full synchronization will synchronize all coupled and uncoupled records.\You should use this option only when you are synchronizing data for the first time.\The synchronization will run in the background, so you can continue with other tasks.\To check the status, return to this page or refresh it.\\Before running full synchronization, you should couple all %1 salespeople to %2 users.\\Do you want to continue?', Comment = '%1 - product name, %2 = Dataverse service name';
+StartInitialSynchPersonOwnershipModelQst: Label 'Full synchronization will synchronize all coupled and uncoupled records.\You should use this option only when you are synchronizing data for the first time.\The synchronization will run in the background, so you can continue with other tasks.\To check the status, return to this page or refresh it.\\Before running full synchronization, you should couple all %1 salespeople to %2 users.\\Do you want to continue?', Comment = '%1 - product name, %2 = Dataverse service name';
         StartInitialSynchTeamOwnershipModelQst: Label 'Full synchronization will synchronize all coupled and uncoupled records.\You should use this option only when you are synchronizing data for the first time.\The synchronization will run in the background, so you can continue with other tasks.\To check the status, return to this page or refresh it.\\Do you want to continue?';
         InitialSynchRecommendation: Text;
         InitialSynchRecommendationStyle: Text;

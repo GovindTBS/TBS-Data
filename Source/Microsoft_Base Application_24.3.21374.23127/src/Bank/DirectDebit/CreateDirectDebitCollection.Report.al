@@ -161,9 +161,9 @@ report 1200 "Create Direct Debit Collection"
         NoOfEntries: Integer;
 
         WrongDateErr: Label 'To Date must be equal to or greater than From Date.';
-        NoEntriesCreatedErr: Label 'No entries have been created.', Comment = '%1=Field;%2=Table;%3=Field;Table';
-        EntriesCreatedMsg: Label '%1 entries have been created.', Comment = '%1 = an integer number, e.g. 7.';
-        DirectDebitMsgNosErr: Label 'The bank account %1 is not set up for direct debit collections. It needs a number series for direct debit files. You specify the number series on the card for the bank account.', Comment = '%1=Code, the No. of Bank Account';
+NoEntriesCreatedErr: Label 'No entries have been created.', Comment = '%1=Field;%2=Table;%3=Field;Table';
+EntriesCreatedMsg: Label '%1 entries have been created.', Comment = '%1 = an integer number, e.g. 7.';
+DirectDebitMsgNosErr: Label 'The bank account %1 is not set up for direct debit collections. It needs a number series for direct debit files. You specify the number series on the card for the bank account.', Comment = '%1=Code, the No. of Bank Account';
 
     protected var
         FromDate: Date;

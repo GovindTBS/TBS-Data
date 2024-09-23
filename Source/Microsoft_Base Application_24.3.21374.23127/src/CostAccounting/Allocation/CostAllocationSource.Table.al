@@ -84,7 +84,7 @@ table 1106 "Cost Allocation Source"
         }
         field(20; Comment; Text[50])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(22; "Total Share"; Decimal)
         {

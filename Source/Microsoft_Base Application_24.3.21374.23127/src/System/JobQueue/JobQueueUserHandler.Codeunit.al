@@ -7,7 +7,7 @@ using System.Telemetry;
 codeunit 455 "Job Queue User Handler"
 {
     var
-        JobQueueRescheduledTxt: Label 'Job queue entry rescheduled on login: %1', Comment = '%1 - Job Queue Entry ID', Locked = true;
+JobQueueRescheduledTxt: Label 'Job queue entry rescheduled on login: %1', Comment = '%1 - Job Queue Entry ID', Locked = true;
 
     trigger OnRun()
     begin

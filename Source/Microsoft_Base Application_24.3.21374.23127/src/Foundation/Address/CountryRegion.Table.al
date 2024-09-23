@@ -172,7 +172,7 @@ table 9 "Country/Region"
         TypeHelper: Codeunit "Type Helper";
 
         CountryRegionNotFilledErr: Label 'You must specify a country or region.';
-        ISOCodeLengthErr: Label 'The length of the string is %1, but it must be equal to %2 characters. Value: %3.', Comment = '%1, %2 - numbers, %3 - actual value';
+ISOCodeLengthErr: Label 'The length of the string is %1, but it must be equal to %2 characters. Value: %3.', Comment = '%1, %2 - numbers, %3 - actual value';
         ASCIILetterErr: Label 'must contain ASCII letters only';
         NumericErr: Label 'must contain numbers only';
 

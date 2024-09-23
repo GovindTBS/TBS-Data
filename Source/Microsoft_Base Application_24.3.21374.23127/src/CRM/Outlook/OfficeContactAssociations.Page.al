@@ -107,11 +107,11 @@ page 1625 "Office Contact Associations"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Related Information', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Related Information', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Customer/Vendor_Promoted"; "Customer/Vendor")
                 {

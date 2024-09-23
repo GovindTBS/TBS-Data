@@ -743,7 +743,7 @@ page 9006 "Order Processor Role Center"
                     Caption = 'Credit Management';
                     Image = CustomerRating;
                     RunObject = Page "Customer List - Credit Mgmt.";
-                    ToolTip = 'Add comments to customer credit information or hold and block customers with bad credit before shipping or invoicing occurs.';
+ToolTip = 'Add comments to customer credit information or hold and block customers with bad credit before shipping or invoicing occurs.';
                 }
                 action("Order Status")
                 {

@@ -155,7 +155,7 @@ report 1086 "Job Calculate WIP"
         Text001: Label 'There were no new WIP entries created.';
         Text002: Label 'WIP was calculated with warnings.\';
         PreviewQst: Label 'Do you want to preview the posting accounts?';
-        RunWIPFunctionsQst: Label 'You must run the %1 function to post the completion entries for this project. \Do you want to run this function now?', Comment = '%1 = The name of the Project Post WIP to G/L report';
+RunWIPFunctionsQst: Label 'You must run the %1 function to post the completion entries for this project. \Do you want to run this function now?', Comment = '%1 = The name of the Project Post WIP to G/L report';
 
     protected var
         JobWIPEntry: Record "Job WIP Entry";

@@ -136,7 +136,7 @@ codeunit 435 "IC Inbox Import"
     end;
 
     var
-        WrongCompanyErr: Label 'The selected xml file contains data sent to %1 %2. Current company''s %3 is %4.', Comment = 'The selected xml file contains data sent to IC Partner 001. Current company''s IC Partner Code is 002.';
+WrongCompanyErr: Label 'The selected xml file contains data sent to %1 %2. Current company''s %3 is %4.', Comment = 'The selected xml file contains data sent to IC Partner 001. Current company''s IC Partner Code is 002.';
         EnterFileNameErr: Label 'Enter the file name.';
         ChooseFileTitleMsg: Label 'Choose the file to upload.';
         ClientFileName: Text;

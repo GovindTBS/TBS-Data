@@ -102,11 +102,11 @@ table 61 "Electronic Document Format"
     var
         DataCompression: Codeunit "Data Compression";
 
-        UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 = Sales Document Type';
-        NonExistingDocumentFormatErr: Label 'The electronic document format %1 does not exist for the document type %2.', Comment = '%1 : document format, %2 document use eq Invoice';
-        UnSupportedDocumentTypeErr: Label 'The document type %1 is not supported.', Comment = '%1 : document ytp eq Invocie ';
+UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 = Sales Document Type';
+NonExistingDocumentFormatErr: Label 'The electronic document format %1 does not exist for the document type %2.', Comment = '%1 : document format, %2 document use eq Invoice';
+UnSupportedDocumentTypeErr: Label 'The document type %1 is not supported.', Comment = '%1 : document ytp eq Invocie ';
         ElectronicDocumentNotCreatedErr: Label 'The electronic document has not been created.';
-        ElectronicFormatErr: Label 'The electronic format %1 does not exist.', Comment = '%1=Specified Electronic Format';
+ElectronicFormatErr: Label 'The electronic format %1 does not exist.', Comment = '%1=Specified Electronic Format';
 
     procedure SendElectronically(var TempBlob: Codeunit "Temp Blob"; var ClientFileName: Text[250]; DocumentVariant: Variant; ElectronicFormat: Code[20])
     var

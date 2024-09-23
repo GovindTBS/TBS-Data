@@ -19,7 +19,7 @@ codeunit 1754 "Data Classif. Import/Export"
         ImportTitleTxt: Label 'Choose the Excel worksheet where data classifications have been added.';
         ExcelFileNameTxt: Label 'Classifications.xlsx';
         WrongFormatExcelFileErr: Label 'Looks like the Excel worksheet you provided is not formatted correctly.';
-        WrongSensitivityValueErr: Label '%1 is not a valid classification. Classifications can be %2.', Comment = '%1=Given Sensitivity %2=Available Options';
+WrongSensitivityValueErr: Label '%1 is not a valid classification. Classifications can be %2.', Comment = '%1=Given Sensitivity %2=Available Options';
 
     [Scope('OnPrem')]
     procedure ImportExcelSheet()

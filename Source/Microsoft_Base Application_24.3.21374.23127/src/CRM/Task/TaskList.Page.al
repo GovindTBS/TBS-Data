@@ -75,7 +75,7 @@ page 5096 "Task List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that a comment has been assigned to the task.';
+ToolTip = 'Specifies that a comment has been assigned to the task.';
                 }
                 field("Contact No."; Rec."Contact No.")
                 {
@@ -178,7 +178,7 @@ page 5096 "Task List"
                     RunPageLink = "Table Name" = const("To-do"),
                                   "No." = field("Organizer To-do No."),
                                   "Sub No." = const(0);
-                    ToolTip = 'View or add comments.';
+ToolTip = 'View or add comments.';
                 }
                 action("Interaction Log E&ntries")
                 {

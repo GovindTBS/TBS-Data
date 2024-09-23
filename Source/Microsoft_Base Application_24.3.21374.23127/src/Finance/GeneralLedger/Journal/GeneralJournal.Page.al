@@ -609,7 +609,7 @@ page 39 "General Journal"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
+ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
                     Visible = not IsSimplePage;
                 }
                 field("Direct Debit Mandate ID"; Rec."Direct Debit Mandate ID")
@@ -1559,9 +1559,9 @@ page 39 "General Journal"
                 action(Comments)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser or ApprovalEntriesExistSentByCurrentUser;
 
                     trigger OnAction()
@@ -1794,11 +1794,11 @@ page 39 "General Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category9)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 8.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -1829,7 +1829,7 @@ page 39 "General Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1873,7 +1873,7 @@ page 39 "General Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ImportBankStatement_Promoted; ImportBankStatement)
                 {
@@ -1884,7 +1884,7 @@ page 39 "General Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Application', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Application', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(AddMappingRule_Promoted; AddMappingRule)
                 {
@@ -1895,7 +1895,7 @@ page 39 "General Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Payroll', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Payroll', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(ImportPayrollFile_Promoted; ImportPayrollFile)
                 {
@@ -1906,7 +1906,7 @@ page 39 "General Journal"
             }
             group(Category_Category10)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 9.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1917,7 +1917,7 @@ page 39 "General Journal"
             }
             group(Category_Category11)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 10.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 10.';
 
             }
             group("Category_Incoming Document")
@@ -1939,7 +1939,7 @@ page 39 "General Journal"
             }
             group(Category_Category8)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(SimpleView_Promoted; SimpleView)
                 {
@@ -1968,7 +1968,7 @@ page 39 "General Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -2155,7 +2155,7 @@ page 39 "General Journal"
         CurrentCurrencyCode: Code[10];
         IsChangingDocNo: Boolean;
         VATDateEnabled: Boolean;
-        MissingExchangeRatesQst: Label 'There are no exchange rates for currency %1 and date %2. Do you want to add them now? Otherwise, the last change you made will be reverted.', Comment = '%1 - currency code, %2 - posting date';
+MissingExchangeRatesQst: Label 'There are no exchange rates for currency %1 and date %2. Do you want to add them now? Otherwise, the last change you made will be reverted.', Comment = '%1 - currency code, %2 - posting date';
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Account Type or Balancing Account Type.';
         PostedFromSimplePage: Boolean;
         DocumentNumberMsg: Label 'Document No. must have a value in Gen. Journal Line.';

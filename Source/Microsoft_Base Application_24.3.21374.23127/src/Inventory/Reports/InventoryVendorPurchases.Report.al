@@ -143,7 +143,7 @@ report 714 "Inventory - Vendor Purchases"
         ItemFilter: Text;
         ItemLedgEntryFilter: Text;
 
-        PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
+PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
         TableFiltersTxt: Label '%1: %2', Locked = true;
 
     local procedure FillTempValueEntry(ValueEntry: Record "Value Entry")

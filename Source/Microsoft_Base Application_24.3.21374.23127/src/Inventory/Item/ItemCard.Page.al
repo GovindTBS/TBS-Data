@@ -1437,9 +1437,9 @@ page 30 "Item Card"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistCurrUser;
 
                     trigger OnAction()
@@ -1979,7 +1979,7 @@ page 30 "Item Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Item),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Attachments)
                 {
@@ -2149,7 +2149,7 @@ page 30 "Item Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     action(ManageCRMCoupling)
@@ -2685,7 +2685,7 @@ page 30 "Item Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CopyItem_Promoted; CopyItem)
                 {
@@ -2702,7 +2702,7 @@ page 30 "Item Card"
             }
             group(Category_Category7)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -2719,7 +2719,7 @@ page 30 "Item Card"
             }
             group(Category_Category8)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -2730,7 +2730,7 @@ page 30 "Item Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Attachments_Promoted; Attachments)
                 {
@@ -2822,11 +2822,11 @@ page 30 "Item Card"
             }
             group(Category_Category5)
             {
-                Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category6)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
 #if not CLEAN23
                 actionref("Set Special Prices_Promoted"; "Set Special Prices")
@@ -2891,7 +2891,7 @@ page 30 "Item Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Item Transaction Detail_Promoted"; "Item Transaction Detail")
                 {
@@ -3062,7 +3062,7 @@ page 30 "Item Card"
         PurchPriceListsTextIsInitForNo: Code[20];
         CreateNewTxt: Label 'Create New...';
         EntityTextEnabled: Boolean;
-        MarketingTextPlaceholderTxt: Label '[Create draft]() based on this item''s attributes.', Comment = 'Text contained in [here]() will be clickable to invoke the generate action';
+MarketingTextPlaceholderTxt: Label '[Create draft]() based on this item''s attributes.', Comment = 'Text contained in [here]() will be clickable to invoke the generate action';
         ViewExistingTxt: Label 'View Existing Prices and Discounts...';
         ShowVariantMandatoryDefaultYes: Boolean;
 #if not CLEAN23

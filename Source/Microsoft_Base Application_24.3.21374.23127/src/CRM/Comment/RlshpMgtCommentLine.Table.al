@@ -8,7 +8,7 @@ using Microsoft.CRM.Task;
 
 table 5061 "Rlshp. Mgt. Comment Line"
 {
-    Caption = 'Rlshp. Mgt. Comment Line';
+Caption = 'Rlshp. Mgt. Comment Line';
     DataClassification = CustomerContent;
     DrillDownPageID = "Rlshp. Mgt. Comment List";
     LookupPageID = "Rlshp. Mgt. Comment List";
@@ -55,7 +55,7 @@ table 5061 "Rlshp. Mgt. Comment Line"
         }
         field(7; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(8; "Last Date Modified"; Date)
         {

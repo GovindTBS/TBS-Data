@@ -471,7 +471,7 @@ page 7352 "Put-away Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(GetWarehouseDocuments_Promoted; GetWarehouseDocuments)
                 {
@@ -494,11 +494,11 @@ page 7352 "Put-away Worksheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Source &Document Line_Promoted"; "Source &Document Line")
                 {
@@ -512,7 +512,7 @@ page 7352 "Put-away Worksheet"
             }
             group(Category_Category6)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Card_Promoted; Card)
                 {
@@ -532,7 +532,7 @@ page 7352 "Put-away Worksheet"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -580,7 +580,7 @@ page 7352 "Put-away Worksheet"
         WMSMgt: Codeunit "WMS Management";
         ItemDescription: Text[100];
         Text001: Label 'There is nothing to handle.';
-        ExcelFileNameTxt: Label 'Put-away Worksheet - WorksheetName %1 - WorksheetTemplateName %2', Comment = '%1 = Worksheet Name; %2 = Worksheet Template Name';
+ExcelFileNameTxt: Label 'Put-away Worksheet - WorksheetName %1 - WorksheetTemplateName %2', Comment = '%1 = Worksheet Name; %2 = Worksheet Template Name';
         OpenedFromBatch: Boolean;
         IsSaaSExcelAddinEnabled: Boolean;
         WhseDocumentType: Enum "Warehouse Putaway Document Type";

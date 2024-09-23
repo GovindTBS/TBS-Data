@@ -404,7 +404,7 @@ report 15 "Consolidation - Test File"
         Consolidation___Test_FileCaptionLbl: Label 'Consolidation - Test File';
         Errors_in_Business_Unit_CaptionLbl: Label 'Errors in Business Unit:';
         Errors_in_this_G_L_Account_CaptionLbl: Label 'Errors in this G/L Account:';
-        FileFormatQst: Label 'The entered %1, %2, does not equal the %1 on this %3, %4.\ Do you want to continue?', Comment = '%1 - field caption, %2 - field value, %3 - table caption, %4 - field value';
+FileFormatQst: Label 'The entered %1, %2, does not equal the %1 on this %3, %4.\ Do you want to continue?', Comment = '%1 - field caption, %2 - field value, %3 - table caption, %4 - field value';
 
     local procedure AddError(Text: Text[250])
     begin

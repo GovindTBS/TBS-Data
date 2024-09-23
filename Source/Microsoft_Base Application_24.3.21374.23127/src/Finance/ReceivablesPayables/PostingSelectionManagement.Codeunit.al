@@ -21,10 +21,10 @@ codeunit 99 "Posting Selection Management"
         ReceiveInvoiceOptionsQst: Label '&Receive,&Invoice,Receive &and Invoice';
         ShipInvoiceFromWhseQst: Label '&Ship,Ship &and Invoice';
         ReceiveInvoiceFromWhseQst: Label '&Receive,Receive &and Invoice';
-        PostDocConfirmQst: Label 'Do you want to post the %1?', Comment = '%1 = Document Type';
-        PostWhseAndDocConfirmQst: Label 'Do you want to post the %1 and %2?', Comment = '%1 = Activity Type, %2 = Document Type';
-        PostAndPrintConfirmQst: Label 'Do you want to post and print the %1?', Comment = '%1 = Document Type';
-        PostAndEmailConfirmQst: Label 'Do you want to post and email the %1?', Comment = '%1 = Document Type';
+PostDocConfirmQst: Label 'Do you want to post the %1?', Comment = '%1 = Document Type';
+PostWhseAndDocConfirmQst: Label 'Do you want to post the %1 and %2?', Comment = '%1 = Activity Type, %2 = Document Type';
+PostAndPrintConfirmQst: Label 'Do you want to post and print the %1?', Comment = '%1 = Document Type';
+PostAndEmailConfirmQst: Label 'Do you want to post and email the %1?', Comment = '%1 = Document Type';
         InvoiceConfirmQst: Label 'Do you want to post the invoice?';
         CreditMemoConfirmQst: Label 'Do you want to post the credit memo?';
         PrintInvoiceConfirmQst: Label 'Do you want to post and print the invoice?';
@@ -35,7 +35,7 @@ codeunit 99 "Posting Selection Management"
         ShipInvoiceConfirmQst: Label 'Do you want to post the shipment and invoice?';
         ReceiveConfirmQst: Label 'Do you want to post the receipt?';
         ReceiveInvoiceConfirmQst: Label 'Do you want to post the receipt and invoice?';
-        PostingInvoiceProhibitedErr: Label 'You cannot post the invoice because %1 is %2 in %3.', Comment = '%1 = Invoice Posting Policy, %2 = Prohibited, %3 = User Setup';
+PostingInvoiceProhibitedErr: Label 'You cannot post the invoice because %1 is %2 in %3.', Comment = '%1 = Invoice Posting Policy, %2 = Prohibited, %3 = User Setup';
 
     procedure ConfirmPostSalesDocument(var SalesHeaderToPost: Record "Sales Header"; DefaultOption: Integer; WithPrint: Boolean; WithEmail: Boolean) Result: Boolean
     var

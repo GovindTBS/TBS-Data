@@ -44,7 +44,7 @@ codeunit 5777 "Whse. Validate Source Line"
         Text000: Label 'must not be changed when a %1 for this %2 exists: ';
         Text001: Label 'The %1 cannot be deleted when a related %2 exists.';
         Text002: Label 'You cannot post consumption for order no. %1 because a quantity of %2 remains to be picked.';
-        JobPostQtyPickRemainErr: Label 'You cannot post usage for project number %1 because a quantity of %2 remains to be picked.', Comment = '%1 = Project number, %2 = remaining quantity to pick';
+JobPostQtyPickRemainErr: Label 'You cannot post usage for project number %1 because a quantity of %2 remains to be picked.', Comment = '%1 = Project number, %2 = remaining quantity to pick';
 
 #if not CLEAN23
     [Obsolete('Replaced by same procedure in codeunit Sales Warehouse Mgt.', '23.0')]

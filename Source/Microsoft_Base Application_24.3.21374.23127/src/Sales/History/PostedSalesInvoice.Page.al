@@ -883,7 +883,7 @@ page 132 "Posted Sales Invoice"
                     RunPageLink = "Document Type" = const("Posted Invoice"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -1361,14 +1361,14 @@ page 132 "Posted Sales Invoice"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Update Document_Promoted"; "Update Document")
                 {
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Correct', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Correct', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(CorrectInvoice_Promoted; CorrectInvoice)
@@ -1396,7 +1396,7 @@ page 132 "Posted Sales Invoice"
             }
             group(Category_Category6)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -1413,7 +1413,7 @@ page 132 "Posted Sales Invoice"
             }
             group(Category_Category4)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1456,11 +1456,11 @@ page 132 "Posted Sales Invoice"
             }
             group(Category_Category7)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
             }
             group(Category_Category8)
             {
-                Caption = 'Electronic Document', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Electronic Document', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("S&end_Promoted"; "S&end")
                 {
@@ -1483,7 +1483,7 @@ page 132 "Posted Sales Invoice"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Synchronize)
             {

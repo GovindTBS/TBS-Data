@@ -1049,7 +1049,7 @@ table 181 "Posted Gen. Journal Line"
         }
         field(5618; Comment; Text[250])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(5701; "Check Exported"; Boolean)
         {

@@ -265,7 +265,7 @@ page 9657 "Customer Report Selections"
 
     var
         ReportSelectionsImpl: Codeunit "Report Selections Impl";
-        CouldNotFindCustomReportLayoutErr: Label 'There is no custom report layout with %1 in the description.', Comment = '%1 Description of custom report layout';
+CouldNotFindCustomReportLayoutErr: Label 'There is no custom report layout with %1 in the description.', Comment = '%1 Description of custom report layout';
 
     protected var
         Usage2: Enum "Custom Report Selection Sales";

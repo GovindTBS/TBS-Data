@@ -275,9 +275,9 @@ table 5064 "Interaction Template"
     end;
 
     var
-        Text003: Label '%1 = %2 can not be specified for %3 %4.', Comment = '%1 = Wizard Action caption, %2= Wizard Action, %3 = Interaction Template, %4 = Code ';
+Text003: Label '%1 = %2 can not be specified for %3 %4.', Comment = '%1 = Wizard Action caption, %2= Wizard Action, %3 = Interaction Template, %4 = Code ';
         Text004: Label 'Do you want to create %1 %2?';
-        WordTemplateCodeCannotBeSetForImportActionErr: Label '%1 = %2 can not be specified for %3 %4.', Comment = '%1 = Word Template Code caption, %2= Word Template Code, %3 = Wizard Action, %4 = Action';
+WordTemplateCodeCannotBeSetForImportActionErr: Label '%1 = %2 can not be specified for %3 %4.', Comment = '%1 = Word Template Code caption, %2= Word Template Code, %3 = Wizard Action, %4 = Action';
         RemoveAttachmentQst: Label 'You cannot use a Word template when an attachment is specified. Do you want to remove the attachment?';
 
     [IntegrationEvent(false, false)]

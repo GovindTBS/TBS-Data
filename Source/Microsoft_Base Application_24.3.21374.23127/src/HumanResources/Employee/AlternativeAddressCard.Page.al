@@ -127,7 +127,7 @@ page 5203 "Alternative Address Card"
                     RunPageLink = "Table Name" = const("Alternative Address"),
                                   "No." = field("Employee No."),
                                   "Alternative Address Code" = field(Code);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

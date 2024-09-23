@@ -121,7 +121,7 @@ page 5847 "Average Cost Calc. Overview"
                     ApplicationArea = Basic, Suite;
                     Editable = false;
                     HideValue = DocumentLineNoHideValue;
-                    ToolTip = 'Specifies the document line that the comment applies to.';
+ToolTip = 'Specifies the document line that the comment applies to.';
                     Visible = false;
                 }
                 field(Quantity; Rec.Quantity)

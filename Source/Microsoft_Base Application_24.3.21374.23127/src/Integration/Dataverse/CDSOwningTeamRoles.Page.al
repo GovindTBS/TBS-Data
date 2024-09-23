@@ -8,7 +8,7 @@ using Microsoft.Integration.D365Sales;
 
 page 7206 "CDS Owning Team Roles"
 {
-    Caption = 'Dataverse Owning Team Roles', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Owning Team Roles', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     DeleteAllowed = false;
     ModifyAllowed = false;
     InsertAllowed = false;

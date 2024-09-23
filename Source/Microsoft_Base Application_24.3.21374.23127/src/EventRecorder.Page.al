@@ -187,11 +187,11 @@ page 9845 "Event Recorder"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Record Events', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Record Events', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Start_Promoted; Start)
                 {
@@ -214,7 +214,7 @@ page 9845 "Event Recorder"
     var
         TempRecordedEventBuffer: Record "Recorded Event Buffer" temporary;
         LogRecordedEvents: Codeunit "Log Recorded Events";
-        AddRecordingQst: Label '%1 events have been recorded. Do you want to display them?', Comment = '%1 represents the number of events recorded.';
+AddRecordingQst: Label '%1 events have been recorded. Do you want to display them?', Comment = '%1 represents the number of events recorded.';
         StartRecordingQst: Label 'Do you want to start the recording now?';
         NoEventsRecordedMsg: Label 'No events have been recorded.';
         GetAlSnippetLbl: Label 'Get AL Snippet.';

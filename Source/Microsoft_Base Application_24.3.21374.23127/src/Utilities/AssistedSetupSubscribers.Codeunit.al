@@ -91,14 +91,14 @@ codeunit 1814 "Assisted Setup Subscribers"
         CashFlowForecastTitleTxt: Label 'Configure the Cash Flow Forecast chart';
         CashFlowForecastShortTitleTxt: Label 'Set up cash flow forecasting', MaxLength = 50;
         CashFlowForecastDescriptionTxt: Label 'Specify the accounts to use for the Cash Flow Forecast chart. The guide also helps you specify information about when you pay taxes, and whether to turn on Azure AI.';
-        CRMConnectionSetupTitleTxt: Label 'Set up integration to %1', Comment = '%1 = CRM product name';
-        CRMConnectionSetupShortTitleTxt: Label 'Connect to %1', Comment = '%1 = CRM product name', MaxLength = 32;
+CRMConnectionSetupTitleTxt: Label 'Set up integration to %1', Comment = '%1 = CRM product name';
+CRMConnectionSetupShortTitleTxt: Label 'Connect to %1', Comment = '%1 = CRM product name', MaxLength = 32;
         CRMConnectionSetupHelpTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2115256', Locked = true;
         CRMConnectionSetupDescriptionTxt: Label 'Connect your Dynamics 365 services for better insights. Data is exchanged between the apps for better productivity.';
         CDSConnectionSetupTitleTxt: Label 'Set up a connection to Dataverse';
         CDSConnectionSetupShortTitleTxt: Label 'Connect to Dataverse', MaxLength = 50;
         CDSConnectionSetupHelpTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2115257', Locked = true;
-        CDSConnectionSetupDescriptionTxt: Label 'Connect to Dataverse for better insights across business applications. Data will flow between the apps for better productivity.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated';
+CDSConnectionSetupDescriptionTxt: Label 'Connect to Dataverse for better insights across business applications. Data will flow between the apps for better productivity.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated';
         AzureAdSetupTitleTxt: Label 'Set up your Microsoft Entra accounts';
         AzureAdSetupShortTitleTxt: Label 'Set up Microsoft Entra ID', MaxLength = 50;
         AzureAdSetupDescriptionTxt: Label 'Register an Microsoft Entra app so that you can use Power BI, Power Automate, Exchange, and other Azure services from on-premises.';

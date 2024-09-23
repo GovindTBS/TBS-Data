@@ -527,7 +527,7 @@ page 5168 "Purchase Order Archive Subform"
                     ApplicationArea = Comments;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     begin

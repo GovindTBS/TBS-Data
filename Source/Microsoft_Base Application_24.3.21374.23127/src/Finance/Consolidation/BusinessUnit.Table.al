@@ -226,7 +226,7 @@ table 220 "Business Unit"
         }
         field(26; "BC API URL"; Text[2048])
         {
-            Caption = 'BC API URL', Comment = 'URL of the API of the external Business Central instance';
+Caption = 'BC API URL', Comment = 'URL of the API of the external Business Central instance';
             DataClassification = OrganizationIdentifiableInformation;
         }
         field(27; "AAD Tenant ID"; Guid)

@@ -334,7 +334,7 @@ report 1407 "Bank Account Statement"
         Outstanding_Check_CheckNoLbl: Label 'Check No.';
         Outstanding_Check_DescriptionLbl: Label 'Description';
         Outstanding_Check_AmountLbl: Label 'Statement Amount';
-        AtLbl: Label ' at ', Comment = 'used to build the construct a string like balance at 31-12-2020';
+AtLbl: Label ' at ', Comment = 'used to build the construct a string like balance at 31-12-2020';
         CurrencyCode: Code[20];
         PrintOutstandingTransactions: Boolean;
 

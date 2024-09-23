@@ -242,7 +242,7 @@ report 99001025 "Refresh Production Order"
         CalcComponents: Boolean;
         CreateInbRqst: Boolean;
         Text005: Label 'One or more of the lines on this %1 require special warehouse handling. The %2 for these lines has been set to blank.';
-        DeletePickedLinesQst: Label 'Components for production order %1 have already been picked. Do you want to continue?', Comment = 'Production order no.: Components for production order 101001 have already been picked. Do you want to continue?';
+DeletePickedLinesQst: Label 'Components for production order %1 have already been picked. Do you want to continue?', Comment = 'Production order no.: Components for production order 101001 have already been picked. Do you want to continue?';
 
     local procedure CheckReservationExist()
     var

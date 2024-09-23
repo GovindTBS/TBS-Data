@@ -386,5 +386,5 @@ page 1368 "Monitor Field Setup Wizard"
         OpenUserCardMsg: Label 'Do you want to do that now?';
         OpenDataClassificationWorksheetMsg: Label 'View Data Classification Worksheet';
         EmailConnectorMissingQst: Label 'To send notifications about changes in field values you must set up email in Business Central. Do you want to do that now?';
-        MissingPermissionErr: label 'You do not have permission to use this setup guide. To run the guide, the D365 Monitor Fields permission set must be assigned to you.', comment = 'Do not translate D365 Security or D365 Monitor Fields';
+MissingPermissionErr: label 'You do not have permission to use this setup guide. To run the guide, the D365 Monitor Fields permission set must be assigned to you.', comment = 'Do not translate D365 Security or D365 Monitor Fields';
 }

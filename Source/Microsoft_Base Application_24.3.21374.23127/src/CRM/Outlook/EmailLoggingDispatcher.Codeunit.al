@@ -51,7 +51,7 @@ codeunit 5064 "Email Logging Dispatcher"
         CannotDeleteMessageDetailedTxt: Label 'Cannot delete the email message. %1\\%2', Locked = true;
         MessageAlreadyDeletedTxt: Label 'The email message has already been deleted.', Locked = true;
         MessageNotDeletedTxt: Label 'The email message has not been deleted.', Locked = true;
-        MessageNotLoggedErr: Label 'The email has not been logged because it could not be moved. %1', Comment = '%1 - exception message';
+MessageNotLoggedErr: Label 'The email has not been logged because it could not be moved. %1', Comment = '%1 - exception message';
         CannotDeleteMessageErr: Label 'Cannot delete the email message.';
         EmailLoggingTelemetryCategoryTxt: Label 'AL Email Logging', Locked = true;
         EmailLoggingDispatcherStartedTxt: Label 'Email Logging Dipatcher started.', Locked = true;
@@ -99,7 +99,7 @@ codeunit 5064 "Email Logging Dispatcher"
         PublicFoldersNotInitializedTxt: Label 'Public folders are not initialized.', Locked = true;
         EmailLoggingDisabledTxt: Label 'Email logging is disabled.', Locked = true;
         EmailLoggingDisabledErr: Label 'Email logging is disabled.';
-        NoLinkCommentMessageTxt: Label 'There is no link to the email because the email could not be copied.', Comment = 'Max 80 chars';
+NoLinkCommentMessageTxt: Label 'There is no link to the email because the email could not be copied.', Comment = 'Max 80 chars';
         NoLinkAttachmentMessageTxt: Label 'There is no link to the email because it could not be copied from the queue to the storage folder.';
         TextFileExtentionTxt: Label 'TXT', Locked = true;
 

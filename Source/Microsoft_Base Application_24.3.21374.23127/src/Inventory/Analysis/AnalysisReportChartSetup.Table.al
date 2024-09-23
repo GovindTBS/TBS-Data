@@ -167,7 +167,7 @@ table 770 "Analysis Report Chart Setup"
     end;
 
     var
-        Text001: Label '%1 %2', Comment = '%1=Analysis Line_Description %2=Analysis Column_Coulmn Header';
+Text001: Label '%1 %2', Comment = '%1=Analysis Line_Description %2=Analysis Column_Coulmn Header';
         Text002: Label 'You cannot set %1 to %2.';
 
     procedure SetAnalysisReportName(ReportName: Code[10])

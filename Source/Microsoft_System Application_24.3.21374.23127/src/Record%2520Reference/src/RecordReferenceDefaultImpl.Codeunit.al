@@ -14,7 +14,7 @@ codeunit 3919 "Record Reference Default Impl." implements "Record Reference"
     var
         InitializedCallerModuleId: Guid;
         NullGuid: Guid;
-        IncorrectCallerAppIdErr: Label 'The interface was initialized by a different app. Initializer app id: %1, caller app id :%2', Comment = '%1 and %2 are guid''s';
+IncorrectCallerAppIdErr: Label 'The interface was initialized by a different app. Initializer app id: %1, caller app id :%2', Comment = '%1 and %2 are guid''s';
 
     /// <summary>
     /// Checks whether the CallerModuleId is in the list of allowed app id's

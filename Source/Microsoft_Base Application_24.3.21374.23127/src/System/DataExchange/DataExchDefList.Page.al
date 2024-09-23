@@ -141,11 +141,11 @@ page 1211 "Data Exch Def List"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Import Data Exchange Definition_Promoted"; "Import Data Exchange Definition")
                 {

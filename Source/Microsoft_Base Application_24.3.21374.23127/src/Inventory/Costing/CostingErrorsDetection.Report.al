@@ -450,9 +450,9 @@ report 5810 "Costing Errors Detection"
         CheckItemLedgEntryExists: Boolean;
         CostingMethodFiltered: Boolean;
         Window: Dialog;
-        ProgressWindow1Lbl: Label 'Function          #1##########################\', Comment = '%1: Function name';
-        ProgressWindow2Lbl: Label 'Item              #2##########################\', Comment = '%1: Item No.';
-        ProgressWindow3Lbl: Label 'Item Ledger Entry #3##########################', Comment = '%1: Entry No.';
+ProgressWindow1Lbl: Label 'Function          #1##########################\', Comment = '%1: Function name';
+ProgressWindow2Lbl: Label 'Item              #2##########################\', Comment = '%1: Item No.';
+ProgressWindow3Lbl: Label 'Item Ledger Entry #3##########################', Comment = '%1: Entry No.';
         ItemSummaryLbl: Label 'Item Summary';
         BasicDataTestLbl: Label 'Check basic data';
         ItemLedgEntryItemApplEntryCheckLbl: Label 'Check Item Ledger Entry vs Item Application Entry';
@@ -468,8 +468,8 @@ report 5810 "Costing Errors Detection"
         NoItemLedgerEntriesToCheckErr: Label 'There are no Item Ledger Entries to check.';
         WrongValueEntryFieldValueErr: Label 'The value of the Valued by Average Cost field in the corresponding Value Entries is not correct.';
         ItemLedgerEntryQtyZeroErr: Label 'The quantity must not be 0 on Item Ledger Entry.';
-        ItemLedgerEntryFieldValueErr: Label '%1 must be %2.', Comment = '%1, %2: Field values in Item Ledger Entry table';
-        ValueEntryFieldValueErr: Label 'The linked Value Entries do not all have the same value of %1.', Comment = '%1: Field value in Value Entry table';
+ItemLedgerEntryFieldValueErr: Label '%1 must be %2.', Comment = '%1, %2: Field values in Item Ledger Entry table';
+ValueEntryFieldValueErr: Label 'The linked Value Entries do not all have the same value of %1.', Comment = '%1: Field value in Value Entry table';
         NoValueEntryForILEErr: Label 'There are no Value Entries for this Item Ledger Entry.';
         NoItemApplEntryForILEErr: Label 'There are no Item Application Entries for this Item Ledger Entry.';
         BlankLastInvoicedDateErr: Label 'Blank Last Invoice Date on an Item Ledger Entry which has been invoiced.';
@@ -482,7 +482,7 @@ report 5810 "Costing Errors Detection"
         ItemApplEntryQtyNotMatchRemQtyErr: Label 'The summed Quantity of the linked Item Application Entries is different than the Remaining Quantity of the Item Ledger Entry.';
         EarlierValuationDateErr: Label 'The Valuation Date in Value Entries applied to this Item Ledger Entry is earlier than the Valuation Date in the Valuation Date for this Item Ledger Entry.';
         CostApplicationFieldValueErr: Label 'The value of the Cost Application field in the corresponding Item Application Entries is not correct.';
-        WrongValuationDateForConsumptionErr: Label 'A linked Value Entry should not have the Valuation Date %1 for a positive entry with Entry Type = Consumption.', Comment = '%1: Valuation Date';
+WrongValuationDateForConsumptionErr: Label 'A linked Value Entry should not have the Valuation Date %1 for a positive entry with Entry Type = Consumption.', Comment = '%1: Valuation Date';
         ValuedByAvgCostForNonAvgEntryErr: Label 'Valued by Average Cost of Value Entries must not be Yes for any Costing Method other than Average.';
         PostingDateAndOutputComplInvdDateNotMatchErr: Label 'Posting Date is different to Output Completely Invd. Date on a linked Item Application Entry.';
         OutputCompletelyInvdDateMustBeBlankErr: Label 'Output Completely Invd. Date is specified on a linked Item Application Entry but the Item Ledger Entry is not completely invoiced.';
@@ -492,9 +492,9 @@ report 5810 "Costing Errors Detection"
         InvoicedQuantityMustBeZeroErr: Label 'Invoiced Quantity must be 0 when Adjustment is true on Value Entry.';
         CostAmountExpectedNotZeroErr: Label 'Cost Amount (Expected) is not 0 on a completely invoiced Item Ledger Entry.';
         InvoicedQtyMustBeEqualToQtyForComplInvdErr: Label 'Invoiced Quantity must be equal to Quantity when Completely Invoiced is true.';
-        QuantityMustBeZeroWhenAdjmtTrueErr: Label 'Quantity must be 0 on Item Ledger Entry %1 when Adjustment is true on a Value Entry.', Comment = '%1: Entry No.';
-        ValuedByAverageCostMustBeFalseErr: Label 'Valued by Average Cost must be false when Valued Quantity > 0 and Costing Method is %1 on Value Entry %2.', Comment = '%1: Costing Method on Item, %2: Entry No. on Value Entry';
-        ItemLedgerEntryTypeNotMatchEntryTypeErr: Label 'Item Ledger Entry Type on a Value Entry is not equal to Entry Type on Item Ledger Entry %1.', Comment = '%1: Entry No. on Item Ledger Entry';
+QuantityMustBeZeroWhenAdjmtTrueErr: Label 'Quantity must be 0 on Item Ledger Entry %1 when Adjustment is true on a Value Entry.', Comment = '%1: Entry No.';
+ValuedByAverageCostMustBeFalseErr: Label 'Valued by Average Cost must be false when Valued Quantity > 0 and Costing Method is %1 on Value Entry %2.', Comment = '%1: Costing Method on Item, %2: Entry No. on Value Entry';
+ItemLedgerEntryTypeNotMatchEntryTypeErr: Label 'Item Ledger Entry Type on a Value Entry is not equal to Entry Type on Item Ledger Entry %1.', Comment = '%1: Entry No. on Item Ledger Entry';
         NegativeEntryNoOnILEErr: Label 'Entry No. on Item Ledger Entry must not be less or equal than zero.';
         ItemNoBlankErr: Label 'Item No. must not be blank.';
 

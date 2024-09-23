@@ -73,12 +73,12 @@ codeunit 1798 "Data Migration Mgt."
         AbortRequested: Boolean;
         StartTime: DateTime;
         RetryTxt: Label 'Retry', Locked = true;
-        DataMigrationNotCompletedQst: Label 'A data migration is already in progress. To see the status of the migration, go to the %1 page. Do you want to do that now?', Comment = '%1 is the caption for Data Migration Overview';
-        CustomerTableNotEmptyErr: Label 'The migration has stopped because we found some customers in %1. You must delete them and then restart the migration.', Comment = '%1 product name ';
-        ItemTableNotEmptyErr: Label 'The migration has stopped because we found some items in %1. You must delete them and then restart the migration.', Comment = '%1 product name ';
-        VendorTableNotEmptyErr: Label 'The migration has stopped because we found some vendors in %1. You must delete them and then restart the migration.', Comment = '%1 product name ';
-        DataMigrationInProgressMsg: Label 'We''re migrating data to %1.', Comment = '%1 product name ';
-        DataMigrationCompletedWithErrosMsg: Label 'Data migration has stopped due to errors. Go to the %1 page to fix them.', Comment = '%1 Data Migration Overview page';
+DataMigrationNotCompletedQst: Label 'A data migration is already in progress. To see the status of the migration, go to the %1 page. Do you want to do that now?', Comment = '%1 is the caption for Data Migration Overview';
+CustomerTableNotEmptyErr: Label 'The migration has stopped because we found some customers in %1. You must delete them and then restart the migration.', Comment = '%1 product name ';
+ItemTableNotEmptyErr: Label 'The migration has stopped because we found some items in %1. You must delete them and then restart the migration.', Comment = '%1 product name ';
+VendorTableNotEmptyErr: Label 'The migration has stopped because we found some vendors in %1. You must delete them and then restart the migration.', Comment = '%1 product name ';
+DataMigrationInProgressMsg: Label 'We''re migrating data to %1.', Comment = '%1 product name ';
+DataMigrationCompletedWithErrosMsg: Label 'Data migration has stopped due to errors. Go to the %1 page to fix them.', Comment = '%1 Data Migration Overview page';
         DataMigrationEntriesToPostMsg: Label 'Data migration is complete, however, there are still a few things to do. Go to the Data Migration Overview page for more information.';
         DataMigrationFinishedMsg: Label 'Yes! The data you chose was successfully migrated.';
         DataMigrationNotificationNameTxt: Label 'Data migration notification';

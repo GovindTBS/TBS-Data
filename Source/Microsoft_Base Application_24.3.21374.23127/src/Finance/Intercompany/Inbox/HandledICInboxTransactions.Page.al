@@ -154,14 +154,14 @@ page 617 "Handled IC Inbox Transactions"
                 action(Comments)
                 {
                     ApplicationArea = Intercompany;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
                     RunObject = Page "IC Comment Sheet";
                     RunPageLink = "Table Name" = const("Handled IC Inbox Transaction"),
                                   "Transaction No." = field("Transaction No."),
                                   "IC Partner Code" = field("IC Partner Code"),
                                   "Transaction Source" = field("Transaction Source");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -192,7 +192,7 @@ page 617 "Handled IC Inbox Transactions"
         {
             group(Category_Category4)
             {
-                Caption = 'Functions', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Functions', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Re-create Inbox Transaction_Promoted"; "Re-create Inbox Transaction")
                 {
@@ -200,7 +200,7 @@ page 617 "Handled IC Inbox Transactions"
             }
             group(Category_Category5)
             {
-                Caption = 'Inbox Transaction', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Inbox Transaction', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Details_Promoted; Details)
                 {
@@ -228,7 +228,7 @@ page 617 "Handled IC Inbox Transactions"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

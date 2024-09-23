@@ -298,12 +298,12 @@ table 5911 "Service Mgt. Setup"
         }
         field(81; "Copy Comments Order to Invoice"; Boolean)
         {
-            Caption = 'Copy Comments Order to Invoice';
+Caption = 'Copy Comments Order to Invoice';
             InitValue = true;
         }
         field(82; "Copy Comments Order to Shpt."; Boolean)
         {
-            Caption = 'Copy Comments Order to Shpt.';
+Caption = 'Copy Comments Order to Shpt.';
             InitValue = true;
         }
         field(85; "Service Credit Memo Nos."; Code[20])

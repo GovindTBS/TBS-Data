@@ -246,13 +246,13 @@ page 930 "Assembly Quote"
             action(Comments)
             {
                 ApplicationArea = Comments;
-                Caption = 'Comments';
+Caption = 'Comments';
                 Image = ViewComments;
                 RunObject = Page "Assembly Comment Sheet";
                 RunPageLink = "Document Type" = field("Document Type"),
                               "Document No." = field("No."),
                               "Document Line No." = const(0);
-                ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
             }
         }
         area(processing)
@@ -365,7 +365,7 @@ page 930 "Assembly Quote"
                 }
                 group(Category_Category6)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -378,7 +378,7 @@ page 930 "Assembly Quote"
             }
             group(Category_Category4)
             {
-                Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -395,15 +395,15 @@ page 930 "Assembly Quote"
             }
             group(Category_Category5)
             {
-                Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category7)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

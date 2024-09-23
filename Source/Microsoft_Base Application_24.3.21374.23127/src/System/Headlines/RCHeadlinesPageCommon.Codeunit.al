@@ -7,7 +7,7 @@ codeunit 1440 "RC Headlines Page Common"
         Headlines: Codeunit Headlines;
         RCHeadlinesExecutor: Codeunit "RC Headlines Executor";
         DefaultFieldsVisible: Boolean;
-        DocumentationTxt: Label 'Want to learn more about %1?', Comment = '%1 is the Business Central short product name.';
+DocumentationTxt: Label 'Want to learn more about %1?', Comment = '%1 is the Business Central short product name.';
         GreetingText: Text[250];
         DocumentationText: Text[250];
         UserGreetingVisible: Boolean;

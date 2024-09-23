@@ -14,10 +14,10 @@ codeunit 28 "Error Message Management"
         JoinedErr: Label '%1 %2.', Locked = true;
         JobQueueErrMsgProcessingTxt: Label 'Job Queue Error Message Processing.', Locked = true;
         NullJSONTxt: Label 'null', Locked = true;
-        TestFieldEmptyValueErr: Label '%1 must not be empty.', Comment = '%1 - field caption';
-        TestFieldValueErr: Label '%1 must be equal to %2.', Comment = '%1 - field caption, %2 - field value';
-        FieldErrorErr: Label '%1 %2', Comment = '%1 - field name, %2 - error message';
-        FieldMustNotBeErr: Label '%1 must not be %2', Comment = '%1 - field name, %2 - field value';
+TestFieldEmptyValueErr: Label '%1 must not be empty.', Comment = '%1 - field caption';
+TestFieldValueErr: Label '%1 must be equal to %2.', Comment = '%1 - field caption, %2 - field value';
+FieldErrorErr: Label '%1 %2', Comment = '%1 - field name, %2 - error message';
+FieldMustNotBeErr: Label '%1 must not be %2', Comment = '%1 - field name, %2 - field value';
         MessageType: Option Error,Warning,Information;
 
     procedure Activate(var ErrorMessageHandler: Codeunit "Error Message Handler"): Boolean

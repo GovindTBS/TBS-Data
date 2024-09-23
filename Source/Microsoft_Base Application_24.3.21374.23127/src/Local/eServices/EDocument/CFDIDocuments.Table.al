@@ -142,7 +142,7 @@ table 27005 "CFDI Documents"
     }
 
     var
-        NoStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1=The document number.';
+NoStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1=The document number.';
 
     procedure ExportEDocument()
     var

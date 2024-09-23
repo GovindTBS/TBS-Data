@@ -3,7 +3,7 @@ namespace Microsoft.Assembly.Comment;
 page 907 "Assembly Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Assembly Comment Sheet';
+Caption = 'Assembly Comment Sheet';
     DataCaptionFields = "Document No.";
     DelayedInsert = true;
     LinksAllowed = false;
@@ -21,17 +21,17 @@ page 907 "Assembly Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Assembly;
-                    ToolTip = 'Specifies the date of when the comment was created.';
+ToolTip = 'Specifies the date of when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment.';
+ToolTip = 'Specifies the comment.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Assembly;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

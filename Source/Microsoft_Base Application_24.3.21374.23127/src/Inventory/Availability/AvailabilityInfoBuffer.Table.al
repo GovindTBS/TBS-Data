@@ -683,14 +683,14 @@ table 520 "Availability Info. Buffer"
 
     local procedure GetRangeFilter(FromVariant: Variant; ToVariant: Variant): Text
     var
-        FilterTxt: Label '%1..%2', Comment = '%1, %2', Locked = true;
+FilterTxt: Label '%1..%2', Comment = '%1, %2', Locked = true;
     begin
         exit(StrSubstNo(FilterTxt, FromVariant, ToVariant))
     end;
 
     local procedure GetOptionFilter(Option1Variant: Variant; Option2Variant: Variant; Option3Variant: Variant): Text
     var
-        FilterTxt: Label '%1|%2|%3', Comment = '%1, %2, %3', Locked = true;
+FilterTxt: Label '%1|%2|%3', Comment = '%1, %2, %3', Locked = true;
     begin
         exit(StrSubstNo(FilterTxt, Option1Variant, Option2Variant, Option3Variant));
     end;

@@ -462,11 +462,11 @@ page 9040 "Data Administration Guide"
         TopBannerVisible: Boolean;
         OpenCompaniesListTxt: Label 'Open the list of companies.';
         OpenRetentionPolicySetupListTxt: Label 'Open the list of retention policies.';
-        EnabledRetentionPolicyCountTxt: Label '%1 out of %2 available retention policies are enabled.', Comment = '%1 and %2 are integers as in: 3 out of 5 available...';
-        NonProductionCompanyCountTxt: Label 'There are %1 non-production companies in the database.', Comment = '%1 is an integer.';
+EnabledRetentionPolicyCountTxt: Label '%1 out of %2 available retention policies are enabled.', Comment = '%1 and %2 are integers as in: 3 out of 5 available...';
+NonProductionCompanyCountTxt: Label 'There are %1 non-production companies in the database.', Comment = '%1 is an integer.';
         DateCompressionDocsTxt: Label 'Click here to learn more about date compression in Business Central.';
         DateCompressionUrlTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2158496';
-        DateCompressionRemovedEntriesTxt: Label 'Date compression has reduced the number of entries by %1 which has freed up %2 MB of space in the database.', Comment = '%1 = integer number of entries, %2 = decimal MB of space saved.';
+DateCompressionRemovedEntriesTxt: Label 'Date compression has reduced the number of entries by %1 which has freed up %2 MB of space in the database.', Comment = '%1 = integer number of entries, %2 = decimal MB of space saved.';
         TelemOpenDataAdminGuideLbl: Label 'The Data Administration Guide was opened.', Locked = true;
         TelemNavigateDataAdminGuideLbl: Label 'The user navigated on the Data Administration Guide.', Locked = true;
         TelemSkipDataAdminGuideLbl: Label 'The user skipped to next step on the Data Administration Guide.', Locked = true;

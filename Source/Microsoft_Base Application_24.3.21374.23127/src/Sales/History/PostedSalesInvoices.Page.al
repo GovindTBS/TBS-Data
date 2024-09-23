@@ -419,7 +419,7 @@ page 143 "Posted Sales Invoices"
                     RunObject = Page "Sales Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Invoice"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -811,7 +811,7 @@ page 143 "Posted Sales Invoices"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Update Document_Promoted"; "Update Document")
                 {
@@ -822,7 +822,7 @@ page 143 "Posted Sales Invoices"
             }
             group(Category_Category7)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -839,7 +839,7 @@ page 143 "Posted Sales Invoices"
             }
             group(Category_Category4)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -865,7 +865,7 @@ page 143 "Posted Sales Invoices"
             }
             group(Category_Category6)
             {
-                Caption = 'Correct', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Correct', Comment = 'Generated from the PromotedActionCategories property index 5.';
                 ShowAs = SplitButton;
 
                 actionref(CorrectInvoice_Promoted; CorrectInvoice)
@@ -883,11 +883,11 @@ page 143 "Posted Sales Invoices"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Synchronize)
             {
@@ -987,7 +987,7 @@ page 143 "Posted Sales Invoices"
         DocExchStatusVisible: Boolean;
         IsOfficeAddin: Boolean;
         HasPostedSalesInvoices: Boolean;
-        ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
+ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeCalculateSalesTaxStatistics(var SalesInvoiceHeader: Record "Sales Invoice Header")

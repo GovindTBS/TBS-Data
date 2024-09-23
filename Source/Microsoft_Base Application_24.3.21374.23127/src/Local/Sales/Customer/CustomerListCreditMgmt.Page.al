@@ -298,7 +298,7 @@ page 36630 "Customer List - Credit Mgmt."
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Customer),
                                   "No." = field("No.");
-                    ToolTip = 'View comments that apply.';
+ToolTip = 'View comments that apply.';
                 }
                 action("Bank Accounts")
                 {
@@ -382,7 +382,7 @@ page 36630 "Customer List - Credit Mgmt."
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Co&mments_Promoted"; "Co&mments")
                 {

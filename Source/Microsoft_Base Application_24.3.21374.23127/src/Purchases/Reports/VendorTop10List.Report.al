@@ -241,10 +241,10 @@ report 311 "Vendor - Top 10 List"
         VendPurchLCYCaptionLbl: Label 'Total Purchases';
         PurchPctCaptionLbl: Label '% of Total Purchases';
 
-        SortingVendorsTxt: Label 'Sorting vendors       #1##########', Comment = '%1 - progress bar';
-        PeriodTxt: Label 'Period: %1', Comment = '%1 - period text';
-        RankAccordingToTxt: Label 'Rank according to %1', Comment = '%1 - ranking type';
-        PortionOfTxt: Label 'Portion of %1', Comment = '%1 - type amount';
+SortingVendorsTxt: Label 'Sorting vendors       #1##########', Comment = '%1 - progress bar';
+PeriodTxt: Label 'Period: %1', Comment = '%1 - period text';
+RankAccordingToTxt: Label 'Rank according to %1', Comment = '%1 - ranking type';
+PortionOfTxt: Label 'Portion of %1', Comment = '%1 - type amount';
         AmountTypeTxt: Label 'Purchases (LCY),Balance (LCY)';
         TableFilterTxt: Label '%1: %2', Locked = true;
 

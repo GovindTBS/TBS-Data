@@ -8,7 +8,7 @@ using Microsoft.Integration.D365Sales;
 
 page 7203 "CDS Business Units"
 {
-    Caption = 'Dataverse Business Units', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Business Units', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     DeleteAllowed = false;
     Editable = false;
     InsertAllowed = false;

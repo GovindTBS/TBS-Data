@@ -28,9 +28,9 @@ codeunit 6299 "Power BI Embed Helper"
         // Json payloads
         LoadReportMessageJsonTxt: Label '{"action":"loadReport","accessToken":"%1"}', Locked = true;
         GetPagesWebRequestJsonTxt: Label '{"method":"GET","url":"/report/pages","headers":{"id":"getpagesfromreport"}}', Locked = true;
-        PutActivePageWebRequestJsonTxt: Label '{"method":"PUT","url":"/report/pages/active","headers":{"id":"setpage,%1"},"body": {"name":"%1","displayName": null}}', Comment = '%1=The name of the page to be set as active', Locked = true;
+PutActivePageWebRequestJsonTxt: Label '{"method":"PUT","url":"/report/pages/active","headers":{"id":"setpage,%1"},"body": {"name":"%1","displayName": null}}', Comment = '%1=The name of the page to be set as active', Locked = true;
         GetReportFilterWebRequestJsonTxt: Label '{"method":"GET","url":"/report/filters","headers": {"id":"getfilters,%1"}}', Locked = true;
-        PutReportFilterWebRequestJsonTxt: Label '{"method":"PUT","url":"/report/filters","headers": {}, "body": [{"$schema":%1,"target":{"table":%2,"column":%3},"operator":%4,"values":[%5]}]}', Comment = '%1,%2,%3=the schema, table and column where the filter applies, as communicated to us by Power BI; %4=the operator to handle the Power BI filter, e.g. "In" or "All"; %5=the value to set the filter to', Locked = true;
+PutReportFilterWebRequestJsonTxt: Label '{"method":"PUT","url":"/report/filters","headers": {}, "body": [{"$schema":%1,"target":{"table":%2,"column":%3},"operator":%4,"values":[%5]}]}', Comment = '%1,%2,%3=the schema, table and column where the filter applies, as communicated to us by Power BI; %4=the operator to handle the Power BI filter, e.g. "In" or "All"; %5=the value to set the filter to', Locked = true;
         // Other labels
         FailedAuthErr: Label 'We failed to authenticate with Power BI. Try to sign out and in again. This problem typically happens if you no longer have a license for Power BI or if you just changed your email or password.';
         FailedToHandleCallbackTelemetryMsg: Label 'Failed to handle callback message. LastError: %2.', Locked = true;
@@ -39,7 +39,7 @@ codeunit 6299 "Power BI Embed Helper"
         FailureStatusCodeTelemetryMsg: Label 'Received a message with a failure status code %1.', Locked = true;
         InvalidCallbackMessageTelemetryMsg: Label 'The CallbackMessage is invalid (length: %1). Last error: %2.', Locked = true;
         TargetOriginWildcardTelemetryMsg: Label 'Could not determine target origin, defaulting to wildcard.', Locked = true;
-        InvalidJsonResponseErr: Label 'The response for the Power BI report page was invalid: %1.', Comment = '%1 = A string that represents an invalid Json object.';
+InvalidJsonResponseErr: Label 'The response for the Power BI report page was invalid: %1.', Comment = '%1 = A string that represents an invalid Json object.';
 
     [Scope('OnPrem')]
     procedure HandleAddInCallback(CallbackMessage: Text; CurrentListSelection: Text; var CurrentReportFirstPage: Text; var LatestReceivedFilterInfo: Text; var ResponseForWebPage: Text)
@@ -99,7 +99,7 @@ codeunit 6299 "Power BI Embed Helper"
                 // Page-only filters are currently not supported, but can be retrieved with a call similar to:
                 // messagefilter := StrSubstNo(GetPageFilterWebRequestJsonTxt, ...); // page filters
                 // Which also requires the variable:
-                // GetPageFilterWebRequestJsonTxt: Label '{"method":"GET","url":"/report/pages/%1/filters","headers": {"id":"getfilters,%1"}}', Comment = '%1=The name of the page within the report to retrieve the filters for', Locked = true;
+// GetPageFilterWebRequestJsonTxt: Label '{"method":"GET","url":"/report/pages/%1/filters","headers": {"id":"getfilters,%1"}}', Comment = '%1=The name of the page within the report to retrieve the filters for', Locked = true;
 
                 // Pull out the page we injected in the ID in step 2
                 ResponseForWebPage := StrSubstNo(GetReportFilterWebRequestJsonTxt,

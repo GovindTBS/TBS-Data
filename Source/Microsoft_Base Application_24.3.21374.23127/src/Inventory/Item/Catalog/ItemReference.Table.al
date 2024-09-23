@@ -301,7 +301,7 @@ table 5777 "Item Reference"
 
     local procedure CheckDates()
     var
-        StartingEndingDateErr: Label '%1 %2 is before %3 %4.', Comment = '%1 and %3 = Date Captions, %2 and %4 = Date Values';
+StartingEndingDateErr: Label '%1 %2 is before %3 %4.', Comment = '%1 and %3 = Date Captions, %2 and %4 = Date Values';
     begin
         if Rec."Ending Date" = 0D then
             exit;

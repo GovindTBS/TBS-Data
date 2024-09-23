@@ -12,7 +12,7 @@ codeunit 6762 "Reminder-Send"
     var
         GlobalIssuedReminderHeader: Record "Issued Reminder Header";
         GlobalSendReminderSetup: Record "Send Reminders Setup";
-        CannotFindDocumentSendingProfileErr: Label 'Cannot find document sending profile for customer %1.', Comment = '%1 = Customer Number';
+CannotFindDocumentSendingProfileErr: Label 'Cannot find document sending profile for customer %1.', Comment = '%1 = Customer Number';
 
     trigger OnRun()
     begin

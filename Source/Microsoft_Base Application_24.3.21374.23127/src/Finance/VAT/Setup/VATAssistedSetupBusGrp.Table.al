@@ -46,9 +46,9 @@ table 1879 "VAT Assisted Setup Bus. Grp."
     }
 
     var
-        Code001Tok: Label 'DOMESTIC', Comment = 'the same as values in Bus. posting group';
-        Code002Tok: Label 'EU', Comment = 'the same as values in Bus. posting group';
-        Code003Tok: Label 'EXPORT', Comment = 'the same as values in Bus. posting group';
+Code001Tok: Label 'DOMESTIC', Comment = 'the same as values in Bus. posting group';
+Code002Tok: Label 'EU', Comment = 'the same as values in Bus. posting group';
+Code003Tok: Label 'EXPORT', Comment = 'the same as values in Bus. posting group';
         Text001Txt: Label 'Domestic customers and vendors';
         Text002Txt: Label 'Customers and vendors in EU';
         Text003Txt: Label 'Other customers and vendors (not EU)';

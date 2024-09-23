@@ -164,7 +164,7 @@ page 5351 "CRM Sales Quote List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ProcesseInNAV_Promoted; ProcesseInNAV)
                 {
@@ -186,12 +186,12 @@ page 5351 "CRM Sales Quote List"
             }
             group(Category_Category4)
             {
-                Caption = 'Dynamics 365 Sales', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Dynamics 365 Sales', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -273,7 +273,7 @@ page 5351 "CRM Sales Quote List"
         Coupled: Text;
         FirstColumnStyle: Text;
         AlreadyProcessedErr: Label 'The current record has already been processed in Business Central.';
-        MultipleCompanyNotificationLbl: Label 'You are connected to Dynamics 365 Sales from multiple companies. This page shows only Dynamics 365 Sales quotes with Company field set to this Business Central company. To see all quotes, change the filter on the page, or set their Company field in Dynamics 365 Sales.', Comment = 'Dynamics 365 Sales should not be translated';
+MultipleCompanyNotificationLbl: Label 'You are connected to Dynamics 365 Sales from multiple companies. This page shows only Dynamics 365 Sales quotes with Company field set to this Business Central company. To see all quotes, change the filter on the page, or set their Company field in Dynamics 365 Sales.', Comment = 'Dynamics 365 Sales should not be translated';
         LearnMoreLbl: Label 'Learn more';
 
     procedure SetCurrentlyCoupledCRMQuote(CRMQuote: Record "CRM Quote")

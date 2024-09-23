@@ -27,7 +27,7 @@ codeunit 1311 "Activities Mgt."
     var
         DefaultWorkDate: Date;
         RefreshFrequencyErr: Label 'Refresh intervals of less than 10 minutes are not supported.';
-        NoSubCategoryWithAdditionalReportDefinitionOfCashAccountsTok: Label 'There are no %1 with %2 specified for %3', Comment = '%1 Table Comment G/L Account Category, %2 field Additional Report Definition, %3 value: Cash Accounts';
+NoSubCategoryWithAdditionalReportDefinitionOfCashAccountsTok: Label 'There are no %1 with %2 specified for %3', Comment = '%1 Table Comment G/L Account Category, %2 field Additional Report Definition, %3 value: Cash Accounts';
 
     procedure OverdueSalesInvoiceAmount(CalledFromWebService: Boolean; UseCachedValue: Boolean): Decimal
     var

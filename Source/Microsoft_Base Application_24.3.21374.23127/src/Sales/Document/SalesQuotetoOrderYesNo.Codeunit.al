@@ -38,7 +38,7 @@ codeunit 83 "Sales-Quote to Order (Yes/No)"
         SalesQuoteToOrder: Codeunit "Sales-Quote to Order";
 
         ConfirmConvertToOrderQst: Label 'Do you want to convert the quote to an order?';
-        OpenNewInvoiceQst: Label 'The quote has been converted to order %1. Do you want to open the new order?', Comment = '%1 = No. of the new sales order document.';
+OpenNewInvoiceQst: Label 'The quote has been converted to order %1. Do you want to open the new order?', Comment = '%1 = No. of the new sales order document.';
 
     local procedure IsOnRunHandled(var SalesHeader: Record "Sales Header") IsHandled: Boolean
     begin

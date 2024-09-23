@@ -11,7 +11,7 @@ using Microsoft.HumanResources.Setup;
 
 page 36600 "Human Resources Role Center"
 {
-    Caption = 'Human Resources', Comment = 'Use same translation as ''Profile Description'' ';
+Caption = 'Human Resources', Comment = 'Use same translation as ''Profile Description'' ';
     PageType = RoleCenter;
 
     layout

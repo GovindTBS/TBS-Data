@@ -99,12 +99,12 @@ page 973 "Time Sheet Card"
             action(TimeSheetComments)
             {
                 ApplicationArea = Comments;
-                Caption = 'Comments';
+Caption = 'Comments';
                 Image = ViewComments;
                 RunObject = Page "Time Sheet Comment Sheet";
                 RunPageLink = "No." = field("No."),
                                   "Time Sheet Line No." = const(0);
-                ToolTip = 'View comments about the time sheet.';
+ToolTip = 'View comments about the time sheet.';
             }
         }
         area(processing)
@@ -218,9 +218,9 @@ page 973 "Time Sheet Card"
                 action(CopyLinesFromTSWithComments)
                 {
                     ApplicationArea = Jobs;
-                    Caption = 'Copy lines from time sheet with comments';
+Caption = 'Copy lines from time sheet with comments';
                     Image = Copy;
-                    ToolTip = 'Copy information from the selected time sheet, such as type and description, and then modify the lines. If a line is related to a project, the project number is copied. Comments will be copied as well.';
+ToolTip = 'Copy information from the selected time sheet, such as type and description, and then modify the lines. If a line is related to a project, the project number is copied. Comments will be copied as well.';
                     Visible = not ManagerTimeSheet;
 
                     trigger OnAction()
@@ -247,7 +247,7 @@ page 973 "Time Sheet Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ReopenSubmitted_Promoted; ReopenSubmitted)
                 {
@@ -318,7 +318,7 @@ page 973 "Time Sheet Card"
         TimeSheetMgt: Codeunit "Time Sheet Management";
         TimeSheetApprovalMgt: Codeunit "Time Sheet Approval Management";
         RefActionType: Option Submit,ReopenSubmitted,Approve,ReopenApproved,Reject;
-        EmploymentQst: Label 'Time Sheet: %1 for dates prior to the Employment Date: %2  for Resource user.Do you still want to submit open lines?', Comment = '%1=Time Sheet No; %2= Resource Employment Date';
+EmploymentQst: Label 'Time Sheet: %1 for dates prior to the Employment Date: %2  for Resource user.Do you still want to submit open lines?', Comment = '%1=Time Sheet No; %2= Resource Employment Date';
 
     protected var
         SubmitEnabled: Boolean;

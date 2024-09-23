@@ -35,7 +35,7 @@ codeunit 8610 "Questionnaire Management"
         Text026: Label 'Default';
         CalledFromCode: Boolean;
         Text028: Label 'Import File';
-        Text029: Label 'XML file (*.xml)|*.xml', Comment = 'Only translate ''XML Files'' {Split=r"[\|\(]\*\.[^ |)]*[|) ]?"}';
+Text029: Label 'XML file (*.xml)|*.xml', Comment = 'Only translate ''XML Files'' {Split=r"[\|\(]\*\.[^ |)]*[|) ]?"}';
         CreateWrkBkFailedErr: Label 'Could not create the Excel workbook.';
 
     procedure UpdateQuestions(ConfigQuestionArea: Record "Config. Question Area")

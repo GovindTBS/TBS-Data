@@ -144,19 +144,19 @@ page 1291 "Pmt. Recon. Journal Overview"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Review', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Review', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Details', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Details', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category6)
             {
-                Caption = 'Custom Sorting', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Custom Sorting', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(ShowNonAppliedLines_Promoted; ShowNonAppliedLines)
                 {
@@ -195,7 +195,7 @@ page 1291 "Pmt. Recon. Journal Overview"
     var
         BankAccReconciliation: Record "Bank Acc. Reconciliation";
         AppliedPmtEntry: Record "Applied Payment Entry";
-        PmtAppliedToTxt: Label 'The payment has been applied to (%1) entries.', Comment = '%1 - an integer number';
+PmtAppliedToTxt: Label 'The payment has been applied to (%1) entries.', Comment = '%1 - an integer number';
         IsBankAccReconInitialized: Boolean;
         StatementToRemAmtDifference: Decimal;
         RemainingAmountAfterPosting: Decimal;

@@ -21,8 +21,8 @@ codeunit 133 "Send Incoming Document to OCR"
         NoAttachmentMarkedForOcrErr: Label 'You must select an attachment for use for OCR.';
         ShowMessages: Boolean;
         CannotRemoveFromJobQueueTxt: Label 'The document cannot be removed from queue since it is already sent.';
-        CannotSendDocumentTxt: Label 'The document cannot be sent to the OCR service because its status is %1.', Comment = '%1 Status of the document for example: New, Released, Posted, Created, Rejected...';
-        CannotScheduleDocumentTxt: Label 'The document cannot be scheduled for sending to the OCR service because its status is %1.', Comment = '%1 Status of the document for example: New, Released, Posted, Created, Rejected...';
+CannotSendDocumentTxt: Label 'The document cannot be sent to the OCR service because its status is %1.', Comment = '%1 Status of the document for example: New, Released, Posted, Created, Rejected...';
+CannotScheduleDocumentTxt: Label 'The document cannot be scheduled for sending to the OCR service because its status is %1.', Comment = '%1 Status of the document for example: New, Released, Posted, Created, Rejected...';
         RemovedFromJobQueueTxt: Label 'The document was successfully removed from Job Queue.';
         DocumentHasBeenScheduledTxt: Label 'The document has been scheduled for sending to the OCR service.';
         DoYouWantToSetupOCRQst: Label 'The OCR service is not enabled.\\Do you want to open the OCR Service Setup window?';

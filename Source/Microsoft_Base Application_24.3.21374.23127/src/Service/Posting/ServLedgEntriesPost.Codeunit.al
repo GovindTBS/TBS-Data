@@ -31,7 +31,7 @@ codeunit 5912 "ServLedgEntries-Post"
         NextServLedgerEntryNo: Integer;
         NextWarrantyLedgerEntryNo: Integer;
         SrcCode: Code[10];
-        Text001: Label '%1 No. %2 for Service %3 %4 cannot be posted. Please define the Service Item No. %5 in Service Contract No. %6.', Comment = 'Service Ledger Entry No. Line No. for Service Invoice SO000001 cannot be posted. Please define the Service Item No. 7 in Service Contract No. SC0001.';
+Text001: Label '%1 No. %2 for Service %3 %4 cannot be posted. Please define the Service Item No. %5 in Service Contract No. %6.', Comment = 'Service Ledger Entry No. Line No. for Service Invoice SO000001 cannot be posted. Please define the Service Item No. 7 in Service Contract No. SC0001.';
 
     procedure InitServiceRegister(var PassedServEntryNo: Integer; var PassedWarrantyEntryNo: Integer)
     var

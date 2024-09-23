@@ -2,7 +2,7 @@ namespace Microsoft.Inventory.Counting.Comment;
 
 page 5892 "Phys. Inventory Comment List"
 {
-    Caption = 'Phys. Inventory Comment List';
+Caption = 'Phys. Inventory Comment List';
     DataCaptionFields = "Document Type", "Order No.", "Recording No.";
     Editable = false;
     PageType = List;
@@ -18,22 +18,22 @@ page 5892 "Phys. Inventory Comment List"
                 field("Order No."; Rec."Order No.")
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the document number of the physical inventory order to which the comment applies.';
+ToolTip = 'Specifies the document number of the physical inventory order to which the comment applies.';
                 }
                 field("Recording No."; Rec."Recording No.")
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the document number of the physical inventory recording to which the comment applies.';
+ToolTip = 'Specifies the document number of the physical inventory recording to which the comment applies.';
                 }
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the date when the comment was created.';
+ToolTip = 'Specifies the date when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
             }
         }

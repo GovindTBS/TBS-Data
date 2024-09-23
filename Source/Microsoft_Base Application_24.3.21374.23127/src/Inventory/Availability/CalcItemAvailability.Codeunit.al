@@ -31,7 +31,7 @@ codeunit 5530 "Calc. Item Availability"
     var
         TempInvtEventBuf: Record "Inventory Event Buffer" temporary;
         EntryNo: Integer;
-        TableNotSupportedErr: Label 'Table %1 is not supported by the ShowDocument function.', Comment = '%1 = table name';
+TableNotSupportedErr: Label 'Table %1 is not supported by the ShowDocument function.', Comment = '%1 = table name';
 
     procedure CalcNewInvtEventBuf(var Item: Record Item; ForecastName: Code[10]; IncludeBlanketOrders: Boolean; ExcludeForecastBefore: Date; IncludePlan: Boolean)
     begin

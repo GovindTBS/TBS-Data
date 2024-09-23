@@ -115,7 +115,7 @@ page 9807 "User Card"
                 }
                 group("Office 365 Authentication")
                 {
-                    Caption = 'Microsoft 365', Comment = '{Locked="Microsoft 365"}';
+Caption = 'Microsoft 365', Comment = '{Locked="Microsoft 365"}';
 
                     field("Authentication Email"; Rec."Authentication Email")
                     {
@@ -481,7 +481,7 @@ page 9807 "User Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Effective Permissions_Promoted"; "Effective Permissions")
                 {
@@ -629,9 +629,9 @@ page 9807 "User Card"
         BasicAuthDepricationNotification: Notification;
 #endif
         WindowsUserName: Text[208];
-        Text001Err: Label 'The account %1 is not a valid Windows account.', Comment = 'USERID';
-        Text002Err: Label 'The account %1 already exists.', Comment = 'USERID';
-        Text003Err: Label 'The account %1 is not allowed.', Comment = 'USERID';
+Text001Err: Label 'The account %1 is not a valid Windows account.', Comment = 'USERID';
+Text002Err: Label 'The account %1 already exists.', Comment = 'USERID';
+Text003Err: Label 'The account %1 is not allowed.', Comment = 'USERID';
         CreateUserInSaaSErr: Label 'Creating users is not allowed in the online environment.';
         DeleteUserInSaaSErr: Label 'Deleting users is not allowed in the online environment.';
         Password: Text[80];
@@ -640,7 +640,7 @@ page 9807 "User Card"
         TelemetryUserID: Guid;
         Confirm001Qst: Label 'The current Web Service Access Key will not be valid after editing. All clients that use it have to be updated. Do you want to continue?';
         WebServiceExpiryDate: DateTime;
-        Confirm002Qst: Label 'You have not completed all necessary fields for the Credential Type that this client is currently using. The user will not be able to log in unless you provide a value in the %1 field. Are you sure that you want to close the window?', Comment = 'USERID';
+Confirm002Qst: Label 'You have not completed all necessary fields for the Credential Type that this client is currently using. The user will not be able to log in unless you provide a value in the %1 field. Are you sure that you want to close the window?', Comment = 'USERID';
         DeployedToAzure: Boolean;
         Confirm003Qst: Label 'The user will not be able to sign in unless you change the state to Enabled. Are you sure that you want to close the page?';
         HasExchangeIdentifier: Boolean;
@@ -657,7 +657,7 @@ page 9807 "User Card"
         InitialState: Option;
         CannotCreateWindowsGroupErr: Label 'User accounts of type ''Windows Group'' can only be created by creating a security group.';
         CannotCreateAadGroupErr: Label 'User accounts of type ''Microsoft Entra group'' are only available in SaaS.';
-        CreateFirstUserQst: Label 'You will be locked out after creating first user. Would you first like to create a SUPER user for %1?', Comment = 'USERID';
+CreateFirstUserQst: Label 'You will be locked out after creating first user. Would you first like to create a SUPER user for %1?', Comment = 'USERID';
         CannotEditForOtherUsersErr: Label 'You can only change your own web service access keys.';
         CannotCreateWebServiceAccessKeyErr: Label 'You cannot create a web service access key for this user because they have delegated administration privileges.';
         ReadWebServiceKeyTxt: Label 'Read web service key', Locked = true;

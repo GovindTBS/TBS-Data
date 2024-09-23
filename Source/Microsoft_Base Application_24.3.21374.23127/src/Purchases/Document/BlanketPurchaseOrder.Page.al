@@ -718,7 +718,7 @@ page 509 "Blanket Purchase Order"
                     RunPageLink = "Document Type" = const("Blanket Order"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -822,9 +822,9 @@ page 509 "Blanket Purchase Order"
                 action(Comment)
                 {
                     ApplicationArea = Suite;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -1001,14 +1001,14 @@ page 509 "Blanket Purchase Order"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(MakeOrder_Promoted; MakeOrder)
                 {
                 }
                 group(Category_Category7)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 6.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -1035,7 +1035,7 @@ page 509 "Blanket Purchase Order"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1052,7 +1052,7 @@ page 509 "Blanket Purchase Order"
             }
             group(Category_Category6)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -1063,7 +1063,7 @@ page 509 "Blanket Purchase Order"
             }
             group(Category_Category5)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1074,7 +1074,7 @@ page 509 "Blanket Purchase Order"
             }
             group(Category_Category8)
             {
-                Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1094,7 +1094,7 @@ page 509 "Blanket Purchase Order"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -897,8 +897,8 @@ table 21 "Cust. Ledger Entry"
         Text000: Label 'must have the same sign as %1';
         Text001: Label 'must not be larger than %1';
         EInvoiceMgt: Codeunit "E-Invoice Mgt.";
-        NoStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1=The document number.';
-        NetBalanceOnHoldErr: Label 'General journal line number %3 on template name %1 batch name %2 is applied. Do you want to change On Hold value anyway?', Comment = '%1 - template name, %2 - batch name, %3 - line number';
+NoStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1=The document number.';
+NetBalanceOnHoldErr: Label 'General journal line number %3 on template name %1 batch name %2 is applied. Do you want to change On Hold value anyway?', Comment = '%1 - template name, %2 - batch name, %3 - line number';
 
     procedure GetLastEntryNo(): Integer;
     var

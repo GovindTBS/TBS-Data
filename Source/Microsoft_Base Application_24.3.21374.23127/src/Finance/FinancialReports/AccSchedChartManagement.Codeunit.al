@@ -21,7 +21,7 @@ codeunit 762 "Acc. Sched. Chart Management"
         DuplicateRowDescriptionsMsg: Label 'Row Definition %1 has duplicate Description values: %2.';
         DuplicateColumnHeaderMsg: Label 'Column Definition %1 has duplicate Column Header values: %2.';
         ColumnFormulaMsg: Label 'Column formula: %1.';
-        DefaultAccSchedTok: Label 'DEFAULT', Comment = 'The default name of the chart setup.';
+DefaultAccSchedTok: Label 'DEFAULT', Comment = 'The default name of the chart setup.';
         DefinitionsModifiedMsg: Label 'The row definition or column definition has been modified since the chart setup was created. Please reset your chart setup.';
 
     procedure GetSetupRecordset(var AccountSchedulesChartSetup: Record "Account Schedules Chart Setup"; ChartName: Text[60]; Move: Integer)

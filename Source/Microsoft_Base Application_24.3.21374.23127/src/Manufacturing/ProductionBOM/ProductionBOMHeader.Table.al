@@ -67,7 +67,7 @@ table 99000771 "Production BOM Header"
         {
             CalcFormula = exist("Manufacturing Comment Line" where("Table Name" = const("Production BOM Header"),
                                                                     "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

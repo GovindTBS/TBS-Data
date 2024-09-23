@@ -15,11 +15,11 @@ codeunit 2023 "Image Analysis Wrapper V3.2" implements "Image Analysis Provider"
 
     var
         RequestIdTelemetryMsg: Label 'Call to Image Analysis succeeded. ID present: %1; Request ID: %2.', Locked = true;
-        CognitiveServicesErr: Label 'Could not contact the %1. %2 Status code: %3.', Comment = '%1: Error returned from called API. %2: the error message. %3: HTTP status code of error';
+CognitiveServicesErr: Label 'Could not contact the %1. %2 Status code: %3.', Comment = '%1: Error returned from called API. %2: the error message. %3: HTTP status code of error';
         MediaTooLargeErr: Label 'The media file is too large. Only images up to 4 MB are supported.';
         MediaTooSmallErr: Label 'The media file is too small. It must be at least 50x50 pixels.';
         MediaWrongFormatErr: Label 'The media file is not supported. Only images of the following types are supported: JPEG, PNG, GIF, BMP.';
-        UnsupportedLanguageErr: Label 'You are trying to run image analysis in a language (%1) that is not supported.', Comment = '%1: a language code, for example 1033';
+UnsupportedLanguageErr: Label 'You are trying to run image analysis in a language (%1) that is not supported.', Comment = '%1: a language code, for example 1033';
         CheckingImageSupportedTelemetryMsg: Label 'Checking image supported. Bytes: %1, Size: %2, Format: %3.', Locked = true;
         ComputerVisionApiTxt: Label 'Computer Vision API';
         AnalyzePathTxt: Label '/vision/v3.2/analyze', Locked = true;

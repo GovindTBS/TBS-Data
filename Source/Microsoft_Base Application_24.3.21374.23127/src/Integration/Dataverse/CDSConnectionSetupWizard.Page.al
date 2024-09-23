@@ -14,7 +14,7 @@ using System.Utilities;
 
 page 7201 "CDS Connection Setup Wizard"
 {
-    Caption = 'Dataverse Connection Setup', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Connection Setup', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
     PageType = NavigatePage;
     SourceTable = "CDS Connection Setup";
@@ -148,14 +148,14 @@ page 7201 "CDS Connection Setup Wizard"
                 {
                     ApplicationArea = Suite;
                     Caption = 'Client ID';
-                    ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of Microsoft services and should not be translated.';
+ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of Microsoft services and should not be translated.';
                 }
                 field("Client Secret"; ClientSecret)
                 {
                     ApplicationArea = Suite;
                     ExtendedDatatype = Masked;
                     Caption = 'Client Secret';
-                    ToolTip = 'Specifies the secret of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of Microsoft services and should not be translated.';
+ToolTip = 'Specifies the secret of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of Microsoft services and should not be translated.';
 
                     trigger OnValidate()
                     begin
@@ -165,7 +165,7 @@ page 7201 "CDS Connection Setup Wizard"
                 field("Redirect URL"; Rec."Redirect URL")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies the Redirect URL of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of Microsoft services and should not be translated.';
+ToolTip = 'Specifies the Redirect URL of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of Microsoft services and should not be translated.';
                 }
             }
             group(Step1)
@@ -306,7 +306,7 @@ page 7201 "CDS Connection Setup Wizard"
                         ApplicationArea = Suite;
                         Caption = 'User Name';
                         ExtendedDatatype = EMail;
-                        ToolTip = 'Specifies the email of the user that will be used to connect to the Dataverse environment and synchronize data. This must not be the administrator user account.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the email of the user that will be used to connect to the Dataverse environment and synchronize data. This must not be the administrator user account.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                         trigger OnValidate()
                         begin
@@ -318,7 +318,7 @@ page 7201 "CDS Connection Setup Wizard"
                         ApplicationArea = Suite;
                         Caption = 'Password';
                         ExtendedDatatype = Masked;
-                        ToolTip = 'Specifies the password of the user that will be used to connect to the Dataverse environment and synchronize data.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the password of the user that will be used to connect to the Dataverse environment and synchronize data.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                         trigger OnValidate()
                         begin
@@ -342,7 +342,7 @@ page 7201 "CDS Connection Setup Wizard"
                         Caption = 'Ownership Model';
                         ShowCaption = false;
                         ApplicationArea = Suite;
-                        ToolTip = 'Specifies the type of owner that will be assigned to any record that is created while synchronizing from Business Central to Dataverse.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the type of owner that will be assigned to any record that is created while synchronizing from Business Central to Dataverse.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                         trigger OnValidate()
                         begin

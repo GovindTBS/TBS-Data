@@ -182,7 +182,7 @@ report 709 "Inventory Purchase Orders"
         BackOrderQty: Decimal;
         ItemDescription: Text[100];
 
-        TableFilterTxt: Label 'Purchase Order Line: %1', Comment = '%1 - table filters';
+TableFilterTxt: Label 'Purchase Order Line: %1', Comment = '%1 - table filters';
         InventoryPurchaseOrdersCaptionLbl: Label 'Inventory Purchase Orders';
         CurrReportPageNoCaptionLbl: Label 'Page';
         PurchHeaderPaytoNameCaptionLbl: Label 'Vendor';

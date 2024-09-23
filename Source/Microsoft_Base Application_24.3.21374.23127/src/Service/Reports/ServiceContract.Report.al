@@ -408,8 +408,8 @@ report 5970 "Service Contract"
                     field(ShowComments; ShowComments)
                     {
                         ApplicationArea = Service;
-                        Caption = 'Show Comments';
-                        ToolTip = 'Specifies if you want the printed report to show any service comments.';
+Caption = 'Show Comments';
+ToolTip = 'Specifies if you want the printed report to show any service comments.';
                     }
                     field(LogInteraction; LogInteraction)
                     {
@@ -495,10 +495,10 @@ report 5970 "Service Contract"
         Email_ServContractCaptionLbl: Label 'Email';
         StartingDate_ContractDiscCaptionLbl: Label 'Starting Date';
         ServiceDiscountsCaptionLbl: Label 'Service Discounts';
-        Date_ServCommentLineCaptionLbl: Label 'Date';
+Date_ServCommentLineCaptionLbl: Label 'Date';
         ShiptoAddressCaptionLbl: Label 'Ship-to Address';
-        CommentsCaptionLbl: Label 'Comments';
-        Date_servcommentline2CaptionLbl: Label 'Date';
+CommentsCaptionLbl: Label 'Comments';
+Date_servcommentline2CaptionLbl: Label 'Date';
 
     protected var
         CompanyInfo: Record "Company Information";

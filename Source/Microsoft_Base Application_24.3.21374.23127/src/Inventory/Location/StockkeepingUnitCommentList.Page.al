@@ -3,7 +3,7 @@ namespace Microsoft.Inventory.Location;
 page 5702 "Stockkeeping Unit Comment List"
 {
     AutoSplitKey = true;
-    Caption = 'Stockkeeping Unit Comment List';
+Caption = 'Stockkeeping Unit Comment List';
     DataCaptionFields = "Location Code", "Item No.", "Variant Code";
     Editable = false;
     LinksAllowed = false;
@@ -36,17 +36,17 @@ page 5702 "Stockkeeping Unit Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Planning;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Planning;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

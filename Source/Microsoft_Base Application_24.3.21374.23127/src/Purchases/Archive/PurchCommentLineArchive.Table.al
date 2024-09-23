@@ -8,7 +8,7 @@ using Microsoft.Purchases.Comment;
 
 table 5125 "Purch. Comment Line Archive"
 {
-    Caption = 'Purch. Comment Line Archive';
+Caption = 'Purch. Comment Line Archive';
     DrillDownPageID = "Purch. Archive Comment Sheet";
     LookupPageID = "Purch. Archive Comment Sheet";
     DataClassification = CustomerContent;
@@ -37,7 +37,7 @@ table 5125 "Purch. Comment Line Archive"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(7; "Document Line No."; Integer)
         {

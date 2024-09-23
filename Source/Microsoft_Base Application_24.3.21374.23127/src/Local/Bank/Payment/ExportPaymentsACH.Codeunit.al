@@ -46,9 +46,9 @@ codeunit 10090 "Export Payments (ACH)"
         FileTime: Time;
         ModifierValues: array[26] of Code[1];
         TraceNo: Integer;
-        ExportInProcessErr: Label 'Cannot start new Export File while %1 is in process.', Comment = '%1 = the filename that is already being processed.';
-        ExportFilePathErr: Label '%1 in %2 %3 is invalid.', Comment = '%1 = the export file path, %2 the field in the table, ie, bank, customer etc, %3 = the identifier for the record, ie, bankaccount number etc. ';
-        FileAlreadyExistsErr: Label 'File %1 already exists. Check the %2 in %3 %4.', Comment = '%1 = file name, %2 file patch, the bank account table, the identifier in the bank account table, ie the .No';
+ExportInProcessErr: Label 'Cannot start new Export File while %1 is in process.', Comment = '%1 = the filename that is already being processed.';
+ExportFilePathErr: Label '%1 in %2 %3 is invalid.', Comment = '%1 = the export file path, %2 the field in the table, ie, bank, customer etc, %3 = the identifier for the record, ie, bankaccount number etc. ';
+FileAlreadyExistsErr: Label 'File %1 already exists. Check the %2 in %3 %4.', Comment = '%1 = file name, %2 file patch, the bank account table, the identifier in the bank account table, ie the .No';
         ExportFileNotStartedErr: Label 'Cannot start export batch until an export file is started.';
         ExportFileNotCompletedErr: Label 'Cannot start new export batch until previous batch is completed.';
         ExportDetailsFileNotStartedErr: Label 'Cannot export details until an export file is started.';
@@ -57,13 +57,13 @@ codeunit 10090 "Export Payments (ACH)"
         ExportBatchNotStartedErr: Label 'Cannot end export batch until an export batch is started.';
         ExportFileNotEndedFileNotStartedErr: Label 'Cannot end export file until an export file is started.';
         ExportFileNotEndedFileNotEndedErr: Label 'Cannot end export file until export batch is ended.';
-        FileDoesNoteExistErr: Label 'File %1 does not exist.', Comment = '%1 = the file name.';
-        InvalidPaymentSpecErr: Label 'Either %1 or %2 must refer to either a %3 or a %4 for an electronic payment.', Comment = '%1 = Account Type, %2 = the account,%3 = Vendor table, %4 = Customer table';
-        CustomerBlockedErr: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = customer.blocked';
-        PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = account type';
-        VendorTransitNumNotValidErr: Label 'The specified transit number %1 for vendor %2  is not valid.', Comment = '%1 the transit number, %2 The Vendor No.';
-        CustTransitNumNotValidErr: Label 'The specified transit number %1 for customer %2  is not valid.', Comment = '%1 the transit number, %2 The customer  No.';
-        BankTransitNumNotValidErr: Label 'The specified transit number %1 for bank %2  is not valid.', Comment = '%1 the transit number, %2 The bank  No.';
+FileDoesNoteExistErr: Label 'File %1 does not exist.', Comment = '%1 = the file name.';
+InvalidPaymentSpecErr: Label 'Either %1 or %2 must refer to either a %3 or a %4 for an electronic payment.', Comment = '%1 = Account Type, %2 = the account,%3 = Vendor table, %4 = Customer table';
+CustomerBlockedErr: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = customer.blocked';
+PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = account type';
+VendorTransitNumNotValidErr: Label 'The specified transit number %1 for vendor %2  is not valid.', Comment = '%1 the transit number, %2 The Vendor No.';
+CustTransitNumNotValidErr: Label 'The specified transit number %1 for customer %2  is not valid.', Comment = '%1 the transit number, %2 The customer  No.';
+BankTransitNumNotValidErr: Label 'The specified transit number %1 for bank %2  is not valid.', Comment = '%1 the transit number, %2 The bank  No.';
 
     procedure StartExportFile(BankAccountNo: Code[20]; ReferenceCode: Code[10])
     var

@@ -477,7 +477,7 @@ page 901 "Assembly Order Subform"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "Document No." = field("Document No."),
                                   "Document Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(AssemblyBOM)
                 {

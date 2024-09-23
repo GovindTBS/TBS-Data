@@ -877,11 +877,11 @@ page 25 "Customer Ledger Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
-                    Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref("Show Document_Promoted"; "Show Document")
@@ -918,7 +918,7 @@ page 25 "Customer Ledger Entries"
             }
             group(Category_Category5)
             {
-                Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -946,11 +946,11 @@ page 25 "Customer Ledger Entries"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -997,7 +997,7 @@ page 25 "Customer Ledger Entries"
         AmountVisible: Boolean;
         DebitCreditVisible: Boolean;
         CustNameVisible: Boolean;
-        ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
+ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
         ExportToPaymentFileConfirmTxt: Label 'Editing the Exported to Payment File field will change the payment suggestions in the Payment Journal. Edit this field only if you must correct a mistake.\Do you want to continue?';
         NoReminderCreatedErr: Label 'No reminder was created. Check the reminder terms for the customer.';
         NoFinanceChargeMemoHeaderCreatedErr: Label 'No finance charge memo was created. Check the finance charge terms for the customer.';

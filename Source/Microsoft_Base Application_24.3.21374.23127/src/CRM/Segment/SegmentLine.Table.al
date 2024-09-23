@@ -607,7 +607,7 @@ table 5077 "Segment Line"
         InheritedTxt: Label 'Inherited';
         UniqueTxt: Label 'Unique';
         NoAttachmentErr: Label 'No attachment found. You must either add an attachment or choose a template in the Word Template Code field on the Interaction Template page.';
-        FieldNotFilledErr: Label 'You must fill in the %1 field.', Comment = '%1 - field name';
+FieldNotFilledErr: Label 'You must fill in the %1 field.', Comment = '%1 - field name';
         AttachmentImportCancelledMsg: Label 'The program has stopped importing the attachment at your request.';
         SegmentEmptyResetCriteriaActionsQst: Label 'Your Segment is now empty.\Do you want to reset number of criteria actions?';
         FinishInteractionLaterQst: Label 'Do you want to finish this interaction later?';
@@ -615,9 +615,9 @@ table 5077 "Segment Line"
         SelectContactErr: Label 'You must select a contact to interact with.';
         PhoneNumberErr: Label 'You must fill in the phone number.';
 #if not CLEAN23
-        Text024: Label '%1 = %2 cannot be specified.', Comment = '%1=Correspondence Type';
+Text024: Label '%1 = %2 cannot be specified.', Comment = '%1=Correspondence Type';
 #endif
-        EmailCouldNotbeSentErr: Label 'The email could not be sent because of the following error: %1.\Note: if you run %2 as administrator, you must run Outlook as administrator as well.', Comment = '%1 - error, %2 - product name';
+EmailCouldNotbeSentErr: Label 'The email could not be sent because of the following error: %1.\Note: if you run %2 as administrator, you must run Outlook as administrator as well.', Comment = '%1 - error, %2 - product name';
         WordTemplateUsedErr: Label 'You cannot change the attachment when a Word template has been specified.';
         OneDriveNotEnabledMsg: Label 'Onedrive is not enabled. Please enable it in the OneDrive Setup page.';
         ModifyExistingAttachmentMsg: Label 'Modify existing attachment?';

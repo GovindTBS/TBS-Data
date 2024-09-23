@@ -37,8 +37,8 @@ codeunit 881 "OCR - Receive from Service"
     end;
 
     var
-        DownloadCountMsg: Label '%1 documents have been received.', Comment = '%1 = a number, e.g. 0, 1, 4.';
-        AwaitingCountMsg: Label 'You have %1 documents that require you to manually verify the OCR values before the documents can be received.', Comment = '%1 = a number, e.g. 0, 1, 4.';
+DownloadCountMsg: Label '%1 documents have been received.', Comment = '%1 = a number, e.g. 0, 1, 4.';
+AwaitingCountMsg: Label 'You have %1 documents that require you to manually verify the OCR values before the documents can be received.', Comment = '%1 = a number, e.g. 0, 1, 4.';
 
     [Scope('OnPrem')]
     procedure GetDocuments()

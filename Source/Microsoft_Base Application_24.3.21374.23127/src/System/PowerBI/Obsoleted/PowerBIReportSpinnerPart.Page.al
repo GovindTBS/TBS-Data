@@ -416,7 +416,7 @@ page 6303 "Power BI Report Spinner Part"
         ClientTypeManagement: Codeunit "Client Type Management";
         PowerBiEmbedHelper: Codeunit "Power BI Embed Helper";
         ResetReportsQst: Label 'This action will clear some or all of of the Power BI report setup for all users in the company you''re currently working with. Note: This action doesn''t delete reports in Power BI workspaces.';
-        ResetReportsOptionsTxt: Label 'Clear Power BI report selections for all pages and users,Reset the entire Power BI report setup', Comment = 'A comma-separated list of options';
+ResetReportsOptionsTxt: Label 'Clear Power BI report selections for all pages and users,Reset the entire Power BI report setup', Comment = 'A comma-separated list of options';
         PowerBiOptInImageNameLbl: Label 'PowerBi-OptIn-480px.png', Locked = true;
         GettingStartedTxt: Label 'Get started with Power BI';
         DeployReportsTxt: Label 'Upload demo reports for this page';
@@ -424,7 +424,7 @@ page 6303 "Power BI Report Spinner Part"
         StillDeployingMsg: Label 'We are still uploading your demo report. Once the upload finishes, choose Refresh again to see it in this page.\\If you have already reports in your Power BI workspace, you can choose Select Reports instead.';
         RefreshPartTxt: Label 'Refresh';
         SelectReportsTxt: Label 'Select reports';
-        ReportCaptionTxt: Label '%1 (Workspace: %2)', Comment = '%1: a report name, for example "Top customers by sales"; %2: a Power BI workspace name, for example "Contoso"';
+ReportCaptionTxt: Label '%1 (Workspace: %2)', Comment = '%1: a report name, for example "Top customers by sales"; %2: a Power BI workspace name, for example "Contoso"';
         PageState: Option GetStarted,ShouldDeploy,NoReport,NoReportButDeploying,ReportVisible,ErrorVisible;
         LastOpenedReportID: Guid;
         Context: Text[30];

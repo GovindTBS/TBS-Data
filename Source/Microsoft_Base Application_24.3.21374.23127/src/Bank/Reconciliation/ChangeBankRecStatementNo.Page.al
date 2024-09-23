@@ -38,7 +38,7 @@ page 1285 "Change Bank Rec. Statement No."
 
     var
         GlobalBankAccReconciliation: Record "Bank Acc. Reconciliation";
-        StatementAlreadyExistsErr: Label 'A bank account reconciliation with statement number %1 already exists.', Comment = '%1 - statement number';
+StatementAlreadyExistsErr: Label 'A bank account reconciliation with statement number %1 already exists.', Comment = '%1 - statement number';
         NewStatementNo: Code[20];
 
     procedure SetBankAccReconciliation(BankAccReconciliation: Record "Bank Acc. Reconciliation")

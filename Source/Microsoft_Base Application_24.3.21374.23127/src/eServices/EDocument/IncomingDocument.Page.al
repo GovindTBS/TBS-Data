@@ -669,9 +669,9 @@ page 189 "Incoming Document"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -937,7 +937,7 @@ page 189 "Incoming Document"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CreateManually_Promoted; CreateManually)
                 {
@@ -950,7 +950,7 @@ page 189 "Incoming Document"
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -965,7 +965,7 @@ page 189 "Incoming Document"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Status', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Status', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(SetToProcessed_Promoted; SetToProcessed)
@@ -998,7 +998,7 @@ page 189 "Incoming Document"
             }
             group(Category_Category8)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1015,7 +1015,7 @@ page 189 "Incoming Document"
             }
             group(Category_Category9)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1026,7 +1026,7 @@ page 189 "Incoming Document"
             }
             group(Category_Category6)
             {
-                Caption = 'Incoming Document', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Incoming Document', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(OpenDocument_Promoted; OpenDocument)
                 {
@@ -1040,7 +1040,7 @@ page 189 "Incoming Document"
             }
             group(Category_Category7)
             {
-                Caption = 'OCR', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'OCR', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(SendToOcr_Promoted; SendToOcr)
                 {
@@ -1054,7 +1054,7 @@ page 189 "Incoming Document"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1134,7 +1134,7 @@ page 189 "Incoming Document"
         AttachEnabled: Boolean;
         ReplaceMainAttachmentEnabled: Boolean;
 
-        AutomaticProcessingQst: Label 'The Data Exchange Type field is filled on at least one of the selected Incoming Documents.\\Are you sure you want to create documents manually?', Comment = '%1 is Data Exchange Type';
+AutomaticProcessingQst: Label 'The Data Exchange Type field is filled on at least one of the selected Incoming Documents.\\Are you sure you want to create documents manually?', Comment = '%1 is Data Exchange Type';
         InvalidTypeErr: Label 'The default attachment is not an XML document.';
         NoPostedDocumentsErr: Label 'There are no posted documents.';
 

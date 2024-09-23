@@ -214,7 +214,7 @@ page 1345 "Sales Price and Line Discounts"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Set Special Prices_Promoted"; "Set Special Prices")
                 {

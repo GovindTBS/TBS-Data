@@ -833,7 +833,7 @@ page 6050 "Service Contract"
                                   "Table Subtype" = field("Contract Type"),
                                   "No." = field("Contract No."),
                                   "Table Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(DocAttach)
                 {
@@ -1252,7 +1252,7 @@ page 6050 "Service Contract"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(OpenContract_Promoted; OpenContract)
                 {
@@ -1292,7 +1292,7 @@ page 6050 "Service Contract"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -1303,7 +1303,7 @@ page 6050 "Service Contract"
             }
             group(Category_Category5)
             {
-                Caption = 'Contract', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Contract', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1320,7 +1320,7 @@ page 6050 "Service Contract"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Contract Details_Promoted"; "Contract Details")
                 {
@@ -1372,9 +1372,9 @@ page 6050 "Service Contract"
     end;
 
     var
-        Text000: Label '%1 must not be blank in %2 %3', Comment = 'Contract No. must not be blank in Service Contract Header SC00004';
+Text000: Label '%1 must not be blank in %2 %3', Comment = 'Contract No. must not be blank in Service Contract Header SC00004';
         Text003: Label 'There are unposted invoices associated with this contract.\\Do you want to continue?';
-        Text004: Label 'You cannot create an invoice for %1 %2 because %3 is %4.', Comment = 'You cannot create an invoice for Service Contract Header Contract No. because Invoice Period is Month.';
+Text004: Label 'You cannot create an invoice for %1 %2 because %3 is %4.', Comment = 'You cannot create an invoice for Service Contract Header Contract No. because Invoice Period is Month.';
         Text005: Label 'The next invoice date has not expired.';
         Text006: Label 'An invoice was created successfully.';
         Text007: Label 'Do you want to create an invoice for the contract?';
@@ -1394,8 +1394,8 @@ page 6050 "Service Contract"
         CopyServDoc: Report "Copy Service Document";
         ServContractMgt: Codeunit ServContractManagement;
         UserMgt: Codeunit "User Setup Management";
-        Text015: Label '%1 must not be %2 in %3 %4', Comment = 'Status must not be Locked in Service Contract Header SC00005';
-        Text016: Label 'A credit memo cannot be created, because the %1 %2 is after the work date.', Comment = 'A credit memo cannot be created, because the Credit Memo Date 03-02-11 is after the work date.';
+Text015: Label '%1 must not be %2 in %3 %4', Comment = 'Status must not be Locked in Service Contract Header SC00005';
+Text016: Label 'A credit memo cannot be created, because the %1 %2 is after the work date.', Comment = 'A credit memo cannot be created, because the Credit Memo Date 03-02-11 is after the work date.';
         FormatAddress: Codeunit "Format Address";
         FirstServiceDateEditable: Boolean;
         PrepaidEnable: Boolean;

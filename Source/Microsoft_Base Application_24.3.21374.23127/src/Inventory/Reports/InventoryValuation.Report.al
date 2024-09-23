@@ -274,12 +274,12 @@ report 10139 "Inventory Valuation"
         Progress: Dialog;
         Grouping: Boolean;
         EndDateErr: Label 'You must enter an As Of Date.';
-        ShowLocationAndVariantsErr: Label 'If you want to show Locations without also showing Variants, you must add a new key to the %1 table which starts with the %2 and %3 fields.', Comment = '%1 = Item Ledger Entry table Caption; %2 = Item No. field Caption; %3 = Location Code field Caption';
-        EndDateFilterErr: Label 'Do not set a %1 on the %2.  Use the As Of Date on the Option tab instead.', Comment = '%1 = Date Filter field Caption; %2 = Item table Caption';
-        EndDatePrefixLbl: Label 'Quantities and Values As Of %1', Comment = '%1 = As Of Date prefix';
-        InvoicePostingGroupLbl: Label '%1 %2 (%3)', Comment = '%1 = Invoice Posting Group table Caption; %2 = Invoice Posting Group''s Code; %3 = Invoice Posting Group''s Description';
-        InvoicePostingGroupTotalLbl: Label '%1 %2 (%3) Total', Comment = '%1 = Invoice Posting Group table Caption; %2 = Invoice Posting Group''s Code; %3 = Invoice Posting Group''s Description';
-        CurrencyCodePrefixLbl: Label 'All Inventory Values are shown in %1.', Comment = '%1 = Curreny Code';
+ShowLocationAndVariantsErr: Label 'If you want to show Locations without also showing Variants, you must add a new key to the %1 table which starts with the %2 and %3 fields.', Comment = '%1 = Item Ledger Entry table Caption; %2 = Item No. field Caption; %3 = Location Code field Caption';
+EndDateFilterErr: Label 'Do not set a %1 on the %2.  Use the As Of Date on the Option tab instead.', Comment = '%1 = Date Filter field Caption; %2 = Item table Caption';
+EndDatePrefixLbl: Label 'Quantities and Values As Of %1', Comment = '%1 = As Of Date prefix';
+InvoicePostingGroupLbl: Label '%1 %2 (%3)', Comment = '%1 = Invoice Posting Group table Caption; %2 = Invoice Posting Group''s Code; %3 = Invoice Posting Group''s Description';
+InvoicePostingGroupTotalLbl: Label '%1 %2 (%3) Total', Comment = '%1 = Invoice Posting Group table Caption; %2 = Invoice Posting Group''s Code; %3 = Invoice Posting Group''s Description';
+CurrencyCodePrefixLbl: Label 'All Inventory Values are shown in %1.', Comment = '%1 = Curreny Code';
         NoVariantLbl: Label 'No Variant';
         NoLocationLbl: Label 'No Location';
         Inventory_ValuationCaptionLbl: Label 'Inventory Valuation';

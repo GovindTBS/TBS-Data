@@ -9,17 +9,17 @@ codeunit 1642 "Intelligent Info Manifest"
         AddinManifestManagement: Codeunit "Add-in Manifest Management";
         EnvironmentInfo: Codeunit "Environment Information";
 
-        OpenPaneButtonTxt: Label 'Contact Insights', Comment = 'Shows more information about the contact';
-        OpenPaneButtonTooltipTxt: Label 'Opens a more detailed view of the contact in %1.', Comment = '%1 = Application name';
-        OpenPaneSuperTipTxt: Label 'Open %1 in Outlook', Comment = '%1 = Application name';
-        OpenPaneSuperTipDescriptionTxt: Label 'Opens a more detailed view of the customer or vendor in %1.', Comment = '%1 = Application name';
+OpenPaneButtonTxt: Label 'Contact Insights', Comment = 'Shows more information about the contact';
+OpenPaneButtonTooltipTxt: Label 'Opens a more detailed view of the contact in %1.', Comment = '%1 = Application name';
+OpenPaneSuperTipTxt: Label 'Open %1 in Outlook', Comment = '%1 = Application name';
+OpenPaneSuperTipDescriptionTxt: Label 'Opens a more detailed view of the customer or vendor in %1.', Comment = '%1 = Application name';
         NewMenuButtonTxt: Label 'New';
-        NewMenuButtonTooltipTxt: Label 'Creates a new document in %1.', Comment = '%1 = Application name';
-        NewMenuSuperTipTxt: Label 'Create a new document in %1', Comment = '%1 = Application name';
-        NewMenuSuperTipDescriptionTxt: Label 'Creates a new document for the selected customer or vendor in %1.', Comment = '%1 = Application name';
-        NewDocButtonTooltipTxt: Label 'Creates a new %1 in %2.', Comment = '%1 = document type (sales quote, purchase credit memo, etc.); %2 = Application name';
-        NewDocSuperTipTxt: Label 'Create new %1', Comment = '%1 = document type (sales quote, purchase credit memo, etc.)';
-        NewDocSuperTipDescTxt: Label 'Creates a new %1 for this contact in %2.', Comment = '%1 = document type (sales quote, purchase credit memo, etc.); %2 = Application name';
+NewMenuButtonTooltipTxt: Label 'Creates a new document in %1.', Comment = '%1 = Application name';
+NewMenuSuperTipTxt: Label 'Create a new document in %1', Comment = '%1 = Application name';
+NewMenuSuperTipDescriptionTxt: Label 'Creates a new document for the selected customer or vendor in %1.', Comment = '%1 = Application name';
+NewDocButtonTooltipTxt: Label 'Creates a new %1 in %2.', Comment = '%1 = document type (sales quote, purchase credit memo, etc.); %2 = Application name';
+NewDocSuperTipTxt: Label 'Create new %1', Comment = '%1 = document type (sales quote, purchase credit memo, etc.)';
+NewDocSuperTipDescTxt: Label 'Creates a new %1 for this contact in %2.', Comment = '%1 = document type (sales quote, purchase credit memo, etc.); %2 = Application name';
         AddinNameTxt: Label 'Contact Insights';
         AddinDescriptionTxt: Label 'Provides customer and vendor information directly within Outlook messages.';
         AppIdTxt: Label 'cfca30bd-9846-4819-a6fc-56c89c5aae96', Locked = true;

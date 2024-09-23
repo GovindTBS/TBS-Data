@@ -201,7 +201,7 @@ page 188 "Posted Docs. With No Inc. Doc."
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
                 actionref(IncomingDocAttachFile_Promoted; IncomingDocAttachFile)
                 {
@@ -209,7 +209,7 @@ page 188 "Posted Docs. With No Inc. Doc."
             }
             group(Category_Process)
             {
-                Caption = 'Incoming Document', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Incoming Document', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(IncomingDocCard_Promoted; IncomingDocCard)
                 {
@@ -223,7 +223,7 @@ page 188 "Posted Docs. With No Inc. Doc."
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -17,7 +17,7 @@ using System.Automation;
 
 page 36603 "Credit & Collections Mgr. RC"
 {
-    Caption = 'Credit & Collections Manager', Comment = 'Use same translation as ''Profile Description'' ';
+Caption = 'Credit & Collections Manager', Comment = 'Use same translation as ''Profile Description'' ';
     PageType = RoleCenter;
 
     layout
@@ -213,13 +213,13 @@ page 36603 "Credit & Collections Mgr. RC"
                 {
                     Caption = 'Posted Deposits';
                     RunObject = Page "Posted Deposit List";
-                    ToolTip = 'View the posted deposit header, deposit header lines, deposit comments, and deposit dimensions.';
+ToolTip = 'View the posted deposit header, deposit header lines, deposit comments, and deposit dimensions.';
                 }
                 action("Posted Bank Deposits")
                 {
                     Caption = 'Posted Bank Deposits';
                     RunObject = codeunit "Open P. Bank Deposits L. Page";
-                    ToolTip = 'View the posted bank deposit header, bank deposit header lines, bank deposit comments, and bank deposit dimensions.';
+ToolTip = 'View the posted bank deposit header, bank deposit header lines, bank deposit comments, and bank deposit dimensions.';
                 }
             }
         }

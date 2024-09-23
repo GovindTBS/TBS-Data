@@ -25,7 +25,7 @@ codeunit 363 "PostSales-Delete"
     var
         ItemTrackingMgt: Codeunit "Item Tracking Management";
         MoveEntries: Codeunit MoveEntries;
-        DocumentDeletionErr: Label 'You cannot delete posted sales documents that are posted after %1. \\The date is defined by the Allow Document Deletion Before field in the Sales & Receivables Setup window.', Comment = '%1 - Posting Date';
+DocumentDeletionErr: Label 'You cannot delete posted sales documents that are posted after %1. \\The date is defined by the Allow Document Deletion Before field in the Sales & Receivables Setup window.', Comment = '%1 - Posting Date';
 
     procedure DeleteHeader(SalesHeader: Record "Sales Header"; var SalesShptHeader: Record "Sales Shipment Header"; var SalesInvHeader: Record "Sales Invoice Header"; var SalesCrMemoHeader: Record "Sales Cr.Memo Header"; var ReturnRcptHeader: Record "Return Receipt Header"; var SalesInvHeaderPrePmt: Record "Sales Invoice Header"; var SalesCrMemoHeaderPrePmt: Record "Sales Cr.Memo Header")
     var

@@ -135,11 +135,11 @@ page 297 "Vendor Item Catalog"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
 #if not CLEAN23
                 actionref("Purch. Prices_Promoted"; "Purch. Prices")

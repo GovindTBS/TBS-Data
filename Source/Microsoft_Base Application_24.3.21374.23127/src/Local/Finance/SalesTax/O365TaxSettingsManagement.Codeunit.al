@@ -23,7 +23,7 @@ codeunit 10150 "O365 Tax Settings Management"
         DiscardWithNoNameInstructionTxt: Label 'City or state name must be filled in.';
         UpdateOtherAreasOptionQst: Label 'Continue,Undo';
         UpdateOtherAreasInstructionTxt: Label 'Updating a city or state tax rate will affect all customers using the rate.';
-        DefaultTxt: Label 'DEFAULT', Comment = 'Please translate all caps with max length 20 chars.';
+DefaultTxt: Label 'DEFAULT', Comment = 'Please translate all caps with max length 20 chars.';
         TemplateTaxAreaDoesNotExistMsg: Label 'Customer template tax area %1 does not exist.', Locked = true;
         TemplateInvoicingCategoryTxt: Label 'AL Inv template', Locked = true;
         CannotRemoveDefaultTaxAreaErr: Label 'You cannot remove the default tax area.';

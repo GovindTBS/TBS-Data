@@ -11,8 +11,8 @@ codeunit 8620 "Config. Package - Import"
 
     var
         PathIsEmptyErr: Label 'You must enter a file path.';
-        ErrorsImportingPackageErr: Label '%1 errors occurred when importing %2 package.', Comment = '%1 = No. of errors, %2 = Package Code';
-        PathIsTooLongErr: Label 'The path cannot be longer than %1 characters.', Comment = '%1 = Max no. of characters';
+ErrorsImportingPackageErr: Label '%1 errors occurred when importing %2 package.', Comment = '%1 = No. of errors, %2 = Package Code';
+PathIsTooLongErr: Label 'The path cannot be longer than %1 characters.', Comment = '%1 = Max no. of characters';
 
     [Scope('OnPrem')]
     procedure ImportAndApplyRapidStartPackage(PackageFileLocation: Text)

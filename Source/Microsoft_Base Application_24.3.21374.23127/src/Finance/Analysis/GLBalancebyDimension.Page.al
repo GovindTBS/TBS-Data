@@ -367,7 +367,7 @@ page 408 "G/L Balance by Dimension"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Previous Set_Promoted"; "Previous Set")
                 {

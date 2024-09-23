@@ -461,7 +461,7 @@ page 1393 "Trial Balance"
         IncomeBeforeInterestAndTax2: Text;
         DescriptionCap: Label 'Description';
         PeriodVisible: Boolean;
-        InstructionMsg: Label 'This chart provides a quick overview of the financial performance of your company%1. The chart is a simplified version of the G/L Trial Balance chart. The Total Revenue figure corresponds to the total in your chart of accounts.', Comment = '%1=message about the number of periods displayed, if not running on phone client';
+InstructionMsg: Label 'This chart provides a quick overview of the financial performance of your company%1. The chart is a simplified version of the G/L Trial Balance chart. The Total Revenue figure corresponds to the total in your chart of accounts.', Comment = '%1=message about the number of periods displayed, if not running on phone client';
         PeriodsMsg: Label ', displayed in two periods';
         NoOfColumns: Integer;
         IsError: Boolean;

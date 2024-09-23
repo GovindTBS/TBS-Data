@@ -214,7 +214,7 @@ page 921 "Posted Assembly Order Subform"
                     RunPageLink = "Document Type" = const("Posted Assembly"),
                                   "Document No." = field("Document No."),
                                   "Document Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

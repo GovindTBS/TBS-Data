@@ -16,7 +16,7 @@ codeunit 5878 "Phys. Invt. Rec.-Reopen"
     end;
 
     var
-        ReopeningLinesMsg: Label 'Reopening lines              #2######', Comment = '%2 = counter';
+ReopeningLinesMsg: Label 'Reopening lines              #2######', Comment = '%2 = counter';
         PhysInvtRecordHeader: Record "Phys. Invt. Record Header";
         Window: Dialog;
         LineCount: Integer;

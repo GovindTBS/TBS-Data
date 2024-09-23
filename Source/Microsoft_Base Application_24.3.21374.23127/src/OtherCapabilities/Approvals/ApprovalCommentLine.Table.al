@@ -9,7 +9,7 @@ using System.Security.AccessControl;
 
 table 455 "Approval Comment Line"
 {
-    Caption = 'Approval Comment Line';
+Caption = 'Approval Comment Line';
     DrillDownPageID = "Approval Comments";
     LookupPageID = "Approval Comments";
     DataClassification = CustomerContent;
@@ -50,7 +50,7 @@ table 455 "Approval Comment Line"
         }
         field(7; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(8; "Record ID to Approve"; RecordID)
         {

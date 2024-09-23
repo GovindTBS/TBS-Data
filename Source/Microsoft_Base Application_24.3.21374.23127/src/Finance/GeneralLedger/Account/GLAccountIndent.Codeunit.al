@@ -26,7 +26,7 @@ codeunit 3 "G/L Account-Indent"
         ICAccIndentQst: Label 'This function updates the indentation of all the G/L accounts in the chart of accounts. All accounts between a Begin-Total and the matching End-Total are indented one level. \\Do you want to indent the chart of accounts?';
         Text004: Label 'Indenting the Chart of Accounts #1##########';
         Text005: Label 'End-Total %1 is missing a matching Begin-Total.';
-        ArrayExceededErr: Label 'You can only indent %1 levels for accounts of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
+ArrayExceededErr: Label 'You can only indent %1 levels for accounts of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
 
     procedure Indent()
     var

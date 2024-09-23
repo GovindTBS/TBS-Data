@@ -92,5 +92,5 @@ page 6758 "Reminder Act. History Detailed"
     var
         PageCaptionGlobal: Text;
         NumberOfErrors: Integer;
-        CaptionLbl: Label '%1 - Run Id %2', Comment = '%1 - Code of the action group, %2 - number, e.g. CREATE REMINDERS FOR DOMESTIC CUSTOMERS - Run Id 22';
+CaptionLbl: Label '%1 - Run Id %2', Comment = '%1 - Code of the action group, %2 - number, e.g. CREATE REMINDERS FOR DOMESTIC CUSTOMERS - Run Id 22';
 }

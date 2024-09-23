@@ -79,8 +79,8 @@ codeunit 10085 "A/P Magnetic Media Management"
         Codes: array[4, 30] of Code[10];
         Amounts: array[4, 30] of Decimal;
         Totals: array[4, 30] of Decimal;
-        CodeNotSetupErr: Label 'The 1099 code %1 has not been setup in the initialization.', Comment = '%1 = 1099 Code';
-        Unknown1099CodeErr: Label 'Invoice %1 on vendor %2 has unknown 1099 code  %3.', Comment = '%1 = Invoice Entry No., %2 = Vendor No., %3 = 1099 Code';
+CodeNotSetupErr: Label 'The 1099 code %1 has not been setup in the initialization.', Comment = '%1 = 1099 Code';
+Unknown1099CodeErr: Label 'Invoice %1 on vendor %2 has unknown 1099 code  %3.', Comment = '%1 = Invoice Entry No., %2 = Vendor No., %3 = 1099 Code';
 
     procedure GetAmt("Code": Code[10]; FormTypeIndex: Integer; EndLine: Integer): Decimal
     var

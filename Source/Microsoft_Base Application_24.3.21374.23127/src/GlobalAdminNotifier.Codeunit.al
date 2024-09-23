@@ -14,9 +14,9 @@ codeunit 1444 "Global Admin Notifier"
     var
         NotificationIdTxt: Label '73e599ef-135f-44da-9fa5-00d3fe3ba32c', Locked = true;
         InternalAdminNotificationCategoryTok: Label 'Internal Admin Notification', Locked = true;
-        MessageMsg: Label 'You are assigned to the %1 role in Business Central but you are not assigned to a product license.', Comment = '%1 - The assigned role, either the GlobalAdminLbl or D365AdminLbl';
-        GlobalAdminLbl: Label 'Global Administrator', Comment = 'Refers to the Global Administrator role of Microsoft Entra ID';
-        D365AdminLbl: Label 'Dynamics 365 Administrator', Comment = 'Refers to the Dynamics 365 Administrator role of Microsoft Entra ID';
+MessageMsg: Label 'You are assigned to the %1 role in Business Central but you are not assigned to a product license.', Comment = '%1 - The assigned role, either the GlobalAdminLbl or D365AdminLbl';
+GlobalAdminLbl: Label 'Global Administrator', Comment = 'Refers to the Global Administrator role of Microsoft Entra ID';
+D365AdminLbl: Label 'Dynamics 365 Administrator', Comment = 'Refers to the Dynamics 365 Administrator role of Microsoft Entra ID';
         ActionTxt: Label 'Learn more';
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Role Center Notification Mgt.", 'OnBeforeShowNotifications', '', false, false)]

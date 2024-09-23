@@ -254,7 +254,7 @@ page 5870 "BOM Structure"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Show Warnings_Promoted"; "Show Warnings")
                 {
@@ -262,7 +262,7 @@ page 5870 "BOM Structure"
             }
             group(Category_Category4)
             {
-                Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Event_Promoted; "Event")
                 {
@@ -285,7 +285,7 @@ page 5870 "BOM Structure"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

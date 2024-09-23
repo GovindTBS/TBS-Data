@@ -86,7 +86,7 @@ codeunit 5606 "FA Check Consistency"
 
         Text000: Label 'The first entry must be an %2 for %1.';
         Text001: Label '%1 is disposed.';
-        InvalidDisposalDateErr: Label 'The disposal date of fixed asset code %1 must be the last date%2.', Comment = '%1=code value, e.g.E000140, %2=in depreciation book code x(x= a code value, e.g. COMPANY), remains empty when depr. book code is empty';
+InvalidDisposalDateErr: Label 'The disposal date of fixed asset code %1 must be the last date%2.', Comment = '%1=code value, e.g.E000140, %2=in depreciation book code x(x= a code value, e.g. COMPANY), remains empty when depr. book code is empty';
         Text003: Label 'Accumulated';
         Text004: Label '%2%3 must not be positive on %4 for %1.';
         Text005: Label '%2%3 must not be negative on %4 for %1.';

@@ -336,7 +336,7 @@ page 5836 "Copilot Marketing Text"
         TextFormat: Enum "Entity Text Format";
         Emphasis: Enum "Entity Text Emphasis";
         PromptCaption: Text;
-        PromptCaptionTxt: Label 'Describe ''%1'' using the attributes included here:', Comment = '%1 = item description (name)';
+PromptCaptionTxt: Label 'Describe ''%1'' using the attributes included here:', Comment = '%1 = item description (name)';
         EntityTextContent: Text;
         ItemName: Text;
         Attributes: Text;
@@ -346,7 +346,7 @@ page 5836 "Copilot Marketing Text"
         AllFacts: Dictionary of [Text, Text];
         Facts: Dictionary of [Text, Text];
         OutputCaption: Text;
-        CaptionTxt: Label 'Describe ''%1'' by ''%2''', Comment = '%1 = item description (name), %2 = string of facts used to describe it';
+CaptionTxt: Label 'Describe ''%1'' by ''%2''', Comment = '%1 = item description (name), %2 = string of facts used to describe it';
         ProductNameTxt: Label 'Product Name', Locked = true;
         ItemCategoryTxt: Label 'Item Category', Locked = true;
 }

@@ -19,18 +19,18 @@ codeunit 9180 "Generic Chart Mgt"
         Text003: Label 'You cannot select more than %1 measures when using the Customize Chart option.';
         Text004: Label 'You cannot select Count for this chart because the source query does not support this aggregation method.';
         Text005: Label 'The aggregation type %1 can only be selected for columns of type Decimal.';
-        DescriptionTok: Label 'DESCR.', Comment = 'DESCR.';
-        XAxisTitleTok: Label 'X-TITLE', Comment = 'X-AXIS';
-        YAxisTitleTok: Label 'Y-TITLE', Comment = 'Y-AXIS';
-        ZAxisTitleTok: Label 'Z-TITLE', Comment = 'Y-AXIS';
-        XAxisCaptionTok: Label 'X-CAPTION', Comment = 'X-AXIS';
-        ZAxisCaptionTok: Label 'Z-CAPTION', Comment = 'Y-AXIS';
-        RequiredTok: Label 'REQUIRED', Comment = 'REQUIRED';
-        Optional1Tok: Label 'OPTIONAL1', Comment = 'OPTIONAL1';
-        Optional2Tok: Label 'OPTIONAL2', Comment = 'OPTIONAL2';
-        Optional3Tok: Label 'OPTIONAL3', Comment = 'OPTIONAL3';
-        Optional4Tok: Label 'OPTIONAL4', Comment = 'OPTIONAL4';
-        Optional5Tok: Label 'OPTIONAL5', Comment = 'OPTIONAL5';
+DescriptionTok: Label 'DESCR.', Comment = 'DESCR.';
+XAxisTitleTok: Label 'X-TITLE', Comment = 'X-AXIS';
+YAxisTitleTok: Label 'Y-TITLE', Comment = 'Y-AXIS';
+ZAxisTitleTok: Label 'Z-TITLE', Comment = 'Y-AXIS';
+XAxisCaptionTok: Label 'X-CAPTION', Comment = 'X-AXIS';
+ZAxisCaptionTok: Label 'Z-CAPTION', Comment = 'Y-AXIS';
+RequiredTok: Label 'REQUIRED', Comment = 'REQUIRED';
+Optional1Tok: Label 'OPTIONAL1', Comment = 'OPTIONAL1';
+Optional2Tok: Label 'OPTIONAL2', Comment = 'OPTIONAL2';
+Optional3Tok: Label 'OPTIONAL3', Comment = 'OPTIONAL3';
+Optional4Tok: Label 'OPTIONAL4', Comment = 'OPTIONAL4';
+Optional5Tok: Label 'OPTIONAL5', Comment = 'OPTIONAL5';
         AggregationTxt: Label 'None,Count,Sum,Min,Max,Avg';
 
     [Scope('OnPrem')]

@@ -148,7 +148,7 @@ page 6561 "Invt. Receipt"
                 {
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or edit comments.';
+ToolTip = 'View or edit comments.';
                     RunObject = Page "Inventory Comment Sheet";
                     RunPageLink = "Document Type" = const("Inventory Receipt"),
                                   "No." = field("No.");

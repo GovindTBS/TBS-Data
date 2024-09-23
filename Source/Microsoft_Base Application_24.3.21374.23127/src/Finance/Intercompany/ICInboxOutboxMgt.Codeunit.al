@@ -51,10 +51,10 @@ codeunit 427 ICInboxOutboxMgt
         Text002: Label 'You cannot send IC document because %1 %2 has %3 %4.';
         Text004: Label 'Transaction %1 for %2 %3 already exists in the %4 table.';
         Text005: Label '%1 must be %2 or %3 in order to be re-created.';
-        NoItemForCommonItemErr: Label 'There is no Item related to Common Item No. %1.', Comment = '%1 = Common Item No value';
-        TransactionAlreadyExistsInOutboxHandledQst: Label '%1 %2 has already been sent to intercompany partner %3. Resending it will create a duplicate %1 for them. Do you want to send it again?', Comment = '%1 - Document Type, %2 - Document No, %3 - IC parthner code';
+NoItemForCommonItemErr: Label 'There is no Item related to Common Item No. %1.', Comment = '%1 = Common Item No value';
+TransactionAlreadyExistsInOutboxHandledQst: Label '%1 %2 has already been sent to intercompany partner %3. Resending it will create a duplicate %1 for them. Do you want to send it again?', Comment = '%1 - Document Type, %2 - Document No, %3 - IC parthner code';
         TransactionCantBeFoundErr: Label 'The Intercompany transaction that originated this document cannot be found.';
-        DuplicateICDocumentMsg: Label 'An %1 with no. %2 has been previously received through intercompany. You have an order and an invoice for the same document which can lead to duplicating information. You can remove one of these documents or use Reject IC Document.', Comment = '%1 - either "order", "invoice", or "posted invoice", %2 - a code';
+DuplicateICDocumentMsg: Label 'An %1 with no. %2 has been previously received through intercompany. You have an order and an invoice for the same document which can lead to duplicating information. You can remove one of these documents or use Reject IC Document.', Comment = '%1 - either "order", "invoice", or "posted invoice", %2 - a code';
 
     procedure CreateOutboxJnlTransaction(TempGenJnlLine: Record "Gen. Journal Line" temporary; Rejection: Boolean): Integer
     var

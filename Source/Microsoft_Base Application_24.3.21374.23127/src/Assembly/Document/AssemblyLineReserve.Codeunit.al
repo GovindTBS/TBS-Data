@@ -24,10 +24,10 @@ codeunit 926 "Assembly Line-Reserve"
         ReservationEngineMgt: Codeunit "Reservation Engine Mgt.";
         DeleteItemTracking: Boolean;
 
-        Text000Err: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1 - quantity';
+Text000Err: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1 - quantity';
         Text001Err: Label 'Codeunit is not initialized correctly.';
-        Text002Err: Label 'must be filled in when a quantity is reserved', Comment = 'starts with "Due Date"';
-        Text003Err: Label 'must not be changed when a quantity is reserved', Comment = 'starts with some field name';
+Text002Err: Label 'must be filled in when a quantity is reserved', Comment = 'starts with "Due Date"';
+Text003Err: Label 'must not be changed when a quantity is reserved', Comment = 'starts with some field name';
         SummaryTypeTxt: Label '%1, %2', Locked = true;
 
     procedure CreateReservation(AssemblyLine: Record "Assembly Line"; Description: Text[100]; ExpectedReceiptDate: Date; Quantity: Decimal; QuantityBase: Decimal; ForReservationEntry: Record "Reservation Entry")

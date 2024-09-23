@@ -2,7 +2,7 @@ namespace Microsoft.Manufacturing.Routing;
 
 table 99000775 "Routing Comment Line"
 {
-    Caption = 'Routing Comment Line';
+Caption = 'Routing Comment Line';
     DrillDownPageID = "Routing Comment List";
     LookupPageID = "Routing Comment List";
     DataClassification = CustomerContent;
@@ -37,7 +37,7 @@ table 99000775 "Routing Comment Line"
         }
         field(12; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(13; "Code"; Code[10])
         {

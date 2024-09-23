@@ -1733,8 +1733,8 @@ table 246 "Requisition Line"
         Text038: Label 'The currency exchange rate for the %1 %2 that vendor %3 uses on the order date %4, does not exist.';
         ReplenishmentErr: Label 'Requisition Worksheet cannot be used to create Prod. Order replenishment.';
         ConfirmDeleteAllLinesQst: Label 'Go ahead and delete all lines?';
-        BlockedErr: Label 'You cannot choose %1 %2 because the %3 check box is selected on its %1 card.', Comment = '%1 - Table Caption (item/variant), %2 - Item No./Variant Code, %3 - Field Caption';
-        ItemVariantPrimaryKeyLbl: Label '%1, %2', Comment = '%1 - Item No., %2 - Variant Code', Locked = true;
+BlockedErr: Label 'You cannot choose %1 %2 because the %3 check box is selected on its %1 card.', Comment = '%1 - Table Caption (item/variant), %2 - Item No./Variant Code, %3 - Field Caption';
+ItemVariantPrimaryKeyLbl: Label '%1, %2', Comment = '%1 - Item No., %2 - Variant Code', Locked = true;
 
     protected var
         TempPlanningErrorLog: Record "Planning Error Log" temporary;

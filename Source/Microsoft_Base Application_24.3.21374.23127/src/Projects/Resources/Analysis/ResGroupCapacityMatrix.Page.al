@@ -254,7 +254,7 @@ page 9243 "Res. Group Capacity Matrix"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("Resource Group"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

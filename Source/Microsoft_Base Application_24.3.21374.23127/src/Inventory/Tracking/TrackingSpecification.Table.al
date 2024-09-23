@@ -525,7 +525,7 @@ table 336 "Tracking Specification"
         Text003: Label '%1 must be -1, 0 or 1 when %2 is stated.';
         Text004: Label 'Expiration date has been established by existing entries and cannot be changed.';
         RemainingQtyErr: Label 'The %1 in item ledger entry %2 is too low to cover quantity available to handle.';
-        WrongQtyForItemErr: Label '%1 in the item tracking assigned to the document line for item %2 is currently %3. It must be %4.\\Check the assignment for serial number %5, lot number %6, package number %7.', Comment = '%1 - Qty. to Handle or Qty. to Invoice, %2 - Item No., %3 - actual value, %4 - expected value, %5 - Serial No., %6 - Lot No., %7 - Package No.';
+WrongQtyForItemErr: Label '%1 in the item tracking assigned to the document line for item %2 is currently %3. It must be %4.\\Check the assignment for serial number %5, lot number %6, package number %7.', Comment = '%1 - Qty. to Handle or Qty. to Invoice, %2 - Item No., %3 - actual value, %4 - expected value, %5 - Serial No., %6 - Lot No., %7 - Package No.';
 
     procedure GetLastEntryNo(): Integer;
     var

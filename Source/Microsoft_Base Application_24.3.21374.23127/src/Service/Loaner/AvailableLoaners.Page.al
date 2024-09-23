@@ -35,7 +35,7 @@ page 5921 "Available Loaners"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that there is a comment for this loaner.';
+ToolTip = 'Specifies that there is a comment for this loaner.';
                 }
                 field(Blocked; Rec.Blocked)
                 {
@@ -100,7 +100,7 @@ page 5921 "Available Loaners"
                     RunObject = Page "Service Comment Sheet";
                     RunPageLink = "Table Name" = const(Loaner),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Loaner E&ntries")
                 {
@@ -161,6 +161,6 @@ page 5921 "Available Loaners"
     end;
 
     var
-        Text000: Label 'You cannot receive %1 %2 because it has not been lent.', Comment = 'You cannot receive Loaner L00001 because it has not been lent.';
+Text000: Label 'You cannot receive %1 %2 because it has not been lent.', Comment = 'You cannot receive Loaner L00001 because it has not been lent.';
 }
 

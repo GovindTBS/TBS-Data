@@ -539,7 +539,7 @@ report 408 "Purchase - Receipt"
     end;
 
     var
-        Text002: Label 'Purchase - Receipt %1', Comment = '%1 = Document No.';
+Text002: Label 'Purchase - Receipt %1', Comment = '%1 = Document No.';
         SalesPurchPerson: Record "Salesperson/Purchaser";
         DimSetEntry1: Record "Dimension Set Entry";
         DimSetEntry2: Record "Dimension Set Entry";

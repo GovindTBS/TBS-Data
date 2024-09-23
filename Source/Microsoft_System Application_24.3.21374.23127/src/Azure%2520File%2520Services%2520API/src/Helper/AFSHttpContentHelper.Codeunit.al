@@ -12,7 +12,7 @@ codeunit 8953 "AFS HttpContent Helper"
     InherentPermissions = X;
 
     var
-        ContentLengthLbl: Label '%1', Comment = '%1 = Length', Locked = true;
+ContentLengthLbl: Label '%1', Comment = '%1 = Length', Locked = true;
 RangeLbl: Label 'bytes=%1-%2', Comment = '%1 = Range Start, %2 = Range End', Locked = true;
 
     /// <summary>

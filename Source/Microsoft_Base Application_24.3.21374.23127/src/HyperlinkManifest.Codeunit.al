@@ -24,9 +24,9 @@ codeunit 1643 "Hyperlink Manifest"
         AddInManifestManagement: Codeunit "Add-in Manifest Management";
         OfficeHostType: DotNet OfficeHostType;
         AddinNameTxt: Label 'Document View';
-        AddinDescriptionTxt: Label 'Provides a link directly to business documents in %1.', Comment = '%1 - Application Name';
+AddinDescriptionTxt: Label 'Provides a link directly to business documents in %1.', Comment = '%1 - Application Name';
         AppIdTxt: Label 'cf6f2e6a-5f76-4a17-b966-2ed9d0b3e88a', Locked = true;
-        PurchaseOrderAcronymTxt: Label 'PO', Comment = 'US acronym for Purchase Order';
+PurchaseOrderAcronymTxt: Label 'PO', Comment = 'US acronym for Purchase Order';
 
     [Scope('OnPrem')]
     procedure SetHyperlinkAddinTriggers(var ManifestText: Text)

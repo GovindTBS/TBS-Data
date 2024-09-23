@@ -833,7 +833,7 @@ page 118 "General Ledger Setup"
             }
             group(Category_Category5)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("General Posting Setup_Promoted"; "General Posting Setup")
                 {
@@ -847,7 +847,7 @@ page 118 "General Ledger Setup"
             }
             group(Category_Category4)
             {
-                Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Accounting Periods_Promoted"; "Accounting Periods")
                 {
@@ -864,7 +864,7 @@ page 118 "General Ledger Setup"
             }
             group(Category_Category6)
             {
-                Caption = 'VAT', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'VAT', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("VAT Statement Templates_Promoted"; "VAT Statement Templates")
                 {
@@ -884,7 +884,7 @@ page 118 "General Ledger Setup"
             }
             group(Category_Category7)
             {
-                Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref("Bank Export/Import Setup_Promoted"; "Bank Export/Import Setup")
                 {
@@ -895,7 +895,7 @@ page 118 "General Ledger Setup"
             }
             group(Category_Category8)
             {
-                Caption = 'Journal Templates', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Journal Templates', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("General Journal Templates_Promoted"; "General Journal Templates")
                 {
@@ -911,7 +911,7 @@ page 118 "General Ledger Setup"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

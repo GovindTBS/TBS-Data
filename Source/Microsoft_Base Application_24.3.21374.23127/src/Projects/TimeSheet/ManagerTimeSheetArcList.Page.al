@@ -80,7 +80,7 @@ page 962 "Manager Time Sheet Arc. List"
                     RunObject = Page "Time Sheet Arc. Comment Sheet";
                     RunPageLink = "No." = field("No."),
                                   "Time Sheet Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Posting E&ntries")
                 {

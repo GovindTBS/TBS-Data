@@ -1226,7 +1226,7 @@ report 1322 "Standard Purchase - Order"
         TaxAmount: Decimal;
         VATAmountSpecificationLbl: Label 'VAT Amount Specification in ';
         LocalCurrentyLbl: Label 'Local Currency';
-        ExchangeRateLbl: Label 'Exchange rate: %1/%2', Comment = '%1 = CurrExchRate."Relational Exch. Rate Amount", %2 = CurrExchRate."Exchange Rate Amount"';
+ExchangeRateLbl: Label 'Exchange rate: %1/%2', Comment = '%1 = CurrExchRate."Relational Exch. Rate Amount", %2 = CurrExchRate."Exchange Rate Amount"';
         CompanyInfoPhoneNoCaptionLbl: Label 'Phone No.';
         CompanyInfoGiroNoCaptionLbl: Label 'Giro No.';
         CompanyInfoBankNameCaptionLbl: Label 'Bank';

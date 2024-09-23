@@ -604,7 +604,7 @@ page 5980 "Service Item Card"
                     RunPageLink = "Table Name" = const("Service Item"),
                                   "Table Subtype" = const("0"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Attachments)
                 {
@@ -773,7 +773,7 @@ page 5980 "Service Item Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Field Service record.';
                     ObsoleteReason = 'Field Service is moved to Field Service Integration app.';
@@ -894,7 +894,7 @@ page 5980 "Service Item Card"
         {
             group(Category_Category5)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Attachments_Promoted; Attachments)
                 {
@@ -937,12 +937,12 @@ page 5980 "Service Item Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

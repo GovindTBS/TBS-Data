@@ -9,9 +9,9 @@ using Microsoft.Sales.Document;
 codeunit 404 "IC Feedback"
 {
     var
-        CreatedTransactionWaitingInOutboxMsg: Label 'An entry for document %1 has been created as an intercompany transaction. The entry awaits a manual check in the Intercompany Outbox before being sent.', Comment = '%1 = Document No.';
+CreatedTransactionWaitingInOutboxMsg: Label 'An entry for document %1 has been created as an intercompany transaction. The entry awaits a manual check in the Intercompany Outbox before being sent.', Comment = '%1 = Document No.';
         CreatedMultipleTransactionsWaitingInOutboxMsg: Label 'Multiple entries have been created as intercompany transactions. Multiple entries have been created as intercompany transactions. The entries await a manual check in the Intercompany Outbox before being sent.';
-        CreatedAndSentTransactionMsg: Label 'An entry for document %1 has been created as an intercompany transaction. The entry was automatically sent to IC partner %2.', Comment = '%1 = Document No., %2 = IC Partner No.';
+CreatedAndSentTransactionMsg: Label 'An entry for document %1 has been created as an intercompany transaction. The entry was automatically sent to IC partner %2.', Comment = '%1 = Document No., %2 = IC Partner No.';
         CreatedAndSentMultipleTransactionsMsg: Label 'Multiple entries have been created as intercompany transactions. The entries were automatically sent to their corresponding IC partners.';
 
     procedure ShowIntercompanyMessage(PurchaseHeader: Record "Purchase Header"; ICTransactionDocumentType: Enum "IC Transaction Document Type")

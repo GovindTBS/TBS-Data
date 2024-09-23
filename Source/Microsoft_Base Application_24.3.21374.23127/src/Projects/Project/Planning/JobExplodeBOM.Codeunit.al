@@ -72,7 +72,7 @@ codeunit 1019 "Job-Explode BOM"
         NextLineNo: Integer;
         NoOfBOMComp: Integer;
 
-        ItemNotBOMErr: Label 'Item %1 is not a BOM.', Comment = '%1 = Item No.';
+ItemNotBOMErr: Label 'Item %1 is not a BOM.', Comment = '%1 = Item No.';
         NotEnoughSpaceMsg: Label 'There is not enough space to explode the BOM.';
 
     procedure CallExplodeBOMCompLines(JobPlanningLine: Record "Job Planning Line")

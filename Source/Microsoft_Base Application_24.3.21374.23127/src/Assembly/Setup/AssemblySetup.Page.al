@@ -39,7 +39,7 @@ page 905 "Assembly Setup"
                 field("Copy Comments when Posting"; Rec."Copy Comments when Posting")
                 {
                     ApplicationArea = Assembly;
-                    ToolTip = 'Specifies that comments on assembly order lines are copied to the resulting posted documents.';
+ToolTip = 'Specifies that comments on assembly order lines are copied to the resulting posted documents.';
                 }
             }
             group(Numbering)

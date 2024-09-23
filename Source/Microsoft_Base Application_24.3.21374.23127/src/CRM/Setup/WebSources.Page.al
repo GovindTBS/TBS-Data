@@ -35,7 +35,7 @@ page 5069 "Web Sources"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies whether a comment has been assigned to this Web source.';
+ToolTip = 'Specifies whether a comment has been assigned to this Web source.';
                 }
             }
         }
@@ -71,7 +71,7 @@ page 5069 "Web Sources"
                     RunPageLink = "Table Name" = const("Web Source"),
                                   "No." = field(Code),
                                   "Sub No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

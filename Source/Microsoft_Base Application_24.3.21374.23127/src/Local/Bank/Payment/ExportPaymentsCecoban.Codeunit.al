@@ -57,8 +57,8 @@ codeunit 10092 "Export Payments (Cecoban)"
         Text015: Label 'Cannot end export file until export batch is ended.';
         Text016: Label 'File %1 does not exist.';
         Text018: Label 'Either %1 or %2 must refer to either a %3 or a %4 for an electronic payment.';
-        Text1020100: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = customer.blocked';
-        PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = account type';
+Text1020100: Label '%1 is blocked for %2 processing.', Comment = '%1 = account type, %2 = customer.blocked';
+PrivacyBlockedErr: Label '%1 is blocked for privacy.', Comment = '%1 = account type';
         SequenceNo: Integer;
         OpCode: Integer;
         TransitNoErr: Label 'is not valid. Bank Account number must be either the 18 character CLABE format for checking, or 16 characters for Debit Card';

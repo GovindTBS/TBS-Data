@@ -70,6 +70,6 @@ page 5834 "Marketing Text Attributes"
         }
     }
     var
-        MaxSelectionExceededErr: Label 'You can only select up to %1 attributes', Comment = '%1 is the number of maximum attributes';
+MaxSelectionExceededErr: Label 'You can only select up to %1 attributes', Comment = '%1 is the number of maximum attributes';
 }
 #endif

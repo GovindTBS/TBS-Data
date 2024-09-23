@@ -395,8 +395,8 @@ report 5972 "Service Contract Quote"
                     field(ShowComments; ShowComments)
                     {
                         ApplicationArea = Service;
-                        Caption = 'Show Comments';
-                        ToolTip = 'Specifies if you want the printed report to show any comments to a service contract quote item.';
+Caption = 'Show Comments';
+ToolTip = 'Specifies if you want the printed report to show any comments to a service contract quote item.';
                     }
                     field(LogInteraction; LogInteraction)
                     {
@@ -479,10 +479,10 @@ report 5972 "Service Contract Quote"
         ServContractEMailCaptionLbl: Label 'Email';
         ContractServDiscStrtDtCptnLbl: Label 'Starting Date';
         ServiceDiscountsCaptionLbl: Label 'Service Discounts';
-        ServCommentLineDtCaptionLbl: Label 'Date';
+ServCommentLineDtCaptionLbl: Label 'Date';
         ShiptoAddressCaptionLbl: Label 'Ship-to Address';
-        CommentsCaptionLbl: Label 'Comments';
-        ServCommentLine2DtCaptionLbl: Label 'Date';
+CommentsCaptionLbl: Label 'Comments';
+ServCommentLine2DtCaptionLbl: Label 'Date';
 
     protected var
         CompanyInfo: Record "Company Information";

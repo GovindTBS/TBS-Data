@@ -102,7 +102,7 @@ table 1112 "Cost Center"
         }
         field(11; Comment; Text[50])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(12; "Line Type"; Option)
         {

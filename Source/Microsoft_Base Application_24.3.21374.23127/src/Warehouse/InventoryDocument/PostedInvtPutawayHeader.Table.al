@@ -69,7 +69,7 @@ table 7340 "Posted Invt. Put-away Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Posted Invt. Put-Away"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

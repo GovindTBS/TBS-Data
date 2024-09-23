@@ -329,7 +329,7 @@ page 7324 "Whse. Item Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Register_Promoted"; "&Register")
                 {
@@ -340,11 +340,11 @@ page 7324 "Whse. Item Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Item &Tracking Lines_Promoted"; "Item &Tracking Lines")
                 {
@@ -352,7 +352,7 @@ page 7324 "Whse. Item Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
         }

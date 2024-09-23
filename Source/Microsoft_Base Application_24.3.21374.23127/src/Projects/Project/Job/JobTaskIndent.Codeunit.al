@@ -43,7 +43,7 @@ codeunit 1003 "Job Task-Indent"
         Text003: Label '\\Do you want to indent the Project Tasks?';
         Text004: Label 'Indenting the Project Tasks #1##########.';
         Text005: Label 'End-Total %1 is missing a matching Begin-Total.';
-        ArrayExceededErr: Label 'You can only indent %1 levels for project tasks of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
+ArrayExceededErr: Label 'You can only indent %1 levels for project tasks of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
 
     procedure Indent(JobNo: Code[20])
     var

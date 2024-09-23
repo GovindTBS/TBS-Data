@@ -33,8 +33,8 @@ codeunit 8 AccSchedManagement
         Text013: Label 'You have entered an illegal value or a nonexistent column number.';
         Text016Err: Label '%1\\ %2 %3 %4.', Locked = true;
         Text017Txt: Label 'The error occurred when the program tried to calculate:\';
-        Text018Txt: Label 'Acc. Sched. Line: Row No. = %1, Line No. = %2, Totaling = %3\', Comment = '%1 = Row No., %2= Line No., %3 = Totaling';
-        Text019Txt: Label 'Acc. Sched. Column: Column No. = %1, Line No. = %2, Formula  = %3', Comment = '%1 = Column No., %2= Line No., %3 = Formula';
+Text018Txt: Label 'Acc. Sched. Line: Row No. = %1, Line No. = %2, Totaling = %3\', Comment = '%1 = Row No., %2= Line No., %3 = Totaling';
+Text019Txt: Label 'Acc. Sched. Column: Column No. = %1, Line No. = %2, Formula  = %3', Comment = '%1 = Column No., %2= Line No., %3 = Formula';
         AccSchedName: Record "Acc. Schedule Name";
         AccountScheduleLine: Record "Acc. Schedule Line";
         ColumnLayoutName: Record "Column Layout Name";

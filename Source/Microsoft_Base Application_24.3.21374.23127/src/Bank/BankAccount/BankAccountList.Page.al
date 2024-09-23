@@ -209,7 +209,7 @@ page 371 "Bank Account List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("Bank Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(PositivePayExport)
                 {
@@ -605,7 +605,7 @@ page 371 "Bank Account List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(PositivePayExport_Promoted; PositivePayExport)
                 {
@@ -613,7 +613,7 @@ page 371 "Bank Account List"
             }
             group(Category_Category4)
             {
-                Caption = 'Bank Statement Service', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank Statement Service', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(RefreshOnlineBankAccount_Promoted; RefreshOnlineBankAccount)
                 {
@@ -642,7 +642,7 @@ page 371 "Bank Account List"
             }
             group(Category_Category5)
             {
-                Caption = 'Bank Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Bank Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 group(Category_Dimensions)
                 {
@@ -677,12 +677,12 @@ page 371 "Bank Account List"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Detail Trial Balance_Promoted"; "Detail Trial Balance")
                 {

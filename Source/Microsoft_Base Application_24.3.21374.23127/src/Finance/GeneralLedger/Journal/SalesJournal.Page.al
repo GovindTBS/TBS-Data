@@ -526,7 +526,7 @@ page 253 "Sales Journal"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
+ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
                     Visible = false;
                 }
                 field("Direct Debit Mandate ID"; Rec."Direct Debit Mandate ID")
@@ -1271,9 +1271,9 @@ page 253 "Sales Journal"
                 action(Comments)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser or ApprovalEntriesExistSentByCurrentUser;
 
                     trigger OnAction()
@@ -1295,11 +1295,11 @@ page 253 "Sales Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category5)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -1324,7 +1324,7 @@ page 253 "Sales Journal"
             }
             group(Category_Category8)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1368,7 +1368,7 @@ page 253 "Sales Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1379,12 +1379,12 @@ page 253 "Sales Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(SimpleView_Promoted; SimpleView)
                 {
@@ -1404,7 +1404,7 @@ page 253 "Sales Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1542,7 +1542,7 @@ page 253 "Sales Journal"
         IsSaaSExcelAddinEnabled: Boolean;
         IsSimplePage: Boolean;
         DocumentAmount: Decimal;
-        EmptyDocumentTypeErr: Label 'You must specify a document type for %1.', Comment = '%1 = Document number.';
+EmptyDocumentTypeErr: Label 'You must specify a document type for %1.', Comment = '%1 = Document number.';
         NegativeDocAmountErr: Label 'You must specify a positive amount as the document amount. If the journal line is for a document type that has a negative amount, the amount will be tracked correctly.';
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Account Type or Balancing Account Type.';
         UseAllocationAccountNumber: Boolean;

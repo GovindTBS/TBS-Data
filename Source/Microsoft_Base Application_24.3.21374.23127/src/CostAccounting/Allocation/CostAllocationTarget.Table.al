@@ -113,7 +113,7 @@ table 1107 "Cost Allocation Target"
         }
         field(20; Comment; Text[50])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(30; Base; Enum "Cost Allocation Target Base")
         {

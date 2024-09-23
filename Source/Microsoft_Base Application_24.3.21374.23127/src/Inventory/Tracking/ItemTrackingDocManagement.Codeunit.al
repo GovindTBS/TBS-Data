@@ -28,7 +28,7 @@ codeunit 6503 "Item Tracking Doc. Management"
         RetrieveAsmItemTracking: Boolean;
 
         CountingRecordsMsg: Label 'Counting records...';
-        TableNotSupportedErr: Label 'Table %1 is not supported.', Comment = '%1 - table number';
+TableNotSupportedErr: Label 'Table %1 is not supported.', Comment = '%1 - table number';
         CreateTrackingSpecQst: Label 'This function create tracking specification from reservation entries. Continue?';
 
     procedure AddTempRecordToSet(var TempItemLedgEntry: Record "Item Ledger Entry" temporary; SignFactor: Integer)

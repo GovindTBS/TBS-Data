@@ -133,9 +133,9 @@ page 1459 "Global Admin Message"
         LearnMoreTxt: Label 'Learn more';
         LinkToUpdateUsersWizardTxt: Label 'Update user information from Microsoft 365';
         InternalAdminNotificationCategoryTok: Label 'Internal Admin Notification', Locked = true;
-        TitleLbl: Label '3,You have signed in as %1 but you are not assigned to a product license.', Comment = '%1 - The assigned role, either the GlobalAdminLbl or D365AdminLbl';
-        GlobalAdminLbl: Label 'Global Administrator', Comment = 'Refers to the Global Administrator role of Microsoft Entra ID';
-        D365AdminLbl: Label 'Dynamics 365 Administrator', Comment = 'Refers to the Dynamics 365 Administrator role of Microsoft Entra ID';
+TitleLbl: Label '3,You have signed in as %1 but you are not assigned to a product license.', Comment = '%1 - The assigned role, either the GlobalAdminLbl or D365AdminLbl';
+GlobalAdminLbl: Label 'Global Administrator', Comment = 'Refers to the Global Administrator role of Microsoft Entra ID';
+D365AdminLbl: Label 'Dynamics 365 Administrator', Comment = 'Refers to the Dynamics 365 Administrator role of Microsoft Entra ID';
         TitleTxt: Text;
         IconVisible: Boolean;
 }

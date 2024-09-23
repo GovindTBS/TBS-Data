@@ -382,7 +382,7 @@ table 5740 "Transfer Header"
         {
             CalcFormula = exist("Inventory Comment Line" where("Document Type" = const("Transfer Order"),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -813,8 +813,8 @@ table 5740 "Transfer Header"
         Text000: Label 'You cannot rename a %1.';
         Text001: Label '%1 and %2 cannot be the same in %3 %4.';
         Text002: Label 'Do you want to change %1?';
-        SameLocationErr: Label 'Transfer order %1 cannot be posted because %2 and %3 are the same.', Comment = '%1 - order number, %2 - location from, %3 - location to';
-        TransferOrderPostedMsg1: Label 'Transfer order %1 was successfully posted and is now deleted.', Comment = '%1 = transfer order number e.g. Transfer order 1003 was successfully posted and is now deleted ';
+SameLocationErr: Label 'Transfer order %1 cannot be posted because %2 and %3 are the same.', Comment = '%1 - order number, %2 - location from, %3 - location to';
+TransferOrderPostedMsg1: Label 'Transfer order %1 was successfully posted and is now deleted.', Comment = '%1 = transfer order number e.g. Transfer order 1003 was successfully posted and is now deleted ';
         Text007: Label 'You may have changed a dimension.\\Do you want to update the lines?';
         CheckTransferLineMsg: Label 'Check transfer document line.';
 

@@ -719,7 +719,7 @@ page 392 "Phys. Inventory Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
@@ -742,7 +742,7 @@ page 392 "Phys. Inventory Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(CalculateInventory_Promoted; CalculateInventory)
                 {
@@ -753,7 +753,7 @@ page 392 "Phys. Inventory Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("Item &Tracking Lines_Promoted"; "Item &Tracking Lines")
                 {
@@ -764,7 +764,7 @@ page 392 "Phys. Inventory Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Card_Promoted; Card)
                 {
@@ -778,7 +778,7 @@ page 392 "Phys. Inventory Journal"
             }
             group(Category_Category8)
             {
-                Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Location_Promoted; Location)
                 {
@@ -801,7 +801,7 @@ page 392 "Phys. Inventory Journal"
             }
             group(Category_Category9)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(ShowLinesWithErrors_Promoted; ShowLinesWithErrors)
                 {
@@ -812,7 +812,7 @@ page 392 "Phys. Inventory Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -891,7 +891,7 @@ page 392 "Phys. Inventory Journal"
         BackgroundErrorCheck: Boolean;
         ShowAllLinesEnabled: Boolean;
         IsSaaSExcelAddinEnabled: Boolean;
-        EntryTypeErr: Label 'You cannot use entry type %1 in this journal.', Comment = '%1 - Entry Type';
+EntryTypeErr: Label 'You cannot use entry type %1 in this journal.', Comment = '%1 - Entry Type';
 
     protected var
         CurrentJnlBatchName: Code[10];

@@ -220,7 +220,7 @@ table 1502 "Workflow Step"
 
     var
         CannotReferToCurrentWorkflowErr: Label 'cannot refer to the current workflow';
-        StepIdsCannotBeTheSameErr: Label 'cannot be the same as ID', Comment = 'Example: Previous Workflow Step ID cannot be the same as ID.';
+StepIdsCannotBeTheSameErr: Label 'cannot be the same as ID', Comment = 'Example: Previous Workflow Step ID cannot be the same as ID.';
         ViewFilterDetailsTxt: Label '(View filter details)';
         CancelledErr: Label 'Cancelled.';
         ConfirmDeleteLinksQst: Label 'If you delete this workflow response, one or more other, linked workflow responses may stop working.\\Do you want to continue?';

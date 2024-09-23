@@ -405,7 +405,7 @@ page 673 "Job Queue Entry Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Set Status to Ready_Promoted"; "Set Status to Ready")
                 {
@@ -439,7 +439,7 @@ page 673 "Job Queue Entry Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
             }
             group(Category_Approvals)

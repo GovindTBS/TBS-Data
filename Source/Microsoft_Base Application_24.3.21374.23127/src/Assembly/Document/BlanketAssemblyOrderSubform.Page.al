@@ -396,13 +396,13 @@ page 941 "Blanket Assembly Order Subform"
                 action(Comments)
                 {
                     ApplicationArea = Comments;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
                     RunObject = Page "Assembly Comment Sheet";
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "Document No." = field("Document No."),
                                   "Document Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Assembly BOM")
                 {

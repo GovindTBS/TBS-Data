@@ -169,7 +169,7 @@ page 1042 "Copy Job Planning Lines"
         TargetJobNo: Code[20];
         TargetJobTaskNo: Code[20];
         Text001: Label 'The project was successfully copied.';
-        Text003: Label '%1 %2 does not exist.', Comment = 'Project Task 1000 does not exist.';
+Text003: Label '%1 %2 does not exist.', Comment = 'Project Task 1000 does not exist.';
         PlanningLineType: Option "Budget+Billable",Budget,Billable;
         FromDate: Date;
         ToDate: Date;

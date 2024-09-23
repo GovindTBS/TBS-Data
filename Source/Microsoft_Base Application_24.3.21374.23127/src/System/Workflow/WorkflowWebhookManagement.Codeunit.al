@@ -20,17 +20,17 @@ codeunit 1543 "Workflow Webhook Management"
     var
         ResponseAlreadyReceivedErr: Label 'A response has already been received.';
         ResponseNotExpectedErr: Label 'A response is not expected.';
-        UnsupportedRecordTypeErr: Label 'Record type %1 is not supported.', Comment = 'Record type Customer is not supported by this workflow response.';
-        UserUnableToCancelErr: Label 'User %1 does not have the permission necessary to cancel the item.', Comment = '%1 = a NAV user ID, for example "MEGANB"';
-        EmailNotAssociatedWithUserErr: Label 'Email %1 is not associated with any user.', Comment = '%1 = an email, for example "test@microsoft.com"';
+UnsupportedRecordTypeErr: Label 'Record type %1 is not supported.', Comment = 'Record type Customer is not supported by this workflow response.';
+UserUnableToCancelErr: Label 'User %1 does not have the permission necessary to cancel the item.', Comment = '%1 = a NAV user ID, for example "MEGANB"';
+EmailNotAssociatedWithUserErr: Label 'Email %1 is not associated with any user.', Comment = '%1 = an email, for example "test@microsoft.com"';
         EmailNotProvidedErr: Label 'You must specify an email address for the requestor.';
-        UserNotFoundErr: Label 'User %1 has not been configured in the "Approval User Setup".', Comment = '%1 = a NAV user ID, for example "MEGANB"';
-        ApproverNotFoundErr: Label 'Approver for user %1 could not be found.', Comment = '%1 = a NAV user ID, for example "MEGANB"';
-        EntryIsNotPendingErr: Label 'The %1 you are trying to act on is not in a pending state.', Comment = '%1 = the table caption for "Workflow Webhook Entry"';
-        UserUnableToDeleteErr: Label 'User %1 does not have the permission necessary to delete the item.', Comment = '%1 = a NAV user ID, for example "MEGANB"';
-        DifferentUserExpectedErr: Label 'User %1 cannot act on this step. Make sure the user who created the webhook (%2) is the same who is trying to act.', Comment = '%1, %2 = two distinct NAV user IDs, for example "MEGANB" and "WILLIAMC"';
-        WorkflowStepInstanceIdNotFoundErr: Label 'The workflow step instance id %1 was not found.', Comment = '%1 = Id value of a record.';
-        WorkflowNotWaitingForUserErr: Label 'The requested action cannot be completed because the %1 is not waiting for a user.', Comment = '%1 = the table caption for "Workflow Step Argument"';
+UserNotFoundErr: Label 'User %1 has not been configured in the "Approval User Setup".', Comment = '%1 = a NAV user ID, for example "MEGANB"';
+ApproverNotFoundErr: Label 'Approver for user %1 could not be found.', Comment = '%1 = a NAV user ID, for example "MEGANB"';
+EntryIsNotPendingErr: Label 'The %1 you are trying to act on is not in a pending state.', Comment = '%1 = the table caption for "Workflow Webhook Entry"';
+UserUnableToDeleteErr: Label 'User %1 does not have the permission necessary to delete the item.', Comment = '%1 = a NAV user ID, for example "MEGANB"';
+        DifferentUserExpectedErr: Label 'User %1 cannot act on this step. Make sure the user who created the webhook (%2) is the same who is trying to act.', Comment = '%1, %2 = two distinct NAV user IDs, for example"MEGANB"AND"WILLIAMC"';
+WorkflowStepInstanceIdNotFoundErr: Label 'The workflow step instance id %1 was not found.', Comment = '%1 = Id value of a record.';
+WorkflowNotWaitingForUserErr: Label 'The requested action cannot be completed because the %1 is not waiting for a user.', Comment = '%1 = the table caption for "Workflow Step Argument"';
         TelemetryCategoryTxt: Label 'AL Workflow Webhook', Locked = true;
         CheckingUserActionsTelemetryMsg: Label 'Checking if the user can act on the webhook. Response type: %1. Response argument null: %2.', Locked = true;
 

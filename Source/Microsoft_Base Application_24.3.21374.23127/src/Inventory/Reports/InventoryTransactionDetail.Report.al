@@ -197,7 +197,7 @@ report 704 "Inventory - Transaction Detail"
     end;
 
     var
-        PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
+PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
         TableFiltersTxt: Label '%1: %2', Locked = true;
         ItemFilter: Text;
         ItemDateFilter: Text;

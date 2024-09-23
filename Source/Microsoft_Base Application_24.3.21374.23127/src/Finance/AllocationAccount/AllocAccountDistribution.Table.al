@@ -529,9 +529,9 @@ table 2671 "Alloc. Account Distribution"
     end;
 
     var
-        GenericDimensionFilterLbl: Label 'Dimension %1 Filter', Comment = '%1 is a number most likely in a range from 1 to 8';
+GenericDimensionFilterLbl: Label 'Dimension %1 Filter', Comment = '%1 is a number most likely in a range from 1 to 8';
         BusinessUnitCodeCanOnlyBeUsedWithGLAccFilterErr: Label 'Business Unit Code Filter can only be used with distribution account that has G/L Account type';
         DimensionPageCaptionLbl: Label '%1 %2 %3', Locked = true;
         DimensionFilterCaptionLbl: Label '%1 %2', Locked = true;
-        DimensionFilterLbl: Label 'Filter', Comment = 'Used to display to the users values like Department Filter, Project Filter, Sales Campaign Filter, etc.';
+DimensionFilterLbl: Label 'Filter', Comment = 'Used to display to the users values like Department Filter, Project Filter, Sales Campaign Filter, etc.';
 }

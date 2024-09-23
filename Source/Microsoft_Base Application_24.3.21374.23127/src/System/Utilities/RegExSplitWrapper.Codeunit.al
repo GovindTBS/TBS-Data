@@ -12,7 +12,7 @@ codeunit 707 "RegEx Split Wrapper"
     var
         SplitArray: DotNet Array;
         ArrayIsEmptyErr: Label 'No split string has been supplied.';
-        IndexOutOfBoundsErr: Label 'Index out of bounds.', Comment = '%1 = integer';
+IndexOutOfBoundsErr: Label 'Index out of bounds.', Comment = '%1 = integer';
 
     procedure Split(Text: Text; Separator: Text)
     begin

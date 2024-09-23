@@ -4,7 +4,7 @@ using Microsoft.Inventory.Item;
 
 table 5701 "Stockkeeping Unit Comment Line"
 {
-    Caption = 'Stockkeeping Unit Comment Line';
+Caption = 'Stockkeeping Unit Comment Line';
     DrillDownPageID = "Stockkeeping Unit Comment List";
     LookupPageID = "Stockkeeping Unit Comment List";
     DataClassification = CustomerContent;
@@ -42,7 +42,7 @@ table 5701 "Stockkeeping Unit Comment Line"
         }
         field(7; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

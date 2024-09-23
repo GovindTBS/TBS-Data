@@ -67,6 +67,6 @@ table 9165 "Support Contact Information"
     var
         MailManagement: Codeunit "Mail Management";
         WebRequestHelper: Codeunit "Web Request Helper";
-        InvalidUriErr: Label 'The specified value is not a valid URL. You must specify a link to your website, such as https://mycompany.com/support.', Comment = 'The URL to include must be an example URL. The aim is to help the user understand what kind of input is expected from them. It should not be an existing web page. ';
+InvalidUriErr: Label 'The specified value is not a valid URL. You must specify a link to your website, such as https://mycompany.com/support.', Comment = 'The URL to include must be an example URL. The aim is to help the user understand what kind of input is expected from them. It should not be an existing web page. ';
 }
 

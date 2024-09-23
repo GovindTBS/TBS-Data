@@ -397,7 +397,7 @@ page 1027 "Job WIP Cockpit"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Calculate WIP_Promoted"; "Calculate WIP")
                 {
@@ -420,7 +420,7 @@ page 1027 "Job WIP Cockpit"
             }
             group(Category_Category4)
             {
-                Caption = 'Define', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Define', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Job_Promoted; Job)
                 {
@@ -431,7 +431,7 @@ page 1027 "Job WIP Cockpit"
             }
             group(Category_Category5)
             {
-                Caption = 'Analyze', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Analyze', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("WIP Entries_Promoted"; "WIP Entries")
                 {
@@ -445,7 +445,7 @@ page 1027 "Job WIP Cockpit"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("<Action32>_Promoted"; "<Action32>")
                 {

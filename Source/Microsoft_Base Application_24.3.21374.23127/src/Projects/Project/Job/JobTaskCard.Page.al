@@ -676,7 +676,7 @@ page 1003 "Job Task Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Field Service record.';
                     ObsoleteReason = 'Field Service is moved to Field Service Integration app.';
@@ -779,7 +779,7 @@ page 1003 "Job Task Card"
         {
             group(Category_Category8)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("Report Job Task Quote_Promoted"; "Report Job Task Quote")
                 {

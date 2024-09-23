@@ -3,7 +3,7 @@ namespace Microsoft.Sales.Reminder;
 page 442 "Reminder Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     DataCaptionExpression = Caption(Rec);
     DelayedInsert = true;
     LinksAllowed = false;
@@ -21,17 +21,17 @@ page 442 "Reminder Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

@@ -84,9 +84,9 @@ codeunit 2583 "Dim Correction Validate"
     end;
 
     var
-        StartingValidateDimensionCorrectionJobLbl: Label 'Starting Validate Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CompletedValidateDimensionCorrectionJobLbl: Label 'Completed Validate Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        StartingValidateUndoDimensionCorrectionJobLbl: Label 'Starting Validate Undo Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CompletedValidateUndoDimensionCorrectionJobLbl: Label 'Completed Validate Undo Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+StartingValidateDimensionCorrectionJobLbl: Label 'Starting Validate Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CompletedValidateDimensionCorrectionJobLbl: Label 'Completed Validate Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+StartingValidateUndoDimensionCorrectionJobLbl: Label 'Starting Validate Undo Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CompletedValidateUndoDimensionCorrectionJobLbl: Label 'Completed Validate Undo Dimension Correction Job, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
         DimensionCorrectionTok: Label 'DimensionCorrection', Locked = true;
 }

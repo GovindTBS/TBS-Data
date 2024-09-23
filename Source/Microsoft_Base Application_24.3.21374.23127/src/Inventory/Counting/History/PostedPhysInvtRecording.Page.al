@@ -116,7 +116,7 @@ page 5887 "Posted Phys. Invt. Recording"
                     RunPageLink = "Document Type" = const("Posted Recording"),
                                   "Order No." = field("Order No."),
                                   "Recording No." = field("Recording No.");
-                    ToolTip = 'Show comments.';
+ToolTip = 'Show comments.';
                 }
             }
         }

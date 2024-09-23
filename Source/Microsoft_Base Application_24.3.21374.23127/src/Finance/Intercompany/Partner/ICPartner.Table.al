@@ -119,7 +119,7 @@ table 413 "IC Partner"
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const("IC Partner"),
                                                       "No." = field(Code)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

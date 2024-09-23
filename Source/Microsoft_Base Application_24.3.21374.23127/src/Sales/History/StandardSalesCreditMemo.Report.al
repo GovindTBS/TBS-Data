@@ -1223,7 +1223,7 @@ report 1307 "Standard Sales - Credit Memo"
         BillToContactMobilePhoneNoLbl: Label 'Bill-to Contact Mobile Phone No.';
         BillToContactEmailLbl: Label 'Bill-to Contact E-Mail';
         SalesPrepCreditMemoNoLbl: Label 'Sales - Prepmt. Credit Memo %1';
-        ExchangeRateTxt: Label 'Exchange rate: %1/%2', Comment = '%1 and %2 are both amounts.';
+ExchangeRateTxt: Label 'Exchange rate: %1/%2', Comment = '%1 and %2 are both amounts.';
         AppliesToTextLbl: Label 'Applies to Document';
         NoFilterSetErr: Label 'You must specify one or more filters to avoid accidently printing all documents.';
         GreetingLbl: Label 'Hello';

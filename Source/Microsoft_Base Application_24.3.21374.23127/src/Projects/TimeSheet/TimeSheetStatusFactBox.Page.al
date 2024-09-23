@@ -16,8 +16,8 @@ page 957 "Time Sheet Status FactBox"
             field(Comment; Comment)
             {
                 ApplicationArea = Comments;
-                Caption = 'Comment';
-                ToolTip = 'Specifies a comment that applies to the time sheet status.';
+Caption = 'Comment';
+ToolTip = 'Specifies a comment that applies to the time sheet status.';
             }
             field(OpenQty; OpenQty)
             {

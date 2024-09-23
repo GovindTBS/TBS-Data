@@ -31,8 +31,8 @@ codeunit 1004 "Job Transfer Line"
         LCYCurrency: Record Currency;
         CurrencyRoundingRead: Boolean;
         Text001: Label '%1 %2 does not exist.';
-        JobPlanningLineNotFoundErr: Label 'Could not find any lines on the %1 page that are related to the %2 where the value in the %3 field is %4, and value in the %5 field is %6.', Comment = '%1=page caption, %2=table caption, %3,%5=field caption, %4,%6=field value';
-        DuplicateJobplanningLinesErr: Label 'We found more than one %1s where the value in the %2 field is %3. The value in the %2 field must be unique.', Comment = '%1=table caption, %2=field caption, %3=field value';
+JobPlanningLineNotFoundErr: Label 'Could not find any lines on the %1 page that are related to the %2 where the value in the %3 field is %4, and value in the %5 field is %6.', Comment = '%1=page caption, %2=table caption, %3,%5=field caption, %4,%6=field value';
+DuplicateJobplanningLinesErr: Label 'We found more than one %1s where the value in the %2 field is %3. The value in the %2 field must be unique.', Comment = '%1=table caption, %2=field caption, %3=field value';
 
     procedure FromJnlLineToLedgEntry(JobJnlLine2: Record "Job Journal Line"; var JobLedgEntry: Record "Job Ledger Entry")
     begin

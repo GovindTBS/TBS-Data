@@ -23,7 +23,7 @@ codeunit 416 "Release Service Document"
         InvtSetup: Record "Inventory Setup";
         WhseServiceRelease: Codeunit "Whse.-Service Release";
         SkipWhseRequestOperations: Boolean;
-        NothingToReleaseErr: Label 'There is nothing to release for %1 %2.', Comment = 'Example: There is nothing to release for Order 12345.';
+NothingToReleaseErr: Label 'There is nothing to release for %1 %2.', Comment = 'Example: There is nothing to release for Order 12345.';
 
     local procedure "Code"()
     var

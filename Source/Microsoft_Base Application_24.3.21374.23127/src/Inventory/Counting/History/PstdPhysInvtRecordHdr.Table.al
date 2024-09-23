@@ -41,7 +41,7 @@ table 5881 "Pstd. Phys. Invt. Record Hdr"
             CalcFormula = exist("Phys. Invt. Comment Line" where("Document Type" = const("Posted Recording"),
                                                                   "Order No." = field("Order No."),
                                                                   "Recording No." = field("Recording No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

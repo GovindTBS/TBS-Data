@@ -7,7 +7,7 @@ using Microsoft.Foundation.Period;
 codeunit 2670 "Variable Allocation Mgt."
 {
     var
-        NoAccountingPeriodDefinedErr: Label 'The next accounting period for workdate %1 is not defined.\Verify the accounting period setup.', Comment = '%1 - Represents the date.';
+NoAccountingPeriodDefinedErr: Label 'The next accounting period for workdate %1 is not defined.\Verify the accounting period setup.', Comment = '%1 - Represents the date.';
         PreviousYearIsNotDefinedErr: Label 'Previous year is not defined in accounting period.';
 
     internal procedure CalculateAmountDistributions(var AllocationAccount: Record "Allocation Account"; AmountToDistribute: Decimal; var AmountDistributions: Dictionary of [Guid, Decimal]; var ShareDistributions: Dictionary of [Guid, Decimal]; PostingDate: Date; CurrencyCode: Code[10])

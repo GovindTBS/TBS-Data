@@ -215,7 +215,7 @@ page 7497 "Item From Picture Wizard"
         NextActionEnabled: Boolean;
         PrivacyLabel: Text;
         PrivacyStatementTxt: Label 'Privacy and cookies';
-        AcsNameLbl: Label 'Azure Cognitive Services', Comment = 'The name of the product Azure Cognitive Services';
+AcsNameLbl: Label 'Azure Cognitive Services', Comment = 'The name of the product Azure Cognitive Services';
         PrivacyStatementLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=831305', Locked = true;
         CognitiveServicesLinkTxt: Label 'Learn more about Azure Cognitive Services';
         OnlineServicesTermLinkLinkTxt: Label 'https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx', Locked = true;

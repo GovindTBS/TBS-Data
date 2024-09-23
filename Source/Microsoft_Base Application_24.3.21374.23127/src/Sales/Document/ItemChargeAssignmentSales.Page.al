@@ -374,11 +374,11 @@ page 5814 "Item Charge Assignment (Sales)"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Item Charge', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item Charge', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(GetShipmentLines_Promoted; GetShipmentLines)
                 {

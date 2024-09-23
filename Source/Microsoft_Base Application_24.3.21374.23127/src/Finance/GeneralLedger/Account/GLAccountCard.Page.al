@@ -395,7 +395,7 @@ page 17 "G/L Account Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("G/L Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -669,7 +669,7 @@ page 17 "G/L Account Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(DocsWithoutIC_Promoted; DocsWithoutIC)
                 {
@@ -680,7 +680,7 @@ page 17 "G/L Account Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -703,7 +703,7 @@ page 17 "G/L Account Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Balance', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Balance', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("G/L &Account Balance_Promoted"; "G/L &Account Balance")
                 {
@@ -717,7 +717,7 @@ page 17 "G/L Account Card"
             }
             group(Category_Category6)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(SalesPriceLists_Promoted; SalesPriceLists)
                 {
@@ -759,7 +759,7 @@ page 17 "G/L Account Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

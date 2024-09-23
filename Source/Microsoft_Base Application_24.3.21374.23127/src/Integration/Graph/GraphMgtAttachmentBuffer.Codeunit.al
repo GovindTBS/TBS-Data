@@ -44,7 +44,7 @@ codeunit 5503 "Graph Mgt - Attachment Buffer"
         AttachmentLinkedToAnotherDocumentErr: Label 'The attachment is linked to another document than you specified.';
         CannotFindRelatedDocumentErr: Label 'Cannot find a document which the attachment is linked to.';
         DocumentTypeInvalidErr: Label 'Document type is not valid.';
-        UnsopportedDocumentTypeErr: Label 'The selected Document type %1 is not supported.', Comment = '%1 name of document type, e.g. Journal, Cusotmer, Item, Sales Invoice...';
+UnsopportedDocumentTypeErr: Label 'The selected Document type %1 is not supported.', Comment = '%1 name of document type, e.g. Journal, Cusotmer, Item, Sales Invoice...';
         CannotFindParentKeyErr: Label 'Cannot find the No. field on the parent record. Double check if the proper type is provided.';
 
     [Scope('Cloud')]

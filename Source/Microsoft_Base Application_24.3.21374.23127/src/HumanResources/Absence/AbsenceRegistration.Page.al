@@ -69,7 +69,7 @@ page 5212 "Absence Registration"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies if a comment is associated with this entry.';
+ToolTip = 'Specifies if a comment is associated with this entry.';
                 }
             }
         }
@@ -104,7 +104,7 @@ page 5212 "Absence Registration"
                     RunObject = Page "Human Resource Comment Sheet";
                     RunPageLink = "Table Name" = const("Employee Absence"),
                                   "Table Line No." = field("Entry No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 separator(Action31)
                 {

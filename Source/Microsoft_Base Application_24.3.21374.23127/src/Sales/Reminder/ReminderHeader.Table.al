@@ -360,7 +360,7 @@ table 295 "Reminder Header"
         {
             CalcFormula = exist("Reminder Comment Line" where(Type = const(Reminder),
                                                                "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -624,14 +624,14 @@ table 295 "Reminder Header"
         LineSpacing: Integer;
         ReminderTotal: Decimal;
         SelectNoSeriesAllowed: Boolean;
-        ReminderNoLbl: Label 'Reminder %1', Comment = '%1 = Reminder No.';
-        PrintReminderQst: Label 'Do you want to print reminder %1?', Comment = '%1 = Reminder No.';
+ReminderNoLbl: Label 'Reminder %1', Comment = '%1 = Reminder No.';
+PrintReminderQst: Label 'Do you want to print reminder %1?', Comment = '%1 = Reminder No.';
         DeleteExistingLinesTxt: Label 'This change will cause the existing lines to be deleted for this reminder.\\';
         ContinueTxt: Label 'Do you want to continue?';
         NotEnoughSpaceForTextErr: Label 'There is not enough space to insert the text.';
         GapInNumberSeriesIfDeleteTxt: Label 'Deleting this document will cause a gap in the number series for reminders. ';
-        CreateEmptyReminderTxt: Label 'An empty reminder %1 will be created to fill this gap in the number series.\\', Comment = '%1 = Reminder No.';
-        UnexpectedLineTypeErr: Label 'Unexpected line type %1 in reminder %2', Comment = '%1 = Line Type, %2 = Reminder No.';
+CreateEmptyReminderTxt: Label 'An empty reminder %1 will be created to fill this gap in the number series.\\', Comment = '%1 = Reminder No.';
+UnexpectedLineTypeErr: Label 'Unexpected line type %1 in reminder %2', Comment = '%1 = Line Type, %2 = Reminder No.';
 
     procedure AssistEdit(OldReminderHeader: Record "Reminder Header"): Boolean
     begin

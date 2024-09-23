@@ -25,7 +25,7 @@ page 948 "TimeSheet Line Details FactBox"
         {
             group(Comments)
             {
-                Caption = 'Comments';
+Caption = 'Comments';
                 field(CommentsExist; CommentsFieldValue)
                 {
                     Editable = false;
@@ -117,7 +117,7 @@ page 948 "TimeSheet Line Details FactBox"
         WorkTypeCodeVisible, JobFieldsVisible, AbsenceCauseVisible, IsArchive, SkipOnAfterGetRecordUpdate : Boolean;
         CommentsFieldValue, WorkTypeDescription, JobName, JobTaskDescription, CauseOfAbsenceDescription : Text;
         JobBudgetedQty: Decimal;
-        ViewCommentTxt: Label 'View Comments';
+ViewCommentTxt: Label 'View Comments';
 
     procedure SetSource(var TimeSheetLine: Record "Time Sheet Line"; IsArchiveLine: Boolean);
     begin

@@ -268,7 +268,7 @@ page 9237 "Resource Capacity Matrix"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Resource),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

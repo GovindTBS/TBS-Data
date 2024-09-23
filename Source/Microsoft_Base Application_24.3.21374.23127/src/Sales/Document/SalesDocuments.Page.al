@@ -105,7 +105,7 @@ page 1160 "Sales Documents"
     var
         StyleTxt: Text;
         CustomerName: Text[100];
-        FilterForRemAmtDrillDwnTxt: Label '&filter=''Detailed Cust. Ledg. Entry''.''Cust. Ledger Entry No.'' IS ''%1''', Comment = '%1 - Entry No. for Vendor ledger entry. ';
+FilterForRemAmtDrillDwnTxt: Label '&filter=''Detailed Cust. Ledg. Entry''.''Cust. Ledger Entry No.'' IS ''%1''', Comment = '%1 - Entry No. for Vendor ledger entry. ';
 
     procedure SetFilterForOverdueSalesInvoiceAmount()
     begin

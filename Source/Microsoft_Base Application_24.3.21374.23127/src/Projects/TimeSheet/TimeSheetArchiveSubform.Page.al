@@ -178,13 +178,13 @@ page 976 "Time Sheet Archive Subform"
                 action(LineComments)
                 {
                     ApplicationArea = Comments;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
                     RunObject = Page "Time Sheet Arc. Comment Sheet";
                     RunPageLink = "No." = field("Time Sheet No."),
                                   "Time Sheet Line No." = field("Line No.");
                     Scope = Repeater;
-                    ToolTip = 'View or create comments.';
+ToolTip = 'View or create comments.';
                 }
             }
         }

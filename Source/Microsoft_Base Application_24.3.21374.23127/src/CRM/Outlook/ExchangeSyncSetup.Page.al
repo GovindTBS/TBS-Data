@@ -124,7 +124,7 @@ page 6700 "Exchange Sync. Setup"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Validate Exchange Connection_Promoted"; "Validate Exchange Connection")
                 {
@@ -132,11 +132,11 @@ page 6700 "Exchange Sync. Setup"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(SetupBookingSync_Promoted; SetupBookingSync)
                 {

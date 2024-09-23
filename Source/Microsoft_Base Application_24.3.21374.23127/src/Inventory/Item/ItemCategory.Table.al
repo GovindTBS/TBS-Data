@@ -122,7 +122,7 @@ table 5722 "Item Category"
 
         CyclicInheritanceErr: Label 'An item category cannot be a parent of itself or any of its children.';
         DeleteWithChildrenErr: Label 'You cannot delete this item category because it has child item categories.';
-        DeleteItemInheritedAttributesQst: Label 'One or more items belong to item category ''''%1''''.\\Do you want to delete the inherited item attributes for the items in question? ', Comment = '%1 - item category code';
+DeleteItemInheritedAttributesQst: Label 'One or more items belong to item category ''''%1''''.\\Do you want to delete the inherited item attributes for the items in question? ', Comment = '%1 - item category code';
 
     procedure HasChildren(): Boolean
     var

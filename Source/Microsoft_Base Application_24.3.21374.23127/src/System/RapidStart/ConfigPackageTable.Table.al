@@ -76,7 +76,7 @@ table 8613 "Config. Package Table"
         }
         field(9; Comments; Text[250])
         {
-            Caption = 'Comments';
+Caption = 'Comments';
         }
         field(10; "Created Date and Time"; DateTime)
         {
@@ -282,7 +282,7 @@ table 8613 "Config. Package Table"
         CannotAddParentErr: Label 'Cannot add a parent table. This table is already included in a three-level hierarchy, which is the maximum.';
         CannotBeItsOwnParentErr: Label 'Cannot add the parent table. A table cannot be its own parent or child.';
         CircularDependencyErr: Label 'Cannot add the parent table. The table is already the child of the selected tab.';
-        ParentTableNotFoundErr: Label 'Cannot find table %1.', Comment = '%1 - Table number';
+ParentTableNotFoundErr: Label 'Cannot find table %1.', Comment = '%1 - Table number';
 
     protected var
         HideValidationDialog: Boolean;

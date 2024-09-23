@@ -47,7 +47,7 @@ table 6504 "Serial No. Information"
                                                                "Item No." = field("Item No."),
                                                                "Variant Code" = field("Variant Code"),
                                                                "Serial/Lot No." = field("Serial No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

@@ -549,7 +549,7 @@ page 256 "Payment Journal"
                 field(CommentField; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
+ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
                     Visible = false;
                 }
                 field("Exported to Payment File"; Rec."Exported to Payment File")
@@ -1741,9 +1741,9 @@ page 256 "Payment Journal"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser or ApprovalEntriesExistSentByCurrentUser;
 
                     trigger OnAction()
@@ -1785,11 +1785,11 @@ page 256 "Payment Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category8)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 7.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -1829,7 +1829,7 @@ page 256 "Payment Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(SuggestVendorPayments_Promoted; SuggestVendorPayments)
                 {
@@ -1846,7 +1846,7 @@ page 256 "Payment Journal"
             }
             group(Category_Category11)
             {
-                Caption = 'Check', Comment = 'Generated from the PromotedActionCategories property index 10.';
+Caption = 'Check', Comment = 'Generated from the PromotedActionCategories property index 10.';
 
                 actionref(PrintCheck_Promoted; PrintCheck)
                 {
@@ -1863,7 +1863,7 @@ page 256 "Payment Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1907,7 +1907,7 @@ page 256 "Payment Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ExportPaymentsToFile_Promoted; ExportPaymentsToFile)
                 {
@@ -1924,7 +1924,7 @@ page 256 "Payment Journal"
             }
             group(Category_Category9)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1938,12 +1938,12 @@ page 256 "Payment Journal"
             }
             group(Category_Category10)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 9.';
 
             }
             group(Category_Category7)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -1951,7 +1951,7 @@ page 256 "Payment Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -2141,10 +2141,10 @@ page 256 "Payment Journal"
         ApprovalEntriesExistSentByCurrentUser: Boolean;
         UseAllocationAccountNumber: Boolean;
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Account Type or Balancing Account Type.';
-        VoidCheckQst: Label 'Void Check %1?', Comment = '%1 - check number';
+VoidCheckQst: Label 'Void Check %1?', Comment = '%1 - check number';
         VoidAllPrintedChecksQst: Label 'Void all printed checks?';
         CheckCannotVoidMsg: Label 'Warning:  Checks cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.';
-        WrongBankPaymentTypeErr: Label '%1 type must be either %2 or %3.', Comment = '%1=Bank Payment Type field caption, %2=Electronic Payment bank payment type, %3=Electronic Payment-IAT bank payment type';
+WrongBankPaymentTypeErr: Label '%1 type must be either %2 or %3.', Comment = '%1=Bank Payment Type field caption, %2=Electronic Payment bank payment type, %3=Electronic Payment-IAT bank payment type';
         HasErrorsErr: Label 'The file export has one or more errors.\\For each line to be exported, resolve the errors displayed to the right and then try to export again.';
         NoEntriesToVoidErr: Label 'There are no entries to void.';
         LastRemittanceErr: Label 'Last Remittance Advice No. must have a value in the bank account.';
@@ -2153,7 +2153,7 @@ page 256 "Payment Journal"
         NoExportDiffCurrencyErr: Label 'You cannot export journal entries if Currency Code is different in Gen. Journal Line and Bank Account.';
         RecipientBankAccountEmptyErr: Label 'Recipient Bank Account must be filled.';
         ElectronicPaymentTok: Label 'NA Electronic Payments', Locked = true;
-        AmountToApplyMissMatchMsg: Label 'Amount assigned on Apply Entries (%1) is bigger then the amount on the line (%2). System will remove all related Applies-to ID. Do you want to proceed?', Comment = '%1 - Amount to apply, %2 - Amount on the line';
+AmountToApplyMissMatchMsg: Label 'Amount assigned on Apply Entries (%1) is bigger then the amount on the line (%2). System will remove all related Applies-to ID. Do you want to proceed?', Comment = '%1 - Amount to apply, %2 - Amount on the line';
 
     protected var
         GenJnlManagement: Codeunit GenJnlManagement;

@@ -321,8 +321,8 @@ report 5971 "Service Contract-Detail"
                     field(ShowComments; ShowComments)
                     {
                         ApplicationArea = Service;
-                        Caption = 'Show Comments';
-                        ToolTip = 'Specifies if you want the printed report to show any service comments.';
+Caption = 'Show Comments';
+ToolTip = 'Specifies if you want the printed report to show any service comments.';
                     }
                 }
             }
@@ -362,7 +362,7 @@ report 5971 "Service Contract-Detail"
         ServiceDiscountsCaptionLbl: Label 'Service Discounts';
         ServeCmntLineDateCaptionLbl: Label 'Date';
         ShiptoAddressCaptionLbl: Label 'Ship-to Address';
-        CommentsCaptionLbl: Label 'Comments';
+CommentsCaptionLbl: Label 'Comments';
         StatusCaptionLbl: Label 'Status';
         InvoicePeriodCaptionLbl: Label 'Invoice Period';
 }

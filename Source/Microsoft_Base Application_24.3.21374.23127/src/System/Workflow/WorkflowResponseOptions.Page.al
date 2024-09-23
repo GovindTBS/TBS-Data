@@ -376,7 +376,7 @@ page 1523 "Workflow Response Options"
         ShowApprovalLimitType: Boolean;
         ShowApproverUserId: Boolean;
         ApprovalUserSetupLabel: Text;
-        OpenPageTxt: Label 'Open %1', Comment = '%1 is the page that will be opened when clicking the control';
+OpenPageTxt: Label 'Open %1', Comment = '%1 is the page that will be opened when clicking the control';
         TableFieldCaption: Text;
         ApplyAllValues: Boolean;
         ShowResponseUserID: Boolean;

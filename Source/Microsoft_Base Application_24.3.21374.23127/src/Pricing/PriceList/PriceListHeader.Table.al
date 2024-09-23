@@ -394,11 +394,11 @@ table 7000 "Price List Header"
     var
         PriceSource: Record "Price Source";
         PriceCalculationMgt: Codeunit "Price Calculation Mgt.";
-        ConfirmUpdateQst: Label 'Do you want to update %1 in the price list lines?', Comment = '%1 - the field caption';
-        LinesExistErr: Label 'You cannot change %1 because one or more lines exist.', Comment = '%1 - the field caption';
-        StatusUpdateQst: Label 'Do you want to update status to %1?', Comment = '%1 - status value: Draft, Active, or Inactive';
-        CannotDeleteActivePriceListErr: Label 'You cannot delete the active price list %1.', Comment = '%1 - the price list code.';
-        CanotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 - the table name';
+ConfirmUpdateQst: Label 'Do you want to update %1 in the price list lines?', Comment = '%1 - the field caption';
+LinesExistErr: Label 'You cannot change %1 because one or more lines exist.', Comment = '%1 - the field caption';
+StatusUpdateQst: Label 'Do you want to update status to %1?', Comment = '%1 - status value: Draft, Active, or Inactive';
+CannotDeleteActivePriceListErr: Label 'You cannot delete the active price list %1.', Comment = '%1 - the price list code.';
+CanotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 - the table name';
         PriceSourceLookedUp: Boolean;
 
     procedure IsEditable() Result: Boolean;

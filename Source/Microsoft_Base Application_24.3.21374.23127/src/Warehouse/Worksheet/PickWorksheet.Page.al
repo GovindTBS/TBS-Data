@@ -509,7 +509,7 @@ page 7345 "Pick Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CreatePick_Promoted; CreatePick)
                 {
@@ -532,7 +532,7 @@ page 7345 "Pick Worksheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Item &Tracking Lines_Promoted"; "Item &Tracking Lines")
                 {
@@ -549,11 +549,11 @@ page 7345 "Pick Worksheet"
             }
             group(Category_Category5)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -615,7 +615,7 @@ page 7345 "Pick Worksheet"
         WMSMgt: Codeunit "WMS Management";
         CrossDockMgt: Codeunit "Whse. Cross-Dock Management";
         UOMMgt: Codeunit "Unit of Measure Management";
-        ExcelFileNameTxt: Label 'Pick Worksheet - WorksheetName %1 - WorksheetTemplateName %2', Comment = '%1 = Worksheet Name; %2 = Worksheet Template Name';
+ExcelFileNameTxt: Label 'Pick Worksheet - WorksheetName %1 - WorksheetTemplateName %2', Comment = '%1 = Worksheet Name; %2 = Worksheet Template Name';
         QtyCrossDockedUOM: Decimal;
         QtyCrossDockedAllUOMBase: Decimal;
         QtyCrossDockedUOMBase: Decimal;

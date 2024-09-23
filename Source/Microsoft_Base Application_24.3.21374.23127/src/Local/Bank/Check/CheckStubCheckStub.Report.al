@@ -1530,7 +1530,7 @@ report 10411 "Check (Stub/Check/Stub)"
         LineAmount2: Decimal;
         GLSetup: Record "General Ledger Setup";
         Text064: Label '%1 must not be %2 for %3 %4.';
-        PrivacyBlockedErr: Label '%1 %2 must not be blocked for privacy.', Comment = '%1 = customer or vendor, %2 = customer or vendor code.';
+PrivacyBlockedErr: Label '%1 %2 must not be blocked for privacy.', Comment = '%1 = customer or vendor, %2 = customer or vendor code.';
         Text062: Label 'G/L Account,Customer,Vendor,Bank Account,,,Employee';
         USText001: Label 'Warning:  Checks cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?';
         USText002: Label 'Process cancelled at user request.';
@@ -1577,8 +1577,8 @@ report 10411 "Check (Stub/Check/Stub)"
         Posting_DescriptionCaptionLbl: Label 'Posting Description';
         AmountCaptionLbl: Label 'Amount';
         CheckNoText_Control1480000CaptionLbl: Label 'Check No.';
-        AlreadyAppliedToEmployeeErr: Label ' is already applied to %1 %2 for employee %3.', Comment = '%1 = Document type, %2 = Document No., %3 = Employee No.';
-        BlockedEmplForCheckErr: Label 'You cannot print check because employee %1 is blocked due to privacy.', Comment = '%1 - Employee no.';
+AlreadyAppliedToEmployeeErr: Label ' is already applied to %1 %2 for employee %3.', Comment = '%1 = Document type, %2 = Document No., %3 = Employee No.';
+BlockedEmplForCheckErr: Label 'You cannot print check because employee %1 is blocked due to privacy.', Comment = '%1 - Employee no.';
 
     protected var
 

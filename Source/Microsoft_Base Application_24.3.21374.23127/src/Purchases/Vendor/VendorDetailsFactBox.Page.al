@@ -63,12 +63,12 @@ page 9093 "Vendor Details FactBox"
                 action(Comments)
                 {
                     ApplicationArea = Comments;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Vendor),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

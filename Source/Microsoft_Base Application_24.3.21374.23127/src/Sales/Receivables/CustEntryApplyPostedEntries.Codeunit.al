@@ -55,7 +55,7 @@ codeunit 226 "CustEntry-Apply Posted Entries"
 
         PostingApplicationMsg: Label 'Posting application...';
         MustNotBeBeforeErr: Label 'The posting date entered must not be before the posting date on the Cust. Ledger Entry.';
-        NoEntriesAppliedErr: Label 'Cannot post because you did not specify which entry to apply. You must specify an entry in the %1 field for one or more open entries.', Comment = '%1 - Caption of "Applies to ID" field of Gen. Journal Line';
+NoEntriesAppliedErr: Label 'Cannot post because you did not specify which entry to apply. You must specify an entry in the %1 field for one or more open entries.', Comment = '%1 - Caption of "Applies to ID" field of Gen. Journal Line';
         UnapplyPostedAfterThisEntryErr: Label 'Before you can unapply this entry, you must first unapply all application entries that were posted after this entry.';
         NoApplicationEntryErr: Label 'Cust. Ledger Entry No. %1 does not have an application entry.';
         UnapplyingMsg: Label 'Unapplying and posting...';

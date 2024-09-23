@@ -241,7 +241,7 @@ page 9317 "Service Quotes"
                                   "Table Subtype" = field("Document Type"),
                                   "No." = field("No."),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Statistics)
                 {

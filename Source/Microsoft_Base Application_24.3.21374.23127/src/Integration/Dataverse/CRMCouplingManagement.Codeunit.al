@@ -14,7 +14,7 @@ codeunit 5331 "CRM Coupling Management"
     end;
 
     var
-        IntegrationRecordNotFoundErr: Label 'The integration record for record %1 was not found.', Comment = '%1 = record ID';
+IntegrationRecordNotFoundErr: Label 'The integration record for record %1 was not found.', Comment = '%1 = record ID';
 
     procedure IsRecordCoupledToCRM(RecordID: RecordID): Boolean
     var

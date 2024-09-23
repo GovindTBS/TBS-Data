@@ -185,7 +185,7 @@ table 900 "Assembly Header"
         {
             CalcFormula = exist("Assembly Comment Line" where("Document Type" = field("Document Type"),
                                                                "Document No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -774,7 +774,7 @@ table 900 "Assembly Header"
         PostingDateLaterErr: Label 'Posting Date on Assembly Order %1 must not be later than the Posting Date on Sales Order %2.';
         RowIdx: Option ,MatCost,ResCost,ResOvhd,AsmOvhd,Total;
 
-        Text001: Label '%1 %2 cannot be created, because it already exists or has been posted.', Comment = '%1 = Document Type, %2 = No.';
+Text001: Label '%1 %2 cannot be created, because it already exists or has been posted.', Comment = '%1 = Document Type, %2 = No.';
         Text002: Label '%1 cannot be lower than the %2, which is %3.';
         Text003: Label '%1 cannot be higher than the %2, which is %3.';
         Text005: Label 'Changing %1 or %2 is not allowed when %3 is %4.';
@@ -785,7 +785,7 @@ table 900 "Assembly Header"
         Text012: Label '%1 %2', Locked = true;
         Text013: Label 'Do you want to update %1?';
         Text014: Label '%1 and %2';
-        Text015: Label '%1 %2 is before %3 %4.', Comment = '%1 and %3 = Date Captions, %2 and %4 = Date Values';
+Text015: Label '%1 %2 is before %3 %4.', Comment = '%1 and %3 = Date Captions, %2 and %4 = Date Values';
         UpdateDimensionLineMsg: Label 'You may have changed a dimension.\\Do you want to update the lines?';
         ConfirmDeleteQst: Label 'The items have been picked. If you delete the Assembly Header, then the items will remain in the operation area until you put them away.\Related item tracking information that is defined during the pick will be deleted.\Are you sure that you want to delete the Assembly Header?';
 

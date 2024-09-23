@@ -880,7 +880,7 @@ page 49 "Purchase Quote"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -985,9 +985,9 @@ page 49 "Purchase Quote"
                 action(Comment)
                 {
                     ApplicationArea = Suite;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -1334,14 +1334,14 @@ page 49 "Purchase Quote"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(MakeOrder_Promoted; MakeOrder)
                 {
                 }
                 group(Category_Category8)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 7.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -1388,7 +1388,7 @@ page 49 "Purchase Quote"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1405,7 +1405,7 @@ page 49 "Purchase Quote"
             }
             group(Category_Category6)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -1419,7 +1419,7 @@ page 49 "Purchase Quote"
             }
             group(Category_Category5)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1430,7 +1430,7 @@ page 49 "Purchase Quote"
             }
             group(Category_Category7)
             {
-                Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1458,11 +1458,11 @@ page 49 "Purchase Quote"
             }
             group(Category_Category9)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

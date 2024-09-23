@@ -21,11 +21,11 @@ codeunit 375 "Bank Acc. Entry Set Recon.-No."
         UnexpectedLineNumberTxt: Label 'Unexpected line number.', Locked = true;
         CategoryTxt: Label 'Reconciliation', Locked = true;
         CorruptStateOptionsTok: Label 'Yes to all,Yes,No';
-        BankAccountLedgerEntryInvalidStateErr: Label 'Cannot apply the statement line to bank account ledger entry %1 because its statement status is %2. Choose another bank account ledger entry.', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
-        CheckLedgerEntryInvalidStateErr: Label 'Cannot apply the statement line to check ledger entry %1 because its statement status is %2. Choose another check ledger entry.', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
-        BankAccountLedgerEntryInvalidStateQst: Label 'No statement lines have been applied to bank account ledger entry %1, but its statement status is %2. Do you want to apply the statement line to it?', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
-        CheckLedgerEntryInvalidStateQst: Label 'No statement lines have been applied to check ledger entry %1, but its statement status is %2. Do you want to apply the statement line to it?', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
-        CLEMissmatchErr: Label 'Check Ledger Entry has %1 %2, but Bank Reconciliation Line has %3.', Comment = '%1 - Either "Statement No." or "Statement Line No.", %2 - A number, %3 - a number';
+BankAccountLedgerEntryInvalidStateErr: Label 'Cannot apply the statement line to bank account ledger entry %1 because its statement status is %2. Choose another bank account ledger entry.', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
+CheckLedgerEntryInvalidStateErr: Label 'Cannot apply the statement line to check ledger entry %1 because its statement status is %2. Choose another check ledger entry.', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
+BankAccountLedgerEntryInvalidStateQst: Label 'No statement lines have been applied to bank account ledger entry %1, but its statement status is %2. Do you want to apply the statement line to it?', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
+CheckLedgerEntryInvalidStateQst: Label 'No statement lines have been applied to check ledger entry %1, but its statement status is %2. Do you want to apply the statement line to it?', Comment = '%1 - Ledger entry number; %2 - Statement status, option caption';
+CLEMissmatchErr: Label 'Check Ledger Entry has %1 %2, but Bank Reconciliation Line has %3.', Comment = '%1 - Either "Statement No." or "Statement Line No.", %2 - A number, %3 - a number';
         IgnoreCorruptState: Boolean;
 
     procedure ApplyEntries(var BankAccReconLine: Record "Bank Acc. Reconciliation Line"; var BankAccLedgEntry: Record "Bank Account Ledger Entry"; Relation: Option "One-to-One","One-to-Many","Many-to-One"): Boolean

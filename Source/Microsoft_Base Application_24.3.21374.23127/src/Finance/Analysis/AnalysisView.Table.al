@@ -451,8 +451,8 @@ table 363 "Analysis View"
         Text014: Label 'If you change the contents of the %1 field, the analysis view entries will be changed as well.\\';
         Text015: Label 'Do you want to enter a new value in the %1 field?';
         Text016: Label '%1 is not applicable for source type %2.';
-        Text017Msg: Label 'Enabling the %1 feature immediately updates the analysis view with the latest entries. Do you want to start using the feature, and update the analysis view now?', Comment = '%1 = The name of the feature that is being enabled';
-        Text018Msg: Label 'If you enable the %1 feature it can take significantly more time to post documents, such as sales or purchase orders and invoices. Do you want to continue?', Comment = '%1 = The name of the feature that is being enabled';
+Text017Msg: Label 'Enabling the %1 feature immediately updates the analysis view with the latest entries. Do you want to start using the feature, and update the analysis view now?', Comment = '%1 = The name of the feature that is being enabled';
+Text018Msg: Label 'If you enable the %1 feature it can take significantly more time to post documents, such as sales or purchase orders and invoices. Do you want to continue?', Comment = '%1 = The name of the feature that is being enabled';
         ClearDimTotalingConfirmTxt: Label 'Changing dimension will clear dimension totaling columns of Account Schedule Lines using current Analysis Vew. \Do you want to continue?';
         ResetNeededMsg: Label 'The data in the analysis view needs to be updated because a dimension has been changed. To update the data, choose Reset.';
 

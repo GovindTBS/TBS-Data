@@ -41,7 +41,7 @@ codeunit 1605 "PEPPOL Management"
         PaymentMeansFundsTransferCodeTxt: Label '31', Locked = true;
         GTINTxt: Label '0160', Locked = true;
         UoMforPieceINUNECERec20ListIDTxt: Label 'C62', Locked = true;
-        NoUnitOfMeasureErr: Label 'The %1 %2 contains lines on which the %3 field is empty.', Comment = '1: document type, 2: document no 3 Unit of Measure Code';
+NoUnitOfMeasureErr: Label 'The %1 %2 contains lines on which the %3 field is empty.', Comment = '1: document type, 2: document no 3 Unit of Measure Code';
         ExportPathGreaterThan250Err: Label 'The export path is longer than 250 characters.';
         PeppolTelemetryTok: Label 'PEPPOL', Locked = true;
 

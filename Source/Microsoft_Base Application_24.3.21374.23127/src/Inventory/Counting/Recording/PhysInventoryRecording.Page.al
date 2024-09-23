@@ -102,7 +102,7 @@ page 5879 "Phys. Inventory Recording"
                     RunPageLink = "Document Type" = const(Recording),
                                   "Order No." = field("Order No."),
                                   "Recording No." = field("Recording No.");
-                    ToolTip = 'View or add comments for the recording.';
+ToolTip = 'View or add comments for the recording.';
                 }
             }
         }

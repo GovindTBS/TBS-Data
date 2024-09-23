@@ -11,7 +11,7 @@ enum 5478 "Invoice Line Agg. Line Type"
 
     value(0; Comment)
     {
-        Caption = 'Comment';
+Caption = 'Comment';
     }
     value(1; Account)
     {

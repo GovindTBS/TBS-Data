@@ -2,7 +2,7 @@ namespace Microsoft.Inventory.Comment;
 
 page 5751 "Inventory Comment List"
 {
-    Caption = 'Comment List';
+Caption = 'Comment List';
     DataCaptionFields = "Document Type", "No.";
     Editable = false;
     LinksAllowed = false;
@@ -24,12 +24,12 @@ page 5751 "Inventory Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies when the comment was created.';
+ToolTip = 'Specifies when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the actual comment text.';
+ToolTip = 'Specifies the actual comment text.';
                 }
             }
         }

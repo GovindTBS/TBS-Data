@@ -365,7 +365,7 @@ page 104 "Account Schedule"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
 #if not CLEAN22
                 actionref(Overview_Promoted; Overview)
@@ -400,7 +400,7 @@ page 104 "Account Schedule"
             }
             group(Category_Category4)
             {
-                Caption = 'Insert', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Insert', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(InsertGLAccounts_Promoted; InsertGLAccounts)
                 {
@@ -414,7 +414,7 @@ page 104 "Account Schedule"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

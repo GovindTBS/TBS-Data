@@ -374,10 +374,10 @@ report 2500 "Day Book VAT Entry"
         VATEntryFilter: Text;
         PrevType: Enum "General Posting Type";
         UseAmtsInAddCurr: Boolean;
-        Text000Lbl: Label 'All amounts are in %1.', Comment = 'All amounts are in GBP';
-        Text001Lbl: Label 'Total for %1 %2.', Comment = 'Total for VAT date 12122012';
-        Text002Lbl: Label 'Total for %1.', Comment = 'total for 121212';
-        Text003Lbl: Label 'Total for  %1 : %2.', Comment = 'Total for VAT Entry Vat%       ';
+Text000Lbl: Label 'All amounts are in %1.', Comment = 'All amounts are in GBP';
+Text001Lbl: Label 'Total for %1 %2.', Comment = 'Total for VAT date 12122012';
+Text002Lbl: Label 'Total for %1.', Comment = 'total for 121212';
+Text003Lbl: Label 'Total for  %1 : %2.', Comment = 'Total for VAT Entry Vat%       ';
         Day_Book_VAT_EntryCaptionLbl: Label 'Day Book VAT Entry';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
         All_amounts_are_in_Add__Reporting_CurrencyCaptionLbl: Label 'All amounts are in Add. Reporting Currency';

@@ -124,7 +124,7 @@ table 955 "Time Sheet Line Archive"
         {
             CalcFormula = exist("Time Sheet Comment Line" where("No." = field("Time Sheet No."),
                                                                  "Time Sheet Line No." = field("Line No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

@@ -290,11 +290,11 @@ report 711 "Inventory - Top 10 List"
         TotalItemSales: Decimal;
         TotalItemBalance: Decimal;
 
-        SortingItemsTxt: Label 'Sorting items    #1##########', Comment = '%1 - progress bar';
-        PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
+SortingItemsTxt: Label 'Sorting items    #1##########', Comment = '%1 - progress bar';
+PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
         TableFiltersTxt: Label '%1: %2', Locked = true;
-        RankedAccordingTxt: Label 'Ranked according to %1 %2', Comment = '%1 - Sequence, %2 - Heading';
-        PortionOfTxt: Label 'Portion of %1', Comment = '%1 - heading';
+RankedAccordingTxt: Label 'Ranked according to %1 %2', Comment = '%1 - Sequence, %2 - Heading';
+PortionOfTxt: Label 'Portion of %1', Comment = '%1 - heading';
         Text004Txt: Label 'Largest,Smallest';
         Text005Txt: Label 'Sales (LCY),Inventory';
         Inventory___Top_10_ListCaptionLbl: Label 'Inventory - Top 10 List';

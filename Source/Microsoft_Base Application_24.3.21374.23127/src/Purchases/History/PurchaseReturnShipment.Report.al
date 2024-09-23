@@ -543,7 +543,7 @@ report 6636 "Purchase - Return Shipment"
     end;
 
     var
-        Text002: Label 'Purchase - Return Shipment %1', Comment = '%1 = Document No.';
+Text002: Label 'Purchase - Return Shipment %1', Comment = '%1 = Document No.';
         Text003: Label 'Page %1';
         SalesPurchPerson: Record "Salesperson/Purchaser";
         DimSetEntry1: Record "Dimension Set Entry";

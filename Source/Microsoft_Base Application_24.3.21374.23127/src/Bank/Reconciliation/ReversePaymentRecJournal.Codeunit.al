@@ -18,7 +18,7 @@ codeunit 386 "Reverse Payment Rec. Journal"
     EventSubscriberInstance = Manual;
 
     var
-        EmptyTransactionNoErr: Label 'Entry %1 cannot be reversed because its "Transaction No." is not defined.', Comment = '%1 - The Entry No. of the transaction that cannot be reversed';
+EmptyTransactionNoErr: Label 'Entry %1 cannot be reversed because its "Transaction No." is not defined.', Comment = '%1 - The Entry No. of the transaction that cannot be reversed';
         PostedPaymentReconciliationNotSelectedErr: Label 'You must select a journal to reverse.';
         CantFindRelatedEntriesErr: Label 'Related entries not found. To unapply and reverse payments you must do it manually.';
         PaymentRecJournalAlreadyReversedErr: Label 'This payment reconciliation journal has already been reversed.';

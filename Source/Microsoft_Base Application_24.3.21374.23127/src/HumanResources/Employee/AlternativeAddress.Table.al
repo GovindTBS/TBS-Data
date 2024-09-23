@@ -124,7 +124,7 @@ table 5201 "Alternative Address"
             CalcFormula = exist("Human Resource Comment Line" where("Table Name" = const("Alternative Address"),
                                                                      "No." = field("Employee No."),
                                                                      "Alternative Address Code" = field(Code)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

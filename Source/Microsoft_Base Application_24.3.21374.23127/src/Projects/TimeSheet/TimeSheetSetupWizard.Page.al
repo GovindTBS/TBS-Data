@@ -391,10 +391,10 @@ page 977 "Time Sheet Setup Wizard"
         NextActionEnabled: Boolean;
         FinishActionEnabled: Boolean;
         RunCreateTimeSheets: Boolean;
-        UserSetupStatusTxt: Label 'User Setup (%1 users in User Setup)', Comment = '%1 - number';
-        ResourcesStatusTxt: Label 'Resources (%1 resources)', Comment = '%1 - number';
-        EmployeesStatusTxt: Label 'Employees (%1 employees)', Comment = '%1 - number';
-        CauseofAbsenceStatusTxt: Label 'Causes of Absence (%1 causes of absence)', Comment = '%1 - number';
+UserSetupStatusTxt: Label 'User Setup (%1 users in User Setup)', Comment = '%1 - number';
+ResourcesStatusTxt: Label 'Resources (%1 resources)', Comment = '%1 - number';
+EmployeesStatusTxt: Label 'Employees (%1 employees)', Comment = '%1 - number';
+CauseofAbsenceStatusTxt: Label 'Causes of Absence (%1 causes of absence)', Comment = '%1 - number';
         LearnMoreTok: Label 'Learn more about migrating business data from other finance systems';
         LearnMoreURLTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2167200', Locked = true;
 

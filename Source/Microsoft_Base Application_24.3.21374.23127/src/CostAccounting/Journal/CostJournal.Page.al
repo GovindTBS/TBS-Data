@@ -267,7 +267,7 @@ page 1108 "Cost Journal"
 
                 group(Category_Category5)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -280,7 +280,7 @@ page 1108 "Cost Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -288,7 +288,7 @@ page 1108 "Cost Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

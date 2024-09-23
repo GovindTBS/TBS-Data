@@ -24,10 +24,10 @@ codeunit 1206 "Pmt Export Mgt Gen. Jnl Line"
 
     var
         ExportAgainQst: Label 'One or more of the selected lines has already been exported. Do you want to export it again?';
-        ProgressMsg: Label 'Processing line no. #1######.', Comment = '#1 - Line no.';
+ProgressMsg: Label 'Processing line no. #1######.', Comment = '#1 - Line no.';
         HasErrorsErr: Label 'The file export has one or more errors.\\For each line to be exported, resolve the errors displayed to the right and then try to export again.';
         PaymentExportMgt: Codeunit "Payment Export Mgt";
-        EmployeeMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for employee %1.', Comment = '%1 - Employee name';
+EmployeeMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for employee %1.', Comment = '%1 - Employee name';
 
     [Scope('OnPrem')]
     procedure ExportJournalPaymentFileYN(var GenJnlLine: Record "Gen. Journal Line")

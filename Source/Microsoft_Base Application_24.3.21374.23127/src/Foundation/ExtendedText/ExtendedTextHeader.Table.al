@@ -255,7 +255,7 @@ table 279 "Extended Text Header"
 
     var
         UntitledMsg: Label 'untitled';
-        RenameRecordErr: Label 'You cannot rename %1 or %2.', Comment = '%1 is TableName Field %2 is No.Table Field';
+RenameRecordErr: Label 'You cannot rename %1 or %2.', Comment = '%1 is TableName Field %2 is No.Table Field';
 
     procedure IncrementTextNo()
     var

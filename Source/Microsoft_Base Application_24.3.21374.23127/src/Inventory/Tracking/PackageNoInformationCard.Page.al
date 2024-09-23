@@ -78,14 +78,14 @@ page 6526 "Package No. Information Card"
                 }
                 action(Comment)
                 {
-                    Caption = 'Comment';
+Caption = 'Comment';
                     Image = ViewComments;
                     RunObject = Page "Item Tracking Comments";
                     RunPageLink = Type = const("Package No."),
                                   "Item No." = field("Item No."),
                                   "Variant Code" = field("Variant Code"),
                                   "Serial/Lot No." = field("Package No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Item Tracing")
                 {
@@ -190,7 +190,7 @@ page 6526 "Package No. Information Card"
     var
         ShowButtonFunctions: Boolean;
         ButtonFunctionsVisible: Boolean;
-        PageCaptionTxt: Label '%1 No. Information Card', Comment = '%1 - package caption';
+PageCaptionTxt: Label '%1 No. Information Card', Comment = '%1 - package caption';
 
     protected var
         TrackingSpecification: Record "Tracking Specification";

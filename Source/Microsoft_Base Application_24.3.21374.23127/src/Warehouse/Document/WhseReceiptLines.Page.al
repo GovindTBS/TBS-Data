@@ -215,7 +215,7 @@ page 7342 "Whse. Receipt Lines"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Show &Whse. Document_Promoted"; ShowDocument)
                 {

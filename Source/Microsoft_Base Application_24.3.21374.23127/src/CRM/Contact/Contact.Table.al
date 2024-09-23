@@ -224,7 +224,7 @@ table 5050 Contact
             CalcFormula = exist("Rlshp. Mgt. Comment Line" where("Table Name" = const(Contact),
                                                                   "No." = field("No."),
                                                                   "Sub No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1190,14 +1190,14 @@ table 5050 Contact
     end;
 
     var
-        CannotDeleteWithOpenTasksErr: Label 'You cannot delete contact %1 because there are one or more tasks open.', Comment = '%1 = Contact No.';
+CannotDeleteWithOpenTasksErr: Label 'You cannot delete contact %1 because there are one or more tasks open.', Comment = '%1 = Contact No.';
         Text001: Label 'You cannot delete the %2 record of the %1 because the contact is assigned one or more unlogged segments.';
         Text002: Label 'You cannot delete the %2 record of the %1 because one or more opportunities are in not started or progress.';
         Text003: Label '%1 cannot be changed because one or more interaction log entries are linked to the contact.';
-        CannotChangeWithOpenTasksErr: Label '%1 cannot be changed because one or more tasks are linked to the contact.', Comment = '%1 = Contact No.';
+CannotChangeWithOpenTasksErr: Label '%1 cannot be changed because one or more tasks are linked to the contact.', Comment = '%1 = Contact No.';
         Text006: Label '%1 cannot be changed because one or more opportunities are linked to the contact.';
         Text007: Label '%1 cannot be changed because there are one or more related people linked to the contact.';
-        RelatedRecordIsCreatedMsg: Label 'The %1 record has been created.', Comment = 'The Customer record has been created.';
+RelatedRecordIsCreatedMsg: Label 'The %1 record has been created.', Comment = 'The Customer record has been created.';
         RMSetup: Record "Marketing Setup";
         Salesperson: Record "Salesperson/Purchaser";
         PostCode: Record "Post Code";
@@ -1210,18 +1210,18 @@ table 5050 Contact
         Text012: Label 'You cannot change %1 because one or more unlogged segments are assigned to the contact.';
         Text019: Label 'The %2 record of the %1 already has the %3 with %4 %5.';
         CreateCustomerFromContactQst: Label 'Do you want to create a contact as a customer using a customer template?';
-        Text021: Label 'You have to set up the salutation formula of the type %1 in %2 language for the %3 contact.', Comment = '%1 - salutation type, %2 - language code, %3 - contact number.';
+Text021: Label 'You have to set up the salutation formula of the type %1 in %2 language for the %3 contact.', Comment = '%1 - salutation type, %2 - language code, %3 - contact number.';
         Text022: Label 'The creation of the customer has been aborted.';
         SelectContactErr: Label 'You must select an existing contact.';
-        AlreadyExistErr: Label '%1 %2 already has a %3 with %4 %5.', Comment = '%1=Contact table caption;%2=Contact number;%3=Contact Business Relation table caption;%4=Contact Business Relation Link to Table value;%5=Contact Business Relation number';
-        PrivacyBlockedPostErr: Label 'You cannot post this type of document because contact %1 is blocked due to privacy.', Comment = '%1=contact no.';
-        PrivacyBlockedCreateErr: Label 'You cannot create this type of document because contact %1 is blocked due to privacy.', Comment = '%1=contact no.';
-        PrivacyBlockedGenericErr: Label 'You cannot use contact %1 %2 because they are marked as blocked due to privacy.', Comment = '%1=contact no.;%2=contact name';
-        ParentalConsentReceivedErr: Label 'Privacy Blocked cannot be cleared until Parental Consent Received is set to true for minor contact %1.', Comment = '%1=contact no.';
+AlreadyExistErr: Label '%1 %2 already has a %3 with %4 %5.', Comment = '%1=Contact table caption;%2=Contact number;%3=Contact Business Relation table caption;%4=Contact Business Relation Link to Table value;%5=Contact Business Relation number';
+PrivacyBlockedPostErr: Label 'You cannot post this type of document because contact %1 is blocked due to privacy.', Comment = '%1=contact no.';
+PrivacyBlockedCreateErr: Label 'You cannot create this type of document because contact %1 is blocked due to privacy.', Comment = '%1=contact no.';
+PrivacyBlockedGenericErr: Label 'You cannot use contact %1 %2 because they are marked as blocked due to privacy.', Comment = '%1=contact no.;%2=contact name';
+ParentalConsentReceivedErr: Label 'Privacy Blocked cannot be cleared until Parental Consent Received is set to true for minor contact %1.', Comment = '%1=contact no.';
         ProfileForMinorErr: Label 'You cannot use profiles for contacts marked as Minor.';
-        MultipleCustomerTemplatesConfirmQst: Label 'Quotes with customer templates different from %1 were assigned to customer %2. Do you want to review the quotes now?', Comment = '%1=Customer Template Code,%2=Customer No.';
-        DifferentCustomerTemplateMsg: Label 'Sales quote %1 with original customer template %2 was assigned to the customer created from template %3.', Comment = '%1=Document No.,%2=Original Customer Template Code,%3=Customer Template Code';
-        NoOriginalCustomerTemplateMsg: Label 'Sales quote %1 without an original customer template was assigned to the customer created from template %2.', Comment = '%1=Document No.,%2=Customer Template Code';
+MultipleCustomerTemplatesConfirmQst: Label 'Quotes with customer templates different from %1 were assigned to customer %2. Do you want to review the quotes now?', Comment = '%1=Customer Template Code,%2=Customer No.';
+DifferentCustomerTemplateMsg: Label 'Sales quote %1 with original customer template %2 was assigned to the customer created from template %3.', Comment = '%1=Document No.,%2=Original Customer Template Code,%3=Customer Template Code';
+NoOriginalCustomerTemplateMsg: Label 'Sales quote %1 without an original customer template was assigned to the customer created from template %2.', Comment = '%1=Document No.,%2=Customer Template Code';
         PhoneNoCannotContainLettersErr: Label 'must not contain letters';
         FieldLengthErr: Label 'must not have the length more than 20 symbols';
 

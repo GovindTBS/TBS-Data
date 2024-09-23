@@ -204,12 +204,12 @@ page 790 "G/L Account Categories"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(New_Promoted; New)
                 {
@@ -238,11 +238,11 @@ page 790 "G/L Account Categories"
             }
             group(Category_Category4)
             {
-                Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

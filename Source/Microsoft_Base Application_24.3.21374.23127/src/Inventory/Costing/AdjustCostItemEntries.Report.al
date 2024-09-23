@@ -147,7 +147,7 @@ report 795 "Adjust Cost - Item Entries"
         FilterItemCategoryEditable: Boolean;
 
         ItemOrCategoryFilterErr: Label 'You must not use Item No. Filter and Item Category Filter at the same time.';
-        ResynchronizeInfoMsg: Label 'Your general and item ledgers will no longer be synchronized after running the cost adjustment. You must run the %1 report to synchronize them again.', Comment = '%1: Adjust Cost - Item Entries';
+ResynchronizeInfoMsg: Label 'Your general and item ledgers will no longer be synchronized after running the cost adjustment. You must run the %1 report to synchronize them again.', Comment = '%1: Adjust Cost - Item Entries';
 
     protected var
         ItemNoFilter: Text[250];

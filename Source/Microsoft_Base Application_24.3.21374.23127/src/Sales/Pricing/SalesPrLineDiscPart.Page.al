@@ -297,7 +297,7 @@ page 1347 "Sales Pr. & Line Disc. Part"
         CodeIsVisible: Boolean;
         SalesCodeIsVisible: Boolean;
         SalesPriceIsEnabled: Boolean;
-        MaxRowsLoadedMsg: Label 'Showing the first %1 prices and discounts. To view all prices and discounts, choose Refresh Data.', Comment = '%1=a number, e.g. 50';
+MaxRowsLoadedMsg: Label 'Showing the first %1 prices and discounts. To view all prices and discounts, choose Refresh Data.', Comment = '%1=a number, e.g. 50';
 
     procedure InitPage(ForItem: Boolean)
     begin

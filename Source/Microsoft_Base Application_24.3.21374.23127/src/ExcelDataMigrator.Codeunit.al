@@ -35,9 +35,9 @@ codeunit 1806 "Excel Data Migrator"
         ApplyingMsg: Label 'Applying Data...';
         ImportFromExcelTxt: Label 'Import from Excel';
         ExcelFileExtensionTok: Label '*.xlsx';
-        ExcelValidationErr: Label 'The file that you imported is corrupted. It contains columns that cannot be mapped to %1.', Comment = '%1 - product name';
+ExcelValidationErr: Label 'The file that you imported is corrupted. It contains columns that cannot be mapped to %1.', Comment = '%1 - product name';
         OpenAdvancedQst: Label 'The advanced setup experience requires you to specify how database tables are configured. We recommend that you only access the advanced setup if you are familiar with RapidStart Services.\\Do you want to continue?';
-        ExcelFileNameTok: Label 'DataImport_Dynamics365%1.xlsx', Comment = '%1 = String generated from current datetime to make sure file names are unique ';
+ExcelFileNameTok: Label 'DataImport_Dynamics365%1.xlsx', Comment = '%1 = String generated from current datetime to make sure file names are unique ';
         SettingsMissingQst: Label 'Wait a minute. You have not specified import settings. To avoid extra work and potential errors, we recommend that you specify import settings now, rather than update the data later.\\Do you want to specify the settings?';
         ValidateErrorsBeforeApplyQst: Label 'Some of the fields will not be applied because errors were found in the imported data.\\Do you want to continue?';
 

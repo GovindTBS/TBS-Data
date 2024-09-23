@@ -12,9 +12,9 @@ codeunit 360 "Accounting Period Mgt."
     end;
 
     var
-        PeriodTxt: Label 'PERIOD', Comment = 'Must be uppercase. Reuse the translation from COD1 for 2009 SP1.';
-        YearTxt: Label 'YEAR', Comment = 'Must be uppercase. Reuse the translation from COD1 for 2009 SP1.';
-        NumeralTxt: Label '0123456789', Comment = 'Numerals';
+PeriodTxt: Label 'PERIOD', Comment = 'Must be uppercase. Reuse the translation from COD1 for 2009 SP1.';
+YearTxt: Label 'YEAR', Comment = 'Must be uppercase. Reuse the translation from COD1 for 2009 SP1.';
+NumeralTxt: Label '0123456789', Comment = 'Numerals';
         ReservedCharsTxt: Label '-+|. ', Locked = true;
         CombineTok: Label '%1%2', Locked = true;
         NumeralOutOfRangeErr: Label 'When you specify periods and years, you can use numbers from 1 - 999, such as P-1, P1, Y2 or Y+3.';

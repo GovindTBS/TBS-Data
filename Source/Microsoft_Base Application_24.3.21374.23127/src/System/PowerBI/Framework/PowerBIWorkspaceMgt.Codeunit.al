@@ -7,8 +7,8 @@ codeunit 6319 "Power BI Workspace Mgt."
     var
         PowerBIServiceMgt: Codeunit "Power BI Service Mgt.";
         PowerBIUrlMgt: Codeunit "Power BI Url Mgt";
-        MyWorkspaceTxt: Label 'My Workspace', Comment = 'Workspace here is meant as "Power BI workspace". The wording "My Workspace" is used by Power BI.', MaxLength = 200;
-        CouldNotAccessWorkspaceErr: Label 'There was a problem retrieving the reports in My Workspace. Make sure you can access Power BI from the browser and try again.', Comment = 'Workspace here is meant as "Power BI workspace". The wording "My Workspace" is used by Power BI.';
+MyWorkspaceTxt: Label 'My Workspace', Comment = 'Workspace here is meant as "Power BI workspace". The wording "My Workspace" is used by Power BI.', MaxLength = 200;
+CouldNotAccessWorkspaceErr: Label 'There was a problem retrieving the reports in My Workspace. Make sure you can access Power BI from the browser and try again.', Comment = 'Workspace here is meant as "Power BI workspace". The wording "My Workspace" is used by Power BI.';
 
         //Telemetry
         FailedToInsertWorkspaceTelemetryMsg: Label 'Failed to insert workspace in buffer.', Locked = true;

@@ -22,12 +22,12 @@ codeunit 5467 "PDF Document Management"
     end;
 
     var
-        CannotFindDocumentErr: Label 'The document %1 cannot be found.', Comment = '%1 - Error Message';
-        CannotOpenFileErr: Label 'Opening the file failed because of the following error: \%1.', Comment = '%1 - Error Message';
-        UnpostedSalesCreditMemoErr: Label 'You must post sales credit memo %1 before generating the PDF document.', Comment = '%1 - sales credit memo id';
-        UnpostedPurchaseCreditMemoErr: Label 'You must post purchase credit memo %1 before generating the PDF document.', Comment = '%1 - purchase credit memo id';
-        UnpostedPurchaseInvoiceErr: Label 'You must post purchase invoice %1 before generating the PDF document.', Comment = '%1 - sales credit memo id';
-        CannotFindContactErr: Label 'The Contact cannot be found with SystemtId %1,', Comment = '%1 - Contact System id';
+CannotFindDocumentErr: Label 'The document %1 cannot be found.', Comment = '%1 - Error Message';
+CannotOpenFileErr: Label 'Opening the file failed because of the following error: \%1.', Comment = '%1 - Error Message';
+UnpostedSalesCreditMemoErr: Label 'You must post sales credit memo %1 before generating the PDF document.', Comment = '%1 - sales credit memo id';
+UnpostedPurchaseCreditMemoErr: Label 'You must post purchase credit memo %1 before generating the PDF document.', Comment = '%1 - purchase credit memo id';
+UnpostedPurchaseInvoiceErr: Label 'You must post purchase invoice %1 before generating the PDF document.', Comment = '%1 - sales credit memo id';
+CannotFindContactErr: Label 'The Contact cannot be found with SystemtId %1,', Comment = '%1 - Contact System id';
         BlobEmptyErr: Label 'Opening the file failed.';
         CreditMemoTxt: Label 'Credit Memo';
         CustomerStatementTxt: Label 'Customer Statement';

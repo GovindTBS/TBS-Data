@@ -316,11 +316,11 @@ page 1813 "Cust. Approval WF Setup Wizard"
         CustomerAutoAppDetailsVisible: Boolean;
         DoneVisible: Boolean;
         NAVNotSetUpQst: Label 'Customer Approval has not been set up.\\Are you sure that you want to exit?';
-        MandatoryApproverErr: Label 'You must select an approver before continuing.', Comment = '%1 = User Name';
+MandatoryApproverErr: Label 'You must select an approver before continuing.', Comment = '%1 = User Name';
         CustomerFieldCaption: Text[250];
-        FieldNotExistErr: Label 'Field %1 does not exist.', Comment = '%1 = Field Caption';
-        ManualTriggerTxt: Label 'An approval request will be sent to the user %1 when the user sends the request manually.', Comment = '%1 = User Name (eg. An approval request will be sent to the user Domain/Username when the user sends the request manually.)';
-        AutoTriggerTxt: Label 'An approval request will be sent to the user %1 when the value in the %2 field is %3.', Comment = '%1 = User Name, %2 = Field caption, %3 = Of of this 3 values: Increased, Decreased, Changed (eg. An approval request will be sent to the user Domain/Username when the value in the Credit Limit (LCY) field is Increased.)';
+FieldNotExistErr: Label 'Field %1 does not exist.', Comment = '%1 = Field Caption';
+ManualTriggerTxt: Label 'An approval request will be sent to the user %1 when the user sends the request manually.', Comment = '%1 = User Name (eg. An approval request will be sent to the user Domain/Username when the user sends the request manually.)';
+AutoTriggerTxt: Label 'An approval request will be sent to the user %1 when the value in the %2 field is %3.', Comment = '%1 = User Name, %2 = Field caption, %3 = Of of this 3 values: Increased, Decreased, Changed (eg. An approval request will be sent to the user Domain/Username when the value in the Credit Limit (LCY) field is Increased.)';
         SummaryText: Text;
 
     local procedure NextStep(Backwards: Boolean)

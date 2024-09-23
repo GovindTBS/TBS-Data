@@ -33,7 +33,7 @@ codeunit 5357 "Int. Rec. Uncouple Invoke"
         SynchActionContext: Option;
         IsContextInitialized: Boolean;
         ContextErr: Label 'The integration record synchronization context has not been initialized.';
-        UncoupleFailedErr: Label 'Uncoupling %1 failed because of the following error: %2.', Comment = '%1 = Table Caption, %2 = Error from modify process.';
+UncoupleFailedErr: Label 'Uncoupling %1 failed because of the following error: %2.', Comment = '%1 = Table Caption, %2 = Error from modify process.';
         UnexpectedRecordStateTxt: Label 'Uncoupling %1 was skipped because of record state differs from the expected one. Actual state: %2, expected state: %3.', Locked = true;
         UnexpectedSyncActionTxt: Label 'Uncoupling %1 was skipped because of sync action differs the expected one. Actual action: %2, expected action: %3.', Locked = true;
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;

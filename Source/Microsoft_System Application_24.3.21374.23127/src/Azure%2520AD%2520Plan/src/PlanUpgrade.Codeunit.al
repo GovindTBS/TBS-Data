@@ -18,7 +18,7 @@ codeunit 9057 "Plan Upgrade"
     InherentPermissions = X;
 
     var
-        SubscriptionPlanMsg: Label 'Subscription Plan %1 was added', Comment = '%1 - Plan Id', Locked = true;
+SubscriptionPlanMsg: Label 'Subscription Plan %1 was added', Comment = '%1 - Plan Id', Locked = true;
 
     trigger OnUpgradePerDatabase()
     begin

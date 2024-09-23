@@ -31,7 +31,7 @@ codeunit 10101 "Post- Print Sales Tax Jnl"
         JournalErrorsMgt: Codeunit "Journal Errors Mgt.";
         ManageSalesTaxJournal: Codeunit "Manage Sales Tax Journal";
         TempJnlBatchName: Code[10];
-        Text000: Label 'cannot be filtered when posting recurring journals.', Comment = 'Posting Date cannot be filtered when posting recurring journals.';
+Text000: Label 'cannot be filtered when posting recurring journals.', Comment = 'Posting Date cannot be filtered when posting recurring journals.';
         Text001: Label 'Do you want to post the journal lines and print the report(s)?';
         Text003: Label 'The journal lines were successfully posted.';
         Text004: Label 'The journal lines were successfully posted. You are now in the %1 journal.';

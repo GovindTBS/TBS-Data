@@ -10,7 +10,7 @@ using System.IO;
 codeunit 5397 "CDS Transformation Rule Mgt."
 {
     var
-        TransformationRuleInUseErr: Label '%1 cannot be deleted because it is in use.', Comment = '%1 - the name of the transformation rule';
+TransformationRuleInUseErr: Label '%1 cannot be deleted because it is in use.', Comment = '%1 - the name of the transformation rule';
 
     [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnBeforeDeleteEvent', '', false, false)]
     procedure OnDeleteTransformationRule(var Rec: Record "Transformation Rule"; RunTrigger: Boolean)

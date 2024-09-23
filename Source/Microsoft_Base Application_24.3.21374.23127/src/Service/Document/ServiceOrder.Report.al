@@ -748,8 +748,8 @@ report 5900 "Service Order"
         Service_Item_LinesCaptionLbl: Label 'Service Item Lines';
         Service_Item_Line__Response_Date_CaptionLbl: Label 'Response Date';
         Service_Item_Line__Response_Time_CaptionLbl: Label 'Response Time';
-        Fault_CommentsCaptionLbl: Label 'Fault Comments';
-        Resolution_CommentsCaptionLbl: Label 'Resolution Comments';
+Fault_CommentsCaptionLbl: Label 'Fault Comments';
+Resolution_CommentsCaptionLbl: Label 'Resolution Comments';
         QtyCaptionLbl: Label 'Quantity';
         Service_LinesCaptionLbl: Label 'Service Lines';
         AmountCaptionLbl: Label 'Amount';

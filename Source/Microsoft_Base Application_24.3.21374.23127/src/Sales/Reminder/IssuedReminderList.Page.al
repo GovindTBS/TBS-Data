@@ -116,7 +116,7 @@ page 440 "Issued Reminder List"
                     RunObject = Page "Reminder Comment Sheet";
                     RunPageLink = Type = const("Issued Reminder"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("C&ustomer")
                 {

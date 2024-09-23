@@ -155,9 +155,9 @@ page 1309 "O365 Getting Started"
         RoleCenterOverview: Page "Role Center Overview";
         CurrAllProfile: Record "All Profile";
         RoleNotSavedQst: Label 'Your choice of role center is not saved. Are you sure you want to close?';
-        TitleTxt: Label 'Welcome to %1', Comment = '%1 is the branding PRODUCTNAME.MARKETING string constant';
+TitleTxt: Label 'Welcome to %1', Comment = '%1 is the branding PRODUCTNAME.MARKETING string constant';
         SubTitleTxt: Label 'Let''s get started';
-        ExplanationTxt: Label 'Start with basic business processes, or jump right in to advanced operations. Use our %1 demo company and data, or create a new company and import your own data.', Comment = '%1 - This is the COMPANYNAME. ex. Cronus US Inc.';
+ExplanationTxt: Label 'Start with basic business processes, or jump right in to advanced operations. Use our %1 demo company and data, or create a new company and import your own data.', Comment = '%1 - This is the COMPANYNAME. ex. Cronus US Inc.';
         IntroTxt: Label 'Introduction';
         IntroDescTxt: Label 'Get to know Business Central';
         GetStartedTxt: Label 'Get Started';

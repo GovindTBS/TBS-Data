@@ -783,7 +783,7 @@ page 26 "Vendor Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Vendor),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(ApprovalEntries)
                 {
@@ -1189,7 +1189,7 @@ page 26 "Vendor Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCDSCoupling)
@@ -1404,9 +1404,9 @@ page 26 "Vendor Card"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistCurrUser;
 
                     trigger OnAction()
@@ -1815,7 +1815,7 @@ page 26 "Vendor Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ContactBtn_Promoted; ContactBtn)
                 {
@@ -1835,7 +1835,7 @@ page 26 "Vendor Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1852,7 +1852,7 @@ page 26 "Vendor Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1863,7 +1863,7 @@ page 26 "Vendor Card"
             }
             group(Category_Category6)
             {
-                Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(NewPurchaseInvoiceAddin_Promoted; NewPurchaseInvoiceAddin)
                 {
@@ -1886,7 +1886,7 @@ page 26 "Vendor Card"
             }
             group(Category_Category8)
             {
-                Caption = 'Incoming Documents', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Incoming Documents', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(SendToIncomingDocuments_Promoted; SendToIncomingDocuments)
                 {
@@ -1900,7 +1900,7 @@ page 26 "Vendor Card"
             }
             group(Category_Category9)
             {
-                Caption = 'Vendor', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Vendor', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref("Ledger E&ntries_Promoted"; "Ledger E&ntries")
                 {
@@ -1970,11 +1970,11 @@ page 26 "Vendor Card"
             }
             group(Category_Category7)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 6.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Vendor - Balance to Date_Promoted"; "Vendor - Balance to Date")
                 {
@@ -2154,7 +2154,7 @@ page 26 "Vendor Card"
         PrivacyNoticeRegistrations: Codeunit "Privacy Notice Registrations";
         Text001: Label 'Do you want to allow payment tolerance for entries that are currently open?';
         Text002: Label 'Do you want to remove payment tolerance from entries that are currently open?';
-        PageBckGrndTaskStartedTxt: Label 'Page Background Task to calculate vendor statistics for vendor %1 started.', Locked = true, Comment = '%1 = Customer No.';
+PageBckGrndTaskStartedTxt: Label 'Page Background Task to calculate vendor statistics for vendor %1 started.', Locked = true, Comment = '%1 = Customer No.';
         PageBckGrndTaskCompletedTxt: Label 'Page Background Task to calculate vendor statistics completed successfully.', Locked = true;
         VendorCardServiceCategoryTxt: Label 'Vendor Card', Locked = true;
         LinkedCustomerNo: Code[20];

@@ -840,7 +840,7 @@ table 5343 "CRM Opportunity"
         }
         field(100; QualificationComments; BLOB)
         {
-            Caption = 'Qualification Comments';
+Caption = 'Qualification Comments';
             Description = 'Type comments about the qualification or scoring of the lead.';
             ExternalName = 'qualificationcomments';
             ExternalType = 'Memo';
@@ -848,7 +848,7 @@ table 5343 "CRM Opportunity"
         }
         field(101; QuoteComments; BLOB)
         {
-            Caption = 'Quote Comments';
+Caption = 'Quote Comments';
             Description = 'Type comments about the quotes associated with the opportunity.';
             ExternalName = 'quotecomments';
             ExternalType = 'Memo';

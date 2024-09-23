@@ -149,7 +149,7 @@ page 10810 "Generate EFT Files"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Delete_Promoted; Delete)
                 {
@@ -166,11 +166,11 @@ page 10810 "Generate EFT Files"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
         }
     }

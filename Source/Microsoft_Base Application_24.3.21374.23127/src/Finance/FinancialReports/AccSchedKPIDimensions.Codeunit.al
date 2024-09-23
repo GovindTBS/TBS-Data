@@ -32,8 +32,8 @@ codeunit 9 "Acc. Sched. KPI Dimensions"
         IllegalValErr: Label 'You have entered an illegal value or a nonexistent row number.';
         GeneralErr: Label '%1\\ %2 %3 %4.', Locked = true;
         ErrorOccurredErr: Label 'The error occurred when the program tried to calculate:\';
-        AccSchedLineErr: Label 'Acc. Sched. Line: Row No. = %1, Line No. = %2, Totaling = %3\', Comment = '%1 = Row No., %2= Line No., %3 = Totaling';
-        ColumnErr: Label 'Acc. Sched. Column: Column No. = %1, Line No. = %2, Formula  = %3', Comment = '%1 = Column No., %2= Line No., %3 = Formula';
+AccSchedLineErr: Label 'Acc. Sched. Line: Row No. = %1, Line No. = %2, Totaling = %3\', Comment = '%1 = Row No., %2= Line No., %3 = Totaling';
+ColumnErr: Label 'Acc. Sched. Column: Column No. = %1, Line No. = %2, Formula  = %3', Comment = '%1 = Column No., %2= Line No., %3 = Formula';
         CircularRefErr: Label 'Because of circular references, the program cannot calculate a formula.';
 
     procedure GetCellDataWithDimensions(var AccSchedLine: Record "Acc. Schedule Line"; var ColumnLayout: Record "Column Layout"; var TempAccSchedKPIBuffer2: Record "Acc. Sched. KPI Buffer" temporary)

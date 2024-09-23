@@ -325,7 +325,7 @@ page 116 "G/L Registers"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("General Ledger_Promoted"; "General Ledger")
                 {
@@ -354,7 +354,7 @@ page 116 "G/L Registers"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Detail Trial Balance_Promoted"; "Detail Trial Balance")
                 {
@@ -368,7 +368,7 @@ page 116 "G/L Registers"
             }
             group(Category_Category4)
             {
-                Caption = 'Reverse', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Reverse', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ReverseRegister_Promoted; ReverseRegister)
                 {

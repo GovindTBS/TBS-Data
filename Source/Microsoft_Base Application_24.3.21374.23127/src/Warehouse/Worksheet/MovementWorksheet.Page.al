@@ -469,7 +469,7 @@ page 7351 "Movement Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create Movement_Promoted"; "Create Movement")
                 {
@@ -495,7 +495,7 @@ page 7351 "Movement Worksheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ItemTrackingLines_Promoted; ItemTrackingLines)
                 {
@@ -503,7 +503,7 @@ page 7351 "Movement Worksheet"
             }
             group(Category_Category5)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Warehouse Entries_Promoted"; "Warehouse Entries")
                 {
@@ -511,7 +511,7 @@ page 7351 "Movement Worksheet"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -586,7 +586,7 @@ page 7351 "Movement Worksheet"
         CurrentSortingMethod: Option " ",Item,,"Shelf/Bin No.","Due Date";
         ItemDescription: Text[100];
         Text001: Label 'There is nothing to handle.';
-        ExcelFileNameTxt: Label 'MovementWorkSheet - CurrentWkshName %1 - CurrentWksTemplateName %2', Comment = '%1 = Worksheet Name; %2 = Worksheet Template Name';
+ExcelFileNameTxt: Label 'MovementWorkSheet - CurrentWkshName %1 - CurrentWksTemplateName %2', Comment = '%1 = Worksheet Name; %2 = Worksheet Template Name';
         OpenedFromBatch: Boolean;
         IsSaaSExcelAddinEnabled: Boolean;
 

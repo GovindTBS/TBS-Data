@@ -196,7 +196,7 @@ page 920 "Posted Assembly Order"
                 RunPageLink = "Document Type" = const("Posted Assembly"),
                               "Document No." = field("No."),
                               "Document Line No." = const(0);
-                ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
             }
         }
         area(processing)
@@ -247,7 +247,7 @@ page 920 "Posted Assembly Order"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -264,11 +264,11 @@ page 920 "Posted Assembly Order"
             }
             group(Category_Category5)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category4)
             {
-                Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -282,7 +282,7 @@ page 920 "Posted Assembly Order"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

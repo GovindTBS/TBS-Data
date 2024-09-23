@@ -761,7 +761,7 @@ page 134 "Posted Sales Credit Memo"
                     RunPageLink = "Document Type" = const("Posted Credit Memo"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -1098,7 +1098,7 @@ page 134 "Posted Sales Credit Memo"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Update Document_Promoted"; "Update Document")
                 {
@@ -1108,7 +1108,7 @@ page 134 "Posted Sales Credit Memo"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Cancel', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Cancel', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(CancelCrMemo_Promoted; CancelCrMemo)
@@ -1124,7 +1124,7 @@ page 134 "Posted Sales Credit Memo"
             }
             group(Category_Category7)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -1141,7 +1141,7 @@ page 134 "Posted Sales Credit Memo"
             }
             group(Category_Category4)
             {
-                Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1186,15 +1186,15 @@ page 134 "Posted Sales Credit Memo"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category8)
             {
-                Caption = 'Credit Card', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Credit Card', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Category9)
             {
-                Caption = 'Electronic Document', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Electronic Document', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref("S&end_Promoted"; "S&end")
                 {
@@ -1214,7 +1214,7 @@ page 134 "Posted Sales Credit Memo"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -133,8 +133,8 @@ report 5880 "Calc. Phys. Invt. Order Lines"
 
     var
         CalculatingLinesMsg: Label 'Calculating the order lines...\\';
-        ItemNoMsg: Label 'Item No.  #1##################', Comment = '%1 = Item No.';
-        LinesCreatedMsg: Label '%1 new lines have been created.', Comment = '%1 = counter';
+ItemNoMsg: Label 'Item No.  #1##################', Comment = '%1 = Item No.';
+LinesCreatedMsg: Label '%1 new lines have been created.', Comment = '%1 = counter';
         BlockedItemMsg: Label 'There is at least one blocked item that was skipped.';
 
     protected var

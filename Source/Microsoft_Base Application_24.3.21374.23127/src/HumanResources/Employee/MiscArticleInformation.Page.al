@@ -55,7 +55,7 @@ page 5219 "Misc. Article Information"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies if a comment is associated with this entry.';
+ToolTip = 'Specifies if a comment is associated with this entry.';
                 }
             }
         }
@@ -92,7 +92,7 @@ page 5219 "Misc. Article Information"
                                   "No." = field("Employee No."),
                                   "Alternative Address Code" = field("Misc. Article Code"),
                                   "Table Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

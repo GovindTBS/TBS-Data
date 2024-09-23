@@ -704,7 +704,7 @@ page 5091 Segment
     end;
 
     var
-        LoggedSegmentLbl: Label 'Segment %1 has been logged.', Comment = '%1 = Segment No.';
+LoggedSegmentLbl: Label 'Segment %1 has been logged.', Comment = '%1 = Segment No.';
         UndoLastCriteriaMsg: Label 'This will undo the last criteria action.\Do you want to continue?';
         CampaignTargetEnable: Boolean;
         CampaignResponseEnable: Boolean;

@@ -132,7 +132,7 @@ table 1513 "Notification Schedule"
 
     var
         NotifyNowDescriptionTxt: Label 'Instant Notification Job';
-        NoPermissionsErr: Label 'You are not allowed to send notifications, but your system administrator can give you permission to do so. Specifically, ask for the %1 for the %2 table.', Comment = '%1 Permission Type; %2 Table Name';
+NoPermissionsErr: Label 'You are not allowed to send notifications, but your system administrator can give you permission to do so. Specifically, ask for the %1 for the %2 table.', Comment = '%1 Permission Type; %2 Table Name';
         NotifyNowLbl: Label 'NOTIFYNOW', Locked = true;
         WritePermissionTok: Label 'Insert, Modify, and Delete permissions';
         ReadPermissionTok: Label 'Read Permission';

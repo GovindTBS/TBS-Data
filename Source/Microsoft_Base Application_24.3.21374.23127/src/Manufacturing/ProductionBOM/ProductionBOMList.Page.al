@@ -99,7 +99,7 @@ page 99000787 "Production BOM List"
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "Table Name" = const("Production BOM Header"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Versions)
                 {

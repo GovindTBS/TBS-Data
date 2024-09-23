@@ -67,7 +67,7 @@ codeunit 442 "Sales-Post Prepayments"
         Text004: Label 'Posting sales and VAT      #3######\';
         Text005: Label 'Posting to customers       #4######\';
         Text006: Label 'Posting to bal. account    #5######';
-        PostingDateNotAllowedErr: Label '%1 is not within your range of allowed posting dates.', Comment = '%1 - Posting Date field caption';
+PostingDateNotAllowedErr: Label '%1 is not within your range of allowed posting dates.', Comment = '%1 - Posting Date field caption';
         SpecifyInvNoSerieTok: Label 'Specify the code for the number series that will be used to assign numbers to posted sales prepayment invoices.';
         SpecifyCrNoSerieTok: Label 'Specify the code for the number series that will be used to assign numbers to posted sales prepayment credit memos.';
         Text011: Label '%1 %2 -> Credit Memo %3';

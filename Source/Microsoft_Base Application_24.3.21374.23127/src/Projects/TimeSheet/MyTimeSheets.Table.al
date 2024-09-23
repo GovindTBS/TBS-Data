@@ -37,7 +37,7 @@ table 9155 "My Time Sheets"
         }
         field(5; Comment; Boolean)
         {
-            Caption = 'Comment';
+Caption = 'Comment';
             Description = 'Specifies if any comments are available about the assignment.';
         }
     }

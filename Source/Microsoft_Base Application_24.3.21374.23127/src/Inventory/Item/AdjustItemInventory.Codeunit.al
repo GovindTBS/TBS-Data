@@ -13,7 +13,7 @@ codeunit 1327 "Adjust Item Inventory"
 
     var
         CantFindTemplateOrBatchErr: Label 'Unable to find the correct item journal template or batch to post this change. Use the default item journal instead.';
-        SimpleInvJnlNameTxt: Label 'DEFAULT', Comment = 'The default name of the item journal';
+SimpleInvJnlNameTxt: Label 'DEFAULT', Comment = 'The default name of the item journal';
 
     procedure PostAdjustmentToItemLedger(Item: Record Item; NewInventory: Decimal) LastErrorText: Text
     var

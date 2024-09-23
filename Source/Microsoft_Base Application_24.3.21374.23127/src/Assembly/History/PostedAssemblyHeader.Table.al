@@ -68,7 +68,7 @@ table 910 "Posted Assembly Header"
         {
             CalcFormula = exist("Assembly Comment Line" where("Document Type" = const("Posted Assembly"),
                                                                "Document No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

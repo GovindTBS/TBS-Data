@@ -237,7 +237,7 @@ table 5990 "Service Shipment Header"
             CalcFormula = exist("Service Comment Line" where("Table Name" = const("Service Shipment Header"),
                                                               "No." = field("No."),
                                                               Type = const(General)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

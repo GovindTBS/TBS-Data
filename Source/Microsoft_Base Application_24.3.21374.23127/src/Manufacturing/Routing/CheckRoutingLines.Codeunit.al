@@ -25,7 +25,7 @@ codeunit 99000752 "Check Routing Lines"
         Text006: Label 'Previous operations for %1 cannot be found.';
         Text007: Label 'Next operations for %1 cannot be found.';
         Text008: Label 'Operation %1 does not have a work center or a machine center defined.';
-        WorkMachineCenterNotExistErr: Label 'Operation no. %1 uses %2 no. %3 that no longer exists.', Comment = '%1 - Routing Line Operation No.; %2 - Work Center or Machine Center table caption; %3 - Work or Machine Center No.';
+WorkMachineCenterNotExistErr: Label 'Operation no. %1 uses %2 no. %3 that no longer exists.', Comment = '%1 - Routing Line Operation No.; %2 - Work Center or Machine Center table caption; %3 - Work or Machine Center No.';
 
     local procedure ErrorInRouting(RoutingCode: Code[20]; Direction: Text[20]; ActualSequence: Integer; MaxSequences: Integer)
     begin

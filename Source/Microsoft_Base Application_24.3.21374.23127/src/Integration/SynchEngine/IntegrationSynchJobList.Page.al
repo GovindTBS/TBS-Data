@@ -281,7 +281,7 @@ page 5338 "Integration Synch. Job List"
     end;
 
     var
-        SynchDirectionTxt: Label '%1 to %2.', Comment = '%1 = Source table caption, %2 = Destination table caption';
+SynchDirectionTxt: Label '%1 to %2.', Comment = '%1 = Source table caption, %2 = Destination table caption';
         IntegrationUncouplingJobsCaptionTxt: Label 'Integration Uncoupling Jobs';
         IntegrationCouplingJobsCaptionTxt: Label 'Integration Coupling Jobs';
         SynchDirection: Text;

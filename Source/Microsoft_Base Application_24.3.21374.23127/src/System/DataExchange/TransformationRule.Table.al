@@ -272,30 +272,30 @@ table 1237 "Transformation Rule"
 
     var
         MustBeGreaterThanZeroErr: Label 'The Value entered must be greater than zero.';
-        UPPERCASETxt: Label 'UPPERCASE', Comment = 'Assigned to Transformation.Code field for Upper case';
+UPPERCASETxt: Label 'UPPERCASE', Comment = 'Assigned to Transformation.Code field for Upper case';
         UpperCaseDescTxt: Label 'Upper Case Text';
-        LOWERCASETxt: Label 'LOWERCASE', Comment = 'Assigned to Transformation.Code field for Lower case';
+LOWERCASETxt: Label 'LOWERCASE', Comment = 'Assigned to Transformation.Code field for Lower case';
         LowerCaseDescTxt: Label 'Lower Case Text';
-        TITLECASETxt: Label 'TITLECASE', Comment = 'Assigned to Transformation.Code field for Title case';
+TITLECASETxt: Label 'TITLECASE', Comment = 'Assigned to Transformation.Code field for Title case';
         TitleCaseDescTxt: Label 'Title Case Text';
-        TRIMTxt: Label 'TRIM', Comment = 'Assigned to Transformation.Code field for Trim';
+TRIMTxt: Label 'TRIM', Comment = 'Assigned to Transformation.Code field for Trim';
         TrimDescTxt: Label 'Trim Text';
-        FOURTH_TO_SIXTH_CHARTxt: Label 'FOURTH_TO_SIXTH_CHAR', Comment = 'Assigned to Transformation.Code field for getting the 4th to 6th characters in a string';
+FOURTH_TO_SIXTH_CHARTxt: Label 'FOURTH_TO_SIXTH_CHAR', Comment = 'Assigned to Transformation.Code field for getting the 4th to 6th characters in a string';
         FourthToSixthCharactersDescTxt: Label 'Fourth to Sixth Characters Text';
-        YYYYMMDDDateTxt: Label 'YYYYMMDD_DATE', Comment = 'Assigned to Transformation.Code field for converting dates from yyyyMMdd format';
+YYYYMMDDDateTxt: Label 'YYYYMMDD_DATE', Comment = 'Assigned to Transformation.Code field for converting dates from yyyyMMdd format';
         YYYYMMDDDateDescTxt: Label 'yyyyMMdd Date Text';
-        YYYYMMDDHHMMSSTxt: Label 'YYYYMMDDHHMMSS_FMT', Comment = 'Assigned to Transformation.Code field for converting dates from yyyyMMdd format';
+YYYYMMDDHHMMSSTxt: Label 'YYYYMMDDHHMMSS_FMT', Comment = 'Assigned to Transformation.Code field for converting dates from yyyyMMdd format';
         YYYYMMDDHHMMSSDescTxt: Label 'yyyyMMddHHmmss Date/Time Format';
-        ALPHANUMERIC_ONLYTxt: Label 'ALPHANUMERIC_ONLY', Comment = 'Assigned to Transformation.Code field for getting only the Alphanumeric characters in a string';
+ALPHANUMERIC_ONLYTxt: Label 'ALPHANUMERIC_ONLY', Comment = 'Assigned to Transformation.Code field for getting only the Alphanumeric characters in a string';
         AlphaNumericDescTxt: Label 'Alphanumeric Text Only';
-        DKNUMBERFORMATTxt: Label 'DK_DECIMAL_FORMAT', Comment = 'Assigned to Transformation.Code field for getting decimal formatting rule for Danish numbers';
+DKNUMBERFORMATTxt: Label 'DK_DECIMAL_FORMAT', Comment = 'Assigned to Transformation.Code field for getting decimal formatting rule for Danish numbers';
         DKNUMBERFORMATDescTxt: Label 'Danish Decimal Format';
-        USDATEFORMATTxt: Label 'US_DATE_FORMAT', Comment = 'Assigned to Transformation.Code field for getting date formatting rule from U.S. dates';
+USDATEFORMATTxt: Label 'US_DATE_FORMAT', Comment = 'Assigned to Transformation.Code field for getting date formatting rule from U.S. dates';
         USDATEFORMATDescTxt: Label 'U.S. Date Format';
-        USDATETIMEFORMATTxt: Label 'US_DATETIME_FORMAT', Comment = 'Assigned to Transformation.Code field for getting date formatting rule from U.S. dates';
+USDATETIMEFORMATTxt: Label 'US_DATETIME_FORMAT', Comment = 'Assigned to Transformation.Code field for getting date formatting rule from U.S. dates';
         USDATETIMEFORMATDescTxt: Label 'U.S. Date/Time Format';
-        DeleteNOTPROVIDEDTxt: Label 'DELETE_NOTPROVIDED', Comment = 'NOTPROVIDED should stay in english because it is a constant value. DELETE should be translated.';
-        DeleteNOTPROVIDEDDescriptionTxt: Label 'Delete NOTPROVIDED value', Comment = 'NOTPROVIDED should stay in english because it is a constant value. ''Delete'' and ''value'' should be translated.';
+DeleteNOTPROVIDEDTxt: Label 'DELETE_NOTPROVIDED', Comment = 'NOTPROVIDED should stay in english because it is a constant value. DELETE should be translated.';
+DeleteNOTPROVIDEDDescriptionTxt: Label 'Delete NOTPROVIDED value', Comment = 'NOTPROVIDED should stay in english because it is a constant value. ''Delete'' and ''value'' should be translated.';
 
     procedure CreateDefaultTransformations()
     begin

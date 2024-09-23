@@ -935,8 +935,8 @@ table 14 Location
         Text011: Label 'You cannot change the %1 to %2 until the inventory stored in this bin is 0.';
         Text013: Label 'You cannot delete %1 because there are one or more ledger entries on this location.';
         Text014: Label 'You cannot change %1 because one or more %2 exist.';
-        InvtActivityExistsFieldValidationErr: Label 'You cannot change %1 because one or more inventory activities exist for this location.', Comment = '%1 = field caption';
-        CannotDeleteLocSKUExistErr: Label 'You cannot delete %1 because one or more stockkeeping units exist at this location.', Comment = '%1: Field(Code)';
+InvtActivityExistsFieldValidationErr: Label 'You cannot change %1 because one or more inventory activities exist for this location.', Comment = '%1 = field caption';
+CannotDeleteLocSKUExistErr: Label 'You cannot delete %1 because one or more stockkeeping units exist at this location.', Comment = '%1: Field(Code)';
         CalendarManagement: Codeunit "Calendar Management";
         UnspecifiedLocationLbl: Label '(Unspecified Location)';
 

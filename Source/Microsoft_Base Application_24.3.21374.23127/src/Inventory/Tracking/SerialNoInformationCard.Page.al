@@ -101,14 +101,14 @@ page 6504 "Serial No. Information Card"
                 action(Comment)
                 {
                     ApplicationArea = ItemTracking;
-                    Caption = 'Comment';
+Caption = 'Comment';
                     Image = ViewComments;
                     RunObject = Page "Item Tracking Comments";
                     RunPageLink = Type = const("Serial No."),
                                   "Item No." = field("Item No."),
                                   "Variant Code" = field("Variant Code"),
                                   "Serial/Lot No." = field("Serial No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 separator(Action24)
                 {

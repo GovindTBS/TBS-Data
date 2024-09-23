@@ -80,12 +80,12 @@ page 5349 "CRM Case List"
         {
             group(Category_Category4)
             {
-                Caption = 'Dynamics 365 Sales', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Dynamics 365 Sales', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Synchronize)
             {

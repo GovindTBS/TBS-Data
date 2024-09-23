@@ -146,7 +146,7 @@ codeunit 483 "Change Global Dimensions"
         CloseSessionNotificationTok: Label 'A2C57B69-B056-4B3B-8D0F-C0D997145EE7', Locked = true;
         CurrRecord: Integer;
         NoOfRecords: Integer;
-        ProgressMsg: Label 'Updating #1#####\@2@@@@@@@@@@', Comment = '#1-Table Id and Name;#2 - progress bar.';
+ProgressMsg: Label 'Updating #1#####\@2@@@@@@@@@@', Comment = '#1-Table Id and Name;#2 - progress bar.';
         IsWindowOpen: Boolean;
         TagCategoryTxt: Label 'Change Global Dimensions', Locked = true;
         StartTraceTagMsg: Label 'Change Global Dimensions is started, parallel processing is on.';

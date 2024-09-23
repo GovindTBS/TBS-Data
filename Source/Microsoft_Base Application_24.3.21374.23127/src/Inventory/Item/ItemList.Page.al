@@ -1790,7 +1790,7 @@ page 31 "Item List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     action(ManageCRMCoupling)
@@ -2049,7 +2049,7 @@ page 31 "Item List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Item),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(Sales)
@@ -2314,7 +2314,7 @@ page 31 "Item List"
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(AdjustInventory_Promoted; AdjustInventory)
                 {
@@ -2325,12 +2325,12 @@ page 31 "Item List"
             }
             group(Category_Category7)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
             }
             group(Category_Category4)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 group(Category_Dimensions)
                 {
@@ -2399,11 +2399,11 @@ page 31 "Item List"
             }
             group(Category_Category5)
             {
-                Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category6)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
 #if not CLEAN23
                 actionref(Prices_Prices_Promoted; Prices_Prices)
@@ -2477,16 +2477,16 @@ page 31 "Item List"
             }
             group(Category_Category8)
             {
-                Caption = 'Periodic Activities', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Periodic Activities', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Category9)
             {
-                Caption = 'Inventory', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Inventory', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
             }
             group(Category_Category10)
             {
-                Caption = 'Attributes', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'Attributes', Comment = 'Generated from the PromotedActionCategories property index 9.';
 
                 actionref(Attributes_Promoted; Attributes)
                 {
@@ -2500,7 +2500,7 @@ page 31 "Item List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 #if not CLEAN23
                 actionref("Price List_Promoted"; "Price List")
                 {

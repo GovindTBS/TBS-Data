@@ -148,8 +148,8 @@ report 5885 "Calc. Phys. Invt. Order (Bins)"
 
     var
         CalculatingLinesMsg: Label 'Calculating the order lines...\\';
-        LocationAndBinMsg: Label 'Location #1########   Bin #2############', Comment = '%1,%2 = counters';
-        LinesCreatedMsg: Label '%1 new lines have been created.', Comment = '%1 = counter';
+LocationAndBinMsg: Label 'Location #1########   Bin #2############', Comment = '%1,%2 = counters';
+LinesCreatedMsg: Label '%1 new lines have been created.', Comment = '%1 = counter';
         BlockedItemMsg: Label 'There is at least one blocked item or item variant that was skipped.';
 
     protected var

@@ -256,10 +256,10 @@ table 179 "Reversal Entry"
         Text006: Label 'You cannot reverse %1 No. %2 because the entry is closed.';
         Text007: Label 'You cannot reverse %1 No. %2 because the entry is included in a bank account reconciliation line. The bank reconciliation has not yet been posted.';
         Text008: Label 'You cannot reverse the transaction because the %1 has been sold.';
-        CannotReverseDeletedErr: Label 'The transaction cannot be reversed, because the %1 has been compressed or a %2 has been deleted.', Comment = '%1 and %2 = table captions';
+CannotReverseDeletedErr: Label 'The transaction cannot be reversed, because the %1 has been compressed or a %2 has been deleted.', Comment = '%1 and %2 = table captions';
         Text010: Label 'You cannot reverse %1 No. %2 because the register has already been involved in a reversal.';
         Text011: Label 'You cannot reverse %1 No. %2 because the entry has already been involved in a reversal.';
-        PostedAndAppliedSameTransactionErr: Label 'You cannot reverse register number %1 because it contains customer or vendor or employee ledger entries that have been posted and applied in the same transaction.\\You must reverse each transaction in register number %1 separately.', Comment = '%1="G/L Register No."';
+PostedAndAppliedSameTransactionErr: Label 'You cannot reverse register number %1 because it contains customer or vendor or employee ledger entries that have been posted and applied in the same transaction.\\You must reverse each transaction in register number %1 separately.', Comment = '%1="G/L Register No."';
         UnrealizedVATReverseErr: Label 'You cannot reverse %1 No. %2 because the entry has an associated Unrealized VAT Entry.';
         CaptionTxt: Label '%1 %2 %3', Locked = true;
 

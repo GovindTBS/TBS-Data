@@ -296,7 +296,7 @@ table 843 "Cash Flow Setup"
     var
         IsolatedStorageManagement: Codeunit "Isolated Storage Management";
 
-        Text001: Label 'Cash Flow Forecast %1 %2 is shown in the chart on the Role Center. Do you want to show this Cash Flow Forecast instead?', Comment = 'Cash Flow <No.> <Description> is shown in the chart on the Role Center.';
+Text001: Label 'Cash Flow Forecast %1 %2 is shown in the chart on the Role Center. Do you want to show this Cash Flow Forecast instead?', Comment = 'Cash Flow <No.> <Description> is shown in the chart on the Role Center.';
 
     procedure CheckAccountType("Code": Code[20])
     var

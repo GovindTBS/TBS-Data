@@ -909,7 +909,7 @@ page 1007 "Job Planning Lines"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create &Sales Invoice_Promoted"; "Create &Sales Invoice")
                 {
@@ -935,7 +935,7 @@ page 1007 "Job Planning Lines"
             }
             group(Category_Category4)
             {
-                Caption = 'Outlook', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Outlook', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(SendToCalendar_Promoted; SendToCalendar)
                 {
@@ -943,7 +943,7 @@ page 1007 "Job Planning Lines"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Job Actual to Budget (Cost)_Promoted"; "Job Actual to Budget (Cost)")
                 {

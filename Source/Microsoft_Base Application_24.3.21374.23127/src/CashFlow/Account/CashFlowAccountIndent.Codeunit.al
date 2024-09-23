@@ -25,7 +25,7 @@ codeunit 849 "Cash Flow Account - Indent"
         Text1003: Label 'Do you want to indent the chart of accounts?';
         Text1004: Label 'Indenting the Chart of Accounts #1##########';
         Text1005: Label 'End-Total %1 is missing a matching Begin-Total.';
-        ArrayExceededErr: Label 'You can only indent %1 levels for accounts of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
+ArrayExceededErr: Label 'You can only indent %1 levels for accounts of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
 
     local procedure Indentation()
     begin

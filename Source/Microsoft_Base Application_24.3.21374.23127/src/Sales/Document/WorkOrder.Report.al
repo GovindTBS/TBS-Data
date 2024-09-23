@@ -188,8 +188,8 @@ report 752 "Work Order"
         QtyworkPostSalesOrderCptnLbl: Label 'Quantity used during work (Posted with the Sales Order)';
         QuantityUsedCaptionLbl: Label 'Quantity Used';
         UnitofMeasureCaptionLbl: Label 'Unit of Measure';
-        CommentsCaptionLbl: Label 'Comments';
-        SalesCommentLineDtCptnLbl: Label 'Date';
+CommentsCaptionLbl: Label 'Comments';
+SalesCommentLineDtCptnLbl: Label 'Date';
         NoCaptionLbl: Label 'No.';
         DescriptionCaptionLbl: Label 'Description';
         QuantityCaptionLbl: Label 'Quantity';

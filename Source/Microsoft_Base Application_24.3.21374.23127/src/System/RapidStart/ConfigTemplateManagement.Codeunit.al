@@ -12,10 +12,10 @@ codeunit 8612 "Config. Template Management"
     end;
 
     var
-        HierarchyErr: Label 'The template %1 is in this hierarchy and contains the same field.', Comment = '%1 - Field Value';
-        NoSeriesErr: Label 'A number series has not been set up for table %1 %2. The instance could not be created.', Comment = '%1 = Table ID, %2 = Table caption';
-        InstanceErr: Label 'The instance %1 already exists in table %2 %3.', Comment = '%2 = Table ID, %3 = Table caption';
-        KeyFieldValueErr: Label 'The value for the key field %1 is not filled for the instance.', Comment = '%1 - Field Name';
+HierarchyErr: Label 'The template %1 is in this hierarchy and contains the same field.', Comment = '%1 - Field Value';
+NoSeriesErr: Label 'A number series has not been set up for table %1 %2. The instance could not be created.', Comment = '%1 = Table ID, %2 = Table caption';
+InstanceErr: Label 'The instance %1 already exists in table %2 %3.', Comment = '%2 = Table ID, %3 = Table caption';
+KeyFieldValueErr: Label 'The value for the key field %1 is not filled for the instance.', Comment = '%1 - Field Name';
         UpdatingRelatedTable: Boolean;
 
     procedure UpdateFromTemplateSelection(var RecRef: RecordRef)

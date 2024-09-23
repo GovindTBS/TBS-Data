@@ -259,7 +259,7 @@ page 9170 "Profile Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CustomizeRoleAction_Promoted; CustomizeRoleAction)
                 {
@@ -398,10 +398,10 @@ page 9170 "Profile Card"
         RoleCenterSubtypeTxt: Label 'RoleCenter', Locked = true;
         DuplicateIDNotificationIDTxt: Label 'ffbf8d52-e612-4e2e-9adc-d15b863d94ff', Locked = true;
         RenamingWillDisruptExistingSessionsQst: Label 'If any user is logged in with this profile, they will need to log in again. Do you want to continue?';
-        CannotDeleteProfileMarkAsDisabledQst: Label 'The profile "%1" is provided by the extension %2 . You cannot delete the profile, unless you uninstall the extension. Do you want to mark the profile as Disabled instead?', Comment = '%1 = the ID of the profile the user is trying to delete; %2 = the extension (app) that owns the profile.';
-        CannotDeleteProfileAlreadyMarkedAsDisabledMsg: Label 'The profile "%1" is provided by the extension %2 . You cannot delete the profile, unless you uninstall the extension. The profile has already been marked as disabled.', Comment = '%1 = the ID of the profile the user is trying to delete; %2 = the extension (app) that owns the profile.';
-        AvailableRoleCentersPageCaptionLbl: Label 'Available Role Centers', Comment = 'When the user triggers LookUp of the Role Center ID field, this will be the caption of the lookup page';
-        ProfileIdAlreadyExistErr: Label 'A profile with Profile ID "%1" already exist, please provide another Profile ID.', Comment = '%1 = Profile ID';
+CannotDeleteProfileMarkAsDisabledQst: Label 'The profile "%1" is provided by the extension %2 . You cannot delete the profile, unless you uninstall the extension. Do you want to mark the profile as Disabled instead?', Comment = '%1 = the ID of the profile the user is trying to delete; %2 = the extension (app) that owns the profile.';
+CannotDeleteProfileAlreadyMarkedAsDisabledMsg: Label 'The profile "%1" is provided by the extension %2 . You cannot delete the profile, unless you uninstall the extension. The profile has already been marked as disabled.', Comment = '%1 = the ID of the profile the user is trying to delete; %2 = the extension (app) that owns the profile.';
+AvailableRoleCentersPageCaptionLbl: Label 'Available Role Centers', Comment = 'When the user triggers LookUp of the Role Center ID field, this will be the caption of the lookup page';
+ProfileIdAlreadyExistErr: Label 'A profile with Profile ID "%1" already exist, please provide another Profile ID.', Comment = '%1 = Profile ID';
         ProfileMustBeEnabledInOrderToSetItAsDefaultErr: Label 'The profile must be enabled in order to set it as the default profile.';
         ThereAreProfilesWithDuplicateIdMsg: Label 'Another profile has the same ID as this one. This can cause ambiguity in the system. Give this or the other profile another ID before you customize them. Contact your Microsoft partner for further assistance.';
         UserCreatedAppNameTxt: Label '(User-created)';

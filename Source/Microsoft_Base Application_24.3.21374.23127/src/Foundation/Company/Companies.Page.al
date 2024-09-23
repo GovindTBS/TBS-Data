@@ -258,12 +258,12 @@ page 357 Companies
         IsFoundation: Boolean;
         CompanyNameVar: Text[30];
         CompanyCreatedDateTime: DateTime;
-        DeleteCompanyQst: Label 'Do you want to delete the company %1?\All company data will be deleted.\\Do you want to continue?', Comment = '%1 = Company Name';
-        DeleteCompanyAuditQst: Label 'You are about to permanently delete the company %1.\\Do you want to continue?', Comment = '%1 = Company Name';
+DeleteCompanyQst: Label 'Do you want to delete the company %1?\All company data will be deleted.\\Do you want to continue?', Comment = '%1 = Company Name';
+DeleteCompanyAuditQst: Label 'You are about to permanently delete the company %1.\\Do you want to continue?', Comment = '%1 = Company Name';
         ALCompanyActivityCategoryTok: Label 'AL Company Activity', Locked = true;
         UsenCompanyTok: Label 'User %1 deleted the %2 company', Locked = true;
         CompanyTok: Label 'Company %1 has been deleted', Locked = true;
-        RenameNotAllowedErr: Label 'You cannot rename this company due to the impact on performance. Instead, change the %1.', Comment = '%1 = Display Name';
+RenameNotAllowedErr: Label 'You cannot rename this company due to the impact on performance. Instead, change the %1.', Comment = '%1 = Display Name';
         InsertNotAllowedErr: Label 'To create a new company, choose the Create New Company button. An assisted setup guide will make sure you get everything you need to get started.';
         DeleteLastCompanyMsg: Label 'Cannot delete this company. It''s the only company you have, and you must have at least one.';
         OnlySuperCanCreateNewCompanyErr: Label 'Only users with the SUPER permission set can create a new company.';

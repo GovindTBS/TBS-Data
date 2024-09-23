@@ -15,7 +15,7 @@ codeunit 1638 "Office Jobs Handler"
 
     var
         JobsRegExTxt: Label '([^:]+):([^:]+):([0-9]+)', Locked = true;
-        UnableToFindJobErr: Label 'Cannot find project number %1, project task number %2, line number %3.', Comment = '%1 = Project No; %2 = Project Task No; %3 = Project Planning Line';
+UnableToFindJobErr: Label 'Cannot find project number %1, project task number %2, line number %3.', Comment = '%1 = Project No; %2 = Project Task No; %3 = Project Planning Line';
 
     procedure IsJobsHostType(OfficeAddinContext: Record "Office Add-in Context") IsJob: Boolean
     var

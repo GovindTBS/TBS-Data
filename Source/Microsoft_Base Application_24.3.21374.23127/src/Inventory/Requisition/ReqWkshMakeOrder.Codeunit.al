@@ -49,10 +49,10 @@ codeunit 333 "Req. Wksh.-Make Order"
         Text003: Label 'Creating purchase lines            #4######\';
         Text004: Label 'Updating worksheet lines           #5######';
         Text005: Label 'Deleting worksheet lines           #5######';
-        Text006: Label '%1 on sales order %2 is already associated with purchase order %3.', Comment = '%1 = number of item, %2 = number of document, %3 = number of purchase order';
+Text006: Label '%1 on sales order %2 is already associated with purchase order %3.', Comment = '%1 = number of item, %2 = number of document, %3 = number of purchase order';
         Text007: Label '<Month Text>', Locked = true;
-        Text008: Label 'The combination of dimensions used in %1 %2, %3, %4 is blocked. %5', Comment = '%1 = table caption, %2 = worksheet template name, %3 = journal batch name, %4 = number of line, %5 = error of dimension combination';
-        Text009: Label 'A dimension used in %1 %2, %3, %4 has caused an error. %5', Comment = '%1 = table caption, %2 = worksheet template name, %3 = journal batch name, %4 = number of line, %5 = error of dimension posting value';
+Text008: Label 'The combination of dimensions used in %1 %2, %3, %4 is blocked. %5', Comment = '%1 = table caption, %2 = worksheet template name, %3 = journal batch name, %4 = number of line, %5 = error of dimension combination';
+Text009: Label 'A dimension used in %1 %2, %3, %4 has caused an error. %5', Comment = '%1 = table caption, %2 = worksheet template name, %3 = journal batch name, %4 = number of line, %5 = error of dimension posting value';
         ReservEntry: Record "Reservation Entry";
         PurchSetup: Record "Purchases & Payables Setup";
         ReqTemplate: Record "Req. Wksh. Template";
@@ -92,7 +92,7 @@ codeunit 333 "Req. Wksh.-Make Order"
         CounterFailed: Integer;
         PrevPurchCode: Code[10];
         PrevShipToCode: Code[10];
-        Text010: Label 'must match %1 on Sales Order %2, Line %3', Comment = '%1 = field caption, %2 = number of document, %3 = number of line';
+Text010: Label 'must match %1 on Sales Order %2, Line %3', Comment = '%1 = field caption, %2 = number of document, %3 = number of line';
         PrevChangedDocOrderType: Option;
         PrevChangedDocOrderNo: Code[20];
         PrevLocationCode: Code[10];

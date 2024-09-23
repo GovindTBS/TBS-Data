@@ -2898,7 +2898,7 @@ table 81 "Gen. Journal Line"
         }
         field(5618; Comment; Text[250])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(5701; "Check Exported"; Boolean)
         {
@@ -3404,20 +3404,20 @@ table 81 "Gen. Journal Line"
     end;
 
     var
-        Text000: Label '%1 or %2 must be a G/L Account or Bank Account.', Comment = '%1=Account Type,%2=Balance Account Type';
+Text000: Label '%1 or %2 must be a G/L Account or Bank Account.', Comment = '%1=Account Type,%2=Balance Account Type';
         Text001: Label 'You must not specify %1 when %2 is %3.';
         Text002: Label 'cannot be specified without %1';
-        ChangeCurrencyQst: Label 'The Currency Code in the Gen. Journal Line will be changed from %1 to %2.\\Do you want to continue?', Comment = '%1=FromCurrencyCode, %2=ToCurrencyCode';
+ChangeCurrencyQst: Label 'The Currency Code in the Gen. Journal Line will be changed from %1 to %2.\\Do you want to continue?', Comment = '%1=FromCurrencyCode, %2=ToCurrencyCode';
         UpdateInterruptedErr: Label 'The update has been interrupted to respect the warning.';
         Text006: Label 'The %1 option can only be used internally in the system.';
-        Text007: Label '%1 or %2 must be a bank account.', Comment = '%1=Account Type,%2=Balance Account Type';
+Text007: Label '%1 or %2 must be a bank account.', Comment = '%1=Account Type,%2=Balance Account Type';
         Text008: Label ' must be 0 when %1 is %2.';
         Text009: Label 'LCY';
         Text011: Label '%1 must be negative.';
         Text012: Label '%1 must be positive.';
         Text013: Label 'The %1 must not be more than %2.';
         WrongJobQueueStatus: Label 'Journal line cannot be modified because it has been scheduled for posting.';
-        RenumberDocNoQst: Label 'If you have many documents it can take time to sort them, and %1 might perform slowly during the process. In those cases we suggest that you sort them during non-working hours. Do you want to continue?', Comment = '%1= Business Central';
+RenumberDocNoQst: Label 'If you have many documents it can take time to sort them, and %1 might perform slowly during the process. In those cases we suggest that you sort them during non-working hours. Do you want to continue?', Comment = '%1= Business Central';
         [SecurityFiltering(SecurityFilter::Filtered)]
         GenJnlTemplate: Record "Gen. Journal Template";
         [SecurityFiltering(SecurityFilter::Filtered)]
@@ -3454,7 +3454,7 @@ table 81 "Gen. Journal Line"
         Window: Dialog;
         DeferralDocType: Enum "Deferral Document Type";
         CurrencyCode: Code[10];
-        Text014: Label 'The %1 %2 has a %3 %4.\\Do you still want to use %1 %2 in this journal line?', Comment = '%1=Caption of Table Customer, %2=Customer No, %3=Caption of field Bill-to Customer No, %4=Value of Bill-to customer no.';
+Text014: Label 'The %1 %2 has a %3 %4.\\Do you still want to use %1 %2 in this journal line?', Comment = '%1=Caption of Table Customer, %2=Customer No, %3=Caption of field Bill-to Customer No, %4=Value of Bill-to customer no.';
         TemplateFound: Boolean;
         Text015: Label 'You are not allowed to apply and post an entry to an entry with an earlier posting date.\\Instead, post %1 %2 and then apply it to %3 %4.';
         CurrencyDate: Date;
@@ -3464,26 +3464,26 @@ table 81 "Gen. Journal Line"
         GLSetupRead: Boolean;
         ExportAgainQst: Label 'One or more of the selected lines have already been exported. Do you want to export them again?';
         NothingToExportErr: Label 'There is nothing to export.';
-        NotExistErr: Label 'Document number %1 does not exist or is already closed.', Comment = '%1=Document number';
+NotExistErr: Label 'Document number %1 does not exist or is already closed.', Comment = '%1=Document number';
         DocNoFilterErr: Label 'The document numbers cannot be renumbered while there is an active filter on the Document No. field.';
         DueDateMsg: Label 'This posting date will cause an overdue payment.';
         CalcPostDateMsg: Label 'Processing payment journal lines #1##########';
         NoEntriesToVoidErr: Label 'There are no entries to void.';
         SuppressCommit: Boolean;
         AccTypeNotSupportedErr: Label 'You cannot specify a deferral code for this type of account.';
-        SalespersonPurchPrivacyBlockErr: Label 'Privacy Blocked must not be true for Salesperson / Purchaser %1.', Comment = '%1 = salesperson / purchaser code.';
-        BlockedErr: Label 'The Blocked field must not be %1 for %2 %3.', Comment = '%1=Blocked field value,%2=Account Type,%3=Account No.';
-        BlockedEmplErr: Label 'You cannot export file because employee %1 is blocked due to privacy.', Comment = '%1 = Employee no. ';
+SalespersonPurchPrivacyBlockErr: Label 'Privacy Blocked must not be true for Salesperson / Purchaser %1.', Comment = '%1 = salesperson / purchaser code.';
+BlockedErr: Label 'The Blocked field must not be %1 for %2 %3.', Comment = '%1=Blocked field value,%2=Account Type,%3=Account No.';
+BlockedEmplErr: Label 'You cannot export file because employee %1 is blocked due to privacy.', Comment = '%1 = Employee no. ';
         InvoiceForGivenIDDoesNotExistErr: Label 'Invoice for given Applies-to Invoice Id does not exist.';
-        RecurringMethodsDimFilterErr: Label 'Recurring method %1 cannot be used for the line with dimension filter setup.', Comment = '%1 - Recurring Method value';
-        RecurringMethodsLineDimdErr: Label 'Recurring method %1 cannot be used for the line with dimension setup.', Comment = '%1 - Recurring Method value';
+RecurringMethodsDimFilterErr: Label 'Recurring method %1 cannot be used for the line with dimension filter setup.', Comment = '%1 - Recurring Method value';
+RecurringMethodsLineDimdErr: Label 'Recurring method %1 cannot be used for the line with dimension setup.', Comment = '%1 - Recurring Method value';
         DontShowAgainActionTxt: Label 'Don''t show again.';
         SetDimFiltersActionTxt: Label 'Set dimension filters.';
         SetDimFiltersMessageTxt: Label 'Dimension filters are not set for one or more lines that use the BD Balance by Dimension or RBD Reversing Balance by Dimension options. Do you want to set the filters?';
-        VATCalculationTypeErr: Label 'The %1 field must contain Normal VAT, Reverse Charge VAT, or Sales Tax.', Comment = '%1=FIELDCAPTION("VAT Calculation Type")';
+VATCalculationTypeErr: Label 'The %1 field must contain Normal VAT, Reverse Charge VAT, or Sales Tax.', Comment = '%1=FIELDCAPTION("VAT Calculation Type")';
         SpecialSymbolsTok: Label '=|&@()<>', Locked = true;
         MustUseAllGLAccountsAsDestinationAccountsAllocAccErr: Label 'To use Allocation Accounts in combination with deferrals, the selected Allocation Account must have only G/L Accounts as destination types, no other types are allowed.';
-        CannotChangePostingGroupForAccountTypeErr: Label 'Posting group cannot be changed for Account Type %1.', Comment = '%1 - account type';
+CannotChangePostingGroupForAccountTypeErr: Label 'Posting group cannot be changed for Account Type %1.', Comment = '%1 - account type';
         RestrictLineUsageDetailsTxt: Label 'The restriction was imposed because the line requires approval.';
         RestrictBatchUsageDetailsTxt: Label 'The restriction was imposed because the journal batch requires approval.';
 

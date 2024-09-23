@@ -107,7 +107,7 @@ page 1306 "O365 Tour Complete"
         ExitWizardInstructionTxt: Label '\\You can always resume the Getting Started tour later from the Home page.';
         ShowToursWizard: Boolean;
         CurrentPage: Integer;
-        Tour1Txt: Label 'We''d love to show you more of how %1 can streamline your business.', Comment = '%1=PRODUCTNAME.MARKETING';
+Tour1Txt: Label 'We''d love to show you more of how %1 can streamline your business.', Comment = '%1=PRODUCTNAME.MARKETING';
 
     local procedure MarkWizardAsDone()
     begin

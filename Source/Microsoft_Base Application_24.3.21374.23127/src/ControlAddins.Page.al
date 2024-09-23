@@ -140,11 +140,11 @@ page 9820 "Control Add-ins"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Control Add-in Resource', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Control Add-in Resource', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Import_Promoted; Import)
                 {

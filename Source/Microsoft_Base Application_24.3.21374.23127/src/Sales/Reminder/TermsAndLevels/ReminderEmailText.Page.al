@@ -91,7 +91,7 @@ page 834 "Reminder Email Text"
     var
         EmailBody: Text;
         LanguageCode: Code[10];
-        NoAttachmentTextFoundErr: Label 'No attachment text found for the selected language %1.', Comment = '%1 = Language code';
+NoAttachmentTextFoundErr: Label 'No attachment text found for the selected language %1.', Comment = '%1 = Language code';
 
     internal procedure SetSourceData(SelectedLanguageCode: Code[10])
     begin

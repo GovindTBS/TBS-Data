@@ -67,7 +67,7 @@ page 46 "Sales Order Subform"
                     Editable = CurrPageIsEditable;
                     LookupPageID = "Option Lookup List";
                     TableRelation = "Option Lookup Buffer"."Option Caption" where("Lookup Type" = const(Sales));
-                    ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
+ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
                     Visible = IsFoundation;
 
                     trigger OnValidate()
@@ -245,7 +245,7 @@ page 46 "Sales Order Subform"
                     ApplicationArea = Basic, Suite;
                     QuickEntry = false;
                     ShowMandatory = not IsCommentLine;
-                    ToolTip = 'Specifies a description of what you’re selling. Based on your choices in the Type and No. fields, the field may show suggested text that you can change it for this document. To add a comment, set the Type field to Comment and write the comment itself here.';
+ToolTip = 'Specifies a description of what you’re selling. Based on your choices in the Type and No. fields, the field may show suggested text that you can change it for this document. To add a comment, set the Type field to Comment and write the comment itself here.';
 
                     trigger OnValidate()
                     begin
@@ -1473,7 +1473,7 @@ page 46 "Sales Order Subform"
                         ApplicationArea = Comments;
                         Caption = 'Co&mments';
                         Image = ViewComments;
-                        ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                         trigger OnAction()
                         begin
@@ -1884,7 +1884,7 @@ page 46 "Sales Order Subform"
         TypeAsText: Text[30];
         UseAllocationAccountNumber: Boolean;
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Type.';
-        ExcelFileNameTxt: Label 'Sales Order %1 - Lines', Comment = '%1 = document number, ex. 10000';
+ExcelFileNameTxt: Label 'Sales Order %1 - Lines', Comment = '%1 = document number, ex. 10000';
 
     protected var
         Currency: Record Currency;

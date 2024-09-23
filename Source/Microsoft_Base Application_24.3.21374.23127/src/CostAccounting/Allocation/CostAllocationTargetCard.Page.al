@@ -144,7 +144,7 @@ page 1109 "Cost Allocation Target Card"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = CostAccounting;
-                    ToolTip = 'Specifies a comment that applies to the cost allocation.';
+ToolTip = 'Specifies a comment that applies to the cost allocation.';
                 }
             }
         }

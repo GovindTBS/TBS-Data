@@ -242,12 +242,12 @@ codeunit 5851 "Invt. Doc.-Post Shipment"
         SourceCode: Code[10];
         HideValidationDialog: Boolean;
         PreviewMode: Boolean;
-        PostingLinesMsg: Label 'Posting item shipment lines     #2######', Comment = '#2 - line counter';
-        PostingDocumentTxt: Label 'Item Shipment %1', Comment = '%1 - document number';
-        DimCombBlockedErr: Label 'The combination of dimensions used in item shipment %1 is blocked. %2', Comment = '%1 - document number, %2 - error message';
-        DimCombLineBlockedErr: Label 'The combination of dimensions used in item shipment %1, line no. %2 is blocked. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
-        DimInvalidErr: Label 'The dimensions used in item shipment %1, line no. %2 are invalid. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
-        InventoryPostingSetupMissingErr: Label 'Inventory posting setup missing for location code %1.', Comment = '%1 - location code';
+PostingLinesMsg: Label 'Posting item shipment lines     #2######', Comment = '#2 - line counter';
+PostingDocumentTxt: Label 'Item Shipment %1', Comment = '%1 - document number';
+DimCombBlockedErr: Label 'The combination of dimensions used in item shipment %1 is blocked. %2', Comment = '%1 - document number, %2 - error message';
+DimCombLineBlockedErr: Label 'The combination of dimensions used in item shipment %1, line no. %2 is blocked. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
+DimInvalidErr: Label 'The dimensions used in item shipment %1, line no. %2 are invalid. %3', Comment = '%1 - document number, %2 = line number, %3 - error message';
+InventoryPostingSetupMissingErr: Label 'Inventory posting setup missing for location code %1.', Comment = '%1 - location code';
 
     local procedure CheckInvtDocumentHeaderMandatoryFields(var InvtDocumentHeader: Record "Invt. Document Header")
     begin

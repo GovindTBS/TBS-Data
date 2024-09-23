@@ -192,7 +192,7 @@ page 99000915 "Work Center Task List"
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "No." = field("No.");
                     RunPageView = where("Table Name" = const("Work Center"));
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Lo&ad")
                 {

@@ -292,12 +292,12 @@ report 81 "Import Budget from Excel"
         Text004: Label '%1 table has been successfully updated with %2 entries.';
         Text005: Label 'Imported from Excel ';
         Text006: Label 'Import Excel File';
-        Text007: Label 'Analyzing Data % #1###', Comment = 'Progress indicator. % #1### just means %';
+Text007: Label 'Analyzing Data % #1###', Comment = 'Progress indicator. % #1### just means %';
         Text008: Label 'You cannot specify more than 8 dimensions in your Excel worksheet.';
         Text010: Label 'G/L Account No.';
         Text011: Label 'The text G/L Account No. can only be specified once in the Excel worksheet.';
         DimensionValueCodeEqualToDimensionCodeTelemetryMsg: Label 'Detected dimension value code in the Excel budget that is equal to the code of a dimension.', Locked = true;
-        DimensionsNeedsCodeCaptionErr: Label 'To be able to import Budget from Excel. Dimensions need a Code Caption Please specify Code Caption for Dimension %1.', Comment = '%1 is a dimension value';
+DimensionsNeedsCodeCaptionErr: Label 'To be able to import Budget from Excel. Dimensions need a Code Caption Please specify Code Caption for Dimension %1.', Comment = '%1 is a dimension value';
         TelemetryCategoryTxt: Label 'AL Import Budget', Locked = true;
         Text013: Label 'Dimension', Locked = true;
         Text014: Label 'Date';
@@ -310,13 +310,13 @@ report 81 "Import Budget from Excel"
         Text021: Label 'Dimension7', Locked = true;
         Text022: Label 'Dimension8', Locked = true;
         Text023: Label 'You cannot import the same information twice.\';
-        Text024: Label 'The combination G/L Account No. - Dimensions - Date must be unique: %1', Comment = '%1 - Record ID';
+Text024: Label 'The combination G/L Account No. - Dimensions - Date must be unique: %1', Comment = '%1 - Record ID';
         Text025: Label 'G/L Accounts have not been found in the Excel worksheet.';
         Text026: Label 'Dates have not been recognized in the Excel worksheet.';
-        TheUsedDimensionValueAreAlsoUsedAsACaptionForADimensionErr: Label 'The used Dimension value %1 are also used as a caption for a Dimension.', Comment = '%1 is a dimension value';
+TheUsedDimensionValueAreAlsoUsedAsACaptionForADimensionErr: Label 'The used Dimension value %1 are also used as a caption for a Dimension.', Comment = '%1 is a dimension value';
         Text027: Label 'Replace Entries,Add Entries';
         Text028: Label 'A filter has been used on the %1 when the budget was exported. When a filter on a dimension has been used, a column with the same dimension must be present in the worksheet imported. The column in the worksheet must specify the dimension value codes the program should use when importing the budget.';
-        InsertingEntriesLbl: Label 'Inserting new entries % #1###', Comment = 'Progress indicator. % #1### just means %';
+InsertingEntriesLbl: Label 'Inserting new entries % #1###', Comment = 'Progress indicator. % #1### just means %';
         ExcelFileExtensionTok: Label '.xlsx', Locked = true;
 
     local procedure AnalyzeData()

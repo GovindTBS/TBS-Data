@@ -56,16 +56,16 @@ codeunit 224 "EmplEntry-Apply Posted Entries"
 
         PostingApplicationMsg: Label 'Posting application...';
         MustNotBeBeforeErr: Label 'The posting date entered must not be before the posting date on the employee ledger entry.';
-        NoEntriesAppliedErr: Label 'Cannot post because you did not specify which entry to apply. You must specify an entry in the Applies-to ID field for one or more open entries.', Comment = '%1 - Caption of "Applies to ID" field of Gen. Journal Line';
+NoEntriesAppliedErr: Label 'Cannot post because you did not specify which entry to apply. You must specify an entry in the Applies-to ID field for one or more open entries.', Comment = '%1 - Caption of "Applies to ID" field of Gen. Journal Line';
         UnapplyPostedAfterThisEntryErr: Label 'Before you can unapply this entry, you must first unapply all application entries that were posted after this entry.';
-        NoApplicationEntryErr: Label 'Employee ledger entry number %1 does not have an application entry.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
+NoApplicationEntryErr: Label 'Employee ledger entry number %1 does not have an application entry.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
         UnapplyingMsg: Label 'Unapplying and posting...';
-        UnapplyAllPostedAfterThisEntryErr: Label 'Before you can unapply this entry, you must first unapply all application entries in employee ledger entry number %1 that were posted after this entry.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
+UnapplyAllPostedAfterThisEntryErr: Label 'Before you can unapply this entry, you must first unapply all application entries in employee ledger entry number %1 that were posted after this entry.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
         NotAllowedPostingDatesErr: Label 'Posting date is not within the range of allowed posting dates.';
-        LatestEntryMustBeApplicationErr: Label 'The latest transaction number must be an application in employee ledger entry number %1.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
-        CannotUnapplyExchRateErr: Label 'You cannot unapply the entry with the posting date %1, because the exchange rate for the additional reporting currency has been changed.', Comment = '%1 - a date';
+LatestEntryMustBeApplicationErr: Label 'The latest transaction number must be an application in employee ledger entry number %1.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
+CannotUnapplyExchRateErr: Label 'You cannot unapply the entry with the posting date %1, because the exchange rate for the additional reporting currency has been changed.', Comment = '%1 - a date';
         CannotApplyClosedEntriesErr: Label 'One or more of the entries that you selected is closed. You cannot apply closed entries.';
-        CannotUnapplyInReversalErr: Label 'You cannot unapply Employee Ledger Entry No. %1 because the entry is part of a reversal.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
+CannotUnapplyInReversalErr: Label 'You cannot unapply Employee Ledger Entry No. %1 because the entry is part of a reversal.', Comment = '%1 - arbitrary text, the identifier of the ledger entry';
 
     procedure Apply(EmplLedgEntry: Record "Employee Ledger Entry"; ApplyUnapplyParameters: Record "Apply Unapply Parameters")
     begin

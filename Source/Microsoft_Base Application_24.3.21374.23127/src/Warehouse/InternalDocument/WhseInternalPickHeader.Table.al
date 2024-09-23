@@ -112,7 +112,7 @@ table 7333 "Whse. Internal Pick Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Internal Pick"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

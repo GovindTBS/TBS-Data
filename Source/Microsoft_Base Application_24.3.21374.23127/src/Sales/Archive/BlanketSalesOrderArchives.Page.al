@@ -203,11 +203,11 @@ page 6622 "Blanket Sales Order Archives"
             action(Comments)
             {
                 ApplicationArea = Comments;
-                Caption = 'Comments';
+Caption = 'Comments';
                 Image = ViewComments;
                 RunObject = Page "Sales Archive Comment Sheet";
                 RunPageLink = "Document Type" = const("Blanket Order");
-                ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
             }
         }
         area(Promoted)

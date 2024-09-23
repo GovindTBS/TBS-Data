@@ -228,6 +228,6 @@ page 10025 "Customer Order Status"
     end;
 
     var
-        Text19061440: Label 'Customer Comments';
+Text19061440: Label 'Customer Comments';
 }
 

@@ -21,7 +21,7 @@ using System.Threading;
 
 page 9024 "Security Admin Role Center"
 {
-    Caption = 'Administration of users, security groups and permissions', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
+Caption = 'Administration of users, security groups and permissions', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
     Description = 'Manage users, security groups and permissions';
     Editable = false;
     PageType = RoleCenter;

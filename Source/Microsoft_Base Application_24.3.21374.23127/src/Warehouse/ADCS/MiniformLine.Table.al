@@ -139,7 +139,7 @@ table 7701 "Miniform Line"
     var
         MiniFormHeader: Record "Miniform Header";
         "Field": Record "Field";
-        Text000: Label '%1 not allowed for %2 %3.', Comment = '%1 = Field type, %2= Form Type field caption, %3 = Form type';
+Text000: Label '%1 not allowed for %2 %3.', Comment = '%1 = Field type, %2= Form Type field caption, %3 = Form type';
 
     local procedure GetMiniFormHeader()
     begin

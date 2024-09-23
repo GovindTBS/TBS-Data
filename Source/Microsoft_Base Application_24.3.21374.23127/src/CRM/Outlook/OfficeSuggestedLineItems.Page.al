@@ -131,7 +131,7 @@ page 1637 "Office Suggested Line Items"
         LastLineNo: Integer;
         DoNotShowAgain: Boolean;
         UpdatedDoNotShowAgain: Boolean;
-        MultipleMatchesTxt: Label '%1 (%2 matches)', Comment = '%1 - The keyword that yielded items in the database. %2 - the number of item matches that were found from the keyword.';
+MultipleMatchesTxt: Label '%1 (%2 matches)', Comment = '%1 - The keyword that yielded items in the database. %2 - the number of item matches that were found from the keyword.';
         ItemNeedsToBeResolvedErr: Label 'Resolve the item in order to add it.';
 
     local procedure GetDescription() Description: Text

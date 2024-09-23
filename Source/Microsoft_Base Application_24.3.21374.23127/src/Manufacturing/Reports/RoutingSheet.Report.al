@@ -308,8 +308,8 @@ report 99000787 "Routing Sheet"
                     field(PrintComment; PrintComment)
                     {
                         ApplicationArea = Manufacturing;
-                        Caption = 'Comment';
-                        ToolTip = 'Specifies whether to include comments that provide additional information about the operation. For example, comments might mention special conditions for completing the operation.';
+Caption = 'Comment';
+ToolTip = 'Specifies whether to include comments that provide additional information about the operation. For example, comments might mention special conditions for completing the operation.';
                     }
                     field(PrintTool; PrintTool)
                     {

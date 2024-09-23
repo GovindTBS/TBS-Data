@@ -42,9 +42,9 @@ codeunit 137 "OCR Inc. Doc. via Job Queue"
     end;
 
     var
-        OCRSendReceiveDescriptionTxt: Label 'OCR Incoming Document No. %1.', Comment = '%1 = document type, %2 = document number. Example: Post Purchase Order 1234.';
-        IncomingDocumentScheduledMsg: Label 'Incoming Document No. %1 has been scheduled for OCR.', Comment = '%1=document type, %2=number, e.g. Order 123  or Invoice 234.';
-        WrongJobQueueStatusErr: Label 'Incoming Document No. %1 cannot be processed because it has already been scheduled for OCR. Choose the Remove from Job Queue action to reset the job queue status and then OCR again.', Comment = '%1 = document type, %2 = document number. Example: Purchase Order 1234 or Invoice 1234.';
+OCRSendReceiveDescriptionTxt: Label 'OCR Incoming Document No. %1.', Comment = '%1 = document type, %2 = document number. Example: Post Purchase Order 1234.';
+IncomingDocumentScheduledMsg: Label 'Incoming Document No. %1 has been scheduled for OCR.', Comment = '%1=document type, %2=number, e.g. Order 123  or Invoice 234.';
+WrongJobQueueStatusErr: Label 'Incoming Document No. %1 cannot be processed because it has already been scheduled for OCR. Choose the Remove from Job Queue action to reset the job queue status and then OCR again.', Comment = '%1 = document type, %2 = document number. Example: Purchase Order 1234 or Invoice 1234.';
 
     local procedure SetJobQueueStatus(var IncomingDocument: Record "Incoming Document"; NewStatus: Enum "Inc. Doc. Job Queue Status")
     begin

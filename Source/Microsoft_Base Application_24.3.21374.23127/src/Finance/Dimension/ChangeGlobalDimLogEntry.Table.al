@@ -212,9 +212,9 @@ table 483 "Change Global Dim. Log Entry"
     }
 
     var
-        ErrorTraceTagMsg: Label 'Error on the task for table %1 (completed %2 of %3 records): %4.', Comment = '%1- table id; %2 ,%3 - integer values; %4 - error message';
-        RerunTraceTagMsg: Label 'Rerun the task for table %1 (start from %2 of %3 records).', Comment = '%1- table id; %2 ,%3 - integer values';
-        ScheduledTraceTagMsg: Label 'The task is scheduled for table %1 (%2 records) to start on %3.', Comment = '%1- table id; %2 - integer value; %3 - datetime';
+ErrorTraceTagMsg: Label 'Error on the task for table %1 (completed %2 of %3 records): %4.', Comment = '%1- table id; %2 ,%3 - integer values; %4 - error message';
+RerunTraceTagMsg: Label 'Rerun the task for table %1 (start from %2 of %3 records).', Comment = '%1- table id; %2 ,%3 - integer values';
+ScheduledTraceTagMsg: Label 'The task is scheduled for table %1 (%2 records) to start on %3.', Comment = '%1- table id; %2 - integer value; %3 - datetime';
         TagCategoryTxt: Label 'Change Global Dimensions';
 
     local procedure CalcProgress()

@@ -15,8 +15,8 @@ codeunit 1639 "Office Line Generation"
     end;
 
     var
-        NumbersTxt: Label 'one|two|three|four|five|six|seven|eight|nine|ten', Comment = 'This is a ''|'' separated list of cardinal numbers from one to ten. This is used to find mentions of quantities of certain items.';
-        RestrictedWordsTxt: Label 'and|for|the', Comment = 'Words that should not be used to find items in the item table (separated by "|").';
+NumbersTxt: Label 'one|two|three|four|five|six|seven|eight|nine|ten', Comment = 'This is a ''|'' separated list of cardinal numbers from one to ten. This is used to find mentions of quantities of certain items.';
+RestrictedWordsTxt: Label 'and|for|the', Comment = 'Words that should not be used to find items in the item table (separated by "|").';
         TelemetryClosedPageTxt: Label 'Suggested line items closed via %2 action.%1  Items Suggested: %3%1  Items selected: %4', Locked = true;
         TelemetryAlgorithmPerformanceTxt: Label 'Item generation algorithm finished in %2ms.%1  Length of mail body: %3%1  Total items found:   %4%1  Single item matches: %5%1  Total matched items: %6', Locked = true;
 

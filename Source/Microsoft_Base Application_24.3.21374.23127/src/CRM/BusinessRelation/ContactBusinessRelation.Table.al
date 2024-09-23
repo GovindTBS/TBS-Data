@@ -147,7 +147,7 @@ table 5054 "Contact Business Relation"
 
         Text000: Label '%1 %2 already has a %3 with %4 %5.';
         Text001: Label '%1 %2 is used when a %3 is linked with a %4.';
-        FailedCBRTxt: Label 'Failed to find contact business relation for contact number %1.', Comment = '%1 = Contact number', Locked = true;
+FailedCBRTxt: Label 'Failed to find contact business relation for contact number %1.', Comment = '%1 = Contact number', Locked = true;
         TelemetryCategoryTxt: Label 'ContactBusinessRelation', Locked = true;
 
     local procedure GetContactBusinessRelation(ContactBusinessRelation: Record "Contact Business Relation"): Boolean

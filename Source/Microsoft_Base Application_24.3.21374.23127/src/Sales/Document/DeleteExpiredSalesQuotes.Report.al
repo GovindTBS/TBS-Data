@@ -73,8 +73,8 @@ report 5172 "Delete Expired Sales Quotes"
     var
         CounterTotal: Integer;
         NothingToDeleteMsg: Label 'There is nothing to delete.';
-        QuotesDeletedMsg: Label 'Quotes deleted: %1.', Comment = '%1 - number of quotes.';
-        ConfirmQst: Label 'All quotes with Quote Valid To Date less than %1 will be deleted. Do you want to continue?', Comment = '%1 - date';
+QuotesDeletedMsg: Label 'Quotes deleted: %1.', Comment = '%1 - number of quotes.';
+ConfirmQst: Label 'All quotes with Quote Valid To Date less than %1 will be deleted. Do you want to continue?', Comment = '%1 - date';
         ValidToDate: Date;
 }
 

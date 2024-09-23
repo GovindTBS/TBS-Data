@@ -20,7 +20,7 @@ codeunit 1660 "Payroll Management"
 
     var
         PayrollServiceNotFoundErr: Label 'A payroll service could not be found.';
-        PayrollServiceDisabledErr: Label 'Payroll service %1 is disabled.', Comment = '%1 Payroll Service Name';
+PayrollServiceDisabledErr: Label 'Payroll service %1 is disabled.', Comment = '%1 Payroll Service Name';
         SelectPayrollServiceToUseTxt: Label 'Several payroll services are installed and enabled. Select a service you want to use.';
         SelectPayrollServiceToEnableTxt: Label 'Select a payroll service you want to enable and use.';
         EnablePayrollServicesQst: Label 'All payroll services are disabled. Do you want to enable a payroll service?';

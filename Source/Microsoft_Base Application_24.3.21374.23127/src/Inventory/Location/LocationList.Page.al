@@ -214,7 +214,7 @@ page 15 "Location List"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
 #if not CLEAN22
                 actionref("Transfer Order_Promoted"; "Transfer Order")
@@ -228,7 +228,7 @@ page 15 "Location List"
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create Warehouse location_Promoted"; "Create Warehouse location")
                 {
@@ -265,11 +265,11 @@ page 15 "Location List"
             }
             group(Category_Category4)
             {
-                Caption = 'Functions', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Functions', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Items with Negative Inventory_Promoted"; "Items with Negative Inventory")
                 {

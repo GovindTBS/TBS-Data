@@ -168,7 +168,7 @@ page 5903 "Service Item Lines"
                                       "No." = field("Document No."),
                                       "Table Line No." = field("Line No."),
                                       Type = const(Internal);
-                        ToolTip = 'View or reregister internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
+ToolTip = 'View or reregister internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
                     }
                     action(Accessories)
                     {
@@ -181,7 +181,7 @@ page 5903 "Service Item Lines"
                                       "No." = field("Document No."),
                                       "Table Line No." = field("Line No."),
                                       Type = const(Accessory);
-                        ToolTip = 'View or register comments for the accessories to the service item.';
+ToolTip = 'View or register comments for the accessories to the service item.';
                     }
                     action(Loaners)
                     {
@@ -235,7 +235,7 @@ page 5903 "Service Item Lines"
                                   "Document No." = field("Document No."),
                                   "Line No." = field("Line No.");
                     ShortCutKey = 'Shift+F7';
-                    ToolTip = 'View or edit a worksheet where you record information about service items, such as repair status, fault comments and codes, and cost. In this window, you can update information on the items such as repair status and fault and resolution codes. You can also enter new service lines for resource hours, for the use of spare parts and for specific service costs.';
+ToolTip = 'View or edit a worksheet where you record information about service items, such as repair status, fault comments and codes, and cost. In this window, you can update information on the items such as repair status and fault and resolution codes. You can also enter new service lines for resource hours, for the use of spare parts and for specific service costs.';
                 }
             }
         }

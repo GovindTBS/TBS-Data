@@ -470,7 +470,7 @@ page 5629 "Fixed Asset Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Posting)
                 {
@@ -498,7 +498,7 @@ page 5629 "Fixed Asset Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -506,7 +506,7 @@ page 5629 "Fixed Asset Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

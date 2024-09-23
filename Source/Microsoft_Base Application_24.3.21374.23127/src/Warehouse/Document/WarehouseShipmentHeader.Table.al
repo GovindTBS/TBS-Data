@@ -115,7 +115,7 @@ table 7320 "Warehouse Shipment Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Whse. Shipment"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

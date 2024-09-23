@@ -150,7 +150,7 @@ page 658 "Approval Entries"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
+ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
                 }
                 field("Due Date"; Rec."Due Date")
                 {
@@ -207,10 +207,10 @@ page 658 "Approval Entries"
                 action(Comments)
                 {
                     ApplicationArea = Suite;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Enabled = ShowRecCommentsEnabled;
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     var
@@ -274,7 +274,7 @@ page 658 "Approval Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Delegate_Promoted"; "&Delegate")
                 {

@@ -20,7 +20,7 @@ codeunit 1235 "XML Buffer Writer"
         StringReader: DotNet StringReader;
         OnlyGenerateStructure: Boolean;
         UnsupportedInputTypeErr: Label 'The supplied variable type is not supported.';
-        ValueStringToLongErr: Label '%1 must not be longer than %2.', Comment = '%1 field Value; %2 the length of the string';
+ValueStringToLongErr: Label '%1 must not be longer than %2.', Comment = '%1 field Value; %2 the length of the string';
         rdfaboutTok: Label 'rdf:about', Locked = true;
 
     [Scope('OnPrem')]

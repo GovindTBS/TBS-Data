@@ -23,9 +23,9 @@ codeunit 1756 "Data Class. Notification Mgt."
 
     var
         DataClassificationNotificationActionTxt: Label 'Open Data Classification Guide';
-        DataClassificationNotificationMsg: Label 'It looks like you are either doing business in the EU or you have EU vendors, customers, contacts, resources or employees. Have you classified your data? We can help you do that.', Comment = '%1=Data Subject';
+DataClassificationNotificationMsg: Label 'It looks like you are either doing business in the EU or you have EU vendors, customers, contacts, resources or employees. Have you classified your data? We can help you do that.', Comment = '%1=Data Subject';
         DontShowAgainTok: Label 'Don''t show me again';
-        SyncFieldsInFieldTableMsg: Label 'Your fields are %1 days old.', Comment = '%1=Number of days';
+SyncFieldsInFieldTableMsg: Label 'Your fields are %1 days old.', Comment = '%1=Number of days';
         SyncAllFieldsTxt: Label 'Synchronize all fields';
         UnclassifiedFieldsExistMsg: Label 'You have unclassified fields that require your attention.';
         OpenWorksheetActionLbl: Label 'Open worksheet';

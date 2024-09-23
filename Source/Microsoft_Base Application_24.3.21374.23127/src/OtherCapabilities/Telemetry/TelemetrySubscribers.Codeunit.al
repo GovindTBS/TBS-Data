@@ -26,7 +26,7 @@ codeunit 1351 "Telemetry Subscribers"
 
     var
         Telemetry: Codeunit Telemetry;
-        ProfileChangedTelemetryMsg: Label 'Profile changed from %1 to %2.', Comment = '%1=Previous profile id, %2=New profile id', Locked = true;
+ProfileChangedTelemetryMsg: Label 'Profile changed from %1 to %2.', Comment = '%1=Previous profile id, %2=New profile id', Locked = true;
         ProfileChangedTelemetryCategoryTxt: Label 'AL User Profile', Locked = true;
         PermissionSetCategoryTxt: Label 'AL PermissionSet', Locked = true;
         PermissionSetLinkAddedTelemetryTxt: Label 'A Permission Set Link was added between Source Permission Set %1 and Permission Set %2. Total count of Permission Set Links are %3.', Locked = true;
@@ -43,20 +43,20 @@ codeunit 1351 "Telemetry Subscribers"
         PermissionSetAssignedToUserGroupTelemetryScopeAllTxt: Label 'Permission set assigned to user group: %1', Locked = true;
         PermissionSetRemovedFromUserGroupTelemetryScopeAllTxt: Label 'Permission set removed from user group: %1', Locked = true;
 #endif
-        EffectivePermsCalculatedTxt: Label 'Effective permissions were calculated for company %1, object type %2, object ID %3.', Locked = true, Comment = '%1 = company name, %2 = object type, %3 = object Id';
-        TenantPermissionsChangedFromEffectivePermissionsPageTxt: Label 'Tenant permission set %1 was changed.', Locked = true, Comment = '%1 = permission set id';
+EffectivePermsCalculatedTxt: Label 'Effective permissions were calculated for company %1, object type %2, object ID %3.', Locked = true, Comment = '%1 = company name, %2 = object type, %3 = object Id';
+TenantPermissionsChangedFromEffectivePermissionsPageTxt: Label 'Tenant permission set %1 was changed.', Locked = true, Comment = '%1 = permission set id';
         NumberOfDocumentLinesMsg: Label 'Type of Document: %1, Number of Document Lines: %2', Locked = true;
         RecordCountCategoryTxt: Label 'AL Record Count', Locked = true;
         JobQueueEntriesCategoryTxt: Label 'AL JobQueueEntries', Locked = true;
         ReusingExistingJobFromIdTxt: Label 'Reusing Job Queue', Locked = true;
         JobQueueEntryFinishedTxt: Label 'JobID = %1, ObjectType = %2, ObjectID = %3, Status = Finished, Result = %4, Company = %5, Scheduled Task Id = %6', Locked = true;
-        JobQueueEntryStartedAllTxt: Label 'Job queue entry started: %1', Comment = '%1 = Job queue id', Locked = true;
-        JobQueueEntryFinishedAllTxt: Label 'Job queue entry finished: %1', Comment = '%1 = Job queue id', Locked = true;
-        JobQueueEntryErrorTxt: Label 'Job queue entry %1 errored after %2 attempts', Comment = '%1 = Job queue id, %2 = Number of attempts', Locked = true;
-        JobQueueEntryErrorAllTxt: Label 'Job queue entry errored: %1', Comment = '%1 = Job queue id', Locked = true;
-        JobQueueEntryEnqueuedAllTxt: Label 'Job queue entry enqueued: %1', Comment = '%1 = Job queue id', Locked = true;
-        JobQueueEntryNotEnqueuedTxt: Label 'Job queue entry not enqueued: %1', Comment = '%1 = Job queue id', Locked = true;
-        JobQueueEntryTaskCancelledTxt: Label 'Job queue entry task cancelled: %1', Comment = '%1 = Job queue id', Locked = true;
+JobQueueEntryStartedAllTxt: Label 'Job queue entry started: %1', Comment = '%1 = Job queue id', Locked = true;
+JobQueueEntryFinishedAllTxt: Label 'Job queue entry finished: %1', Comment = '%1 = Job queue id', Locked = true;
+JobQueueEntryErrorTxt: Label 'Job queue entry %1 errored after %2 attempts', Comment = '%1 = Job queue id, %2 = Number of attempts', Locked = true;
+JobQueueEntryErrorAllTxt: Label 'Job queue entry errored: %1', Comment = '%1 = Job queue id', Locked = true;
+JobQueueEntryEnqueuedAllTxt: Label 'Job queue entry enqueued: %1', Comment = '%1 = Job queue id', Locked = true;
+JobQueueEntryNotEnqueuedTxt: Label 'Job queue entry not enqueued: %1', Comment = '%1 = Job queue id', Locked = true;
+JobQueueEntryTaskCancelledTxt: Label 'Job queue entry task cancelled: %1', Comment = '%1 = Job queue id', Locked = true;
         UndoSalesShipmentCategoryTxt: Label 'AL UndoSalesShipmentNoOfLines', Locked = true;
         UndoSalesShipmentNoOfLinesTxt: Label 'UndoNoOfLines = %1', Locked = true;
         BankAccountRecCategoryLbl: Label 'AL Bank Account Rec', Locked = true;

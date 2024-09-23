@@ -303,7 +303,7 @@ table 5200 Employee
         {
             CalcFormula = exist("Human Resource Comment Line" where("Table Name" = const(Employee),
                                                                      "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -672,10 +672,10 @@ table 5200 Employee
         EmployeeResUpdate: Codeunit "Employee/Resource Update";
         EmployeeSalespersonUpdate: Codeunit "Employee/Salesperson Update";
         DimMgt: Codeunit DimensionManagement;
-        BlockedEmplForJnrlErr: Label 'You cannot create this document because employee %1 is blocked due to privacy.', Comment = '%1 = employee no.';
-        BlockedEmplForJnrlPostingErr: Label 'You cannot post this document because employee %1 is blocked due to privacy.', Comment = '%1 = employee no.';
-        EmployeeLinkedToResourceErr: Label 'You cannot link multiple employees to the same resource. Employee %1 is already linked to that resource.', Comment = '%1 = employee no.';
-        NotValidRFCNoErr: Label '%1 is not a valid RFC No.', Comment = '%1 - RFC Number';
+BlockedEmplForJnrlErr: Label 'You cannot create this document because employee %1 is blocked due to privacy.', Comment = '%1 = employee no.';
+BlockedEmplForJnrlPostingErr: Label 'You cannot post this document because employee %1 is blocked due to privacy.', Comment = '%1 = employee no.';
+EmployeeLinkedToResourceErr: Label 'You cannot link multiple employees to the same resource. Employee %1 is already linked to that resource.', Comment = '%1 = employee no.';
+NotValidRFCNoErr: Label '%1 is not a valid RFC No.', Comment = '%1 - RFC Number';
 
     procedure AssistEdit() Result: Boolean
     var

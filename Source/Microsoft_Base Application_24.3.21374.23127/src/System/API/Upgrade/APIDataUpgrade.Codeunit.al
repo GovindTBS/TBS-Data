@@ -178,7 +178,7 @@ codeunit 9994 "API Data Upgrade"
     end;
 
     var
-        UpgradeSkippedDueToManyRecordsLbl: Label 'Upgrade procedure %1 skipped due to %2 number of %3 records.', Comment = '%1 = Procedure name, %2 = Number of records, %3 = Table name', Locked = true;
+UpgradeSkippedDueToManyRecordsLbl: Label 'Upgrade procedure %1 skipped due to %2 number of %3 records.', Comment = '%1 = Procedure name, %2 = Number of records, %3 = Table name', Locked = true;
 
     procedure UpgradeSalesCreditMemoReasonCode(CheckRecordCount: Boolean)
     var

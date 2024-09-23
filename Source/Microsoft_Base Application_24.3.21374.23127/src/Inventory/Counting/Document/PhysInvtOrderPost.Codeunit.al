@@ -43,13 +43,13 @@ codeunit 5884 "Phys. Invt. Order-Post"
     end;
 
     var
-        CheckingLinesMsg: Label 'Checking lines        #2######\', Comment = '%2 = counter';
-        PostingLinesMsg: Label 'Posting lines         #3######', Comment = '%3 = counter';
-        HeaderDimCombBlockedErr: Label 'The combination of dimensions used in phys. inventory order %1 is blocked. %2.', Comment = '%1 = Order No. %2 = error message';
-        LineDimCombBlockedErr: Label 'The combination of dimensions used in  phys. inventory order %1, line no. %2 is blocked. %3.', Comment = '%1 = Order No. %2 = line no. %3 = error message';
-        InvalidDimErr: Label 'The dimensions used in phys. inventory order %1, line no. %2 are invalid. %3.', Comment = '%1 = Order No. %2 = line no. %3 = error message';
-        DifferenceErr: Label 'There is a difference between the values of the fields %1, %2 and %3. \Identified values in the line: %4 %5 %6 %7.', Comment = '%1,%2,%3 - quantities, %4 = text';
-        CopyFromToMsg: Label '%1 %2 -> %3 %4', Comment = '%1,%2 = table captions, %2,%4 = Order No.';
+CheckingLinesMsg: Label 'Checking lines        #2######\', Comment = '%2 = counter';
+PostingLinesMsg: Label 'Posting lines         #3######', Comment = '%3 = counter';
+HeaderDimCombBlockedErr: Label 'The combination of dimensions used in phys. inventory order %1 is blocked. %2.', Comment = '%1 = Order No. %2 = error message';
+LineDimCombBlockedErr: Label 'The combination of dimensions used in  phys. inventory order %1, line no. %2 is blocked. %3.', Comment = '%1 = Order No. %2 = line no. %3 = error message';
+InvalidDimErr: Label 'The dimensions used in phys. inventory order %1, line no. %2 are invalid. %3.', Comment = '%1 = Order No. %2 = line no. %3 = error message';
+DifferenceErr: Label 'There is a difference between the values of the fields %1, %2 and %3. \Identified values in the line: %4 %5 %6 %7.', Comment = '%1,%2,%3 - quantities, %4 = text';
+CopyFromToMsg: Label '%1 %2 -> %3 %4', Comment = '%1,%2 = table captions, %2,%4 = Order No.';
         PhysInvtOrderHeader: Record "Phys. Invt. Order Header";
         PhysInvtOrderLine: Record "Phys. Invt. Order Line";
         PhysInvtOrderLine2: Record "Phys. Invt. Order Line";

@@ -516,7 +516,7 @@ page 5700 "Stockkeeping Unit Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Item),
                                   "No." = field("Item No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -705,7 +705,7 @@ page 5700 "Stockkeeping Unit Card"
                     RunPageLink = "Item No." = field("Item No."),
                                   "Variant Code" = field("Variant Code"),
                                   "Location Code" = field("Location Code");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(History)
@@ -841,7 +841,7 @@ page 5700 "Stockkeeping Unit Card"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
 #if not CLEAN22
                 actionref(NewItem_Promoted; NewItem)
@@ -863,7 +863,7 @@ page 5700 "Stockkeeping Unit Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -925,12 +925,12 @@ page 5700 "Stockkeeping Unit Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

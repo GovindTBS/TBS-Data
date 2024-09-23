@@ -401,13 +401,13 @@ page 914 "Assemble-to-Order Lines"
             action(Comments)
             {
                 ApplicationArea = Comments;
-                Caption = 'Comments';
+Caption = 'Comments';
                 Image = ViewComments;
                 RunObject = Page "Assembly Comment Sheet";
                 RunPageLink = "Document Type" = field("Document Type"),
                               "Document No." = field("Document No."),
                               "Document Line No." = field("Line No.");
-                ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
             }
             action(ShowWarning)
             {
@@ -426,7 +426,7 @@ page 914 "Assemble-to-Order Lines"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Show Document_Promoted"; "Show Document")
                 {
@@ -437,7 +437,7 @@ page 914 "Assemble-to-Order Lines"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -456,11 +456,11 @@ page 914 "Assemble-to-Order Lines"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -474,7 +474,7 @@ report 7052 "Suggest Sales Price on Wksh."
 
         Text001: Label 'Processing items  #1##########';
         Text002: Label 'Sales Code must be specified when copying from %1 to All Customers.';
-        SalesPriceWkshLineExistsErr: Label 'There are multiple source lines for the record: %1.', Comment = '%1 = RecordId';
+SalesPriceWkshLineExistsErr: Label 'There are multiple source lines for the record: %1.', Comment = '%1 = RecordId';
 
     procedure InitializeRequest(NewToSalesType: Option Customer,"Customer Price Group",Campaign,"All CUstomers"; NewToSalesCode: Code[20]; NewToStartDate: Date; NewToEndDate: Date; NewToCurrCode: Code[10]; NewToUOMCode: Code[10]; NewCreateNewPrices: Boolean)
     begin

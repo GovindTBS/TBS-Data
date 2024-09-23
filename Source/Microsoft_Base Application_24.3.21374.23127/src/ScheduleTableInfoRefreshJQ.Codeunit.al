@@ -8,9 +8,9 @@ codeunit 9035 "Schedule Table Info Refresh JQ"
     Access = Public;
 
     var
-        JobQueueCategoryTxt: Label 'Table Info', Locked = true, Comment = 'Max Length 10';
+JobQueueCategoryTxt: Label 'Table Info', Locked = true, Comment = 'Max Length 10';
         JobQueueCategoryDescTxt: Label 'Table Information Cache';
-        OtherCompanyJQQst: Label 'A job queue entry already exists in company %1. Do you want to delete the entry and create a new entry in the current company, (%2)', comment = '%1 and %2 are company names';
+OtherCompanyJQQst: Label 'A job queue entry already exists in company %1. Do you want to delete the entry and create a new entry in the current company, (%2)', comment = '%1 and %2 are company names';
         ActionCancelledMsg: Label 'The action was cancelled by the user.';
         JobScheduledMsg: Label 'A job queue entry that runs daily to refresh the table information cache was created.';
 

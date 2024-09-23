@@ -19,8 +19,8 @@ codeunit 5402 "Unit of Measure Management"
         ItemUnitOfMeasure: Record "Item Unit of Measure";
         ResourceUnitOfMeasure: Record "Resource Unit of Measure";
         Text001: Label 'Quantity per unit of measure must be defined.';
-        QuantityImbalanceErr: Label '%1 on %2-%3 causes the %4 and %5 to be out of balance. Rounding of the field %5 results to 0.', Comment = '%1 - field name, %2 - table name, %3 - primary key value, %4 - field name, %5 - field name';
-        InvalidPrecisionErr: Label 'The value %1 in field %2 is of lesser precision than expected. \\Note: Default rounding precision of %3 is used if a rounding precision is not defined.', Comment = '%1 - decimal value, %2 - field name, %3 - default rounding precision.';
+QuantityImbalanceErr: Label '%1 on %2-%3 causes the %4 and %5 to be out of balance. Rounding of the field %5 results to 0.', Comment = '%1 - field name, %2 - table name, %3 - primary key value, %4 - field name, %5 - field name';
+InvalidPrecisionErr: Label 'The value %1 in field %2 is of lesser precision than expected. \\Note: Default rounding precision of %3 is used if a rounding precision is not defined.', Comment = '%1 - decimal value, %2 - field name, %3 - default rounding precision.';
         QtyImbalanceDetectedErr: Label 'This will cause the quantity and base quantity fields to be out of balance.';
 
     procedure GetQtyPerUnitOfMeasure(Item: Record Item; UnitOfMeasureCode: Code[10]) QtyPerUnitOfMeasure: Decimal

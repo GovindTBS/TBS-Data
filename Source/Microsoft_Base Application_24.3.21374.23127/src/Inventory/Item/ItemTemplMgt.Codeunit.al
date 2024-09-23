@@ -18,7 +18,7 @@ codeunit 1336 "Item Templ. Mgt."
     end;
 
     var
-        VATPostingSetupErr: Label 'VAT Posting Setup does not exist. "VAT Bus. Posting Group" = %1, "VAT Prod. Posting Group" = %2.', Comment = '%1 - vat bus. posting group code; %2 - vat prod. posting group code';
+VATPostingSetupErr: Label 'VAT Posting Setup does not exist. "VAT Bus. Posting Group" = %1, "VAT Prod. Posting Group" = %2.', Comment = '%1 - vat bus. posting group code; %2 - vat prod. posting group code';
         UpdateExistingValuesQst: Label 'You are about to apply the template to selected records. Data from the template will replace data for the records in fields that do not already contain data.\\Do you want also data from the template to replace data for the records in fields that already contain data?';
         OpenBlankCardQst: Label 'Do you want to open the blank item card?';
 

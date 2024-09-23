@@ -109,7 +109,7 @@ page 951 "Time Sheet List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that a comment about this document has been entered.';
+ToolTip = 'Specifies that a comment about this document has been entered.';
                 }
             }
         }
@@ -171,7 +171,7 @@ page 951 "Time Sheet List"
                     RunObject = Page "Time Sheet Comment Sheet";
                     RunPageLink = "No." = field("No."),
                                   "Time Sheet Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -179,7 +179,7 @@ page 951 "Time Sheet List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
 #if not CLEAN22
                 actionref(EditTimeSheet_Promoted; EditTimeSheet)

@@ -721,7 +721,7 @@ page 190 "Incoming Documents"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
                 ShowAs = SplitButton;
 
                 actionref(CreateFromAttachment_Promoted; CreateFromAttachment)
@@ -733,7 +733,7 @@ page 190 "Incoming Documents"
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CreateManually_Promoted; CreateManually)
                 {
@@ -747,7 +747,7 @@ page 190 "Incoming Documents"
             }
             group(Category_Category4)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ShowAs = SplitButton;
 
                 actionref(Release_Promoted; Release)
@@ -762,7 +762,7 @@ page 190 "Incoming Documents"
             }
             group(Category_Category5)
             {
-                Caption = 'Status', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Status', Comment = 'Generated from the PromotedActionCategories property index 4.';
                 ShowAs = SplitButton;
 
                 actionref(SetToProcessed_Promoted; SetToProcessed)
@@ -774,7 +774,7 @@ page 190 "Incoming Documents"
             }
             group(Category_Category6)
             {
-                Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 5.';
                 ShowAs = SplitButton;
 
                 actionref(ShowAll_Promoted; ShowAll)
@@ -786,7 +786,7 @@ page 190 "Incoming Documents"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

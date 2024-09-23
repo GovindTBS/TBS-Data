@@ -35,15 +35,15 @@ codeunit 1218 "Map Incoming Doc to Purch Doc"
     var
         TempProcessedHdrFldId: Record "Integer" temporary;
         TempProcessedLineFldId: Record "Integer" temporary;
-        NotFoundErr: Label 'Cannot find a value for field %1 of table %2 in table %3.', Comment = '%1 - field caption, %2 - table caption, %3 - table caption';
-        TotalsMismatchErr: Label 'The total amount %1 on the created document is different than the total amount %2 in the incoming document.', Comment = '%1 total amount, %2 expected total amount';
-        TotalsMismatchWithHintErr: Label 'The total amount %1 on the created document is different than the expected value %2. The incoming document has a prepaid amount of %3. You must handle prepayments manually.', Comment = '%1 total amount, %2 expected total amount,%3 total charge amount,%4 prepaid amount';
+NotFoundErr: Label 'Cannot find a value for field %1 of table %2 in table %3.', Comment = '%1 - field caption, %2 - table caption, %3 - table caption';
+TotalsMismatchErr: Label 'The total amount %1 on the created document is different than the total amount %2 in the incoming document.', Comment = '%1 total amount, %2 expected total amount';
+TotalsMismatchWithHintErr: Label 'The total amount %1 on the created document is different than the expected value %2. The incoming document has a prepaid amount of %3. You must handle prepayments manually.', Comment = '%1 total amount, %2 expected total amount,%3 total charge amount,%4 prepaid amount';
         TempNameValueBufferPurchHdr: Record "Name/Value Buffer" temporary;
-        TotalsMismatchDocNotCreatedErr: Label 'The total amount %1 on the created document is different than the total amount %2 in the incoming document. To retry the document creation manually, open the Incoming Document window and choose the action Create Document.', Comment = '%1 total amount, %2 expected total amount';
+TotalsMismatchDocNotCreatedErr: Label 'The total amount %1 on the created document is different than the total amount %2 in the incoming document. To retry the document creation manually, open the Incoming Document window and choose the action Create Document.', Comment = '%1 total amount, %2 expected total amount';
         InvoiceChargeHasNoReasonErr: Label 'Invoice charge on the incoming document has no reason code.';
-        VATMismatchErr: Label '%1 %2 on line number %3  has %4 %5, which is different than %4 %6 in the incoming document.', Comment = ' %1 is type value, %2 is the No.,  %3 is the line no , %4 field caption VAT%, %5 VAT pct on the line,%6 is the VAT pct in the incoming doc';
+VATMismatchErr: Label '%1 %2 on line number %3  has %4 %5, which is different than %4 %6 in the incoming document.', Comment = ' %1 is type value, %2 is the No.,  %3 is the line no , %4 field caption VAT%, %5 VAT pct on the line,%6 is the VAT pct in the incoming doc';
         TempNameValueBufferPurchLine: Record "Name/Value Buffer" temporary;
-        UnableToApplyDiscountErr: Label 'The invoice discount of %1 cannot be applied. Invoice discount must be allowed on at least one invoice line and invoice total must not be 0.', Comment = '%1 - a decimal number';
+UnableToApplyDiscountErr: Label 'The invoice discount of %1 cannot be applied. Invoice discount must be allowed on at least one invoice line and invoice total must not be 0.', Comment = '%1 - a decimal number';
 
     [Scope('OnPrem')]
     procedure ProcessIntermediateData(DataExch: Record "Data Exch.")

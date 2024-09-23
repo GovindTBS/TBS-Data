@@ -22,7 +22,7 @@ codeunit 5352 "CRM Order Status Update Job"
     var
         CRMProductName: Codeunit "CRM Product Name";
 
-        ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
+ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
         OrderStatusUpdatedMsg: Label 'Sent messages about status change of sales orders.';
         OrderStatusReleasedTxt: Label 'The order status has changed to Released.';
         OrderShipmentCreatedTxt: Label 'A shipment has been created for the order.';

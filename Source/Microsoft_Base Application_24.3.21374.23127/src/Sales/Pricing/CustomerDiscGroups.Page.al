@@ -123,11 +123,11 @@ page 512 "Customer Disc. Groups"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
 #if not CLEAN23
                 actionref(SalesLineDiscounts_Promoted; SalesLineDiscounts)
                 {

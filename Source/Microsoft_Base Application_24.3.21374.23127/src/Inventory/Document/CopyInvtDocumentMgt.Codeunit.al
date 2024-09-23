@@ -27,10 +27,10 @@ codeunit 5857 "Copy Invt. Document Mgt."
         CopyItemTracking: Boolean;
         FillAppliesFields: Boolean;
         MissingDocumentNoErr: Label 'Please enter a Document No.';
-        CannotCopyToItselfErr: Label '%1 %2 cannot be copied onto itself.', Comment = '%1 = document type, %2 = document number';
-        LinesWillBeDeletedQst: Label 'The existing lines for %1 %2 will be deleted.\\Do you want to continue?', Comment = '%1 = document type, %2 = document number';
+CannotCopyToItselfErr: Label '%1 %2 cannot be copied onto itself.', Comment = '%1 = document type, %2 = document number';
+LinesWillBeDeletedQst: Label 'The existing lines for %1 %2 will be deleted.\\Do you want to continue?', Comment = '%1 = document type, %2 = document number';
         LinesNotCopiedMsg: Label 'The document line(s) with a G/L account where direct posting is not allowed have not been copied to the new document by the Copy Document batch job.';
-        LinesNotAppliedMsg: Label 'There is %1 document line(s) with Item Tracking which requires manual specify of apply to/from numbers within Item Tracking Lines', Comment = '%1-line count';
+LinesNotAppliedMsg: Label 'There is %1 document line(s) with Item Tracking which requires manual specify of apply to/from numbers within Item Tracking Lines', Comment = '%1-line count';
 
     procedure SetProperties(NewIncludeHeader: Boolean; NewRecalculateLines: Boolean; NewCreateToHeader: Boolean; NewHideDialog: Boolean; NewFillAppliesFields: Boolean)
     begin
@@ -257,7 +257,7 @@ codeunit 5857 "Copy Invt. Document Mgt."
         TempItemLedgerEntry: Record "Item Ledger Entry" temporary;
         CopyThisLine: Boolean;
         IsHandled: Boolean;
-        DifferentLocationsErr: Label 'Location Code %1 from document %2 is not same as Location Code %3. This is not allowed without Recalculate Lines is selected.', Comment = '%1 - Location Code, %2 - Document No., %3 - Location Code';
+DifferentLocationsErr: Label 'Location Code %1 from document %2 is not same as Location Code %3. This is not allowed without Recalculate Lines is selected.', Comment = '%1 - Location Code, %2 - Document No., %3 - Location Code';
     begin
         CopyThisLine := true;
 

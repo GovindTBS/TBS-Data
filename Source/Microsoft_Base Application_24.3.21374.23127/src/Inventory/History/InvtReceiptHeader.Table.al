@@ -67,7 +67,7 @@ table 5852 "Invt. Receipt Header"
         {
             CalcFormula = exist("Inventory Comment Line" where("Document Type" = const("Posted Inventory Receipt"),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

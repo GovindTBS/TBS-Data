@@ -25,7 +25,7 @@ codeunit 5458 "Graph Collection Mgt - Contact"
         AddressType: Option Unknown,Home,Business,Other;
         BusinessType: Option Company,Individual;
         FlagStatusOption: Option NotFlagged,Complete,Flagged;
-        PropertyIdErr: Label 'The PropertyId is not correct. Expected: %1, Actual %2.', Comment = '%1 and %2 are a string like: ''Integer {47ac1412-279b-41cb-891e-58904a94a48b} Name IsCustomer'' ';
+PropertyIdErr: Label 'The PropertyId is not correct. Expected: %1, Actual %2.', Comment = '%1 and %2 are a string like: ''Integer {47ac1412-279b-41cb-891e-58904a94a48b} Name IsCustomer'' ';
         BusinessTypePropertyIdTxt: Label 'String {bdba944b-fc2b-47a1-8ba4-cafc4ae13ea2} Name BusinessType', Locked = true;
         IsCustomerPropertyIdTxt: Label 'Integer {47ac1412-279b-41cb-891e-58904a94a48b} Name IsCustomer', Locked = true;
         IsVendorPropertyIdTxt: Label 'Integer {ccf57c46-c10e-41bb-b8c5-362b185d2f98} Name IsVendor', Locked = true;

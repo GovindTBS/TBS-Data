@@ -191,7 +191,7 @@ report 712 "Inventory - Sales Statistics"
         UnitCost: Decimal;
         PrintAlsoWithoutSaleReq: Boolean;
 
-        PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
+PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
         TableFiltersTxt: Label '%1: %2', Locked = true;
         InvSalesStatisticsCaptLbl: Label 'Inventory - Sales Statistics';
         PageCaptionLbl: Label 'Page';

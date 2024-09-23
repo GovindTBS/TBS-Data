@@ -183,7 +183,7 @@ page 6873 "Available - Invt. Doc. Lines"
         Direction: Option Outbound,Inbound;
         FullyReservedErr: Label 'Fully reserved.';
         CancelReservationQst: Label 'Do you want to cancel the reservation?';
-        AvailableQuantityErr: Label 'Available Quantity is %1.', Comment = '%1 - quantity';
+AvailableQuantityErr: Label 'Available Quantity is %1.', Comment = '%1 - quantity';
 
     protected var
         QtyToReserve: Decimal;

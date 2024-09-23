@@ -370,7 +370,7 @@ page 99000886 "Subcontracting Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Calculate Subcontracts_Promoted"; "Calculate Subcontracts")
                 {
@@ -381,7 +381,7 @@ page 99000886 "Subcontracting Worksheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Item &Tracking Lines_Promoted"; "Item &Tracking Lines")
                 {
@@ -392,7 +392,7 @@ page 99000886 "Subcontracting Worksheet"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -16,10 +16,10 @@ codeunit 3676 "BOM Tree Node Dictionary Impl."
         Initialized: Boolean;
         EnumeratorIndex: Integer;
         EnumerationInProgress: Boolean;
-        NotFoundErr: Label 'The element with unique key %1 was not found.', Comment = '%1 is the unique identifying text for an instance.';
-        KeyAlreadyExistsErr: Label 'Cannot add instance as another with key %1 has already been added.', Comment = '%1 is the unique identifying text for an instance.';
+NotFoundErr: Label 'The element with unique key %1 was not found.', Comment = '%1 is the unique identifying text for an instance.';
+KeyAlreadyExistsErr: Label 'Cannot add instance as another with key %1 has already been added.', Comment = '%1 is the unique identifying text for an instance.';
         EnumerationInProgressErr: Label 'The collection cannot be modified as an enumeration is in progress. Please call ResetEnumerator() before modifying.';
-        BucketOutOfRangeErr: Label 'Bucket Id %1 is out of range.', Comment = '%1 is the index of bucket';
+BucketOutOfRangeErr: Label 'Bucket Id %1 is out of range.', Comment = '%1 is the index of bucket';
 
     local procedure Init()
     begin

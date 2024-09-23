@@ -29,7 +29,7 @@ codeunit 1281 "Update Currency Exchange Rates"
         MissingExchRateNotificationDescriptionTxt: Label 'Show warning to enter exchange rates when a new currency is created.';
         NotificationActionDisableTxt: Label 'Don''t show me again';
         NotificationActionOpenPageTxt: Label 'Do it now';
-        NotificationMessageMsg: Label 'Exchange rates for %1 need to be configured.', Comment = 'Currency Code';
+NotificationMessageMsg: Label 'Exchange rates for %1 need to be configured.', Comment = 'Currency Code';
         ExchRatesUpdatedTxt: Label 'The user updated currency exchange rates via a currency exchange rate service.', Locked = true;
         TelemetryCategoryTok: Label 'AL Exchange Rate Service', Locked = true;
 

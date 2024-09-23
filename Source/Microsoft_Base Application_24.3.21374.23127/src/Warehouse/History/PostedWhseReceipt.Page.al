@@ -139,7 +139,7 @@ page 7330 "Posted Whse. Receipt"
                     RunPageLink = "Table Name" = const("Posted Whse. Receipt"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Put-away Lines")
                 {
@@ -217,7 +217,7 @@ page 7330 "Posted Whse. Receipt"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create Put-away_Promoted"; "Create Put-away")
                 {
@@ -228,7 +228,7 @@ page 7330 "Posted Whse. Receipt"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Put-away List_Promoted"; "Put-away List")
                 {

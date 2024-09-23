@@ -149,7 +149,7 @@ page 5233 "Human Resources Setup"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Human Res. Units of Measure_Promoted"; "Human Res. Units of Measure")
                 {
@@ -166,11 +166,11 @@ page 5233 "Human Resources Setup"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Employee', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Employee', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Unions_Promoted; Unions)
                 {
@@ -187,7 +187,7 @@ page 5233 "Human Resources Setup"
             }
             group(Category_Category5)
             {
-                Caption = 'Documents', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Documents', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Employment Contracts_Promoted"; "Employment Contracts")
                 {

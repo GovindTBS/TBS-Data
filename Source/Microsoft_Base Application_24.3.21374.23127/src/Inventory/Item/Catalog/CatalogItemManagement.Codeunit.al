@@ -28,7 +28,7 @@ codeunit 5703 "Catalog Item Management"
 
         Text000: Label 'Item %1 already exists.';
         Text001: Label 'Item %1 is created.';
-        Text002: Label 'You cannot enter a catalog item on %1.', Comment = '%1=Sales Line document type';
+Text002: Label 'You cannot enter a catalog item on %1.', Comment = '%1=Sales Line document type';
         Text003: Label 'Creating item card for catalog item\';
         Text004: Label 'Manufacturer Code    #1####\';
         Text005: Label 'Vendor               #2##################\';

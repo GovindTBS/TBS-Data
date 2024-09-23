@@ -1114,7 +1114,7 @@ report 405 "Order"
     end;
 
     var
-        Text004: Label 'Order %1', Comment = '%1 = Document No.';
+Text004: Label 'Order %1', Comment = '%1 = Document No.';
         GLSetup: Record "General Ledger Setup";
         ShipmentMethod: Record "Shipment Method";
         PaymentTerms: Record "Payment Terms";

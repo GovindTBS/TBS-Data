@@ -2,7 +2,7 @@ namespace Microsoft.Manufacturing.Document;
 
 table 5414 "Prod. Order Comment Line"
 {
-    Caption = 'Prod. Order Comment Line';
+Caption = 'Prod. Order Comment Line';
     DrillDownPageID = "Prod. Order Comment List";
     LookupPageID = "Prod. Order Comment List";
     DataClassification = CustomerContent;
@@ -33,7 +33,7 @@ table 5414 "Prod. Order Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

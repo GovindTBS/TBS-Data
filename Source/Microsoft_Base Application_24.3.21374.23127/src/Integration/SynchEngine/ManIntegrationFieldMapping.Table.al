@@ -101,10 +101,10 @@ table 5381 "Man. Integration Field Mapping"
     }
 
     var
-        FieldClassNormalErr: Label 'The field %1 must have the field class set to "Normal"', comment = '%1 = field name';
-        FieldTypeNotSupportedErr: Label 'The field %1 of type %2 is not supported.', Comment = '%1 = field name, %2 = field type';
-        FieldTypeNotTheSameErr: Label 'The field %1 with type %2 must have the same type as field %3 (%4).', Comment = '%1 - field name, %2 - field type, %3 - field name, %4 - field type';
-        FieldRelationExistsErr: Label 'The field %1 must not have a relationship with another table.', Comment = '%1 = field name';
+FieldClassNormalErr: Label 'The field %1 must have the field class set to "Normal"', comment = '%1 = field name';
+FieldTypeNotSupportedErr: Label 'The field %1 of type %2 is not supported.', Comment = '%1 = field name, %2 = field type';
+FieldTypeNotTheSameErr: Label 'The field %1 with type %2 must have the same type as field %3 (%4).', Comment = '%1 - field name, %2 - field type, %3 - field name, %4 - field type';
+FieldRelationExistsErr: Label 'The field %1 must not have a relationship with another table.', Comment = '%1 = field name';
 
     internal procedure CheckFieldTypeForSync(FieldRec: Record Field)
     begin

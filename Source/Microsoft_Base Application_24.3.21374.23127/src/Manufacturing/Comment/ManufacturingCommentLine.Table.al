@@ -7,7 +7,7 @@ using Microsoft.Manufacturing.WorkCenter;
 
 table 99000770 "Manufacturing Comment Line"
 {
-    Caption = 'Manufacturing Comment Line';
+Caption = 'Manufacturing Comment Line';
     DrillDownPageID = "Manufacturing Comment List";
     LookupPageID = "Manufacturing Comment List";
     DataClassification = CustomerContent;
@@ -44,7 +44,7 @@ table 99000770 "Manufacturing Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

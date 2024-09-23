@@ -14,7 +14,7 @@ codeunit 29 "Error Message Handler"
     var
         TempErrorMessage: Record "Error Message" temporary;
         Active: Boolean;
-        NotificationMsg: Label 'An error or warning occured during operation %1.', Comment = '%1 - decription of operation';
+NotificationMsg: Label 'An error or warning occured during operation %1.', Comment = '%1 - decription of operation';
         DetailsMsg: Label 'Details';
         LastErrorCallStack: Text;
 

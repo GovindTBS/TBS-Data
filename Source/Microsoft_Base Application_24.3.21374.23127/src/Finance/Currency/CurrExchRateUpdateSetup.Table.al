@@ -107,19 +107,19 @@ table 1650 "Curr. Exch. Rate Update Setup"
     end;
 
     var
-        DataExchangeCurrencyNosTxt: Label 'CURRENCY0001', Comment = 'Used to populate the Code field in Table 1222. It''s value must start or end with a number';
+DataExchangeCurrencyNosTxt: Label 'CURRENCY0001', Comment = 'Used to populate the Code field in Table 1222. It''s value must start or end with a number';
         DataExchangeLineDefCodeTxt: Label 'CurrExchange', Locked = true;
         DataExchangeLineDefNameTxt: Label 'Parent Node for Currency Code';
         DataExchangeMappingDefNameTxt: Label 'Mapping for Currency Exchange';
-        MissingDataLineTagErr: Label '%1 for %2 must not be blank.', Comment = '%1 - source XML node; %2 - parent node for caption code';
-        MissingServiceURLErr: Label 'The %1 field must not be blank.', Comment = '%1 - Service URL';
+MissingDataLineTagErr: Label '%1 for %2 must not be blank.', Comment = '%1 - source XML node; %2 - parent node for caption code';
+MissingServiceURLErr: Label 'The %1 field must not be blank.', Comment = '%1 - Service URL';
         DailyUpdateQst: Label 'A job queue entry for daily update of exchange rates has been created.\\Do you want to open the Job Queue Entries window?';
         ExchRateServiceCreatedTxt: Label 'The user started setting up a currency exchange rate service.', Locked = true;
         ExchRateServiceEnabledTxt: Label 'The user enabled a currency exchange rate service.', Locked = true;
         ExchRateServiceDisabledTxt: Label 'The user disabled a currency exchange rate service.', Locked = true;
         TelemetryCategoryTok: Label 'AL Exchange Rate Service', Locked = true;
-        JobQueueEntryDescriptionTxt: Label '%1 - recurring update of exchange rates', Comment = '%1 - the code of the exchange rate setup';
-        UnableToSetupCurrExchangeRateServiceTxt: Label 'An error has occured when trying to setup Currency Exchange Service. Error %1, Callstack %2', Comment = '%1 - Error Message, %2 - Callstack', Locked = true;
+JobQueueEntryDescriptionTxt: Label '%1 - recurring update of exchange rates', Comment = '%1 - the code of the exchange rate setup';
+UnableToSetupCurrExchangeRateServiceTxt: Label 'An error has occured when trying to setup Currency Exchange Service. Error %1, Callstack %2', Comment = '%1 - Error Message, %2 - Callstack', Locked = true;
 
     procedure GetWebServiceURL(var ServiceURL: Text) WebServiceURL: Text
     var

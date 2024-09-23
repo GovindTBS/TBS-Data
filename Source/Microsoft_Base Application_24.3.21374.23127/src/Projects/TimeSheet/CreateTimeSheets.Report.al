@@ -213,7 +213,7 @@ report 950 "Create Time Sheets"
         Text010: Label 'Starting Date must be %1.';
         HideDialog: Boolean;
         OpenUserSetupQst: Label 'You aren''t allowed to run this report. If you want, you can give yourself the Time Sheet Admin. rights, and then try again.\\ Do you want to do that now?';
-        DescriptionTxt: Label 'Week %1', Comment = '%1 - week number';
+DescriptionTxt: Label 'Week %1', Comment = '%1 - week number';
 
     procedure InitParameters(NewStartingDate: Date; NewNoOfPeriods: Integer; NewResourceFilter: Code[250]; NewCreateLinesFromJobPlanning: Boolean; NewHideDialog: Boolean)
     begin

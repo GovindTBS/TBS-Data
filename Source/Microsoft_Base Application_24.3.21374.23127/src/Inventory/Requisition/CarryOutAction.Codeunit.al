@@ -93,7 +93,7 @@ codeunit 99000813 "Carry Out Action"
         TryWkshTempl: Code[10];
         TryWkshName: Code[10];
         LineNo: Integer;
-        CouldNotChangeSupplyTxt: Label 'The supply type could not be changed in order %1, order line %2.', Comment = '%1 - Production Order No. or Assembly Header No. or Purchase Header No., %2 - Production Order Line or Assembly Line No. or Purchase Line No.';
+CouldNotChangeSupplyTxt: Label 'The supply type could not be changed in order %1, order line %2.', Comment = '%1 - Production Order No. or Assembly Header No. or Purchase Header No., %2 - Production Order Line or Assembly Line No. or Purchase Line No.';
 
     procedure TryCarryOutAction(SourceType: Enum "Planning Create Source Type"; var RequisitionLine: Record "Requisition Line"; Choice: Option; WkshTempl: Code[10]; WkshName: Code[10]): Boolean
     begin

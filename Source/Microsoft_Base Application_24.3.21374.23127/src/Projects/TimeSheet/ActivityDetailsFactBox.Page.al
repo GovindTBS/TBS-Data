@@ -22,9 +22,9 @@ page 971 "Activity Details FactBox"
             field(Comment; Rec.Comment)
             {
                 ApplicationArea = Comments;
-                Caption = 'Line Comment';
+Caption = 'Line Comment';
                 DrillDown = false;
-                ToolTip = 'Specifies that a comment about this document has been entered.';
+ToolTip = 'Specifies that a comment about this document has been entered.';
             }
             field("Total Quantity"; Rec."Total Quantity")
             {

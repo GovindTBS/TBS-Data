@@ -153,7 +153,7 @@ table 950 "Time Sheet Header"
         {
             CalcFormula = exist("Time Sheet Comment Line" where("No." = field("No."),
                                                                  "Time Sheet Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -305,7 +305,7 @@ table 950 "Time Sheet Header"
 
         Text001: Label '%1 does not contain lines.';
         Text002: Label 'No time sheets are available. The time sheet administrator must create time sheets before you can access them in this window.';
-        PrivacyBlockedErr: Label 'You cannot use resource %1 because they are marked as blocked due to privacy.', Comment = '%1=resource no.';
+PrivacyBlockedErr: Label 'You cannot use resource %1 because they are marked as blocked due to privacy.', Comment = '%1=resource no.';
 
     procedure CalcQtyWithStatus(Status: Enum "Time Sheet Status"): Decimal
     begin

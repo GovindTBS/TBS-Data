@@ -592,7 +592,7 @@ page 140 "Posted Purchase Credit Memo"
                     RunPageLink = "Document Type" = const("Posted Credit Memo"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -817,7 +817,7 @@ page 140 "Posted Purchase Credit Memo"
             }
             group(Category_Category6)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -828,12 +828,12 @@ page 140 "Posted Purchase Credit Memo"
             }
             group(Category_Category4)
             {
-                Caption = 'Cancel', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Cancel', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Category7)
             {
-                Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -870,12 +870,12 @@ page 140 "Posted Purchase Credit Memo"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

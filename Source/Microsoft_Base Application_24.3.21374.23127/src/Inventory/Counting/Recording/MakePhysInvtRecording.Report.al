@@ -113,8 +113,8 @@ report 5881 "Make Phys. Invt. Recording"
 
     var
         NewOrderNotCreatedMsg: Label 'A physical inventory recording was not created because no valid physical inventory order lines exist.';
-        NewOrderCreatedMsg: Label 'Physical inventory recording %1 %2 has been created.', Comment = '%1 = Order No. %2 = Recording No.';
-        DifferentOrdersMsg: Label '%1 different orders has been created.', Comment = '%1 = counter';
+NewOrderCreatedMsg: Label 'Physical inventory recording %1 %2 has been created.', Comment = '%1 = Order No. %2 = Recording No.';
+DifferentOrdersMsg: Label '%1 different orders has been created.', Comment = '%1 = counter';
         PhysInvtRecordLine: Record "Phys. Invt. Record Line";
 
     protected var

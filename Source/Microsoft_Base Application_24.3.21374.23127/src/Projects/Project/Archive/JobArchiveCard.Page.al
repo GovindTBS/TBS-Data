@@ -668,7 +668,7 @@ page 5177 "Job Archive Card"
                     RunPageLink = "Table Name" = const(Job),
                                   "No." = field("No."),
                                   "Version No." = field("Version No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Online Map")
                 {
@@ -714,7 +714,7 @@ page 5177 "Job Archive Card"
             }
             group(Category_Category7)
             {
-                Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref("Co&mments_Promoted"; "Co&mments")
                 {
@@ -728,7 +728,7 @@ page 5177 "Job Archive Card"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
         }
     }

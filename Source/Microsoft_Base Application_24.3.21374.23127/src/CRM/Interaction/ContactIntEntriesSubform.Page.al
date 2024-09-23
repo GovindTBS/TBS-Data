@@ -67,7 +67,7 @@ page 5073 "Contact Int. Entries Subform"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that a comment exists for this interaction log entry.';
+ToolTip = 'Specifies that a comment exists for this interaction log entry.';
                 }
                 field("Opportunity No."; Rec."Opportunity No.")
                 {
@@ -230,7 +230,7 @@ page 5073 "Contact Int. Entries Subform"
                 Image = ViewComments;
                 RunObject = Page "Inter. Log Entry Comment Sheet";
                 RunPageLink = "Entry No." = field("Entry No.");
-                ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 Scope = Repeater;
             }
         }

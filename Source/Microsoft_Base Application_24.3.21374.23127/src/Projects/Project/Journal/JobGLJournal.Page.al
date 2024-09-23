@@ -891,11 +891,11 @@ page 1020 "Job G/L Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category5)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref("P&ost_Promoted"; "P&ost")
@@ -917,7 +917,7 @@ page 1020 "Job G/L Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -925,12 +925,12 @@ page 1020 "Job G/L Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -944,7 +944,7 @@ page 1020 "Job G/L Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

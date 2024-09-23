@@ -41,16 +41,16 @@ codeunit 850 "Cash Flow Forecast Handler"
         XTAXPURCHORDERSTxt: Label 'Tax from Purchase Orders';
         XSALESORDERSTxt: Label 'Sales Orders';
         XPURCHORDERSTxt: Label 'Purchase Orders';
-        AzureAIMustBeEnabledErr: Label '%1 in %2 must be set to true.', Comment = '%1 =Azure AI Enabled field, %2-Cash Flow Setup';
-        AzureAIAPIURLEmptyErr: Label 'You must specify an %1 and an %2 for the %3.', Comment = '%1 =API URL field,%2 =API Key field, %3-Cash Flow Setup';
+AzureAIMustBeEnabledErr: Label '%1 in %2 must be set to true.', Comment = '%1 =Azure AI Enabled field, %2-Cash Flow Setup';
+AzureAIAPIURLEmptyErr: Label 'You must specify an %1 and an %2 for the %3.', Comment = '%1 =API URL field,%2 =API Key field, %3-Cash Flow Setup';
         AzureMachineLearningLimitReachedErr: Label 'The Microsoft Azure Machine Learning limit has been reached. Please contact your system administrator.';
         TimeSeriesManagementInitFailedErr: Label 'Cannot initialize Microsoft Azure Machine Learning. Try again later. If the problem continues, contact your system administrator.';
         MinimumHistoricalDataErr: Label 'There is not enough historical data for Azure AI to create a forecast.';
-        PredictionHasHighVarianceErr: Label 'The calculated forecast for %1 for the period from %2 shows a degree of variance that is higher than the setup allows.', Comment = '%1 =PAYABLES or RECEIVABLES,%2 =Date';
+PredictionHasHighVarianceErr: Label 'The calculated forecast for %1 for the period from %2 shows a degree of variance that is higher than the setup allows.', Comment = '%1 =PAYABLES or RECEIVABLES,%2 =Date';
         SetupScheduledForecastingMsg: Label 'You can include Azure AI capabilities in the cash flow forecast.';
         EnableAzureAITxt: Label 'Enable Azure AI';
         DontAskAgainTxt: Label 'Don''t ask again';
-        ScheduledForecastingEnabledMsg: Label 'The Azure AI forecast has been enabled.', Comment = '%1 = weekday (e.g. Monday)';
+ScheduledForecastingEnabledMsg: Label 'The Azure AI forecast has been enabled.', Comment = '%1 = weekday (e.g. Monday)';
 
     procedure CalculateForecast(): Boolean
     begin

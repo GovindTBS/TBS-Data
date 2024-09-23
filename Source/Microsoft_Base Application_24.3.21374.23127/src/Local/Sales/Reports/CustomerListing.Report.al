@@ -265,7 +265,7 @@ report 10045 "Customer Listing"
         Amounts_are_in_customer_s_local_currency_CaptionLbl: Label 'Amounts are in customer''s local currency.';
         Customers_without_balances_are_not_listed_CaptionLbl: Label 'Customers without balances are not listed.';
         Name_and_AddressCaptionLbl: Label 'Name and Address';
-        Customer_CommentCaptionLbl: Label 'Comment';
+Customer_CommentCaptionLbl: Label 'Comment';
         Customer__Invoice_Disc__Code_CaptionLbl: Label 'Discounts';
         PaymentTerms__Due_Date_Calculation_CaptionLbl: Label 'Terms';
         Contact_and_Phone_NumberCaptionLbl: Label 'Contact and Phone Number';

@@ -90,15 +90,15 @@ codeunit 361 MoveEntries
         ServiceItem: Record "Service Item";
         ServiceItemComponent: Record "Service Item Component";
         ServContract: Record "Service Contract Header";
-        CannotDeleteGLBudgetEntriesErr: Label 'You cannot delete G/L account %1 because it contains budget ledger entries after %2 for G/L budget name %3.', Comment = '%1 - G/L Account No., %2 - Date, %3 - G/L Budget Name. You cannot delete G/L Account 1000 because it has budget ledger entries\ after 25/01/2018 in G/L Budget Name = Budget_2018.';
+CannotDeleteGLBudgetEntriesErr: Label 'You cannot delete G/L account %1 because it contains budget ledger entries after %2 for G/L budget name %3.', Comment = '%1 - G/L Account No., %2 - Date, %3 - G/L Budget Name. You cannot delete G/L Account 1000 because it has budget ledger entries\ after 25/01/2018 in G/L Budget Name = Budget_2018.';
         Text013: Label 'You cannot delete %1 %2 because prepaid contract entries exist in %3.';
         Text014: Label 'You cannot delete %1 %2, because open prepaid contract entries exist in %3.';
         Text015: Label 'You cannot delete %1 %2 because there are outstanding purchase return order lines.';
-        TimeSheetLinesErr: Label 'You cannot delete project %1 because it has open or submitted time sheet lines.', Comment = 'You cannot delete project PROJECT001 because it has open or submitted time sheet lines.';
+TimeSheetLinesErr: Label 'You cannot delete project %1 because it has open or submitted time sheet lines.', Comment = 'You cannot delete project PROJECT001 because it has open or submitted time sheet lines.';
         GLAccDeleteClosedPeriodsQst: Label 'Note that accounting regulations may require that you save accounting data for a certain number of years. Are you sure you want to delete the G/L account?';
-        CannotDeleteGLAccountWithEntriesInOpenFiscalYearErr: Label 'You cannot delete G/L account %1 because it has ledger entries in a fiscal year that has not been closed yet.', Comment = '%1 - G/L Account No. You cannot delete G/L Account 1000 because it has ledger entries in a fiscal year that has not been closed yet.';
-        CannotDeleteGLAccountWithEntriesAfterDateErr: Label 'You cannot delete G/L account %1 because it has ledger entries posted after %2.', Comment = '%1 - G/L Account No., %2 - Date. You cannot delete G/L Account 1000 because it has ledger entries posted after 01-01-2010.';
-        CannotDeleteBecauseServiceContractErr: Label 'You cannot delete customer %1 because there is at least one not cancelled Service Contract for this customer.', Comment = '%1 - Customer No.';
+CannotDeleteGLAccountWithEntriesInOpenFiscalYearErr: Label 'You cannot delete G/L account %1 because it has ledger entries in a fiscal year that has not been closed yet.', Comment = '%1 - G/L Account No. You cannot delete G/L Account 1000 because it has ledger entries in a fiscal year that has not been closed yet.';
+CannotDeleteGLAccountWithEntriesAfterDateErr: Label 'You cannot delete G/L account %1 because it has ledger entries posted after %2.', Comment = '%1 - G/L Account No., %2 - Date. You cannot delete G/L Account 1000 because it has ledger entries posted after 01-01-2010.';
+CannotDeleteBecauseServiceContractErr: Label 'You cannot delete customer %1 because there is at least one not cancelled Service Contract for this customer.', Comment = '%1 - Customer No.';
 
     procedure MoveGLEntries(GLAcc: Record "G/L Account")
     var

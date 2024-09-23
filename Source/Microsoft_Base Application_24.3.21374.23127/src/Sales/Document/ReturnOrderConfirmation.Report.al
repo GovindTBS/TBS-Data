@@ -932,7 +932,7 @@ report 6631 "Return Order Confirmation"
         SalesLineLineNo: Integer;
         LogInteractionEnable: Boolean;
 
-        Text004: Label 'Return Order Confirmation %1', Comment = '%1 = Document No.';
+Text004: Label 'Return Order Confirmation %1', Comment = '%1 = Document No.';
         Text005: Label 'Page %1';
         Text007: Label 'VAT Amount Specification in ';
         Text008: Label 'Local Currency';

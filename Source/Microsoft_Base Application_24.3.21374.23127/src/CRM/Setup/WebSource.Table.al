@@ -29,7 +29,7 @@ table 5059 "Web Source"
             CalcFormula = exist("Rlshp. Mgt. Comment Line" where("Table Name" = const("Web Source"),
                                                                   "No." = field(Code),
                                                                   "Sub No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

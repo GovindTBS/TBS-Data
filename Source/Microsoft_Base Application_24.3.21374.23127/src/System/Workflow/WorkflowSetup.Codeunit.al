@@ -101,7 +101,7 @@ codeunit 1502 "Workflow Setup"
         GeneralJournalBatchApprWorkflowDescTxt: Label 'General Journal Batch Approval Workflow';
         GeneralJournalLineApprWorkflowCodeTxt: Label 'GJLAPW', Locked = true;
         GeneralJournalLineApprWorkflowDescTxt: Label 'General Journal Line Approval Workflow';
-        GeneralJournalBatchIsNotBalancedMsg: Label 'The selected general journal batch is not balanced and cannot be sent for approval.', Comment = 'General Journal Batch refers to the name of a record.';
+GeneralJournalBatchIsNotBalancedMsg: Label 'The selected general journal batch is not balanced and cannot be sent for approval.', Comment = 'General Journal Batch refers to the name of a record.';
         ApprovalRequestCanceledMsg: Label 'The approval request for the record has been canceled.';
         SendToOCRWorkflowCodeTxt: Label 'INCDOC-OCR', Locked = true;
         CustCredLmtChangeSentForAppTxt: Label 'The customer credit limit change was sent for approval.';

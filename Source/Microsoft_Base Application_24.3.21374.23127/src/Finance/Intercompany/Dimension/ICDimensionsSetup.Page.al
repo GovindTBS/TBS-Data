@@ -66,8 +66,8 @@ page 678 "IC Dimensions Setup"
     end;
 
     var
-        SplitMessageTxt: Label '%1\%2', Comment = '%1 = First part of the message, %2 = Second part of the message.', Locked = true;
-        SyncronizeDimensionsQst: Label 'Partner %1 has intercompany dimensions that can be synchronized now.', Comment = '%1 = IC Partner code';
+SplitMessageTxt: Label '%1\%2', Comment = '%1 = First part of the message, %2 = Second part of the message.', Locked = true;
+SyncronizeDimensionsQst: Label 'Partner %1 has intercompany dimensions that can be synchronized now.', Comment = '%1 = IC Partner code';
         CleanExistingICDimensionsMsg: Label 'Before synchronizing with a new partner it is necessary to delete existing intercompany dimensions.';
         ContinueQst: Label 'Do you want to continue?';
 }

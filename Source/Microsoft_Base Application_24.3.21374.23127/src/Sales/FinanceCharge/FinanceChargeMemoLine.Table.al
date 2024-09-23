@@ -452,7 +452,7 @@ table 303 "Finance Charge Memo Line"
         Text002: Label 'Document';
         Text004: Label 'There is no open %1 with %2 %3.';
         NotEnoughSpaceToInsertErr: Label 'There is not enough space to insert lines with additional interest rates.';
-        InvalidInterestRateDateErr: Label 'Create interest rate with start date prior to %1.', Comment = '%1 - date';
+InvalidInterestRateDateErr: Label 'Create interest rate with start date prior to %1.', Comment = '%1 - date';
 
     local procedure CalcFinChrg()
     var

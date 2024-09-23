@@ -121,10 +121,10 @@ page 1276 "Doc. Exch. Service Auth."
         CategoryTxt: Label 'AL Document Exchange Service', Locked = true;
         MissingStateErr: Label 'The returned authorization code is missing information about the returned state.', Locked = true;
         MismatchingStateErr: Label 'The authroization code returned state is missmatching the expected state value.', Locked = true;
-        OauthFailErrMsg: Label 'Error: %1 ; Description: %2.', Comment = '%1 = OAuth error message ; %2 = description of OAuth failure error message', Locked = true;
+OauthFailErrMsg: Label 'Error: %1 ; Description: %2.', Comment = '%1 = OAuth error message ; %2 = description of OAuth failure error message', Locked = true;
         OAuthCodeStartMsg: Label 'The authorization code flow grant process has started.', Locked = true;
         NoStateErr: Label 'No state has been returned.';
         NotMatchingStateErr: Label 'The state parameter value does not match.';
-        AuthCodeErrorLbl: Label 'Error: %1, description: %2', Comment = '%1 = The authorization error message, %2 = The authorization error description';
+AuthCodeErrorLbl: Label 'Error: %1, description: %2', Comment = '%1 = The authorization error message, %2 = The authorization error description';
         AuthorizationCodeErr: Label 'The OAuth2 authentication code retrieved is empty.', Locked = true;
 }

@@ -290,7 +290,7 @@ page 1270 "OCR Service Setup"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(TestConnection_Promoted; TestConnection)
                 {
@@ -307,7 +307,7 @@ page 1270 "OCR Service Setup"
             }
             group(Category_Category4)
             {
-                Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EncryptionManagement_Promoted; EncryptionManagement)
                 {
@@ -315,7 +315,7 @@ page 1270 "OCR Service Setup"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(JobQueueEntry_Promoted; JobQueueEntry)
                 {
@@ -326,7 +326,7 @@ page 1270 "OCR Service Setup"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -371,7 +371,7 @@ page 1270 "OCR Service Setup"
         EditableByNotEnabled: Boolean;
         EnabledWarningTok: Label 'You must disable the service before you can make changes.';
         DisableEnableQst: Label 'Do you want to disable the OCR service?';
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = pagecaption (OCR Service Setup)';
+EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = pagecaption (OCR Service Setup)';
         EncryptionIsNotActivatedQst: Label 'Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?';
         EditableBySyncEnabled: Boolean;
         CheckedEncryption: Boolean;

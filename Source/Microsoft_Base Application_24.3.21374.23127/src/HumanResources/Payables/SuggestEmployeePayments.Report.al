@@ -354,11 +354,11 @@ report 394 "Suggest Employee Payments"
 
         PostingDateRequiredErr: Label 'In the Posting Date field, specify the date that will be used as the posting date for the journal entries.';
         StartingDocNoErr: Label 'In the Starting Document No. field, specify the first document number to be used.';
-        ProcessingEmployeesMsg: Label 'Processing employees     #1##########', Comment = '#1########## is for the progress dialog. Don''t translate that part of the string';
-        InsertingJournalLinesMsg: Label 'Inserting payment journal lines #1##########', Comment = '#1########## is for the progress dialog. Don''t translate that part of the string';
-        AccountTypeErr: Label '%1 must be G/L Account or Bank Account.', Comment = '%1 - balancing account type';
+ProcessingEmployeesMsg: Label 'Processing employees     #1##########', Comment = '#1########## is for the progress dialog. Don''t translate that part of the string';
+InsertingJournalLinesMsg: Label 'Inserting payment journal lines #1##########', Comment = '#1########## is for the progress dialog. Don''t translate that part of the string';
+AccountTypeErr: Label '%1 must be G/L Account or Bank Account.', Comment = '%1 - balancing account type';
         BankPaymentTypeErr: Label 'Bank Payment Type field must be filled only when Bal. Account Type is set to Bank Account.';
-        BalAccountTypeErr: label 'Balancing account must be %1 or %2.', Comment = '%1 - Bank Account, %2 - G/L Account';
+BalAccountTypeErr: label 'Balancing account must be %1 or %2.', Comment = '%1 - Bank Account, %2 - G/L Account';
         ManualCheckErr: Label 'If bank payment type is set to Manual Check, and you have not selected the Summarize per Employee field,\ then you must select the New Doc. No. per Line.';
         EmployeePaymentLinesCreatedTxt: Label 'You have created suggested employee payment lines.';
         UnprocessedEntriesQst: Label 'There are one or more entries for which no payment suggestions have been made because the posting dates of the entries are later than the requested posting date. Do you want to see the entries?';

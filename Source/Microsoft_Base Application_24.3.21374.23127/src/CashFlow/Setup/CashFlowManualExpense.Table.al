@@ -123,7 +123,7 @@ table 850 "Cash Flow Manual Expense"
 
     var
         DimMgt: Codeunit DimensionManagement;
-        ExpTxt: Label 'EXP', Comment = 'Abbreviation of Expense, used as prefix for code (e.g. EXP000001)';
+ExpTxt: Label 'EXP', Comment = 'Abbreviation of Expense, used as prefix for code (e.g. EXP000001)';
 
     procedure ValidateShortcutDimCode(FieldNumber: Integer; var ShortcutDimCode: Code[20])
     begin
@@ -170,6 +170,6 @@ table 850 "Cash Flow Manual Expense"
     end;
 
     var
-        CodeIsNotSetErr: Label 'Cannot insert the line because no code value is set. Please verify that you have set up the %1 with the %2 set to %3.', Comment = '%1 is Cash Flow Account, %2 is Source Type, %3 is Cash Flow Manual Expense';
+CodeIsNotSetErr: Label 'Cannot insert the line because no code value is set. Please verify that you have set up the %1 with the %2 set to %3.', Comment = '%1 is Cash Flow Account, %2 is Source Type, %3 is Cash Flow Manual Expense';
 }
 

@@ -48,12 +48,12 @@ page 8637 "Config. Package Warning"
                 label(" - Data Migration from Excel.")
                 {
                     ApplicationArea = All;
-                    Caption = ' - Data Migration from Excel.', Comment = 'Leading whitespace is used for indenting the label.';
+Caption = ' - Data Migration from Excel.', Comment = 'Leading whitespace is used for indenting the label.';
                 }
                 label(" - Edit in Excel.")
                 {
                     ApplicationArea = All;
-                    Caption = ' - Edit in Excel.', Comment = 'Leading whitespace is used for indenting the label.';
+Caption = ' - Edit in Excel.', Comment = 'Leading whitespace is used for indenting the label.';
                 }
             }
             group(Apply)

@@ -503,7 +503,7 @@ page 6520 "Item Tracing"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Trace_Promoted; Trace)
                 {
@@ -523,17 +523,17 @@ page 6520 "Item Tracing"
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Category5)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -567,7 +567,7 @@ page 6520 "Item Tracing"
         ActualExpansionStatus: Option "Has Children",Expanded,"No Children";
         Text001: Label 'Item No. Filter is required.';
         TraceText: Text;
-        TraceTextTxt: Label 'Serial No.: %1, Lot No.: %2, Package No. %3, Item: %4, Variant: %5, Trace Method: %6, Show Components: %7', Comment = '%1 - Serial No.';
+TraceTextTxt: Label 'Serial No.: %1, Lot No.: %2, Package No. %3, Item: %4, Variant: %5, Trace Method: %6, Show Components: %7', Comment = '%1 - Serial No.';
         PreviousExists: Boolean;
         NextExists: Boolean;
         Text003: Label 'Filters are too large to show.';

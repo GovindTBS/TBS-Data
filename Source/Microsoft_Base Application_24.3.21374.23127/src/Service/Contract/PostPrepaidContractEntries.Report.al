@@ -282,7 +282,7 @@ report 6032 "Post Prepaid Contract Entries"
         Text006Txt: Label 'Unposted Credit Memo';
         Text007Txt: Label 'Prepaid Contract Entries';
         Text008txt: Label 'Service Contract';
-        PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
+PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
 
     local procedure PostGenJnlLine()
     var

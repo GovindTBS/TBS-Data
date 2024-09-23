@@ -27,7 +27,7 @@ codeunit 1512 "Workflow Create Payment Line"
     end;
 
     var
-        PaymentTxt: Label 'Payment for %1 %2.', Comment = '%1 = Document Type (Eg. Invoice) %2 = Document No. (1201); Payment for Invoice 1201';
+PaymentTxt: Label 'Payment for %1 %2.', Comment = '%1 = Document Type (Eg. Invoice) %2 = Document No. (1201); Payment for Invoice 1201';
 
     procedure CreatePmtLine(WorkflowStepArgument: Record "Workflow Step Argument")
     var

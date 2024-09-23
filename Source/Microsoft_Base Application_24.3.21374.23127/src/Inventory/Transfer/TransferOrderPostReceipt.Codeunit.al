@@ -223,7 +223,7 @@ codeunit 5705 "TransferOrder-Post Receipt"
     end;
 
     var
-        Text002: Label 'Warehouse handling is required for Transfer order = %1, %2 = %3.', Comment = '1%=TransLine2."Document No."; 2%=TransLine2.FIELDCAPTION("Line No."); 3%=TransLine2."Line No.");';
+Text002: Label 'Warehouse handling is required for Transfer order = %1, %2 = %3.', Comment = '1%=TransLine2."Document No."; 2%=TransLine2.FIELDCAPTION("Line No."); 3%=TransLine2."Line No.");';
         Text003: Label 'Posting transfer lines     #2######';
         Text004: Label 'Transfer Order %1';
         Text005: Label 'The combination of dimensions used in transfer order %1 is blocked. %2.';

@@ -21,7 +21,7 @@ codeunit 8510 "Over-Receipt Mgt."
 
     var
         OverReceiptQuantityErr: Label 'You cannot enter more than %1 in the Over-Receipt Quantity field.';
-        OverReceiptNotificationTxt: Label 'An over-receipt quantity is recorded on purchase order %1.', Comment = '%1 - document number';
+OverReceiptNotificationTxt: Label 'An over-receipt quantity is recorded on purchase order %1.', Comment = '%1 - document number';
 
     procedure IsOverReceiptAllowed() OverReceiptAllowed: Boolean
     begin

@@ -51,7 +51,7 @@ page 6509 "Serial No. Information List"
                 field(Control16; Rec.Comment)
                 {
                     ApplicationArea = ItemTracking;
-                    ToolTip = 'Specifies that a comment has been recorded for the serial number.';
+ToolTip = 'Specifies that a comment has been recorded for the serial number.';
                 }
                 field(Inventory; Rec.Inventory)
                 {
@@ -110,14 +110,14 @@ page 6509 "Serial No. Information List"
                 action(Comment)
                 {
                     ApplicationArea = ItemTracking;
-                    Caption = 'Comment';
+Caption = 'Comment';
                     Image = ViewComments;
                     RunObject = Page "Item Tracking Comments";
                     RunPageLink = Type = const("Serial No."),
                                   "Item No." = field("Item No."),
                                   "Variant Code" = field("Variant Code"),
                                   "Serial/Lot No." = field("Serial No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 separator(Action1102601004)
                 {

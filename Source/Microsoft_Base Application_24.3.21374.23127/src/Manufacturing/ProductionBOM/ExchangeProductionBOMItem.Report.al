@@ -426,7 +426,7 @@ report 99001043 "Exchange Production BOM Item"
         Text000: Label 'You must enter a Starting Date.';
         Text001: Label 'You must enter the Type to exchange.';
         Text002: Label 'You must enter the No. to exchange.';
-        ItemBOMExchangeErr: Label 'You cannot exchange %1 %2 with %3 %4.', Comment = '%1 and %3 are strings (''Item'' or ''Production BOM''), %2 and %4 are either an Item No. or a Production BOM Header No. (Code[20])';
+ItemBOMExchangeErr: Label 'You cannot exchange %1 %2 with %3 %4.', Comment = '%1 and %3 are strings (''Item'' or ''Production BOM''), %2 and %4 are either an Item No. or a Production BOM Header No. (Code[20])';
         Text004: Label 'Exchanging #1########## #2############\';
         Text005: Label 'Production BOM No.      #3############';
         Text006: Label 'Type must be entered.';

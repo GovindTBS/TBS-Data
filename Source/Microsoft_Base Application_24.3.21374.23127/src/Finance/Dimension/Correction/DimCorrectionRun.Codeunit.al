@@ -161,11 +161,11 @@ codeunit 2581 "Dim Correction Run"
 
     var
         DimensionCorrectionMgt: Codeunit "Dimension Correction Mgt";
-        StartingDimensionCorrectionTelemetryLbl: Label 'Starting Dimension Correction, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CompletedDimensionCorrectionTelemetryLbl: Label 'Completed Dimension Correction, Dimension Correction Entry No.: %1. Total number of updated entries %2.', Locked = true, Comment = '%1 Dimension Correction Entry No., %2 number of updated entries';
-        StartingChangeLedgerEntriesLbl: Label 'Starting Change Ledger Entries, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CompletedChangeLedgerEntriesLbl: Label 'Completed Change Ledger Entries, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CommitedLedgerEntriesUpdateTelemetryLbl: Label 'Commited G/L Entries update. Dimension Correction Entry No.: %1, Time from last commit: %2. Number of entries iterated: %3.', Locked = true, Comment = '%1 Dimension Correction Entry No., %2 - Time passed between commits, %3 Number';
+StartingDimensionCorrectionTelemetryLbl: Label 'Starting Dimension Correction, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CompletedDimensionCorrectionTelemetryLbl: Label 'Completed Dimension Correction, Dimension Correction Entry No.: %1. Total number of updated entries %2.', Locked = true, Comment = '%1 Dimension Correction Entry No., %2 number of updated entries';
+StartingChangeLedgerEntriesLbl: Label 'Starting Change Ledger Entries, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CompletedChangeLedgerEntriesLbl: Label 'Completed Change Ledger Entries, Dimension Correction Entry No.: %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CommitedLedgerEntriesUpdateTelemetryLbl: Label 'Commited G/L Entries update. Dimension Correction Entry No.: %1, Time from last commit: %2. Number of entries iterated: %3.', Locked = true, Comment = '%1 Dimension Correction Entry No., %2 - Time passed between commits, %3 Number';
         DimensionCorrectionTok: Label 'DimensionCorrection', Locked = true;
 
     [IntegrationEvent(false, false)]

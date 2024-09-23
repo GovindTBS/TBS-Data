@@ -362,8 +362,8 @@ report 10165 "List Price Sheet V16"
         MainTitle: Text[132];
         SubTitle: Text[132];
         ItemFilter: Text;
-        AsOfLbl: Label 'List Price Sheet as of %1', Comment = '%1 - a date';
-        PhoneLbl: Label 'Phone: %1', Comment = '%1 - a phone number';
+AsOfLbl: Label 'List Price Sheet as of %1', Comment = '%1 - a date';
+PhoneLbl: Label 'Phone: %1', Comment = '%1 - a phone number';
         SourceType: Enum "Sales Price Source Type";
         CustNo: Code[20];
         CustPriceGrCode: Code[20];

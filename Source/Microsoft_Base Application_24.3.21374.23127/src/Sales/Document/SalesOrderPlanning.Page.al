@@ -297,7 +297,7 @@ page 99000883 "Sales Order Planning"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Create Prod. Order_Promoted"; "&Create Prod. Order")
                 {

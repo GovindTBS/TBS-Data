@@ -12,11 +12,11 @@ codeunit 50 "SaaS Log In Management"
     end;
 
     var
-        NoPermissionToEnterTrialErr: Label 'In order to open %1, your company must start a trial. You must be an administrator to enter the trial period.', Comment = '%1 = Company Name';
-        RequireUserApprovalForTrialErr: Label 'Preview versions are no longer available. To continue using %1, use a web client to open the company and accept the terms and conditions.', Comment = '%1 = Company Name';
+NoPermissionToEnterTrialErr: Label 'In order to open %1, your company must start a trial. You must be an administrator to enter the trial period.', Comment = '%1 = Company Name';
+RequireUserApprovalForTrialErr: Label 'Preview versions are no longer available. To continue using %1, use a web client to open the company and accept the terms and conditions.', Comment = '%1 = Company Name';
         MissingEvaluationCompanyErr: Label 'You do not have an evaluation company. To continue with the trial version, you must accept the terms and conditions.';
-        AbortTrialQst: Label 'Are you sure that you want to cancel?', Comment = 'Use same string as in page 9193 textconst AbortTrialQst';
-        CanNotOpenCompanyFromDevicelMsg: Label 'Sorry, you can''t create a %1 from this device.', Comment = '%1 = Company Name';
+AbortTrialQst: Label 'Are you sure that you want to cancel?', Comment = 'Use same string as in page 9193 textconst AbortTrialQst';
+CanNotOpenCompanyFromDevicelMsg: Label 'Sorry, you can''t create a %1 from this device.', Comment = '%1 = Company Name';
 
     [Scope('OnPrem')]
     procedure ShouldShowTermsAndConditions(NewCompanyName: Text[30]): Boolean

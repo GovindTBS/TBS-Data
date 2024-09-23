@@ -132,8 +132,8 @@ page 1811 "Setup Email Logging"
                     field(SpecifiedCustomClientCredentials; SpecifiedCustomClientCredentialsTxt)
                     {
                         ApplicationArea = RelationshipMgmt;
-                        ToolTip = 'Indicates that the custom client credentials are specified and will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
-                        Caption = 'Custom client ID and secret are specified and will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+ToolTip = 'Indicates that the custom client credentials are specified and will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+Caption = 'Custom client ID and secret are specified and will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
                         Editable = false;
                         ShowCaption = false;
                         Style = Standard;
@@ -147,8 +147,8 @@ page 1811 "Setup Email Logging"
                     field(ClientCredentialsRequired; ClientCredentialsRequiredTxt)
                     {
                         ApplicationArea = RelationshipMgmt;
-                        ToolTip = 'Indicates that the client ID and secret are required to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
-                        Caption = 'Client ID and secret are required to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+ToolTip = 'Indicates that the client ID and secret are required to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+Caption = 'Client ID and secret are required to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
                         Editable = false;
                         ShowCaption = false;
                         Style = Standard;
@@ -162,8 +162,8 @@ page 1811 "Setup Email Logging"
                     field(DefaultClientCredentials; DefaultClientCredentialsTxt)
                     {
                         ApplicationArea = RelationshipMgmt;
-                        ToolTip = 'Indicates that the default client credentials will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
-                        Caption = 'The default client credentials will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+ToolTip = 'Indicates that the default client credentials will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+Caption = 'The default client credentials will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
                         Editable = false;
                         ShowCaption = false;
                         Style = Standard;
@@ -235,7 +235,7 @@ page 1811 "Setup Email Logging"
                 field(Email; UserEmail)
                 {
                     ApplicationArea = RelationshipMgmt;
-                    Tooltip = 'Specifies email of user on behalf of whom the scheduled job will connect to Exchange and process emails.', Comment = 'Exchange is a name of a Microsoft Service and should not be translated.';
+Tooltip = 'Specifies email of user on behalf of whom the scheduled job will connect to Exchange and process emails.', Comment = 'Exchange is a name of a Microsoft Service and should not be translated.';
                     Caption = 'User Email';
                     ExtendedDatatype = EMail;
 
@@ -645,19 +645,19 @@ page 1811 "Setup Email Logging"
         CreateEmailLoggingJobQueue: Boolean;
         EmailLoggingTelemetryCategoryTxt: Label 'AL Email Logging', Locked = true;
         UpdateMarketingSetupTxt: Label 'Update marketing setup record.', Locked = true;
-        ConnectingToExchangeMsg: Label 'Connecting to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+ConnectingToExchangeMsg: Label 'Connecting to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
         ValidatePublicFoldersMsg: Label 'Validating public folders.';
         HelpLinkTxt: Label 'Track Email Message Exchanges';
         HelpLinkUrlTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2115467', Locked = true;
         SuccesfullyLoggedInTxt: Label 'The administrator is signed in.';
         UnsuccesfullyLoggedInTxt: Label 'Could not sign in the administrator.';
-        DefaultClientCredentialsTxt: Label 'The default client credentials will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
-        SpecifiedCustomClientCredentialsTxt: Label 'Custom client ID and secret are specified and will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
-        ClientCredentialsRequiredTxt: Label 'Client ID and secret are required to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+DefaultClientCredentialsTxt: Label 'The default client credentials will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+SpecifiedCustomClientCredentialsTxt: Label 'Custom client ID and secret are specified and will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+ClientCredentialsRequiredTxt: Label 'Client ID and secret are required to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
         SignInAdminLinkTxt: Label 'Sign in with administrator user';
         ClientCredentialsLinkTxt: Label 'Specify custom client ID and secret';
         CannotAccessRootPublicFolderErr: Label 'Could not access the root public folder with the specified user.';
-        CannotInitializeConnectionToExchangeErr: Label 'Could not initialize connection to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+CannotInitializeConnectionToExchangeErr: Label 'Could not initialize connection to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
         EmptyUserEmailErr: Label 'User email is empty.';
         CannotAccessRootPublicFolderTxt: Label 'Could not access the root public folder. User: %1, URL: %2.', Locked = true;
         CannotInitializeConnectionToExchangeTxt: Label 'Could not initialize connection to Exchange. User: %1, URL: %2.', Locked = true;

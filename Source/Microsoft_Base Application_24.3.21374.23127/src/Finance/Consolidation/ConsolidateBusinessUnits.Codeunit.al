@@ -12,15 +12,15 @@ codeunit 110 "Consolidate Business Units"
         EmptyDateRangeErr: Label 'You must specify the starting date and the ending date for the consolidation.';
         ClosingDateErr: Label 'The starting date or the ending date is a closing date, and they are not the same.';
         YouMustCreateFiscalYearErr: Label 'You must create a new fiscal year for the consolidation company.';
-        ConsolidationPeriodOutsideFiscalYearErr: Label 'The consolidation period %1 .. %2 is outside the fiscal year %3 .. %4 in the consolidation company. Do you want to continue?', Comment = '%1 - Starting date, %2 - Ending date, %3 - Starting date, %4 - Ending date';
-        PleaseSpecifyErr: Label '"%1" is mandatory in General Ledger Setup, but it is not specified.', Comment = '%1 - Field name';
-        PleaseSpecifyNoSeriesErr: Label 'Specify a No. Series in the General Journal Batch %1.', Comment = '%1 - The code of the general journal batch';
-        BusinessUnitStartingDateLaterErr: Label 'The ending date is earlier than the starting date for the business unit %1.', Comment = '%1 - The code of the business unit';
+ConsolidationPeriodOutsideFiscalYearErr: Label 'The consolidation period %1 .. %2 is outside the fiscal year %3 .. %4 in the consolidation company. Do you want to continue?', Comment = '%1 - Starting date, %2 - Ending date, %3 - Starting date, %4 - Ending date';
+PleaseSpecifyErr: Label '"%1" is mandatory in General Ledger Setup, but it is not specified.', Comment = '%1 - Field name';
+PleaseSpecifyNoSeriesErr: Label 'Specify a No. Series in the General Journal Batch %1.', Comment = '%1 - The code of the general journal batch';
+BusinessUnitStartingDateLaterErr: Label 'The ending date is earlier than the starting date for the business unit %1.', Comment = '%1 - The code of the business unit';
         PleaseSpecifyDocNoErr: Label 'Please specify a document number for the consolidation journal.';
-        ConfirmConsolidationDatesForBusinessUnitMsg: Label 'The business unit %1 has the date range %2 .. %3 configured. Do you want to consolidate the period %4 .. %5?', Comment = '%1 - Code of the business unit, %2 - starting date, %3 - ending date, %4 - starting date, %5 - ending date';
+ConfirmConsolidationDatesForBusinessUnitMsg: Label 'The business unit %1 has the date range %2 .. %3 configured. Do you want to consolidate the period %4 .. %5?', Comment = '%1 - Code of the business unit, %2 - starting date, %3 - ending date, %4 - starting date, %5 - ending date';
         SelectOneBusinessUnitErr: Label 'Select at least one business unit to consolidate.';
-        MaxNumberOfDaysInConsolidationErr: Label 'Maximum number of days in consolidation is %1.', Comment = '%1 - The maximum number of days in consolidation';
-        FollowingCompaniesHaveNoAccessErr: Label 'The business units %1 have not been granted access. Select them and use the action "Grant Access" to authenticate into these companies.', Comment = '%1 comma separated names of the business units'' codes';
+MaxNumberOfDaysInConsolidationErr: Label 'Maximum number of days in consolidation is %1.', Comment = '%1 - The maximum number of days in consolidation';
+FollowingCompaniesHaveNoAccessErr: Label 'The business units %1 have not been granted access. Select them and use the action "Grant Access" to authenticate into these companies.', Comment = '%1 comma separated names of the business units'' codes';
         LogRequestsOnlyForTroubleshootingMsg: Label 'A business unit to consolidate has "Log requests" enabled. This is recommended only for troubleshooting purposes and should be disabled to avoid data corruption. Do you want to continue?';
         ConsolidationJQECodeTok: Label 'CONSOLID', Locked = true;
 

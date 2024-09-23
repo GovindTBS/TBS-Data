@@ -230,7 +230,7 @@ page 6662 "Posted Return Receipts"
                     RunObject = Page "Sales Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Return Receipt"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

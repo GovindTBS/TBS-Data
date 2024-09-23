@@ -255,7 +255,7 @@ page 5110 "Profile Questionnaire Setup"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Move &Up_Promoted"; "Move &Up")
                 {
@@ -265,7 +265,7 @@ page 5110 "Profile Questionnaire Setup"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                     actionref("Question Details_Promoted"; "Question Details")
                     {
@@ -283,11 +283,11 @@ page 5110 "Profile Questionnaire Setup"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

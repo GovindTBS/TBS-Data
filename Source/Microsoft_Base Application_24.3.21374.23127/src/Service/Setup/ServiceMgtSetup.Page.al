@@ -113,12 +113,12 @@ page 5919 "Service Mgt. Setup"
                 field("Copy Comments Order to Invoice"; Rec."Copy Comments Order to Invoice")
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies whether to copy comments from service orders to service invoices.';
+ToolTip = 'Specifies whether to copy comments from service orders to service invoices.';
                 }
                 field("Copy Comments Order to Shpt."; Rec."Copy Comments Order to Shpt.")
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies whether to copy comments from service orders to shipments.';
+ToolTip = 'Specifies whether to copy comments from service orders to shipments.';
                 }
                 field("Logo Position on Documents"; Rec."Logo Position on Documents")
                 {

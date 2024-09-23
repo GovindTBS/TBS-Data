@@ -52,7 +52,7 @@ table 7322 "Posted Whse. Shipment Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Posted Whse. Shipment"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

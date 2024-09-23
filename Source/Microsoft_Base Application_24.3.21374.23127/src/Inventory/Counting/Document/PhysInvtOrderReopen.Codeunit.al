@@ -23,7 +23,7 @@ codeunit 5882 "Phys. Invt. Order-Reopen"
         Window: Dialog;
         LineCount: Integer;
 
-        ReopeningLinesMsg: Label 'Reopening lines              #2######', Comment = '%2 = counter';
+ReopeningLinesMsg: Label 'Reopening lines              #2######', Comment = '%2 = counter';
 
     procedure "Code"()
     begin

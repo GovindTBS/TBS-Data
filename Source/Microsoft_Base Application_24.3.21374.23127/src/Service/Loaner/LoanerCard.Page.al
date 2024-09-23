@@ -113,7 +113,7 @@ page 5922 "Loaner Card"
                     RunPageLink = "Table Name" = const(Loaner),
                                   "Table Subtype" = const("0"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Loaner E&ntries")
                 {

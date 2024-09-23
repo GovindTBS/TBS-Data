@@ -322,7 +322,7 @@ page 7365 "Whse. Reclassification Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Register_Promoted; Register)
                 {

@@ -228,7 +228,7 @@ page 605 "IC Chart of Accounts"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
 #if not CLEAN22
                 actionref("Map to Acc. with Same No._Promoted"; "Map to Acc. with Same No.")
@@ -254,11 +254,11 @@ page 605 "IC Chart of Accounts"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Import_Promoted; Import)
                 {
@@ -297,8 +297,8 @@ page 605 "IC Chart of Accounts"
         RequestUserForFileNameLbl: Label 'Enter the file name.';
         SupportedFileTypesLbl: Label 'XML Files (*.xml)|*.xml|All Files (*.*)|*.*';
         CleanICAccountsBeforeCopyingChartOfAccountsQst: Label 'This will clear the existing IC Chart of Accounts before copying. Do you want to continue?';
-        SplitMessageTxt: Label '%1\%2', Comment = '%1 = First part of the message, %2 = Second part of the message.', Locked = true;
-        SynchronizeIntercompanyQst: Label 'Partner %1 has been set for the synchronization of intercompany. Do you want to synchronize instead of switching to another partner?', Comment = '%1 = IC Partner code';
+SplitMessageTxt: Label '%1\%2', Comment = '%1 = First part of the message, %2 = Second part of the message.', Locked = true;
+SynchronizeIntercompanyQst: Label 'Partner %1 has been set for the synchronization of intercompany. Do you want to synchronize instead of switching to another partner?', Comment = '%1 = IC Partner code';
         OnlyAvailableForICUsingDatabaseLbl: Label 'Synchronization is only available for companies using a database for intercompany transactions. Select this option in the setup if you want to use this action.';
 
     local procedure CopyFromChartOfAccounts()

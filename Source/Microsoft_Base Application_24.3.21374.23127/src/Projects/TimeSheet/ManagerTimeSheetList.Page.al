@@ -153,7 +153,7 @@ page 953 "Manager Time Sheet List"
                 {
                     ApplicationArea = Comments;
                     DrillDown = false;
-                    ToolTip = 'Specifies that a comment about this document has been entered.';
+ToolTip = 'Specifies that a comment about this document has been entered.';
                 }
             }
         }
@@ -162,7 +162,7 @@ page 953 "Manager Time Sheet List"
             part(TimeSheetComments; "Time Sheet Comments FactBox")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Time Sheet Comments';
+Caption = 'Time Sheet Comments';
                 SubPageLink = "No." = field("No."), "Time Sheet Line No." = filter(0); //just header comments                
                 Editable = false;
             }
@@ -246,7 +246,7 @@ page 953 "Manager Time Sheet List"
                     RunObject = Page "Time Sheet Comment Sheet";
                     RunPageLink = "No." = field("No."),
                                   "Time Sheet Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Posting E&ntries")
                 {
@@ -264,7 +264,7 @@ page 953 "Manager Time Sheet List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
 #if not CLEAN22
                 actionref("&Edit Time Sheet_Promoted"; "&Edit Time Sheet")

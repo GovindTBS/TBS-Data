@@ -27,7 +27,7 @@ codeunit 5854 "Invt. Doc. Line-Reserve"
         DeleteItemTracking: Boolean;
         InvtSetupRead: Boolean;
         CodeunitIsNotInitializedErr: Label 'Codeunit is not initialized correctly.';
-        CannotBeGreaterErr: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1 - quantity';
+CannotBeGreaterErr: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1 - quantity';
         MustBeFilledErr: Label 'must be filled in when a quantity is reserved';
         MustNotBeChangedErr: Label 'must not be changed when a quantity is reserved';
         DirectionTxt: Label 'Outbound,Inbound';

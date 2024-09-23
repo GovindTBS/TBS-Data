@@ -227,7 +227,7 @@ page 6322 "Power BI WS Report Selection"
 #if not CLEAN23
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
                 ObsoleteReason = 'This group was empty.';
                 ObsoleteState = Pending;
                 ObsoleteTag = '23.0';
@@ -235,7 +235,7 @@ page 6322 "Power BI WS Report Selection"
 #endif
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EnableReport_Promoted; EnableReport)
                 {
@@ -249,7 +249,7 @@ page 6322 "Power BI WS Report Selection"
             }
             group(Category_Category5)
             {
-                Caption = 'Get Reports', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Get Reports', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
 #if not CLEAN23
                 actionref(Refresh_Promoted; Refresh)

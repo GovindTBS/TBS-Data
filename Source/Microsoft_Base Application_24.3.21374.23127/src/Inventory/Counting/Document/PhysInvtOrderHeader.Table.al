@@ -91,7 +91,7 @@ table 5875 "Phys. Invt. Order Header"
             CalcFormula = exist("Phys. Invt. Comment Line" where("Document Type" = const(Order),
                                                                   "Order No." = field("No."),
                                                                   "Recording No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -300,9 +300,9 @@ table 5875 "Phys. Invt. Order Header"
     end;
 
     var
-        AlreadyExistsErr: Label 'Posted Invt. Count Order %1 already exists.', Comment = '%1 = Order No.';
-        CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = table caption';
-        ConfirmChangeQst: Label '%1 will be reset in all order lines. Do you want to change %2?', Comment = '%1 = field caption, %2 = Posting Date';
+AlreadyExistsErr: Label 'Posted Invt. Count Order %1 already exists.', Comment = '%1 = Order No.';
+CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = table caption';
+ConfirmChangeQst: Label '%1 will be reset in all order lines. Do you want to change %2?', Comment = '%1 = field caption, %2 = Posting Date';
         InvtSetup: Record "Inventory Setup";
         PhysInvtOrderHeader: Record "Phys. Invt. Order Header";
         PhysInvtOrderLine: Record "Phys. Invt. Order Line";
@@ -310,8 +310,8 @@ table 5875 "Phys. Invt. Order Header"
         NoSeries: Codeunit "No. Series";
         DimManagement: Codeunit DimensionManagement;
         UpdateDimQst: Label 'You may have changed a dimension.\\Do you want to update the lines?';
-        MoreThanOneLineErr: Label 'There are more than one order lines in Order %1 for Item No. %2, Variant Code %3, Location Code %4, Bin Code %5.', Comment = '%1 Order No. %2 Item No. %3 Variant Code %4 Location Code %5 Bin Code';
-        NoLineErr: Label 'There are no order line in Order %1 for Item No. %2, Variant Code %3, Location Code %4, Bin Code %5.', Comment = '%1 Order No. %2 Item No. %3 Variant Code %4 Location Code %5 Bin Code';
+MoreThanOneLineErr: Label 'There are more than one order lines in Order %1 for Item No. %2, Variant Code %3, Location Code %4, Bin Code %5.', Comment = '%1 Order No. %2 Item No. %3 Variant Code %4 Location Code %5 Bin Code';
+NoLineErr: Label 'There are no order line in Order %1 for Item No. %2, Variant Code %3, Location Code %4, Bin Code %5.', Comment = '%1 Order No. %2 Item No. %3 Variant Code %4 Location Code %5 Bin Code';
 
     local procedure InitInsert()
     var

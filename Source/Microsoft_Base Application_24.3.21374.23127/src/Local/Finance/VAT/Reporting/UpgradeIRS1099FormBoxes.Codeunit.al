@@ -40,7 +40,7 @@ codeunit 10501 "Upgrade IRS 1099 Form Boxes"
     end;
 
     var
-        ConfirmIRS1099CodeUpdateQst: Label 'One or more entries have been posted with IRS 1099 code %1.\\Do you want to continue and update all the data associated with this vendor and the existing IRS 1099 code with the new code, %2?', Comment = '%1 - old code;%2 - new code';
+ConfirmIRS1099CodeUpdateQst: Label 'One or more entries have been posted with IRS 1099 code %1.\\Do you want to continue and update all the data associated with this vendor and the existing IRS 1099 code with the new code, %2?', Comment = '%1 - old code;%2 - new code';
 
     local procedure UpdateIRS1099FormBoxesTo2019()
     begin

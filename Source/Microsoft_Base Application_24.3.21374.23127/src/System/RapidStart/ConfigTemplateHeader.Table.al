@@ -115,7 +115,7 @@ table 8618 "Config. Template Header"
         ConfigValidateMgt: Codeunit "Config. Validate Management";
 
         Text000: Label 'Template lines that relate to %1 exists. Delete the lines to change the Table ID.';
-        Text001: Label 'A new instance %1 has been created in table %2 %3.', Comment = '%2 = Table ID, %3 = Table Caption';
+Text001: Label 'A new instance %1 has been created in table %2 %3.', Comment = '%2 = Table ID, %3 = Table Caption';
 
     local procedure TestXRec()
     var

@@ -45,7 +45,7 @@ table 99000763 "Routing Header"
         {
             CalcFormula = exist("Manufacturing Comment Line" where("Table Name" = const("Routing Header"),
                                                                     "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

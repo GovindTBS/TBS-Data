@@ -13,19 +13,19 @@ codeunit 570 "G/L Account Category Mgt."
     end;
 
     var
-        BalanceColumnNameTxt: Label 'M-BALANCE', Comment = 'Max 10 char';
-        BalanceColumnDescTxt: Label 'Balance', Comment = 'Max 10 char';
-        NetChangeColumnNameTxt: Label 'M-NETCHANG', Comment = 'Max 10 char';
-        NetChangeColumnDescTxt: Label 'Net Change', Comment = 'Max 10 char';
-        BalanceSheetCodeTxt: Label 'M-BALANCE', Comment = 'Max 10 char';
-        BalanceSheetDescTxt: Label 'Balance Sheet', Comment = 'Max 80 chars';
-        IncomeStmdCodeTxt: Label 'M-INCOME', Comment = 'Max 10 chars';
-        IncomeStmdDescTxt: Label 'Income Statement', Comment = 'Max 80 chars';
-        CashFlowCodeTxt: Label 'M-CASHFLOW', Comment = 'Max 10 chars';
-        CashFlowDescTxt: Label 'Cash Flow Statement', Comment = 'Max 80 chars';
-        RetainedEarnCodeTxt: Label 'M-RETAIND', Comment = 'Max 10 char.';
-        RetainedEarnDescTxt: Label 'Retained Earnings', Comment = 'Max 80 chars';
-        MissingSetupErr: Label 'You must define a %1 in %2 before performing this function.', Comment = '%1 = field name, %2 = table name.';
+BalanceColumnNameTxt: Label 'M-BALANCE', Comment = 'Max 10 char';
+BalanceColumnDescTxt: Label 'Balance', Comment = 'Max 10 char';
+NetChangeColumnNameTxt: Label 'M-NETCHANG', Comment = 'Max 10 char';
+NetChangeColumnDescTxt: Label 'Net Change', Comment = 'Max 10 char';
+BalanceSheetCodeTxt: Label 'M-BALANCE', Comment = 'Max 10 char';
+BalanceSheetDescTxt: Label 'Balance Sheet', Comment = 'Max 80 chars';
+IncomeStmdCodeTxt: Label 'M-INCOME', Comment = 'Max 10 chars';
+IncomeStmdDescTxt: Label 'Income Statement', Comment = 'Max 80 chars';
+CashFlowCodeTxt: Label 'M-CASHFLOW', Comment = 'Max 10 chars';
+CashFlowDescTxt: Label 'Cash Flow Statement', Comment = 'Max 80 chars';
+RetainedEarnCodeTxt: Label 'M-RETAIND', Comment = 'Max 10 char.';
+RetainedEarnDescTxt: Label 'Retained Earnings', Comment = 'Max 80 chars';
+MissingSetupErr: Label 'You must define a %1 in %2 before performing this function.', Comment = '%1 = field name, %2 = table name.';
         CurrentAssetsTxt: Label 'Current Assets';
         ARTxt: Label 'Accounts Receivable';
         CashTxt: Label 'Cash';

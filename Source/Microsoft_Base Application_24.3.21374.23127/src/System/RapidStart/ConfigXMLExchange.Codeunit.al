@@ -30,32 +30,32 @@ codeunit 8614 "Config. XML Exchange"
         ImportedPackageCode: Code[20];
         Advanced: Boolean;
         CalledFromCode: Boolean;
-        PackageAllreadyContainsDataQst: Label 'Package %1 already contains data that will be overwritten by the import. Do you want to continue?', Comment = '%1 - Package name';
-        TableContainsRecordsQst: Label 'Table %1 in the package %2 contains %3 records that will be overwritten by the import. Do you want to continue?', Comment = '%1=The ID of the table being imported. %2=The Config Package Code. %3=The number of records in the config package.';
-        MissingInExcelFileErr: Label '%1 is missing in the Excel file.', Comment = '%1=The Package Code field caption.';
+PackageAllreadyContainsDataQst: Label 'Package %1 already contains data that will be overwritten by the import. Do you want to continue?', Comment = '%1 - Package name';
+TableContainsRecordsQst: Label 'Table %1 in the package %2 contains %3 records that will be overwritten by the import. Do you want to continue?', Comment = '%1=The ID of the table being imported. %2=The Config Package Code. %3=The number of records in the config package.';
+MissingInExcelFileErr: Label '%1 is missing in the Excel file.', Comment = '%1=The Package Code field caption.';
         ExportPackageTxt: Label 'Exporting package';
         ImportPackageTxt: Label 'Importing package';
         RapidStartTxt: Label 'RapidStart', Locked = true;
         PackageFileNameTxt: Label 'Package%1.rapidstart', Locked = true;
         DownloadTxt: Label 'Download';
         ImportFileTxt: Label 'Import File';
-        FileDialogFilterTxt: Label 'RapidStart file (*.rapidstart)|*.rapidstart|All Files (*.*)|*.*', Comment = 'Only translate ''RapidStart Files'' {Split=r"[\|\(]\*\.[^ |)]*[|) ]?"}';
+FileDialogFilterTxt: Label 'RapidStart file (*.rapidstart)|*.rapidstart|All Files (*.*)|*.*', Comment = 'Only translate ''RapidStart Files'' {Split=r"[\|\(]\*\.[^ |)]*[|) ]?"}';
         ExcelMode: Boolean;
         HideDialog: Boolean;
         DataListTxt: Label 'DataList', Locked = true;
         TableDoesNotExistErr: Label 'An error occurred while importing the %1 table. The table does not exist in the database.';
         WrongFileTypeErr: Label 'The specified file could not be imported because it is not a valid RapidStart package file.';
-        RecordProgressTxt: Label 'Import %1 records', Comment = '%1=The name of the table being imported.';
+RecordProgressTxt: Label 'Import %1 records', Comment = '%1=The name of the table being imported.';
         AddPrefixMode: Boolean;
         WorkingFolder: Text;
         PackageCodesMustMatchErr: Label 'The package code specified on the configuration package must be the same as the package name in the imported package.';
-        ProgressStatusTxt: Label '%1: %2 records out of %3', Comment = '%1 = table name; %2 = number of processed records (integer); %3 = total number records (integer).';
+ProgressStatusTxt: Label '%1: %2 records out of %3', Comment = '%1 = table name; %2 = number of processed records (integer); %3 = total number records (integer).';
         ImportedTableContentTxt: Label 'Table: %1, records: %2, total table fields: %3, imported fields: %4.', Locked = true;
         ExportedTableContentTxt: Label 'Table: %1, records: %2, exported fields: %3.', Locked = true;
-        PackageImportStartScopeAllMsg: Label 'Configuration package import started: %1', Comment = '%1 - package code', Locked = true;
-        PackageImportFinishScopeAllMsg: Label 'Configuration package imported successfully: %1', Comment = '%1 - package code', Locked = true;
-        PackageExportStartScopeAllMsg: Label 'Configuration package export started: %1', Comment = '%1 - package code', Locked = true;
-        PackageExportFinishScopeAllMsg: Label 'Configuration package exported successfully: %1', Comment = '%1 - package code', Locked = true;
+PackageImportStartScopeAllMsg: Label 'Configuration package import started: %1', Comment = '%1 - package code', Locked = true;
+PackageImportFinishScopeAllMsg: Label 'Configuration package imported successfully: %1', Comment = '%1 - package code', Locked = true;
+PackageExportStartScopeAllMsg: Label 'Configuration package export started: %1', Comment = '%1 - package code', Locked = true;
+PackageExportFinishScopeAllMsg: Label 'Configuration package exported successfully: %1', Comment = '%1 - package code', Locked = true;
 
     local procedure AddXMLComment(var PackageXML: DotNet XmlDocument; var Node: DotNet XmlNode; Comment: Text[250])
     var

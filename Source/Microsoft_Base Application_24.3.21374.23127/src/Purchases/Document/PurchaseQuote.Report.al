@@ -638,7 +638,7 @@ report 404 "Purchase - Quote"
     end;
 
     var
-        Text002: Label 'Purchase - Quote %1', Comment = '%1 = Document No.';
+Text002: Label 'Purchase - Quote %1', Comment = '%1 = Document No.';
         ShipmentMethod: Record "Shipment Method";
         SalesPurchPerson: Record "Salesperson/Purchaser";
         TempPurchaseLine: Record "Purchase Line" temporary;

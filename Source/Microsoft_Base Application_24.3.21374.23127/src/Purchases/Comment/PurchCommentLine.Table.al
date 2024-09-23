@@ -4,7 +4,7 @@ using Microsoft.Purchases.Document;
 
 table 43 "Purch. Comment Line"
 {
-    Caption = 'Purch. Comment Line';
+Caption = 'Purch. Comment Line';
     DrillDownPageID = "Purch. Comment List";
     LookupPageID = "Purch. Comment List";
     DataClassification = CustomerContent;
@@ -33,7 +33,7 @@ table 43 "Purch. Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(7; "Document Line No."; Integer)
         {

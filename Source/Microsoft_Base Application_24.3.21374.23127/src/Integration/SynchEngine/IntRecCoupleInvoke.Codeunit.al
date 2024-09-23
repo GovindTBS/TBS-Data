@@ -31,9 +31,9 @@ codeunit 5361 "Int. Rec. Couple Invoke"
         SynchActionContext: Option;
         IsContextInitialized: Boolean;
         ContextErr: Label 'The integration record synchronization context has not been initialized.';
-        CouplingFailedErr: Label 'Coupling %1 failed because of the following error: %2.', Comment = '%1 = Table Caption, %2 = Error from modify process.';
-        UnexpectedRecordStateTxt: Label 'Coupling %1 was skipped because of record state differs from the expected one. Actual state: %2, expected state: %3.', Comment = '%1 = table caption, %2 = actual state, %3 = expected state.';
-        UnexpectedSyncActionTxt: Label 'Coupling %1 was skipped because of sync action differs the expected one. Actual action: %2, expected action: %3.', Comment = '%1 = table caption, %2 = actual action, %3 = expected action.';
+CouplingFailedErr: Label 'Coupling %1 failed because of the following error: %2.', Comment = '%1 = Table Caption, %2 = Error from modify process.';
+UnexpectedRecordStateTxt: Label 'Coupling %1 was skipped because of record state differs from the expected one. Actual state: %2, expected state: %3.', Comment = '%1 = table caption, %2 = actual state, %3 = expected state.';
+UnexpectedSyncActionTxt: Label 'Coupling %1 was skipped because of sync action differs the expected one. Actual action: %2, expected action: %3.', Comment = '%1 = table caption, %2 = actual action, %3 = expected action.';
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;
 
     procedure SetContext(IntegrationTableMapping: Record "Integration Table Mapping"; LocalRecordRef: RecordRef; IntegrationRecordRef: RecordRef; SynchAction: Option; LocalRecordModified: Boolean; IntegrationRecordModified: Boolean; JobId: Guid; IntegrationTableConnectionType: TableConnectionType)

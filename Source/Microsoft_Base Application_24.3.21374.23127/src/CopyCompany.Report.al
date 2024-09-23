@@ -216,8 +216,8 @@ report 357 "Copy Company"
         ProgressWindow: Dialog;
         BreakReport: Boolean;
         NewCompanyName: Text[30];
-        ProgressMsg: Label 'Creating new company %1.', Comment = 'Creating new company Contoso Corporation.';
-        CopySuccessMsg: Label 'Company %1 has been copied successfully.', Comment = 'Company CRONUS International Ltd. has been copied successfully.';
+ProgressMsg: Label 'Creating new company %1.', Comment = 'Creating new company Contoso Corporation.';
+CopySuccessMsg: Label 'Company %1 has been copied successfully.', Comment = 'Company CRONUS International Ltd. has been copied successfully.';
         ReadMoreSandboxLbl: Label 'Read more about sandboxes';
         ReadMoreDataBackupLbl: Label 'Read more about data backup';
         ConfirmCopyWarning: Boolean;

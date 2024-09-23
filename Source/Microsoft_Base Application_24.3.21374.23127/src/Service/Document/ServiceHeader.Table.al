@@ -902,7 +902,7 @@ table 5900 "Service Header"
                                                               "Table Subtype" = field("Document Type"),
                                                               "No." = field("No."),
                                                               Type = const(General)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -2833,20 +2833,20 @@ table 5900 "Service Header"
     end;
 
     var
-        Text000: Label 'You cannot delete this document. Your identification is set up to process from Responsibility Center %1 only.', Comment = '%1=User management service filter;';
+Text000: Label 'You cannot delete this document. Your identification is set up to process from Responsibility Center %1 only.', Comment = '%1=User management service filter;';
         Text001: Label 'Changing %1 in service header %2 will not update the existing service lines.\You must update the existing service lines manually.';
-        Text003: Label 'You cannot change the %1 because the %2 %3 %4 is associated with a %5 %6.', Comment = '%1=Customer number field caption;%2=Document type;%3=Number field caption;%4=Number;%5=Contract number field caption;%6=Contract number; ';
+Text003: Label 'You cannot change the %1 because the %2 %3 %4 is associated with a %5 %6.', Comment = '%1=Customer number field caption;%2=Document type;%3=Number field caption;%4=Number;%5=Contract number field caption;%6=Contract number; ';
         Text004: Label 'When you change the %1 the existing Service item line and service line will be deleted.\Do you want to change the %1?';
         Text005: Label 'Do you want to change the %1?';
         Text007: Label '%1 cannot be greater than %2.';
-        Text008: Label 'You cannot create Service %1 with %2=%3 because this number has already been used in the system.', Comment = '%1=Document type format;%2=Number field caption;%3=Number;';
-        Text010: Label 'Your identification is set up to process from %1 %2 only.', Comment = '%1=Resposibility center table caption;%2=User management service filter;';
+Text008: Label 'You cannot create Service %1 with %2=%3 because this number has already been used in the system.', Comment = '%1=Document type format;%2=Number field caption;%3=Number;';
+Text010: Label 'Your identification is set up to process from %1 %2 only.', Comment = '%1=Resposibility center table caption;%2=User management service filter;';
         Text011: Label '%1 cannot be greater than %2 in the %3 table.';
         Text012: Label 'If you change %1, the existing service lines will be deleted and the program will create new service lines based on the new information on the header.\Do you want to change the %1?';
         Text013: Label 'Deleting this document will cause a gap in the number series for posted credit memos. An empty posted credit memo %1 will be created to fill this gap in the number series.\\Do you want to continue?';
         Text015: Label 'Do you want to update the exchange rate?';
         Text016: Label 'You have modified %1.\Do you want to update the service lines?';
-        Text018: Label 'You have not specified the %1 for %2 %3=%4, %5=%6.', Comment = '%1=Service order type field caption;%2=table caption;%3=Document type field caption;%4=Document type format;%5=Number field caption;%6=Number format;';
+Text018: Label 'You have not specified the %1 for %2 %3=%4, %5=%6.', Comment = '%1=Service order type field caption;%2=table caption;%3=Document type field caption;%4=Document type format;%5=Number field caption;%6=Number format;';
         Text019: Label 'You have changed %1 on the service header, but it has not been changed on the existing service lines.\The change may affect the exchange rate used in the price calculation of the service lines.';
         Text021: Label 'You have changed %1 on the %2, but it has not been changed on the existing service lines.\You must update the existing service lines manually.';
         ServiceMgtSetup: Record "Service Mgt. Setup";
@@ -2885,12 +2885,12 @@ table 5900 "Service Header"
         LinesExist: Boolean;
         Text028: Label 'You cannot change the %1 because %2 exists.';
         Text029: Label 'The %1 field on the %2 will be updated if you change %3 manually.\Do you want to continue?';
-        Text031: Label 'You cannot change %1 to %2 in %3 %4.\\%5 %6 in %7 %8 line is preventing it.', Comment = '%1=Status field caption;%2=Status format;%3=table caption;%4=Number;%5=ServItemLine repair status code field caption;%6=ServItemLine repair status code;%7=ServItemLine table caption;%8=ServItemLine line number;';
-        Text037: Label 'Contact %1 %2 is not related to customer %3.', Comment = '%1=Contact number;%2=Contact name;%3=Customer number;';
-        Text038: Label 'Contact %1 %2 is related to a different company than customer %3.', Comment = '%1=Contact number;%2=Contact name;%3=Customer number;';
-        Text039: Label 'Contact %1 %2 is not related to a customer.', Comment = '%1=Contact number;%2=Contact name;';
+Text031: Label 'You cannot change %1 to %2 in %3 %4.\\%5 %6 in %7 %8 line is preventing it.', Comment = '%1=Status field caption;%2=Status format;%3=table caption;%4=Number;%5=ServItemLine repair status code field caption;%6=ServItemLine repair status code;%7=ServItemLine table caption;%8=ServItemLine line number;';
+Text037: Label 'Contact %1 %2 is not related to customer %3.', Comment = '%1=Contact number;%2=Contact name;%3=Customer number;';
+Text038: Label 'Contact %1 %2 is related to a different company than customer %3.', Comment = '%1=Contact number;%2=Contact name;%3=Customer number;';
+Text039: Label 'Contact %1 %2 is not related to a customer.', Comment = '%1=Contact number;%2=Contact name;';
         ContactNo: Code[20];
-        Text040: Label 'You cannot delete %1 %2 because the %4 %5 for Service Item Line %3 has not been received.', Comment = '%1=table caption;%2=ServItemLine document number;%3=ServItemLine line number;%4=ServItemLine loaner number field caption;%5=ServItemLine loaner number;';
+Text040: Label 'You cannot delete %1 %2 because the %4 %5 for Service Item Line %3 has not been received.', Comment = '%1=table caption;%2=ServItemLine document number;%3=ServItemLine line number;%4=ServItemLine loaner number field caption;%5=ServItemLine loaner number;';
         SkipContact: Boolean;
         SkipBillToContact: Boolean;
         Text041: Label 'Contract %1 is not signed.';
@@ -2898,16 +2898,16 @@ table 5900 "Service Header"
         Text043: Label 'The service period for contract %1 has expired.';
         Text044: Label 'You cannot rename a %1.';
         Confirmed: Boolean;
-        Text045: Label 'You can not change the %1 field because %2 %3 has %4 = %5 and the %6 has already been assigned %7 %8.', Comment = '%1=Posting date field caption;%2=Posting number series field caption;%3=Posting number series;%4=NoSeries date order field caption;%5=NoSeries date order;%6=Document type;%7=posting number field caption;%8=Posting number;';
+Text045: Label 'You can not change the %1 field because %2 %3 has %4 = %5 and the %6 has already been assigned %7 %8.', Comment = '%1=Posting date field caption;%2=Posting number series field caption;%3=Posting number series;%4=NoSeries date order field caption;%5=NoSeries date order;%6=Document type;%7=posting number field caption;%8=Posting number;';
         Text047: Label 'You cannot change %1 because reservation, item tracking, or order tracking exists on the sales order.';
         Text050: Label 'You cannot reset %1 because the document still has one or more lines.';
-        Text051: Label 'The service %1 %2 already exists.', Comment = '%1=Document type format;%2=Number;';
+Text051: Label 'The service %1 %2 already exists.', Comment = '%1=Document type format;%2=Number;';
         Text053: Label 'Deleting this document will cause a gap in the number series for shipments. An empty shipment %1 will be created to fill this gap in the number series.\\Do you want to continue?';
         Text054: Label 'Deleting this document will cause a gap in the number series for posted invoices. An empty posted invoice %1 will be created to fill this gap in the number series.\\Do you want to continue?';
         Text055: Label 'You have modified the %1 field. Note that the recalculation of VAT may cause penny differences, so you must check the amounts afterwards. Do you want to update the %2 field on the lines to reflect the new value of %1?';
         Text057: Label 'When you change the %1 the existing service line will be deleted.\Do you want to change the %1?';
-        Text058: Label 'You cannot change %1 because %2 %3 is linked to Contract %4.', Comment = '%1=Currency code field caption;%2=Document type;%3=Number;%4=Contract number;';
-        Text060: Label 'Responsibility Center is set up to process from %1 %2 only.', Comment = '%1=Assigned user ID;%2=User management service filter assigned user id;';
+Text058: Label 'You cannot change %1 because %2 %3 is linked to Contract %4.', Comment = '%1=Currency code field caption;%2=Document type;%3=Number;%4=Contract number;';
+Text060: Label 'Responsibility Center is set up to process from %1 %2 only.', Comment = '%1=Assigned user ID;%2=User management service filter assigned user id;';
         Text061: Label 'You may have changed a dimension.\\Do you want to update the lines?';
         Text062: Label 'An open inventory pick exists for the %1 and because %2 is %3.\\You must first post or delete the inventory pick or change %2 to Partial.';
         Text063: Label 'An open warehouse shipment exists for the %1 and %2 is %3.\\You must add the item(s) as new line(s) to the existing warehouse shipment or change %2 to Partial.';
@@ -2916,7 +2916,7 @@ table 5900 "Service Header"
         Text066: Label 'You cannot change the dimension because there are service entries connected to this line.';
         PostedDocsToPrintCreatedMsg: Label 'One or more related posted documents have been generated during deletion to fill gaps in the posting number series. You can view or print the documents from the respective document archive.';
         DocumentNotPostedClosePageQst: Label 'The document has been saved but is not yet posted.\\Are you sure you want to exit?';
-        MissingExchangeRatesQst: Label 'There are no exchange rates for currency %1 and date %2. Do you want to add them now? Otherwise, the last change you made will be reverted.', Comment = '%1 - currency code, %2 - posting date';
+MissingExchangeRatesQst: Label 'There are no exchange rates for currency %1 and date %2. Do you want to add them now? Otherwise, the last change you made will be reverted.', Comment = '%1 - currency code, %2 - posting date';
         FullServiceTypesTxt: Label 'Service Quote,Service Order,Service Invoice,Service Credit Memo';
         RestoreInvoiceDatesOnDeleteInvQst: Label 'Deleting the service invoice will restore the previous invoice dates in the service contract. Do you want to continue?';
         CannotDeletePostedInvoiceErr: Label 'The service invoice cannot be deleted because it has been posted.';

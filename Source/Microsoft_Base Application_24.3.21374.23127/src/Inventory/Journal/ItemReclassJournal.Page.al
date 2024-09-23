@@ -826,7 +826,7 @@ page 393 "Item Reclass. Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
@@ -852,7 +852,7 @@ page 393 "Item Reclass. Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Item &Tracking Lines_Promoted"; "Item &Tracking Lines")
                 {
@@ -863,12 +863,12 @@ page 393 "Item Reclass. Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
             }
             group(Category_Category7)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(ShowLinesWithErrors_Promoted; ShowLinesWithErrors)
                 {
@@ -879,7 +879,7 @@ page 393 "Item Reclass. Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

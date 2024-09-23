@@ -87,7 +87,7 @@ page 6572 "Posted Invt. Shipments"
                     RunObject = Page "Inventory Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Inventory Shipment"),
                                   "No." = field("No.");
-                    ToolTip = 'View comments for the record.';
+ToolTip = 'View comments for the record.';
                 }
             }
         }

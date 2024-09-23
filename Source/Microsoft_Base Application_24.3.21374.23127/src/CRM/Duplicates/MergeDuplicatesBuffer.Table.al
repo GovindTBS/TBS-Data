@@ -98,18 +98,18 @@ table 64 "Merge Duplicates Buffer"
     }
 
     var
-        RenameErr: Label '%1 has not been renamed to %3.', Comment = '%1 - Customer/Vendor, %2 - old No., %3 - new No.';
-        RecNotExistErr: Label '%1 %2 does not exist.', Comment = '%1 - table name; %2 - primary key value';
+RenameErr: Label '%1 has not been renamed to %3.', Comment = '%1 - Customer/Vendor, %2 - old No., %3 - new No.';
+RecNotExistErr: Label '%1 %2 does not exist.', Comment = '%1 - table name; %2 - primary key value';
         TempMergeDuplicatesLineBuffer: Record "Merge Duplicates Line Buffer" temporary;
         TempMergeDuplicatesConflict: Record "Merge Duplicates Conflict" temporary;
-        ConflictsErr: Label 'Resolve (%1) conflicts before merge.', Comment = '%1 - number of conflicts';
+ConflictsErr: Label 'Resolve (%1) conflicts before merge.', Comment = '%1 - number of conflicts';
         ConfirmMergeTxt: Label 'Are you sure you want to merge the two records? This step cannot be undone.';
-        ConfirmRenameTxt: Label 'Are you sure you want to rename record %1?', Comment = '%1 - values of the primary key fields';
-        ConfirmRemoveTxt: Label 'Are you sure you want to remove record %1?', Comment = '%1 - values of the primary key fields';
+ConfirmRenameTxt: Label 'Are you sure you want to rename record %1?', Comment = '%1 - values of the primary key fields';
+ConfirmRemoveTxt: Label 'Are you sure you want to remove record %1?', Comment = '%1 - values of the primary key fields';
         CurrRecordErr: Label 'The current record is not set.';
         ModifyPKeyFieldErr: Label 'You must modify one of the primary key fields.';
         RestorePKeyFieldErr: Label 'You must restore the modified primary key field.';
-        CommentLineCopiedByMergeNoteLbl: Label 'Copied by merge from %1 %2 %3', Comment = '%1 - Table Caption; %2 - Key Primary Field Caption; %3 - Key Primary Field Value';
+CommentLineCopiedByMergeNoteLbl: Label 'Copied by merge from %1 %2 %3', Comment = '%1 - Table Caption; %2 - Key Primary Field Caption; %3 - Key Primary Field Value';
 
     local procedure CalcTableName()
     var

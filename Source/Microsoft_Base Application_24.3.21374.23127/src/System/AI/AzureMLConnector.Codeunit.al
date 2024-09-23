@@ -25,7 +25,7 @@ codeunit 2001 "Azure ML Connector"
         InputName: Text;
         OutputName: Text;
         ParametersName: Text;
-        InvalidURIErr: Label 'Provided API URL (%1) is not a valid AzureML URL.', Comment = '%1 = custom URL';
+InvalidURIErr: Label 'Provided API URL (%1) is not a valid AzureML URL.', Comment = '%1 = custom URL';
 
 #if not CLEAN24
     [NonDebuggable]

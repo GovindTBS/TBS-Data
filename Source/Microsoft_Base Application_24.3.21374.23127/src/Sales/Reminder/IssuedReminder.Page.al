@@ -244,7 +244,7 @@ page 438 "Issued Reminder"
                     RunObject = Page "Reminder Comment Sheet";
                     RunPageLink = Type = const("Issued Reminder"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("C&ustomer")
                 {
@@ -374,7 +374,7 @@ page 438 "Issued Reminder"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -394,11 +394,11 @@ page 438 "Issued Reminder"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Reminder', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Reminder', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -415,12 +415,12 @@ page 438 "Issued Reminder"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

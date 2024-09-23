@@ -350,7 +350,7 @@ table 23 Vendor
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const(Vendor),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -1922,12 +1922,12 @@ table 23 Vendor
         Text10001: Label '%1 is not a valid CURP No.';
         Text10002: Label 'The RFC No. %1 is used by another company.';
         SelectVendorErr: Label 'You must select an existing vendor.';
-        CreateNewVendTxt: Label 'Create a new vendor card for %1.', Comment = '%1 is the name to be used to create the customer. ';
+CreateNewVendTxt: Label 'Create a new vendor card for %1.', Comment = '%1 is the name to be used to create the customer. ';
         VendNotRegisteredTxt: Label 'This vendor is not registered. To continue, choose one of the following options:';
         SelectVendTxt: Label 'Select an existing vendor.';
         InsertFromTemplate: Boolean;
-        PrivacyBlockedActionErr: Label 'You cannot %1 this type of document when Vendor %2 is blocked for privacy.', Comment = '%1 = action (create or post), %2 = vendor code.';
-        PrivacyBlockedGenericTxt: Label 'Privacy Blocked must not be true for vendor %1.', Comment = '%1 = vendor code';
+PrivacyBlockedActionErr: Label 'You cannot %1 this type of document when Vendor %2 is blocked for privacy.', Comment = '%1 = action (create or post), %2 = vendor code.';
+PrivacyBlockedGenericTxt: Label 'Privacy Blocked must not be true for vendor %1.', Comment = '%1 = vendor code';
         ConfirmBlockedPrivacyBlockedQst: Label 'If you change the Blocked field, the Privacy Blocked field is changed to No. Do you want to continue?';
         CanNotChangeBlockedDueToPrivacyBlockedErr: Label 'The Blocked field cannot be changed because the user is blocked for privacy reasons.';
         PhoneNoCannotContainLettersErr: Label 'must not contain letters';

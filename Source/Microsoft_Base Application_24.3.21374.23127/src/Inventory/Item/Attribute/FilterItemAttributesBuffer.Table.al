@@ -67,8 +67,8 @@ table 7506 "Filter Item Attributes Buffer"
     end;
 
     var
-        AttributeDoesntExistErr: Label 'The item attribute ''%1'' doesn''t exist.', Comment = '%1 - arbitrary name';
-        AttributeValueAlreadySpecifiedErr: Label 'You have already specified a value for item attribute ''%1''.', Comment = '%1 - attribute name';
+AttributeDoesntExistErr: Label 'The item attribute ''%1'' doesn''t exist.', Comment = '%1 - arbitrary name';
+AttributeValueAlreadySpecifiedErr: Label 'You have already specified a value for item attribute ''%1''.', Comment = '%1 - attribute name';
 
     procedure ValueAssistEdit()
     var

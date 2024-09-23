@@ -315,7 +315,7 @@ page 1275 "Doc. Exch. Service Setup"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(TestConnection_Promoted; TestConnection)
                 {
@@ -332,11 +332,11 @@ page 1275 "Doc. Exch. Service Setup"
             }
             group(Category_Report)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EncryptionManagement_Promoted; EncryptionManagement)
                 {
@@ -422,7 +422,7 @@ page 1275 "Doc. Exch. Service Setup"
         [NonDebuggable]
         SavedClientSecret: Text;
         ValidTokenMsg: Label 'The token is not expired.';
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = page caption (Document Exchange Service Setup)';
+EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = page caption (Document Exchange Service Setup)';
         RenewTokenQst: Label 'Do you want to renew the token to connect to the document exchange service?\\You might have to sign in to your account for the document exchange service.';
         RenewExpiredTokenQst: Label 'The token for connecting to the document exchange service has expired.\\To renew the token, choose the Renew Token action.\\You might have to sign in to your account for the document exchange service.';
         EncryptionIsNotActivatedQst: Label 'Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?';

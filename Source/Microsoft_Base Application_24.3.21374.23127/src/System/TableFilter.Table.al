@@ -69,7 +69,7 @@ table 9805 "Table Filter"
     }
 
     var
-        Text001: Label 'The filter for the field %1 %2 already exists.', Comment = 'The filter for the field <Field Number> <Field Name> already exists. Example: The filter for the field 15 Base Unit of Measure already exists.';
+Text001: Label 'The filter for the field %1 %2 already exists.', Comment = 'The filter for the field <Field Number> <Field Name> already exists. Example: The filter for the field 15 Base Unit of Measure already exists.';
 
     procedure CheckDuplicateField("Field": Record "Field")
     var

@@ -3,7 +3,7 @@ namespace Microsoft.Inventory.Tracking;
 page 6506 "Item Tracking Comments"
 {
     AutoSplitKey = true;
-    Caption = 'Item Tracking Comments';
+Caption = 'Item Tracking Comments';
     DelayedInsert = true;
     LinksAllowed = false;
     PageType = List;
@@ -19,12 +19,12 @@ page 6506 "Item Tracking Comments"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = ItemTracking;
-                    ToolTip = 'Specifies a date to reference the comment.';
+ToolTip = 'Specifies a date to reference the comment.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = ItemTracking;
-                    ToolTip = 'Specifies the item tracking comment.';
+ToolTip = 'Specifies the item tracking comment.';
                 }
             }
         }

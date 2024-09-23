@@ -29,7 +29,7 @@ codeunit 423 "Change Log Management"
         MonitorSensitiveFieldData: Codeunit "Monitor Sensitive Field Data";
         ChangeLogSetupRead: Boolean;
         MonitorSensitiveFieldSetupRead: Boolean;
-        CannotSelectTableErr: Label 'Change log cannot be enabled for the table %1.', Comment = '%1: Table caption.';
+CannotSelectTableErr: Label 'Change log cannot be enabled for the table %1.', Comment = '%1: Table caption.';
         ChangeLogFieldAddedTxt: Label 'Field added to changelog configuration', Locked = true;
         ChangeLogFieldUpdatedTxt: Label 'Field logging changed in changelog configuration', Locked = true;
         ChangeLogFieldDeletedTxt: Label 'Field removed from changelog configuration', Locked = true;

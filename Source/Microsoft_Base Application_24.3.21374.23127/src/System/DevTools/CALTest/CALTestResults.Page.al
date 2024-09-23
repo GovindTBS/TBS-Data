@@ -123,7 +123,7 @@ page 130405 "CAL Test Results"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Export_Promoted; Export)
                 {
@@ -131,11 +131,11 @@ page 130405 "CAL Test Results"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Call Stack', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Call Stack', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Call Stack_Promoted"; "Call Stack")
                 {

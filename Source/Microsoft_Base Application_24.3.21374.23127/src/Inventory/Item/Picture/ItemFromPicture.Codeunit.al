@@ -25,20 +25,20 @@ codeunit 7499 "Item From Picture"
         ItemFromPictureScenarioTxt: Label 'ITEM FROM PICTURE', Locked = true;
         // Sandbox HTTP calls handling
         SystemApplicationAppIdTxt: Label '63ca2fa4-4f03-4f2b-a480-172fef340d3f', Locked = true;
-        EnableHttpCallsQst: Label 'This feature only works if you allow %1 extensions to communicate with external services. This is turned off by default in Sandbox environments.\\Do you want to allow communication from %1 extensions to external services? You can always change this from the Extension Management page.', Comment = '%1 = The publisher of the BaseApp extension, for example Microsoft.';
+EnableHttpCallsQst: Label 'This feature only works if you allow %1 extensions to communicate with external services. This is turned off by default in Sandbox environments.\\Do you want to allow communication from %1 extensions to external services? You can always change this from the Extension Management page.', Comment = '%1 = The publisher of the BaseApp extension, for example Microsoft.';
         CouldNotEnableHttpCallsMsg: Label 'We could not enable external calls for this scenario. You might lack permissions for this operation.';
         // Image handling
         ImageFileFilterLbl: Label 'All supported images (*.jpg;*.jpeg;*.png;*.gif;*.bmp)';
         ImageFileFilterExtensionsTxt: Label '%1|*.jpg;*.jpeg;*.png;*.gif;*.bmp', Locked = true;
-        TempItemMediaTxt: Label 'Create Item From Picture: %1', MaxLength = 250, Comment = '%1: the original picture name, for example "table.png"';
+TempItemMediaTxt: Label 'Create Item From Picture: %1', MaxLength = 250, Comment = '%1: the original picture name, for example "table.png"';
         UploadDialogCaptionTxt: Label 'Upload a picture to get started';
         // Item handling
-        ItemDescriptionCategoryFileTxt: Label '%1 (from picture "%2")', Comment = '%1: a category name, for example "Kitchen appliances"; %2: a file name, for example "fork_2023_02_07"';
-        ItemDescriptionCategoryTxt: Label '%1', Comment = '%1: a category name, for example "Kitchen appliances"';
-        ItemDescriptionFileTxt: Label 'Item from picture "%1"', Comment = '%1: a file name, for example "fork_2023_02_07"';
+ItemDescriptionCategoryFileTxt: Label '%1 (from picture "%2")', Comment = '%1: a category name, for example "Kitchen appliances"; %2: a file name, for example "fork_2023_02_07"';
+ItemDescriptionCategoryTxt: Label '%1', Comment = '%1: a category name, for example "Kitchen appliances"';
+ItemDescriptionFileTxt: Label 'Item from picture "%1"', Comment = '%1: a file name, for example "fork_2023_02_07"';
         // Error handling
-        LimitReachedMsg: Label 'Seems like you reached the current limit of image analysis (%1 per %2). You won''t be able to analyze more images until the next period starts.', Comment = '%1: a number, for example 100; %2: a time period, for example "Month" or "Hour"';
-        AnalysisNotPerformedMsg: Label 'We could not analyze your image because of the following error: %1', Comment = '%1: an error, for example "Usage limit reached"';
+LimitReachedMsg: Label 'Seems like you reached the current limit of image analysis (%1 per %2). You won''t be able to analyze more images until the next period starts.', Comment = '%1: a number, for example 100; %2: a time period, for example "Month" or "Hour"';
+AnalysisNotPerformedMsg: Label 'We could not analyze your image because of the following error: %1', Comment = '%1: an error, for example "Usage limit reached"';
         // Telemetry
         ItemFromPictureTelemetryCategoryTxt: Label 'AL Item From Picture', Locked = true;
         ImageAnalysisFailedTelemetryTxt: Label 'Image analysis failed while creating item from picture.', Locked = true;

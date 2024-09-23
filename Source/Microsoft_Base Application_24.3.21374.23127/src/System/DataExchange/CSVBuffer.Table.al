@@ -44,7 +44,7 @@ table 1234 "CSV Buffer"
     }
 
     var
-        IndexDoesNotExistErr: Label 'The field in line %1 with index %2 does not exist. The data could not be retrieved.', Comment = '%1 = line no, %2 = index of the field';
+IndexDoesNotExistErr: Label 'The field in line %1 with index %2 does not exist. The data could not be retrieved.', Comment = '%1 = line no, %2 = index of the field';
         CSVFile: DotNet File;
         StreamReader: DotNet StreamReader;
         Separator: Text[1];

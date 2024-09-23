@@ -117,7 +117,7 @@ page 662 "Approval Request Entries"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
+ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
                 }
                 field("Due Date"; Rec."Due Date")
                 {
@@ -184,10 +184,10 @@ page 662 "Approval Request Entries"
                 action(Comments)
                 {
                     ApplicationArea = Suite;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Enabled = ShowRecCommentsEnabled;
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     var

@@ -150,7 +150,7 @@ page 1294 "Pmt. Reconciliation Journals"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(EditJournal_Promoted; EditJournal)
                 {
@@ -163,7 +163,7 @@ page 1294 "Pmt. Reconciliation Journals"
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                     actionref("Bank Account Card_Promoted"; "Bank Account Card")
                     {
@@ -175,7 +175,7 @@ page 1294 "Pmt. Reconciliation Journals"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

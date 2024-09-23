@@ -27,7 +27,7 @@ codeunit 2610 "Feature Management Impl."
     var
         FeatureDataUpdate: Interface "Feature Data Update";
         ImplementedId: Text[50];
-        SignInAgainMsg: Label 'You must sign out and then sign in again to make the changes take effect.', Comment = '"sign out" and "sign in" are the same terms as shown in the Business Central client.';
+SignInAgainMsg: Label 'You must sign out and then sign in again to make the changes take effect.', Comment = '"sign out" and "sign in" are the same terms as shown in the Business Central client.';
         SignInAgainNotificationGuidTok: Label '63b6f5ec-6db4-4e87-b103-c4bcb539f09e', Locked = true;
 PreviewFeatureParameterTxt: Label 'previewfeatures=%1', Comment = '%1 = the feature ID for the feature to be previewed', Locked = true;
 ErrorTraceTagMsg: Label 'Error on the feature data update task for feature %1 in company %2: %3', Comment = '%1- Feature id; %2 - CompanyName; %3 - error message', Locked = true;

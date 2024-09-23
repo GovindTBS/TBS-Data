@@ -649,7 +649,7 @@ page 6053 "Service Contract Quote"
                                   "Table Subtype" = field("Contract Type"),
                                   "No." = field("Contract No."),
                                   "Table Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(DocAttach)
                 {
@@ -981,7 +981,7 @@ page 6053 "Service Contract Quote"
     end;
 
     var
-        Text000: Label '%1 must not be blank in %2 %3', Comment = 'Contract No. must not be blank in Service Contract Header SC00004';
+Text000: Label '%1 must not be blank in %2 %3', Comment = 'Contract No. must not be blank in Service Contract Header SC00004';
         Text001: Label 'Do you want to file the contract quote?';
         Text002: Label 'Do you want to update the contract quote using a contract template?';
         FiledServContract: Record "Filed Service Contract Header";
@@ -991,7 +991,7 @@ page 6053 "Service Contract Quote"
         CopyServDoc: Report "Copy Service Document";
         UserMgt: Codeunit "User Setup Management";
         ServContrQuoteTmplUpd: Codeunit "ServContractQuote-Tmpl. Upd.";
-        Text003: Label '%1 must not be %2 in %3 %4', Comment = 'Status must not be blank in Signed SC00001';
+Text003: Label '%1 must not be %2 in %3 %4', Comment = 'Status must not be blank in Signed SC00001';
         LockOpenServContract: Codeunit "Lock-OpenServContract";
         FormatAddress: Codeunit "Format Address";
         PrepaidEnable: Boolean;

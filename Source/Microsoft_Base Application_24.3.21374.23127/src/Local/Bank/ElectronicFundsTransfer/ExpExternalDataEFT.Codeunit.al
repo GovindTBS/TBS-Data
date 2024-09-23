@@ -17,7 +17,7 @@ codeunit 10323 "Exp. External Data EFT"
     end;
 
     var
-        ExternalContentErr: Label '%1 is empty.', Comment = '%1=File Content field caption.';
+ExternalContentErr: Label '%1 is empty.', Comment = '%1=File Content field caption.';
         DownloadFromStreamErr: Label 'The file has not been saved.';
 
     [Scope('OnPrem')]

@@ -605,8 +605,8 @@ report 10083 "Export Electronic Payments"
         AmountPaid: Decimal;
         TotalAmountPaid: Decimal;
         MXElecPaymentTok: Label 'MX Export Electronic Payment', Locked = true;
-        AccountTypeErr: Label 'For Electronic Payments, the %1 must be %2 or %3.', Comment = '%1=Balance account type,%2=Customer table caption,%3=Vendor table caption';
-        CopyLoopLbl: Label 'COPY', Comment = 'This is the word ''copy'' in all capital letters. It is used for extra copies of a report and indicates that the specific version is not the original, and is a copy.';
+AccountTypeErr: Label 'For Electronic Payments, the %1 must be %2 or %3.', Comment = '%1=Balance account type,%2=Customer table caption,%3=Vendor table caption';
+CopyLoopLbl: Label 'COPY', Comment = 'This is the word ''copy'' in all capital letters. It is used for extra copies of a report and indicates that the specific version is not the original, and is a copy.';
         CannotVoidQst: Label 'Warning:  Transactions cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?';
         UserCancelledErr: Label 'Process cancelled at user request.';
         myType: Integer;

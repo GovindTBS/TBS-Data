@@ -202,7 +202,7 @@ table 5809 "Item Charge Assignment (Sales)"
         SalesLine: Record "Sales Line";
         Currency: Record Currency;
         CannotAssignToInvoiced: Label 'You cannot assign item charges to the %1 because it has been invoiced. Instead you can get the posted document line and then assign the item charge to that line.';
-        ItemChargeDeletionErr: Label 'You cannot delete posted documents that are applied as item charges to sales lines. This document applied to item %3 in %1 %2.', Comment = '%1 - Document Type; %2 - Document No., %3 - Item No.';
+ItemChargeDeletionErr: Label 'You cannot delete posted documents that are applied as item charges to sales lines. This document applied to item %3 in %1 %2.', Comment = '%1 - Document Type; %2 - Document No., %3 - Item No.';
 
     local procedure GetCurrency()
     begin

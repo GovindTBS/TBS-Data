@@ -337,7 +337,7 @@ page 9308 "Purchase Invoices"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -576,7 +576,7 @@ page 9308 "Purchase Invoices"
         {
             group(Category_Category7)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 6.';
                 ShowAs = SplitButton;
 
                 actionref(Release_Promoted; Release)
@@ -588,7 +588,7 @@ page 9308 "Purchase Invoices"
             }
             group(Category_Category5)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
                 ShowAs = SplitButton;
 
                 actionref(PostSelected_Promoted; PostSelected)
@@ -606,11 +606,11 @@ page 9308 "Purchase Invoices"
             }
             group(Category_Category6)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category4)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -633,11 +633,11 @@ page 9308 "Purchase Invoices"
             }
             group(Category_Category8)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -676,14 +676,14 @@ page 9308 "Purchase Invoices"
     end;
 
     var
-        OpenPostedPurchaseInvQst: Label 'The invoice is posted as number %1 and moved to the Posted Purchase Invoice window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
+OpenPostedPurchaseInvQst: Label 'The invoice is posted as number %1 and moved to the Posted Purchase Invoice window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
         TotalsMismatchErr: Label 'The invoice cannot be posted because the total is different from the total on the related incoming document.';
         ReportPrint: Codeunit "Test Report-Print";
         PowerBIServiceMgt: Codeunit "Power BI Service Mgt.";
         JobQueueActive: Boolean;
         OpenApprovalEntriesExist: Boolean;
         CanCancelApprovalForRecord: Boolean;
-        ReadyToPostQst: Label 'The number of invoices that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
+ReadyToPostQst: Label 'The number of invoices that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
         CanRequestApprovalForFlow: Boolean;
         CanCancelApprovalForFlow: Boolean;
         StatusStyleTxt: Text;

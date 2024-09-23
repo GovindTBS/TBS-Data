@@ -304,11 +304,11 @@ page 284 Allocations
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
 #if not CLEAN22
                 actionref(Card_Promoted; Card)
@@ -331,7 +331,7 @@ page 284 Allocations
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

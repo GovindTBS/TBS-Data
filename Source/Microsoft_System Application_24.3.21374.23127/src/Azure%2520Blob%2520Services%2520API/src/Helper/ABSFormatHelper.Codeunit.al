@@ -20,8 +20,8 @@ codeunit 9044 "ABS Format Helper"
     var
         Uri: Codeunit Uri;
         ConcatChar: Text;
-        AppendType1Lbl: Label '%1%2=%3', Comment = '%1 = Concatenation character, %2 = Parameter Identifer, %3 = Parameter Value', Locked = true;
-        AppendType2Lbl: Label '%1%2', Comment = '%1 = Concatenation character, %2 = Parameter Value', Locked = true;
+AppendType1Lbl: Label '%1%2=%3', Comment = '%1 = Concatenation character, %2 = Parameter Identifer, %3 = Parameter Value', Locked = true;
+AppendType2Lbl: Label '%1%2', Comment = '%1 = Concatenation character, %2 = Parameter Value', Locked = true;
         EscapedParameterValue: Text;
     begin
         ConcatChar := '?';
@@ -165,7 +165,7 @@ codeunit 9044 "ABS Format Helper"
         "Key": Text;
         SingleQuoteChar: Char;
         Expression: Text;
-        ExpressionPartLbl: Label '"%1" %2 %3%4%5', Comment = '%1 = Tag, %2 = Operator, %3 = Single Quote, %4 = Value, %5 = Single Quote', Locked = true;
+ExpressionPartLbl: Label '"%1" %2 %3%4%5', Comment = '%1 = Tag, %2 = Operator, %3 = Single Quote, %4 = Value, %5 = Single Quote', Locked = true;
     begin
         SingleQuoteChar := 39;
         Keys := Tags.Keys;

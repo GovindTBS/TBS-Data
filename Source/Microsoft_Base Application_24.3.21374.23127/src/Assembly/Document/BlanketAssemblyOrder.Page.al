@@ -264,13 +264,13 @@ page 940 "Blanket Assembly Order"
             action(Comments)
             {
                 ApplicationArea = Comments;
-                Caption = 'Comments';
+Caption = 'Comments';
                 Image = ViewComments;
                 RunObject = Page "Assembly Comment Sheet";
                 RunPageLink = "Document Type" = field("Document Type"),
                               "Document No." = field("No."),
                               "Document Line No." = const(0);
-                ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
             }
         }
         area(processing)

@@ -28,7 +28,7 @@ codeunit 10175 "EInvoice SaaS Communication" implements "EInvoice Communication 
         ScopeLbl: Label 'AppNetProxyFnScope', Locked = true;
         FunctionSecretErr: Label 'There was an error connecting to the service.';
         MXElectronicInvoicingTok: Label 'MXElectronicInvoicingTelemetryCategoryTok', Locked = true;
-        ResponseErr: Label 'There was an error while connecting to the service. Error message: %1', Comment = '%1=Error message';
+ResponseErr: Label 'There was an error while connecting to the service. Error message: %1', Comment = '%1=Error message';
         RequestSuccessfulMsg: label 'CFDI request was submitted successfully using certificate authorized Azure Function', Locked = true;
         RequestFailedMsg: label 'CFDI request failed with reason: %1, and error message: %2', Locked = true;
         SecretsMissingMsg: label 'CFDI Az Function secrets are  missing', Locked = true;

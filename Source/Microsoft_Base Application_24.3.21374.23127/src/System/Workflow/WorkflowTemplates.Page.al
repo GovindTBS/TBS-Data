@@ -100,7 +100,7 @@ page 1505 "Workflow Templates"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
                 actionref("New Workflow from Template_Promoted"; "New Workflow from Template")
                 {
@@ -108,11 +108,11 @@ page 1505 "Workflow Templates"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ViewAction_Promoted; ViewAction)
                 {

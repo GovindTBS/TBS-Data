@@ -83,7 +83,7 @@ table 370 "Excel Buffer"
         }
         field(6; Comment; Text[250])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
             DataClassification = SystemMetadata;
         }
         field(7; Formula; Text[250])
@@ -179,33 +179,33 @@ table 370 "Excel Buffer"
         ReadDateTimeInUtcDate: Boolean;
 
         Text001: Label 'You must enter a file name.';
-        Text002: Label 'You must enter an Excel worksheet name.', Comment = '{Locked="Excel"}';
+Text002: Label 'You must enter an Excel worksheet name.', Comment = '{Locked="Excel"}';
         Text003: Label 'The file %1 does not exist.';
-        Text004: Label 'The Excel worksheet %1 does not exist.', Comment = '{Locked="Excel"}';
-        Text005: Label 'Creating Excel worksheet...\\', Comment = '{Locked="Excel"}';
+Text004: Label 'The Excel worksheet %1 does not exist.', Comment = '{Locked="Excel"}';
+Text005: Label 'Creating Excel worksheet...\\', Comment = '{Locked="Excel"}';
         PageTxt: Label 'Page';
-        Text007: Label 'Reading Excel worksheet...\\', Comment = '{Locked="Excel"}';
+Text007: Label 'Reading Excel worksheet...\\', Comment = '{Locked="Excel"}';
         Text013: Label '&B';
         Text014: Label '&D';
         Text015: Label '&P';
         Text016: Label 'A1';
         Text017: Label 'SUMIF';
         Text018: Label '#N/A';
-        Text019: Label 'GLAcc', Comment = 'Used to define an Excel range name. You must refer to Excel rules to change this term.', Locked = true;
-        Text020: Label 'Period', Comment = 'Used to define an Excel range name. You must refer to Excel rules to change this term.', Locked = true;
+Text019: Label 'GLAcc', Comment = 'Used to define an Excel range name. You must refer to Excel rules to change this term.', Locked = true;
+Text020: Label 'Period', Comment = 'Used to define an Excel range name. You must refer to Excel rules to change this term.', Locked = true;
         Text021: Label 'Budget';
-        Text022: Label 'CostAcc', Locked = true, Comment = 'Used to define an Excel range name. You must refer to Excel rules to change this term.';
+Text022: Label 'CostAcc', Locked = true, Comment = 'Used to define an Excel range name. You must refer to Excel rules to change this term.';
         Text023: Label 'Information';
-        Text034: Label 'Excel Files (*.xls*)|*.xls*|All Files (*.*)|*.*', Comment = '{Split=r''\|\*\..{1,4}\|?''}{Locked="Excel"}';
+Text034: Label 'Excel Files (*.xls*)|*.xls*|All Files (*.*)|*.*', Comment = '{Split=r''\|\*\..{1,4}\|?''}{Locked="Excel"}';
         Text035: Label 'The operation was canceled.';
-        Text037: Label 'Could not create the Excel workbook.', Comment = '{Locked="Excel"}';
+Text037: Label 'Could not create the Excel workbook.', Comment = '{Locked="Excel"}';
         Text038: Label 'Global variable %1 is not included for test.';
         Text039: Label 'Cell type has not been set.';
         SavingDocumentMsg: Label 'Saving the following document: %1.';
         ExcelFileExtensionTok: Label '.xlsx', Locked = true;
         VmlDrawingXmlTxt: Label '<xml xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel"><o:shapelayout v:ext="edit"><o:idmap v:ext="edit" data="1"/></o:shapelayout><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"  path="m,l,21600r21600,l21600,xe"><v:stroke joinstyle="miter"/><v:path gradientshapeok="t" o:connecttype="rect"/></v:shapetype>', Locked = true;
         EndXmlTokenTxt: Label '</xml>', Locked = true;
-        CellNotFoundErr: Label 'Cell %1 not found.', Comment = '%1 - cell name';
+CellNotFoundErr: Label 'Cell %1 not found.', Comment = '%1 - cell name';
 
         // Shared instances of the cell decorators that are reused to ensure the have the same object reference
         // allowing the platform to avoid extra allocations.

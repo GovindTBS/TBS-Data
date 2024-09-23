@@ -539,7 +539,7 @@ page 9035 "Data Administration"
         {
             group(Category_Process)
             {
-                Caption = ' Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = ' Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(DataAdministrationGuide_Promoted; DataAdministrationGuide)
                 {
@@ -550,7 +550,7 @@ page 9035 "Data Administration"
             }
             group(Category_Report)
             {
-                Caption = ' Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = ' Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -10,7 +10,7 @@ codeunit 5067 "Interaction Mgt."
     end;
 
     var
-        OpportunityCreatedFromIntLogEntryMsg: Label 'Opportunity %1 was created based on selected interaction log entry.', Comment = '%1 - opportunity code';
+OpportunityCreatedFromIntLogEntryMsg: Label 'Opportunity %1 was created based on selected interaction log entry.', Comment = '%1 - opportunity code';
         OpenOpportunityTxt: Label 'Open Opportunity.';
 
     procedure ShowNotificationOpportunityCreated(InteractionLogEntry: Record "Interaction Log Entry")

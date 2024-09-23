@@ -75,7 +75,7 @@ table 5203 "Employee Qualification"
             CalcFormula = exist("Human Resource Comment Line" where("Table Name" = const("Employee Qualification"),
                                                                      "No." = field("Employee No."),
                                                                      "Table Line No." = field("Line No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -116,6 +116,6 @@ table 5203 "Employee Qualification"
         Qualification: Record Qualification;
         Employee: Record Employee;
 
-        Text000: Label 'You cannot delete employee qualification information if there are comments associated with it.';
+Text000: Label 'You cannot delete employee qualification information if there are comments associated with it.';
 }
 

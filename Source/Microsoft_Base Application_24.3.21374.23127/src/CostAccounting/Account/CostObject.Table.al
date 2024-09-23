@@ -71,7 +71,7 @@ table 1113 "Cost Object"
         }
         field(8; Comment; Text[50])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(9; "Line Type"; Option)
         {

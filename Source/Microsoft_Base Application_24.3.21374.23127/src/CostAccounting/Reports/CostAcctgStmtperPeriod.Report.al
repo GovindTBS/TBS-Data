@@ -290,7 +290,7 @@ report 1123 "Cost Acctg. Stmt. per Period"
         Text001: Label 'Ending date must not be before starting date.';
         Text002: Label 'Filter:';
         Text003: Label 'Balance at %1';
-        Text004: Label 'Movement  %1 - %2', Comment = '%1 = Start Date, %2 = End Date';
+Text004: Label 'Movement  %1 - %2', Comment = '%1 = Start Date, %2 = End Date';
         FreeCompTypeErr: Label 'You cannot change the date because the Comparison Type is not set to Free Comparison.';
         FreeCompSamePeriodTypeErr: Label 'You cannot change the date because the Comparison Type is not set to Free Comparison or Same Period Last Year.';
         AllAmountareLbl: Label 'All amounts are in';

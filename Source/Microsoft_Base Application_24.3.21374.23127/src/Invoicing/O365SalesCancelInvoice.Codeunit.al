@@ -9,9 +9,9 @@ codeunit 2103 "O365 Sales Cancel Invoice"
 
     var
         EmailSubjectTxt: Label 'Your invoice has been canceled.';
-        GreetingTxt: Label 'Hello %1,', Comment = '%1 - customer name';
+GreetingTxt: Label 'Hello %1,', Comment = '%1 - customer name';
         CanceletionEmailBodyTxt: Label 'Thank you for your business. Your invoice has been canceled.';
-        CancelationEmailSubjectTxt: Label 'Invoice %1 of amount %2%3, that was due on %4 has been canceled. ', Comment = '%1 = Invoice No,%2 = Currency code, %3 = Total amount including tax , %4 = Due date';
+CancelationEmailSubjectTxt: Label 'Invoice %1 of amount %2%3, that was due on %4 has been canceled. ', Comment = '%1 = Invoice No,%2 = Currency code, %3 = Total amount including tax , %4 = Due date';
 
     [Scope('OnPrem')]
     procedure SendInvoiceCancelationEmail(SalesInvoiceHeader: Record "Sales Invoice Header")

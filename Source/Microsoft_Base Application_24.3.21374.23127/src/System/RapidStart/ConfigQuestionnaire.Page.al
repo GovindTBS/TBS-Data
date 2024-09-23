@@ -152,7 +152,7 @@ page 8610 "Config. Questionnaire"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Apply Answers_Promoted"; "&Apply Answers")
                 {
@@ -163,11 +163,11 @@ page 8610 "Config. Questionnaire"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Excel', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Excel', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ExportToExcel_Promoted; ExportToExcel)
                 {

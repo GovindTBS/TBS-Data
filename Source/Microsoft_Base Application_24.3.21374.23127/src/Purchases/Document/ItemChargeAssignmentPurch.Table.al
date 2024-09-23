@@ -199,7 +199,7 @@ table 5805 "Item Charge Assignment (Purch)"
         PurchLine: Record "Purchase Line";
         Currency: Record Currency;
         CannotAssignToInvoicedErr: Label 'You cannot assign item charges to the %1 because it has been invoiced. Instead you can get the posted document line and then assign the item charge to that line.';
-        ItemChargeDeletionErr: Label 'You cannot delete posted documents that are applied as item charges to purchase lines. This document applied to %1 %2 %3.', Comment = '%1 - Document Type; %2 - Document No., %3 - Item No.';
+ItemChargeDeletionErr: Label 'You cannot delete posted documents that are applied as item charges to purchase lines. This document applied to %1 %2 %3.', Comment = '%1 - Document Type; %2 - Document No., %3 - Item No.';
 
     local procedure GetCurrency()
     begin

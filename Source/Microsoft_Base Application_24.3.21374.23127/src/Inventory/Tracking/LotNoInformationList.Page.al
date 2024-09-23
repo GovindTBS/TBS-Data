@@ -61,7 +61,7 @@ page 6508 "Lot No. Information List"
                 field(CommentField; Rec.Comment)
                 {
                     ApplicationArea = ItemTracking;
-                    ToolTip = 'Specifies that a comment has been recorded for the lot number.';
+ToolTip = 'Specifies that a comment has been recorded for the lot number.';
                 }
                 field(Inventory; Rec.Inventory)
                 {
@@ -120,14 +120,14 @@ page 6508 "Lot No. Information List"
                 action(Comment)
                 {
                     ApplicationArea = ItemTracking;
-                    Caption = 'Comment';
+Caption = 'Comment';
                     Image = ViewComments;
                     RunObject = Page "Item Tracking Comments";
                     RunPageLink = Type = const("Lot No."),
                                   "Item No." = field("Item No."),
                                   "Variant Code" = field("Variant Code"),
                                   "Serial/Lot No." = field("Lot No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 separator(Action1102601003)
                 {

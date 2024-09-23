@@ -24,13 +24,13 @@ codeunit 10 "Type Helper"
         UnsupportedTypeErr: Label 'The Type is not supported by the Evaluate function.';
         KeyDoesNotExistErr: Label 'The requested key does not exist.';
         InvalidMonthErr: Label 'An invalid month was specified.';
-        StringTooLongErr: Label 'This function only allows strings of length up to %1.', Comment = '%1=a number, e.g. 1024';
-        UnsupportedNegativesErr: Label 'Negative parameters are not supported by bitwise function %1.', Comment = '%1=function name';
+StringTooLongErr: Label 'This function only allows strings of length up to %1.', Comment = '%1=a number, e.g. 1024';
+UnsupportedNegativesErr: Label 'Negative parameters are not supported by bitwise function %1.', Comment = '%1=function name';
         BitwiseAndTxt: Label 'BitwiseAnd', Locked = true;
         BitwiseOrTxt: Label 'BitwiseOr', Locked = true;
         BitwiseXorTxt: Label 'BitwiseXor', Locked = true;
-        ObsoleteFieldErr: Label 'The field %1 of %2 table is obsolete and cannot be used.', Comment = '%1 - field name, %2 - table name';
-        ReadingDataSkippedMsg: Label 'Loading field %1 will be skipped because there was an error when reading the data.\To fix the current data, contact your administrator.\Alternatively, you can overwrite the current data by entering data in the field.', Comment = '%1=field caption';
+ObsoleteFieldErr: Label 'The field %1 of %2 table is obsolete and cannot be used.', Comment = '%1 - field name, %2 - table name';
+ReadingDataSkippedMsg: Label 'Loading field %1 will be skipped because there was an error when reading the data.\To fix the current data, contact your administrator.\Alternatively, you can overwrite the current data by entering data in the field.', Comment = '%1=field caption';
 
     procedure Evaluate(var Variable: Variant; String: Text; Format: Text; CultureName: Text): Boolean
     begin

@@ -14,8 +14,8 @@ codeunit 6721 "Booking Manager"
     end;
 
     var
-        ConfirmSyncQst: Label '%1 does not exist in %2. Would you like to synchronize your Bookings customers and services now?', Comment = '%1 - The name of the service or customer. %2 - short product name';
-        NoCustomerFoundErr: Label 'Could not find the customer in %1.', Comment = '%1 - Short product name';
+ConfirmSyncQst: Label '%1 does not exist in %2. Would you like to synchronize your Bookings customers and services now?', Comment = '%1 - The name of the service or customer. %2 - short product name';
+NoCustomerFoundErr: Label 'Could not find the customer in %1.', Comment = '%1 - Short product name';
         InvoicingBookingsTelemetryTxt: Label 'Invoicing Bookings Services for a customer.', Locked = true;
 
     procedure GetAppointmentConnectionName(): Text

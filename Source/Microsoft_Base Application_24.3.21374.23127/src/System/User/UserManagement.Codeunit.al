@@ -167,8 +167,8 @@ codeunit 418 "User Management"
 
     var
         Text001Qst: Label 'You are renaming an existing user. This will also update all related records. Are you sure that you want to rename the user?';
-        Text002Err: Label 'The account %1 already exists.', Comment = '%1 username';
-        Text003Err: Label 'You do not have permissions for this action on the table %1.', Comment = '%1 table name';
+Text002Err: Label 'The account %1 already exists.', Comment = '%1 username';
+Text003Err: Label 'You do not have permissions for this action on the table %1.', Comment = '%1 table name';
 #if not CLEAN23
         BasicAuthDescriptionNameTok: Label 'Web Service Access Key';
         BasicAuthUsedNameTok: Label 'Web Service Access Key Warning';
@@ -177,8 +177,8 @@ codeunit 418 "User Management"
         DontShowAgainTok: Label 'Don''t show me again';
         ShowMoreLinkTok: Label 'Show more';
 #endif
-        CurrentUserQst: Label 'You are signed in with the %1 account. Changing the account will refresh your session. Do you want to continue?', Comment = 'USERID';
-        UnsupportedLicenseTypeOnSaasErr: Label 'Only users of type %1, %2, %3 and %4 are supported in the online environment.', Comment = '%1,%2,%3,%4 = license type';
+CurrentUserQst: Label 'You are signed in with the %1 account. Changing the account will refresh your session. Do you want to continue?', Comment = 'USERID';
+UnsupportedLicenseTypeOnSaasErr: Label 'Only users of type %1, %2, %3 and %4 are supported in the online environment.', Comment = '%1,%2,%3,%4 = license type';
         DisableUserMsg: Label 'To permanently disable a user, go to your Microsoft 365 admin center. Disabling the user in Business Central will only be effective until the next user synchonization with Microsoft 365.';
         WindowsSecurityIdNotEditableOnSaaSErr: Label 'Windows security identifier is not supported in online environments.';
 

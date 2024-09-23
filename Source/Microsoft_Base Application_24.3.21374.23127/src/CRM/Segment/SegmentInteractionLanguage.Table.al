@@ -285,7 +285,7 @@ table 5104 "Segment Interaction Language"
         ImportFailedMsg: Label 'The import was canceled or the specified file could not be accessed. The import failed.';
         InheritedLbl: Label 'Inherited';
         UniqueLbl: Label 'Unique';
-        UpdateSegmentLinesQst: Label 'You have modified %1.\\Do you want to update the segment lines with the same Interaction Template Code and Language Code?', Comment = '%1 = Subject caption';
+UpdateSegmentLinesQst: Label 'You have modified %1.\\Do you want to update the segment lines with the same Interaction Template Code and Language Code?', Comment = '%1 = Subject caption';
 
     [Scope('OnPrem')]
     procedure CreateAttachment()

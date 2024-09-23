@@ -280,7 +280,7 @@ table 99000758 "Machine Center"
         {
             CalcFormula = exist("Manufacturing Comment Line" where("Table Name" = const("Machine Center"),
                                                                     "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -699,7 +699,7 @@ table 99000758 "Machine Center"
         i: Integer;
         NoOfRecords: Integer;
         GLSetupRead: Boolean;
-        Text007: Label 'You cannot delete %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Table caption; %2 = Field Value; %3 = Table Caption';
+Text007: Label 'You cannot delete %1 %2 because there is at least one %3 associated with it.', Comment = '%1 = Table caption; %2 = Field Value; %3 = Table Caption';
         Text008: Label 'You cannot change the %1 on %2 unless it is linked to a %3.';
         Text009: Label 'If you change the %1, then all bin codes on the %2 will be removed. Are you sure that you want to continue?';
 

@@ -87,11 +87,11 @@ page 8638 "Configuration Completion"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Setup', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Setup', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Users_Promoted; Users)
                 {

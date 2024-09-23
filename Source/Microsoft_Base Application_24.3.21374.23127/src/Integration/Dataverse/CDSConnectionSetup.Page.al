@@ -17,7 +17,7 @@ page 7200 "CDS Connection Setup"
 {
     AccessByPermission = TableData "CDS Connection Setup" = IM;
     ApplicationArea = Suite;
-    Caption = 'Dataverse Connection Setup', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Connection Setup', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     DeleteAllowed = false;
     InsertAllowed = false;
     LinksAllowed = false;
@@ -38,7 +38,7 @@ page 7200 "CDS Connection Setup"
                     ApplicationArea = Suite;
                     Enabled = IsEditable;
                     Editable = IsEditable;
-                    ToolTip = 'Specifies the URL of the Dataverse environment that you want to connect to.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the URL of the Dataverse environment that you want to connect to.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                     AssistEdit = true;
 
                     trigger OnValidate()
@@ -64,7 +64,7 @@ page 7200 "CDS Connection Setup"
                     ApplicationArea = Suite;
                     Editable = IsEditable;
                     Visible = IsUserNamePasswordVisible;
-                    ToolTip = 'Specifies the name of the user that will be used to connect to the Dataverse environment and synchronize data. This must not be the administrator user account.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the name of the user that will be used to connect to the Dataverse environment and synchronize data. This must not be the administrator user account.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                 }
                 field(Password; UserPassword)
                 {
@@ -72,7 +72,7 @@ page 7200 "CDS Connection Setup"
                     Editable = IsEditable;
                     Visible = IsUserNamePasswordVisible;
                     ExtendedDatatype = Masked;
-                    ToolTip = 'Specifies the password of the user that will be used to connect to the Dataverse environment and synchronize data.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the password of the user that will be used to connect to the Dataverse environment and synchronize data.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnValidate()
                     begin
@@ -88,7 +88,7 @@ page 7200 "CDS Connection Setup"
                     ApplicationArea = Suite;
                     Editable = IsEditable;
                     Visible = IsClientIdClientSecretVisible;
-                    ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
                 }
                 field("Client Secret"; ClientSecret)
                 {
@@ -97,7 +97,7 @@ page 7200 "CDS Connection Setup"
                     Editable = IsEditable;
                     Visible = IsClientIdClientSecretVisible;
                     ExtendedDatatype = Masked;
-                    ToolTip = 'Specifies the secret of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the secret of the Microsoft Entra application that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
 
                     trigger OnValidate()
                     begin
@@ -113,7 +113,7 @@ page 7200 "CDS Connection Setup"
                     ApplicationArea = Suite;
                     Editable = IsEditable;
                     Visible = IsClientIdClientSecretVisible;
-                    ToolTip = 'Specifies the Redirect URL of the Microsoft Entra app registration that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the Redirect URL of the Microsoft Entra app registration that will be used to connect to the Dataverse environment.', Comment = 'Dataverse and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
                 }
                 field("SDK Version"; Rec."Proxy Version")
                 {
@@ -122,7 +122,7 @@ page 7200 "CDS Connection Setup"
                     Caption = 'SDK Version';
                     Editable = false;
                     Enabled = IsEditable;
-                    ToolTip = 'Specifies the software development kit version that is used to connect to the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the software development kit version that is used to connect to the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnAssistEdit()
                     begin
@@ -135,8 +135,8 @@ page 7200 "CDS Connection Setup"
                 field("Is Enabled"; Rec."Is Enabled")
                 {
                     ApplicationArea = Suite;
-                    Caption = 'Enable Data Synchronization', Comment = 'Name of the check box that shows whether data synchronization with the Dataverse environment is enabled.';
-                    ToolTip = 'Specifies whether data synchronization with the Dataverse environment is enabled. When you select this check box, you will be prompted to sign-in with an administrator user account and give consent to the app registration that will be used to connect to Dataverse. The account will be used one time to install and configure components that the integration requires.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Enable Data Synchronization', Comment = 'Name of the check box that shows whether data synchronization with the Dataverse environment is enabled.';
+ToolTip = 'Specifies whether data synchronization with the Dataverse environment is enabled. When you select this check box, you will be prompted to sign-in with an administrator user account and give consent to the app registration that will be used to connect to Dataverse. The account will be used one time to install and configure components that the integration requires.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnValidate()
                     var
@@ -174,8 +174,8 @@ page 7200 "CDS Connection Setup"
                 {
                     ApplicationArea = Suite;
                     Enabled = BusinessEventsSupported;
-                    Caption = 'Enable Virtual Tables and Events', Comment = 'Name of the check box that shows whether virtual tables in Dataverse and business events that Business Central sends to the Dataverse environment are enabled.';
-                    ToolTip = 'Specifies whether Business Central and Dataverse can synchronize data through virtual tables and events. If you enable virtual tables, you must sign-in with an administrator user account and give consent to the app registration that will be used to connect to Dataverse. The account will be used one time to set up the connection between Dataverse to Business Central.', Comment = 'Business Central and Dataverse are names of Microsoft Services and should not be translated.';
+Caption = 'Enable Virtual Tables and Events', Comment = 'Name of the check box that shows whether virtual tables in Dataverse and business events that Business Central sends to the Dataverse environment are enabled.';
+ToolTip = 'Specifies whether Business Central and Dataverse can synchronize data through virtual tables and events. If you enable virtual tables, you must sign-in with an administrator user account and give consent to the app registration that will be used to connect to Dataverse. The account will be used one time to set up the connection between Dataverse to Business Central.', Comment = 'Business Central and Dataverse are names of Microsoft Services and should not be translated.';
 
                     trigger OnValidate()
                     begin
@@ -216,7 +216,7 @@ page 7200 "CDS Connection Setup"
                     Caption = 'Solution Version';
                     Editable = false;
                     StyleExpr = SolutionVersionStatusStyleExpr;
-                    ToolTip = 'Specifies whether an integration solution is installed and configured in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies whether an integration solution is installed and configured in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnDrillDown()
                     begin
@@ -248,7 +248,7 @@ page 7200 "CDS Connection Setup"
                     Caption = 'User Roles checked';
                     Editable = false;
                     StyleExpr = UserStatusStyleExpr;
-                    ToolTip = 'Specifies whether the integration user has the required roles in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies whether the integration user has the required roles in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnDrillDown()
                     begin
@@ -264,7 +264,7 @@ page 7200 "CDS Connection Setup"
                     Caption = 'Team Roles checked';
                     Editable = false;
                     StyleExpr = TeamStatusStyleExpr;
-                    ToolTip = 'Specifies whether the team that owns the selected business unit has the required roles in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies whether the team that owns the selected business unit has the required roles in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnDrillDown()
                     begin
@@ -280,7 +280,7 @@ page 7200 "CDS Connection Setup"
                     Caption = 'Entities availability checked';
                     Editable = false;
                     StyleExpr = EntitiesStatusStyleExpr;
-                    ToolTip = 'Specifies whether the tables are available in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies whether the tables are available in Dataverse. You cannot change this setting.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnDrillDown()
                     begin
@@ -299,14 +299,14 @@ page 7200 "CDS Connection Setup"
                 {
                     ApplicationArea = Advanced;
                     Editable = IsEditable;
-                    ToolTip = 'Specifies the authentication type that will be used to authenticate with the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the authentication type that will be used to authenticate with the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                 }
                 field("Connection String"; Rec."Connection String")
                 {
                     ApplicationArea = Advanced;
                     Caption = 'Connection String';
                     Editable = IsEditable;
-                    ToolTip = 'Specifies the connection string that will be used to connect to the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the connection string that will be used to connect to the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnValidate()
                     begin
@@ -322,7 +322,7 @@ page 7200 "CDS Connection Setup"
                 {
                     ApplicationArea = Suite;
                     Editable = IsEditable;
-                    ToolTip = 'Specifies the type of owner that will be assigned to any row that is created while synchronizing from Business Central to Dataverse.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the type of owner that will be assigned to any row that is created while synchronizing from Business Central to Dataverse.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnValidate()
                     begin
@@ -338,7 +338,7 @@ page 7200 "CDS Connection Setup"
                     Editable = false;
                     Enabled = IsEditable;
                     ShowMandatory = true;
-                    ToolTip = 'Specifies the business unit that you want to connect to in the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the business unit that you want to connect to in the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                     trigger OnAssistEdit()
                     begin
@@ -363,7 +363,7 @@ page 7200 "CDS Connection Setup"
                 Caption = 'Assisted Setup';
                 Image = Setup;
                 Enabled = (not Rec."Is Enabled") or (not BusinessEventsEnabled);
-                ToolTip = 'Start the Dataverse Connection Setup guide.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Start the Dataverse Connection Setup guide.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                 trigger OnAction()
                 var
@@ -380,9 +380,9 @@ page 7200 "CDS Connection Setup"
             action("Test Connection")
             {
                 ApplicationArea = Suite;
-                Caption = 'Test Connection', Comment = 'Test is a verb.';
+Caption = 'Test Connection', Comment = 'Test is a verb.';
                 Image = ValidateEmailLoggingSetup;
-                ToolTip = 'Test the connection to Dataverse using the specified settings.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Test the connection to Dataverse using the specified settings.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                 trigger OnAction()
                 begin
@@ -442,7 +442,7 @@ page 7200 "CDS Connection Setup"
                 Caption = 'Use Default Synchronization Setup';
                 Enabled = Rec."Is Enabled";
                 Image = ResetStatus;
-                ToolTip = 'Resets the integration table mappings and synchronization jobs to the default values for a connection with Dataverse. All current mappings are deleted.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Resets the integration table mappings and synchronization jobs to the default values for a connection with Dataverse. All current mappings are deleted.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                 trigger OnAction()
                 var
@@ -461,7 +461,7 @@ page 7200 "CDS Connection Setup"
                 Caption = 'Couple Salespersons';
                 Enabled = Rec."Is Enabled" and (Rec."Ownership Model" = Rec."Ownership Model"::Person);
                 Image = CoupledUsers;
-                ToolTip = 'Open the list of users in Dataverse to manually couple them with salespersons in Business Central.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Open the list of users in Dataverse to manually couple them with salespersons in Business Central.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                 trigger OnAction()
                 var
@@ -700,7 +700,7 @@ page 7200 "CDS Connection Setup"
                 ApplicationArea = Suite;
                 Caption = 'Synch. Job Queue Entries';
                 Image = JobListSetup;
-                ToolTip = 'View the job queue entries that manage the scheduled synchronization between Dataverse and Business Central.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'View the job queue entries that manage the scheduled synchronization between Dataverse and Business Central.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
 
                 trigger OnAction()
                 var
@@ -793,7 +793,7 @@ page 7200 "CDS Connection Setup"
         {
             group(Category_Process)
             {
-                Caption = 'Connection', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Connection', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Assisted Setup_Promoted"; "Assisted Setup")
                 {
@@ -807,7 +807,7 @@ page 7200 "CDS Connection Setup"
             }
             group(Category_Report)
             {
-                Caption = 'Integration', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Integration', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(CoupleUsers_Promoted; CoupleUsers)
                 {
@@ -839,7 +839,7 @@ page 7200 "CDS Connection Setup"
             }
             group(Category_Category4)
             {
-                Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EncryptionManagement_Promoted; EncryptionManagement)
                 {
@@ -847,7 +847,7 @@ page 7200 "CDS Connection Setup"
             }
             group(Category_Category5)
             {
-                Caption = 'Virtual Tables', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Virtual Tables', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Virtual Tables App_Promoted"; "Virtual Tables App")
                 {
@@ -867,7 +867,7 @@ page 7200 "CDS Connection Setup"
             }
             group(Category_Category6)
             {
-                Caption = 'Synchronization', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Synchronization', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(StartInitialSynchAction_Promoted; StartInitialSynchAction)
                 {
@@ -885,7 +885,7 @@ page 7200 "CDS Connection Setup"
 #if not CLEAN23
             group(Category_Category7)
             {
-                Caption = 'Upgrade', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Upgrade', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(SetCoupledFlags_Promoted; SetCoupledFlags)
                 {
@@ -894,7 +894,7 @@ page 7200 "CDS Connection Setup"
 #endif
             group(Category_Category8)
             {
-                Caption = 'Cloud Migration', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Cloud Migration', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(RebuildCouplingTable_Promoted; RebuildCouplingTable)
                 {
@@ -991,7 +991,7 @@ page 7200 "CDS Connection Setup"
 #endif
         ResetIntegrationTableMappingConfirmQst: Label 'This will restore the default integration table mappings and synchronization jobs for Dataverse. All customizations to mappings and projects will be deleted. The default mappings and projects will be used the next time data is synchronized. Do you want to continue?';
         EncryptionIsNotActivatedQst: Label 'Data encryption is currently not enabled. We recommend that you encrypt data. \Do you want to open the Data Encryption Management window?';
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = This Page Caption (Dataverse Connection Setup)';
+EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = This Page Caption (Dataverse Connection Setup)';
         UnfavorableCDSVersionMsg: Label 'This version of Dataverse might not work correctly with the Dataverse Base Integration solution. We recommend you upgrade to a supported version.';
         FavorableCDSVersionMsg: Label 'The version of Dataverse is valid.';
         UnfavorableSolutionMsg: Label 'The base integration solution was not detected in Dataverse.';
@@ -1005,15 +1005,15 @@ page 7200 "CDS Connection Setup"
         DeploySucceedMsg: Label 'The solution, user roles, and entities have been deployed.';
         DeployFailedMsg: Label 'The deployment of the solution, user roles, and entities failed.';
         ConnectionSuccessMsg: Label 'The connection test was successful. The settings are valid.';
-        ConnectionFailedMsg: Label 'The connection test has failed. %1.', Comment = '%1 = Connection test failure error message';
+ConnectionFailedMsg: Label 'The connection test has failed. %1.', Comment = '%1 = Connection test failure error message';
         SynchronizeModifiedQst: Label 'This will synchronize all modified records in all integration table mappings.\The synchronization will run in the background so you can continue with other tasks.\\Do you want to continue?';
-        SyncNowScheduledMsg: Label 'Synchronization of modified records is scheduled.\You can view details on the %1 page.', Comment = '%1 = The localized caption of page Integration Synch. Job List';
+SyncNowScheduledMsg: Label 'Synchronization of modified records is scheduled.\You can view details on the %1 page.', Comment = '%1 = The localized caption of page Integration Synch. Job List';
         SetupSuccessfulMsg: Label 'The default setup for Dataverse synchronization has completed successfully.';
 #if not CLEAN23
         MarkingRecordsScheduledMsg: Label 'The marking of the records that are coupled to an entity in Dataverse has been scheduled.';
 #endif
         DoYouWantToMakeSalesPeopleMappingQst: Label 'Do you want to map salespeople to users in Dataverse?';
-        UsersAddedToTeamMsg: Label 'Count of users added to the default owning team: %1.', Comment = '%1 - count of users.';
+UsersAddedToTeamMsg: Label 'Count of users added to the default owning team: %1.', Comment = '%1 - count of users.';
         Office365AuthTxt: Label 'AuthType=Office365', Locked = true;
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;
         DisableIntegrationQst: Label 'You are about to disable your integration with Dataverse, but some records are still coupled. If you will re-enable the integration later, you must remove all couplings before you disable the integration.\\Do you want to continue anyway?';
@@ -1025,7 +1025,7 @@ page 7200 "CDS Connection Setup"
         SetCoupledFlagsJobDescriptionTxt: Label 'Sets field ''Coupled to Dataverse'' to true for all records that are coupled to an entity in Dataverse.';
 #endif
         CertificateConnectionSetupTelemetryMsg: Label 'User has successfully set up the certificate connection to Dataverse.', Locked = true;
-        CertificateConnectionSetupMsg: Label 'You have successfully upgraded the connection to Dataverse to use certificate-based OAuth 2.0 service-to-service authentication. Business Central has auto-generated a new integration user with user name %1 in your Dataverse environment. This user does not require a license.', Comment = '%1 - user name';
+CertificateConnectionSetupMsg: Label 'You have successfully upgraded the connection to Dataverse to use certificate-based OAuth 2.0 service-to-service authentication. Business Central has auto-generated a new integration user with user name %1 in your Dataverse environment. This user does not require a license.', Comment = '%1 - user name';
         TestServerAddressTok: Label '@@test@@', Locked = true;
         IsEditable: Boolean;
         IsUserNamePasswordVisible: Boolean;

@@ -17,7 +17,7 @@ codeunit 880 "OCR - Send to Service"
 
     var
         SendMsg: Label 'Sending to the OCR Service @1@@@@@@@@@@@@@@@@@@@.';
-        SendDoneMsg: Label '%1 documents have been sent to the OCR service.', Comment = '%1 is a number, e.g. 1';
+SendDoneMsg: Label '%1 documents have been sent to the OCR service.', Comment = '%1 is a number, e.g. 1';
 
     [Scope('OnPrem')]
     procedure SendAllReadyToOcr()

@@ -228,7 +228,7 @@ page 9610 "XML Schema Viewer"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(GenerateDataExchSetup_Promoted; GenerateDataExchSetup)
                 {
@@ -236,11 +236,11 @@ page 9610 "XML Schema Viewer"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ShowAll_Promoted; ShowAll)
                 {
@@ -254,7 +254,7 @@ page 9610 "XML Schema Viewer"
             }
             group(Category_Category5)
             {
-                Caption = 'Selection', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Selection', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(SelectAll_Promoted; SelectAll)
                 {
@@ -265,7 +265,7 @@ page 9610 "XML Schema Viewer"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(DataExchangeDefinitions_Promoted; DataExchangeDefinitions)
                 {

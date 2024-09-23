@@ -606,10 +606,10 @@ page 1808 "Data Migration Wizard"
         PostingDate: Date;
         DuplicateContactsLbl: Label 'Review duplicate contacts';
         BallancesPostingErr: Label 'We need to know what to do with opening balances. You can:\\Let us post opening balances to the general ledger and item ledger for you, on a date you choose\\Review opening balances in journals first, and then post them yourself.';
-        MissingAccountingPeriodeErr: Label 'Posting date %1 is not within an open accounting period. To see open periods, go to the Accounting Periods page.', Comment = '%1 = Posting Date';
+MissingAccountingPeriodeErr: Label 'Posting date %1 is not within an open accounting period. To see open periods, go to the Accounting Periods page.', Comment = '%1 = Posting Date';
         EnableTogglingOverviewPage: Boolean;
         ShowOverviewPage: Boolean;
-        CostingMethodNotificationMsg: Label 'Verify the costing method before you import items. %1 is currently selected.', Comment = '%1 = Default Costing Method';
+CostingMethodNotificationMsg: Label 'Verify the costing method before you import items. %1 is currently selected.', Comment = '%1 = Default Costing Method';
         CostingMethodNotificationActionMsg: Label 'Change the selection';
 
     local procedure NextAction()

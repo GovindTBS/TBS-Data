@@ -56,7 +56,7 @@ codeunit 7304 "Whse. Jnl.-Register Batch"
         Text003: Label 'Registering lines     #3###### @4@@@@@@@@@@@@@';
         Text005: Label 'Item tracking lines defined for the source line must account for the same quantity as you have entered.';
         Text006: Label 'Item tracking lines do not match the bin content.';
-        Text007: Label 'One or more reservation entries exist for the item with %1 = %2, %3 = %4, %5 = %6 which may be disrupted if you post this negative adjustment. Do you want to continue?', Comment = 'One or more reservation entries exist for the item with Item No. = 1000, Location Code = BLUE, Variant Code = NEW which may be disrupted if you post this negative adjustment. Do you want to continue?';
+Text007: Label 'One or more reservation entries exist for the item with %1 = %2, %3 = %4, %5 = %6 which may be disrupted if you post this negative adjustment. Do you want to continue?', Comment = 'One or more reservation entries exist for the item with Item No. = 1000, Location Code = BLUE, Variant Code = NEW which may be disrupted if you post this negative adjustment. Do you want to continue?';
 
     local procedure "Code"()
     var

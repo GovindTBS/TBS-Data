@@ -24,7 +24,7 @@ codeunit 48 PostingSetupManagement
         MyNotifications: Record "My Notifications";
         ErrorMessageMgt: Codeunit "Error Message Management";
         ForwardLinkMgt: Codeunit "Forward Link Mgt.";
-        MissingAccountTxt: Label '%1 is missing in %2.', Comment = '%1 = Field caption, %2 = Table caption';
+MissingAccountTxt: Label '%1 is missing in %2.', Comment = '%1 = Field caption, %2 = Table caption';
         SetupMissingAccountTxt: Label 'Set up missing account';
         MissingAccountNotificationTxt: Label 'G/L Account is missing in posting group or setup.';
         MissingAccountNotificationDescriptionTxt: Label 'Show a warning when required G/L Account is missing in posting group or setup.';

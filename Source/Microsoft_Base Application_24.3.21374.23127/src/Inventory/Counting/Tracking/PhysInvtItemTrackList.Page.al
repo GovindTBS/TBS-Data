@@ -171,11 +171,11 @@ page 5893 "Phys. Invt. Item Track. List"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Item Tracking Information', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item Tracking Information', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Serial No. Information Card_Promoted"; "Serial No. Information Card")
                 {

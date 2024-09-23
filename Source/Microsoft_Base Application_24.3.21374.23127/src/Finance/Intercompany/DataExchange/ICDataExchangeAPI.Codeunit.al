@@ -41,17 +41,17 @@ codeunit 561 "IC Data Exchange API" implements "IC Data Exchange"
         JobQueueCategoryCodeCleanUpTok: Label 'ICCLEANUP', Locked = true;
         JobQueueCategoryCodeAutoAcceptTok: Label 'ICAUTOACC', Locked = true;
         SecurityLogDecriptionTok: Label 'Suspicious IC transaction', Locked = true;
-        ICPartnerMissingCurrentCompanyErr: Label 'The current company is not registered as a partner in the list of partners of company %1', Comment = '%1 = Partner company name';
-        PartnerMissingTableSetupErr: Label 'Partner %1 has not completed the information required at table %2 for using intercompany.', Comment = '%1 = Partner code, %2 = Table caption';
-        WrongICPartnerInboxTypeErr: Label 'Partner %1 inbox type is not valid for this interaction. Only partners with database as Inbox Type can be used.', Comment = '%1 = IC Partner Code';
-        WrongICDataExchangeTypeErr: Label 'Partner %1 does not support intercompany communication using APIs. Only partners setup to use API as their data exchange type can use this type of communication.', Comment = '%1 = IC Partner Code';
-        SendNotificationJobQueueTxt: Label 'API - Send notification to intercompany partner %1 for operation %2', Comment = '%1 = Partner Code, %2 = Operation Id';
-        ReadOutgoingNotificationJobQueueTxt: Label 'API - Read outgoing notification from intercompany partner %1 for operation %2', Comment = '%1 = Partner Code, %2 = Operation Id';
-        CleanUpOutgoingNotificationJobQueueTxt: Label 'API - Clean up notification to intercompany partner %1 for operation %2', Comment = '%1 = Partner Code, %2 = Operation Id';
-        AutoAcceptTransactionJobQueueTxt: Label 'API - Automatically accept transaction %1 of partner %2 for document %3', Comment = '%1 = Transaction ID, %2 = Partner Code, %3 = Document No.';
-        ICPartnerNotFoundErr: Label 'IC Partner %1 not found.', Comment = '%1 = IC Partner Code';
-        SentTransactionTelemetryTxt: Label 'Transaction sent to IC Partner %1 from source %2.', Comment = '%1 = Target IC Partner Code, %2 = Source IC Partner Code';
-        SecurityLogResultDescriptionTxt: Label 'Mismatch between transaction source intercompany code %1 and current company intercompany code %2.', Comment = '%1 = Source IC Partner Code, %2 = Current company IC Partner Code';
+ICPartnerMissingCurrentCompanyErr: Label 'The current company is not registered as a partner in the list of partners of company %1', Comment = '%1 = Partner company name';
+PartnerMissingTableSetupErr: Label 'Partner %1 has not completed the information required at table %2 for using intercompany.', Comment = '%1 = Partner code, %2 = Table caption';
+WrongICPartnerInboxTypeErr: Label 'Partner %1 inbox type is not valid for this interaction. Only partners with database as Inbox Type can be used.', Comment = '%1 = IC Partner Code';
+WrongICDataExchangeTypeErr: Label 'Partner %1 does not support intercompany communication using APIs. Only partners setup to use API as their data exchange type can use this type of communication.', Comment = '%1 = IC Partner Code';
+SendNotificationJobQueueTxt: Label 'API - Send notification to intercompany partner %1 for operation %2', Comment = '%1 = Partner Code, %2 = Operation Id';
+ReadOutgoingNotificationJobQueueTxt: Label 'API - Read outgoing notification from intercompany partner %1 for operation %2', Comment = '%1 = Partner Code, %2 = Operation Id';
+CleanUpOutgoingNotificationJobQueueTxt: Label 'API - Clean up notification to intercompany partner %1 for operation %2', Comment = '%1 = Partner Code, %2 = Operation Id';
+AutoAcceptTransactionJobQueueTxt: Label 'API - Automatically accept transaction %1 of partner %2 for document %3', Comment = '%1 = Transaction ID, %2 = Partner Code, %3 = Document No.';
+ICPartnerNotFoundErr: Label 'IC Partner %1 not found.', Comment = '%1 = IC Partner Code';
+SentTransactionTelemetryTxt: Label 'Transaction sent to IC Partner %1 from source %2.', Comment = '%1 = Target IC Partner Code, %2 = Source IC Partner Code';
+SecurityLogResultDescriptionTxt: Label 'Mismatch between transaction source intercompany code %1 and current company intercompany code %2.', Comment = '%1 = Source IC Partner Code, %2 = Current company IC Partner Code';
 
     procedure GetICPartnerICGLAccount(ICPartner: Record "IC Partner"; var TempICPartnerICGLAccount: Record "IC G/L Account" temporary)
     begin

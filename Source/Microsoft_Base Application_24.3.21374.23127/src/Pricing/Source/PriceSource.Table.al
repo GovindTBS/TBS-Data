@@ -147,8 +147,8 @@ table 7005 "Price Source"
     }
 
     var
-        AmountTypeNotAllowedForSourceTypeErr: Label '%1 is not allowed for %2.', Comment = '%1 - Price or Discount, %2 - the source type';
-        StartingDateErr: Label 'Starting Date %1 cannot be after Ending Date %2.', Comment = '%1 and %2 - dates';
+AmountTypeNotAllowedForSourceTypeErr: Label '%1 is not allowed for %2.', Comment = '%1 - Price or Discount, %2 - the source type';
+StartingDateErr: Label 'Starting Date %1 cannot be after Ending Date %2.', Comment = '%1 and %2 - dates';
         CampaignDateErr: Label 'If Source Type is Campaign, then you can only change Starting Date and Ending Date from the Campaign Card.';
 
     protected var

@@ -18,17 +18,17 @@ codeunit 560 "CrossIntercompany Connector"
         StoreTokenInICPartner: Boolean;
         EmptyGuid: Guid;
         CrossIntercompanyTok: Label 'CrossEnvironmentIntercompanyToken', Locked = true;
-        CrossEnvironmentAPIsPathTok: Label 'microsoft/intercompany/%1/companies', Locked = true, Comment = '%1 = version of the API';
+CrossEnvironmentAPIsPathTok: Label 'microsoft/intercompany/%1/companies', Locked = true, Comment = '%1 = version of the API';
         ICOutgoingNotificationTok: Label 'intercompanyOutgoingNotification', Locked = true;
         OutboundActionTok: Label '/Microsoft.NAV.', Locked = true;
         ExpandOperationTok: Label '?$expand=', Locked = true;
         V1VersionTok: Label 'v1.0', Locked = true;
         GeneralAPIsPathTok: Label 'v2.0/companies', Locked = true;
         BCResourceURLScopeTok: Label 'https://api.businesscentral.dynamics.com/.default', Locked = true;
-        ExpandedTok: Label 'bufferIntercompanyInboxTransactions,bufferIntercompanyInboxJournalLines,bufferIntercompanyInboxPurchaseHeaders,bufferIntercompanyInboxPurchaseLines,bufferIntercompanyInboxSalesHeaders,bufferIntercompanyInboxSalesLines,bufferIntercompanyInOutJournalLineDimensions,bufferIntercompanyDocumentDimensions,bufferIntercompanyCommentLines', Locked = true;
+ExpandedTok: Label 'bufferIntercompanyInboxTransactions,bufferIntercompanyInboxJournalLines,bufferIntercompanyInboxPurchaseHeaders,bufferIntercompanyInboxPurchaseLines,bufferIntercompanyInboxSalesHeaders,bufferIntercompanyInboxSalesLines,bufferIntercompanyInOutJournalLineDimensions,bufferIntercompanyDocumentDimensions,bufferIntercompanyCommentLines', Locked = true;
 
         NonSaaSEnvironmentErr: Label 'This functionality is only available in online environments.';
-        HttpErrorMsg: Label 'Error Code: %1, Error Message: %2', Comment = '%1 = Error Code, %2 = Error Message';
+HttpErrorMsg: Label 'Error Code: %1, Error Message: %2', Comment = '%1 = Error Code, %2 = Error Message';
         HTTPSuccessMsg: Label 'The HTTP request was successful and the body contains the resource fetched.'; // 200
         HTTPSuccessAndCreatedMsg: Label 'The HTTP request was successful and a new resource was created.'; //201
         HTTPBadRequestMsg: Label 'The HTTP request was incorrectly formed or invalid.'; // 400
@@ -39,9 +39,9 @@ codeunit 560 "CrossIntercompany Connector"
         HTTPInternalServerErrorMsg: Label 'The HTTP request is not successful. An internal server error occurred.'; // 500
         HTTPServiceUnavailableMsg: Label 'The HTTP request is not successful. The service is unavailable.'; // 503
         HTTPGeneralErrMsg: Label 'Something went wrong, try again later.';
-        SuccessConnectingToPartnerMsg: Label 'Successfully connected, the partner %1 is available to be used with intercompany.', Comment = '%1 = IC Partner Code';
-        PartnerMissingICSetupErr: Label 'Partner %1 has not completed the information required to use intercompany.', Comment = '%1 = IC Partner Code';
-        MissalignmentBetweenNamesErr: Label 'The partner''s company name %1 does not match the name you are introducing for partner %2.', Comment = '%1 = Partner''s Company Name, %2 = IC Partner Name';
+SuccessConnectingToPartnerMsg: Label 'Successfully connected, the partner %1 is available to be used with intercompany.', Comment = '%1 = IC Partner Code';
+PartnerMissingICSetupErr: Label 'Partner %1 has not completed the information required to use intercompany.', Comment = '%1 = IC Partner Code';
+MissalignmentBetweenNamesErr: Label 'The partner''s company name %1 does not match the name you are introducing for partner %2.', Comment = '%1 = Partner''s Company Name, %2 = IC Partner Name';
 
     internal procedure TestICPartnerSetup(var TempICPartner: Record "IC Partner" temporary): Boolean
     var

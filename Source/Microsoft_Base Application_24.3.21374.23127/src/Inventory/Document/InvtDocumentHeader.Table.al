@@ -116,7 +116,7 @@ table 5850 "Invt. Document Header"
         {
             CalcFormula = exist("Inventory Comment Line" where("Document Type" = const("Inventory Receipt"),
                                                                 "No." = field("No.")));
-            Caption = 'Receipt Comment';
+Caption = 'Receipt Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -124,7 +124,7 @@ table 5850 "Invt. Document Header"
         {
             CalcFormula = exist("Inventory Comment Line" where("Document Type" = const("Inventory Shipment"),
                                                                 "No." = field("No.")));
-            Caption = 'Shipment Comment';
+Caption = 'Shipment Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -301,7 +301,7 @@ table 5850 "Invt. Document Header"
         DimMgt: Codeunit DimensionManagement;
         NoSeries: Codeunit "No. Series";
         HideValidationDialog: Boolean;
-        CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 - table caption';
+CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 - table caption';
         ConfirmDimChangeQst: Label 'You may have changed a dimension.\\Do you want to update the lines?';
         DocumentTxt: Label '%1 %2', Locked = true;
 
@@ -553,7 +553,7 @@ table 5850 "Invt. Document Header"
     local procedure CheckChangeCorrectionAllowed()
     var
         ReservationEntry: Record "Reservation Entry";
-        NotAllowedMsg: Label 'Item tracking is defined for some item(s) in the %1 %2.\You must delete the existing item tracking before modifying value of field %3', Comment = '%1 - Document Type, %2 - Document No., %3 - Field caption';
+NotAllowedMsg: Label 'Item tracking is defined for some item(s) in the %1 %2.\You must delete the existing item tracking before modifying value of field %3', Comment = '%1 - Document Type, %2 - Document No., %3 - Field caption';
     begin
         if CurrFieldNo <> Rec.FieldNo(Correction) then
             exit;

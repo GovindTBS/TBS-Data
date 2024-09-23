@@ -15,7 +15,7 @@ codeunit 419 "File Management"
 
     var
         Text001: Label 'Default';
-        FileDoesNotExistErr: Label 'The file %1 does not exist.', Comment = '%1 File Path';
+FileDoesNotExistErr: Label 'The file %1 does not exist.', Comment = '%1 File Path';
         Text006: Label 'Export';
         Text007: Label 'Import';
         PathHelper: DotNet Path;
@@ -25,24 +25,24 @@ codeunit 419 "File Management"
         ServerDirectoryHelper: DotNet Directory;
         Text013: Label 'The file name %1 already exists.';
         AllFilesFilterTxt: Label '*.*', Locked = true;
-        AllFilesDescriptionTxt: Label 'All Files (*.*)|*.*', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        XMLFileType: Label 'XML Files (*.xml)|*.xml', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        WordFileType: Label 'Word Files (*.doc)|*.doc', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        Word2007FileType: Label 'Word Files (*.docx;*.doc)|*.docx;*.doc', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        ExcelFileType: Label 'Excel Files (*.xls)|*.xls', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        Excel2007FileType: Label 'Excel Files (*.xlsx;*.xls)|*.xlsx;*.xls', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        XSDFileType: Label 'XSD Files (*.xsd)|*.xsd', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        HTMFileType: Label 'HTM Files (*.htm)|*.htm', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        XSLTFileType: Label 'XSLT Files (*.xslt)|*.xslt', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        TXTFileType: Label 'Text Files (*.txt)|*.txt', Comment = '{Split=r''\|''}{Locked=s''1''}';
-        RDLFileTypeTok: Label 'SQL Report Builder (*.rdl;*.rdlc)|*.rdl;*.rdlc', Comment = '{Split=r''\|''}{Locked=s''1''}';
+AllFilesDescriptionTxt: Label 'All Files (*.*)|*.*', Comment = '{Split=r''\|''}{Locked=s''1''}';
+XMLFileType: Label 'XML Files (*.xml)|*.xml', Comment = '{Split=r''\|''}{Locked=s''1''}';
+WordFileType: Label 'Word Files (*.doc)|*.doc', Comment = '{Split=r''\|''}{Locked=s''1''}';
+Word2007FileType: Label 'Word Files (*.docx;*.doc)|*.docx;*.doc', Comment = '{Split=r''\|''}{Locked=s''1''}';
+ExcelFileType: Label 'Excel Files (*.xls)|*.xls', Comment = '{Split=r''\|''}{Locked=s''1''}';
+Excel2007FileType: Label 'Excel Files (*.xlsx;*.xls)|*.xlsx;*.xls', Comment = '{Split=r''\|''}{Locked=s''1''}';
+XSDFileType: Label 'XSD Files (*.xsd)|*.xsd', Comment = '{Split=r''\|''}{Locked=s''1''}';
+HTMFileType: Label 'HTM Files (*.htm)|*.htm', Comment = '{Split=r''\|''}{Locked=s''1''}';
+XSLTFileType: Label 'XSLT Files (*.xslt)|*.xslt', Comment = '{Split=r''\|''}{Locked=s''1''}';
+TXTFileType: Label 'Text Files (*.txt)|*.txt', Comment = '{Split=r''\|''}{Locked=s''1''}';
+RDLFileTypeTok: Label 'SQL Report Builder (*.rdl;*.rdlc)|*.rdl;*.rdlc', Comment = '{Split=r''\|''}{Locked=s''1''}';
         UnsupportedFileExtErr: Label 'Unsupported file extension (.%1). The supported file extensions are (%2).';
         SingleFilterErr: Label 'Specify a file filter and an extension filter when using this function.';
         InvalidWindowsChrStringTxt: Label '"#%&*:<>?\/{|}~', Locked = true;
         DownloadImageTxt: Label 'Download image';
-        NotAllowedPathErr: Label 'Files outside of the current user''s folder cannot be accessed. Access is denied to file %1.', Comment = '%1=the full path to a file. ex: C:\Windows\TextFile.txt ';
-        AppendFileNameWithIndexTxt: Label '%1 (%2)', Locked = true, Comment = '%1 - original file name, %2 - append index';
-        AppendFileNameWithExtWithIndexTxt: Label '%1 (%2).%3', Locked = true, Comment = '%1 - original file name, %2 - append index, %3 - extension';
+NotAllowedPathErr: Label 'Files outside of the current user''s folder cannot be accessed. Access is denied to file %1.', Comment = '%1=the full path to a file. ex: C:\Windows\TextFile.txt ';
+AppendFileNameWithIndexTxt: Label '%1 (%2)', Locked = true, Comment = '%1 - original file name, %2 - append index';
+AppendFileNameWithExtWithIndexTxt: Label '%1 (%2).%3', Locked = true, Comment = '%1 - original file name, %2 - append index, %3 - extension';
 
     procedure BLOBImport(var TempBlob: Codeunit "Temp Blob"; Name: Text): Text
     begin

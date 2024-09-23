@@ -125,8 +125,8 @@ table 9062 "User Security Status"
     }
 
     var
-        UserNotReviewedTxt: Label 'User %1: not reviewed.', Comment = '%1 = user name';
-        UserReviewedTxt: Label 'User %1: reviewed.', Comment = '%1: User name';
+UserNotReviewedTxt: Label 'User %1: not reviewed.', Comment = '%1 = user name';
+UserReviewedTxt: Label 'User %1: reviewed.', Comment = '%1: User name';
         SecurityActivityTok: Label 'User review';
         SecurityContextTok: Label 'Security administration';
 

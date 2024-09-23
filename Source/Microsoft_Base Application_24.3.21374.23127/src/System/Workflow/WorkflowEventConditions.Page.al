@@ -195,7 +195,7 @@ page 1526 "Workflow Event Conditions"
         AddChangeValueConditionLbl: Text;
         FieldCaption2: Text[250];
         RemoveChangeValueConditionLabelTxt: Label 'Remove the condition.';
-        FeildNotExistErr: Label 'Field %1 does not exist.', Comment = '%1 = Field Caption';
+FeildNotExistErr: Label 'Field %1 does not exist.', Comment = '%1 = Field Caption';
         EventDescription: Text;
         ShowFilter: Boolean;
 

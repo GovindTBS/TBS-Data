@@ -17,7 +17,7 @@ codeunit 5979 "Service-Post and Send"
 
     var
         ServiceHeader: Record "Service Header";
-        NotSupportedDocumentTypeErr: Label 'Document type %1 is not supported.', Comment = '%1=Document Type e.g. Invoice';
+NotSupportedDocumentTypeErr: Label 'Document type %1 is not supported.', Comment = '%1=Document Type e.g. Invoice';
 
     local procedure "Code"()
     var

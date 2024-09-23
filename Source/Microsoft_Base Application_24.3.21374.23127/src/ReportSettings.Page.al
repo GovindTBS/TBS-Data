@@ -174,11 +174,11 @@ page 1560 "Report Settings"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(NewSettings_Promoted; NewSettings)
                 {
@@ -204,8 +204,8 @@ page 1560 "Report Settings"
     end;
 
     var
-        CopyTxt: Label 'Copy of %1', Comment = '%1 is the Parameter Name field from the Object Options record';
-        LastUsedTxt: Label 'Last used options and filters', Comment = 'Translation must match RequestPageLatestSavedSettingsName from Lang.resx';
+CopyTxt: Label 'Copy of %1', Comment = '%1 is the Parameter Name field from the Object Options record';
+LastUsedTxt: Label 'Last used options and filters', Comment = 'Translation must match RequestPageLatestSavedSettingsName from Lang.resx';
         LastUsed: Boolean;
         ObjectIdValidationErr: Label 'The specified object ID is not valid; the object must exist in the application.';
         ReportName: Text;

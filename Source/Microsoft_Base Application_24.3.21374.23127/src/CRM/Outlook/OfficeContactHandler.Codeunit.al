@@ -21,7 +21,7 @@ codeunit 1636 "Office Contact Handler"
 
     var
         SelectAContactTxt: Label 'Select a contact';
-        MatchingContactDifferentCompanyLbl: Label 'A matching contact was found in company "%1". Would you like to switch company and show the matching contact?', Comment = '%1 = the company name of where the contact was found';
+MatchingContactDifferentCompanyLbl: Label 'A matching contact was found in company "%1". Would you like to switch company and show the matching contact?', Comment = '%1 = the company name of where the contact was found';
         PageOpenTxt: Label 'Open page for the selected contact.', Locked = true;
         TelemetryCategoryTxt: Label 'AL Office Contact Handler', Locked = true;
         NoAccessCompanyTelemetryTxt: Label 'Cannot access company %1 from Outlook add-in.', Locked = true;

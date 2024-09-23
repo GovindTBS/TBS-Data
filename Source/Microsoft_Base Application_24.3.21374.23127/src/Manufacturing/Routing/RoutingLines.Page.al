@@ -171,7 +171,7 @@ page 99000765 "Routing Lines"
                     ApplicationArea = Manufacturing;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Enabled = ShowRelatedDataEnabled;
 
                     trigger OnAction()

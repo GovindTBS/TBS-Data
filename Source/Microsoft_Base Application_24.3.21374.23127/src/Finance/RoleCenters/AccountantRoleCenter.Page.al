@@ -63,7 +63,7 @@ using System.Visualization;
 
 page 9027 "Accountant Role Center"
 {
-    Caption = 'Accountant', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
+Caption = 'Accountant', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
     PageType = RoleCenter;
 
     layout
@@ -876,7 +876,7 @@ page 9027 "Accountant Role Center"
                     Caption = 'Posted Deposits';
                     Image = PostedDeposit;
                     RunObject = Page "Posted Deposit List";
-                    ToolTip = 'View the posted deposit header, deposit header lines, deposit comments, and deposit dimensions.';
+ToolTip = 'View the posted deposit header, deposit header lines, deposit comments, and deposit dimensions.';
                 }
                 action("Posted Bank Deposits")
                 {
@@ -884,7 +884,7 @@ page 9027 "Accountant Role Center"
                     Caption = 'Posted Bank Deposits';
                     Image = PostedDeposit;
                     RunObject = codeunit "Open P. Bank Deposits L. Page";
-                    ToolTip = 'View the posted bank deposit header, bank deposit header lines, bank deposit comments, and bank deposit dimensions.';
+ToolTip = 'View the posted bank deposit header, bank deposit header lines, bank deposit comments, and bank deposit dimensions.';
                 }
                 action("Posted Bank Recs.")
                 {

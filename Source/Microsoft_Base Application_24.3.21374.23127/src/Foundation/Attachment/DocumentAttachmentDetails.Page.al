@@ -110,7 +110,7 @@ page 1173 "Document Attachment Details"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Open in OneDrive';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can manage or share the file.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can manage or share the file.', Comment = 'OneDrive should not be translated';
                 Image = Cloud;
                 Visible = ShareOptionsVisible;
                 Enabled = not IsMultiSelect;
@@ -124,7 +124,7 @@ page 1173 "Document Attachment Details"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Edit in OneDrive';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can edit the file.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can edit the file.', Comment = 'OneDrive should not be translated';
                 Image = Cloud;
                 Visible = (ShareOptionsVisible and ShareEditOptionVisible);
                 Enabled = not IsMultiSelect;
@@ -139,7 +139,7 @@ page 1173 "Document Attachment Details"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Share';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and share the file. You can also see who it''s already shared with.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and share the file. You can also see who it''s already shared with.', Comment = 'OneDrive should not be translated';
                 Image = Share;
                 Visible = ShareOptionsVisible;
                 Enabled = not IsMultiSelect;
@@ -199,7 +199,7 @@ page 1173 "Document Attachment Details"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Preview_Promoted; Preview)
                 {
@@ -266,7 +266,7 @@ page 1173 "Document Attachment Details"
         OfficeMgmt: Codeunit "Office Management";
         OfficeHostMgmt: Codeunit "Office Host Management";
         SalesDocumentFlow, ServiceDocumentFlow : Boolean;
-        FileDialogTxt: Label 'Attachments (%1)|%1', Comment = '%1=file types, such as *.txt or *.docx';
+FileDialogTxt: Label 'Attachments (%1)|%1', Comment = '%1=file types, such as *.txt or *.docx';
         FilterTxt: Label '*.jpg;*.jpeg;*.bmp;*.png;*.gif;*.tiff;*.tif;*.pdf;*.docx;*.doc;*.xlsx;*.xls;*.pptx;*.ppt;*.msg;*.xml;*.*', Locked = true;
         ImportTxt: Label 'Attach a document.';
         SelectFileTxt: Label 'Attach File(s)...';
@@ -281,7 +281,7 @@ page 1173 "Document Attachment Details"
         FlowToPurchTxt: Label 'Flow to Purch. Trx';
         FlowToSalesTxt: Label 'Flow to Sales Trx';
         FlowToServiceTxt: Label 'Flow to Service Trx';
-        MenuOptionsTxt: Label 'Attach from email,Upload file', Comment = 'Comma seperated phrases must be translated seperately.';
+MenuOptionsTxt: Label 'Attach from email,Upload file', Comment = 'Comma seperated phrases must be translated seperately.';
         SelectInstructionTxt: Label 'Choose the files to attach.';
 
     protected var

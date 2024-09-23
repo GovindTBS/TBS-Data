@@ -300,7 +300,7 @@ page 5902 "Service Order Subform"
                     ApplicationArea = Service;
                     Caption = 'Service &Item Worksheet';
                     Image = ServiceItemWorksheet;
-                    ToolTip = 'View or edit information about service items, such as repair status, fault comments and codes, and cost. In this window, you can update information on the items such as repair status and fault and resolution codes. You can also enter new service lines for resource hours, for the use of spare parts and for specific service costs.';
+ToolTip = 'View or edit information about service items, such as repair status, fault comments and codes, and cost. In this window, you can update information on the items such as repair status and fault and resolution codes. You can also enter new service lines for resource hours, for the use of spare parts and for specific service costs.';
 
                     trigger OnAction()
                     begin
@@ -378,7 +378,7 @@ page 5902 "Service Order Subform"
                         ApplicationArea = Service;
                         Caption = 'Internal';
                         Image = Comment;
-                        ToolTip = 'View or reregister internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
+ToolTip = 'View or reregister internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
 
                         trigger OnAction()
                         begin
@@ -390,7 +390,7 @@ page 5902 "Service Order Subform"
                         ApplicationArea = Service;
                         Caption = 'Accessories';
                         Image = ServiceAccessories;
-                        ToolTip = 'View or register comments for the accessories to the service item.';
+ToolTip = 'View or register comments for the accessories to the service item.';
 
                         trigger OnAction()
                         begin

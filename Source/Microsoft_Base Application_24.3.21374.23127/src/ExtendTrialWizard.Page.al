@@ -137,10 +137,10 @@ page 1828 "Extend Trial Wizard"
         SubscribeNowLbl: Label 'Subscribe now';
         LearnMoreLbl: Label 'Learn more';
         ExtendVisible: Boolean;
-        ExtendTrialMessageTxt: Label 'It''s a big decision, so don''t rush. You can use this guide one time to add 30 days to your trial period. You still have %1 days remaining in your current period. The new 30 day period starts the moment you choose Extend Trial.', Comment = '%1=Count of days until trial expires';
+ExtendTrialMessageTxt: Label 'It''s a big decision, so don''t rush. You can use this guide one time to add 30 days to your trial period. You still have %1 days remaining in your current period. The new 30 day period starts the moment you choose Extend Trial.', Comment = '%1=Count of days until trial expires';
         ExtendTrialTxt: Text;
         ExtendTrialConfirmQst: Label 'You''ll have 30 days from right now. Are you sure?';
-        ExtendedTrialSuccessMsg: Label 'Congratulations, your trial period has been extended. The new expiration date is %1.', Comment = '%1=New expiration date';
+ExtendedTrialSuccessMsg: Label 'Congratulations, your trial period has been extended. The new expiration date is %1.', Comment = '%1=New expiration date';
         DocumentationURLTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2039763', Locked = true;
         BuyThroughPartnerURLTxt: Label 'https://go.microsoft.com/fwlink/?linkid=860971', Locked = true;
 

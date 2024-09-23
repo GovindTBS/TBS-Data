@@ -30,12 +30,12 @@ codeunit 352 "Intrastat File Writer"
         CurrFileName: Text;
         PrevFileName: Text;
         StatisticsPeriod: Code[10];
-        DefaultXMLFilenameTxt: Label 'Intrastat-%1.xml', Comment = '%1 - statistics period YYMM';
-        DefaultFilenameTxt: Label 'Intrastat-%1.txt', Comment = '%1 - statistics period YYMM';
-        DefaultIndexedFilenameTxt: Label 'Intrastat-%1-1.txt', Comment = '%1 - statistics period YYMM, 1 - file start index';
-        ShipmentFilenameTxt: Label 'Shipment-%1.txt', Comment = '%1 - statistics period YYMM';
-        ReceiptFilenameTxt: Label 'Receipt-%1.txt', Comment = '%1 - statistics period YYMM';
-        ZipFilenameTxt: Label 'Intrastat-%1.zip', Comment = '%1 - statistics period YYMM';
+DefaultXMLFilenameTxt: Label 'Intrastat-%1.xml', Comment = '%1 - statistics period YYMM';
+DefaultFilenameTxt: Label 'Intrastat-%1.txt', Comment = '%1 - statistics period YYMM';
+DefaultIndexedFilenameTxt: Label 'Intrastat-%1-1.txt', Comment = '%1 - statistics period YYMM, 1 - file start index';
+ShipmentFilenameTxt: Label 'Shipment-%1.txt', Comment = '%1 - statistics period YYMM';
+ReceiptFilenameTxt: Label 'Receipt-%1.txt', Comment = '%1 - statistics period YYMM';
+ZipFilenameTxt: Label 'Intrastat-%1.zip', Comment = '%1 - statistics period YYMM';
 
     procedure Initialize(newZipResultFile: Boolean; newSplitShipmentAndReceiptFiles: Boolean; newFileLineCounterLimit: Integer)
     begin

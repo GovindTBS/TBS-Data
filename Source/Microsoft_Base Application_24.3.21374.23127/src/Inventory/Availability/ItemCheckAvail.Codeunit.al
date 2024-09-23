@@ -47,7 +47,7 @@ codeunit 311 "Item-Check Avail."
         ContextInfo: Dictionary of [Text, Text];
 
         Text000: Label 'The update has been interrupted to respect the warning.';
-        NotificationMsg: Label 'The available inventory for item %1 is lower than the entered quantity at this location.', Comment = '%1=Item No.';
+NotificationMsg: Label 'The available inventory for item %1 is lower than the entered quantity at this location.', Comment = '%1=Item No.';
         DetailsTxt: Label 'Show details';
         ItemAvailabilityNotificationTxt: Label 'Item availability is low.';
         ItemAvailabilityNotificationDescriptionTxt: Label 'Show a warning when someone creates a sales order or sales invoice for an item that is out of stock.';

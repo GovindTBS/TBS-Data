@@ -225,12 +225,12 @@ page 600 "IC Dimensions"
 #if not CLEAN22
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
 #endif      
             group(Category_Category4)
             {
-                Caption = 'Dimensions', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Dimensions', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
 #if not CLEAN22
                 actionref("Map to Dim. with Same Code_Promoted"; "Map to Dim. with Same Code")
@@ -266,7 +266,7 @@ page 600 "IC Dimensions"
             }
             group(Category_Category5)
             {
-                Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Import_Promoted; Import)
                 {
@@ -292,7 +292,7 @@ page 600 "IC Dimensions"
         DefaultNameForExportFileLbl: Label 'ICDimensions.xml';
         RequestUserForFileNameLbl: Label 'Enter the file name.';
         SupportedFileTypesLbl: Label 'XML Files (*.xml)|*.xml|All Files (*.*)|*.*';
-        SynchronizeIntercompanyQst: Label 'Partner %1 has been set for the synchronization of intercompany. Do you want to synchronize instead of switching to another partner?', Comment = '%1 = IC Partner code';
+SynchronizeIntercompanyQst: Label 'Partner %1 has been set for the synchronization of intercompany. Do you want to synchronize instead of switching to another partner?', Comment = '%1 = IC Partner code';
         OnlyAvailableForICUsingDatabaseMsg: Label 'Synchronization is only available for companies using a Database for Intercompany. Select this option in the setup if you want to use this action.';
 
     local procedure ImportFromXML()

@@ -39,16 +39,16 @@ codeunit 7205 "CDS Int. Table. Subscriber"
         CRMSynchHelper: Codeunit "CRM Synch. Helper";
         UserCDSSetupTxt: Label 'Dataverse User Setup';
         CannotResolveUserFromConnectionSetupErr: Label 'The integration user that is specified in the Dataverse connection setup does not exist.';
-        RecordMustBeCoupledErr: Label '%1 %2 must be coupled to a Dataverse row.', Comment = '%1 = table caption, %2 = primary key value';
-        RecordMustBeCoupledExtErr: Label '%1 %2 must be coupled to a %3 row.', Comment = '%1 = BC table caption, %2 = primary key value, %3 - Dataverse table caption';
-        RecordNotFoundErr: Label 'Cannot find %1 in table %2.', Comment = '%1 = The lookup value when searching for the source record, %2 = Source table caption';
-        ContactMustBeRelatedToCustomerOrVendorErr: Label 'The contact %1 must have a contact company that has a business relation to a customer or vendor.', Comment = '%1 = Contact No.';
+RecordMustBeCoupledErr: Label '%1 %2 must be coupled to a Dataverse row.', Comment = '%1 = table caption, %2 = primary key value';
+RecordMustBeCoupledExtErr: Label '%1 %2 must be coupled to a %3 row.', Comment = '%1 = BC table caption, %2 = primary key value, %3 - Dataverse table caption';
+RecordNotFoundErr: Label 'Cannot find %1 in table %2.', Comment = '%1 = The lookup value when searching for the source record, %2 = Source table caption';
+ContactMustBeRelatedToCustomerOrVendorErr: Label 'The contact %1 must have a contact company that has a business relation to a customer or vendor.', Comment = '%1 = Contact No.';
         NewCodePatternTxt: Label 'SP NO. %1', Locked = true;
         SalespersonPurchaserCodeFilterLbl: Label 'SP NO. 0*', Locked = true;
-        CouplingsNeedToBeResetQst: Label 'Dataverse integration is enabled, and records have been coupled for this company. Before you delete this company, you should delete its couplings so that other companies can access the coupled records. You can delete the couplings on the %1 page. Do you want to proceed without deleting the couplings?', Comment = '%1 = page caption of Integration Table Mappings';
+CouplingsNeedToBeResetQst: Label 'Dataverse integration is enabled, and records have been coupled for this company. Before you delete this company, you should delete its couplings so that other companies can access the coupled records. You can delete the couplings on the %1 page. Do you want to proceed without deleting the couplings?', Comment = '%1 = page caption of Integration Table Mappings';
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;
         UpdateContactParentCompanyTxt: Label 'Updating contact parent company.', Locked = true;
-        UpdateContactParentCompanyFailedTxt: Label 'Updating contact parent company failed. Parent Customer ID: %1', Locked = true, Comment = '%1 - parent customer id';
+UpdateContactParentCompanyFailedTxt: Label 'Updating contact parent company failed. Parent Customer ID: %1', Locked = true, Comment = '%1 - parent customer id';
         UpdateContactParentCompanySuccessfulTxt: Label 'Contact parent company has successfully been updated.', Locked = true;
         UpdateContactParentCompanyAlreadySetTxt: Label 'Contact parent company has already been set correctly.', Locked = true;
 

@@ -276,7 +276,7 @@ page 5147 "Make Phone Call"
                 Caption = 'Co&mments';
                 Image = ViewComments;
                 InFooterBar = true;
-                ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                 trigger OnAction()
                 begin

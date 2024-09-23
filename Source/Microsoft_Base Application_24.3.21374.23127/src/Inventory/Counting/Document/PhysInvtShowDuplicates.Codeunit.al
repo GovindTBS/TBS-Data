@@ -12,9 +12,9 @@ codeunit 5886 "Phys. Invt.-Show Duplicates"
     end;
 
     var
-        CheckingLinesMsg: Label 'Checking lines        #2######', Comment = '%2 = counter';
-        NoDuplicateLinesMsg: Label 'There are no duplicate order lines in order %1.', Comment = '%1 = Order No.';
-        DuplicatesFoundQst: Label 'There are %1 duplicate order lines in order %2.\Do you want to show it?', Comment = '%1 = duplicates count, %2 = Order No.';
+CheckingLinesMsg: Label 'Checking lines        #2######', Comment = '%2 = counter';
+NoDuplicateLinesMsg: Label 'There are no duplicate order lines in order %1.', Comment = '%1 = Order No.';
+DuplicatesFoundQst: Label 'There are %1 duplicate order lines in order %2.\Do you want to show it?', Comment = '%1 = duplicates count, %2 = Order No.';
         PhysInvtOrderHeader: Record "Phys. Invt. Order Header";
         PhysInvtOrderLine: Record "Phys. Invt. Order Line";
         PhysInvtOrderLine2: Record "Phys. Invt. Order Line";

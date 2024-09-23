@@ -117,7 +117,7 @@ page 5883 "Posted Phys. Invt. Order"
                     RunPageLink = "Document Type" = const("Posted Order"),
                                   "Order No." = field("No."),
                                   "Recording No." = const(0);
-                    ToolTip = 'Show comments.';
+ToolTip = 'Show comments.';
                 }
                 action("&Recordings")
                 {

@@ -93,7 +93,7 @@ page 1561 "Pick Report"
         ObjectOptions: Record "Object Options";
         ParameterNameIsEmptyErr: Label 'Please enter the name.';
         ReportName: Text;
-        UnknownReportErr: Label 'Unknown report with ID %1', Comment = '%1 Report object ID (number)';
+UnknownReportErr: Label 'Unknown report with ID %1', Comment = '%1 Report object ID (number)';
 
     procedure GetObjectOptions(var ObjectOptionsToReturn: Record "Object Options")
     begin

@@ -73,7 +73,7 @@ table 5628 Insurance
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const(Insurance),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

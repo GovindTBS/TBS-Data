@@ -43,7 +43,7 @@ page 7772 "Copilot Deactivate Capability"
 
     var
         DeactivateOption: Option;
-        DeactivateLbl: Label 'Deactivate %1', Comment = '%1 = the name of the Copilot capability';
+DeactivateLbl: Label 'Deactivate %1', Comment = '%1 = the name of the Copilot capability';
         NoReasonSelecedErr: Label 'Please select a reason for deactivating the capability.';
 
     internal procedure SetCaption(CapabilityName: Text)

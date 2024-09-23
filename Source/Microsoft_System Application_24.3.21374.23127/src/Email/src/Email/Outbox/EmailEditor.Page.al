@@ -424,7 +424,7 @@ page 13 "Email Editor"
         EmailBody, EmailSubject : Text;
         EmailScenario: Enum "Email Scenario";
         IsHTMLFormatted: Boolean;
-        FromDisplayNameLbl: Label '%1 (%2)', Comment = '%1 - Account Name, %2 - Email address', Locked = true;
+FromDisplayNameLbl: Label '%1 (%2)', Comment = '%1 - Account Name, %2 - Email address', Locked = true;
         CloseThePageQst: Label 'The email has not been sent.';
         OptionsOnClosePageNewEmailLbl: Label 'Keep as draft in Email Outbox,Discard email';
         PageCaptionTxt: Label 'Compose an Email';

@@ -83,7 +83,7 @@ page 7400 "Internal Movement List"
                     RunPageLink = "Table Name" = const("Internal Movement"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

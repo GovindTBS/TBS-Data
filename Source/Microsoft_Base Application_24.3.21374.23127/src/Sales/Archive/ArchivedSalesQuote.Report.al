@@ -1020,7 +1020,7 @@ report 215 "Archived Sales Quote"
         VALExchRate: Text[50];
         OutputNo: Integer;
 
-        Text004: Label 'Sales - Quote Archived %1', Comment = '%1 = Document No.';
+Text004: Label 'Sales - Quote Archived %1', Comment = '%1 = Document No.';
         Text005: Label 'Page %1';
         Text008: Label 'VAT Amount Specification in ';
         Text009: Label 'Local Currency';

@@ -37,13 +37,13 @@ codeunit 6501 "Item Tracking Data Collection"
         Text004: Label 'Counting records...';
         AvailabilityWarningsMsg: Label 'The data used for availability calculation has been updated.\There are availability warnings on one or more lines.';
         NoAvailabilityWarningsMsg: Label 'The data used for availability calculation has been updated.\There are no availability warnings.';
-        ListTxt: Label '%1 List', Comment = '%1 - field caption';
-        AvailabilityText: Label '%1 %2 - Availability', Comment = '%1 - tracking field caption, %2 - field value';
+ListTxt: Label '%1 List', Comment = '%1 - field caption';
+AvailabilityText: Label '%1 %2 - Availability', Comment = '%1 - tracking field caption, %2 - field value';
         Text011: Label 'Item Tracking - Select Entries';
         PartialGlobalDataSetExists: Boolean;
         Text013: Label 'Neutralize consumption/output';
-        LotNoBySNNotFoundErr: Label 'A lot number could not be found for serial number %1.', Comment = '%1 - serial number.';
-        PackageNoBySNNotFoundErr: Label 'A package number could not be found for serial number %1.', Comment = '%1 - serial number.';
+LotNoBySNNotFoundErr: Label 'A lot number could not be found for serial number %1.', Comment = '%1 - serial number.';
+PackageNoBySNNotFoundErr: Label 'A package number could not be found for serial number %1.', Comment = '%1 - serial number.';
 
     local procedure InitItemTrackingSummaryForm(var ItemTrackingSummaryForm: Page "Item Tracking Summary"; var TempTrackingSpecification: Record "Tracking Specification" temporary; SearchForSupply: Boolean; CurrentSignFactor: Integer; LookupMode: Enum "Item Tracking Type"; MaxQuantity: Decimal)
     var

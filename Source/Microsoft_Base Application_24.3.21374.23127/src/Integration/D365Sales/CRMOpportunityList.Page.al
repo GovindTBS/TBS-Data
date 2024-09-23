@@ -178,7 +178,7 @@ page 5343 "CRM Opportunity List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CreateFromCRM_Promoted; CreateFromCRM)
                 {
@@ -200,12 +200,12 @@ page 5343 "CRM Opportunity List"
             }
             group(Category_Category4)
             {
-                Caption = 'Dynamics 365 Sales', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Dynamics 365 Sales', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

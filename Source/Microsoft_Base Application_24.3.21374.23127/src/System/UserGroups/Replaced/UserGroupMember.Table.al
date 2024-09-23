@@ -116,10 +116,10 @@ table 9001 "User Group Member"
     end;
 
     var
-        ConfirmPersonalizationChangeQst: Label 'Do you want to change the user''s current personalization profile to the default profile used by user group %1?', Comment = '%1 = User Group Code';
+ConfirmPersonalizationChangeQst: Label 'Do you want to change the user''s current personalization profile to the default profile used by user group %1?', Comment = '%1 = User Group Code';
         ConfirmPersonalizationChangeDefaultQst: Label 'Do you want to change the user''s current personalization profile to the default value?';
-        UserProfileChangeMsg: Label 'The user''s personalization profile was changed to %1.', Comment = '%1 = Profile ID';
-        UserProfileChangeFailedMsg: Label 'User group %1 has no default profile defined.', Comment = '%1 = User Group Code';
+UserProfileChangeMsg: Label 'The user''s personalization profile was changed to %1.', Comment = '%1 = Profile ID';
+UserProfileChangeFailedMsg: Label 'User group %1 has no default profile defined.', Comment = '%1 = User Group Code';
 
     procedure AddUsers(SelectedCompany: Text[30])
     var

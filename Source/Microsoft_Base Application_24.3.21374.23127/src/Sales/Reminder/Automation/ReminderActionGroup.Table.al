@@ -288,13 +288,13 @@ table 6751 "Reminder Action Group"
         OnHoldTxt: Label 'On Hold';
         ErrorTok: Label 'Error';
         JobQueueIsRunningErr: Label 'Job queue entry is running';
-        ScheduledTxt: Label 'Scheduled %1', Comment = '%1 - is a text that can be (single run) or (weekly, monthly, custom)';
+ScheduledTxt: Label 'Scheduled %1', Comment = '%1 - is a text that can be (single run) or (weekly, monthly, custom)';
         SingleRunTxt: Label 'single run';
         RunningTok: Label 'Running';
         BlockedManuallyTxt: Label 'Blocked manually';
-        JobQueueCategoryCodeTxt: Label 'REMINDERS', Comment = 'Job Queue Category Code for Reminder Automation, abreviated to 10 characters', MaxLength = 10;
-        JobQueueEntryDescTxt: Label 'Reminder Automation - %1.', Comment = '%1 - Code of the Reminder Action Group';
-        ReminderActionStatusLbl: Label 'Status: %1. Completed on: %2', Comment = '%1 - Status, succeded, failed etc... %2 - When it was completed';
+JobQueueCategoryCodeTxt: Label 'REMINDERS', Comment = 'Job Queue Category Code for Reminder Automation, abreviated to 10 characters', MaxLength = 10;
+JobQueueEntryDescTxt: Label 'Reminder Automation - %1.', Comment = '%1 - Code of the Reminder Action Group';
+ReminderActionStatusLbl: Label 'Status: %1. Completed on: %2', Comment = '%1 - Status, succeded, failed etc... %2 - When it was completed';
         NoReminderActionsAreDefinedErr: Label 'No actions are defined for this reminder action group.';
         NoReminderTermsAreDefinedErr: Label 'No reminder terms are selected for this reminder action group. Please select reminder terms under Reminder Terms Filter.';
 }

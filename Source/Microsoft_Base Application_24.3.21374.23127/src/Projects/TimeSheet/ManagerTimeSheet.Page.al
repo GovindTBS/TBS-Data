@@ -321,22 +321,22 @@ page 952 "Manager Time Sheet"
                 action(TimeSheetComment2)
                 {
                     ApplicationArea = Comments;
-                    Caption = '&Time Sheet Comments';
+Caption = '&Time Sheet Comments';
                     Image = ViewComments;
                     RunObject = Page "Time Sheet Comment Sheet";
                     RunPageLink = "No." = field("Time Sheet No."),
                                   "Time Sheet Line No." = const(0);
-                    ToolTip = 'View comments about the time sheet.';
+ToolTip = 'View comments about the time sheet.';
                 }
                 action(LineComments)
                 {
                     ApplicationArea = Comments;
-                    Caption = '&Line Comments';
+Caption = '&Line Comments';
                     Image = ViewComments;
                     RunObject = Page "Time Sheet Comment Sheet";
                     RunPageLink = "No." = field("Time Sheet No."),
                                   "Time Sheet Line No." = field("Line No.");
-                    ToolTip = 'View or create comments.';
+ToolTip = 'View or create comments.';
                 }
             }
         }
@@ -389,7 +389,7 @@ page 952 "Manager Time Sheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -409,7 +409,7 @@ page 952 "Manager Time Sheet"
             }
             group(Category_Category5)
             {
-                Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(TimeSheetComment2_Promoted; TimeSheetComment2)
                 {
@@ -420,7 +420,7 @@ page 952 "Manager Time Sheet"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("Activity &Details_Promoted"; "Activity &Details")
                 {
@@ -431,11 +431,11 @@ page 952 "Manager Time Sheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

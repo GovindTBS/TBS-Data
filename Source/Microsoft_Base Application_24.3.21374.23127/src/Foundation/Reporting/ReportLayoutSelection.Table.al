@@ -116,10 +116,10 @@ table 9651 "Report Layout Selection"
     end;
 
     var
-        NoRdlcLayoutErr: Label 'Report ''%1'' has no RDLC layout.', Comment = '%1=a report name';
-        NoWordLayoutErr: Label 'Report ''%1'' has no Word layout.', Comment = '%1=a report name';
-        NoExcelLayoutErr: Label 'Report ''%1'' has no Excel layout.', Comment = '%1=a report name';
-        NoExternalLayoutErr: Label 'Report ''%1'' has no External layout.', Comment = '%1=a report name';
+NoRdlcLayoutErr: Label 'Report ''%1'' has no RDLC layout.', Comment = '%1=a report name';
+NoWordLayoutErr: Label 'Report ''%1'' has no Word layout.', Comment = '%1=a report name';
+NoExcelLayoutErr: Label 'Report ''%1'' has no Excel layout.', Comment = '%1=a report name';
+NoExternalLayoutErr: Label 'Report ''%1'' has no External layout.', Comment = '%1=a report name';
 
     procedure GetDefaultType(ReportID: Integer): Integer
     var

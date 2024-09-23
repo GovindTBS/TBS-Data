@@ -28,8 +28,8 @@ codeunit 905 "Assembly Line Management"
         Text005: Label 'Due Date %1 is before work date %2 in one or more of the assembly lines.';
         Text006: Label 'Item %1 is not a BOM.';
         Text007: Label 'There is not enough space to explode the BOM.';
-        AssembleAvailabilityNotificationMsg: Label 'The inventory is not sufficient to cover request to assemble requested quantity of Item %1.', Comment = '%1=Item No.';
-        AssembleAvailabilityCheckMsg: Label 'Assembly availability check for requested quantity of Item %1.', Comment = '%1=Item No.';
+AssembleAvailabilityNotificationMsg: Label 'The inventory is not sufficient to cover request to assemble requested quantity of Item %1.', Comment = '%1=Item No.';
+AssembleAvailabilityCheckMsg: Label 'Assembly availability check for requested quantity of Item %1.', Comment = '%1=Item No.';
 
     local procedure LinesExist(AsmHeader: Record "Assembly Header"): Boolean
     var

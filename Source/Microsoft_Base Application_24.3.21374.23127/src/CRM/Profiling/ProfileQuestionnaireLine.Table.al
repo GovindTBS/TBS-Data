@@ -398,9 +398,9 @@ table 5088 "Profile Questionnaire Line"
         Text008: Label 'Please enter which range of points this answer should require.';
         Text009: Label 'High';
         Text010: Label 'Low';
-        Text011: Label 'A', Comment = 'Selecting answer A';
-        Text012: Label 'B', Comment = 'Selecting answer B';
-        Text013: Label 'C', Comment = 'Selecting answer C';
+Text011: Label 'A', Comment = 'Selecting answer A';
+Text012: Label 'B', Comment = 'Selecting answer B';
+Text013: Label 'C', Comment = 'Selecting answer C';
 
     procedure MoveUp()
     var

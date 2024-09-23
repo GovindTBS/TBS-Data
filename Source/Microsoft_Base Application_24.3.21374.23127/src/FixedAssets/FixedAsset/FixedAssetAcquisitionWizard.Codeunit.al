@@ -17,7 +17,7 @@ codeunit 5550 "Fixed Asset Acquisition Wizard"
     end;
 
     var
-        GenJournalBatchNameTxt: Label 'AUTOMATIC', Comment = 'Translate normally and keep the upper case';
+GenJournalBatchNameTxt: Label 'AUTOMATIC', Comment = 'Translate normally and keep the upper case';
         SimpleJnlDescriptionTxt: Label 'Fixed Asset Acquisition';
 
     procedure RunAcquisitionWizard(FixedAssetNo: Code[20])

@@ -674,7 +674,7 @@ table 7022 "Price Worksheet Line"
         FieldLookedUp: Boolean;
         FieldNotAllowedForAmountTypeErr: Label 'Field %1 is not allowed in the price list line where %2 is %3.',
             Comment = '%1 - the field caption; %2 - Amount Type field caption; %3 - amount type value: Discount or Price';
-        LineSourceTypeErr: Label 'cannot be set to %1 if the header''s source type is %2.', Comment = '%1 and %2 - the source type value.';
+LineSourceTypeErr: Label 'cannot be set to %1 if the header''s source type is %2.', Comment = '%1 and %2 - the source type value.';
 
     procedure IsAssetItem(): Boolean;
     begin

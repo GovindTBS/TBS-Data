@@ -737,7 +737,7 @@ page 1 "Company Information"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Report Layouts_Promoted"; "Report Layouts")
                 {
@@ -745,7 +745,7 @@ page 1 "Company Information"
             }
             group(Category_Category4)
             {
-                Caption = 'Application Settings', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Application Settings', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("General Ledger Setup_Promoted"; "General Ledger Setup")
                 {
@@ -756,7 +756,7 @@ page 1 "Company Information"
             }
             group(Category_Category5)
             {
-                Caption = 'System Settings', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'System Settings', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Users_Promoted; Users)
                 {
@@ -764,7 +764,7 @@ page 1 "Company Information"
             }
             group(Category_Category6)
             {
-                Caption = 'Currencies', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Currencies', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Action27_Promoted; Action27)
                 {
@@ -772,7 +772,7 @@ page 1 "Company Information"
             }
             group(Category_Category7)
             {
-                Caption = 'Codes', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Codes', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Languages_Promoted; Languages)
                 {
@@ -780,7 +780,7 @@ page 1 "Company Information"
             }
             group(Category_Category8)
             {
-                Caption = 'Regional Settings', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Regional Settings', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("Post Codes_Promoted"; "Post Codes")
                 {

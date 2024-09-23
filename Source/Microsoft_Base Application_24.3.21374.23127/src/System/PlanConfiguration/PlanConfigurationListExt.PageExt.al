@@ -19,7 +19,7 @@ pageextension 9207 "Plan Configuration List Ext." extends "Plan Configuration Li
             {
                 ApplicationArea = All;
                 Caption = 'Users';
-                ToolTip = 'Manage permissions for users that are already tracked in Business Central, and update user information from Microsoft 365.', Comment = 'Do not translate ''Business Central'' and ''Microsoft 365''';
+ToolTip = 'Manage permissions for users that are already tracked in Business Central, and update user information from Microsoft 365.', Comment = 'Do not translate ''Business Central'' and ''Microsoft 365''';
                 Image = Users;
                 RunObject = Page "Users";
             }

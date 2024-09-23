@@ -7,7 +7,7 @@ namespace Microsoft.Projects.TimeSheet;
 page 955 "Time Sheet Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     DataCaptionFields = "No.";
     DelayedInsert = true;
     LinksAllowed = false;
@@ -25,17 +25,17 @@ page 955 "Time Sheet Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the date when you created a comment.';
+ToolTip = 'Specifies the date when you created a comment.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment that relates to a time sheet or time sheet line.';
+ToolTip = 'Specifies the comment that relates to a time sheet or time sheet line.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a code for a comment.';
+ToolTip = 'Specifies a code for a comment.';
                     Visible = false;
                 }
             }

@@ -2030,7 +2030,7 @@ report 402 "Purchase Document - Test"
         Text004: Label 'Total %1';
         Text005: Label 'Total %1 Incl. VAT';
         Text006: Label '%1 must be specified.';
-        MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 = field caption, %2 = value, %3 = table caption, %4 = No.)';
+MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 = field caption, %2 = value, %3 = table caption, %4 = No.)';
         Text008: Label '%1 %2 does not exist.';
         Text009: Label '%1 must not be a closing date.';
         Text010: Label '%1 is not within your allowed range of posting dates.';
@@ -2227,7 +2227,7 @@ report 402 "Purchase Document - Test"
         ItemVariant: Record "Item Variant";
         Resource: Record Resource;
         ErrorText: Text[250];
-        ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
     begin
         case PurchaseLine.Type of
             PurchaseLine.Type::"G/L Account":

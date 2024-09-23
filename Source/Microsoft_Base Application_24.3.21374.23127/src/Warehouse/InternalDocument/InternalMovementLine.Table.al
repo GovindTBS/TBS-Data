@@ -300,7 +300,7 @@ table 7347 "Internal Movement Line"
         Text001: Label 'must not be greater than %1 units';
         Text002: Label 'You cannot rename a %1.';
         LastLineNo: Integer;
-        ItemTrackingErr: Label 'Item tracking numbers defined for item %1 in the %2 are higher than the item quantity.\\Adjust the item tracking numbers and then increase the item quantity, if relevant.', Comment = 'Item tracking numbers should not be higher than the item quantity.';
+ItemTrackingErr: Label 'Item tracking numbers defined for item %1 in the %2 are higher than the item quantity.\\Adjust the item tracking numbers and then increase the item quantity, if relevant.', Comment = 'Item tracking numbers should not be higher than the item quantity.';
 
     procedure SetUpNewLine(LastInternalMovementLine: Record "Internal Movement Line")
     var

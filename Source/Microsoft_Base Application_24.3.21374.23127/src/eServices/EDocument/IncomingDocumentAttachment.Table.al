@@ -233,7 +233,7 @@ table 133 "Incoming Document Attachment"
         DeleteQst: Label 'Do you want to delete the attachment?';
         DefaultAttachErr: Label 'There can only be one default attachment.';
         MainAttachErr: Label 'There can only be one main attachment.';
-        MustBePdfOrPictureErr: Label 'Only files of type %1 and %2 can be used for OCR.', Comment = '%1 and %2 are file types: PDF and Picture';
+MustBePdfOrPictureErr: Label 'Only files of type %1 and %2 can be used for OCR.', Comment = '%1 and %2 are file types: PDF and Picture';
         NotifIncDocCompletedMsg: Label 'The action to create an incoming document from file has completed.';
 
     procedure NewAttachment()

@@ -264,7 +264,7 @@ page 8624 "Config. Package Fields"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Move Up_Promoted"; "Move Up")
                 {

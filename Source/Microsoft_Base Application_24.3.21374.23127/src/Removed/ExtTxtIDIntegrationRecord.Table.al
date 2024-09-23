@@ -46,9 +46,9 @@ table 5377 "Ext Txt ID Integration Record"
     }
 
     var
-        IntegrationRecordNotFoundErr: Label 'The integration record for entity %1 was not found.', Comment = '%1 = Record id';
-        RecordIdAlreadyMappedErr: Label 'Cannot couple %1 to this external record, because the record is already coupled to key: %2 in external table.', Comment = '%1 ID of the record, %2 ID of the already mapped record';
-        CoupledRecordNotFoundErr: Label 'The coupling record for the key ''%1'' and table %2 was not found.', Comment = '%1 = the key of the external record, %2 is the NAV table that this key is linked with.';
+IntegrationRecordNotFoundErr: Label 'The integration record for entity %1 was not found.', Comment = '%1 = Record id';
+RecordIdAlreadyMappedErr: Label 'Cannot couple %1 to this external record, because the record is already coupled to key: %2 in external table.', Comment = '%1 ID of the record, %2 ID of the already mapped record';
+CoupledRecordNotFoundErr: Label 'The coupling record for the key ''%1'' and table %2 was not found.', Comment = '%1 = the key of the external record, %2 is the NAV table that this key is linked with.';
 
     procedure FindRecordIDFromID(SourceExternalID: Text[250]; DestinationTableID: Integer; var DestinationRecordId: RecordID): Boolean
     var

@@ -165,7 +165,7 @@ table 474 "Job Queue Log Entry"
     var
         NoErrorMessageTxt: Label 'There is no error message.';
         ConfirmDeletingEntriesQst: Label 'Are you sure that you want to delete job queue log entries?';
-        ErrorMessageMarkedByTxt: Label 'Marked as an error by %1.', Comment = '%1 = User id';
+ErrorMessageMarkedByTxt: Label 'Marked as an error by %1.', Comment = '%1 = User id';
         OnlyEntriesInProgressCanBeMarkedErr: Label 'Only entries with the status In Progress can be marked as errors.';
         DeletingMsg: Label 'Deleting Entries...';
         DeletedMsg: Label 'Entries have been deleted.';

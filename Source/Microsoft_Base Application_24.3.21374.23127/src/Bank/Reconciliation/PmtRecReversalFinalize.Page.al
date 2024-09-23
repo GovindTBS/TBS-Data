@@ -60,8 +60,8 @@ page 531 "Pmt. Rec. Reversal Finalize"
         BankAccountNo: Code[20];
         StatementNo: Code[20];
         ActionSelected: Option Nothing,Back,Finalize;
-        FinalizeMsg: Label 'After finalizing, the bank statement will be undone, %1 entries will be unapplied and %2 entries will be reversed. You can only unapply and revert the entries manually after this.', Comment = '%1 - Number of entries to unapply, %2 - Number of entries to reverse';
-        FinalizeNoStatementMsg: Label 'After finalizing, %1 entries will be unapplied and %2 entries will be reversed. You can only unapply and revert the entries manually after this.', Comment = '%1 - Number of entries to unapply, %2 - Number of entries to reverse';
+FinalizeMsg: Label 'After finalizing, the bank statement will be undone, %1 entries will be unapplied and %2 entries will be reversed. You can only unapply and revert the entries manually after this.', Comment = '%1 - Number of entries to unapply, %2 - Number of entries to reverse';
+FinalizeNoStatementMsg: Label 'After finalizing, %1 entries will be unapplied and %2 entries will be reversed. You can only unapply and revert the entries manually after this.', Comment = '%1 - Number of entries to unapply, %2 - Number of entries to reverse';
         FinalizeTxt: Text;
         ShowingNoStatementMsg: Boolean;
 

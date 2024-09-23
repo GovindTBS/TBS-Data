@@ -220,7 +220,7 @@ table 5600 "Fixed Asset"
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const("Fixed Asset"),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

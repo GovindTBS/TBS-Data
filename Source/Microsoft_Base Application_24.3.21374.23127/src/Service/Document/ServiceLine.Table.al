@@ -2923,7 +2923,7 @@ table 5902 "Service Line"
         Text016: Label 'You cannot ship more than %1 units.';
         Text017: Label 'You cannot ship more than %1 base units.';
         Text018: Label '%1 %2 is greater than %3 and was adjusted to %4.';
-        CompAlreadyReplacedErr: Label 'The component that you selected has already been replaced in service line %1.', Comment = '%1 = Line No.';
+CompAlreadyReplacedErr: Label 'The component that you selected has already been replaced in service line %1.', Comment = '%1 = Line No.';
         SalesSetup: Record "Sales & Receivables Setup";
         ServMgtSetup: Record "Service Mgt. Setup";
         ServiceLine: Record "Service Line";
@@ -2976,18 +2976,18 @@ table 5902 "Service Line"
         Text046: Label 'You cannot change the %1 when the %2 has been filled in.';
         Text047: Label '%1 can only be set when %2 is set.';
         Text048: Label '%1 cannot be changed when %2 is set.';
-        Text049: Label '%1 is required for %2 = %3.', Comment = 'Example: Inventory put-away is required for Line 50000.';
-        WhseRequirementMsg: Label '%1 is required for this line. The entered information may be disregarded by warehouse activities.', Comment = '%1=Document';
+Text049: Label '%1 is required for %2 = %3.', Comment = 'Example: Inventory put-away is required for Line 50000.';
+WhseRequirementMsg: Label '%1 is required for this line. The entered information may be disregarded by warehouse activities.', Comment = '%1=Document';
         StatusCheckSuspended: Boolean;
         Text051: Label 'You cannot add an item line.';
         Text1020003: Label 'The %1 field in the %2 used on the %3 must match the %1 field in the %2 used on the %4.';
         Text052: Label 'You cannot change the %1 field because one or more service entries exist for this line.';
         Text053: Label 'You cannot modify the service line because one or more service entries exist for this line.';
         IsCustCrLimitChecked: Boolean;
-        LocationChangedMsg: Label 'Item %1 with serial number %2 is stored on location %3. The Location Code field on the service line will be updated.', Comment = '%1 = Item No., %2 = Item serial No., %3 = Location code';
+LocationChangedMsg: Label 'Item %1 with serial number %2 is stored on location %3. The Location Code field on the service line will be updated.', Comment = '%1 = Item No., %2 = Item serial No., %3 = Location code';
         LineDiscountPctErr: Label 'The value in the Line Discount % field must be between 0 and 100.';
-        BlockedItemNotificationMsg: Label 'Item %1 is blocked, but it is allowed on this type of document.', Comment = '%1 is Item No.';
-        BlockedItemVariantNotificationMsg: Label 'Item Variant %1 for Item %2 is blocked, but it is allowed on this type of document.', Comment = '%1 - Item Variant Code, %2 - Item No.';
+BlockedItemNotificationMsg: Label 'Item %1 is blocked, but it is allowed on this type of document.', Comment = '%1 is Item No.';
+BlockedItemVariantNotificationMsg: Label 'Item Variant %1 for Item %2 is blocked, but it is allowed on this type of document.', Comment = '%1 - Item Variant Code, %2 - Item No.';
 
     protected var
         TempTrackingSpecification: Record "Tracking Specification" temporary;

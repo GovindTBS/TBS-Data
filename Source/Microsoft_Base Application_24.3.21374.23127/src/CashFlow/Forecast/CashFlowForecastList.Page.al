@@ -74,7 +74,7 @@ page 849 "Cash Flow Forecast List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the comment for the record.';
+ToolTip = 'Specifies the comment for the record.';
                     Visible = false;
                 }
                 field("No. Series"; Rec."No. Series")
@@ -168,7 +168,7 @@ page 849 "Cash Flow Forecast List"
                     RunObject = Page "Cash Flow Comment";
                     RunPageLink = "Table Name" = const("Cash Flow Forecast"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 separator(Action1023)
                 {

@@ -983,7 +983,7 @@ page 5900 "Service Order"
                                   "Table Subtype" = field("Document Type"),
                                   "No." = field("No."),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(DocAttach)
                 {
@@ -1331,7 +1331,7 @@ page 5900 "Service Order"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category7)
                 {
@@ -1353,7 +1353,7 @@ page 5900 "Service Order"
                 }
                 group(Category_Category6)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref("Release to Ship_Promoted"; "Release to Ship")
@@ -1380,17 +1380,17 @@ page 5900 "Service Order"
             }
             group(Category_Category5)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Category4)
             {
-                Caption = 'Warehouse', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Warehouse', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Category8)
             {
-                Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("&Dimensions_Promoted"; "&Dimensions")
                 {
@@ -1422,11 +1422,11 @@ page 5900 "Service Order"
             }
             group(Category_Category9)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1502,7 +1502,7 @@ page 5900 "Service Order"
         FormatAddress: Codeunit "Format Address";
         ChangeExchangeRate: Page "Change Exchange Rate";
         DocumentIsPosted: Boolean;
-        OpenPostedServiceOrderQst: Label 'The order is posted as number %1 and moved to the Posted Service Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
+OpenPostedServiceOrderQst: Label 'The order is posted as number %1 and moved to the Posted Service Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
         IsBillToCountyVisible: Boolean;
         IsSellToCountyVisible: Boolean;
         IsShipToCountyVisible: Boolean;

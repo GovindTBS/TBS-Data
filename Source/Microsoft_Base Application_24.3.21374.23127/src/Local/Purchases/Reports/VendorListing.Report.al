@@ -251,7 +251,7 @@ report 10106 "Vendor - Listing"
         PaymentTerms__Due_Date_Calculation_CaptionLbl: Label 'Terms';
         Vendor__Currency_Code_CaptionLbl: Label 'Currency Code';
         VendBalanceCaptionLbl: Label 'Balance';
-        Vendor_CommentCaptionLbl: Label 'Vendor Comment';
+Vendor_CommentCaptionLbl: Label 'Vendor Comment';
         Vendor_ContactCaptionLbl: Label 'Contact and Phone No.';
         Vendor__Invoice_Disc__Code_CaptionLbl: Label 'Discount Grp';
         Vendor__Fin__Charge_Terms_Code_CaptionLbl: Label 'Fin Chrg';

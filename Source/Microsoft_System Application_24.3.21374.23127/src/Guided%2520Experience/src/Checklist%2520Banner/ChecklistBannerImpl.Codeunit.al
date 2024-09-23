@@ -35,7 +35,7 @@ codeunit 1996 "Checklist Banner Impl."
         Telemetry: Codeunit Telemetry;
         CompletedStepLbl: Label 'This step is completed';
         SkippedStepLbl: Label 'You skipped this step';
-        BannerTitleLbl: Label 'Get started', MaxLength = 50, Comment = '*Onboarding Checklist*';
+BannerTitleLbl: Label 'Get started', MaxLength = 50, Comment = '*Onboarding Checklist*';
 CollapsedBannerTitleLbl: Label 'Get started:', MaxLength = 50, Comment = '*Onboarding Checklist*';
 BannerHeaderWelcomeLbl: Label 'Hi, ready to set up your business?', MaxLength = 50, Comment = '*Onboarding Checklist* %1 = The user''s name';
 BannerHeaderWelcomeEvaluationLbl: Label 'Hi, meet Business Central!', MaxLength = 50, Comment = '*Onboarding Checklist* %1 = The user''s name';
@@ -50,7 +50,7 @@ CollapsedBannerHeaderWelcomeEvaluationLbl: Label 'Here are a few things you can 
 CollapsedBannerHeader0To50CompletedLbl: Label 'Complete a few steps to get ready for business', MaxLength = 60, Comment = '*Onboarding Checklist*';
 CollapsedBannerHeader50To75CompletedLbl: Label 'Continue the steps to get ready for business', MaxLength = 60, Comment = '*Onboarding Checklist*';
 CollapsedBannerHeader75To100CompletedLbl: Label 'Complete the last steps to get ready for business', MaxLength = 60, Comment = '*Onboarding Checklist*';
-        BannerDescriptionWelcomeLbl: Label 'We''ve prepared a few activities to get you and your team quickly started.', MaxLength = 125, Comment = '*Onboarding Checklist*';
+BannerDescriptionWelcomeLbl: Label 'We''ve prepared a few activities to get you and your team quickly started.', MaxLength = 125, Comment = '*Onboarding Checklist*';
 BannerDescriptionWelcomeEvaluationLbl: Label 'You''re all set to try out our demo company, Cronus. Go explore on your own, or take a quick tour first.', MaxLength = 125, Comment = '*Onboarding Checklist*';
 BannerDescriptionInProgressEvaluationLbl: Label 'The Cronus company data you are using is for demonstration, evaluation, and training purposes.', MaxLength = 125, Comment = '*Onboarding Checklist*';
 BannerDescriptionCompletedLbl: Label 'Start exploring Business Central now. You can revisit the checklist later and enable additional features as you need them.', MaxLength = 125, Comment = '*Onboarding Checklist*';

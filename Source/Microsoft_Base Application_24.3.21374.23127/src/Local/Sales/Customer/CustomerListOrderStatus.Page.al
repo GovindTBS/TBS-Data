@@ -288,7 +288,7 @@ page 36631 "Customer List - Order Status"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Customer),
                                   "No." = field("No.");
-                    ToolTip = 'View comments that apply.';
+ToolTip = 'View comments that apply.';
                 }
                 action("Bank Accounts")
                 {

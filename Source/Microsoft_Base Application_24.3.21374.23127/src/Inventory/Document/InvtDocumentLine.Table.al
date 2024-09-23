@@ -753,11 +753,11 @@ table 5851 "Invt. Document Line"
         UnitCost: Decimal;
         StatusCheckSuspended: Boolean;
         SkipRecalculateDimensions: Boolean;
-        CannotBeNegativeErr: label '%1 cannot be negative.', Comment = '%1 - field caption';
-        CannotBeRenamedErr: Label '%1 cannot be renamed.', Comment = '%1 - table caption';
-        CannotChangeCostErr: Label 'You cannot change %1 when Costing Method is %2.', Comment = '%1 - field caption, %2 - costing method value';
-        UseItemTrackingLinesErr: Label 'You must use page Item Tracking Lines to enter %1, if item tracking is used.', Comment = '%1 - field caption';
-        CannotReserveAutomaticallyErr: Label 'Quantity %1 in line %2 cannot be reserved automatically.', Comment = '%1 - quantity, %2 - line number';
+CannotBeNegativeErr: label '%1 cannot be negative.', Comment = '%1 - field caption';
+CannotBeRenamedErr: Label '%1 cannot be renamed.', Comment = '%1 - table caption';
+CannotChangeCostErr: Label 'You cannot change %1 when Costing Method is %2.', Comment = '%1 - field caption, %2 - costing method value';
+UseItemTrackingLinesErr: Label 'You must use page Item Tracking Lines to enter %1, if item tracking is used.', Comment = '%1 - field caption';
+CannotReserveAutomaticallyErr: Label 'Quantity %1 in line %2 cannot be reserved automatically.', Comment = '%1 - quantity, %2 - line number';
         DocumentLineTxt: Label '%1 %2 %3', Locked = true;
 
     procedure SuppressRecalculateDimensions(RecalculateDimensions: Boolean)

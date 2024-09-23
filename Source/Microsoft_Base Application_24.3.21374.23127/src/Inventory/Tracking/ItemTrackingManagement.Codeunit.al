@@ -60,13 +60,13 @@ codeunit 6500 "Item Tracking Management"
         Text006: Label 'Synchronization cancelled.';
         Registering: Boolean;
         Text007: Label 'There are multiple expiration dates registered for lot %1.';
-        TrackingNoInfoAlreadyExistsErr: Label '%1 already exists for %2 %3. Do you want to overwrite the existing information?', Comment = '%1 - tracking info table caption, %2 - tracking field caption, %3 - tracking field value';
+TrackingNoInfoAlreadyExistsErr: Label '%1 already exists for %2 %3. Do you want to overwrite the existing information?', Comment = '%1 - tracking info table caption, %2 - tracking field caption, %3 - tracking field value';
         IsConsume: Boolean;
         Text011: Label '%1 must not be %2.';
         Text012: Label 'Only one expiration date is allowed per lot number.\%1 currently has two different expiration dates: %2 and %3.';
         IsPick: Boolean;
         DeleteReservationEntries: Boolean;
-        CannotMatchItemTrackingErr: Label 'Cannot match item tracking.\Document No.: %1, Line No.: %2, Item: %3 %4', Comment = '%1 - source document no., %2 - source document line no., %3 - item no., %4 - item description';
+CannotMatchItemTrackingErr: Label 'Cannot match item tracking.\Document No.: %1, Line No.: %2, Item: %3 %4', Comment = '%1 - source document no., %2 - source document line no., %3 - item no., %4 - item description';
         QtyToInvoiceDoesNotMatchItemTrackingErr: Label 'The quantity to invoice does not match the quantity defined in item tracking.';
 
     procedure SetPointerFilter(var TrackingSpecification: Record "Tracking Specification")

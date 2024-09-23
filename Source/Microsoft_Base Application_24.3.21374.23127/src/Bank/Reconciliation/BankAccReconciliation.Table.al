@@ -389,9 +389,9 @@ table 273 "Bank Acc. Reconciliation"
         PostedPaymentReconHdr: Record "Posted Payment Recon. Hdr";
         DimMgt: Codeunit DimensionManagement;
 
-        DuplicateStatementErr: Label 'Statement %1 already exists.', Comment = '%1=Statement No. value';
-        RenameErr: Label 'You cannot rename a %1.', Comment = '%1=Table name caption';
-        BalanceQst: Label '%1 is different from %2 on the %3. Do you want to change the value?', Comment = '%1=Balance Last Statement field caption;%2=field caption;%3=table caption';
+DuplicateStatementErr: Label 'Statement %1 already exists.', Comment = '%1=Statement No. value';
+RenameErr: Label 'You cannot rename a %1.', Comment = '%1=Table name caption';
+BalanceQst: Label '%1 is different from %2 on the %3. Do you want to change the value?', Comment = '%1=Balance Last Statement field caption;%2=field caption;%3=table caption';
         YouChangedDimQst: Label 'You may have changed a dimension.\\Do you want to update the lines?';
         NoBankAccountsMsg: Label 'You have not set up a bank account.\To use the payments import process, set up a bank account.';
         NoBankAccWithFileFormatMsg: Label 'No bank account exists that is ready for import of bank statement files.\Fill the Bank Statement Import Format field on the card of the bank account that you want to use.';

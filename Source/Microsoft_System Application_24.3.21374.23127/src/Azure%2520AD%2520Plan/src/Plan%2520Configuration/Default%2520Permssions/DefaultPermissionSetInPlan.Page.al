@@ -83,5 +83,5 @@ page 9827 "Default Permission Set In Plan"
     end;
 #endif
     var
-        FirstCompanyTok: Label '(first company sign-in)', Comment = 'The brackets around should stay';
+FirstCompanyTok: Label '(first company sign-in)', Comment = 'The brackets around should stay';
 }

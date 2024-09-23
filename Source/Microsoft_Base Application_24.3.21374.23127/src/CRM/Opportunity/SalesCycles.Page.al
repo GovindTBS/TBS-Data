@@ -40,7 +40,7 @@ page 5119 "Sales Cycles"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that you have assigned comments to the sales cycle.';
+ToolTip = 'Specifies that you have assigned comments to the sales cycle.';
                 }
             }
         }
@@ -92,7 +92,7 @@ page 5119 "Sales Cycles"
                     RunPageLink = "Table Name" = const("Sales Cycle"),
                                   "No." = field(Code),
                                   "Sub No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("S&tages")
                 {

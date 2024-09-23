@@ -20,8 +20,8 @@ codeunit 1545 "Workflow Webhook Notification"
         WaitTime: Integer;
         IsInitialized: Boolean;
         NotInitializedErr: Label 'The code unit is not initialized.';
-        ArgumentNullErr: Label '%1 cannot be null.', Comment = '%1=Argument';
-        ArgumentEmptyErr: Label '%1 cannot be empty.', Comment = '%1=Argument';
+ArgumentNullErr: Label '%1 cannot be null.', Comment = '%1=Argument';
+ArgumentEmptyErr: Label '%1 cannot be empty.', Comment = '%1=Argument';
         DataIDTxt: Label 'DataID';
         WorkflowStepInstanceIDTxt: Label 'WorkflowStepInstanceID';
         NotificationUrlTxt: Label 'NotificationUrl';

@@ -49,8 +49,8 @@ page 9184 "Generic Chart Type Preview"
     end;
 
     var
-        Text000: Label 'Sample Chart Data', Comment = 'Sample Chart Data';
-        Text003: Label 'Cat', Comment = 'Cat';
+Text000: Label 'Sample Chart Data', Comment = 'Sample Chart Data';
+Text003: Label 'Cat', Comment = 'Cat';
         ChartAddInInitialized: Boolean;
 
     [Scope('OnPrem')]

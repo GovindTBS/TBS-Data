@@ -20,7 +20,7 @@ codeunit 1802 "Data Migration Notifier"
         DataTypeManagement: Codeunit "Data Type Management";
         DataMigrationMgt: Codeunit "Data Migration Mgt.";
 
-        ListEmptyMsg: Label 'There isn''t data here yet. Want to import %1?', Comment = '%1 - Type of records to import. Either Customers, Vendors or Items';
+ListEmptyMsg: Label 'There isn''t data here yet. Want to import %1?', Comment = '%1 - Type of records to import. Either Customers, Vendors or Items';
         OpenDataMigrationTxt: Label 'Open Data Migration';
         ListSuggestCreateContactsCustomersMsg: Label 'You can create contacts automatically from newly created customers.';
         ListSuggestCreateContactsVendorsMsg: Label 'You can create contacts automatically from newly created vendors.';

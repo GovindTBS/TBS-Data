@@ -69,7 +69,7 @@ table 7342 "Posted Invt. Pick Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Posted Invt. Pick"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

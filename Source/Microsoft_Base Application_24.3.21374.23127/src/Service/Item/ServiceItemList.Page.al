@@ -317,7 +317,7 @@ page 5981 "Service Item List"
                     RunPageLink = "Table Name" = const("Service Item"),
                                   "Table Subtype" = const("0"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(Documents)
@@ -469,7 +469,7 @@ page 5981 "Service Item List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Field Service record.';
                     ObsoleteReason = 'Field Service is moved to Field Service Integration app.';

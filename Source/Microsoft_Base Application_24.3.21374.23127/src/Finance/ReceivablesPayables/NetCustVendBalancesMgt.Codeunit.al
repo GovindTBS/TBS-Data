@@ -21,7 +21,7 @@ codeunit 108 "Net Cust/Vend Balances Mgt."
         FirstLineNo: Integer;
         LastLineNo: Integer;
         IncreaseDocNo: Boolean;
-        ProcessingMsg: Label 'Processing vendors #1########## @2@@@@@@@@@@@@@', Comment = '#1 - vendor code, @2 - processing bar';
+ProcessingMsg: Label 'Processing vendors #1########## @2@@@@@@@@@@@@@', Comment = '#1 - vendor code, @2 - processing bar';
         DuplicateLineExistsErr: Label 'There is the duplicate journal line in journal template name %2, journal batch name %3, document number %1 applied to %4 %5.',
             Comment = '%1 - document no., %2 - template name, %3 - batch name, %4 - document type, %5 - document no.';
 

@@ -704,7 +704,7 @@ xmlport 1225 "Imp / Exp Data Exch Def & Map"
         }
     }
     var
-        XMLSpaceTxt: Label '&#032;', Comment = 'Specifies XML representaion of space character.', Locked = true;
+XMLSpaceTxt: Label '&#032;', Comment = 'Specifies XML representaion of space character.', Locked = true;
 
     local procedure AddTransformationRule(TransformationRule: Text)
     var

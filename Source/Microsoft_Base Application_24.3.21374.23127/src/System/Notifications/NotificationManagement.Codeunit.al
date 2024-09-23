@@ -34,13 +34,13 @@ codeunit 1510 "Notification Management"
         SalesCreditMemoTxt: Label 'Sales Credit Memo';
         PurchaseCreditMemoTxt: Label 'Purchase Credit Memo';
         ServiceCreditMemoTxt: Label 'Service Credit Memo';
-        ActionNewRecordTxt: Label 'has been created.', Comment = 'E.g. Sales Invoice 10000 has been created.';
-        ActionApproveTxt: Label 'requires your approval.', Comment = 'E.g. Sales Invoice 10000 requires your approval.';
-        ActionApprovedTxt: Label 'has been approved.', Comment = 'E.g. Sales Invoice 10000 has been approved.';
-        ActionApprovalCreatedTxt: Label 'approval request has been created.', Comment = 'E.g. Sales Invoice 10000 approval request has been created.';
-        ActionApprovalCanceledTxt: Label 'approval request has been canceled.', Comment = 'E.g. Sales Invoice 10000 approval request has been canceled.';
-        ActionApprovalRejectedTxt: Label 'approval has been rejected.', Comment = 'E.g. Sales Invoice 10000 approval request has been rejected.';
-        ActionOverdueTxt: Label 'has a pending approval.', Comment = 'E.g. Sales Invoice 10000 has a pending approval.';
+ActionNewRecordTxt: Label 'has been created.', Comment = 'E.g. Sales Invoice 10000 has been created.';
+ActionApproveTxt: Label 'requires your approval.', Comment = 'E.g. Sales Invoice 10000 requires your approval.';
+ActionApprovedTxt: Label 'has been approved.', Comment = 'E.g. Sales Invoice 10000 has been approved.';
+ActionApprovalCreatedTxt: Label 'approval request has been created.', Comment = 'E.g. Sales Invoice 10000 approval request has been created.';
+ActionApprovalCanceledTxt: Label 'approval request has been canceled.', Comment = 'E.g. Sales Invoice 10000 approval request has been canceled.';
+ActionApprovalRejectedTxt: Label 'approval has been rejected.', Comment = 'E.g. Sales Invoice 10000 approval request has been rejected.';
+ActionOverdueTxt: Label 'has a pending approval.', Comment = 'E.g. Sales Invoice 10000 has a pending approval.';
 
     procedure CreateOverdueNotifications(WorkflowStepArgument: Record "Workflow Step Argument")
     var

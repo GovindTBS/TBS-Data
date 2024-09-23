@@ -404,7 +404,7 @@ report 702 "Inventory Posting - Test"
                     InvtPeriodEndDate: Date;
                     QtyToPostBase: Decimal;
                     TempErrorText: Text[250];
-                    ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
                 begin
                     OnBeforeItemJournalLineOnAfterGetRecord("Item Journal Line", ErrorCounter, ErrorText);
 

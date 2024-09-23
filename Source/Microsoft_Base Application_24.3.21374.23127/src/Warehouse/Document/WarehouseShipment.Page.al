@@ -195,7 +195,7 @@ page 7335 "Warehouse Shipment"
                     RunPageLink = "Table Name" = const("Whse. Shipment"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Pick Lines")
                 {
@@ -416,14 +416,14 @@ page 7335 "Warehouse Shipment"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create Pick_Promoted"; "Create Pick")
                 {
                 }
                 group(Category_Category6)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref("P&ost Shipment_Promoted"; "P&ost Shipment")
@@ -438,7 +438,7 @@ page 7335 "Warehouse Shipment"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref("Re&lease_Promoted"; "Re&lease")
@@ -474,7 +474,7 @@ page 7335 "Warehouse Shipment"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -482,7 +482,7 @@ page 7335 "Warehouse Shipment"
             }
             group(Category_Category7)
             {
-                Caption = 'Shipment', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Shipment', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref("Co&mments_Promoted"; "Co&mments")
                 {
@@ -504,11 +504,11 @@ page 7335 "Warehouse Shipment"
             }
             group(Category_Category8)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

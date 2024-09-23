@@ -120,7 +120,7 @@ page 5988 "Service Items"
                     RunPageLink = "Table Name" = const("Service Item"),
                                   "Table Subtype" = const("0"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Service Ledger E&ntries")
                 {
@@ -239,8 +239,8 @@ page 5988 "Service Items"
     }
 
     var
-        Text000: Label '%1 %2', Comment = '%1=Cust."No."  %2=Cust.Name';
-        Text001: Label '%1 %2', Comment = '%1 = Item no, %2 = Item description';
+Text000: Label '%1 %2', Comment = '%1=Cust."No."  %2=Cust.Name';
+Text001: Label '%1 %2', Comment = '%1 = Item no, %2 = Item description';
 
     local procedure GetCaption(): Text
     var

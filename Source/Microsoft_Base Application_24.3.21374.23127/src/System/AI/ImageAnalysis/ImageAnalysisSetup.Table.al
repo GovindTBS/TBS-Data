@@ -76,7 +76,7 @@ table 2020 "Image Analysis Setup"
     var
         IsolatedStorageManagement: Codeunit "Isolated Storage Management";
 
-        TooManyCallsErr: Label 'Sorry, you''ll have to wait until the start of the next %2. You can analyze %1 images per %2, and you''ve already hit the limit.', Comment = '%1 is the number of calls per time unit allowed, %2 is the time unit duration (year, month, day, or hour)';
+TooManyCallsErr: Label 'Sorry, you''ll have to wait until the start of the next %2. You can analyze %1 images per %2, and you''ve already hit the limit.', Comment = '%1 is the number of calls per time unit allowed, %2 is the time unit duration (year, month, day, or hour)';
         InvalidApiUriErr: Label 'The Api Uri must be a valid Uri for Cognitive Services.';
         DoYouWantURICorrectedQst: Label 'The API URI must end with "/analyze." Should we add that for you?';
 

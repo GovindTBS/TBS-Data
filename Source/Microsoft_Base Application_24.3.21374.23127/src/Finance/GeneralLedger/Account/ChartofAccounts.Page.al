@@ -326,7 +326,7 @@ page 16 "Chart of Accounts"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("G/L Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {
@@ -685,7 +685,7 @@ page 16 "Chart of Accounts"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(DocsWithoutIC_Promoted; DocsWithoutIC)
                 {
@@ -705,11 +705,11 @@ page 16 "Chart of Accounts"
             }
             group(Category_Category4)
             {
-                Caption = 'Periodic Activities', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Periodic Activities', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 group(Category_Dimensions)
                 {
@@ -744,7 +744,7 @@ page 16 "Chart of Accounts"
             }
             group(Category_Category6)
             {
-                Caption = 'Balance', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Balance', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("G/L &Account Balance_Promoted"; "G/L &Account Balance")
                 {
@@ -778,7 +778,7 @@ page 16 "Chart of Accounts"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Trial Balance Detail/Summary_Promoted"; "Trial Balance Detail/Summary")
                 {

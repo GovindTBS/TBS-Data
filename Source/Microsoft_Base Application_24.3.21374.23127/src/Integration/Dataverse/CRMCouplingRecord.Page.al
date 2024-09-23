@@ -140,7 +140,7 @@ page 5336 "CRM Coupling Record"
         CRMProductName: Codeunit "CRM Product Name";
         EnableCreateNew: Boolean;
         IsBidirectionalSalesOrderIntEnabled: Boolean;
-        IntegrationRecordFilteredOutErr: Label 'The filters applied to table mapping %3 are preventing %1 record %2, from displaying.', Comment = '%1 = Dataverse service name, %2 = The record name entered by the user, %3 = Integration Table Mapping name';
+IntegrationRecordFilteredOutErr: Label 'The filters applied to table mapping %3 are preventing %1 record %2, from displaying.', Comment = '%1 = Dataverse service name, %2 = The record name entered by the user, %3 = Integration Table Mapping name';
 
     procedure GetCRMId(): Guid
     begin

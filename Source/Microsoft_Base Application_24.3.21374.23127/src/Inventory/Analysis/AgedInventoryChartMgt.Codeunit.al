@@ -19,8 +19,8 @@ codeunit 1317 "Aged Inventory Chart Mgt."
         YCaptionTxt: Label 'Inventory Value';
         XCaptionTxt: Label 'Time on Inventory';
         PeriodStartDate: array[6] of Date;
-        XFromToYearsTxt: Label '%1..%2 years', Comment = '%1=number of years,%2=number of years';
-        XFromToDaysTxt: Label '%1..%2 days', Comment = '%1=number of days,%2=number of days';
+XFromToYearsTxt: Label '%1..%2 years', Comment = '%1=number of years,%2=number of years';
+XFromToDaysTxt: Label '%1..%2 days', Comment = '%1=number of days,%2=number of days';
         XOverYearsTxt: Label 'Over %1 years';
         XOverDaysTxt: Label 'Over %1 days';
 

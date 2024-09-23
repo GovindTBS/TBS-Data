@@ -869,7 +869,7 @@ report 407 "Purchase - Credit Memo"
 
     var
         Text003: Label '(Applies to %1 %2)';
-        Text005: Label 'Purchase - Credit Memo %1', Comment = '%1 = Document No.';
+Text005: Label 'Purchase - Credit Memo %1', Comment = '%1 = Document No.';
         GLSetup: Record "General Ledger Setup";
         SalesPurchPerson: Record "Salesperson/Purchaser";
         TempVATAmountLine: Record "VAT Amount Line" temporary;

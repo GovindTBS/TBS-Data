@@ -29,7 +29,7 @@ codeunit 353 "Item Availability Forms Mgt"
         AvailabilityType: Option Date,Variant,Location,Bin,"Event",BOM,UOM;
         QtyByUnitOfMeasure: Decimal;
 
-        Text012: Label 'Do you want to change %1 from %2 to %3?', Comment = '%1=FieldCaption, %2=OldDate, %3=NewDate';
+Text012: Label 'Do you want to change %1 from %2 to %3?', Comment = '%1=FieldCaption, %2=OldDate, %3=NewDate';
 
     procedure CalcItemPlanningFields(var Item: Record Item; CalculateTransferQuantities: Boolean)
     var

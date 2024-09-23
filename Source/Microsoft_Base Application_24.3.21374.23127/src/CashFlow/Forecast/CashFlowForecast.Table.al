@@ -65,7 +65,7 @@ table 840 "Cash Flow Forecast"
         {
             CalcFormula = exist("Cash Flow Account Comment" where("Table Name" = const("Cash Flow Forecast"),
                                                                    "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             FieldClass = FlowField;
         }
         field(10; "No. Series"; Code[20])

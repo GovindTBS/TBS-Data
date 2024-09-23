@@ -27,14 +27,14 @@ codeunit 5139 "Job Archive Management"
     var
         RecordLinkManagement: Codeunit "Record Link Management";
 
-        RestoreQst: Label 'Do you want to Restore %1 %2 Version %3?', Comment = '%1 = Job Caption, %2 = Job No., %3 = Version No.';
-        RestoreMsg: Label '%1 %2 has been restored.', Comment = '%1 = Job Caption, %2 = Job No.';
-        ArchiveQst: Label 'Archive %1 no.: %2?', Comment = '%1 = Job Caption, %2 = Job No.';
-        JobArchiveMsg: Label 'Project %1 has been archived.', Comment = '%1 = Project No.';
-        MissingJobErr: Label 'Project %1 does not exist anymore.\It is not possible to restore the Project.', Comment = '%1 = Project No.';
-        CompletedJobStatusErr: Label 'Status must not be Completed in order to restore the Project: No. = %1', Comment = '%1 = Project No.';
-        JobLedgerEntryExistErr: Label 'Project Ledger Entries exist for Project No. %1.\It is not possible to restore the Project.', Comment = '%1 = Project No.';
-        SalesInvoiceExistErr: Label 'Outstanding Sales Invoice exists for Project No. %1.\It is not possible to restore the Project.', Comment = '%1 = Project No.';
+RestoreQst: Label 'Do you want to Restore %1 %2 Version %3?', Comment = '%1 = Job Caption, %2 = Job No., %3 = Version No.';
+RestoreMsg: Label '%1 %2 has been restored.', Comment = '%1 = Job Caption, %2 = Job No.';
+ArchiveQst: Label 'Archive %1 no.: %2?', Comment = '%1 = Job Caption, %2 = Job No.';
+JobArchiveMsg: Label 'Project %1 has been archived.', Comment = '%1 = Project No.';
+MissingJobErr: Label 'Project %1 does not exist anymore.\It is not possible to restore the Project.', Comment = '%1 = Project No.';
+CompletedJobStatusErr: Label 'Status must not be Completed in order to restore the Project: No. = %1', Comment = '%1 = Project No.';
+JobLedgerEntryExistErr: Label 'Project Ledger Entries exist for Project No. %1.\It is not possible to restore the Project.', Comment = '%1 = Project No.';
+SalesInvoiceExistErr: Label 'Outstanding Sales Invoice exists for Project No. %1.\It is not possible to restore the Project.', Comment = '%1 = Project No.';
 
     procedure AutoArchiveJob(var Job: Record Job)
     var

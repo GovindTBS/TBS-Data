@@ -1217,7 +1217,7 @@ page 8626 "Config. Package Records"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Show Error_Promoted"; "Show Error")
                 {
@@ -1286,7 +1286,7 @@ page 8626 "Config. Package Records"
         TableNo: Integer;
         Text001: Label '%1 value ''%2'' does not exist.';
         Text002: Label 'There are no data migration errors in this record.';
-        ValueIsTooLong: Label 'Max length of %1 with value ''%2'' is %3.', Comment = '%1 - Table caption, %2 - Value, %3 - Max length';
+ValueIsTooLong: Label 'Max length of %1 with value ''%2'' is %3.', Comment = '%1 - Table caption, %2 - Value, %3 - Max length';
         ErrorFieldNo: Integer;
         Field1Visible: Boolean;
         Field2Visible: Boolean;

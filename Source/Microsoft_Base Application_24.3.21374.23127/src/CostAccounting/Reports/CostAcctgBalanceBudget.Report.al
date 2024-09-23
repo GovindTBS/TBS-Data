@@ -318,9 +318,9 @@ report 1138 "Cost Acctg. Balance/Budget"
         Text002: Label 'Filter: ';
         Text003: Label 'You have not defined a filter on cost center or cost object.\Do you want to start the report anyway?';
         Text004: Label 'You have not defined a budget filter. Do you want to start the report anyway?';
-        Text005: Label 'Actual period %1 - %2', Comment = '%1=date,%2=date';
-        Text006: Label 'Cumulated %1 - %2', Comment = '%1=date,%2=date';
-        Text007: Label 'Year %1 - %2', Comment = '%1=date,%2=date';
+Text005: Label 'Actual period %1 - %2', Comment = '%1=date,%2=date';
+Text006: Label 'Cumulated %1 - %2', Comment = '%1=date,%2=date';
+Text007: Label 'Year %1 - %2', Comment = '%1=date,%2=date';
         CurrReportPAGENOCaptionLbl: Label 'Page';
         CostCenterReportCaptionLbl: Label 'Cost Acctg. Balance/Budget';
         ActDiffCaptionLbl: Label 'Difference';

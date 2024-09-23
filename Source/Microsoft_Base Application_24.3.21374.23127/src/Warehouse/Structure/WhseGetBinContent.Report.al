@@ -141,7 +141,7 @@ report 7391 "Whse. Get Bin Content"
         ItemJournalTemplate: Record "Item Journal Template";
         UOMMgt: Codeunit "Unit of Measure Management";
         Text001: Label 'Report must be initialized.';
-        DirectedWhseLocationErr: Label 'You cannot use %1 %2 because it is set up with %3.\Adjustments to this location must therefore be made in a Warehouse Item Journal.', Comment = '%1: Location Table Caption, %2: Location Code, %3: Location Field Caption';
+DirectedWhseLocationErr: Label 'You cannot use %1 %2 because it is set up with %3.\Adjustments to this location must therefore be made in a Warehouse Item Journal.', Comment = '%1: Location Table Caption, %2: Location Code, %3: Location Field Caption';
 
     protected var
         InternalMovementLine: Record "Internal Movement Line";

@@ -39,15 +39,15 @@ codeunit 1805 "Import Config. Package Files"
     end;
 
     var
-        NoPackDefinedMsg: Label 'Critical Error: No configuration package file is defined within the specified filter %1. Please contact your system administrator.', Comment = '%1 = Filter String';
-        ImportStartedMsg: Label 'The import of the %1 configuration package to the %2 company has started.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
-        ImportSuccessfulMsg: Label 'The configuration package %1 was successfully imported to the %2 company.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
-        ApplicationStartedMsg: Label 'Application of the %1 configuration package to the %2 company has started.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
-        ApplicationSuccessfulMsg: Label 'The configuration package %1 was successfully applied to the %2 company.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
-        ApplicationFailedMsg: Label 'Critical Error: %1 errors occurred during the package application. Please contact your system administrator.', Comment = '%1 = No. of errors, %2 = Package Code, %3 = Company Name';
+NoPackDefinedMsg: Label 'Critical Error: No configuration package file is defined within the specified filter %1. Please contact your system administrator.', Comment = '%1 = Filter String';
+ImportStartedMsg: Label 'The import of the %1 configuration package to the %2 company has started.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
+ImportSuccessfulMsg: Label 'The configuration package %1 was successfully imported to the %2 company.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
+ApplicationStartedMsg: Label 'Application of the %1 configuration package to the %2 company has started.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
+ApplicationSuccessfulMsg: Label 'The configuration package %1 was successfully applied to the %2 company.', Comment = '%1 = Configuration Package Code, %2 = Company Name';
+ApplicationFailedMsg: Label 'Critical Error: %1 errors occurred during the package application. Please contact your system administrator.', Comment = '%1 = No. of errors, %2 = Package Code, %3 = Company Name';
         PackageLbl: Label 'Package';
         CompanyLbl: Label 'Company';
-        InvalidLanguageIDErr: Label 'Cannot set the language to %1. The language pack ID number is invalid.', Comment = '%1 is the language code, tried to be set';
+InvalidLanguageIDErr: Label 'Cannot set the language to %1. The language pack ID number is invalid.', Comment = '%1 is the language code, tried to be set';
 
     local procedure ImportConfigurationPackageFiles(var ConfigurationPackageFile: Record "Configuration Package File")
     var

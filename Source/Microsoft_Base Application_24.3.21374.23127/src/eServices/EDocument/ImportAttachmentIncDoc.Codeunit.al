@@ -27,10 +27,10 @@ codeunit 134 "Import Attachment - Inc. Doc."
     var
         ReplaceContentQst: Label 'Do you want to replace the file content?';
         ImportTxt: Label 'Insert File';
-        FileDialogTxt: Label 'Attachments (%1)|%1', Comment = '%1=file types, such as *.txt or *.docx';
+FileDialogTxt: Label 'Attachments (%1)|%1', Comment = '%1=file types, such as *.txt or *.docx';
         FilterTxt: Label '*.jpg;*.jpeg;*.bmp;*.png;*.gif;*.tiff;*.tif;*.pdf;*.docx;*.doc;*.xlsx;*.xls;*.pptx;*.ppt;*.msg;*.xml;*.*', Locked = true;
-        NotSupportedDocTableErr: Label 'Table no. %1 is not supported.', Comment = '%1 is a number (integer).';
-        PhotoLbl: Label 'Photo %1', Comment = '%1 = a number, e.g. 1, 2, 3,...';
+NotSupportedDocTableErr: Label 'Table no. %1 is not supported.', Comment = '%1 is a number (integer).';
+PhotoLbl: Label 'Photo %1', Comment = '%1 = a number, e.g. 1, 2, 3,...';
         EmptyFileMsg: Label 'You have created an incoming document based on an empty file. Try again with a file that contains data that you want to import.';
         ChooseFileTitleMsg: Label 'Choose the file to upload.';
         IsTestMode: Boolean;

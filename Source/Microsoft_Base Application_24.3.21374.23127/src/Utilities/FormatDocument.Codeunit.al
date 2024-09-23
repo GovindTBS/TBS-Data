@@ -28,10 +28,10 @@ codeunit 368 "Format Document"
 
         PurchaserTxt: Label 'Purchaser';
         SalespersonTxt: Label 'Salesperson';
-        TotalTxt: Label 'Total %1', Comment = '%1 = Currency Code';
-        TotalInclVATTxt: Label 'Total %1 Incl. VAT', Comment = '%1 = Currency Code';
-        TotalExclVATTxt: Label 'Total %1 Excl. VAT', Comment = '%1 = Currency Code';
-        COPYTxt: Label 'COPY', Comment = 'COPY';
+TotalTxt: Label 'Total %1', Comment = '%1 = Currency Code';
+TotalInclVATTxt: Label 'Total %1 Incl. VAT', Comment = '%1 = Currency Code';
+TotalExclVATTxt: Label 'Total %1 Excl. VAT', Comment = '%1 = Currency Code';
+COPYTxt: Label 'COPY', Comment = 'COPY';
 
     procedure GetRecordFiltersWithCaptions(RecVariant: Variant) Filters: Text
     var

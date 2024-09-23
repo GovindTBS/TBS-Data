@@ -26,10 +26,10 @@ codeunit 5364 "Int. Option Synch. Invoke"
         DestinationRecordRefContext: RecordRef;
         JobIdContext: Guid;
         SynchActionType: Option "None",Insert,Modify,ForceModify,IgnoreUnchanged,Fail,Skip,Delete,Uncouple,Couple;
-        ModifyFailedErr: Label 'Modifying %1 failed because of the following error: %2.', Comment = '%1 = Table Caption, %2 = Error from modify process.';
-        ModifyFailedSimpleErr: Label 'Modifying %1 failed.', Comment = '%1 = Table Caption';
-        CoupledRecordIsDeletedErr: Label 'The %1 record cannot be updated because it is coupled to a deleted record.', Comment = '%1 = Source Table Caption';
-        CopyDataErr: Label 'The data could not be updated because of the following error: %1.', Comment = '%1 = Error message from transferdata process.';
+ModifyFailedErr: Label 'Modifying %1 failed because of the following error: %2.', Comment = '%1 = Table Caption, %2 = Error from modify process.';
+ModifyFailedSimpleErr: Label 'Modifying %1 failed.', Comment = '%1 = Table Caption';
+CoupledRecordIsDeletedErr: Label 'The %1 record cannot be updated because it is coupled to a deleted record.', Comment = '%1 = Source Table Caption';
+CopyDataErr: Label 'The data could not be updated because of the following error: %1.', Comment = '%1 = Error message from transferdata process.';
         SynchActionContext: Option;
         IgnoreSynchOnlyCoupledRecordsContext: Boolean;
         IsContextInitialized: Boolean;

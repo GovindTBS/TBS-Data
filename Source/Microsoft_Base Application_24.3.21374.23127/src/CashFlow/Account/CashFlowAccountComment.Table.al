@@ -6,7 +6,7 @@ using Microsoft.CashFlow.Setup;
 
 table 842 "Cash Flow Account Comment"
 {
-    Caption = 'Cash Flow Account Comment';
+Caption = 'Cash Flow Account Comment';
     DrillDownPageID = "Cash Flow Comment List";
     LookupPageID = "Cash Flow Comment List";
     DataClassification = CustomerContent;
@@ -38,7 +38,7 @@ table 842 "Cash Flow Account Comment"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

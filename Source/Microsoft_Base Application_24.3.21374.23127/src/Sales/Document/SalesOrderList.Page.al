@@ -454,7 +454,7 @@ page 9305 "Sales Order List"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(CFDIRelationDocuments)
                 {
@@ -630,7 +630,7 @@ page 9305 "Sales Order List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     Enabled = Rec.Status = Rec.Status::Released;
@@ -1071,7 +1071,7 @@ page 9305 "Sales Order List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create &Warehouse Shipment_Promoted"; "Create &Warehouse Shipment")
                 {
@@ -1082,7 +1082,7 @@ page 9305 "Sales Order List"
             }
             group(Category_Category6)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 5.';
                 ShowAs = SplitButton;
 
                 actionref(Release_Promoted; Release)
@@ -1094,7 +1094,7 @@ page 9305 "Sales Order List"
             }
             group(Category_Category7)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 6.';
                 ShowAs = SplitButton;
 
                 actionref(Post_Promoted; Post)
@@ -1112,7 +1112,7 @@ page 9305 "Sales Order List"
             }
             group(Category_Category8)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref("Print Confirmation_Promoted"; "Print Confirmation")
                 {
@@ -1132,11 +1132,11 @@ page 9305 "Sales Order List"
             }
             group(Category_Category4)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1162,11 +1162,11 @@ page 9305 "Sales Order List"
             }
             group(Category_Category9)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 8.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
             }
             group(Category_Synchronize)
@@ -1276,7 +1276,7 @@ page 9305 "Sales Order List"
         IsOfficeAddin: Boolean;
         CanCancelApprovalForRecord: Boolean;
         StatusStyleTxt: Text;
-        ReadyToPostQst: Label 'The number of orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
+ReadyToPostQst: Label 'The number of orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
         CanRequestApprovalForFlow: Boolean;
         CanCancelApprovalForFlow: Boolean;
 

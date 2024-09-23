@@ -47,7 +47,7 @@ page 9092 "Approval FactBox"
             field(Comment; Rec.Comment)
             {
                 ApplicationArea = Suite;
-                ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
+ToolTip = 'Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window.';
             }
         }
     }

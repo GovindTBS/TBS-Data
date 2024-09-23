@@ -263,7 +263,7 @@ table 174 "Standard Purchase Line"
         DimMgt: Codeunit DimensionManagement;
         Text000: Label 'You cannot rename a %1.';
         Text002: Label '%1 must not be %2.';
-        CommentLbl: Label 'Comment';
+CommentLbl: Label 'Comment';
 
     procedure EmptyLine(): Boolean
     begin

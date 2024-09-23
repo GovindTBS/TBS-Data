@@ -381,7 +381,7 @@ page 9199 "Profile Import Wizard"
         ProfileHelper: Codeunit "Profile Helper";
         DiagnosticsWarningsReportedTxt: Label 'Package scanned successfully with warnings.';
         DiagnosticsInformationalMessagesReportedTxt: Label 'Package scanned successfully with informational messages.';
-        ImportProfilesStepTxt: Label 'Import Profiles (%1 of 3)', Comment = '%1 = a number from 1-3';
+ImportProfilesStepTxt: Label 'Import Profiles (%1 of 3)', Comment = '%1 = a number from 1-3';
         SelectProfileToImportTxt: Label 'Select profile package to import';
         ProfilesZipFileNameTxt: Label 'Profiles.zip';
         PackageDoesNotContainAnyProfilesMsg: Label 'The profile package does not contain any profiles.';

@@ -387,7 +387,7 @@ table 92 "Customer Posting Group"
         GLAccountCategory: Record "G/L Account Category";
         GLAccountCategoryMgt: Codeunit "G/L Account Category Mgt.";
         PostingSetupMgt: Codeunit PostingSetupManagement;
-        YouCannotDeleteErr: Label 'You cannot delete %1.', Comment = '%1 = Code';
+YouCannotDeleteErr: Label 'You cannot delete %1.', Comment = '%1 = Code';
 
     local procedure CheckCustEntries()
     var

@@ -18,9 +18,9 @@ codeunit 1306 "Company Information Mgt."
 
     var
         CompanyBankAccountTxt: Label 'CHECKING';
-        XPAYMENTTxt: Label 'PAYMENT', Comment = 'Payment';
-        XPmtRegTxt: Label 'PMT REG', Comment = 'Payment Registration';
-        CompanyBankAccountPostGroupTxt: Label 'CHECKING', Comment = 'Same as Bank Account Posting Group';
+XPAYMENTTxt: Label 'PAYMENT', Comment = 'Payment';
+XPmtRegTxt: Label 'PMT REG', Comment = 'Payment Registration';
+CompanyBankAccountPostGroupTxt: Label 'CHECKING', Comment = 'Same as Bank Account Posting Group';
         CompanyNameWarningLbl: Label 'Do not add personal data to the company name as this is not treated as restricted data.';
 
     internal procedure GetCompanyNameClassificationWarning(): Text

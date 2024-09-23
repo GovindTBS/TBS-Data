@@ -352,8 +352,8 @@ report 308 "Vendor - Order Detail"
         OrderNoCaptionLbl: Label 'Order No.';
         TotalCaptionLbl: Label 'Total';
 
-        PeriodTxt: Label 'Receiving Date: %1', Comment = '%1 - date';
-        PurchaseLineFilterTxt: Label 'Purchase Order Line: %1', Comment = '%1 - line no.';
+PeriodTxt: Label 'Receiving Date: %1', Comment = '%1 - date';
+PurchaseLineFilterTxt: Label 'Purchase Order Line: %1', Comment = '%1 - line no.';
         TableFilterTxt: Label '%1: %2', Locked = true;
 
     procedure InitializeRequest(NewPrintAmountsInLCY: Boolean; NewPrintOnlyOnePerPage: Boolean)

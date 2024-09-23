@@ -695,7 +695,7 @@ report 322 "Aged Accounts Payable"
         Text007: Label 'Aged by %1';
         Text009: Label 'Due Date,Posting Date,Document Date';
         Text010: Label 'The Date Formula %1 cannot be used. Try to restate it, for example, by using 1M+CM instead of CM+1M.';
-        Text027: Label '-%1', Comment = 'Negating the period length: %1 is the period length';
+Text027: Label '-%1', Comment = 'Negating the period length: %1 is the period length';
         EnterDateFormulaErr: Label 'Enter a date formula in the Period Length field.';
         AgedAcctPayableCaptionLbl: Label 'Aged Accounts Payable';
         CurrReportPageNoCaptionLbl: Label 'Page';

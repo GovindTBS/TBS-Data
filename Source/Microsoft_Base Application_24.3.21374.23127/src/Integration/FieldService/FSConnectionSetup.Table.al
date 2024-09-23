@@ -287,11 +287,11 @@ table 6418 "FS Connection Setup"
         CRMProductName: Codeunit "CRM Product Name";
         IsolatedStorageManagement: Codeunit "Isolated Storage Management";
         TempUserPassword: Text;
-        ConnectionErr: Label 'The connection setup cannot be validated. Verify the settings and try again.\Detailed error description: %1.', Comment = '%1 Error message from the provider (.NET exception message)';
+ConnectionErr: Label 'The connection setup cannot be validated. Verify the settings and try again.\Detailed error description: %1.', Comment = '%1 Error message from the provider (.NET exception message)';
         ConnectionStringFormatTok: Label 'Url=%1; UserName=%2; Password=%3; ProxyVersion=%4; %5', Locked = true;
         ConnectionSuccessMsg: Label 'The connection test was successful. The settings are valid.';
-        CannotResolveUserFromConnectionSetupErr: Label 'The %1 user that is specified in the CRM connection setup does not exist.', Comment = '%1 = CRM product name';
-        DetailsMissingErr: Label 'A %1 URL and user name are required to enable a connection.', Comment = '%1 = CRM product name';
+CannotResolveUserFromConnectionSetupErr: Label 'The %1 user that is specified in the CRM connection setup does not exist.', Comment = '%1 = CRM product name';
+DetailsMissingErr: Label 'A %1 URL and user name are required to enable a connection.', Comment = '%1 = CRM product name';
         MissingUsernameTok: Label '{USER}', Locked = true;
         MissingPasswordTok: Label '{PASSWORD}', Locked = true;
         AccessTokenTok: Label 'AccessToken', Locked = true;
@@ -306,16 +306,16 @@ table 6418 "FS Connection Setup"
         UserNameMustIncludeDomainErr: Label 'The user name must include the domain when the authentication type is set to Active Directory.';
         UserNameMustBeEmailErr: Label 'The user name must be a valid email address when the authentication type is set to Office 365.';
         ConnectionStringPwdPlaceHolderMissingErr: Label 'The connection string must include the password placeholder {PASSWORD}.';
-        ConnectionStringPwdOrClientSecretPlaceHolderMissingErr: Label 'The connection string must include either the password placeholder {PASSWORD}, the client secret placeholder {CLIENTSECRET} or the certificate placeholder {CERTIFICATE}.', Comment = '{PASSWORD}, {CERTIFICATE} and {CLIENTSECRET} are locked strings - do not translate them.';
+ConnectionStringPwdOrClientSecretPlaceHolderMissingErr: Label 'The connection string must include either the password placeholder {PASSWORD}, the client secret placeholder {CLIENTSECRET} or the certificate placeholder {CERTIFICATE}.', Comment = '{PASSWORD}, {CERTIFICATE} and {CLIENTSECRET} are locked strings - do not translate them.';
         SystemAdminRoleTemplateIdTxt: Label '{627090FF-40A3-4053-8790-584EDC5BE201}', Locked = true;
-        SystemAdminErr: Label 'User %1 has the %2 role on server %3.\\You must choose a user that does not have the %2 role.', Comment = '%1 user name, %2 - security role name, %3 - server address';
-        BCRolesErr: Label 'User %1 does not have the required roles on server %4.\\You must choose a user that has the roles %2 and %3.', Comment = '%1 user name, %2 - security role name,  %3 - security role name, %4 - server address';
-        UserNotLicensedErr: Label 'User %1 is not licensed on server %2.', Comment = '%1 user name, %2 - server address';
-        UserNotActiveErr: Label 'User %1 is disabled on server %2.', Comment = '%1 user name, %2 - server address';
-        UserHasNoRolesErr: Label 'User %1 has no user roles assigned on server %2.', Comment = '%1 user name, %2 - server address';
+SystemAdminErr: Label 'User %1 has the %2 role on server %3.\\You must choose a user that does not have the %2 role.', Comment = '%1 user name, %2 - security role name, %3 - server address';
+BCRolesErr: Label 'User %1 does not have the required roles on server %4.\\You must choose a user that has the roles %2 and %3.', Comment = '%1 user name, %2 - security role name,  %3 - security role name, %4 - server address';
+UserNotLicensedErr: Label 'User %1 is not licensed on server %2.', Comment = '%1 user name, %2 - server address';
+UserNotActiveErr: Label 'User %1 is disabled on server %2.', Comment = '%1 user name, %2 - server address';
+UserHasNoRolesErr: Label 'User %1 has no user roles assigned on server %2.', Comment = '%1 user name, %2 - server address';
         BCIntegrationUserFSRoleIdTxt: Label '{c11b4fa8-956b-439d-8b3c-021e8736a78b}', Locked = true;
-        CDSConnectionMustBeEnabledErr: Label 'You must enable the connection to Dataverse before you can set up the connection to %1.\\Choose ''Set up Dataverse connection'' in %2 page.', Comment = '%1 = CRM product name, %2 = Assisted Setup page caption.';
-        CRMConnectionMustBeEnabledErr: Label 'You must enable the connection to Dynamics 365 Sales before you can set up the connection to %1.\\Choose ''Set up a connection to Dynamics 365 Sales'' in %2 page.', Comment = '%1 = CRM product name, %2 = Assisted Setup page caption.';
+CDSConnectionMustBeEnabledErr: Label 'You must enable the connection to Dataverse before you can set up the connection to %1.\\Choose ''Set up Dataverse connection'' in %2 page.', Comment = '%1 = CRM product name, %2 = Assisted Setup page caption.';
+CRMConnectionMustBeEnabledErr: Label 'You must enable the connection to Dynamics 365 Sales before you can set up the connection to %1.\\Choose ''Set up a connection to Dynamics 365 Sales'' in %2 page.', Comment = '%1 = CRM product name, %2 = Assisted Setup page caption.';
         ShowDataverseConnectionSetupLbl: Label 'Show Dataverse Connection Setup';
         ShowCRMConnectionSetupLbl: Label 'Show Microsoft Dynamics 365 Connection Setup';
         DeploySucceedMsg: Label 'The solution, user roles, and entities have been deployed.';
@@ -324,7 +324,7 @@ table 6418 "FS Connection Setup"
         CRMConnDisabledTxt: Label 'Field Service connection has been disabled.', Locked = true;
         CRMConnEnabledTxt: Label 'Field Service connection has been enabled.', Locked = true;
         DefaultingToDataverseServiceClientTxt: Label 'Defaulting to DataverseServiceClient', Locked = true;
-        CRMConnSetupMustBeEnabledErr: label 'You must enable the connection in page %1', Comment = '%1 - page caption';
+CRMConnSetupMustBeEnabledErr: label 'You must enable the connection in page %1', Comment = '%1 - page caption';
         HourUnitOfMeasureMustBePickedErr: label 'Field Service uses a fixed unit of measure for bookable resources - hour. You must pick a corresponding resource unit of measure.';
         UncoupleResourcesQst: label 'The current coupling of Resource records to Product entity will be removed. New mapping will be set up between Resource table and Bookable Resource entity. All resources will be uncoupled, but not deleted. Do you want to continue?';
 

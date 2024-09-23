@@ -126,7 +126,7 @@ page 5838 "Marketing Text Attributes Part"
     end;
 
     var
-        MaxSelectionExceededTxt: Label 'You can only select up to %1 attributes', Comment = '%1 is the number of maximum attributes';
+MaxSelectionExceededTxt: Label 'You can only select up to %1 attributes', Comment = '%1 is the number of maximum attributes';
         MinSelectionsRequiredTxt: Label 'At least one attribute has to be selected.';
         ItemCategoryRequiredTxt: Label 'Sorry, you can''t exclude the item category from the attribute set.';
         MaxSelections: Integer;

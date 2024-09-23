@@ -865,7 +865,7 @@ page 6510 "Item Tracking Lines"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Scan multiple_Promoted"; "Scan multiple")
                 {
@@ -906,7 +906,7 @@ page 6510 "Item Tracking Lines"
             }
             group(Category_Category4)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Line_LotNoInfoCard_Promoted; Line_LotNoInfoCard)
                 {
@@ -932,7 +932,7 @@ page 6510 "Item Tracking Lines"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1152,7 +1152,7 @@ page 6510 "Item Tracking Lines"
         Text007: Label 'Another user has modified the item tracking data since it was retrieved from the database.\Start again.';
         Text008: Label 'The quantity to create must be an integer.';
         Text009: Label 'The quantity to create must be positive.';
-        Text011: Label 'Tracking specification with Serial No. %1 and Lot No. %2 and Package %3 already exists.', Comment = '%1 - serial no, %2 - lot no, %3 - package no.';
+Text011: Label 'Tracking specification with Serial No. %1 and Lot No. %2 and Package %3 already exists.', Comment = '%1 - serial no, %2 - lot no, %3 - package no.';
         Text012: Label 'Tracking specification with Serial No. %1 already exists.';
         DeleteIsBlocked: Boolean;
         Text014: Label 'The total item tracking quantity %1 exceeds the %2 quantity %3.\The changes cannot be saved to the database.';
@@ -1171,18 +1171,18 @@ page 6510 "Item Tracking Lines"
         Text020: Label 'Placeholder';
         ExcludePostedEntries: Boolean;
         ProdOrderLineHandling: Boolean;
-        UnincrementableStringErr: Label 'The value in the %1 field must have a number so that we can assign the next number in the series.', Comment = '%1 = serial number';
+UnincrementableStringErr: Label 'The value in the %1 field must have a number so that we can assign the next number in the series.', Comment = '%1 = serial number';
         ItemTrackingManagedByWhse: Boolean;
         ItemTrkgManagedByWhseMsg: Label 'You cannot assign a lot or serial number because item tracking for this document line is done through a warehouse activity.';
         ConfirmWhenExitingMsg: Label 'One or more lines have tracking specified, but Quantity (Base) is zero. If you continue, data on these lines will be lost. Do you want to close the page?';
-        ScanQtyReachedMaximumMsg: Label 'Item tracking is successfully defined for quantity %1.', Comment = '%1= maximum value of the item tracking lines';
+ScanQtyReachedMaximumMsg: Label 'Item tracking is successfully defined for quantity %1.', Comment = '%1= maximum value of the item tracking lines';
         ItemTrackingSubTypeErr: Label 'The SubType of Item Tracking Specification is incorrect!';
         ItemTrackingTypeErr: Label 'The Type of Item Tracking Specification is incorrect!';
         ContinuousScanningStrMenuLabelWithPackageNoTok: Label 'Serial No.,Lot No.,Package No.';
         CameraContinuousScanningMode: Boolean;
         BarcodeScannerIsNotContinuousScanningMode: Boolean;
         CameraBarcodeScannerAvailable: Boolean;
-        BarcodeFailureErr: Label 'Barcode Failure with code %1', Comment = '%1 = failure reason code';
+BarcodeFailureErr: Label 'Barcode Failure with code %1', Comment = '%1 = failure reason code';
 
     protected var
         Item: Record Item;

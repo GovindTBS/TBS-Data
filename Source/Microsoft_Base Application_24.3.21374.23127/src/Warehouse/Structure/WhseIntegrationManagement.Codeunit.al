@@ -20,8 +20,8 @@ codeunit 7317 "Whse. Integration Management"
         Text000: Label '%1 must not be the Adjustment Bin Code of the location %2.';
         Text001: Label 'The bin %1 is Dedicated.\Do you still want to use this bin?';
         Text002: Label 'The update has been interrupted.';
-        Text003: Label 'Location %1 must be set up with Bin Mandatory if the %2 %3 uses it.', Comment = '%2 = Object No., %3 = Object No.';
-        Text004: Label 'You cannot enter a bin code of bin type %1, %2, or %3.', Comment = 'You cannot enter a bin code of bin type Receive, Ship, or Pick.';
+Text003: Label 'Location %1 must be set up with Bin Mandatory if the %2 %3 uses it.', Comment = '%2 = Object No., %3 = Object No.';
+Text004: Label 'You cannot enter a bin code of bin type %1, %2, or %3.', Comment = 'You cannot enter a bin code of bin type Receive, Ship, or Pick.';
         Text005: Label 'You cannot enter a bin code of bin type %1 or %2.';
 
 #if not CLEAN24

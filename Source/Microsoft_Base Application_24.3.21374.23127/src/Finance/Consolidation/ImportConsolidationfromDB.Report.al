@@ -391,9 +391,9 @@ report 90 "Import Consolidation from DB"
         Text024: Label 'There is no %1 to consolidate.';
         Text028: Label 'You must create a new fiscal year in the consolidated company.';
         Text030: Label 'When using closing dates, the starting and ending dates must be the same.';
-        ConsPeriodSubsidiaryQst: Label 'The consolidation period %1 .. %2 is not within the fiscal year of one or more of the subsidiaries.\Do you want to proceed with the consolidation?', Comment = '%1 and %2 - request page values';
-        ConsPeriodCompanyQst: Label 'The consolidation period %1 .. %2 is not within the fiscal year %3 .. %4 of the consolidated company %5.\Do you want to proceed with the consolidation?', Comment = '%1, %2, %3, %4 - request page values, %5 - company name';
-        PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
+ConsPeriodSubsidiaryQst: Label 'The consolidation period %1 .. %2 is not within the fiscal year of one or more of the subsidiaries.\Do you want to proceed with the consolidation?', Comment = '%1 and %2 - request page values';
+ConsPeriodCompanyQst: Label 'The consolidation period %1 .. %2 is not within the fiscal year %3 .. %4 of the consolidated company %5.\Do you want to proceed with the consolidation?', Comment = '%1, %2, %3, %4 - request page values, %5 - company name';
+PleaseEnterErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
 
     internal procedure SetConsolidationProcessParameters(ConsolidationProcess: Record "Consolidation Process"; BusUnitInConsProcess: Record "Bus. Unit In Cons. Process")
     begin

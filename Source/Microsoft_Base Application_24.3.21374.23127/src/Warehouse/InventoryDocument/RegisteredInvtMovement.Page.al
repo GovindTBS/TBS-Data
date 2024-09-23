@@ -122,7 +122,7 @@ page 7384 "Registered Invt. Movement"
                     RunPageLink = "Table Name" = const("Registered Invt. Movement"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

@@ -38,7 +38,7 @@ codeunit 5880 "Phys. Invt. Order-Finish"
         LineCount: Integer;
         HideProgressWindow: Boolean;
 
-        FinishingLinesMsg: Label 'Finishing lines              #2######', Comment = '%2 = counter';
+FinishingLinesMsg: Label 'Finishing lines              #2######', Comment = '%2 = counter';
         UpdateTok: Label '%1 %2', Locked = true;
 
     procedure "Code"()

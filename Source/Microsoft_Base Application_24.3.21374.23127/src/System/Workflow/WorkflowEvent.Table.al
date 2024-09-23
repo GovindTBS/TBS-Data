@@ -70,7 +70,7 @@ table 1520 "Workflow Event"
     end;
 
     var
-        EventConditionsCaptionTxt: Label 'Event Conditions - %1', Comment = '%1 = Event description';
+EventConditionsCaptionTxt: Label 'Event Conditions - %1', Comment = '%1 = Event description';
 
     [Scope('OnPrem')]
     procedure RunRequestPage(var ReturnFilters: Text; Filters: Text): Boolean

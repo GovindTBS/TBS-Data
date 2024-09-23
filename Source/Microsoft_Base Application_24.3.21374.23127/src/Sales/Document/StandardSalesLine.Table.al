@@ -264,7 +264,7 @@ table 171 "Standard Sales Line"
         DimMgt: Codeunit DimensionManagement;
         Text000: Label 'You cannot rename a %1.';
         Text001: Label '%1 must not be %2.';
-        CommentLbl: Label 'Comment';
+CommentLbl: Label 'Comment';
 
     procedure EmptyLine(): Boolean
     begin

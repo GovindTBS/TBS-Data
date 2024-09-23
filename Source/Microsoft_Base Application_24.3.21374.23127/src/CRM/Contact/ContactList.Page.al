@@ -297,7 +297,7 @@ page 5052 "Contact List"
                     RunPageLink = "Table Name" = const(Contact),
                                   "No." = field("No."),
                                   "Sub No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group("Alternati&ve Address")
                 {
@@ -370,7 +370,7 @@ page 5052 "Contact List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Enabled = (Rec.Type <> Rec.Type::Company) and (Rec."Company No." <> '');
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
@@ -1076,7 +1076,7 @@ page 5052 "Contact List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create Opportunity_Promoted"; "Create Opportunity")
                 {
@@ -1099,7 +1099,7 @@ page 5052 "Contact List"
             }
             group(Category_Category4)
             {
-                Caption = 'Contact', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Contact', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {
@@ -1147,11 +1147,11 @@ page 5052 "Contact List"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Synchronize)
             {

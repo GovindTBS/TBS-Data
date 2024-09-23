@@ -176,7 +176,7 @@ table 15 "G/L Account"
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const("G/L Account"),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -947,12 +947,12 @@ table 15 "G/L Account"
         Text000: Label 'You cannot change %1 because there are one or more ledger entries associated with this account.';
         Text001: Label 'You cannot change %1 because this account is part of one or more budgets.';
         Text002: Label 'There is another %1: %2; which refers to the same %3, but with a different %4: %5.';
-        NoAccountCategoryMatchErr: Label 'There is no subcategory description for %1 that matches ''%2''.', Comment = '%1=account category value, %2=the user input.';
-        GenProdPostingGroupErr: Label '%1 is not set for the %2 G/L account with no. %3.', Comment = '%1 - caption Gen. Prod. Posting Group; %2 - G/L Account Description; %3 - G/L Account No.';
-        CannotChangeSetupOnPrepmtAccErr: Label 'You cannot change %2 on account %3 while %1 is pending prepayment.', Comment = '%2 - field caption, %3 - account number, %1 - recordId - "Sales Header: Order, 1001".';
+NoAccountCategoryMatchErr: Label 'There is no subcategory description for %1 that matches ''%2''.', Comment = '%1=account category value, %2=the user input.';
+GenProdPostingGroupErr: Label '%1 is not set for the %2 G/L account with no. %3.', Comment = '%1 - caption Gen. Prod. Posting Group; %2 - G/L Account Description; %3 - G/L Account No.';
+CannotChangeSetupOnPrepmtAccErr: Label 'You cannot change %2 on account %3 while %1 is pending prepayment.', Comment = '%2 - field caption, %3 - account number, %1 - recordId - "Sales Header: Order, 1001".';
         CurrencyCodeErr: Label 'Currency codes are only allowed for assets and liabilities and posting account.';
         BalanceMustBeZeroErr: Label 'In order to change the currency code, the balance of the account must be zero.';
-        CannotRemoveTaxGroupErr: Label 'You cannot remove Tax Group Code from G/L Account :%1 because it is attached to Service Contract Group : %2.', Comment = '%1 - G/L Account No., %2 - Service Contract Group Code';
+CannotRemoveTaxGroupErr: Label 'You cannot remove Tax Group Code from G/L Account :%1 because it is attached to Service Contract Group : %2.', Comment = '%1 - G/L Account No., %2 - Service Contract Group Code';
 
     local procedure AsPriceAsset(var PriceAsset: Record "Price Asset"; PriceType: Enum "Price Type")
     begin

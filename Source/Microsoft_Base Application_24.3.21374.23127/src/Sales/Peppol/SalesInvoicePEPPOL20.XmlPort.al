@@ -2023,7 +2023,7 @@ xmlport 1602 "Sales Invoice - PEPPOL 2.0"
         PEPPOLMgt: Codeunit "PEPPOL Management";
         SpecifyASalesInvoiceNoErr: Label 'You must specify a sales invoice number.';
         SpecifyAServInvoiceNoErr: Label 'You must specify a service invoice number.';
-        UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
+UnSupportedTableTypeErr: Label 'The %1 table is not supported.', Comment = '%1 is the table.';
         ProcessedDocType: Option Sale,Service;
 
     procedure GetTotals()

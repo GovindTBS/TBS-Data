@@ -154,7 +154,7 @@ page 6410 "Workflow - Vendor Entity"
                 field(comment; Rec.Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comment', Locked = true;
+Caption = 'Comment', Locked = true;
                 }
                 field(blocked; Rec.Blocked)
                 {

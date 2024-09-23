@@ -13,16 +13,16 @@ codeunit 1211 "Payment Export Gen. Jnl Check"
     end;
 
     var
-        EmptyPaymentDetailsErr: Label '%1 or %2 must be used for payments.', Comment = '%1=Field;%2=Field';
-        SimultaneousPaymentDetailsErr: Label '%1 and %2 cannot be used simultaneously for payments.', Comment = '%1=Field;%2=Field';
-        WrongBalAccountErr: Label '%1 for the %2 is different from %3 on %4: %5.', Comment = '%1=Field;%1=Table;%3=Value;%4=Table;%5=Value';
+EmptyPaymentDetailsErr: Label '%1 or %2 must be used for payments.', Comment = '%1=Field;%2=Field';
+SimultaneousPaymentDetailsErr: Label '%1 and %2 cannot be used simultaneously for payments.', Comment = '%1=Field;%2=Field';
+WrongBalAccountErr: Label '%1 for the %2 is different from %3 on %4: %5.', Comment = '%1=Field;%1=Table;%3=Value;%4=Table;%5=Value';
         MustBeVendorEmployeeOrCustomerErr: Label 'The account must be a vendor, customer or employee account.';
         MustBeVendEmplPmtOrCustRefundErr: Label 'Only vendor and employee payments and customer refunds are allowed.';
         MustBePositiveErr: Label 'The amount must be positive.';
-        FieldBlankErr: Label '%1 must have a value in %2.', Comment = '%1=table name, %2=field name. Example: Customer must have a value in Name.';
-        FieldKeyBlankErr: Label '%1 %2 must have a value in %3.', Comment = '%1=table name, %2=key field value, %3=field name. Example: Customer 10000 must have a value in Name.';
+FieldBlankErr: Label '%1 must have a value in %2.', Comment = '%1=table name, %2=field name. Example: Customer must have a value in Name.';
+FieldKeyBlankErr: Label '%1 %2 must have a value in %3.', Comment = '%1=table name, %2=key field value, %3=field name. Example: Customer 10000 must have a value in Name.';
         TempGenJournalBatch: Record "Gen. Journal Batch" temporary;
-        WrongBankPaymentTypeErr: Label '%1 must be either %2 or %3.', Comment = '%1=Bank Payment Type field caption, %2=Electronic Payment bank payment type, %3=Electronic Payment-IAT bank payment type';
+WrongBankPaymentTypeErr: Label '%1 must be either %2 or %3.', Comment = '%1=Bank Payment Type field caption, %2=Electronic Payment bank payment type, %3=Electronic Payment-IAT bank payment type';
 
     local procedure CheckPaymentExportGenJnl(var GenJournalLine: Record "Gen. Journal Line")
     var

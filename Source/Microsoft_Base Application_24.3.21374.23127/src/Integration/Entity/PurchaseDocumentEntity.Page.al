@@ -218,7 +218,7 @@ page 6404 "Purchase Document Entity"
                 field(comment; Rec.Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comment', Locked = true;
+Caption = 'Comment', Locked = true;
                 }
                 field(numberPrinted; Rec."No. Printed")
                 {

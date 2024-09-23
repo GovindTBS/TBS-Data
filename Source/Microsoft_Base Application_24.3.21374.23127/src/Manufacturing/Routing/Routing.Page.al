@@ -119,7 +119,7 @@ page 99000766 Routing
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "Table Name" = const("Routing Header"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Versions")
                 {

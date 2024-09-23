@@ -185,8 +185,8 @@ page 5985 "Service Item Replacement"
         ServItemVariantCode: Code[10];
         CopyComponentsEnable: Boolean;
 
-        Text000: Label 'The %1 %2,%3 does not exists.', Comment = 'The Item Variant LS-10PC , LS-10PC-B does not exists.';
-        Text002: Label 'There is no %1 in the %2 %3 %4.', Comment = 'There is no Assembly BOM in the Item No. 1002';
+Text000: Label 'The %1 %2,%3 does not exists.', Comment = 'The Item Variant LS-10PC , LS-10PC-B does not exists.';
+Text002: Label 'There is no %1 in the %2 %3 %4.', Comment = 'There is no Assembly BOM in the Item No. 1002';
 
     protected var
         CopyComponentsFrom: Option "None","Item BOM","Old Service Item","Old Service Item w/o Serial No.";

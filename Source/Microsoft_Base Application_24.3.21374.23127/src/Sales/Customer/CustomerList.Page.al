@@ -419,7 +419,7 @@ page 22 "Customer List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Customer),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {
@@ -597,7 +597,7 @@ page 22 "Customer List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCRMCoupling)
@@ -1571,7 +1571,7 @@ page 22 "Customer List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(PaymentRegistration_Promoted; PaymentRegistration)
                 {
@@ -1585,15 +1585,15 @@ page 22 "Customer List"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category6)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category5)
             {
-                Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(NewSalesQuote_Promoted; NewSalesQuote)
                 {
@@ -1613,7 +1613,7 @@ page 22 "Customer List"
             }
             group(Category_Category7)
             {
-                Caption = 'Customer', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Customer', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(CustomerLedgerEntries_Promoted; CustomerLedgerEntries)
                 {
@@ -1671,7 +1671,7 @@ page 22 "Customer List"
             }
             group(Category_Category9)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
 #if not CLEAN23
                 actionref(Prices_Prices_Promoted; Prices_Prices)
@@ -1701,11 +1701,11 @@ page 22 "Customer List"
             }
             group(Category_Category8)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(BackgroundStatement_Promoted; BackgroundStatement)
                 {

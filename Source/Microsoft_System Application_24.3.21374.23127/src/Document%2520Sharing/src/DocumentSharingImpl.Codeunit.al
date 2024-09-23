@@ -248,8 +248,8 @@ codeunit 9561 "Document Sharing Impl."
         NoPromptOpenOnlyQst: Label 'Would you like to open this file?';
         NoPromptShareOnlyQst: Label 'Would you like to share this file?';
         PromptQst: Label 'The file has been copied to OneDrive. What would you like to do with it?';
-        UploadingBlobTxt: Label 'We''re copying this file to your %1 folder in OneDrive', Comment = '%1 is the short product name (e.g. Business Central)';
-        UploadingToShareBlobTxt: Label 'We''re copying this file to your %1 folder in OneDrive so you can share it', Comment = '%1 is the short product name (e.g. Business Central)';
+UploadingBlobTxt: Label 'We''re copying this file to your %1 folder in OneDrive', Comment = '%1 is the short product name (e.g. Business Central)';
+UploadingToShareBlobTxt: Label 'We''re copying this file to your %1 folder in OneDrive so you can share it', Comment = '%1 is the short product name (e.g. Business Central)';
         DocumentSharingCategoryLbl: Label 'AL DocumentSharing';
         FinishedEditingDocumentLbl: Label 'Do you want to add the document you edited and saved?';
         UploadingBlobTelemetryTxt: Label 'Uploading document for %1.', Locked = true;

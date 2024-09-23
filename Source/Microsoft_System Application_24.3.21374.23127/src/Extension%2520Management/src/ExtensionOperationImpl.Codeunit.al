@@ -36,7 +36,7 @@ ExtensionFileNameTxt: Label '%1_%2_%3.zip', Comment = '%1=Name, %2=Publisher, %3
         InstallationFailedOpenDetailsQst: Label 'Sorry, we couldn''t install the app. Do you want to see the details?';
         InstallationFailedOpenDetailsTxt: Label 'App installation failed. User has chosen to see the details.';
         InstallationFailedDoNotOpenDetailsTxt: Label 'App installation failed. User has chosen not to check out the details.';
-        PageCaptionTok: Label '%1 %2', Comment = '%1 = Page default caption %2 = App name';
+PageCaptionTok: Label '%1 %2', Comment = '%1 = Page default caption %2 = App name';
 
     local procedure AssertIsInitialized()
     begin

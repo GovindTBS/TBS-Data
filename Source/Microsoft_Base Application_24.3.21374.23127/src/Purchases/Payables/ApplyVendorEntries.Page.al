@@ -602,7 +602,7 @@ page 233 "Apply Vendor Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ActionSetAppliesToID_Promoted; ActionSetAppliesToID)
                 {
@@ -612,7 +612,7 @@ page 233 "Apply Vendor Entries"
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref(ShowPostedDocument_Promoted; ShowPostedDocument)
@@ -631,11 +631,11 @@ page 233 "Apply Vendor Entries"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category5)
             {
-                Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Navigate_Promoted; Navigate)
                 {
@@ -784,7 +784,7 @@ page 233 "Apply Vendor Entries"
         CalledFromEntry: Boolean;
         ShowAppliedEntries: Boolean;
         OK: Boolean;
-        EarlierPostingDateErr: Label 'You cannot apply and post an entry to an entry with an earlier posting date.\\Instead, post the document of type %1 with the number %2 and then apply it to the document of type %3 with the number %4.', Comment = '%1 - document type, %2 - document number,%3 - document type,%4 - document number';
+EarlierPostingDateErr: Label 'You cannot apply and post an entry to an entry with an earlier posting date.\\Instead, post the document of type %1 with the number %2 and then apply it to the document of type %3 with the number %4.', Comment = '%1 - document type, %2 - document number,%3 - document type,%4 - document number';
         AppliesToIDVisible: Boolean;
         ApplicationPostedMsg: Label 'The application was successfully posted.';
         ApplicationDateErr: Label 'The %1 entered must not be before the %1 on the %2.';

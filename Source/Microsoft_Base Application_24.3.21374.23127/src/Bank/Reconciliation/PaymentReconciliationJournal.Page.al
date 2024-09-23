@@ -939,7 +939,7 @@ page 1290 "Payment Reconciliation Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ImportBankTransactions_Promoted; ImportBankTransactions)
                 {
@@ -949,7 +949,7 @@ page 1290 "Payment Reconciliation Journal"
                 }
                 group(Category_Category9)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 8.';
                     ShowAs = SplitButton;
 
                     actionref(PostPaymentsOnly_Promoted; PostPaymentsOnly)
@@ -964,7 +964,7 @@ page 1290 "Payment Reconciliation Journal"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Review', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Review', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Accept_Promoted; Accept)
@@ -977,7 +977,7 @@ page 1290 "Payment Reconciliation Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Manual Application', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manual Application', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(ApplyEntries_Promoted; ApplyEntries)
                 {
@@ -991,11 +991,11 @@ page 1290 "Payment Reconciliation Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Details', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Details', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category7)
             {
-                Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(ShowNonAppliedLines_Promoted; ShowNonAppliedLines)
                 {
@@ -1012,7 +1012,7 @@ page 1290 "Payment Reconciliation Journal"
             }
             group(Category_Category10)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 9.';
 
                 actionref(ShowBankTransactionDetails_Promoted; ShowBankTransactionDetails)
                 {
@@ -1023,7 +1023,7 @@ page 1290 "Payment Reconciliation Journal"
             }
             group(Category_Category8)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -1031,7 +1031,7 @@ page 1290 "Payment Reconciliation Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1270,7 +1270,7 @@ page 1290 "Payment Reconciliation Journal"
         BankAccReconciliation: Record "Bank Acc. Reconciliation";
         AppliedPmtEntry: Record "Applied Payment Entry";
         MatchDetails: Text;
-        PmtAppliedToTxt: Label 'The payment has been applied to %1 entries.', Comment = '%1=integer value for number of entries';
+PmtAppliedToTxt: Label 'The payment has been applied to %1 entries.', Comment = '%1=integer value for number of entries';
         StatementToRemAmtDifference: Decimal;
         FinanceChargeMemoEnabled: Boolean;
         RemainingAmountAfterPosting: Decimal;
@@ -1286,7 +1286,7 @@ page 1290 "Payment Reconciliation Journal"
         ReviewScoreFilter: Text;
         TotalLinesCount: Integer;
         ListEmptyMsg: Label 'No bank transaction lines exist. Choose the Import Bank Transactions action to fill in the lines from a file, or enter lines manually.';
-        LinesForReviewNotificationMsg: Label 'One or more lines must be reviewed before posting, because they were matched automatically with rules that require review.', Comment = '%1 number of lines for review';
+LinesForReviewNotificationMsg: Label 'One or more lines must be reviewed before posting, because they were matched automatically with rules that require review.', Comment = '%1 number of lines for review';
         LinesForReviewDifferenceActionLbl: Label 'Review applications';
         NoNumberSeriesMsg: Label 'You can specify a number series for this journal. Open the bank account card and choose a number series in the Payment Reconciliation No. Series field.';
         ShowDetailsTxt: Label 'Open bank account card';

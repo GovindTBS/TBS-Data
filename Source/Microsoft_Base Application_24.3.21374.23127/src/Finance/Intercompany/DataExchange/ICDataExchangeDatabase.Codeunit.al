@@ -21,15 +21,15 @@ codeunit 532 "IC Data Exchange Database" implements "IC Data Exchange"
     Access = Internal;
 
     var
-        FailedToChangeCompanyErr: Label 'It was not possible to find the %1 of partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
-        MissingPermissionToReadTableErr: Label 'You do not have the necessary permissions to access the %1 of partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
-        ICPartnerMissingCurrentCompanyErr: Label 'The current company is not registered as a partner in the list of partners of company %1', Comment = '%1 = Partner company name';
-        PartnerMissingTableSetupErr: Label 'Partner %1 has not completed the information required at table %2 for using intercompany.', Comment = '%1 = Partner code, %2 = Table caption';
-        ICTransactionAlreadyExistMsg: Label '%1 %2 to IC Partner %3 already exists in the IC inbox of IC Partner %3. IC Partner %3 must complete the line action for transaction %2 in their IC inbox.', Comment = '%1 = Field caption, %2 = field value, %3 = IC Partner code';
+FailedToChangeCompanyErr: Label 'It was not possible to find the %1 of partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
+MissingPermissionToReadTableErr: Label 'You do not have the necessary permissions to access the %1 of partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
+ICPartnerMissingCurrentCompanyErr: Label 'The current company is not registered as a partner in the list of partners of company %1', Comment = '%1 = Partner company name';
+PartnerMissingTableSetupErr: Label 'Partner %1 has not completed the information required at table %2 for using intercompany.', Comment = '%1 = Partner code, %2 = Table caption';
+ICTransactionAlreadyExistMsg: Label '%1 %2 to IC Partner %3 already exists in the IC inbox of IC Partner %3. IC Partner %3 must complete the line action for transaction %2 in their IC inbox.', Comment = '%1 = Field caption, %2 = field value, %3 = IC Partner code';
         JobQueueCategoryCodeTxt: Label 'ICAUTOACC', Locked = true;
-        AutoAcceptTransactionTxt: Label 'Auto. accept transaction %1 of partner %2 for document %3', Comment = '%1 = Transaction ID, %2 = Partner Code, %3 = Document No.';
+AutoAcceptTransactionTxt: Label 'Auto. accept transaction %1 of partner %2 for document %3', Comment = '%1 = Transaction ID, %2 = Partner Code, %3 = Document No.';
         ICDataExchangeDatabaseFeatureTelemetryNameTok: Label 'Intercompany Data Exchange Database', Locked = true;
-        SentTransactionTelemetryTxt: Label 'Transaction sent to IC Partner %1 from source %2.', Comment = '%1 = Target IC Partner Code, %2 = Source IC Partner Code';
+SentTransactionTelemetryTxt: Label 'Transaction sent to IC Partner %1 from source %2.', Comment = '%1 = Target IC Partner Code, %2 = Source IC Partner Code';
 
     procedure GetICPartnerICGLAccount(ICPartner: Record "IC Partner"; var TempICPartnerICGLAccount: Record "IC G/L Account" temporary)
     var

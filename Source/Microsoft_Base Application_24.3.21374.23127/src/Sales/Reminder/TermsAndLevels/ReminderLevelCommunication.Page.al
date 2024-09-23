@@ -277,10 +277,10 @@ page 835 "Reminder Level Communication"
         OrOperatorTok: Label '%1|%2', Locked = true;
         DifferentOperatorTok: Label '%1&<>%2', Locked = true;
         NoLanguageTextErr: Label 'There are no communication texts for this reminder level for any language. Add a new entry if you want to personalize the communication with the customer.';
-        NoTextForSelectedLanguageErr: Label 'There are no communication texts for the selected language %1. Add a new entry if you want to personalize the communication with the customer.', Comment = '%1 = Language Code';
+NoTextForSelectedLanguageErr: Label 'There are no communication texts for the selected language %1. Add a new entry if you want to personalize the communication with the customer.', Comment = '%1 = Language Code';
         ConfirmDefaultCreationOfAttachmentTextMsg: Label 'There are no attachment texts for this reminder level. Do you want to create a new attachment text for your current language?';
         ConfirmDefaultCreationOfEmailTextMsg: Label 'There are no email texts for this reminder level. Do you want to create a new email text for your current language?';
-        RemoveLanguageQst: Label 'Do you want to remove the communication texts for the selected language? This would remove the attachment texts and the email texts for language %1.', Comment = '%1 = Language Code';
+RemoveLanguageQst: Label 'Do you want to remove the communication texts for the selected language? This would remove the attachment texts and the email texts for language %1.', Comment = '%1 = Language Code';
         RemoveAllLanguagesQst: Label 'Do you want to remove all communication texts for all languages?';
 
     internal procedure SelectLanguageForSubpages(Id: Guid)

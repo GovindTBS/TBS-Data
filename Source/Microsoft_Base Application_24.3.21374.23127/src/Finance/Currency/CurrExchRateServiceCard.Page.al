@@ -148,7 +148,7 @@ page 1651 "Curr. Exch. Rate Service Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Preview_Promoted; Preview)
                 {
@@ -159,11 +159,11 @@ page 1651 "Curr. Exch. Rate Service Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Setup', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Setup', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
         }
     }
@@ -216,7 +216,7 @@ page 1651 "Curr. Exch. Rate Service Card"
         EnabledAndCurrPageEditable: Boolean;
         IsSoftwareAsService: Boolean;
         ShowEnableWarning: Text;
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = This Page Caption (Currency Exch. Rate Service)';
+EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = This Page Caption (Currency Exch. Rate Service)';
         XmlStructureIsNotSupportedErr: Label ' The provided url does not contain a supported structure.';
 
     local procedure UpdateSimpleMappingsPart()

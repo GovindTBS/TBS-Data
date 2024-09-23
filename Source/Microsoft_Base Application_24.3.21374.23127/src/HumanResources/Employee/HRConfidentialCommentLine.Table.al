@@ -4,7 +4,7 @@ using Microsoft.HumanResources.Setup;
 
 table 5219 "HR Confidential Comment Line"
 {
-    Caption = 'HR Confidential Comment Line';
+Caption = 'HR Confidential Comment Line';
     DataCaptionFields = "No.";
     DrillDownPageID = "HR Confidential Comment List";
     LookupPageID = "HR Confidential Comment List";
@@ -42,7 +42,7 @@ table 5219 "HR Confidential Comment Line"
         }
         field(9; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

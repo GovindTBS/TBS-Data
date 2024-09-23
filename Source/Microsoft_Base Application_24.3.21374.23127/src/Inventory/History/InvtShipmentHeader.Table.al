@@ -67,7 +67,7 @@ table 5854 "Invt. Shipment Header"
         {
             CalcFormula = exist("Inventory Comment Line" where("Document Type" = const("Posted Inventory Shipment"),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

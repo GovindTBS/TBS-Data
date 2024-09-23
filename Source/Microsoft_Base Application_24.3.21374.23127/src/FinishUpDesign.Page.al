@@ -130,14 +130,14 @@ page 9623 "Finish Up Design"
 
     var
         SaveVisible: Boolean;
-        ExtensionFileNameTxt: Label '%1_%2_1.0.0.0.zip', Comment = '%1=Name, %2=Publisher', Locked = true;
+ExtensionFileNameTxt: Label '%1_%2_1.0.0.0.zip', Comment = '%1=Name, %2=Publisher', Locked = true;
         AppName: Text[250];
         Publisher: Text[250];
         DownloadCode: Boolean;
-        BlankNameErr: Label 'Name cannot be blank.', Comment = 'Specifies that field cannot be blank.';
-        BlankPublisherErr: Label 'Publisher cannot be blank.', Comment = 'Specifies that field cannot be blank.';
+BlankNameErr: Label 'Name cannot be blank.', Comment = 'Specifies that field cannot be blank.';
+BlankPublisherErr: Label 'Publisher cannot be blank.', Comment = 'Specifies that field cannot be blank.';
         NameAndPublisherEnabled: Boolean;
         DownloadCodeEnabled: Boolean;
-        DuplicateNameAndPublisherErr: Label 'The specified name and publisher are already used in another extension. Please specify another name or publisher.', Comment = 'An extension with the same name and publisher already exists.';
+DuplicateNameAndPublisherErr: Label 'The specified name and publisher are already used in another extension. Please specify another name or publisher.', Comment = 'An extension with the same name and publisher already exists.';
 }
 

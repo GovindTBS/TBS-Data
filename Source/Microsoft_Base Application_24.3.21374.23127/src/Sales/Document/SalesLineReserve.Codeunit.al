@@ -36,7 +36,7 @@ codeunit 99000832 "Sales Line-Reserve"
         DeleteItemTracking: Boolean;
         ItemTrkgAlreadyOverruled: Boolean;
 
-        ReservedQtyTooLargeErr: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1: not reserved quantity on Sales Line';
+ReservedQtyTooLargeErr: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1: not reserved quantity on Sales Line';
         ValueIsEmptyErr: Label 'must be filled in when a quantity is reserved';
         ValueNotEmptyErr: Label 'must not be filled in when a quantity is reserved';
         ValueChangedErr: Label 'must not be changed when a quantity is reserved';

@@ -12,17 +12,17 @@ codeunit 344 "County CaptionClass Mgmt"
 
     var
         CountyTxt: Label 'County';
-        SellToLbl: Label 'Sell-to %1', Comment = '%1 = County';
-        BillToLbl: Label 'Bill-to %1', Comment = '%1 = County';
-        ShipToLbl: Label 'Ship-to %1', Comment = '%1 = County';
-        BuyFromLbl: Label 'Buy-from %1', Comment = '%1 = County';
-        PayToLbl: Label 'Pay-to %1', Comment = '%1 = County';
-        TransferFromLbl: Label 'Transfer-from %1', Comment = '%1 = County';
-        TransferToLbl: Label 'Transfer-to %1', Comment = '%1 = County';
-        SenderBankLbl: Label 'Sender Bank %1', Comment = '%1 = County';
-        RecipientBankLbl: Label 'Recipient Bank %1', Comment = '%1 = County';
-        RecipientLbl: Label 'Recipient %1', Comment = '%1 = County';
-        CompanyLbl: Label 'Company %1', Comment = '%1 = County';
+SellToLbl: Label 'Sell-to %1', Comment = '%1 = County';
+BillToLbl: Label 'Bill-to %1', Comment = '%1 = County';
+ShipToLbl: Label 'Ship-to %1', Comment = '%1 = County';
+BuyFromLbl: Label 'Buy-from %1', Comment = '%1 = County';
+PayToLbl: Label 'Pay-to %1', Comment = '%1 = County';
+TransferFromLbl: Label 'Transfer-from %1', Comment = '%1 = County';
+TransferToLbl: Label 'Transfer-to %1', Comment = '%1 = County';
+SenderBankLbl: Label 'Sender Bank %1', Comment = '%1 = County';
+RecipientBankLbl: Label 'Recipient Bank %1', Comment = '%1 = County';
+RecipientLbl: Label 'Recipient %1', Comment = '%1 = County';
+CompanyLbl: Label 'Company %1', Comment = '%1 = County';
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Caption Class", 'OnResolveCaptionClass', '', true, true)]
     local procedure ResolveCaptionClass(CaptionArea: Text; CaptionExpr: Text; Language: Integer; var Caption: Text; var Resolved: Boolean)

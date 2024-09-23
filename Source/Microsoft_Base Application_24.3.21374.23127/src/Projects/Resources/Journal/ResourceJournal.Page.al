@@ -515,11 +515,11 @@ page 207 "Resource Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category5)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -538,11 +538,11 @@ page 207 "Resource Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category7)
             {
-                Caption = 'Resource', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Resource', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Card_Promoted; Card)
                 {
@@ -559,15 +559,15 @@ page 207 "Resource Journal"
             }
             group(Category_Category8)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {

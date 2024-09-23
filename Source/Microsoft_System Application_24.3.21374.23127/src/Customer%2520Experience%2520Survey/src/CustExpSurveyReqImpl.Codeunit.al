@@ -20,7 +20,7 @@ codeunit 9263 "Cust. Exp. Survey Req. Impl."
         AuthorityLbl: Label 'https://login.microsoftonline.com/microsoft.onmicrosoft.com', Locked = true;
         CouldNotGetAccessTokenErr: Label 'Could not get access token.', Locked = true;
         CouldNotGetGraphAccessTokenErr: Label 'Could not get graph access token. ', Locked = true;
-        BearerLbl: Label 'Bearer %1', Locked = true, Comment = '%1 - Bearer token';
+BearerLbl: Label 'Bearer %1', Locked = true, Comment = '%1 - Bearer token';
         CategoryTok: Label 'Customer Experience Survey', Locked = true;
 FailedGetRequestErr: Label 'GET %1 request failed with status code %2. Error message: %3', Locked = true, Comment = '%1 - Request, %2 - HTTP status code, %3 - Error message';
 FailedPostRequestErr: Label 'POST %1 request failed with status code %2. Error message: %3', Locked = true, Comment = '%1 - Request, %2 - HTTP status code, %3 - Error message';

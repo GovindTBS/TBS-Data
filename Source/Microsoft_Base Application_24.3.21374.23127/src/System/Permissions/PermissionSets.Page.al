@@ -446,7 +446,7 @@ page 9802 "Permission Sets"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Permissions_Promoted; PermissionSetContent)
                 {
@@ -664,7 +664,7 @@ page 9802 "Permission Sets"
         CannotDeletePermissionSetErr: Label 'You can only delete user-created or copied permission sets.';
         ExportExtensionSchemaQst: Label 'Do you want to export permission sets in a schema that is supported by the extension package?';
         IntelligentCloudTok: Label 'INTELLIGENT CLOUD', Locked = true;
-        ObsoletePermissionsMsg: Label '%1 obsolete permissions were removed.', Comment = '%1 = number of deleted records.';
+ObsoletePermissionsMsg: Label '%1 obsolete permissions were removed.', Comment = '%1 = number of deleted records.';
         NothingToRemoveMsg: Label 'There is nothing to remove.';
         UpdateExistingPermissionsLbl: Label 'Update existing permissions and permission sets';
         ExportSystemPermissionSetsMsg: Label 'You are exporting system permission sets. These permission sets will become user-defined permission sets when they are imported.';

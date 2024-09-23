@@ -167,7 +167,7 @@ table 9178 "Application Area Setup"
         }
         field(3100; Comments; Boolean)
         {
-            Caption = 'Comments';
+Caption = 'Comments';
             DataClassification = SystemMetadata;
         }
         field(3200; "Record Links"; Boolean)

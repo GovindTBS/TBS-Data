@@ -312,7 +312,7 @@ page 5094 "Marketing Setup"
                     ApplicationArea = RelationshipMgmt;
                     Caption = 'Authentication Type';
                     OptionCaption = 'OAuth2,Basic';
-                    ToolTip = 'Specifies the authentication type will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the authentication type will be used to connect to Exchange.', Comment = 'Exchange is a name of a Microsoft Service and should not be translated.';
                     ObsoleteReason = 'Feature EmailLoggingUsingGraphApi will be enabled by default in version 22.0';
                     ObsoleteState = Pending;
                     ObsoleteTag = '22.0';
@@ -341,7 +341,7 @@ page 5094 "Marketing Setup"
                         Caption = 'Client ID';
                         Visible = ClientCredentialsVisible;
                         Enabled = not EmailLoggingEnabled;
-                        ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
                         ObsoleteReason = 'Feature EmailLoggingUsingGraphApi will be enabled by default in version 22.0';
                         ObsoleteState = Pending;
                         ObsoleteTag = '22.0';
@@ -362,7 +362,7 @@ page 5094 "Marketing Setup"
                         ExtendedDatatype = Masked;
                         Visible = ClientCredentialsVisible;
                         Enabled = not EmailLoggingEnabled;
-                        ToolTip = 'Specifies the Microsoft Entra application secret that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the Microsoft Entra application secret that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
                         ObsoleteReason = 'Feature EmailLoggingUsingGraphApi will be enabled by default in version 22.0';
                         ObsoleteState = Pending;
                         ObsoleteTag = '22.0';
@@ -383,7 +383,7 @@ page 5094 "Marketing Setup"
                         ExtendedDatatype = URL;
                         Visible = ClientCredentialsVisible;
                         Enabled = not EmailLoggingEnabled;
-                        ToolTip = 'Specifies the redirect URL of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the redirect URL of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
                         ObsoleteReason = 'Feature EmailLoggingUsingGraphApi will be enabled by default in version 22.0';
                         ObsoleteState = Pending;
                         ObsoleteTag = '22.0';
@@ -410,7 +410,7 @@ page 5094 "Marketing Setup"
                     {
                         ApplicationArea = RelationshipMgmt;
                         Caption = 'Exchange User';
-                        ToolTip = 'Specifies the email account that the scheduled job must use to connect to Exchange and process emails.', Comment = 'Exchange is a name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the email account that the scheduled job must use to connect to Exchange and process emails.', Comment = 'Exchange is a name of a Microsoft Service and should not be translated.';
                         Visible = BasicAuthVisible;
                         Enabled = not EmailLoggingEnabled;
                         ObsoleteReason = 'Feature EmailLoggingUsingGraphApi will be enabled by default in version 22.0';
@@ -530,7 +530,7 @@ page 5094 "Marketing Setup"
                 field("Email Logging Enabled"; EmailLoggingEnabled)
                 {
                     ApplicationArea = RelationshipMgmt;
-                    Caption = 'Enabled', Comment = 'Name of the check box that shows whether the Email Logging is enabled.';
+Caption = 'Enabled', Comment = 'Name of the check box that shows whether the Email Logging is enabled.';
                     ToolTip = 'Specifies if email logging is enabled. When you select this field, you must sign in with an administrator user account and give consent to the application that will be used to connect to Exchange.';
                     ObsoleteReason = 'Feature EmailLoggingUsingGraphApi will be enabled by default in version 22.0';
                     ObsoleteState = Pending;
@@ -781,7 +781,7 @@ page 5094 "Marketing Setup"
         EmailLoggingDisabledTxt: Label 'Email Logging has been disabled from Marketing Setup page', Locked = true;
         DisableBasicAuthenticationTxt: Label 'Basic authentication is disabled. OAuth authentication is enforced to be used  next time.', Locked = true;
         CannotAccessRootPublicFolderErr: Label 'Could not access the root public folder with the specified user.';
-        CannotInitializeConnectionToExchangeErr: Label 'Could not initialize connection to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
+CannotInitializeConnectionToExchangeErr: Label 'Could not initialize connection to Exchange.', Comment = 'Exchange is a name of a Microsoft service and should not be translated.';
         QueueFolderNotAccessibleTxt: Label 'The specified Queue folder does not exist or cannot be accessed.';
         StorageFolderNotAccessibleTxt: Label 'The specified Storage folder does not exist or cannot be accessed.';
         EmptyAutodiscoveryEmailAddressTxt: Label 'A valid email address is needed to find an instance of Exchange Server.';

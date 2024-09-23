@@ -22,8 +22,8 @@ codeunit 82 "Sales-Post + Print"
 
     var
 #if not CLEAN22    
-        PostAndPrintQst: Label 'Do you want to post and print the %1?', Comment = '%1 = Document Type';
-        PostAndEmailQst: Label 'Do you want to post and email the %1?', Comment = '%1 = Document Type';
+PostAndPrintQst: Label 'Do you want to post and print the %1?', Comment = '%1 = Document Type';
+PostAndEmailQst: Label 'Do you want to post and email the %1?', Comment = '%1 = Document Type';
 #endif
         SendReportAsEmail: Boolean;
 

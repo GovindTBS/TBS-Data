@@ -222,15 +222,15 @@ codeunit 393 "Reminder-Issue"
         No: array[10] of Code[20];
         ThereIsNothingToIssueLbl: Label 'There is nothing to issue.';
         InterestsMustBePositiveLbl: Label 'Interests must be positive or 0';
-        DimensionCombinationIsBlockedErr: Label 'The combination of dimensions used in %1 %2 is blocked. %3.', Comment = '%1: TABLECAPTION(Reminder Header); %2: Field(No.); %3: Text GetDimCombErr';
-        DimensionCausedErrorTxt: Label 'A dimension used in %1 %2 has caused an error. %3', Comment = '%1: Name of the table, e.g. Reminder Header; %2: Unique code of the table %3: Actual error';
-        CustomerBlockedErr: Label '%1 must not be %2 in %3 %4.', Comment = '%1 = Field name, %2 = field value, %3 = table caption, %4 customer number';
-        LineFeeAmountErr: Label 'Line Fee amount must be positive and non-zero for Line Fee applied to %1 %2.', Comment = '%1 = Document Type, %2 = Document No.. E.g. Line Fee amount must be positive and non-zero for Line Fee applied to Invoice 102421';
+DimensionCombinationIsBlockedErr: Label 'The combination of dimensions used in %1 %2 is blocked. %3.', Comment = '%1: TABLECAPTION(Reminder Header); %2: Field(No.); %3: Text GetDimCombErr';
+DimensionCausedErrorTxt: Label 'A dimension used in %1 %2 has caused an error. %3', Comment = '%1: Name of the table, e.g. Reminder Header; %2: Unique code of the table %3: Actual error';
+CustomerBlockedErr: Label '%1 must not be %2 in %3 %4.', Comment = '%1 = Field name, %2 = field value, %3 = table caption, %4 customer number';
+LineFeeAmountErr: Label 'Line Fee amount must be positive and non-zero for Line Fee applied to %1 %2.', Comment = '%1 = Document Type, %2 = Document No.. E.g. Line Fee amount must be positive and non-zero for Line Fee applied to Invoice 102421';
         AppliesToDocErr: Label 'Line Fee has to be applied to an open overdue document.';
-        EntryNotOverdueErr: Label '%1 %2 in %3 is not overdue.', Comment = '%1 = Document Type, %2 = Document No., %3 = Table name. E.g. Invoice 12313 in Cust. Ledger Entry is not overdue.';
-        LineFeeAlreadyIssuedErr: Label 'The Line Fee for %1 %2 on reminder level %3 has already been issued.', Comment = '%1 = Document Type, %2 = Document No. %3 = Reminder Level. E.g. The Line Fee for Invoice 141232 on reminder level 2 has already been issued.';
-        MultipleLineFeesSameDocErr: Label 'You cannot issue multiple line fees for the same level for the same document. Error with line fees for %1 %2.', Comment = '%1 = Document Type, %2 = Document No. E.g. You cannot issue multiple line fees for the same level for the same document. Error with line fees for Invoice 1312312.';
-        MissingJournalFieldErr: Label 'Please enter a %1 when posting Additional Fees or Interest.', Comment = '%1 - field caption';
+EntryNotOverdueErr: Label '%1 %2 in %3 is not overdue.', Comment = '%1 = Document Type, %2 = Document No., %3 = Table name. E.g. Invoice 12313 in Cust. Ledger Entry is not overdue.';
+LineFeeAlreadyIssuedErr: Label 'The Line Fee for %1 %2 on reminder level %3 has already been issued.', Comment = '%1 = Document Type, %2 = Document No. %3 = Reminder Level. E.g. The Line Fee for Invoice 141232 on reminder level 2 has already been issued.';
+MultipleLineFeesSameDocErr: Label 'You cannot issue multiple line fees for the same level for the same document. Error with line fees for %1 %2.', Comment = '%1 = Document Type, %2 = Document No. E.g. You cannot issue multiple line fees for the same level for the same document. Error with line fees for Invoice 1312312.';
+MissingJournalFieldErr: Label 'Please enter a %1 when posting Additional Fees or Interest.', Comment = '%1 - field caption';
 
 
     procedure Set(var NewReminderHeader: Record "Reminder Header"; NewReplacePostingDate: Boolean; NewPostingDate: Date; NewReplaceVATDate: Boolean; NewVATDate: Date)

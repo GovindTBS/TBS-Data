@@ -296,7 +296,7 @@ page 1208 "Direct Debit Collect. Entries"
         HasLineErrors: Boolean;
         LineIsEditable: Boolean;
         ResetTransferDateQst: Label 'Do you want to insert today''s date in the Transfer Date field on all overdue entries?';
-        ResetTransferDateNotAllowedErr: Label 'You cannot change the transfer date because the status of all entries for the direct debit collection %1 is not New.', Comment = '%1 - Direct Debit Collection No.';
+ResetTransferDateNotAllowedErr: Label 'You cannot change the transfer date because the status of all entries for the direct debit collection %1 is not New.', Comment = '%1 - Direct Debit Collection No.';
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeRunSEPACheckLine(var DirectDebitCollectionEntry: Record "Direct Debit Collection Entry"; var IsHandled: Boolean)

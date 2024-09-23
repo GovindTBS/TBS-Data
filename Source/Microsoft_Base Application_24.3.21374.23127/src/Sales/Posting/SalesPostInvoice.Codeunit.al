@@ -35,9 +35,9 @@ codeunit 815 "Sales Post Invoice" implements "Invoice Posting"
         HideProgressWindow: Boolean;
         PreviewMode: Boolean;
         SuppressCommit: Boolean;
-        NoDeferralScheduleErr: Label 'You must create a deferral schedule because you have specified the deferral code %2 in line %1.', Comment = '%1=The item number of the sales transaction line, %2=The Deferral Template Code';
-        ZeroDeferralAmtErr: Label 'Deferral amounts cannot be 0. Line: %1, Deferral Template: %2.', Comment = '%1=The item number of the sales transaction line, %2=The Deferral Template Code';
-        GenProdPostingGrDiscErr: Label 'You must enter a value in %1 for %2 %3 if you want to post discounts for that line.', Comment = '%1 = Gen. Prod. Posting Group, %2 - Line No. field name, %3 - line number';
+NoDeferralScheduleErr: Label 'You must create a deferral schedule because you have specified the deferral code %2 in line %1.', Comment = '%1=The item number of the sales transaction line, %2=The Deferral Template Code';
+ZeroDeferralAmtErr: Label 'Deferral amounts cannot be 0. Line: %1, Deferral Template: %2.', Comment = '%1=The item number of the sales transaction line, %2=The Deferral Template Code';
+GenProdPostingGrDiscErr: Label 'You must enter a value in %1 for %2 %3 if you want to post discounts for that line.', Comment = '%1 = Gen. Prod. Posting Group, %2 - Line No. field name, %3 - line number';
         IncorrectInterfaceErr: Label 'This implementation designed to post Sales Header table only.';
 
     procedure Check(TableID: Integer)

@@ -118,9 +118,9 @@ table 7500 "Item Attribute"
 
     var
         ItemAttributeTranslation: Record "Item Attribute Translation";
-        NameAlreadyExistsErr: Label 'The item attribute with name ''%1'' already exists.', Comment = '%1 - arbitrary name';
-        ReuseValueTranslationsQst: Label 'There are values and translations for item attribute ''%1''.\\Do you want to reuse them after changing the item attribute name to ''%2''?', Comment = '%1 - arbitrary name,%2 - arbitrary name';
-        ChangingAttributeTypeErr: Label 'You cannot change the type of item attribute ''%1'', because it is either in use or it has predefined values.', Comment = '%1 - arbirtrary text';
+NameAlreadyExistsErr: Label 'The item attribute with name ''%1'' already exists.', Comment = '%1 - arbitrary name';
+ReuseValueTranslationsQst: Label 'There are values and translations for item attribute ''%1''.\\Do you want to reuse them after changing the item attribute name to ''%2''?', Comment = '%1 - arbitrary name,%2 - arbitrary name';
+ChangingAttributeTypeErr: Label 'You cannot change the type of item attribute ''%1'', because it is either in use or it has predefined values.', Comment = '%1 - arbirtrary text';
         DeleteUsedAttributeQst: Label 'This item attribute has been assigned to at least one item.\\Are you sure you want to delete it?';
         RenameUsedAttributeQst: Label 'This item attribute has been assigned to at least one item.\\Are you sure you want to rename it?';
         ChangeUsedAttributeUoMQst: Label 'This item attribute has been assigned to at least one item.\\Are you sure you want to change its unit of measure?';

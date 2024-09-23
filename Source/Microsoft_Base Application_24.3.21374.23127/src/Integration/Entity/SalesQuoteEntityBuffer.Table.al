@@ -594,8 +594,8 @@ table 5505 "Sales Quote Entity Buffer"
     end;
 
     var
-        SalesTaxOnlyFieldErr: Label 'Current Tax setup is set to VAT. Field %1 can only be used with Sales Tax.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
-        VATOnlyFieldErr: Label 'Current Tax setup is set to Sales Tax. Field %1 can only be used with VAT.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
+SalesTaxOnlyFieldErr: Label 'Current Tax setup is set to VAT. Field %1 can only be used with Sales Tax.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
+VATOnlyFieldErr: Label 'Current Tax setup is set to Sales Tax. Field %1 can only be used with VAT.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
 
     local procedure UpdateSellToCustomerId()
     var

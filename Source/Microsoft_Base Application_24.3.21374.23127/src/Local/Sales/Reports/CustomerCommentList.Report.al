@@ -12,7 +12,7 @@ report 10043 "Customer Comment List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Local/Sales/Reports/CustomerCommentList.rdlc';
-    Caption = 'Customer Comment List';
+Caption = 'Customer Comment List';
     UsageCategory = ReportsAndAnalysis;
 
     dataset
@@ -147,9 +147,9 @@ report 10043 "Customer Comment List"
         Customer: Record Customer;
         CommentLine2: Record "Comment Line";
         CompanyInformation: Record "Company Information";
-        Customer_Comment_ListCaptionLbl: Label 'Customer Comment List';
+Customer_Comment_ListCaptionLbl: Label 'Customer Comment List';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
-        Comment_Line__No__CaptionLbl: Label 'Customer';
+Comment_Line__No__CaptionLbl: Label 'Customer';
         Phone_CaptionLbl: Label 'Phone:';
         Contact_CaptionLbl: Label 'Contact:';
 }

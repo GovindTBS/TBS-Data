@@ -71,7 +71,7 @@ table 5913 Loaner
             CalcFormula = exist("Service Comment Line" where("Table Name" = const(Loaner),
                                                               "Table Subtype" = const("0"),
                                                               "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

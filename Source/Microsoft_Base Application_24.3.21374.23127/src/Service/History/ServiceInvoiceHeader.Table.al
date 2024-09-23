@@ -244,7 +244,7 @@ table 5992 "Service Invoice Header"
             CalcFormula = exist("Service Comment Line" where("Table Name" = const("Service Invoice Header"),
                                                               "No." = field("No."),
                                                               Type = const(General)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

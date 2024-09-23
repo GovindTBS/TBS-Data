@@ -167,7 +167,7 @@ table 297 "Issued Reminder Header"
         {
             CalcFormula = exist("Reminder Comment Line" where(Type = const("Issued Reminder"),
                                                                "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

@@ -14,8 +14,8 @@ codeunit 170 "Standard Codes Mgt."
     var
         SkipRecurringLines: Boolean;
         GetRecurringLinesTxt: Label 'Get Recurring Lines.';
-        GetSalesRecurringLinesQst: Label 'Recurring sales lines exist for customer %1. Do you want to insert them on this document?', Comment = '%1 - customer number';
-        GetPurchRecurringLinesQst: Label 'Recurring purchase lines exist for vendor %1. Do you want to insert them on this document?', Comment = '%1 - vendor number';
+GetSalesRecurringLinesQst: Label 'Recurring sales lines exist for customer %1. Do you want to insert them on this document?', Comment = '%1 - customer number';
+GetPurchRecurringLinesQst: Label 'Recurring purchase lines exist for vendor %1. Do you want to insert them on this document?', Comment = '%1 - vendor number';
 
     procedure CheckCreatePurchRecurringLines(var PurchHeader: Record "Purchase Header"): Boolean
     var

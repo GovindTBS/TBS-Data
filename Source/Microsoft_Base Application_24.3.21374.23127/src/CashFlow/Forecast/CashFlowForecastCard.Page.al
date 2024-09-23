@@ -198,7 +198,7 @@ page 847 "Cash Flow Forecast Card"
                     RunObject = Page "Cash Flow Comment";
                     RunPageLink = "Table Name" = const("Cash Flow Forecast"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 separator(Action1037)
                 {
@@ -251,7 +251,7 @@ page 847 "Cash Flow Forecast Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CashFlowWorksheet_Promoted; CashFlowWorksheet)
                 {
@@ -259,7 +259,7 @@ page 847 "Cash Flow Forecast Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Cash Flow Forecast', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Cash Flow Forecast', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("&Statistics_Promoted"; "&Statistics")
                 {
@@ -270,7 +270,7 @@ page 847 "Cash Flow Forecast Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(CashFlowDateList_Promoted; CashFlowDateList)
                 {
@@ -297,7 +297,7 @@ page 847 "Cash Flow Forecast Card"
     var
         ConsiderPmtDiscTolDateEnable: Boolean;
         ShowInChart: Boolean;
-        FromDatePrecedesToDateErr: Label 'The "%1 To" date precedes the "%1 From" date. Select an end date after the start date.', Comment = '%1 = Field area';
+FromDatePrecedesToDateErr: Label 'The "%1 To" date precedes the "%1 From" date. Select an end date after the start date.', Comment = '%1 = Field area';
 
     local procedure UpdateEnabled()
     begin

@@ -282,7 +282,7 @@ page 1804 "Approval Workflow Setup Wizard"
         DoneVisible: Boolean;
         NAVNotSetUpQst: Label 'Document Approval has not been set up.\\Are you sure that you want to exit?';
         NoUnlimitedApproverErr: Label 'Select a user that has unlimited approval rights.';
-        OpenPageTxt: Label 'Open %1', Comment = '%1 is the page that will be opened when clicking the control';
+OpenPageTxt: Label 'Open %1', Comment = '%1 is the page that will be opened when clicking the control';
         ApprovalUserSetupLabel: Text;
 
     local procedure NextStep(Backwards: Boolean)

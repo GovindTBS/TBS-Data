@@ -579,17 +579,17 @@ table 472 "Job Queue Entry"
 
     var
         NoErrMsg: Label 'There is no error message.';
-        CannotDeleteEntryErr: Label 'You cannot delete an entry that has status %1.', Comment = '%1 is a status value, such as Success or Error.';
+CannotDeleteEntryErr: Label 'You cannot delete an entry that has status %1.', Comment = '%1 is a status value, such as Success or Error.';
         DeletedEntryErr: Label 'The job queue entry has been deleted.';
-        ScheduledForPostingMsg: Label 'Scheduled for posting on %1 by %2.', Comment = '%1=a date, %2 = a user.';
+ScheduledForPostingMsg: Label 'Scheduled for posting on %1 by %2.', Comment = '%1=a date, %2 = a user.';
         NoRecordErr: Label 'No record is associated with the job queue entry.';
         RequestPagesOptionsDeletedMsg: Label 'You have cleared the report parameters. Select the check box in the field to show the report request page again.';
-        ExpiresBeforeStartErr: Label '%1 must be later than %2.', Comment = '%1 = Expiration Date, %2=Start date';
+ExpiresBeforeStartErr: Label '%1 must be later than %2.', Comment = '%1 = Expiration Date, %2=Start date';
         UserSessionJobsCannotBeRecurringErr: Label 'You cannot set up recurring user session job queue entries.';
         NoPrintOnSaaSMsg: Label 'You cannot select a printer from this online product. Instead, save as PDF, or another format, which you can print later.\\The output type has been set to PDF.';
         LastJobQueueLogEntryNo: Integer;
-        ObjNotFoundErr: Label 'There is no Object with ID %1.', Comment = '%1=Object Id.';
-        NoPermissionsErr: Label 'You are not allowed to schedule background tasks. Ask your system administrator to give you permission to do so. Specifically, you need Insert, Modify and Delete Permissions for the %1 table.', Comment = '%1 Table Name';
+ObjNotFoundErr: Label 'There is no Object with ID %1.', Comment = '%1=Object Id.';
+NoPermissionsErr: Label 'You are not allowed to schedule background tasks. Ask your system administrator to give you permission to do so. Specifically, you need Insert, Modify and Delete Permissions for the %1 table.', Comment = '%1 Table Name';
         ReportOutputTypeCannotBeNoneErr: Label 'You cannot set the report output to None because users can view the report. Use the None option when the report does something in the background. For example, when it is part of a batch job.';
         CustomLayoutReportCanHaveLimitedOutputTypeErr: Label 'This report uses a custom layout. To view the report you can open it in Word, print it, or save it as PDF.';
 

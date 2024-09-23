@@ -136,7 +136,7 @@ table 333 "Column Layout Name"
         ConfigPackageField: Record "Config. Package Field";
         ConfigPackageFilter: Record "Config. Package Filter";
         ConfigPackageManagement: Codeunit "Config. Package Management";
-        PackageNameTxt: Label 'Column Definition - %1', Comment = '%1 - The name of the exported column definition';
+PackageNameTxt: Label 'Column Definition - %1', Comment = '%1 - The name of the exported column definition';
         PackageCodeTok: Label 'COL.DEF.%1', Locked = true;
     begin
         PackageCode := CopyStr(StrSubstNo(PackageCodeTok, ColumnLayoutNameCode), 1, MaxStrLen(PackageCode));

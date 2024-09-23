@@ -58,8 +58,8 @@ page 5329 "CRM Redirect"
         FilterRegexTok: Label '%1: ([A-Za-z0-9\-].+)', Locked = true;
         CRMInfoRegexTok: Label 'CRMID:(\{[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\});CRMType:([a-z0-9_ \/]*)\z', Locked = true;
         InvalidFilterErr: Label 'The URL contains an incorrectly formatted filter string and cannot be processed.';
-        InvalidCRMIDErr: Label 'The %2 ID in the URL is not correctly formatted: %1.', Comment = '%1 = Whatever was passed as Dataverse ID in the filter, but clearly not an actual Dataverse ID. %2 = Dataverse service name';
-        CRMIntegrationNotEnabledErr: Label 'Integration with %1 or %2 is not enabled.', Comment = '%1 = CRM product name. %2 = Dataverse product name';
+InvalidCRMIDErr: Label 'The %2 ID in the URL is not correctly formatted: %1.', Comment = '%1 = Whatever was passed as Dataverse ID in the filter, but clearly not an actual Dataverse ID. %2 = Dataverse service name';
+CRMIntegrationNotEnabledErr: Label 'Integration with %1 or %2 is not enabled.', Comment = '%1 = CRM product name. %2 = Dataverse product name';
         NoCoupledEntityErr: Label 'Coupled record not found. Check integration synchronization errors if you have turned Synch. Only Coupled Records off.';
 
     procedure ExtractCRMInfoFromFilters() CRMInfo: Text

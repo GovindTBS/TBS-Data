@@ -22,7 +22,7 @@ codeunit 7802 "Azure Functions OAuth2" implements "Azure Functions Authenticatio
         ClientIdGlobal, OAuthAuthorityUrlGlobal, RedirectURLGlobal, ResourceURLGlobal : Text;
         ClientSecretGlobal: SecretText;
         AccessToken: SecretText;
-        BearerLbl: Label 'Bearer %1', Comment = '%1 is the access token', Locked = true;
+BearerLbl: Label 'Bearer %1', Comment = '%1 is the access token', Locked = true;
         FailedToGetTokenErr: Label 'Authorization failed to Azure function: %1', Locked = true;
         AzureFunctionCategoryLbl: Label 'Connect to Azure Functions', Locked = true;
 

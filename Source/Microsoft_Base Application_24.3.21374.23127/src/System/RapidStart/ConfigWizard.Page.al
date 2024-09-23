@@ -310,11 +310,11 @@ page 8629 "Config. Wizard"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Step 4', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Step 4', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Apply Package_Promoted"; "Apply Package")
                 {
@@ -325,7 +325,7 @@ page 8629 "Config. Wizard"
             }
             group(Category_Category5)
             {
-                Caption = 'Step 5', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Step 5', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Users_Promoted; Users)
                 {

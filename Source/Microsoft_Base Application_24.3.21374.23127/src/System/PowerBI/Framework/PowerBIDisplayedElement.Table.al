@@ -82,14 +82,14 @@ table 6312 "Power BI Displayed Element"
     }
 
     var
-        ReportVisualKeyTok: Label '%1|%2|%3', Locked = true, Comment = '%1=Report ID; %2=Page name; %3=Visual name';
-        DashboardTileKeyTok: Label '%1|%2', Locked = true, Comment = '%1=Dashboard ID; %2=Dashboard tile ID';
+ReportVisualKeyTok: Label '%1|%2|%3', Locked = true, Comment = '%1=Report ID; %2=Page name; %3=Visual name';
+DashboardTileKeyTok: Label '%1|%2', Locked = true, Comment = '%1=Dashboard ID; %2=Dashboard tile ID';
         EmptyReportIdErr: Label 'The Power BI report ID cannot be empty.';
         EmptyPageOrVisualErr: Label 'The Power BI page name and visual name cannot be empty.';
         EmptyDashboardIdErr: Label 'The Power BI dashboard ID cannot be empty.';
         EmptyDashboardTileIdErr: Label 'The Power BI dashboard tile ID cannot be empty.';
         CharNotSupportedErr: Label 'The specified report page or report visual contains unsupported characters.';
-        WrongKeyFormatErr: Label 'We cannot display your Power BI %1, because of a mismatch in the expected IDs (%2 IDs were provided, but we expected %3). Try again, or contact your %4 partner for guidance.', Comment = '%1, %3: two numbers, for example 1 and 3. %2: an element type, such as Dashboard or Report. %4: the product name, Business Central';
+WrongKeyFormatErr: Label 'We cannot display your Power BI %1, because of a mismatch in the expected IDs (%2 IDs were provided, but we expected %3). Try again, or contact your %4 partner for guidance.', Comment = '%1, %3: two numbers, for example 1 and 3. %2: an element type, such as Dashboard or Report. %4: the product name, Business Central';
 
     procedure MakeReportKey(ReportId: Guid): Text[2048]
     begin

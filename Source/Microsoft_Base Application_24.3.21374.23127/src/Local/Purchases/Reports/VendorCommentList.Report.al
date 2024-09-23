@@ -12,7 +12,7 @@ report 10104 "Vendor Comment List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Local/Purchases/Reports/VendorCommentList.rdlc';
-    Caption = 'Vendor Comment List';
+Caption = 'Vendor Comment List';
     UsageCategory = ReportsAndAnalysis;
 
     dataset

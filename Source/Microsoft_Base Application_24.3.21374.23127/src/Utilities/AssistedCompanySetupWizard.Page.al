@@ -409,10 +409,10 @@ page 1803 "Assisted Company Setup Wizard"
         LogoPositionOnDocumentsShown: Boolean;
         ShowBankAccountCreationWarning: Boolean;
         InvalidPhoneNumberErr: Label 'The phone number is invalid.';
-        BankAccountLinkingFailedMsg: Label 'Linking the company bank account failed with the following message:\''%1''\Link the company bank account from the Bank Accounts page.', Comment = '%1 - an error message';
+BankAccountLinkingFailedMsg: Label 'Linking the company bank account failed with the following message:\''%1''\Link the company bank account from the Bank Accounts page.', Comment = '%1 - an error message';
         GraphURLEndpointLbl: Label '%1v1.0/organization', Locked = true;
         ResourceNameTxt: Label 'Azure Service', Locked = true;
-        BearerLbl: Label 'Bearer %1', Comment = '%1 = Access Token', Locked = true;
+BearerLbl: Label 'Bearer %1', Comment = '%1 = Access Token', Locked = true;
 
     local procedure NextStep(Backwards: Boolean)
     begin

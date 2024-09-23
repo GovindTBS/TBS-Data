@@ -253,7 +253,7 @@ page 99000760 "Machine Center Card"
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "No." = field("No.");
                     RunPageView = where("Table Name" = const("Machine Center"));
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Lo&ad")
                 {
@@ -320,7 +320,7 @@ page 99000760 "Machine Center Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Lo&ad_Promoted"; "Lo&ad")
                 {
@@ -334,11 +334,11 @@ page 99000760 "Machine Center Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Machine Center', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Machine Center', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {

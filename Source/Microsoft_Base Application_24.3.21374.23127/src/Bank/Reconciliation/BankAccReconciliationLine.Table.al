@@ -341,12 +341,12 @@ table 274 "Bank Acc. Reconciliation Line"
         DimMgt: Codeunit DimensionManagement;
         ConfirmManagement: Codeunit "Confirm Management";
 
-        YouCannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 - Table name';
+YouCannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 - Table name';
         AmountWithinToleranceRangeTok: Label '>=%1&<=%2', Locked = true;
         AmountOustideToleranceRangeTok: Label '<%1|>%2', Locked = true;
         TransactionAmountMustNotBeZeroErr: Label 'The Transaction Amount field must have a value that is not 0.';
-        CreditTheAccountQst: Label 'The remaining amount to apply is %2.\\Do you want to create a new payment application line that will debit or credit %1 with the remaining amount when you post the payment?', Comment = '%1 is the account name, %2 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)';
-        ExcessiveAmountErr: Label 'The remaining amount to apply is %1.', Comment = '%1 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)';
+CreditTheAccountQst: Label 'The remaining amount to apply is %2.\\Do you want to create a new payment application line that will debit or credit %1 with the remaining amount when you post the payment?', Comment = '%1 is the account name, %2 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)';
+ExcessiveAmountErr: Label 'The remaining amount to apply is %1.', Comment = '%1 is the amount that is not applied (there is filed on the page named Remaining Amount To Apply)';
         ImportPostedTransactionsQst: Label 'The bank statement contains payments that are already applied, but the related bank account ledger entries are not closed.\\Do you want to include these payments in the import?';
         ICPartnerAccountTypeQst: Label 'The resulting entry will be of type IC Transaction, but no Intercompany Outbox transaction will be created. \\Do you want to use the IC Partner account type anyway?';
         AppliedEntriesFilterLbl: Label '|%1', Locked = true;

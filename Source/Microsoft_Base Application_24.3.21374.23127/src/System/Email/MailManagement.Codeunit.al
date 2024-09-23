@@ -24,7 +24,7 @@ codeunit 9520 "Mail Management"
         TempEmailModuleAccount: Record "Email Account" temporary;
         TempEmailItem: Record "Email Item" temporary;
         ClientTypeManagement: Codeunit "Client Type Management";
-        InvalidEmailAddressErr: Label 'The email address "%1" is not valid.', Comment = '%1 - Recipient email address';
+InvalidEmailAddressErr: Label 'The email address "%1" is not valid.', Comment = '%1 - Recipient email address';
         HideMailDialog: Boolean;
         Cancelled: Boolean;
         MailSent: Boolean;
@@ -37,9 +37,9 @@ codeunit 9520 "Mail Management"
         CannotSendMailThenDownloadQst: Label 'Do you want to download the attachment?';
         CannotSendMailThenDownloadErr: Label 'You cannot send the email.\Verify that the email settings are correct.';
         HideEmailSendingError: Boolean;
-        NoScenarioDefinedErr: Label 'No email account defined for the scenario ''%1''. Please, register an account on the ''Email Accounts'' page and assign scenario ''%1'' to it on the ''Email Scenario Setup'' page. Mark one of the accounts as the default account to use it for all scenarios that are not explicitly defined.', Comment = '%1 - The email scenario, for example, Sales Invoice';
+NoScenarioDefinedErr: Label 'No email account defined for the scenario ''%1''. Please, register an account on the ''Email Accounts'' page and assign scenario ''%1'' to it on the ''Email Scenario Setup'' page. Mark one of the accounts as the default account to use it for all scenarios that are not explicitly defined.', Comment = '%1 - The email scenario, for example, Sales Invoice';
         NoDefaultScenarioDefinedErr: Label 'The default account is not selected. Please, register an account on the ''Email Accounts'' page and mark it as the default account on the ''Email Scenario Setup'' page.';
-        EmailScenarioMsg: Label 'Sending email using scenario: %1.', Comment = '%1 - Email scenario (e. g. sales order)', Locked = true;
+EmailScenarioMsg: Label 'Sending email using scenario: %1.', Comment = '%1 - Email scenario (e. g. sales order)', Locked = true;
         EmailManagementCategoryTxt: Label 'EmailManagement', Locked = true;
         CurrentEmailScenario: Enum "Email Scenario";
 

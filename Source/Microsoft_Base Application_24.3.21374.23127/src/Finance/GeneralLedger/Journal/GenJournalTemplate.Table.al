@@ -366,8 +366,8 @@ table 80 "Gen. Journal Template"
         GenJnlLine: Record "Gen. Journal Line";
         GenJnlAlloc: Record "Gen. Jnl. Allocation";
         SourceCodeSetup: Record "Source Code Setup";
-        RecurringJnlFieldErr: Label 'Only the %1 field can be filled in on recurring journals.', comment = '%1 = a field name';
-        ValueNotAllowedFieldErr: Label 'must not be %1', comment = '%1 = a field value';
+RecurringJnlFieldErr: Label 'Only the %1 field can be filled in on recurring journals.', comment = '%1 = a field name';
+ValueNotAllowedFieldErr: Label 'must not be %1', comment = '%1 = a field value';
 
     local procedure CheckGLAcc(AccNo: Code[20])
     var

@@ -382,7 +382,7 @@ page 76 "Resource Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Resource),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Attachments)
                 {
@@ -462,7 +462,7 @@ page 76 "Resource Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     action(ManageCRMCoupling)
@@ -568,7 +568,7 @@ page 76 "Resource Card"
                 }
                 group(FSCoupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     ObsoleteReason = 'Field Service is moved to Field Service Integration app.';
@@ -852,7 +852,7 @@ page 76 "Resource Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CreateTimeSheets_Promoted; CreateTimeSheets)
                 {
@@ -860,7 +860,7 @@ page 76 "Resource Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Resource', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Resource', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {
@@ -924,16 +924,16 @@ page 76 "Resource Card"
             }
             group(Category_Category7)
             {
-                Caption = 'Planning', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Planning', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Resource Statistics_Promoted"; "Resource Statistics")
                 {

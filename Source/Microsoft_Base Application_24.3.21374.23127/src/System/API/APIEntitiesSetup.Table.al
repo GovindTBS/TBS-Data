@@ -42,7 +42,7 @@ table 5466 "API Entities Setup"
     end;
 
     var
-        DefaultCustomerPaymentsBatchNameTxt: Label 'GENERAL', Comment = 'It should be translated the same way as Default Journal Batch Name';
+DefaultCustomerPaymentsBatchNameTxt: Label 'GENERAL', Comment = 'It should be translated the same way as Default Journal Batch Name';
 
     procedure SafeGet()
     begin

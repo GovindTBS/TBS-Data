@@ -10,7 +10,7 @@ codeunit 9173 "Profile Helper"
         NavDesignerALProfileImporter: DotNet NavDesignerALProfileImporter;
         ProfileConfigurationInputStream: InStream;
         TempFile: File;
-        ImportProfileTxt: Label 'Importing profile %1 of %2\Profile: %3', Comment = '%1 and %2 are numbers, %3 is the name of a profile';
+ImportProfileTxt: Label 'Importing profile %1 of %2\Profile: %3', Comment = '%1 and %2 are numbers, %3 is the name of a profile';
         ImportSuccessTxt: Label 'The profile was successfully imported.';
         ShowDiagnosticsTxt: Label 'Show diagnostics';
 

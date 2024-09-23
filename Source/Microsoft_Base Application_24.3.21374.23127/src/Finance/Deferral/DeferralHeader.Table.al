@@ -168,7 +168,7 @@ table 1701 "Deferral Header"
         DeferralUtilities: Codeunit "Deferral Utilities";
 
         AmountToDeferErr: Label 'The deferred amount cannot be greater than the document line amount.';
-        InvalidPostingDateErr: Label '%1 is not within the range of posting dates for your company.', Comment = '%1=The date passed in for the posting date.';
+InvalidPostingDateErr: Label '%1 is not within the range of posting dates for your company.', Comment = '%1=The date passed in for the posting date.';
         DeferSchedOutOfBoundsErr: Label 'The deferral schedule falls outside the accounting periods that have been set up for the company.';
         SelectionMsg: Label 'You must specify a deferral code for this line before you can view the deferral schedule.';
         NumberofPeriodsErr: Label 'You must specify one or more periods.';

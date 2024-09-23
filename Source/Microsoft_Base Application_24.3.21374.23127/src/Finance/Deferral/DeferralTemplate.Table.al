@@ -114,7 +114,7 @@ table 1700 "Deferral Template"
     end;
 
     var
-        CannotDeleteCodeErr: Label '%1 cannot be deleted because it is set as the default deferral template code for %2 %3.', Comment = '%1=Value of code that is attempting to be deleted;%2=Table caption;%3=Value for the code in the table';
+CannotDeleteCodeErr: Label '%1 cannot be deleted because it is set as the default deferral template code for %2 %3.', Comment = '%1=Value of code that is attempting to be deleted;%2=Table caption;%3=Value for the code in the table';
         DeferralPercentageErr: Label 'The deferral percentage must be greater than 0 and less than 100.';
         NumberofPeriodsErr: Label 'You must specify one or more periods.';
 }

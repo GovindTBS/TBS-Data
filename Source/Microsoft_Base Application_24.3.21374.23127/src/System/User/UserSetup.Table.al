@@ -366,7 +366,7 @@ table 91 "User Setup"
         Text001: Label 'The %1 Salesperson/Purchaser code is already assigned to another User ID %2.';
         Text003: Label 'You cannot have both a %1 and %2. ';
         Text005: Label 'You cannot have approval limits less than zero.';
-        PrivacyBlockedGenericErr: Label 'Privacy Blocked must not be true for Salesperson / Purchaser %1.', Comment = '%1 = salesperson / purchaser code.';
+PrivacyBlockedGenericErr: Label 'Privacy Blocked must not be true for Salesperson / Purchaser %1.', Comment = '%1 = salesperson / purchaser code.';
         PhoneNoCannotContainLettersErr: Label 'must not contain letters';
 
     procedure CreateApprovalUserSetup(User: Record User)

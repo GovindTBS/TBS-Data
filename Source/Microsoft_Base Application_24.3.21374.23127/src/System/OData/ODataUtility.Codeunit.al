@@ -84,11 +84,11 @@ codeunit 6710 ODataUtility
         UpTo30StaticTxt: Label 'Up to 30 Days', Locked = true;
         Days31To60StaticTxt: Label '31-60 Days', Locked = true;
         Over60StaticTxt: Label 'Over 60 Days', Locked = true;
-        WebServiceErr: Label 'The webservice %1 required for this excel report is missing.', Comment = '%1 - Web service name';
+WebServiceErr: Label 'The webservice %1 required for this excel report is missing.', Comment = '%1 - Web service name';
         ODataUtilityTelemetryCategoryTxt: Label 'AL OData Utility', Locked = true;
         NoTokenForMetadataTelemetryErr: Label 'Access token could not be retrieved.', Locked = true;
-        FailedToSendRequestErr: Label 'The request could not be sent. Details: %1.', Comment = '%1 = a more detailed error message';
-        ErrorStatusCodeReturnedErr: Label 'The request failed with status code: %1.', Comment = '%1 = a http status code, for example 401';
+FailedToSendRequestErr: Label 'The request could not be sent. Details: %1.', Comment = '%1 = a more detailed error message';
+ErrorStatusCodeReturnedErr: Label 'The request failed with status code: %1.', Comment = '%1 = a http status code, for example 401';
         BearerTokenTemplateTxt: Label 'Bearer %1', Locked = true;
         CallingEndpointTxt: Label 'Calling endpoint %1 with correlation id %2', Locked = true;
         EditInExcelUsageWithCentralizedDeploymentsTxt: Label 'Edit in Excel invoked with "Use Centralized deployments" = %1', Locked = true;

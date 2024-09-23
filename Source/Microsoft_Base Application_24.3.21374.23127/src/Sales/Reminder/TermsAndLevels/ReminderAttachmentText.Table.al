@@ -106,7 +106,7 @@ table 502 "Reminder Attachment Text"
         DefaultFileNameLbl: Label 'Reminder';
         MissingIDErr: Label 'A reminder attachment text cannot be created without an ID.';
         MissingLanguageCodeErr: Label 'A reminder attachment text cannot be created without a language code.';
-        AlreadyExistsSelectedLanguageErr: Label 'There is already a reminder attachment text for the selected language %1. Remove the existing personalization before setting the default communication for that language.', Comment = '%1 = Language Code';
+AlreadyExistsSelectedLanguageErr: Label 'There is already a reminder attachment text for the selected language %1. Remove the existing personalization before setting the default communication for that language.', Comment = '%1 = Language Code';
 
     procedure SetDefaultContentForNewLanguage(SelectedId: Guid; SourceType: Enum "Reminder Text Source Type")
     var

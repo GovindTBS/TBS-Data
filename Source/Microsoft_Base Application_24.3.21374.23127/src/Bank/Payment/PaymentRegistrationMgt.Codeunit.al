@@ -29,7 +29,7 @@ codeunit 980 "Payment Registration Mgt."
     var
         DocumentErrorsMgt: Codeunit "Document Errors Mgt.";
         EmptyDateReceivedErr: Label 'Date Received is missing for line with Document No. %1.';
-        ConfirmPostPaymentsQst: Label 'Do you want to post the %1 payments?', Comment = '%1=number of payments to post';
+ConfirmPostPaymentsQst: Label 'Do you want to post the %1 payments?', Comment = '%1=number of payments to post';
         CloseQst: Label 'The %1 check box is selected on one or more lines. Do you want to close the window without posting these lines?';
         TempTableErr: Label 'The table passed as a parameter must be temporary.';
         SalesOrderTxt: Label 'Sales Order';
@@ -46,8 +46,8 @@ codeunit 980 "Payment Registration Mgt."
         FinChrgMemoTxt: Label 'Finance Charge Memo ';
         DistinctDateReceivedErr: Label 'To post as a lump payment, the %1 field must have the same value in all lines where the %2 check box is selected.';
         DistinctCustomerErr: Label 'To post as lump payment, the customer must be same value on all lines where the %1 check box is selected.';
-        ConfirmLumpPaymentQst: Label 'Do you want to post the %1 payments as a lump sum of %2?', Comment = '%1=number of payments to post, %2 sum of amount received.';
-        ForeignCurrNotSuportedErr: Label 'The document with type %1 and description %2 must have the same currency code as the payment you are registering.\\To register the payment, you must change %3 to use a balancing account with the same currency as the document. Alternatively, use the Cash Receipt Journal page to process the payment.', Comment = '%1 = Document Type; %2 = Description; %3 = Payment Registration Setup; Cash Receipt Journal should have the same translation as the pages with the same name.';
+ConfirmLumpPaymentQst: Label 'Do you want to post the %1 payments as a lump sum of %2?', Comment = '%1=number of payments to post, %2 sum of amount received.';
+ForeignCurrNotSuportedErr: Label 'The document with type %1 and description %2 must have the same currency code as the payment you are registering.\\To register the payment, you must change %3 to use a balancing account with the same currency as the document. Alternatively, use the Cash Receipt Journal page to process the payment.', Comment = '%1 = Document Type; %2 = Description; %3 = Payment Registration Setup; Cash Receipt Journal should have the same translation as the pages with the same name.';
         PreviewMode: Boolean;
         AsLumpPreviewContext: Boolean;
 

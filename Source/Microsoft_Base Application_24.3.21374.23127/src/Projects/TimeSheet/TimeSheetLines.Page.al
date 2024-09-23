@@ -303,7 +303,7 @@ page 949 "Time Sheet Lines"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
 #if not CLEAN24
                 actionref(LoadMoreLines_Promoted; LoadMoreLines)

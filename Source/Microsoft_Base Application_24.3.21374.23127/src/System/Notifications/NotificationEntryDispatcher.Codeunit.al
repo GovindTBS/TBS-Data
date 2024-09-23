@@ -30,9 +30,9 @@ codeunit 1509 "Notification Entry Dispatcher"
         NotificationManagement: Codeunit "Notification Management";
         NotificationMailSubjectTxt: Label 'Notification overview';
         NoEmailAccountsErr: Label 'Cannot send the email. No email accounts have been added.';
-        EmailBodyFailedToGenerateErr: Label 'Notification (%1)''s email body failed to generate due to: %2', Comment = '%1 = Notification Entry ID, %2 = Error message';
-        EmailFailedToSendErr: Label 'Notification (%1)''s email failed to send due to: %2', Comment = '%1 = Notification Entry ID, %2 = Error message';
-        NoteFailedToAddErr: Label 'Notification (%1)''s note failed to add due to: %2', Comment = '%1 = Notification Entry ID, %2 = Error message';
+EmailBodyFailedToGenerateErr: Label 'Notification (%1)''s email body failed to generate due to: %2', Comment = '%1 = Notification Entry ID, %2 = Error message';
+EmailFailedToSendErr: Label 'Notification (%1)''s email failed to send due to: %2', Comment = '%1 = Notification Entry ID, %2 = Error message';
+NoteFailedToAddErr: Label 'Notification (%1)''s note failed to add due to: %2', Comment = '%1 = Notification Entry ID, %2 = Error message';
         HtmlBodyFilePath: Text;
 
     local procedure DispatchInstantNotifications()

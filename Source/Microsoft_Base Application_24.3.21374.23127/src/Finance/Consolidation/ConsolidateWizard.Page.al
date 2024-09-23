@@ -461,8 +461,8 @@ page 242 "Consolidate Wizard"
         NoBusinessUnitsToConsolidateErr: Label 'There are no business units configured for consolidation. You can enable the field "Consolidate" in each of the business unit''s setup page.';
         ConsolidationScheduledMsg: Label 'The consolidation has been succesful. The current consolidation company has imported the entries from the selected business units. You can use reports like the "Consolidated Trial Balance" to view the consolidated entries';
         AccessIsAlreadyGrantedMsg: Label 'Access is already granted.';
-        DescriptionTxt: Label 'Select the business units to consolidate in the period %1..%2 with the column "Consolidate".', Comment = '%1 - starting date, %2 - ending date';
-        DescriptionMissingAuthTxt: Label 'The business units %1 have not been granted access. Select each of them and use the action "Grant Access" to authenticate into these companies.', Comment = '%1 - list of comma separated business units'' codes';
+DescriptionTxt: Label 'Select the business units to consolidate in the period %1..%2 with the column "Consolidate".', Comment = '%1 - starting date, %2 - ending date';
+DescriptionMissingAuthTxt: Label 'The business units %1 have not been granted access. Select each of them and use the action "Grant Access" to authenticate into these companies.', Comment = '%1 - list of comma separated business units'' codes';
         NoDimensionsInConsolidationCompanyErr: Label 'There are no dimensions configured for the current consolidation company. You can add and configure dimensions in the "Dimensions" page.';
         SelectOneBusinessUnitToProvideAccessErr: Label 'Select only one business unit to provide access to.';
         NotPossibleToGetTokenMsg: Label 'It was not possible to get authorization for this business unit. You can verify the setup in the Business Unit Card page.';

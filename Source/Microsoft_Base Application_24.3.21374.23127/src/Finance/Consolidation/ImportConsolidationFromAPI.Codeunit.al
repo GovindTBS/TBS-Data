@@ -25,21 +25,21 @@ codeunit 102 "Import Consolidation from API" implements "Import Consolidation Da
         BusinessUnitAPIBaseUrl: Text;
         LogRequests: Boolean;
         UrlNotBCMsg: Label 'The URL provided is not in the businesscentral.dynamics.com domain. Do you want to continue?';
-        BusinessUnitNotConfiguredForAPIErr: Label 'Business unit %1 is not configured for API import. You can configure it in the "Business Unit" card page.', Comment = '%1 - Business unit code';
-        EntriesAtClosingDateErr: Label 'Entries posted in a closing date %1 were found while consolidating G/L account %2', Comment = '%1 - Closing date, %2 - G/L account no.';
-        APIStatusCodeErr: Label 'API call to subsidiary BC company failed with status code %1 - %2', Comment = '%1 - Status code, %2 - Status text';
+BusinessUnitNotConfiguredForAPIErr: Label 'Business unit %1 is not configured for API import. You can configure it in the "Business Unit" card page.', Comment = '%1 - Business unit code';
+EntriesAtClosingDateErr: Label 'Entries posted in a closing date %1 were found while consolidating G/L account %2', Comment = '%1 - Closing date, %2 - G/L account no.';
+APIStatusCodeErr: Label 'API call to subsidiary BC company failed with status code %1 - %2', Comment = '%1 - Status code, %2 - Status text';
         APITooManyRequestsErr: Label 'Too many requests to subsidiary BC company''s API. Attempt the consolidation when no other processes are using the APIs or configure the thresholds in the "Consolidation Setup" page.';
-        APIGetSingleGotOtherErr: Label 'API call expected 1 result, got %1', Comment = '%1 - Number of results';
+APIGetSingleGotOtherErr: Label 'API call expected 1 result, got %1', Comment = '%1 - Number of results';
         NeedSelectCompanyErr: Label 'You need to select a company to extract data from.';
         SelectOnlyOneCompanyErr: Label 'You can only select one company per business unit.';
         PrivacyConsentNoGUIErr: Label 'Getting privacy consent requires user interaction.';
-        BusinessUnitConsentErr: Label 'The business unit %1 needs to consent for their data to be transferred to the consolidation company. Open the page Consolidation Setup in that company and enable the company as subsidiary.', Comment = '%1 - Business unit code';
-        ExchangeRateNotDefinedInBusinessUnitErr: Label 'Exchange rate for %1 is not defined in Business Unit.', Comment = '%1 - Currency Code';
-        PostingDateFilterTok: Label 'postingDate ge %1 and postingDate le %2', Locked = true, Comment = '%1 - Starting date, %2 - Ending date';
-        CurrencyCodeFilterTok: Label 'currencyCode eq ''%1''', Locked = true, Comment = '%1 - Currency code';
-        DimensionCodeFilterTok: Label 'code eq ''%1''', Locked = true, Comment = '%1 - Dimension code';
-        DimensionConsolidationCodeFilterTok: Label 'consolidationCode eq ''%1''', Locked = true, Comment = '%1 - Dimension code';
-        GLAccountFilterTok: Label 'accountNumber eq ''%1''', Locked = true, Comment = '%1 - G/L account no.';
+BusinessUnitConsentErr: Label 'The business unit %1 needs to consent for their data to be transferred to the consolidation company. Open the page Consolidation Setup in that company and enable the company as subsidiary.', Comment = '%1 - Business unit code';
+ExchangeRateNotDefinedInBusinessUnitErr: Label 'Exchange rate for %1 is not defined in Business Unit.', Comment = '%1 - Currency Code';
+PostingDateFilterTok: Label 'postingDate ge %1 and postingDate le %2', Locked = true, Comment = '%1 - Starting date, %2 - Ending date';
+CurrencyCodeFilterTok: Label 'currencyCode eq ''%1''', Locked = true, Comment = '%1 - Currency code';
+DimensionCodeFilterTok: Label 'code eq ''%1''', Locked = true, Comment = '%1 - Dimension code';
+DimensionConsolidationCodeFilterTok: Label 'consolidationCode eq ''%1''', Locked = true, Comment = '%1 - Dimension code';
+GLAccountFilterTok: Label 'accountNumber eq ''%1''', Locked = true, Comment = '%1 - G/L account no.';
         ClientIdAKVKeyTok: Label 'bctobc-finconsolid-clientid', Locked = true;
         ClientCertificateAKVKeyTok: Label 'bctobc-finconsolid-clientcertname', Locked = true;
         ClientSecretAKVKeyTok: Label 'bctobc-finconsolid-clientsecret', Locked = true;
@@ -57,7 +57,7 @@ codeunit 102 "Import Consolidation from API" implements "Import Consolidation Da
         ApiVersionTok: Label 'v2.0', Locked = true;
         CompaniesEndpointSegmentTok: Label '/companies', Locked = true;
         CurrencyExchangeRatesSegmentTok: Label '/currencyExchangeRates', Locked = true;
-        LastCurrencyExchangeRateQueryOptionsTok: Label '$filter=%1 and startingDate le %2&$orderby=startingDate desc&$top=1&$count=true', Locked = true, Comment = '%1 - Currency code filter, %2 - Date';
+LastCurrencyExchangeRateQueryOptionsTok: Label '$filter=%1 and startingDate le %2&$orderby=startingDate desc&$top=1&$count=true', Locked = true, Comment = '%1 - Currency code filter, %2 - Date';
 
     internal procedure GetPrivacyConsentChoice(): Boolean
     var

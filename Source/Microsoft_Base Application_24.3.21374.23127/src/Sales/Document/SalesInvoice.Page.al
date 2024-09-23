@@ -1245,7 +1245,7 @@ page 43 "Sales Invoice"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Approvals)
                 {
@@ -1387,9 +1387,9 @@ page 43 "Sales Invoice"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -1834,11 +1834,11 @@ page 43 "Sales Invoice"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category5)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -1856,7 +1856,7 @@ page 43 "Sales Invoice"
                 }
                 group(Category_Category8)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 7.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -1869,7 +1869,7 @@ page 43 "Sales Invoice"
             }
             group(Category_Category6)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(CopyDocument_Promoted; CopyDocument)
                 {
@@ -1914,7 +1914,7 @@ page 43 "Sales Invoice"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1931,7 +1931,7 @@ page 43 "Sales Invoice"
             }
             group(Category_Category9)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1942,7 +1942,7 @@ page 43 "Sales Invoice"
             }
             group(Category_Category7)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1968,15 +1968,15 @@ page 43 "Sales Invoice"
             }
             group(Category_Category10)
             {
-                Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 9.';
             }
             group(Category_Category11)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 10.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 10.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -2122,7 +2122,7 @@ page 43 "Sales Invoice"
         PaymentServiceEnabled: Boolean;
         IsPostingGroupEditable: Boolean;
         SureToRejectMsg: Label 'Rejecting this order will remove it from your company and send it back to the partner company.\\Do you want to continue?';
-        OpenPostedSalesInvQst: Label 'The invoice is posted as number %1 and moved to the Posted Sales Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
+OpenPostedSalesInvQst: Label 'The invoice is posted as number %1 and moved to the Posted Sales Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
         IsCustomerOrContactNotEmpty: Boolean;
         ShowQuoteNo: Boolean;
         JobQueuesUsed: Boolean;

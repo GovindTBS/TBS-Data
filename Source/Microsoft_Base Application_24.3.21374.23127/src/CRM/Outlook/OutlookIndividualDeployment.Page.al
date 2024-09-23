@@ -429,7 +429,7 @@ page 1832 "Outlook Individual Deployment"
         DeployAccountMsg: Label 'Deploying add-in for your account.';
         DeploySampleMailMsg: Label 'Deploying sample email to your mailbox.';
         DeployingCompletedMsg: Label 'Deploying completed.';
-        DeplyingFailedMsg: Label 'Deploying failed. Error: %1', Comment = '%1 last error text';
+DeplyingFailedMsg: Label 'Deploying failed. Error: %1', Comment = '%1 last error text';
         ProgressTemplateMsg: Label '#1##########\@2@@@@@@@@@@', Locked = true;
         VideoFwdLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2165118', Locked = true;
         LearnMoreFwdLinkTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2102702', Locked = true;

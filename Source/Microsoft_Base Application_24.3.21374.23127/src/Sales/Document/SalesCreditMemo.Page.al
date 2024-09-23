@@ -908,7 +908,7 @@ page 44 "Sales Credit Memo"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Approvals)
                 {
@@ -1043,9 +1043,9 @@ page 44 "Sales Credit Memo"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -1416,11 +1416,11 @@ page 44 "Sales Credit Memo"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category6)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -1435,7 +1435,7 @@ page 44 "Sales Credit Memo"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -1451,7 +1451,7 @@ page 44 "Sales Credit Memo"
             }
             group(Category_Category7)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(CopyDocument_Promoted; CopyDocument)
                 {
@@ -1488,7 +1488,7 @@ page 44 "Sales Credit Memo"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1505,7 +1505,7 @@ page 44 "Sales Credit Memo"
             }
             group(Category_Category9)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1516,7 +1516,7 @@ page 44 "Sales Credit Memo"
             }
             group(Category_Category8)
             {
-                Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Credit Memo', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {
@@ -1544,11 +1544,11 @@ page 44 "Sales Credit Memo"
             }
             group(Category_Category10)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 9.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1665,7 +1665,7 @@ page 44 "Sales Credit Memo"
         IsPowerAutomatePrivacyNoticeApproved: Boolean;
         OpenApprovalEntriesExist: Boolean;
         ShowWorkflowStatus: Boolean;
-        OpenPostedSalesCrMemoQst: Label 'The credit memo is posted as number %1 and moved to the Posted Sales Credit Memos window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
+OpenPostedSalesCrMemoQst: Label 'The credit memo is posted as number %1 and moved to the Posted Sales Credit Memos window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
         CanCancelApprovalForRecord: Boolean;
         IsCustomerOrContactNotEmpty: Boolean;
         CanRequestApprovalForFlow: Boolean;

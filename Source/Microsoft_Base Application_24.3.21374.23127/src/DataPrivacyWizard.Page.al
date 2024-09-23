@@ -623,11 +623,11 @@ page 1180 "Data Privacy Wizard"
         EntityTypeGlobal: Text[80];
         NextActionEnabled: Boolean;
         ActivityContextTxt: Label 'Privacy Activity';
-        ActivityMessageExportTxt: Label 'Exporting %1 information for %2 %3', Comment = '%1=The type of information being exported. %2=The type of entity. %3=The entity''s control number.';
+ActivityMessageExportTxt: Label 'Exporting %1 information for %2 %3', Comment = '%1=The type of information being exported. %2=The type of entity. %3=The entity''s control number.';
         ActivityDescriptionExportTxt: Label 'Exporting data subject data';
         PreviewActionEnabled: Boolean;
         PackageCode: Code[20];
-        ActivityMessageConfigTxt: Label 'Creating data privacy configuration package for %1 %2', Comment = '%1=The type of entity. %2=The entity''s control number.';
+ActivityMessageConfigTxt: Label 'Creating data privacy configuration package for %1 %2', Comment = '%1=The type of entity. %2=The entity''s control number.';
         ActivityDescriptionConfigTxt: Label 'Creating the data privacy configuration package';
         EditConfigPackage: Boolean;
         OptionsDescriptionTxt: Label '\Choose what you want to do with the privacy data.\\You can export data for a specific data subject, such as a customer.\You can also create a configuration package so that you can view and edit the fields and tables that the data will be exported from.';

@@ -34,13 +34,13 @@ codeunit 1395 "Cancel Issued Fin. Charge Memo"
         FinChargeMemoSourceCode: Code[10];
         TotalAmount: Decimal;
         TotalAmountLCY: Decimal;
-        CancelAppliedEntryErr: Label 'You must unapply customer ledger entry %1 before canceling issued finance charge memo %2.', Comment = '%1 - entry number, %2 - issued finance charge memo number';
-        ShowCustomerLedgerEntryTxt: Label 'Show customer ledger entry %1.', Comment = '%1 - entry number.';
+CancelAppliedEntryErr: Label 'You must unapply customer ledger entry %1 before canceling issued finance charge memo %2.', Comment = '%1 - entry number, %2 - issued finance charge memo number';
+ShowCustomerLedgerEntryTxt: Label 'Show customer ledger entry %1.', Comment = '%1 - entry number.';
         SkipShowNotification: Boolean;
         UseSameDocumentNo: Boolean;
         UseSamePostingDate: Boolean;
         NewPostingDate: Date;
-        MissingFieldNameErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
+MissingFieldNameErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
 
     local procedure CheckIssuedFinChargeMemo(IssuedFinChargeMemoHeader: Record "Issued Fin. Charge Memo Header"): Boolean
     begin

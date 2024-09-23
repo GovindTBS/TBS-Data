@@ -171,11 +171,11 @@ page 5607 "Fixed Asset Setup"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'General', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("FA Classes_Promoted"; "FA Classes")
                 {
@@ -189,7 +189,7 @@ page 5607 "Fixed Asset Setup"
             }
             group(Category_Category5)
             {
-                Caption = 'Depreciation', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Depreciation', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Depreciation Books_Promoted"; "Depreciation Books")
                 {
@@ -200,7 +200,7 @@ page 5607 "Fixed Asset Setup"
             }
             group(Category_Category6)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("FA Posting Type Setup_Promoted"; "FA Posting Type Setup")
                 {
@@ -211,7 +211,7 @@ page 5607 "Fixed Asset Setup"
             }
             group(Category_Category7)
             {
-                Caption = 'Journal Templates', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Journal Templates', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref("FA Journal Templates_Promoted"; "FA Journal Templates")
                 {

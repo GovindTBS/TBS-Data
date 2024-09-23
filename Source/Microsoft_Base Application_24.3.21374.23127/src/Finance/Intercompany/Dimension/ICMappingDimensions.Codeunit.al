@@ -438,9 +438,9 @@ codeunit 446 "IC Mapping Dimensions"
     end;
 
     var
-        FailedToFindPartnerErr: Label 'There is no partner with code %1 in the list of your intercompany partners.', Comment = '%1 = Partner code';
-        InboxTypeNotDatabaseErr: Label 'Syncronization is only available for partners using database as their intercompany inbox type. Partner %1 inbox type is %2', Comment = '%1 = Partner code, %2 = Partner inbox type';
-        FailedToChangeCompanyErr: Label 'It was not possible to find table %1 in partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
-        MissingPermissionToReadTableErr: Label 'You do not have the necessary permissions to access table %1 of partner %2.', Comment = '%1 = Table name, %2 = Partner Code';
+FailedToFindPartnerErr: Label 'There is no partner with code %1 in the list of your intercompany partners.', Comment = '%1 = Partner code';
+InboxTypeNotDatabaseErr: Label 'Syncronization is only available for partners using database as their intercompany inbox type. Partner %1 inbox type is %2', Comment = '%1 = Partner code, %2 = Partner inbox type';
+FailedToChangeCompanyErr: Label 'It was not possible to find table %1 in partner %2.', Comment = '%1 = Table caption, %2 = Partner Code';
+MissingPermissionToReadTableErr: Label 'You do not have the necessary permissions to access table %1 of partner %2.', Comment = '%1 = Table name, %2 = Partner Code';
 }
 #endif

@@ -55,7 +55,7 @@ page 6516 "Package No. Information List"
                 field(Control16; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the comment associated with this line.';
+ToolTip = 'Specifies the comment associated with this line.';
                 }
                 field(Inventory; Rec.Inventory)
                 {
@@ -93,13 +93,13 @@ page 6516 "Package No. Information List"
                 }
                 action(Comment)
                 {
-                    Caption = 'Comment';
+Caption = 'Comment';
                     Image = ViewComments;
                     RunObject = Page "Item Tracking Comments";
                     RunPageLink = "Item No." = field("Item No."),
                                   "Variant Code" = field("Variant Code"),
                                   "Serial/Lot No." = field("Package No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Item Tracing")
                 {
@@ -164,7 +164,7 @@ page 6516 "Package No. Information List"
     end;
 
     var
-        PageCaptionTxt: Label '%1 No. Information List', Comment = '%1 - package caption';
+PageCaptionTxt: Label '%1 No. Information List', Comment = '%1 - package caption';
 
     procedure SetSelection(var PackageNoInfo: Record "Package No. Information")
     begin

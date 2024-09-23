@@ -215,7 +215,7 @@ page 1328 "Purch. Order From Sales Order"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ShowAll_Promoted; ShowAll)
                 {
@@ -226,11 +226,11 @@ page 1328 "Purch. Order From Sales Order"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Item Availability', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Item Availability', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Event_Promoted; "Event")
                 {

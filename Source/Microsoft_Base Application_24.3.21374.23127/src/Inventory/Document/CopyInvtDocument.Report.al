@@ -162,7 +162,7 @@ report 5850 "Copy Invt. Document"
         CopyItemTracking: Boolean;
         CopyAsCorrection: Boolean;
         CopyItemTrackingNotEditable: Boolean;
-        ConvertInvtDocumentTypeFromErr: Label 'Value %1 cannot be converted to enum Invt. Document Type.', Comment = '%1 = document type enum value';
+ConvertInvtDocumentTypeFromErr: Label 'Value %1 cannot be converted to enum Invt. Document Type.', Comment = '%1 = document type enum value';
 
     procedure SetInvtDocHeader(var NewInvtDocHeader: Record "Invt. Document Header")
     begin

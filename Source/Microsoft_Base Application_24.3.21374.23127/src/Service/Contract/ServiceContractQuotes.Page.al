@@ -143,7 +143,7 @@ page 9322 "Service Contract Quotes"
                                   "Table Subtype" = field("Contract Type"),
                                   "No." = field("Contract No."),
                                   "Table Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Service Dis&counts")
                 {

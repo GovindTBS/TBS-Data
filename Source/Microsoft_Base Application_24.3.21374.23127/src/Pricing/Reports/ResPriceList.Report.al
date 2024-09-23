@@ -391,7 +391,7 @@ report 7054 "Res. Price List"
         ParentSourceNo: Code[20];
         SourceNo: Code[20];
         UnitPrice: Decimal;
-        AsOfTok: Label 'As of %1', Comment = '%1 - a date';
+AsOfTok: Label 'As of %1', Comment = '%1 - a date';
         ResourcePriceListCaptionLbl: Label 'Resource - Price List';
         CompanyInfoPhoneNoCaptionLbl: Label 'Phone No.';
         CompanyInfoVATRegistrationNoCaptionLbl: Label 'VAT Reg. No.';

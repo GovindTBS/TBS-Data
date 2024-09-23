@@ -636,8 +636,8 @@ table 5475 "Sales Invoice Entity Aggregate"
         CannotChangeNumberOnNonPostedErr: Label 'The number of the invoice can not be changed.';
         CannotModifyPostedInvoiceErr: Label 'The invoice has been posted and can no longer be modified.', Locked = true;
         IsRenameAllowed: Boolean;
-        SalesTaxOnlyFieldErr: Label 'Current Tax setup is set to VAT. Field %1 can only be used with Sales Tax.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
-        VATOnlyFieldErr: Label 'Current Tax setup is set to Sales Tax. Field %1 can only be used with VAT.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
+SalesTaxOnlyFieldErr: Label 'Current Tax setup is set to VAT. Field %1 can only be used with Sales Tax.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
+VATOnlyFieldErr: Label 'Current Tax setup is set to Sales Tax. Field %1 can only be used with VAT.', Comment = '%1 - Name of the field, e.g. Tax Liable, Tax Group Code, VAT Business posting group';
 
     local procedure UpdateSellToCustomerId()
     var

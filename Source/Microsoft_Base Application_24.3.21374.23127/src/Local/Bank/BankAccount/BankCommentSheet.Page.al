@@ -7,7 +7,7 @@ namespace Microsoft.Bank.BankAccount;
 page 10130 "Bank Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Bank Comment Sheet';
+Caption = 'Bank Comment Sheet';
     DataCaptionFields = "No.";
     DelayedInsert = true;
     MultipleNewLines = true;
@@ -24,17 +24,17 @@ page 10130 "Bank Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

@@ -25,8 +25,8 @@ codeunit 5350 "CRM Statistics Job"
     var
         CRMProductName: Codeunit "CRM Product Name";
 
-        ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
-        RecordFoundTxt: Label '%1 %2 was not found.', Comment = '%1 is a table name, e.g. Customer, %2 is a number, e.g. Customer 12344 was not found.';
+ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
+RecordFoundTxt: Label '%1 %2 was not found.', Comment = '%1 is a table name, e.g. Customer, %2 is a number, e.g. Customer 12344 was not found.';
         AccountStatisticsUpdatedMsg: Label 'Updated account statistics. ';
         InvoiceStatusUpdatedMsg: Label 'Updated payment status of sales invoices.';
         StartingToRefreshCustomerStatisticsMsg: Label 'Starting to refresh customer statistics based on ledger entry and lines activity.', Locked = true;

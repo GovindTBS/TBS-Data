@@ -121,7 +121,7 @@ page 5752 "Posted Transfer Shipments"
                     RunObject = Page "Inventory Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Transfer Shipment"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -173,7 +173,7 @@ page 5752 "Posted Transfer Shipments"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -183,7 +183,7 @@ page 5752 "Posted Transfer Shipments"
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Shipment', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Shipment', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                     actionref(Dimensions_Promoted; Dimensions)
                     {
@@ -198,7 +198,7 @@ page 5752 "Posted Transfer Shipments"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

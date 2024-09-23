@@ -258,7 +258,7 @@ codeunit 395 "FinChrgMemo-Issue"
         Text001: Label 'must be positive or 0';
         Text002: Label 'The combination of dimensions used in %1 %2 is blocked. %3';
         Text003: Label 'A dimension in %1 %2 has caused an error. %3';
-        MissingJournalFieldErr: Label 'Please enter a %1 when posting Additional Fees or Interest.', Comment = '%1 - field caption';
+MissingJournalFieldErr: Label 'Please enter a %1 when posting Additional Fees or Interest.', Comment = '%1 - field caption';
 
     procedure Set(var NewFinChrgMemoHeader: Record "Finance Charge Memo Header"; NewReplacePostingDate: Boolean; NewPostingDate: Date)
     begin

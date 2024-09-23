@@ -142,8 +142,8 @@ page 5734 "Item Category Attributes"
         DeleteInheritedAttribErr: Label 'You cannot delete attributes that are inherited from a parent item category.';
         RowEditable: Boolean;
         StyleTxt: Text;
-        ChangingDefaultValueMsg: Label 'The new default value will not apply to items that use the current item category, ''''%1''''. It will only apply to new items.', Comment = '%1 - item category code';
-        DeleteItemInheritedParentCategoryAttributesQst: Label 'One or more items belong to item category ''''%1''''.\\Do you want to delete the inherited item attributes for the items in question?', Comment = '%1 - item category code,%2 - item category code';
+ChangingDefaultValueMsg: Label 'The new default value will not apply to items that use the current item category, ''''%1''''. It will only apply to new items.', Comment = '%1 - item category code';
+DeleteItemInheritedParentCategoryAttributesQst: Label 'One or more items belong to item category ''''%1''''.\\Do you want to delete the inherited item attributes for the items in question?', Comment = '%1 - item category code,%2 - item category code';
 
     protected var
         TempRecentlyItemAttributeValueMapping: Record "Item Attribute Value Mapping" temporary;

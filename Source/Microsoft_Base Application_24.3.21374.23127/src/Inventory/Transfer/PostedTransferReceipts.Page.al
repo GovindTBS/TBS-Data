@@ -121,7 +121,7 @@ page 5753 "Posted Transfer Receipts"
                     RunObject = Page "Inventory Comment Sheet";
                     RunPageLink = "Document Type" = const("Posted Transfer Receipt"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -173,7 +173,7 @@ page 5753 "Posted Transfer Receipts"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -183,7 +183,7 @@ page 5753 "Posted Transfer Receipts"
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Receipt', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Receipt', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                     actionref(Dimensions_Promoted; Dimensions)
                     {
@@ -198,7 +198,7 @@ page 5753 "Posted Transfer Receipts"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

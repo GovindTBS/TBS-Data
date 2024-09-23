@@ -16,7 +16,7 @@ codeunit 1598 "Email Logs Delete"
                   tabledata "Sent Email" = rd;
 
     var
-        NoFiltersErr: Label 'No filters were set on table %1, %2. Please contact your Microsoft Partner for assistance.', Comment = '%1 = a id of a table (integer), %2 = the caption of the table.';
+NoFiltersErr: Label 'No filters were set on table %1, %2. Please contact your Microsoft Partner for assistance.', Comment = '%1 = a id of a table (integer), %2 = the caption of the table.';
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Apply Retention Policy", OnApplyRetentionPolicyIndirectPermissionRequired, '', true, true)]
     local procedure DeleteRecordsWithIndirectPermissionsOnApplyRetentionPolicyIndirectPermissionRequired(var RecRef: RecordRef; var Handled: Boolean)

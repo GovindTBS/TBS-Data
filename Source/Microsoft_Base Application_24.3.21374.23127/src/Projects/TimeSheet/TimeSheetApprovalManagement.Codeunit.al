@@ -24,12 +24,12 @@ codeunit 951 "Time Sheet Approval Management"
     var
         ResourcesSetup: Record "Resources Setup";
         ResourceSetupRead: Boolean;
-        NothingToSubmitErr: Label 'There is nothing to submit for line with %1=%2, %3=%4.', Comment = '%1 = Time Sheet No. caption; %2 = Time Sheet No. value; %3 = Line No. caption; %4 = Line No. value; Example = There is nothing to submit for line with Time Sheet No.=10, Line No.=10000.';
+NothingToSubmitErr: Label 'There is nothing to submit for line with %1=%2, %3=%4.', Comment = '%1 = Time Sheet No. caption; %2 = Time Sheet No. value; %3 = Line No. caption; %4 = Line No. value; Example = There is nothing to submit for line with Time Sheet No.=10, Line No.=10000.';
         Text002: Label 'You are not authorized to approve time sheet lines. Contact your time sheet administrator.';
         Text003: Label 'Time sheet line cannot be reopened because there are linked service lines.';
-        ProcessOpenLinesQst: Label '&All open lines with %2 defined [%1 line(s)],&Selected line(s) with %2 defined only', Comment = '%1 = Lines count, %2 = Type caption';
-        ProcessSubmittedLinesQst: Label '&All submitted lines with %2 defined [%1 line(s)],&Selected line(s) with %2 defined only', Comment = '%1 = Lines count, %2 = Type caption';
-        ProcessApprovedLinesQst: Label '&All approved lines with %2 defined [%1 line(s)],&Selected line(s) with %2 defined only', Comment = '%1 = Lines count, %2 = Type caption';
+ProcessOpenLinesQst: Label '&All open lines with %2 defined [%1 line(s)],&Selected line(s) with %2 defined only', Comment = '%1 = Lines count, %2 = Type caption';
+ProcessSubmittedLinesQst: Label '&All submitted lines with %2 defined [%1 line(s)],&Selected line(s) with %2 defined only', Comment = '%1 = Lines count, %2 = Type caption';
+ProcessApprovedLinesQst: Label '&All approved lines with %2 defined [%1 line(s)],&Selected line(s) with %2 defined only', Comment = '%1 = Lines count, %2 = Type caption';
         Text007: Label 'Submit for approval';
         Text008: Label 'Reopen for editing';
         Text009: Label 'Approve for posting';
@@ -43,7 +43,7 @@ codeunit 951 "Time Sheet Approval Management"
         ReopenLineQst: Label 'Do you want to reopen line?';
         ApproveLineQst: Label 'Do you want to approve line?';
         RejectLineQst: Label 'Do you want to reject line?';
-        NoTimeSheetLinesToProcessErr: Label 'There are no time sheet lines to process in %1 action.', Comment = '%1 = Action';
+NoTimeSheetLinesToProcessErr: Label 'There are no time sheet lines to process in %1 action.', Comment = '%1 = Action';
 
     procedure ProcessAction(var TimeSheetLine: Record "Time Sheet Line"; ActionType: Option Submit,ReopenSubmitted,Approve,ReopenApproved,Reject)
     var

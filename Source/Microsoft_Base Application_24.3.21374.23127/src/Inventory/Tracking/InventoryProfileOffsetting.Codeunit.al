@@ -88,7 +88,7 @@ codeunit 99000854 "Inventory Profile Offsetting"
         Text010: Label 'The projected inventory %1 is higher than the overflow level %2 on %3.';
         LocationMandatoryTxt: Label 'Location is mandatory.';
         MissingStockkeepingUnitTxt: Label 'Missing stockkeeping unit.';
-        MinimalSupplyPlannedTxt: Label '%1: %2 The item is planned to cover the exact demand.', Comment = '%1: Attention, %2: Reason';
+MinimalSupplyPlannedTxt: Label '%1: %2 The item is planned to cover the exact demand.', Comment = '%1: Attention, %2: Reason';
         PlanToDate: Date;
         OverflowLevel: Decimal;
         ExceedROPqty: Decimal;

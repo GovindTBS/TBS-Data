@@ -276,7 +276,7 @@ page 5977 "Posted Service Invoices"
                     RunPageLink = "Table Name" = const("Service Invoice Header"),
                                   "No." = field("No."),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -525,7 +525,7 @@ page 5977 "Posted Service Invoices"
         ServiceInvHeader: Record "Service Invoice Header";
         DocExchStatusStyle: Text;
         DocExchStatusVisible: Boolean;
-        ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
+ProcessingInvoiceMsg: Label 'Processing record #1#######', Comment = '%1 = Record no';
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeCalculateSalesTaxStatistics(var ServiceInvoiceHeader: Record "Service Invoice Header")

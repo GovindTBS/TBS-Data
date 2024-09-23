@@ -84,7 +84,7 @@ page 5923 "Loaner List"
                     RunPageLink = "Table Name" = const(Loaner),
                                   "Table Subtype" = const("0"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Loaner E&ntries")
                 {

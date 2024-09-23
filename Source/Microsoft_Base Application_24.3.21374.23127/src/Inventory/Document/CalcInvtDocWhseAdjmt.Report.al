@@ -181,7 +181,7 @@ report 6562 "Calc. Invt. Doc. Whse. Adjmt."
         ByBin: Boolean;
         ZeroQty: Boolean;
         HideValidationDialog: Boolean;
-        ProcessingItemsTxt: Label 'Processing items    #1##########', Comment = '#1 - item counter';
+ProcessingItemsTxt: Label 'Processing items    #1##########', Comment = '#1 - item counter';
 
     procedure SetInvtDocHeader(var NewInvtDocHeader: Record "Invt. Document Header")
     begin

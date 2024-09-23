@@ -972,11 +972,11 @@ report 406 "Purchase - Invoice"
         TotalInvoiceDiscountAmount: Decimal;
         TotalPaymentDiscountOnVAT: Decimal;
 
-        Text004: Label 'Purchase - Invoice %1', Comment = '%1 = Document No.';
+Text004: Label 'Purchase - Invoice %1', Comment = '%1 = Document No.';
         Text007: Label 'VAT Amount Specification in ';
         Text008: Label 'Local Currency';
         Text009: Label 'Exchange rate: %1/%2';
-        Text010: Label 'Purchase - Prepayment Invoice %1', Comment = '%1 = Document No.';
+Text010: Label 'Purchase - Prepayment Invoice %1', Comment = '%1 = Document No.';
         Text011: Label '%1% VAT';
         Text012: Label 'VAT Amount';
         PhoneNoCaptionLbl: Label 'Phone No.';

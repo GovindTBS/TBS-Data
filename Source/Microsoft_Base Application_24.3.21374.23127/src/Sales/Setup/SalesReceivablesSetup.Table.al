@@ -170,19 +170,19 @@ table 311 "Sales & Receivables Setup"
         field(26; "Copy Comments Blanket to Order"; Boolean)
         {
             AccessByPermission = TableData "Sales Shipment Header" = R;
-            Caption = 'Copy Comments Blanket to Order';
+Caption = 'Copy Comments Blanket to Order';
             InitValue = true;
         }
         field(27; "Copy Comments Order to Invoice"; Boolean)
         {
             AccessByPermission = TableData "Sales Shipment Header" = R;
-            Caption = 'Copy Comments Order to Invoice';
+Caption = 'Copy Comments Order to Invoice';
             InitValue = true;
         }
         field(28; "Copy Comments Order to Shpt."; Boolean)
         {
             AccessByPermission = TableData "Sales Shipment Header" = R;
-            Caption = 'Copy Comments Order to Shpt.';
+Caption = 'Copy Comments Order to Shpt.';
             InitValue = true;
         }
         field(29; "Allow VAT Difference"; Boolean)
@@ -722,7 +722,7 @@ table 311 "Sales & Receivables Setup"
 
     var
         JobQueuePriorityErr: Label 'Job Queue Priority must be zero or positive.';
-        ProductCoupledErr: Label 'You must choose a record that is not coupled to a product in %1.', Comment = '%1 - Dynamics 365 Sales product name';
+ProductCoupledErr: Label 'You must choose a record that is not coupled to a product in %1.', Comment = '%1 - Dynamics 365 Sales product name';
         RecordHasBeenRead: Boolean;
         CRMBidirectionalSalesOrderIntEnabledErr: Label 'You cannot disable Archive Orders when Dynamics 365 Sales connection and Bidirectional Sales Order Integration are enabled.';
 

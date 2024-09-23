@@ -27,7 +27,7 @@ codeunit 300 "Reservation Worksheet Mgt."
         DefaultNameTok: Label 'DEFAULT';
         DefaultDescriptionTok: Label 'Default Worksheet';
         LineIsOutdatedErr: Label 'The Reservation Worksheet Line is outdated. Please recalculate the demand.';
-        SourceDocTok: Label '%1 %2 %3', Comment = '%1: Source Document, %2: Source Document Type, %3: Source Document No.';
+SourceDocTok: Label '%1 %2 %3', Comment = '%1: Source Document, %2: Source Document Type, %3: Source Document No.';
         SalesTok: Label 'Sales';
         TransferTok: Label 'Transfer';
         ServiceTok: Label 'Service';

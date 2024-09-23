@@ -13,16 +13,16 @@ codeunit 1262 "Pre & Post Process XML Import"
     end;
 
     var
-        DiffCurrQst: Label 'The bank statement that you are importing contains transactions in %1 %2. This conflicts with the %3 %4.\\Do you want to continue?', Comment = '%1 %2 = Currency Code EUR; %3 %4 = LCY Code DKK.';
+DiffCurrQst: Label 'The bank statement that you are importing contains transactions in %1 %2. This conflicts with the %3 %4.\\Do you want to continue?', Comment = '%1 %2 = Currency Code EUR; %3 %4 = LCY Code DKK.';
         MissingStmtDateInDataMsg: Label 'The statement date was not found in the data to be imported.';
         MissingCrdDbtIndInDataMsg: Label 'The credit/debit indicator was not found in the data to be imported.';
         MissingBalTypeInDataMsg: Label 'The balance type was not found in the data to be imported.';
         MissingClosingBalInDataMsg: Label 'The closing balance was not found in the data to be imported.';
         MissingBankAccNoQst: Label 'Bank account %1 does not have a bank account number.\\Do you want to continue?';
-        BankAccCurrErr: Label 'The bank statement that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.', Comment = '%1 %2 = Currency Code EUR; %3 = Bank Account No.';
+BankAccCurrErr: Label 'The bank statement that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.', Comment = '%1 %2 = Currency Code EUR; %3 = Bank Account No.';
         MultipleStmtErr: Label 'The file that you are trying to import contains more than one bank statement.';
         MissingBankAccNoInDataErr: Label 'The bank account number was not found in the data to be imported.';
-        BankAccMismatchQst: Label 'Bank account %1 does not have the bank account number %2, as specified in the bank statement file.\\Do you want to continue?', Comment = '%1=Value; %2 = Bank account no.';
+BankAccMismatchQst: Label 'Bank account %1 does not have the bank account number %2, as specified in the bank statement file.\\Do you want to continue?', Comment = '%1=Value; %2 = Bank account no.';
 
     procedure PostProcessStatementDate(DataExch: Record "Data Exch."; var RecRef: RecordRef; FieldNo: Integer; StmtDatePathFilter: Text)
     var

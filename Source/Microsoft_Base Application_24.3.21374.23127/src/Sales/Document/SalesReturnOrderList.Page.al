@@ -391,7 +391,7 @@ page 9304 "Sales Return Order List"
                     RunPageLink = "Document Type" = const("Return Order"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
             group(Documents)
@@ -781,7 +781,7 @@ page 9304 "Sales Return Order List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Get Posted Doc&ument Lines to Reverse_Promoted"; "Get Posted Doc&ument Lines to Reverse")
                 {
@@ -789,7 +789,7 @@ page 9304 "Sales Return Order List"
             }
             group(Category_Category5)
             {
-                Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
                 ShowAs = SplitButton;
 
                 actionref(Release_Promoted; Release)
@@ -801,7 +801,7 @@ page 9304 "Sales Return Order List"
             }
             group(Category_Category7)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 6.';
                 ShowAs = SplitButton;
 
                 actionref(Post_Promoted; Post)
@@ -822,7 +822,7 @@ page 9304 "Sales Return Order List"
             }
             group(Category_Category6)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {
@@ -833,11 +833,11 @@ page 9304 "Sales Return Order List"
             }
             group(Category_Category4)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category8)
             {
-                Caption = 'Return Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Return Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -854,7 +854,7 @@ page 9304 "Sales Return Order List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -886,7 +886,7 @@ page 9304 "Sales Return Order List"
         JobQueueActive: Boolean;
         OpenApprovalEntriesExist: Boolean;
         CanCancelApprovalForRecord: Boolean;
-        ReadyToPostQst: Label 'The number of return orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
+ReadyToPostQst: Label 'The number of return orders that will be posted is %1. \Do you want to continue?', Comment = '%1 - selected count';
         NoSalesOrderErr: Label 'You must select a sales return order before you can perform this action.';
         StatusStyleTxt: Text;
 

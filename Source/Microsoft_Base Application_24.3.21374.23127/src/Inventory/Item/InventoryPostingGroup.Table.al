@@ -46,7 +46,7 @@ table 94 "Inventory Posting Group"
     end;
 
     var
-        YouCannotDeleteErr: Label 'You cannot delete %1.', Comment = '%1 = Code';
+YouCannotDeleteErr: Label 'You cannot delete %1.', Comment = '%1 = Code';
 
     local procedure CheckGroupUsage()
     var

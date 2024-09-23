@@ -1001,8 +1001,8 @@ table 5407 "Prod. Order Component"
         Text99000001: Label 'You cannot rename a %1.';
         Text99000002: Label 'You cannot change flushing method to %1 when there is at least one record in table %2 associated with it.';
         Text99000003: Label 'You cannot change %1 when %2 is %3.';
-        WrongPrecisionItemAndUOMExpectedQtyErr: Label 'The value in the %1 field on the %2 page, and %3 field on the %4 page, are causing the rounding precision for the %5 field to be incorrect.', Comment = '%1 = field caption, %2 = table caption, %3 field caption, %4 = table caption, %5 = field caption';
-        WrongPrecOnUOMExpectedQtyErr: Label 'The value in the %1 field on the %2 page is causing the rounding precision for the %3 field to be incorrect.', Comment = '%1 = field caption, %2 = table caption, %3 field caption';
+WrongPrecisionItemAndUOMExpectedQtyErr: Label 'The value in the %1 field on the %2 page, and %3 field on the %4 page, are causing the rounding precision for the %5 field to be incorrect.', Comment = '%1 = field caption, %2 = table caption, %3 field caption, %4 = table caption, %5 = field caption';
+WrongPrecOnUOMExpectedQtyErr: Label 'The value in the %1 field on the %2 page is causing the rounding precision for the %3 field to be incorrect.', Comment = '%1 = field caption, %2 = table caption, %3 field caption';
         Item: Record Item;
         ReservEntry: Record "Reservation Entry";
         GLSetup: Record "General Ledger Setup";
@@ -1021,7 +1021,7 @@ table 5407 "Prod. Order Component"
         Text99000007: Label 'You cannot change flushing method to %1 because a pick has already been created for production order component %2.';
         Text99000008: Label 'You cannot change flushing method to %1 because production order component %2 has already been picked.';
         Text99000009: Label 'Automatic reservation is not possible.\Do you want to reserve items manually?';
-        ConfirmDeleteQst: Label '%1 = %2 is greater than %3 = %4. If you delete the %5, the items will remain in the operation area until you put them away.\Related Item Tracking information defined during pick will be deleted.\Do you still want to delete the %5?', Comment = '%1 = FieldCaption("Qty. Picked"), %2 = "Qty. Picked", %3 = Qty. Posted, %4 = ("Expected Quantity" - "Remaining Quantity"), %5 = TableCaption';
+ConfirmDeleteQst: Label '%1 = %2 is greater than %3 = %4. If you delete the %5, the items will remain in the operation area until you put them away.\Related Item Tracking information defined during pick will be deleted.\Do you still want to delete the %5?', Comment = '%1 = FieldCaption("Qty. Picked"), %2 = "Qty. Picked", %3 = Qty. Posted, %4 = ("Expected Quantity" - "Remaining Quantity"), %5 = TableCaption';
         IgnoreErrors: Boolean;
         ErrorOccured: Boolean;
         WarningRaised: Boolean;

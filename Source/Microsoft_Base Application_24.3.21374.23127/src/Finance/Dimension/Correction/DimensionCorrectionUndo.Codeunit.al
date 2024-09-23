@@ -129,13 +129,13 @@ codeunit 2582 "Dimension Correction Undo"
         CannotFindChangesToUndoErr: Label 'Cannot find the changed dimension set IDs to undo.';
         CannotFindEntriesToUndoErr: Label 'Cannot find changed entries to undo.';
         DimensionCorrectionTok: Label 'DimensionCorrection', Locked = true;
-        StartingDimensionCorrectionUndoLbl: Label 'Starting Undo of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CompletedDimensionCorrectionUndoLbl: Label 'Completed Undo of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        StartingVerifyingCanUndoDimensionCorrectionLbl: Label 'Starting Verify if Undo is possible of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CompletedVerifyingCanUndoDimensionCorrectionLbl: Label 'Completed Verify if Undo is possible of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        StartingUndoDimensionCorrectionEntriesLbl: Label 'Starting undo of Ledger entries of Dimension Correction %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CompletedUndoDimensionCorrectionEntriesLbl: Label 'Starting undo of Ledger entries of Dimension Correction %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
-        CommitedUndoLedgerEntriesUpdateTelemetryLbl: Label 'Commited Undo G/L Entries Dimensions. Time from last commit: %1. Number of entries iterated: %2', Locked = true, Comment = '%1 - Time passed between commits, %2 Number';
+StartingDimensionCorrectionUndoLbl: Label 'Starting Undo of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CompletedDimensionCorrectionUndoLbl: Label 'Completed Undo of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+StartingVerifyingCanUndoDimensionCorrectionLbl: Label 'Starting Verify if Undo is possible of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CompletedVerifyingCanUndoDimensionCorrectionLbl: Label 'Completed Verify if Undo is possible of Dimension Correction - %1', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+StartingUndoDimensionCorrectionEntriesLbl: Label 'Starting undo of Ledger entries of Dimension Correction %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CompletedUndoDimensionCorrectionEntriesLbl: Label 'Starting undo of Ledger entries of Dimension Correction %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+CommitedUndoLedgerEntriesUpdateTelemetryLbl: Label 'Commited Undo G/L Entries Dimensions. Time from last commit: %1. Number of entries iterated: %2', Locked = true, Comment = '%1 - Time passed between commits, %2 Number';
 
     [IntegrationEvent(false, false)]
     local procedure OnUndoGLEntryOnAfterUpdateGlobalDimFromDimSetID(var GLEntry: Record "G/L Entry")

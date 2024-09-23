@@ -2,7 +2,7 @@ namespace Microsoft.Manufacturing.Document;
 
 page 99000839 "Prod. Order Comment List"
 {
-    Caption = 'Comment List';
+Caption = 'Comment List';
     DataCaptionFields = Status, "Prod. Order No.";
     Editable = false;
     LinksAllowed = false;
@@ -29,7 +29,7 @@ page 99000839 "Prod. Order Comment List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the comment.';
+ToolTip = 'Specifies the comment.';
                 }
             }
         }

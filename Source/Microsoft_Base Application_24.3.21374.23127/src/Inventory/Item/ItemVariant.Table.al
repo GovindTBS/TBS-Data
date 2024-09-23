@@ -312,8 +312,8 @@ table 5401 "Item Variant"
     var
         Text001: Label 'You cannot delete item variant %1 because there is at least one %2 that includes this Variant Code.';
         Text002: Label 'You cannot delete item variant %1 because there are one or more outstanding production orders that include this item.';
-        CannotRenameItemUsedInSalesLinesErr: Label 'You cannot rename %1 in a %2, because it is used in sales document lines.', Comment = '%1 = Item No. caption, %2 = Table caption.';
-        CannotRenameItemUsedInPurchaseLinesErr: Label 'You cannot rename %1 in a %2, because it is used in purchase document lines.', Comment = '%1 = Item No. caption, %2 = Table caption.';
+CannotRenameItemUsedInSalesLinesErr: Label 'You cannot rename %1 in a %2, because it is used in sales document lines.', Comment = '%1 = Item No. caption, %2 = Table caption.';
+CannotRenameItemUsedInPurchaseLinesErr: Label 'You cannot rename %1 in a %2, because it is used in purchase document lines.', Comment = '%1 = Item No. caption, %2 = Table caption.';
 
     local procedure ProdOrderExist(): Boolean
     var

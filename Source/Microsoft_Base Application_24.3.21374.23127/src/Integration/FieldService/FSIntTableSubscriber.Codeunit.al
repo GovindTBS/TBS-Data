@@ -33,16 +33,16 @@ codeunit 6405 "FS Int. Table. Subscriber"
         CDSIntegrationMgt: Codeunit "CDS Integration Mgt.";
         CDSIntegrationImpl: Codeunit "CDS Integration Impl.";
         CRMSynchHelper: Codeunit "CRM Synch. Helper";
-        RecordMustBeCoupledErr: Label '%1 %2 must be coupled to %3.', Comment = '%1 = table caption, %2 = primary key value, %3 - service name';
-        RecordCoupledToDeletedErr: Label '%1 %2 is coupled to a deleted record.', Comment = '%1 = table caption, %2 = primary key value';
-        JobJournalIncorrectSetupErr: Label 'You must set up %1 correctly on %2.', Comment = '%1 = a table name, %2 = a table name';
+RecordMustBeCoupledErr: Label '%1 %2 must be coupled to %3.', Comment = '%1 = table caption, %2 = primary key value, %3 - service name';
+RecordCoupledToDeletedErr: Label '%1 %2 is coupled to a deleted record.', Comment = '%1 = table caption, %2 = primary key value';
+JobJournalIncorrectSetupErr: Label 'You must set up %1 correctly on %2.', Comment = '%1 = a table name, %2 = a table name';
         CategoryTok: Label 'AL Field Service Integration', Locked = true;
-        MustBeCoupledErr: Label '%1 %2 must be coupled to a Business Central %3', Comment = '%1 = a table name, %2 - a guid, %3 = a table name';
-        DoesntExistErr: Label '%1 %2 doesn''t exist in %3', Comment = '%1 = a table name, %2 - a guid, %3 = Field Service service name';
-        CoupledToDeletedErr: Label '%1 %2 is coupled to a deleted Business Central %3. You must re-couple it.', Comment = '%1 = a table name, %2 - a guid, %3 = a table name';
-        CoupledToNonServiceErr: Label 'To synchronize this work order service, %1 %2 must be coupled to an item whose type is not set to Inventory. It is curretly coupled to item %3.', Comment = '%1 = a table name, %2 - a guid, %3 = an item name';
-        CoupledToBlockedItemErr: Label 'To synchronize this work order service, %1 %2 must be coupled to an item that is not blocked. It is curretly coupled to item %3.', Comment = '%1 = a table name, %2 - a guid, %3 = an item name';
-        CoupledToItemWithWrongUOMErr: Label 'To synchronize this work order service, %1 %2 must be coupled to an item that has base unit of measure set to %4. It is curretly coupled to item %3.', Comment = '%1 = a table name, %2 - a guid, %3 = an item name, %4 - unit of measure name';
+MustBeCoupledErr: Label '%1 %2 must be coupled to a Business Central %3', Comment = '%1 = a table name, %2 - a guid, %3 = a table name';
+DoesntExistErr: Label '%1 %2 doesn''t exist in %3', Comment = '%1 = a table name, %2 - a guid, %3 = Field Service service name';
+CoupledToDeletedErr: Label '%1 %2 is coupled to a deleted Business Central %3. You must re-couple it.', Comment = '%1 = a table name, %2 - a guid, %3 = a table name';
+CoupledToNonServiceErr: Label 'To synchronize this work order service, %1 %2 must be coupled to an item whose type is not set to Inventory. It is curretly coupled to item %3.', Comment = '%1 = a table name, %2 - a guid, %3 = an item name';
+CoupledToBlockedItemErr: Label 'To synchronize this work order service, %1 %2 must be coupled to an item that is not blocked. It is curretly coupled to item %3.', Comment = '%1 = a table name, %2 - a guid, %3 = an item name';
+CoupledToItemWithWrongUOMErr: Label 'To synchronize this work order service, %1 %2 must be coupled to an item that has base unit of measure set to %4. It is curretly coupled to item %3.', Comment = '%1 = a table name, %2 - a guid, %3 = an item name, %4 - unit of measure name';
         UnableToModifyWOSTxt: Label 'Unable to update work order service.', Locked = true;
         UnableToModifyWOPTxt: Label 'Unable to update work order product.', Locked = true;
 

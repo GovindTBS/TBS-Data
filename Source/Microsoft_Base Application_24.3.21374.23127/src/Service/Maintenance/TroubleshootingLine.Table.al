@@ -18,7 +18,7 @@ table 5944 "Troubleshooting Line"
         }
         field(3; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

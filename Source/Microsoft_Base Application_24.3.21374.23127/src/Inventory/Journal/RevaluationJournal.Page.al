@@ -617,14 +617,14 @@ page 5803 "Revaluation Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Calculate Inventory Value_Promoted"; "Calculate Inventory Value")
                 {
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref("P&ost_Promoted"; "P&ost")
@@ -640,7 +640,7 @@ page 5803 "Revaluation Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -648,7 +648,7 @@ page 5803 "Revaluation Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Item', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref("Value Entries_Promoted"; "Value Entries")
                 {
@@ -656,7 +656,7 @@ page 5803 "Revaluation Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -664,7 +664,7 @@ page 5803 "Revaluation Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

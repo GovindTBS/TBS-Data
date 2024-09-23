@@ -99,17 +99,17 @@ codeunit 900 "Assembly-Post"
         SourceCode: Code[10];
         PostingDateExists: Boolean;
         ReplacePostingDate: Boolean;
-        Text001: Label 'is not within your range of allowed posting dates.', Comment = 'starts with "Posting Date"';
-        Text002: Label 'The combination of dimensions used in %1 %2 is blocked. %3.', Comment = '%1 = Document Type, %2 = Document No.';
-        Text003: Label 'The combination of dimensions used in %1 %2, line no. %3 is blocked. %4.', Comment = '%1 = Document Type, %2 = Document No.';
-        Text004: Label 'The dimensions that are used in %1 %2 are not valid. %3.', Comment = '%1 = Document Type, %2 = Document No.';
-        Text005: Label 'The dimensions that are used in %1 %2, line no. %3, are not valid. %4.', Comment = '%1 = Document Type, %2 = Document No.';
+Text001: Label 'is not within your range of allowed posting dates.', Comment = 'starts with "Posting Date"';
+Text002: Label 'The combination of dimensions used in %1 %2 is blocked. %3.', Comment = '%1 = Document Type, %2 = Document No.';
+Text003: Label 'The combination of dimensions used in %1 %2, line no. %3 is blocked. %4.', Comment = '%1 = Document Type, %2 = Document No.';
+Text004: Label 'The dimensions that are used in %1 %2 are not valid. %3.', Comment = '%1 = Document Type, %2 = Document No.';
+Text005: Label 'The dimensions that are used in %1 %2, line no. %3, are not valid. %4.', Comment = '%1 = Document Type, %2 = Document No.';
         Text007: Label 'Posting lines              #2######';
         Text008: Label 'Posting %1';
-        Text009: Label '%1 should be blank for comment text: %2.';
+Text009: Label '%1 should be blank for comment text: %2.';
         ShowProgress: Boolean;
         Text010: Label 'Undoing %1';
-        Text011: Label 'Posted assembly order %1 cannot be restored because the number of lines in assembly order %2 has changed.', Comment = '%1=Posted Assembly Order No. field value,%2=Assembly Header Document No field value';
+Text011: Label 'Posted assembly order %1 cannot be restored because the number of lines in assembly order %2 has changed.', Comment = '%1=Posted Assembly Order No. field value,%2=Assembly Header Document No field value';
         SuppressCommit: Boolean;
         PreviewMode: Boolean;
 

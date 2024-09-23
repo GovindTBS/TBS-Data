@@ -369,8 +369,8 @@ page 9192 "Company Creation Wizard"
         TrialPeriodTxt: Label '\\You will be able to use this company for a 30-day trial period.';
         EvalPeriodTxt: Label '\\You will be able to use the company to try out the product for as long as you want. ';
         IsSandbox: Boolean;
-        LangDifferentFromConfigurationPackageFileMsg: Label 'The language of the configuration package file is different than your current language. The new company will be created in %1.', Comment = '%1 is the language code of the pack';
-        CompanySetUpInProgressMsg: Label 'Company %1 is created, but we are still setting it up.\This might take some time, so take a break before you begin to use it. When it is ready, its status is Completed. Refresh the page to update the status.', Comment = '%1 - a company name';
+LangDifferentFromConfigurationPackageFileMsg: Label 'The language of the configuration package file is different than your current language. The new company will be created in %1.', Comment = '%1 is the language code of the pack';
+CompanySetUpInProgressMsg: Label 'Company %1 is created, but we are still setting it up.\This might take some time, so take a break before you begin to use it. When it is ready, its status is Completed. Refresh the page to update the status.', Comment = '%1 - a company name';
         AddUsersVisible: Boolean;
         ManageUsersLbl: Label 'Manage Users';
         CanManageUser: Boolean;

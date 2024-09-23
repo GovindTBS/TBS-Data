@@ -53,7 +53,7 @@ table 801 "Online Map Parameter Setup"
         }
         field(5; Comment; Text[250])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(6; "URL Encode Non-ASCII Chars"; Boolean)
         {

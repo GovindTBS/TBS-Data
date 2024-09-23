@@ -75,7 +75,7 @@ codeunit 5980 "Service-Post"
         WhseShip: Boolean;
         PreviewMode: Boolean;
         SuppressCommit: Boolean;
-        NotSupportedDocumentTypeErr: Label 'Document type %1 is not supported.', Comment = '%1=Document Type e.g. Invoice';
+NotSupportedDocumentTypeErr: Label 'Document type %1 is not supported.', Comment = '%1=Document Type e.g. Invoice';
         HideValidationDialog: Boolean;
 
     procedure PostWithLines(var PassedServHeader: Record "Service Header"; var PassedServLine: Record "Service Line"; var PassedShip: Boolean; var PassedConsume: Boolean; var PassedInvoice: Boolean)

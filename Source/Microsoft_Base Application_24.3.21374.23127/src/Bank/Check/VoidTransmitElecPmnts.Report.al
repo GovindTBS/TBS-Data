@@ -133,7 +133,7 @@ report 9200 "Void/Transmit Elec. Pmnts"
         FirstTime: Boolean;
         UsageType: Option ,Void,Transmit;
         DisplayUsageType: Option ,Void,Transmit;
-        ActionConfirmQst: Label 'Are you SURE you want to %1 all of the Electronic Payments written against %2 %3?', Comment = '%1=Action taken., %2=Name of the Bank Account table., %3=Bank Account Number.';
+ActionConfirmQst: Label 'Are you SURE you want to %1 all of the Electronic Payments written against %2 %3?', Comment = '%1=Action taken., %2=Name of the Bank Account table., %3=Bank Account Number.';
         AlreadyTransmittedNoVoidErr: Label 'The export file has already been transmitted. You can no longer void these entries.';
         AlreadyTransmittedErr: Label 'The export file has already been transmitted.';
         OnlyRunFromPaymentJournalErr: Label 'This process can only be run from the Payment Journal.';

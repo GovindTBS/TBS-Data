@@ -14,7 +14,7 @@ using Microsoft.Service.Setup;
 codeunit 960 "Posting Group Change" implements "Posting Group Change Method"
 {
     var
-        CannotChangePostingGroupErr: Label 'You cannot change the value %1 to %2 because %3 has not been filled in.', Comment = '%1 = old posting group; %2 = new posting group; %3 = tablecaption of Subst. Vendor/Customer Posting Group';
+CannotChangePostingGroupErr: Label 'You cannot change the value %1 to %2 because %3 has not been filled in.', Comment = '%1 = old posting group; %2 = new posting group; %3 = tablecaption of Subst. Vendor/Customer Posting Group';
 
     procedure ChangePostingGroup(NewPostingGroup: Code[20]; OldPostingGroup: Code[20]; SourceRecordVar: Variant)
     var

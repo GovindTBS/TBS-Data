@@ -1,0 +1,3459 @@
+{
+  "The XML definition is invalid.":{
+    "ITA":"La definizione XML non è valida."},
+  "The schema definition is not valid XML.":{
+    "ITA":"La definizione dello schema non è XML valido."},
+  "Allow Page Scripting Recording":{
+    "ITA":"Consenti registrazione script di pagina"},
+  "Allow Page Scripting Playback":{
+    "ITA":"Consenti riproduzione script di pagina"},
+  "Page Summary Settings":{
+    "ITA":"Impostazioni di riepilogo della pagina"},
+  "Company":{
+    "ITA":"Società"},
+  "Show record summary":{
+    "ITA":"Mostra riepilogo record"},
+  "Card Settings":{
+    "ITA":"Impostazioni della carta"},
+  "Let":{
+    "ITA":"Lasciare"},
+  "Card settings are not available":{
+    "ITA":"Le impostazioni della carta non sono disponibili"},
+  "Data visibility":{
+    "ITA":"Visibilità dei dati"},
+  "Specifies if the card shows the summary fields and images of the record.":{
+    "ITA":"Specifica se la scheda mostra i campi Riassunto e le immagini del record."},
+  "Success!":{
+    "ITA":"Successo!"},
+  "Share something with your coworkers":{
+    "ITA":"Condividi qualcosa con i tuoi colleghi"},
+  "Back":{
+    "ITA":"Indietro"},
+  "Next":{
+    "ITA":"Prossimo"},
+  "Try it out":{
+    "ITA":"Provalo"},
+  "Close":{
+    "ITA":"Chiudere"},
+  "Done":{
+    "ITA":"Fatto"},
+  "%1 data can be displayed as compact cards in Microsoft Teams or in Power Automate flows.":{
+    "ITA":"I dati %1 possono essere visualizzati come schede compatte in Microsoft Teams o nei flussi di Power Automate."},
+  "Administrators can configure security settings that determine whether content is summarized and displayed directly on any card. Card settings do not affect what is displayed when users choose the Details button on a card: that information is governed by %1’s other security, privacy and licensing controls.":{
+    "ITA":"Gli amministratori possono configurare le impostazioni di sicurezza che determinano se il contenuto viene riepilogato e visualizzato direttamente su qualsiasi scheda. Le impostazioni della scheda non influiscono su ciò che viene visualizzato quando gli utenti scelgono il pulsante Dettagli su una scheda: tali informazioni sono regolate dagli altri controlli di sicurezza, privacy e licenze di %1."},
+  "Learn about sharing %1 records to Teams":{
+    "ITA":"Informazioni sulla condivisione di record %1 in Teams"},
+  "https://go.microsoft.com/fwlink/?linkid=2219744":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2219744"},
+  "Adaptive cards and other features that connect to Microsoft Teams are only available with %1 online.":{
+    "ITA":"Le schede adattive e altre funzionalità che si connettono a Microsoft Teams sono disponibili solo con %1 online."},
+  "Learn about minimum requirements for Teams integration":{
+    "ITA":"Informazioni sui requisiti minimi per l'integrazione di Teams"},
+  "https://go.microsoft.com/fwlink/?linkid=2222842":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2222842"},
+  "When a card is shared with others, all recipients can view a summary of the record as fields displayed directly on the card, regardless of their license or permissions in %1. Hiding the record summary removes all fields and images, but continues to show the Details button and other non-record information on the card.":{
+    "ITA":"Quando una scheda viene condivisa con altri utenti, tutti i destinatari possono visualizzare un riepilogo del record come campi visualizzati direttamente sulla scheda, indipendentemente dalla licenza o dalle autorizzazioni in %1. Se si nasconde il riepilogo del record, vengono rimossi tutti i campi e le immagini, ma si continua a visualizzare il pulsante Dettagli e altre informazioni non relative al record nella scheda."},
+  "Learn about other ways to share data as cards in Teams":{
+    "ITA":"Scopri altri modi per condividere i dati come schede in Teams"},
+  "Card settings guide completed with Show Record Summary status: %1.":{
+    "ITA":"Guida alle impostazioni della scheda completata con lo stato Mostra riepilogo record: %1."},
+  "Page Summary Provider":{
+    "ITA":"Provider di riepilogo pagina"},
+  "Page %1":{
+    "ITA":"Pagina %1"},
+  "OnBeforeGetPageSummary event was handled for page %1.":{
+    "ITA":"L'evento OnBeforeGetPageSummary è stato gestito per la pagina %1."},
+  "Failure to get summary for page %1.":{
+    "ITA":"Impossibile ottenere il riepilogo per la pagina %1."},
+  "InvalidBookmark":{
+    "ITA":"Segnalibro non valido"},
+  "The bookmark is invalid.":{
+    "ITA":"Il segnalibro non è valido."},
+  "FailedGettingPageSummaryFields":{
+    "ITA":"FailedGettingPageSummaryFields"},
+  "InvalidSystemId":{
+    "ITA":"InvalidSystemId"},
+  "The system ID is invalid.":{
+    "ITA":"L'ID di sistema non è valido."},
+  "PageNotFound":{
+    "ITA":"PaginaNonTrovata"},
+  "Page %1 is not found.":{
+    "ITA":"La pagina %1 non è stata trovata."},
+  "Successfully added url for page %1.":{
+    "ITA":"URL aggiunto con successo per la pagina %1."},
+  "Page Summary Provider - Admin":{
+    "ITA":"Fornitore di riepilogo della pagina - Admin"},
+  "Page Action Provider":{
+    "ITA":"Provider di azioni di pagina"},
+  "Failure to get actions for page %1.":{
+    "ITA":"Impossibile ottenere le azioni per la pagina %1."},
+  "FailedGettingPageActions":{
+    "ITA":"FailedGettingPageActions"},
+  "Cannot get current role center for the user.":{
+    "ITA":"Impossibile ottenere la Gestione ruolo utente corrente per l'utente."},
+  "UnableToGetRoleCenter":{
+    "ITA":"UnableToGetRoleCenter"},
+  "Apply Word Template":{
+    "ITA":"Applica modello Word"},
+  "We could not find any Word templates.":{
+    "ITA":"Non siamo riusciti a trovare alcun modello di Word."},
+  "Code":{
+    "ITA":"Codice"},
+  "Specifies the code of the template.":{
+    "ITA":"Specifica il codice del modello."},
+  "Name":{
+    "ITA":"Nome"},
+  "Specifies the name of the template.":{
+    "ITA":"Specifica il nome del modello."},
+  "Entity":{
+    "ITA":"Entità"},
+  "Specifies the entity the template is asscociated with.":{
+    "ITA":"Specifica l'entità con cui è associato il modello."},
+  "New Template":{
+    "ITA":"Nuovo modello"},
+  "Create a new Word template":{
+    "ITA":"Creare un nuovo modello di Word"},
+  "Word Template Tables":{
+    "ITA":"Tabelle dei modelli di Word"},
+  "Specifies the name of the data source from which the template will get data.":{
+    "ITA":"Specifica il nome dell'origine dati da cui il modello otterrà i dati."},
+  "Add new entity":{
+    "ITA":"Aggiungi nuova entità"},
+  "Select and add a source table to the template.":{
+    "ITA":"Selezionare e aggiungere una tabella di origine al modello."},
+  "Word Templates Tables":{
+    "ITA":"Modelli di Word Tabelle"},
+  "Specifies the Table ID.":{
+    "ITA":"Specifica l'ID tabella."},
+  "Id":{
+    "ITA":"Id"},
+  "Caption":{
+    "ITA":"Didascalia"},
+  "Specifies the table caption.":{
+    "ITA":"Specifica la didascalia della tabella."},
+  "Related Entities":{
+    "ITA":"Entità correlate"},
+  "Specifies the related entity.":{
+    "ITA":"Specifica l'entità correlata."},
+  "Prefix":{
+    "ITA":"Prefisso"},
+  "Specifies a prefix that will indicate that the field is from the related entity when you are setting up the template. For example, if you enter SALES, the field names are prefixed with SALES_. The prefix must be unique.":{
+    "ITA":"Specifica un prefisso che indicherà che il campo proviene dall'entità correlata durante l'impostazione del modello. Ad esempio, se si immette VENDITE, i nomi dei campi sono preceduti dal prefisso SALES_. Il prefisso deve essere univoco."},
+  "Number of Selected Fields":{
+    "ITA":"Numero di campi selezionati"},
+  "Specifies the number of fields for this record that has been selected.":{
+    "ITA":"Specifica il numero di campi per il record selezionato."},
+  "Entity relation":{
+    "ITA":"Relazione di entità"},
+  "Specifies the relation to the source entity.":{
+    "ITA":"Specifica la relazione con l'entità di origine."},
+  "Add":{
+    "ITA":"Aggiungere"},
+  "Add related entity":{
+    "ITA":"Aggiungere un'entità correlata"},
+  "Add a related entity to the template.":{
+    "ITA":"Aggiungere un'entità correlata al modello."},
+  "Add unrelated entity":{
+    "ITA":"Aggiungi entità non correlata"},
+  "Select and add an unrelated entity to the template.":{
+    "ITA":"Seleziona e aggiungi un'entità non correlata al modello."},
+  "Edit":{
+    "ITA":"Redigere"},
+  "Change the field from the source entity that creates the relationship to the related entity.":{
+    "ITA":"Modificare il campo dall'entità di origine che crea la relazione con l'entità correlata."},
+  "You cannot delete the source record.":{
+    "ITA":"Non è possibile eliminare il record di origine."},
+  "Source entity":{
+    "ITA":"Entità di origine"},
+  "Related to %1 entity":{
+    "ITA":"Correlato all'entità %1"},
+  "Selected record: {%1}":{
+    "ITA":"Record selezionato: {%1}"},
+  "At most 250 fields can be selected.":{
+    "ITA":"È possibile selezionare al massimo 250 campi."},
+  "Specifies the id of the related entity.":{
+    "ITA":"Specifica l'ID dell'entità correlata."},
+  "Field Prefix":{
+    "ITA":"Prefisso campo"},
+  "Entities":{
+    "ITA":"Entità"},
+  "You can also merge data from fields on entities that are related to the source entity. For example, if the source is the Customer entity, your template can include data from the Salesperson/Purchaser entity.​":{
+    "ITA":"È inoltre possibile unire i dati dai campi delle entità correlate all'entità di origine. Ad esempio, se l'origine è l'entità Cliente, il modello può includere i dati dell'entità Venditore/Acquirente."},
+  "Related entities share a field, typically an identifier such as its name, code, or ID, with the source entity. When adding a related entity the list is filtered to predefined relations that are available. To define a relation, if you know the shared field, you can remove the filtering and define the relation.​":{
+    "ITA":"Le entità correlate condividono un campo, in genere un identificatore come il nome, il codice o l'ID, con l'entità di origine. Quando si aggiunge un'entità correlata, l'elenco viene filtrato in base alle relazioni predefinite disponibili. Per definire una relazione, se si conosce il campo condiviso, è possibile rimuovere il filtro e definire la relazione."},
+  "Are you sure you want to apply these changes?":{
+    "ITA":"Si è certi di voler applicare queste modifiche?"},
+  "Related Entity":{
+    "ITA":"Entità correlata"},
+  "Specifies the field no. from the source entity that creates the relationship to the related entity.":{
+    "ITA":"Specifica il campo n. dall'entità di origine che crea la relazione con l'entità correlata."},
+  "Source Entity Relation":{
+    "ITA":"Relazione entità di origine"},
+  "Specifies the field from the source entity that creates the relationship to the related entity. If there are more than one related entities, specify the one to use for your template.​":{
+    "ITA":"Specifica il campo dell'entità di origine che crea la relazione con l'entità correlata. Se sono presenti più entità correlate, specificare quella da utilizzare per il modello."},
+  "Specifies a prefix that will indicate that the field is from the related entity when you are setting up the template. For example, if you enter Sales, the field names are prefixed with Sales_. The prefix must be unique.":{
+    "ITA":"Specifica un prefisso che indicherà che il campo proviene dall'entità correlata durante l'impostazione del modello. Ad esempio, se si immette Vendite, i nomi dei campi sono preceduti dal prefisso Sales_. Il prefisso deve essere univoco."},
+  "Related entities share a field, typically an identifier such as its name, code, or ID, with the source entity. When choosing a related entity the view is filtered to known predefined relations. To define your own custom relation, you can remove the filtering.​":{
+    "ITA":"Le entità correlate condividono un campo, in genere un identificatore come il nome, il codice o l'ID, con l'entità di origine. Quando si sceglie un'entità correlata, la vista viene filtrata in base alle relazioni predefinite note. Per definire una relazione personalizzata, è possibile rimuovere il filtro."},
+  "Select related entity for the Word template.":{
+    "ITA":"Seleziona l'entità correlata per il modello di Word."},
+  "Select a related entity before specifying the relation.":{
+    "ITA":"Selezionare un'entità correlata prima di specificare la relazione."},
+  "Select the source entity relation.":{
+    "ITA":"Selezionare la relazione dell'entità di origine."},
+  "No source entity relation was specified.":{
+    "ITA":"Non è stata specificata alcuna relazione di entità di origine."},
+  "Field Selection":{
+    "ITA":"Selezione del campo"},
+  "Field Number":{
+    "ITA":"Numero campo"},
+  "Specifies the number of the field that will be included in the Word Template.":{
+    "ITA":"Specifica il numero del campo che verrà incluso nel modello di Word."},
+  "Field Name":{
+    "ITA":"Nome campo"},
+  "Specifies the name of the field that will be included in the Word Template.":{
+    "ITA":"Specifica il nome del campo che verrà incluso nel modello di Word."},
+  "Field Type":{
+    "ITA":"Tipo di campo"},
+  "Specifies the type of the field that will be included in the Word Template.":{
+    "ITA":"Specifica il tipo di campo che verrà incluso nel modello di Word."},
+  "Include":{
+    "ITA":"Includere"},
+  "Specifies if this field is included in the Word Template.":{
+    "ITA":"Specifica se questo campo è incluso nel modello di Word."},
+  "Mark as included":{
+    "ITA":"Contrassegna come incluso"},
+  "Includes the selected fields in the template.":{
+    "ITA":"Include i campi selezionati nel modello."},
+  "Mark as excluded":{
+    "ITA":"Contrassegna come escluso"},
+  "Excludes the selected fields in the template.":{
+    "ITA":"Esclude i campi selezionati nel modello."},
+  "Process":{
+    "ITA":"Processo"},
+  "Calculated":{
+    "ITA":"Calcolato"},
+  "Select setting for the output":{
+    "ITA":"Selezionare l'impostazione per l'uscita"},
+  "Output format":{
+    "ITA":"Formato di output"},
+  "Specifies the format of the final document.":{
+    "ITA":"Specifica il formato del documento finale."},
+  "Split documents":{
+    "ITA":"Dividi documenti"},
+  "Specifies whether one document per record should be created or one document for all Records.":{
+    "ITA":"Specifica se deve essere creato un documento per record o un documento per tutti i record."},
+  "Tooltip for editing..":{
+    "ITA":"Suggerimento per la modifica.."},
+  "Open Word for editing merged document.":{
+    "ITA":"Apri Word per modificare il documento unito."},
+  "Tooltip for filter..":{
+    "ITA":"Tooltip per il filtro.."},
+  "Select filters on the entity":{
+    "ITA":"Seleziona i filtri sull'entità"},
+  "Filters":{
+    "ITA":"Filtri"},
+  "Specifies the filters to be applied on the record.":{
+    "ITA":"Specifica i filtri da applicare al record."},
+  "No filter are set on the entity.":{
+    "ITA":"Non è impostato alcun filtro per l'entità."},
+  "Overview":{
+    "ITA":"Panoramica"},
+  "Specifies the entity to be used when applying the template.":{
+    "ITA":"Specifica l'entità da utilizzare per l'applicazione del modello."},
+  "No. of Entities":{
+    "ITA":"No. di Enti"},
+  "Specifies how many entities the template will be applied to.":{
+    "ITA":"Specifica il numero di entità a cui verrà applicato il modello."},
+  "Template Code":{
+    "ITA":"Codice modello"},
+  "Specifies code of the template to apply.":{
+    "ITA":"Specifica il codice del modello da applicare."},
+  "Template Name":{
+    "ITA":"Nome modello"},
+  "Specifies the name of the template to apply.":{
+    "ITA":"Specifica il nome del modello da applicare."},
+  "Specifies whether one document per record should be created or one document for all entities.":{
+    "ITA":"Specifica se deve essere creato un documento per record o un documento per tutte le entità."},
+  "Edit document":{
+    "ITA":"Modifica documento"},
+  "Edit document (already edited)":{
+    "ITA":"Modifica documento (già modificato)"},
+  "Do you want to keep the changes made earlier?":{
+    "ITA":"Vuoi mantenere le modifiche apportate in precedenza?"},
+  "This template is not associated with an entity and hence it can only be applied programmatically.":{
+    "ITA":"Questo modello non è associato a un'entità e pertanto può essere applicato solo a livello di codice."},
+  "Set filters":{
+    "ITA":"Impostare i filtri"},
+  "You can edit the document created from the Word template to provide a custom message. After editing the document, you must save and close it before returning here to continue.":{
+    "ITA":"È possibile modificare il documento creato dal modello di Word per fornire un messaggio personalizzato. Dopo aver modificato il documento, è necessario salvarlo e chiuderlo prima di tornare qui per continuare."},
+  "You can define a filter to choose which rows get a template associated.":{
+    "ITA":"È possibile definire un filtro per scegliere a quali righe associare un modello."},
+  "Record":{
+    "ITA":"Registrazione"},
+  "Specifies entity associated with the template.":{
+    "ITA":"Specifica l'entità associata al modello."},
+  "Language":{
+    "ITA":"Lingua"},
+  "Specifies the language of the template.":{
+    "ITA":"Specifica la lingua del modello."},
+  "Create a template":{
+    "ITA":"Creare un modello"},
+  "Create an empty Word template for a specific table.":{
+    "ITA":"Crea un modello di Word vuoto per una tabella specifica."},
+  "Download":{
+    "ITA":"Scaricare"},
+  "Download the selected Word template.":{
+    "ITA":"Scarica il modello di Word selezionato."},
+  "Upload":{
+    "ITA":"Caricare"},
+  "Upload a new template for the selected entry.":{
+    "ITA":"Carica un nuovo modello per la voce selezionata."},
+  "Apply":{
+    "ITA":"Applicare"},
+  "Apply Word template.":{
+    "ITA":"Applica il modello di Word."},
+  "Edit related entities":{
+    "ITA":"Modificare le entità correlate"},
+  "Edit the related entities for the selected Word template.":{
+    "ITA":"Modifica le entità correlate per il modello di Word selezionato."},
+  "Edit in OneDrive":{
+    "ITA":"Modificare in OneDrive"},
+  "Copy the file to your Business Central folder in OneDrive and open it in a new window so you can edit the file.":{
+    "ITA":"Copia il file nella cartella Business Central in OneDrive e aprilo in una nuova finestra in modo da poter modificare il file."},
+  "Cannot upload the template because it contains one or more merge fields with names that are 40 characters or more.":{
+    "ITA":"Impossibile caricare il modello perché contiene uno o più campi unione con nomi di 40 caratteri o più."},
+  "The RecordVariant parameter is not a Record.":{
+    "ITA":"Il parametro RecordVariant non è un oggetto Record."},
+  "The specified save format is not supported.":{
+    "ITA":"Il formato di salvataggio specificato non è supportato."},
+  "The specified Word Template Code was not found.":{
+    "ITA":"Il codice del modello di Word specificato non è stato trovato."},
+  "No Merge fields were specified.":{
+    "ITA":"Non è stato specificato alcun campo di unione."},
+  "The Word Template could not be loaded. Make sure you":{
+    "ITA":"Impossibile caricare il modello di Word. Assicurati di"},
+  "Upload template.":{
+    "ITA":"Carica il modello."},
+  "Download template and data source as zip.":{
+    "ITA":"Scarica il modello e l'origine dati come zip."},
+  "Download document.":{
+    "ITA":"Scarica il documento."},
+  "%1 Filters":{
+    "ITA":"Filtri %1"},
+  "Do you want to specify any filters on the template entity?":{
+    "ITA":"Si desidera specificare dei filtri nell'entità modello?"},
+  "DataSource.xlsx":{
+    "ITA":"DataSource.xlsx"},
+  "DataSource":{
+    "ITA":"Origine dati"},
+  "Template":{
+    "ITA":"Sagoma"},
+  "%1 Template":{
+    "ITA":"Modello %1"},
+  "Select entity":{
+    "ITA":"Seleziona entità"},
+  "Do you want to override the existing template?":{
+    "ITA":"Si desidera sovrascrivere il modello esistente?"},
+  "Add new entity for which to create template":{
+    "ITA":"Aggiungere una nuova entità per la quale creare il modello"},
+  "The field prefix for the related entity already exists.":{
+    "ITA":"Il prefisso del campo per l'entità correlata esiste già."},
+  "The related entity already exists.":{
+    "ITA":"L'entità correlata esiste già."},
+  "The length of the related table IDs (%1), does not match the length of the related table codes (%2).":{
+    "ITA":"La lunghezza degli ID tabella correlati (%1) non corrisponde alla lunghezza dei codici tabella correlati (%2)."},
+  "%1.%2":{
+    "ITA":"%1.%2"},
+  "%1_":{
+    "ITA":"%1_"},
+  "_%1":{
+    "ITA":"_%1"},
+  "%1_%2.%3":{
+    "ITA":"%1_%2.%3"},
+  "%1|":{
+    "ITA":"%1|"},
+  "%1%2%3":{
+    "ITA":"%1%2%3"},
+  "%1_CALC_%2":{
+    "ITA":"%1_CALC_%2"},
+  "CALC_%1":{
+    "ITA":"CALC_%1"},
+  "<|>|:|\\/|\\\\|\\||\\?|\\*|\\\"":{
+    "ITA":"<|>|:|\\/|\\\\|\\||\\?|\\*|\\\""},
+  "AL Word Templates":{
+    "ITA":"Modelli Word di AL"},
+  "Template downloaded: %1 (%2).":{
+    "ITA":"Modello scaricato: %1 (%2)."},
+  "Template uploaded: %1 (%2).":{
+    "ITA":"Modello caricato: %1 (%2)."},
+  "Template created: %1 (%2).":{
+    "ITA":"Modello creato: %1 (%2)."},
+  "Template deleted: %1 (%2).":{
+    "ITA":"Modello eliminato: %1 (%2)."},
+  "Table no. of Word Template Creation Wizard set externally: %1.":{
+    "ITA":"Tabella n. della procedura guidata di creazione del modello di Word impostata esternamente: %1."},
+  "Failed to apply template: %1 (%2).":{
+    "ITA":"Impossibile applicare il modello: %1 (%2)."},
+  "Failed to load template: %1 (%2).":{
+    "ITA":"Impossibile caricare il modello: %1 (%2)."},
+  "Table ID %1 does not exist.":{
+    "ITA":"L'ID tabella %1 non esiste."},
+  "OTHER":{
+    "ITA":"ALTRO"},
+  "Temp doc.docx":{
+    "ITA":"Temperatura doc.docx"},
+  "You cannot remove a table while there are still tables related to it.":{
+    "ITA":"Non è possibile rimuovere una tabella mentre sono ancora presenti tabelle correlate."},
+  "Settings.xml file content does not exist in the Word Document.":{
+    "ITA":"Settings.xml contenuto del file non esiste nel documento di Word."},
+  "word/_rels/settings.xml.rels":{
+    "ITA":"parola/_rels/settings.xml.rels"},
+  "Data source not set.":{
+    "ITA":"Origine dati non impostata."},
+  "Create a Word Template":{
+    "ITA":"Creare un modello Word"},
+  "Choose the source of the data for the template.":{
+    "ITA":"Scegliere l'origine dei dati per il modello."},
+  "Source Tables":{
+    "ITA":"Tabelle di origine"},
+  "Download an empty template":{
+    "ITA":"Scaricare un modello vuoto"},
+  "Upload a template":{
+    "ITA":"Caricare un modello"},
+  "Uploaded file":{
+    "ITA":"File caricato"},
+  "Specifies the name of the file that was uploaded.":{
+    "ITA":"Specifica il nome del file caricato."},
+  "Specifies the entity used in the template in the uploaded file.":{
+    "ITA":"Specifica l'entità utilizzata nel modello nel file caricato."},
+  "No template has been uploaded yet.":{
+    "ITA":"Nessun modello è stato ancora caricato."},
+  "Almost there!":{
+    "ITA":"Ci siamo quasi!"},
+  "Specifies the entity of the template.":{
+    "ITA":"Specifica l'entità del modello."},
+  "Download a blank template.":{
+    "ITA":"Scarica un modello vuoto."},
+  "Upload the template":{
+    "ITA":"Carica il modello"},
+  "Learn more":{
+    "ITA":"Ulteriori informazioni"},
+  "https://www.microsoft.com":{
+    "ITA":"https://www.microsoft.com"},
+  "Please fill in all fields before continuing.":{
+    "ITA":"Si prega di compilare tutti i campi prima di continuare."},
+  "Please select an entity before continuing.":{
+    "ITA":"Seleziona un'entità prima di continuare."},
+  "Please upload a template before continuing.":{
+    "ITA":"Carica un modello prima di continuare."},
+  "A template with this code already exists.":{
+    "ITA":"Esiste già un modello con questo codice."},
+  "Trying to add custom field %1, however it was not prepared for merge!":{
+    "ITA":"Sto cercando di aggiungere il campo personalizzato %1, ma non è stato preparato per l'unione!"},
+  "The custom field %1 already exists.":{
+    "ITA":"Il campo personalizzato %1 esiste già."},
+  "Not applicable":{
+    "ITA":"Non applicabile"},
+  "The service name is not valid.":{
+    "ITA":"Il nome del servizio non è valido."},
+  "[\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\p{Lm}\\p{Nl}]":{
+    "ITA":"[\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\p{Lm}\\p{Nl}]"},
+  "[\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\p{Lm}\\p{Nl}\\p{Mn}\\p{Mc}\\p{Nd}\\p{Pc}\\p{Cf}]":{
+    "ITA":"[\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\p{Lm}\\p{Nl}\\p{Mn}\\p{Mc}\\p{Nd}\\p{Pc}\\p{Cf}]"},
+  "The web service name %1 already exists.  Enter a different service name.":{
+    "ITA":"Il nome del servizio Web %1 esiste già.  Immettere un nome di servizio diverso."},
+  "The web service cannot be added because it conflicts with an unpublished system web service for the object.":{
+    "ITA":"Impossibile aggiungere il servizio Web perché è in conflitto con un servizio Web di sistema non pubblicato per l'oggetto."},
+  "The web service cannot be modified because it conflicts with an unpublished system web service for the object.":{
+    "ITA":"Il servizio Web non può essere modificato perché è in conflitto con un servizio Web di sistema non pubblicato per l'oggetto."},
+  "Attempt to delete a web service":{
+    "ITA":"Tentativo di eliminare un servizio Web"},
+  "Web Service Deleted":{
+    "ITA":"Servizio Web eliminato"},
+  "Tenant Web Service Deleted":{
+    "ITA":"Servizio Web tenant eliminato"},
+  "https://go.microsoft.com/fwlink/?linkid=2138827":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2138827"},
+  "Web Service Aggregate":{
+    "ITA":"Aggregazione di servizi Web"},
+  "Object Type":{
+    "ITA":"Tipo di oggetto"},
+  "Object ID":{
+    "ITA":"ID oggetto"},
+  "Service Name":{
+    "ITA":"Nome servizio"},
+  "Published":{
+    "ITA":"Edito"},
+  "Exclude Fields Outside of the Repeater":{
+    "ITA":"Escludi campi all'esterno del ripetitore"},
+  "Exclude Non-Editable FlowFields":{
+    "ITA":"Escludi FlowField non modificabili"},
+  "All Tenants":{
+    "ITA":"Tutti gli inquilini"},
+  "Tenant Web Service OData":{
+    "ITA":"OData del servizio Web tenant"},
+  "Tenant Web Service ID":{
+    "ITA":"ID servizio Web tenant"},
+  "OData Select Clause":{
+    "ITA":"Clausola di selezione OData"},
+  "OData Filter Clause":{
+    "ITA":"Clausola di filtro OData"},
+  "OData V4 Filter Clause":{
+    "ITA":"Clausola di filtro OData V4"},
+  "Tenant Web Service Filter":{
+    "ITA":"Filtro del servizio Web tenant"},
+  "Entry ID":{
+    "ITA":"ID voce"},
+  "Filter":{
+    "ITA":"Filtro"},
+  "Data Item":{
+    "ITA":"Elemento di dati"},
+  "Tenant Web Service Columns":{
+    "ITA":"Colonne del servizio Web tenant"},
+  "Report Caption":{
+    "ITA":"Didascalia del rapporto"},
+  "Table":{
+    "ITA":"Tavolo"},
+  "Field Caption":{
+    "ITA":"Didascalia campo"},
+  "Video link":{
+    "ITA":"Collegamento video"},
+  "Uncategorized":{
+    "ITA":"Uncategorized"},
+  "Product Videos":{
+    "ITA":"Video dei prodotti"},
+  "Available Videos":{
+    "ITA":"Video disponibili"},
+  "Specifies the title of the video.":{
+    "ITA":"Specifica il titolo del video."},
+  "Specifies the video category.":{
+    "ITA":"Specifica la categoria video."},
+  "Specifies the source extension identifier.":{
+    "ITA":"Specifica l'identificatore dell'estensione di origine."},
+  "Specifies the source extension name.":{
+    "ITA":"Specifica il nome dell'estensione di origine."},
+  "Product Video Buffer":{
+    "ITA":"Buffer video del prodotto"},
+  "ID":{
+    "ITA":"ID"},
+  "Title":{
+    "ITA":"Titolo"},
+  "Video Url":{
+    "ITA":"Video Url"},
+  "Assisted Setup ID":{
+    "ITA":"ID configurazione assistita"},
+  "Indentation":{
+    "ITA":"Indentazione"},
+  "App ID":{
+    "ITA":"App ID"},
+  "Extension Name":{
+    "ITA":"Nome estensione"},
+  "Category":{
+    "ITA":"Categoria"},
+  "Choose the location where you want to save the encryption key.":{
+    "ITA":"Scegliere la posizione in cui si desidera salvare la chiave di crittografia."},
+  "The encryption key file must be protected by a password and stored in a safe location.\\\\Do you want to save the encryption key?":{
+    "ITA":"Il file della chiave di crittografia deve essere protetto da una password e conservato in un luogo sicuro.\\\\Si desidera salvare la chiave di crittografia?"},
+  "Select a key file to import.":{
+    "ITA":"Selezionare un file chiave da importare."},
+  "EncryptionKey.key":{
+    "ITA":"EncryptionKey.key"},
+  "Key File(*.key)|*.key":{
+    "ITA":"File chiave(*.key)|*.key"},
+  "The encryption is already enabled. Continuing will decrypt the encrypted data and encrypt it again with the new key.\\\\Do you want to continue?":{
+    "ITA":"La crittografia è già abilitata. Continuando si decrittograferanno i dati crittografati e verranno crittografati nuovamente con la nuova chiave.\\\\Si desidera continuare?"},
+  "The key was imported successfully.":{
+    "ITA":"La chiave è stata importata correttamente."},
+  "Enabling encryption will generate an encryption key on the server.\\It is recommended that you save a copy of the encryption key in a safe location.\\\\Do you want to continue?":{
+    "ITA":"L'abilitazione della crittografia genererà una chiave di crittografia sul server.\\Si consiglia di salvare una copia della chiave di crittografia in un luogo sicuro.\\\\Si desidera continuare?"},
+  "Disabling encryption will decrypt the encrypted data and store it in the database in an unsecure way.\\\\Do you want to continue?":{
+    "ITA":"La disabilitazione della crittografia decrittograferà i dati crittografati e li memorizzerà nel database in modo non sicuro.\\\\Vuoi continuare?"},
+  "Encryption is either not enabled or the encryption key cannot be found.":{
+    "ITA":"La crittografia non è abilitata o non è possibile trovare la chiave di crittografia."},
+  "Data encryption is not activated. It is recommended that you encrypt data. \\Do you want to open the Data Encryption Management window?":{
+    "ITA":"La crittografia dei dati non è attivata. Si consiglia di crittografare i dati. \\Si desidera aprire la finestra Gestione crittografia dati?"},
+  "User Settings":{
+    "ITA":"Impostazioni utente"},
+  "User ID":{
+    "ITA":"ID utente"},
+  "Specifies the user’s unique identifier.":{
+    "ITA":"Specifica l'identificatore univoco dell'utente."},
+  "Full Name":{
+    "ITA":"Nome completo"},
+  "Specifies the user’s full name.":{
+    "ITA":"Specifica il nome completo dell'utente."},
+  "Role":{
+    "ITA":"Ruolo"},
+  "Specifies the user role that defines the user’s default Role Center and role-specific customizations. Unless restricted by permissions, users can change their role on the My Settings page.":{
+    "ITA":"Specifica il ruolo utente che definisce la Gestione ruolo utente predefinita dell'utente e le personalizzazioni specifiche del ruolo. A meno che non siano limitati dalle autorizzazioni, gli utenti possono modificare il proprio ruolo nella pagina Impostazioni personali."},
+  "Specifies the language in which Business Central will display. Users can change this on the My Settings page.":{
+    "ITA":"Specifica la lingua in cui verrà visualizzato Business Central. Gli utenti possono modificare questa impostazione nella pagina Impostazioni personali."},
+  "Region":{
+    "ITA":"Regione"},
+  "Specifies the region setting for the user. The region defines display formats, for example, for dates, numbering, symbols, and currency. Users can change this on the My Settings page.":{
+    "ITA":"Specifica l'impostazione dell'area per l'utente. L'area definisce i formati di visualizzazione, ad esempio per date, numerazione, simboli e valuta. Gli utenti possono modificare questa impostazione nella pagina Impostazioni personali."},
+  "Time Zone":{
+    "ITA":"Fuso orario"},
+  "Specifies the time zone for the user. Users can change this on the My Settings page.":{
+    "ITA":"Specifica il fuso orario dell'utente. Gli utenti possono modificare questa impostazione nella pagina Impostazioni personali."},
+  "Specifies the company that the user works in. Unless restricted by permissions, users can change this on the My Settings page.":{
+    "ITA":"Specifica la società in cui lavora l'utente. A meno che non siano limitati dalle autorizzazioni, gli utenti possono modificare questa impostazione nella pagina Impostazioni personali."},
+  "Company %1 was just created, and we are still setting it up for you.\\This may take up to 10 minutes, so take a short break before you begin to use %2.":{
+    "ITA":"La società %1 è stata appena creata e la stiamo ancora configurando per te.\\Questa operazione potrebbe richiedere fino a 10 minuti, quindi prenditi una breve pausa prima di iniziare a utilizzare %2."},
+  "Your last sign in was on %1.":{
+    "ITA":"L'ultimo accesso è stato il %1."},
+  "We":{
+    "ITA":"Noi"},
+  "ve chosen to explore %1!\\\\Your session will restart to activate the new settings.":{},
+  "(User-created)":{
+    "ITA":"(Creato dall'utente)"},
+  "Navigation menu only.":{
+    "ITA":"Solo menu di navigazione."},
+  "You cannot open this page. Only administrators can access settings for other users.":{
+    "ITA":"Non è possibile aprire questa pagina. Solo gli amministratori possono accedere alle impostazioni di altri utenti."},
+  "%1 %2 already exists.":{
+    "ITA":"%1 %2 esiste già."},
+  "Specifies the company that is associated with the user.":{
+    "ITA":"Specifica la società associata all'utente."},
+  "Specifies the time zone that Microsoft Windows is set up to run for the selected user.":{
+    "ITA":"Specifica il fuso orario per il quale Microsoft Windows è configurato per l'esecuzione per l'utente selezionato."},
+  "Teaching Tips":{
+    "ITA":"Suggerimenti per l'insegnamento"},
+  "Specifies whether to display short messages that inform, remind, or teach you about important fields and actions when you open a page.":{
+    "ITA":"Specifica se visualizzare brevi messaggi che informano, ricordano o insegnano campi e azioni importanti quando si apre una pagina."},
+  "User Security ID":{
+    "ITA":"ID di sicurezza utente"},
+  "Initialized":{
+    "ITA":"Inizializzato"},
+  "Profile ID":{
+    "ITA":"ID profilo"},
+  "Scope":{
+    "ITA":"Portata"},
+  "Language ID":{
+    "ITA":"ID lingua"},
+  "Locale ID":{
+    "ITA":"Locale ID"},
+  "Work Date":{
+    "ITA":"Data di lavoro"},
+  "Last Login Info":{
+    "ITA":"Ultimo accesso"},
+  "Legacy Action Bar":{
+    "ITA":"Barra delle azioni legacy"},
+  "My Settings":{
+    "ITA":"Le mie impostazioni"},
+  "Specifies the role that defines your home page with links to the most common tasks.":{
+    "ITA":"Specifica il ruolo che definisce la home page con i collegamenti alle attività più comuni."},
+  "Specifies the database company that you work in. You must sign out and then sign in again for the change to take effect.":{
+    "ITA":"Specifica la società di database in cui si lavora. È necessario disconnettersi e quindi accedere di nuovo per rendere effettiva la modifica."},
+  "Specifies the date that will be entered on transactions, typically today":{
+    "ITA":"Specifica la data che verrà immessa nelle transazioni, in genere oggi"},
+  "Specifies the regional settings, such as date and numeric format, on all devices. You must sign out and then sign in again for the change to take effect.":{
+    "ITA":"Specifica le impostazioni internazionali, ad esempio la data e il formato numerico, su tutti i dispositivi. È necessario disconnettersi e quindi accedere di nuovo per rendere effettiva la modifica."},
+  "Specifies the display language, on all devices. You must sign out and then sign in again for the change to take effect.":{
+    "ITA":"Specifica la lingua di visualizzazione, su tutti i dispositivi. È necessario disconnettersi e quindi accedere di nuovo per rendere effettiva la modifica."},
+  "Specifies the time zone that you work in. You must sign out and then sign in again for the change to take effect.":{
+    "ITA":"Specifica il fuso orario in cui si lavora. È necessario disconnettersi e quindi accedere di nuovo per rendere effettiva la modifica."},
+  "Revert the action bar to the legacy terms and layout. For example, the action bar won":{
+    "ITA":"Ripristina la barra delle azioni ai termini e al layout precedenti. Ad esempio, la barra delle azioni ha vinto"},
+  "Security":{
+    "ITA":"Sicurezza"},
+  "LastLoginInfo":{
+    "ITA":"LastLoginInfo"},
+  "User Settings Card":{
+    "ITA":"Scheda Impostazioni utente"},
+  "General":{
+    "ITA":"Generale"},
+  "Specifies the user":{
+    "ITA":"Specifica l'utente"},
+  "Specifies the user role that defines the user":{
+    "ITA":"Specifica il ruolo utente che definisce l'utente"},
+  "Specifies whether to display short messages that inform, remind, or teach the user about important fields and actions when they open a page.":{
+    "ITA":"Specifica se visualizzare brevi messaggi che informano, ricordano o istruiscono l'utente su campi e azioni importanti quando apre una pagina."},
+  "Available Roles":{
+    "ITA":"Ruoli disponibili"},
+  "Display Name":{
+    "ITA":"Nome visualizzato"},
+  "Specifies the name of the organizational role.":{
+    "ITA":"Specifica il nome del ruolo organizzativo."},
+  "Source":{
+    "ITA":"Fonte"},
+  "Specifies the origin of this role, which can be either an extension, shown by its name, or a custom profile created by a user.":{
+    "ITA":"Specifica l'origine di questo ruolo, che può essere un'estensione, indicata dal nome, o un profilo personalizzato creato da un utente."},
+  "Allowed Companies":{
+    "ITA":"Aziende ammesse"},
+  "Specifies the display name that is defined for the company. If a display name is not defined, then the company name is used.":{
+    "ITA":"Specifica il nome visualizzato definito per la società. Se non è definito un nome visualizzato, viene utilizzato il nome dell'azienda."},
+  "Evaluation Company":{
+    "ITA":"Società di Valutazione"},
+  "Specifies that the company is for trial purposes only, and that a subscription has not been purchased.":{
+    "ITA":"Specifica che l'azienda è solo a scopo di valutazione e che non è stato acquistato un abbonamento."},
+  "Create New Company":{
+    "ITA":"Crea una nuova società"},
+  "Get assistance with creating a new company.":{
+    "ITA":"Ottieni assistenza per la creazione di una nuova azienda."},
+  "The user name %1 does not exist.":{
+    "ITA":"Il nome utente %1 non esiste."},
+  "User Name":{
+    "ITA":"Nome utente"},
+  "Specifies the name of the user. If the user must enter credentials when they sign in, this is the name they must enter.":{
+    "ITA":"Specifica il nome dell'utente. Se l'utente deve immettere le credenziali al momento dell'accesso, questo è il nome che deve inserire."},
+  "Specifies the full name of the user.":{
+    "ITA":"Specifica il nome completo dell'utente."},
+  "Specifies the Windows Security ID of the user. This is only relevant for Windows authentication.":{
+    "ITA":"Specifica l'ID di sicurezza di Windows dell'utente. Questo è rilevante solo per l'autenticazione di Windows."},
+  "Specifies the Microsoft account that this user uses to sign in to Office 365 or SharePoint Online.":{
+    "ITA":"Specifica l'account Microsoft utilizzato dall'utente per accedere a Office 365 o SharePoint Online."},
+  "SUPER":{
+    "ITA":"SUPER"},
+  "There should be at least one enabled ":{
+    "ITA":"Dovrebbe essercene almeno uno abilitato"},
+  "SECURITY":{
+    "ITA":"SICUREZZA"},
+  "Permission Set Lookup":{
+    "ITA":"Ricerca set di autorizzazioni"},
+  "Permission Set":{
+    "ITA":"Set di autorizzazioni"},
+  "Specifies a permission set that defines the role.":{
+    "ITA":"Specifica un set di autorizzazioni che definisce il ruolo."},
+  "Specifies the name of the permission set.":{
+    "ITA":"Specifica il nome del set di autorizzazioni."},
+  "Specifies the name of the extension that provides the permission set.":{
+    "ITA":"Specifica il nome dell'estensione che fornisce il set di autorizzazioni."},
+  "Specifies if the permission set is specific to your tenant or generally available in the system.":{
+    "ITA":"Specifica se il set di autorizzazioni è specifico del tenant o se è disponibile a livello generale nel sistema."},
+  "User Login":{
+    "ITA":"Accesso utente"},
+  "Could not insert environment login information.":{
+    "ITA":"Impossibile inserire le informazioni di accesso all'ambiente."},
+  "Could not modify user login information.":{
+    "ITA":"Impossibile modificare le informazioni di accesso dell'utente."},
+  "Could not insert user login information.":{
+    "ITA":"Impossibile inserire le informazioni di accesso dell'utente."},
+  "User Details":{
+    "ITA":"Dettagli utente"},
+  "Telemetry ID":{
+    "ITA":"ID telemetria"},
+  "Entra Object ID":{
+    "ITA":"ID oggetto Entra"},
+  "Users":{
+    "ITA":"Gli utenti"},
+  "Status":{
+    "ITA":"Stato"},
+  "Specifies whether the user can access companies in the current environment.":{
+    "ITA":"Specifica se l'utente può accedere alle società nell'ambiente corrente."},
+  "Specifies an ID that uniquely identifies the user.":{
+    "ITA":"Specifica un ID che identifica in modo univoco l'utente."},
+  "Specifies a telemetry ID which can be used for troubleshooting purposes.":{
+    "ITA":"Specifica un ID di telemetria che può essere utilizzato per la risoluzione dei problemi."},
+  "Specifies the Microsoft account that this user signs into Microsoft 365 or SharePoint Online with.":{
+    "ITA":"Specifica l'account Microsoft con cui l'utente accede a Microsoft 365 o SharePoint Online."},
+  "Specifies ID assigned to the user in Microsoft Entra.":{
+    "ITA":"Specifica l'ID assegnato all'utente in Microsoft Entra."},
+  "Specifies if the SUPER permission set is assigned to the user.":{
+    "ITA":"Specifica se il set di autorizzazioni SUPER è assegnato all'utente."},
+  "Active users":{
+    "ITA":"Utenti attivi"},
+  "Users with SUPER permission set":{
+    "ITA":"Utenti con set di autorizzazioni SUPER"},
+  "Skip":{
+    "ITA":"Saltare"},
+  "Overwrite All Matching":{
+    "ITA":"Sovrascrivi tutte le corrispondenze"},
+  "Keep All":{
+    "ITA":"Mantieni tutto"},
+  "Throw Error":{
+    "ITA":"Genera errore"},
+  "RelativeOrAbsolute":{
+    "ITA":"RelativoOrAssoluto"},
+  "Absolute":{
+    "ITA":"Assoluto"},
+  "Relative":{
+    "ITA":"Relativo"},
+  "The flag cannot be empty.":{
+    "ITA":"Il flag non può essere vuoto."},
+  "The query parameter key cannot be empty.":{
+    "ITA":"La chiave del parametro di query non può essere vuota."},
+  "The provided query flag is already present in the URI.":{
+    "ITA":"Il flag di query fornito è già presente nell'URI."},
+  "The provided query parameter is already present in the URI.":{
+    "ITA":"Il parametro di query fornito è già presente nell'URI."},
+  "System is not initialized properly. Upgrade tags are missing for %1 company":{
+    "ITA":"Il sistema non è inizializzato correttamente. Tag di aggiornamento mancanti per %1 azienda"},
+  "Upgrade Tags":{
+    "ITA":"Tag di aggiornamento"},
+  "Tag":{
+    "ITA":"Cartellino"},
+  "Tag Timestamp":{
+    "ITA":"Tag Timestamp"},
+  "Skipped Upgrade":{
+    "ITA":"Aggiornamento saltato"},
+  "This functionality cannot be used without enabling the Cloud Migration. It should be used only in the context of the Cloud Migration.":{
+    "ITA":"Questa funzionalità non può essere utilizzata senza abilitare la migrazione al cloud. Deve essere utilizzato solo nel contesto della migrazione al cloud."},
+  "Upgrade tag set: %1":{
+    "ITA":"Set di tag di aggiornamento: %1"},
+  "Upgrade tag searched for: %1":{
+    "ITA":"Tag di aggiornamento cercato: %1"},
+  "Copying upgrade tag %1. From company: %2. To company: %3":{
+    "ITA":"Copia del tag di aggiornamento %1. Dall'azienda: %2. Verso l'azienda: %3"},
+  "ALUpgrade":{
+    "ITA":"ALUpgrade"},
+  "Upgrade Tag Backup":{
+    "ITA":"Backup dei tag di aggiornamento"},
+  "Content":{
+    "ITA":"Contenuto"},
+  "Translations cannot be added or retrieved for temporary records.":{
+    "ITA":"Le traduzioni non possono essere aggiunte o recuperate per i record temporanei."},
+  "The records cannot belong to different tables.":{
+    "ITA":"I record non possono appartenere a tabelle diverse."},
+  "The variant passed is not a record.":{
+    "ITA":"La variante passata non è un record."},
+  "Translations cannot be added for the record on table %1.":{
+    "ITA":"Non è possibile aggiungere traduzioni per il record nella tabella %1."},
+  "The provided translation \"%1\" must not exceed %2 characters (Current Length: %3).":{
+    "ITA":"La traduzione fornita \"%1\" non deve superare %2 caratteri (Lunghezza corrente: %3)."},
+  "Translation":{
+    "ITA":"Traduzione"},
+  "System ID":{
+    "ITA":"ID di sistema"},
+  "Table ID":{
+    "ITA":"ID tabella"},
+  "Field ID":{
+    "ITA":"ID campo"},
+  "Value":{
+    "ITA":"Valore"},
+  "Language Name":{
+    "ITA":"Nome lingua"},
+  "Target Language":{
+    "ITA":"Lingua d'arrivo"},
+  "Specifies the language to which the source text was translated.":{
+    "ITA":"Specifica la lingua in cui è stato tradotto il testo di origine."},
+  "Specifies the translated text.":{
+    "ITA":"Specifica il testo tradotto."},
+  "Time Zones":{
+    "ITA":"Fusi orari"},
+  "Specifies the ID of the time zone.":{
+    "ITA":"Specifica l'ID del fuso orario."},
+  "Specifies the full name of the time zone.":{
+    "ITA":"Specifica il nome completo del fuso orario."},
+  "More than one telemetry logger has been registered for publisher %1.":{
+    "ITA":"Per l'editore %1 è stato registrato più di un logger di telemetria."},
+  "An app from publisher %1 is sending telemetry, but there is no registered telemetry logger for this publisher.":{
+    "ITA":"Un'app dell'editore %1 invia dati di telemetria, ma non è presente alcun logger di telemetria registrato per questo editore."},
+  "A 3rd party app from publisher %1 is using rich telemetry.":{
+    "ITA":"Un'app di terze parti dell'editore %1 usa la telemetria avanzata."},
+  "TelemetryLibrary":{
+    "ITA":"Libreria di telemetria"},
+  "Microsoft":{
+    "ITA":"Valentina"},
+  "Multiple custom dimensions with the same dimension name provided.":{
+    "ITA":"Più dimensioni personalizzate con lo stesso nome di dimensione fornito."},
+  "A session updating the feature uptake status is taking longer than expected. The feature uptake status might not be updated correctly.":{
+    "ITA":"Una sessione di aggiornamento dello stato di adozione delle funzionalità richiede più tempo del previsto. Lo stato di adozione della funzionalità potrebbe non essere aggiornato correttamente."},
+  "Undiscovered":{
+    "ITA":"Sconosciuto"},
+  "Discovered":{
+    "ITA":"Scoperto"},
+  "Set up":{
+    "ITA":"Impostare"},
+  "Used":{
+    "ITA":"Usato"},
+  "Feature %1 is %2":{
+    "ITA":"La funzionalità %1 è %2"},
+  "Table Information":{
+    "ITA":"Informazioni sulla tabella"},
+  "Specifies the name of the table.":{
+    "ITA":"Specifica il nome della tabella."},
+  "Specifies the name of the company the table belongs to.":{
+    "ITA":"Specifica il nome della società a cui appartiene la tabella."},
+  "Specifies the ID of the table.":{
+    "ITA":"Specifica l'ID della tabella."},
+  "Specifies the total number of records stored in the table.":{
+    "ITA":"Specifica il numero totale di record archiviati nella tabella."},
+  "Specifies the average record size (in bytes).":{
+    "ITA":"Specifica la dimensione media dei record (in byte)."},
+  "Specifies the total amount of space the table occupies in the database (in kilobytes).":{
+    "ITA":"Specifica la quantità totale di spazio occupata dalla tabella nel database (in kilobyte)."},
+  "Specifies how much space the table data occupies in the database (in kilobytes).":{
+    "ITA":"Specifica la quantità di spazio occupata dai dati della tabella nel database (in kilobyte)."},
+  "Specifies how much space the table indexes (keys) occupy in the database (in kilobytes).":{
+    "ITA":"Specifica la quantità di spazio occupata dagli indici di tabella (chiavi) nel database (in kilobyte)."},
+  "Specifies the type of compression that is applied to the table in the database.":{
+    "ITA":"Specifica il tipo di compressione applicato alla tabella nel database."},
+  "Specifies how much space the table occupied in the database 30 days ago (in kilobytes).":{
+    "ITA":"Specifica la quantità di spazio occupata dalla tabella nel database 30 giorni fa (in kilobyte)."},
+  "Specifies the number of records in the table 30 days ago.":{
+    "ITA":"Specifica il numero di record nella tabella 30 giorni fa."},
+  "Specifies how much the table size grew in 30 days (in percent).":{
+    "ITA":"Specifica l'aumento delle dimensioni della tabella in 30 giorni (in percentuale)."},
+  "Progress: @1@@@@@@@@@@":{
+    "ITA":"Progresso: @1@@@@@@@@@@"},
+  "(Cross-Company Data)":{
+    "ITA":"(Dati interaziendali)"},
+  "Failed to calculate growth for table %1 %2":{
+    "ITA":"Impossibile calcolare la crescita per la tabella %1 %2"},
+  "Table Information Cache":{
+    "ITA":"Cache delle informazioni sulla tabella"},
+  "Company Name":{
+    "ITA":"Nome dell'azienda"},
+  "Table No.":{
+    "ITA":"Tabella n."},
+  "Table Name":{
+    "ITA":"Nome tabella"},
+  "No. of Records":{
+    "ITA":"No. Numero di record"},
+  "Record Size":{
+    "ITA":"Dimensione record"},
+  "Size (KB)":{
+    "ITA":"Dimensione (KB)"},
+  "Compression":{
+    "ITA":"Compressione"},
+  "Data Size (KB)":{
+    "ITA":"Dimensione dei dati (KB)"},
+  "Index Size (KB)":{
+    "ITA":"Dimensione indice (KB)"},
+  "Last Period Size (30D)":{
+    "ITA":"Ultima Taglia Periodo (30G)"},
+  "Growth % (30D)":{
+    "ITA":"% di crescita (30D)"},
+  "Last Period No. of Records (30D)":{
+    "ITA":"Ultimo periodo n. Numero di dischi (30D)"},
+  "Companies":{
+    "ITA":"Compagnie"},
+  "Specifies the name of the company.":{
+    "ITA":"Specifica il nome della società."},
+  "Specifies how much space the company occupies in the database (in kilobytes)":{
+    "ITA":"Specifica la quantità di spazio occupata dall'azienda nel database (in kilobyte)"},
+  "Total (KB)":{
+    "ITA":"Totale (KB)"},
+  "Specifies how much space all companies occupy in the database (in kilobytes)":{
+    "ITA":"Specifica la quantità di spazio occupata da tutte le società nel database (in kilobyte)"},
+  "Troubleshoot Tools":{
+    "ITA":"Strumenti per la risoluzione dei problemi"},
+  "Superuser of data":{
+    "ITA":"Superutente dei dati"},
+  "This role has all permissions.":{
+    "ITA":"Questo ruolo dispone di tutte le autorizzazioni."},
+  "Export Report DataSet to Excel":{
+    "ITA":"Esportazione del DataSet del report in Excel"},
+  "Allow Data Analysis Mode":{
+    "ITA":"Consenti modalità di analisi dei dati"},
+  "Snapshot Debug":{
+    "ITA":"Snapshot Debug"},
+  "Backup or restore database":{
+    "ITA":"Backup o ripristino del database"},
+  "Attach Debug":{
+    "ITA":"Collega debug"},
+  "Automate - Exec":{
+    "ITA":"Automatizza - Exec"},
+  "Request is successful.":{
+    "ITA":"La richiesta è andata a buon fine."},
+  "Detected signup context.":{
+    "ITA":"Contesto di iscrizione rilevato."},
+  "No signup context was passed.":{
+    "ITA":"Non è stato passato alcun contesto di iscrizione."},
+  "The signup context did not contain a ":{
+    "ITA":"Il contesto di iscrizione non conteneva un"},
+  "Not Set":{
+    "ITA":"Non impostato"},
+  "Viral Signup":{
+    "ITA":"Iscrizione virale"},
+  "Primary Key":{
+    "ITA":"Chiave primaria"},
+  "Handler Extension Id":{
+    "ITA":"ID estensione gestore"},
+  "Bearer %1":{
+    "ITA":"Portatore %1"},
+  "Failed to retrieve an access token.":{
+    "ITA":"Impossibile recuperare un token di accesso."},
+  "https://login.microsoftonline.com/%1/oauth2/v2.0/token":{
+    "ITA":"https://login.microsoftonline.com/%1/oauth2/v2.0/token"},
+  "https://login.microsoftonline.com/%1/oauth2/v2.0/authorize":{
+    "ITA":"https://login.microsoftonline.com/%1/oauth2/v2.0/authorize"},
+  "Could not read response.":{
+    "ITA":"Impossibile leggere la risposta."},
+  "Incorrect response.":{
+    "ITA":"Risposta errata."},
+  "Incorrect request digest response: %1.":{
+    "ITA":"Risposta digest della richiesta non corretta: %1."},
+  "AL SharePoint":{
+    "ITA":"AL SharePoint"},
+  "SharePoint List Item Attachment":{
+    "ITA":"Allegato elemento di elenco SharePoint"},
+  "Odata.Id":{
+    "ITA":"Odata.Id"},
+  "Odata.editLink":{
+    "ITA":"Odata.editLink"},
+  "File Name":{
+    "ITA":"Nome file"},
+  "Server Relative Url":{
+    "ITA":"URL relativo del server"},
+  "List Id":{
+    "ITA":"ID elenco"},
+  "List Item Id":{
+    "ITA":"ID elemento elenco"},
+  "Odata.Type":{
+    "ITA":"Odata.Type"},
+  "SharePoint List Item":{
+    "ITA":"Elemento dell'elenco SharePoint"},
+  "Created":{
+    "ITA":"Creato"},
+  "Attachments":{
+    "ITA":"Allegati"},
+  "File System Object Type":{
+    "ITA":"Tipo di oggetto File system"},
+  "Content Type Id":{
+    "ITA":"ID tipo di contenuto"},
+  "SharePoint List":{
+    "ITA":"Elenco SharePoint"},
+  "Description":{
+    "ITA":"Descrizione"},
+  "Base Template":{
+    "ITA":"Modello di base"},
+  "Base Type":{
+    "ITA":"Tipo di base"},
+  "Is Catalog":{
+    "ITA":"È Catalogo"},
+  "List Item Entity Type Full Name":{
+    "ITA":"Nome completo del tipo di entità della voce di elenco"},
+  "Odata.EditLink":{
+    "ITA":"Odata.EditLink"},
+  "SharePoint Folder":{
+    "ITA":"Cartella SharePoint"},
+  "Unique Id":{
+    "ITA":"ID univoco"},
+  "Item Count":{
+    "ITA":"Conteggio articoli"},
+  "Exists":{
+    "ITA":"Esiste"},
+  "SharePoint File":{
+    "ITA":"SharePoint File"},
+  "Length":{
+    "ITA":"Lunghezza"},
+  "https://{server_name}/_api/{namespace}":{
+    "ITA":"https://{server_name}/_api/{namespace}"},
+  "/%1":{
+    "ITA":"/%1"},
+  "/%1(":{
+    "ITA":"/%1("},
+  ")":{},
+  "/%1(%2)":{
+    "ITA":"/%1(%2)"},
+  "/%1(guid":{
+    "ITA":"/%1(guid"},
+  "An error has occurred":{
+    "ITA":"Si è verificato un errore"},
+  "NONISV|%1|Dynamics 365 Business Central - %2/%3":{
+    "ITA":"NONISV|%1|Dynamics 365 Business Central - %2/%3"},
+  "Security Groups":{
+    "ITA":"Gruppi di sicurezza"},
+  "Specifies the security group code.":{
+    "ITA":"Specifica il codice del gruppo di sicurezza."},
+  "Specifies the name of the security group.":{
+    "ITA":"Specifica il nome del gruppo di sicurezza."},
+  "New":{
+    "ITA":"Nuovo"},
+  "Add a new security group.":{
+    "ITA":"Aggiungere un nuovo gruppo di sicurezza."},
+  "Members":{
+    "ITA":"Membri"},
+  "View the members of the security group. Editing group memberships can be done in M365 admin center or the Azure portal.":{
+    "ITA":"Visualizzare i membri del gruppo di sicurezza. La modifica delle appartenenze ai gruppi può essere eseguita nell'interfaccia di amministrazione di M365 o nel portale di Azure."},
+  "View the members of the security group. Editing group memberships can be done in the ":{
+    "ITA":"Visualizzare i membri del gruppo di sicurezza. La modifica dell'appartenenza ai gruppi può essere eseguita nel menu"},
+  "Permissions":{
+    "ITA":"Autorizzazioni"},
+  "View or edit the permission sets that are assigned to the security group.":{
+    "ITA":"Visualizzare o modificare i set di autorizzazioni assegnati al gruppo di sicurezza."},
+  "Copy existing":{
+    "ITA":"Copia esistente"},
+  "Create a copy of the current security group.":{
+    "ITA":"Creare una copia del gruppo di sicurezza corrente."},
+  "Export Security Group":{
+    "ITA":"Esporta gruppo di sicurezza"},
+  "Export the selected security groups to an XML file.":{
+    "ITA":"Esportare i gruppi di sicurezza selezionati in un file XML."},
+  "Import Security Group":{
+    "ITA":"Importa gruppo di sicurezza"},
+  "Import security groups from an XML file.":{
+    "ITA":"Importare gruppi di sicurezza da un file XML."},
+  "Delete":{
+    "ITA":"Cancellare"},
+  "Delete the selected security groups.":{
+    "ITA":"Eliminare i gruppi di sicurezza selezionati."},
+  "Export security groups":{
+    "ITA":"Esportare i gruppi di sicurezza"},
+  "Import security groups":{
+    "ITA":"Importare gruppi di sicurezza"},
+  "Security group members will lose the permissions associated with the deleted groups. Do you want to continue?":{
+    "ITA":"I membri del gruppo di sicurezza perderanno le autorizzazioni associate ai gruppi eliminati. Vuoi continuare?"},
+  "SecurityGroups_%1.xml":{
+    "ITA":"SecurityGroups_%1.xml"},
+  "Specifies the company name for the permission set.":{
+    "ITA":"Specifica il nome della società per il set di autorizzazioni."},
+  "Add multiple":{
+    "ITA":"Aggiungi più"},
+  "Add two or more permission sets.":{
+    "ITA":"Aggiungere due o più set di autorizzazioni."},
+  "Specifies the name of the user.":{
+    "ITA":"Specifica il nome dell'utente."},
+  "Security Group Members":{
+    "ITA":"Membri del gruppo di sicurezza"},
+  "Specifies a security group.":{
+    "ITA":"Specifica un gruppo di sicurezza."},
+  "Security Group Member":{
+    "ITA":"Membro del gruppo di sicurezza"},
+  "Security Group Code":{
+    "ITA":"Codice gruppo di sicurezza"},
+  "Security Group Name":{
+    "ITA":"Nome gruppo di sicurezza"},
+  "User Full Name":{
+    "ITA":"Nome completo dell'utente"},
+  "Available Security Groups":{
+    "ITA":"Gruppi di sicurezza disponibili"},
+  "Specifies the ID of the security group.":{
+    "ITA":"Specifica l'ID del gruppo di sicurezza."},
+  "The group ID %1 does not correspond to a valid Windows group.":{
+    "ITA":"L'ID gruppo %1 non corrisponde a un gruppo di Windows valido."},
+  "The group ID %1 does not correspond to a valid Microsoft Entra group.":{
+    "ITA":"L'ID gruppo %1 non corrisponde a un gruppo Microsoft Entra valido."},
+  "The group %1 could not be found.":{
+    "ITA":"Impossibile trovare il gruppo %1."},
+  "The group %1 already exists.":{
+    "ITA":"Il gruppo %1 esiste già."},
+  "The group %1 is not allowed.":{
+    "ITA":"Il gruppo %1 non è consentito."},
+  "Could not find %1 group.":{
+    "ITA":"Impossibile trovare il gruppo %1."},
+  "You do not have permissions to create security groups. Ask your system administrator to give you Insert, Modify and Delete permissions for the Security Group table.":{
+    "ITA":"Non si dispone delle autorizzazioni per creare gruppi di sicurezza. Chiedere all'amministratore di sistema di concedere le autorizzazioni di inserimento, modifica ed eliminazione per la tabella del gruppo di sicurezza."},
+  "The group %1 could not be found in %2. The permission sets assigned to it will not have any effect.":{
+    "ITA":"Impossibile trovare il gruppo %1 in %2. I set di autorizzazioni assegnati non avranno alcun effetto."},
+  "The groups %1 could not be found in %2. The permission sets assigned to them will not have any effect.":{
+    "ITA":"Impossibile trovare i gruppi %1 in %2. I set di autorizzazioni assegnati a loro non avranno alcun effetto."},
+  "Active Directory":{
+    "ITA":"Rubrica attiva"},
+  "Microsoft Entra":{
+    "ITA":"Microsoft Entra"},
+  "A security group with ID %1 has been added. Automatically created user with security ID: %2.":{
+    "ITA":"È stato aggiunto un gruppo di sicurezza con ID %1. Utente creato automaticamente con ID di sicurezza: %2."},
+  "Removing %1 orphaned security groups.":{
+    "ITA":"Rimozione dei gruppi di sicurezza orfani %1."},
+  "Could not delete an orphaned security group.":{
+    "ITA":"Impossibile eliminare un gruppo di sicurezza orfano."},
+  "e78ecb57-f560-4788-b9c7-e5a477467d65":{
+    "ITA":"E78ECB57-F560-4788-B9C7-E5A477467D65"},
+  "Security Group":{
+    "ITA":"Gruppo di sicurezza"},
+  "Permission Sets":{
+    "ITA":"Set di autorizzazioni"},
+  "Specifies the ID of a permission set.":{
+    "ITA":"Specifica l'ID di un set di autorizzazioni."},
+  "Specifies the company that the permission set applies to.":{
+    "ITA":"Specifica la società a cui si applica il set di autorizzazioni."},
+  "New Security Group":{
+    "ITA":"Nuovo gruppo di sicurezza"},
+  "Learn more about this functionality.":{
+    "ITA":"Scopri di più su questa funzionalità."},
+  "Microsoft Entra security group name":{
+    "ITA":"Nome del gruppo di sicurezza Microsoft Entra"},
+  "Specifies the name of the Microsoft Entra security group.":{
+    "ITA":"Specifica il nome del gruppo di sicurezza di Microsoft Entra."},
+  "Windows group name":{
+    "ITA":"Nome del gruppo di Windows"},
+  "Specifies the name of the Windows group.":{
+    "ITA":"Specifica il nome del gruppo di Windows."},
+  "Specifies the code of the security group.":{
+    "ITA":"Specifica il codice del gruppo di sicurezza."},
+  "Create":{
+    "ITA":"Creare"},
+  "Create a security group with specified values.":{
+    "ITA":"Creare un gruppo di sicurezza con i valori specificati."},
+  "There must be at least one user in the system before you can create a security group.":{
+    "ITA":"Prima di poter creare un gruppo di sicurezza, è necessario che nel sistema sia presente almeno un utente."},
+  "https://go.microsoft.com/fwlink/?linkid=2226384":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2226384"},
+  "https://go.microsoft.com/fwlink/?linkid=2226617":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2226617"},
+  "Export/Import Security Groups":{
+    "ITA":"Esportazione/importazione di gruppi di sicurezza"},
+  "%1 security groups with a total of %2 permission sets were inserted.":{
+    "ITA":"Sono stati inseriti %1 gruppi di sicurezza con un totale di %2 set di autorizzazioni."},
+  "Copy Security Group":{
+    "ITA":"Gruppo di sicurezza Copia"},
+  "Copy from":{
+    "ITA":"Copia proveniente da"},
+  "Specifies the code the security group to copy the permissions from.":{
+    "ITA":"Specifica il codice da cui copiare le autorizzazioni per il gruppo di sicurezza."},
+  "New Microsoft Entra security group name":{
+    "ITA":"Nuovo nome del gruppo di sicurezza Microsoft Entra"},
+  "New Windows group name":{
+    "ITA":"Nuovo nome del gruppo di Windows"},
+  "New Code":{
+    "ITA":"Nuovo codice"},
+  "Specifies the code of the new security group.":{
+    "ITA":"Specifica il codice del nuovo gruppo di sicurezza."},
+  "Copy":{
+    "ITA":"Copiare"},
+  "Copy the security group.":{
+    "ITA":"Copiare il gruppo di sicurezza."},
+  "Couldn":{
+    "ITA":"Potevo"},
+  "Cannot get secrets because the App Key Vault Secret Provider has not been initialized.":{
+    "ITA":"Impossibile ottenere i segreti perché il provider di segreti dell'insieme di credenziali delle chiavi dell'app non è stato inizializzato."},
+  "financials":{
+    "ITA":"Finanziari"},
+  "display/%1/?puid=%2":{
+    "ITA":"display/%1/?puid=%2"},
+  "render/%1/?culture=%2&puid=%3&custom=%4":{
+    "ITA":"render/%1/?culture=%2&puid=%3&custom=%4"},
+  "AL NPS Prompt":{
+    "ITA":"AL NPS Prompt"},
+  "Request failed without status code.":{
+    "ITA":"Richiesta non riuscita senza codice di stato."},
+  "API URL is empty.":{
+    "ITA":"L'URL dell'API è vuoto."},
+  "No permission.":{
+    "ITA":"Nessun permesso."},
+  "Survey is not supported.":{
+    "ITA":"Il sondaggio non è supportato."},
+  "https://":{
+    "ITA":"https://"},
+  "Check URL is invalid.":{
+    "ITA":"Controlla che l'URL non sia valido."},
+  "Check URL is valid.":{
+    "ITA":"Verificare che l'URL sia valido."},
+  "Survey is already deactivated.":{
+    "ITA":"Il rilevamento è già disattivato."},
+  "Survey is already activated.":{
+    "ITA":"Il rilevamento è già attivato."},
+  "Survey is deactivated.":{
+    "ITA":"Il rilevamento è disattivato."},
+  "Survey is activated.":{
+    "ITA":"Il sondaggio è attivato."},
+  "Activating survey for PUID %1.":{
+    "ITA":"Attivazione del sondaggio per PUID %1."},
+  "Request failed with status code %1.":{
+    "ITA":"Richiesta non riuscita con codice di stato %1."},
+  "Cannot use default credentials.":{
+    "ITA":"Impossibile utilizzare le credenziali predefinite."},
+  "Cannot set request URI.":{
+    "ITA":"Impossibile impostare l'URI della richiesta."},
+  "Cannot get request headers.":{
+    "ITA":"Impossibile ottenere le intestazioni della richiesta."},
+  "Cannot add request header %1: %2.":{
+    "ITA":"Impossibile aggiungere l'intestazione della richiesta %1: %2."},
+  "Cannot read response content.":{
+    "ITA":"Impossibile leggere il contenuto della risposta."},
+  "display":{
+    "ITA":"esporre"},
+  "msgType":{
+    "ITA":"msgType"},
+  "PUID is empty.":{
+    "ITA":"Il PUID è vuoto."},
+  "No NPS prompt.":{
+    "ITA":"Nessun prompt di Server dei criteri di rete."},
+  "Positive response.":{
+    "ITA":"Risposta positiva."},
+  "Negative response.":{
+    "ITA":"Risposta negativa."},
+  "Cannot get property %1.":{
+    "ITA":"Impossibile ottenere la proprietà %1."},
+  "Cannot parse parameters.":{
+    "ITA":"Impossibile analizzare i parametri."},
+  "NPS prompt is displayed.":{
+    "ITA":"Viene visualizzato il prompt NPS."},
+  "NpsApiUrl":{
+    "ITA":"NpsApiUrl"},
+  "NpsRequestTimeout":{
+    "ITA":"NpsRequestTimeout"},
+  "NpsCacheLifeTime":{
+    "ITA":"NpsCacheLifeTime"},
+  "NpsParameters":{
+    "ITA":"Parametri NPS"},
+  "Secret %1 is not found.":{
+    "ITA":"Il segreto %1 non è stato trovato."},
+  "Parameter %1 is not found.":{
+    "ITA":"Il parametro %1 non è stato trovato."},
+  "Inserting of the setup record has failed.":{
+    "ITA":"L'inserimento del record di configurazione non è riuscito."},
+  "Modification of the setup record has failed.":{
+    "ITA":"La modifica del record di installazione non è riuscita."},
+  "Cannot get earliest activate time. Last request time: %1, min delay time: %2.":{
+    "ITA":"Impossibile ottenere il primo orario di attivazione. Tempo dell'ultima richiesta: %1, tempo di ritardo minimo: %2."},
+  "Cannot get next cache expiration time. Previous cache expiration time: %1, cache life time: %2.":{
+    "ITA":"Impossibile ottenere la prossima scadenza della cache. Tempo di scadenza della cache precedente: %1, durata della cache: %2."},
+  "Too short time since last activation try.":{
+    "ITA":"Tempo troppo breve dall'ultimo tentativo di attivazione."},
+  "External user is not considered to be shown the survey.":{
+    "ITA":"L'utente esterno non è considerato destinatario del sondaggio."},
+  "%1 %2":{
+    "ITA":"%1 %2"},
+  "%1%2":{
+    "ITA":"%1%2"},
+  "Retention Policies":{
+    "ITA":"Criteri di conservazione"},
+  "Specifies the ID of the table to which the retention policy applies.":{
+    "ITA":"Specifica l'ID della tabella a cui si applicano i criteri di conservazione."},
+  "Specifies the name of the table to which the retention policy applies.":{
+    "ITA":"Specifica il nome della tabella a cui si applicano i criteri di conservazione."},
+  "Specifies the caption of the table to which the retention policy applies. The caption is the translated, if applicable, name of the table.":{
+    "ITA":"Specifica la didascalia della tabella a cui si applicano i criteri di conservazione. La didascalia è il nome tradotto, se applicabile, della tabella."},
+  "Specifies whether the retention policy is enabled.":{
+    "ITA":"Specifica se i criteri di conservazione sono abilitati."},
+  "Specifies whether the retention policy can only be run manually.":{
+    "ITA":"Specifica se i criteri di conservazione possono essere eseguiti solo manualmente."},
+  "Specifies an identifier for the retention period.":{
+    "ITA":"Specifica un identificatore per il periodo di conservazione."},
+  "Retention Periods":{
+    "ITA":"Periodi di conservazione"},
+  "Set up retention periods.":{
+    "ITA":"Impostare i periodi di conservazione."},
+  "Retention Policy Log":{
+    "ITA":"Registro dei criteri di conservazione"},
+  "View activity related to retention policies.":{
+    "ITA":"Visualizzare l'attività correlata ai criteri di conservazione."},
+  "Apply Manually":{
+    "ITA":"Applica manualmente"},
+  "Apply the retention policy and delete all expired records in the table.":{
+    "ITA":"Applicare i criteri di conservazione ed eliminare tutti i record scaduti nella tabella."},
+  "Apply All":{
+    "ITA":"Applica tutto"},
+  "Apply all non-manual and enabled retention policies now and delete any expired records.":{
+    "ITA":"Applica ora tutti i criteri di conservazione non manuali e abilitati ed elimina tutti i record scaduti."},
+  "Specifies the filter in text format that defines a subset of records.":{
+    "ITA":"Specifica il filtro in formato testo che definisce un sottoinsieme di record."},
+  "Specifies whether the retention policy is enabled for this subset.":{
+    "ITA":"Specifica se i criteri di conservazione sono abilitati per questo sottoinsieme."},
+  "Specifies whether the retention policy is editable for this subset.":{
+    "ITA":"Specifica se i criteri di conservazione sono modificabili per questo sottoinsieme."},
+  "Specifies the number of the date or datetime field on the table used to determine the age of a record.":{
+    "ITA":"Specifica il numero del campo data o data/ora nella tabella utilizzata per determinare l'età di un record."},
+  "Specifies the name of the date or datetime field on the table used to determine the age of a record.":{
+    "ITA":"Specifica il nome del campo data o data/ora nella tabella utilizzata per determinare l'età di un record."},
+  "Specifies the caption of the date or datetime field on the table used to determine the age of a record. The caption is the translated name of the field.":{
+    "ITA":"Specifica la didascalia del campo data o data/ora nella tabella utilizzata per determinare l'età di un record. La didascalia è il nome tradotto del campo."},
+  "Retention policies":{
+    "ITA":"Criteri di conservazione"},
+  "Set up retention policies for log tables to automatically delete expired records.":{
+    "ITA":"Configurare i criteri di conservazione per le tabelle di log per eliminare automaticamente i record scaduti."},
+  "Retention, Delete, Cleanup, Log":{
+    "ITA":"Conservazione, Eliminazione, Pulizia, Registro"},
+  "You cannot delete the retention period %1 because one or more retention policies are using it.":{
+    "ITA":"Non è possibile eliminare il periodo di conservazione %1 perché viene utilizzato da uno o più criteri di conservazione."},
+  "You cannot modify the retention period %1 because one or more mandatory retention policies are using it.":{
+    "ITA":"Non è possibile modificare il periodo di conservazione %1 perché viene utilizzato da uno o più criteri di conservazione obbligatori."},
+  "Table %1 %2 is not in the list of allowed tables.":{
+    "ITA":"La tabella %1 %2 non è presente nell'elenco delle tabelle consentite."},
+  "The mandatory minimum retention period for this retention policy is %1 days. The expiration date for this retention policy must be equal to or before %2.":{
+    "ITA":"Il periodo di conservazione minimo obbligatorio per questo criterio di conservazione è di %1 giorni. La data di scadenza di questo criterio di conservazione deve essere uguale o precedente a %2."},
+  "The retention policy setup for table %1, %2 has mandatory filters that cannot be modified.":{
+    "ITA":"La configurazione dei criteri di conservazione per la tabella %1, %2 include filtri obbligatori che non possono essere modificati."},
+  "The retention policy allow list contains a mismatched filter for table ID %1. Filter table ID is %2":{
+    "ITA":"L'elenco Consenti criteri di conservazione contiene un filtro non corrispondente per l'ID tabella %1. L'ID della tabella di filtro è %2"},
+  "Allowed deletion of the locked retention policy setup line for table %1, %2.":{
+    "ITA":"Eliminazione consentita della riga di impostazione dei criteri di conservazione bloccati per la tabella %1, %2."},
+  "The number of expired records cannot be calculated because you do not have read permission on table %1, %2.":{
+    "ITA":"Il numero di record scaduti non può essere calcolato perché non si dispone dell'autorizzazione di lettura per la tabella %1, %2."},
+  "Table %1 does not exist.":{
+    "ITA":"La tabella %1 non esiste."},
+  "Retention Policy":{
+    "ITA":"Criteri di conservazione"},
+  "Specifies whether the retention policy applies to all records in the table. If you want to specify criteria for the records to delete, this toggle must be turned off.":{
+    "ITA":"Specifica se i criteri di conservazione si applicano a tutti i record della tabella. Se si desidera specificare i criteri per i record da eliminare, questo interruttore deve essere disattivato."},
+  "Expired Records":{
+    "ITA":"Record scaduti"},
+  "Specifies the number of expired records.":{
+    "ITA":"Specifica il numero di record scaduti."},
+  "Records to delete":{
+    "ITA":"Record da eliminare"},
+  "Specifies the number of expired records the retention policy will delete the next time it runs.":{
+    "ITA":"Specifica il numero di record scaduti che i criteri di conservazione elimineranno alla successiva esecuzione."},
+  "Expired Records Expiration Date":{
+    "ITA":"Data di scadenza dei record scaduti"},
+  "Specifies the earliest expiration date for which there are more expired records than the maximum to be deleted in a single run.":{
+    "ITA":"Specifica la prima data di scadenza per la quale sono presenti più record scaduti rispetto al numero massimo di record da eliminare in una singola esecuzione."},
+  "Record Retention Policy":{
+    "ITA":"Criteri di conservazione dei record"},
+  "Refresh allowed tables":{
+    "ITA":"Aggiornare le tabelle consentite"},
+  "Refreshes the list of tables that can be selected.":{
+    "ITA":"Aggiorna l'elenco delle tabelle che possono essere selezionate."},
+  "The retention policy is not enabled. Would you like to enable it now?":{
+    "ITA":"I criteri di conservazione non sono abilitati. Vuoi abilitarlo ora?"},
+  "The number of expired records is being calculated in the background. This may take a while.":{
+    "ITA":"Il numero di record scaduti viene calcolato in background. Questo potrebbe richiedere del tempo."},
+  "You must enable at least one line.":{
+    "ITA":"È necessario abilitare almeno una riga."},
+  "You cannot toggle \"Apply to all records\" because the retention policy for table %1, %2 contains mandatory filters.":{
+    "ITA":"Non è possibile attivare o disattivare l'opzione \"Applica a tutti i record\" perché i criteri di conservazione per le tabelle %1, %2 contengono filtri obbligatori."},
+  "You cannot rename retention policy setup records. Table ID %1. Renamed to %2.":{
+    "ITA":"Non è possibile rinominare i record di impostazione dei criteri di conservazione. ID tabella %1. Rinominato in %2."},
+  "You cannot rename retention policy setup line records. Table ID %1. Renamed to %2.":{
+    "ITA":"Non è possibile rinominare i record della riga di impostazione dei criteri di conservazione. ID tabella %1. Rinominato in %2."},
+  "http://www.w3.org/2001/04/xmlenc#aes256-cbc":{
+    "ITA":"http://www.w3.org/2001/04/xmlenc#aes256-cbc"},
+  "Retention Policy Log Entries":{
+    "ITA":"Voci del registro dei criteri di conservazione"},
+  "Specifies the entry number that is assigned to the entry.":{
+    "ITA":"Specifica il numero di voce assegnato alla voce."},
+  "Specifies the date and time the entry was created.":{
+    "ITA":"Specifica la data e l'ora di creazione della voce."},
+  "Specifies the ID of the session in which the entry was created.":{
+    "ITA":"Specifica l'ID della sessione in cui è stata creata la voce."},
+  "Specifies the content of the message in the log entry.":{
+    "ITA":"Specifica il contenuto del messaggio nella voce di registro."},
+  "Specifies whether the message is informational, a warning, or an error.":{
+    "ITA":"Specifica se il messaggio è informativo, un avviso o un errore."},
+  "Specifies the aspect of the retention policy that created the log entry. This indicates where a user was working in Business Central, or what they were doing, when the entry was created. For example, this can be setup, retention period, and when the policy was applied.":{
+    "ITA":"Specifica l'aspetto del criterio di conservazione che ha creato la voce di registro. Indica la posizione in cui un utente stava lavorando in Business Central o le operazioni che stava eseguendo al momento della creazione della voce. Ad esempio, può trattarsi della configurazione, del periodo di conservazione e del momento in cui è stato applicato il criterio."},
+  "Specifies the ID of the user who ran the process that created the log entry.":{
+    "ITA":"Specifica l'ID dell'utente che ha eseguito il processo che ha creato la voce di registro."},
+  "The interface was initialized by a different app. Initializer app id: %1, caller app id :%2":{
+    "ITA":"L'interfaccia è stata inizializzata da un'app diversa. ID app inizializzatore: %1, ID app chiamante: %2"},
+  "63ca2fa4-4f03-4f2b-a480-172fef340d3f":{
+    "ITA":"63CA2FA4-4F03-4F2B-A480-172FEF340D3F"},
+  "a8177fd4-0adb-4482-889c-2e123a13b50a":{
+    "ITA":"A8177FD4-0ADB-4482-889C-2E123A13B50A"},
+  "First retention policy enabled on: %1":{
+    "ITA":"Primo criterio di conservazione abilitato il: %1"},
+  "Last retention policy disabled on: %1":{
+    "ITA":"Ultimo criterio di conservazione disabilitato il: %1"},
+  "Records Deleted Using Retention Policy: Deleted %1 records from Table %2, %3":{
+    "ITA":"Record eliminati utilizzando i criteri di conservazione: Record %1 eliminati dalla tabella %2, %3"},
+  "Retention Policy Log Entry Logged: %1":{
+    "ITA":"Voce del registro dei criteri di conservazione registrata: %1"},
+  "Retention Policy Setup":{
+    "ITA":"Impostazione dei criteri di conservazione"},
+  "Retention Policy Setup status was changed to: %1 for table id: %2 with retention period %3":{
+    "ITA":"Lo stato di configurazione dei criteri di conservazione è stato modificato in: %1 per ID tabella: %2 con periodo di conservazione %3"},
+  "Retention Policy Setup Line status was changed to: %1 for table id: %2 with retention period %3 and filters: %4":{
+    "ITA":"Lo stato della riga di configurazione dei criteri di conservazione è stato modificato in: %1 per l'ID tabella: %2 con periodo di conservazione %3 e filtri: %4"},
+  "Deleted":{
+    "ITA":"Eliminato"},
+  "Calling StartSession to insert a retention policy log entry.":{
+    "ITA":"Chiamata di StartSession per inserire una voce del log dei criteri di conservazione."},
+  "Called StartSession to insert a retention policy log entry.":{
+    "ITA":"Chiamato StartSession per inserire una voce del log dei criteri di conservazione."},
+  "A call to StartSession failed.":{
+    "ITA":"Una chiamata a StartSession non è riuscita."},
+  "Inserting a retention policy log entry in foreground.":{
+    "ITA":"Inserimento di una voce del log dei criteri di conservazione in primo piano."},
+  "Inserted a retention policy log entry in foreground.":{
+    "ITA":"Inserita una voce del log dei criteri di conservazione in primo piano."},
+  "Cannot add Table %1 to the list of allowed tables because it does not exist.":{
+    "ITA":"Impossibile aggiungere la tabella %1 all'elenco delle tabelle consentite perché non esiste."},
+  "Cannot add table %1 %2 to list of allowed tables because module %3 cannot be found.":{
+    "ITA":"Impossibile aggiungere la tabella %1 %2 all'elenco delle tabelle consentite perché non è possibile trovare il modulo %3."},
+  "Cannot add table %1 %2 to the list of allowed tables because the table is not owned by module %3.":{
+    "ITA":"Impossibile aggiungere la tabella %1 %2 all'elenco delle tabelle consentite perché la tabella non è di proprietà del modulo %3."},
+  "The list of allowed tables was updated for Table %1 %2: Default Date Field No.: %3":{
+    "ITA":"L'elenco delle tabelle consentite è stato aggiornato per la tabella %1 %2: Numero campo data predefinito: %3"},
+  "Table %1 %2 was added to the list of allowed tables. Default Date Field No.: %3":{
+    "ITA":"La tabella %1 %2 è stata aggiunta all'elenco delle tabelle consentite. N. campo data predefinito: %3"},
+  "Could not remove Table Id %1 from the list of allowed tables as it was not present.":{
+    "ITA":"Impossibile rimuovere l'ID tabella %1 dall'elenco delle tabelle consentite in quanto non era presente."},
+  "Removed Table Id %1 from the list of allowed tables":{
+    "ITA":"Rimozione dell'ID tabella %1 dall'elenco delle tabelle consentite"},
+  "Allowed adding table %1 to the list of allowed tables.":{
+    "ITA":"Aggiunta della tabella %1 all'elenco delle tabelle consentite."},
+  "Did not allow adding table %1 to the list of allowed tables":{
+    "ITA":"Non è stato consentito l'aggiunta della tabella %1 all'elenco delle tabelle consentite"},
+  "Failed to add table %1 %2 to the list of allowed tables":{
+    "ITA":"Impossibile aggiungere la tabella %1 %2 all'elenco delle tabelle consentite"},
+  "Allowed modifying table %1 in the list of allowed tables.":{
+    "ITA":"Consentita la modifica della tabella %1 nell'elenco delle tabelle consentite."},
+  "Did not allow modifying of table %1 in the list of allowed tables":{
+    "ITA":"Non è stata consentita la modifica della tabella %1 nell'elenco delle tabelle consentite"},
+  "Failed to modify table %1 %2 in the list of allowed tables":{
+    "ITA":"Impossibile modificare la tabella %1 %2 nell'elenco delle tabelle consentite"},
+  "The retention policy allowed tables list has a default date field number %1 which does not exist in table %2.":{
+    "ITA":"L'elenco delle tabelle consentite dei criteri di conservazione ha un numero di campo data predefinito %1 che non esiste nella tabella %2."},
+  "<-%1D>":{
+    "ITA":"<-%1D>"},
+  "<+CY+%1Y>":{
+    "ITA":"<+CY+%1Y>"},
+  "Reten. Pol. Allowed Tables cannot be renamed. (From table ID %1 to %2.)":{
+    "ITA":"Ritenne. Le tabelle consentite non possono essere rinominate. (Dall'ID tabella %1 a %2.)"},
+  "Specifies the identifier of the retention period.":{
+    "ITA":"Specifica l'identificatore del periodo di conservazione."},
+  "Specifies a short description of the retention period.":{
+    "ITA":"Specifica una breve descrizione del periodo di conservazione."},
+  "Specifies a default or custom value for a retention period.":{
+    "ITA":"Specifica un valore predefinito o personalizzato per un periodo di conservazione."},
+  "Specifies the date formula used to calculate the expiration date for the retention period.":{
+    "ITA":"Specifica la formula della data utilizzata per calcolare la data di scadenza per il periodo di conservazione."},
+  "Expiration Date":{
+    "ITA":"Data di scadenza"},
+  "Specifies the expiration date. Records created on or before this date will be deleted.":{
+    "ITA":"Specifica la data di scadenza. I record creati a partire da questa data verranno eliminati."},
+  "The date formula (%1) must result in a date that is at least two days before the current date. For example, to calculate a period for the past week, month, or year, use either -1W, -1M, or -1Y.":{
+    "ITA":"La formula della data (%1) deve restituire una data che precede di almeno due giorni la data corrente. Ad esempio, per calcolare un periodo per la settimana, il mese o l'anno precedente, utilizzare -1W, -1M o -1Y."},
+  "This implementation of the interface does not support the enum value selected. Contact your Microsoft partner for assistance. The following information can help them address the issue: Value: %1, Interface: Interface Retention Period, Implementation: codeunit 3900 Retention Period Impl.":{
+    "ITA":"Questa implementazione dell'interfaccia non supporta il valore enum selezionato. Contatta il tuo partner Microsoft per assistenza. Le informazioni seguenti possono aiutarli a risolvere il problema: Valore: %1, Interfaccia: Periodo di conservazione dell'interfaccia, Implementazione: codeunit 3900 Periodo di conservazione Impl."},
+  "Never Delete":{
+    "ITA":"Non eliminare mai"},
+  "Custom":{
+    "ITA":"Costume"},
+  "1 Week":{
+    "ITA":"1 settimana"},
+  "28 Days":{
+    "ITA":"28 giorni"},
+  "1 Month":{
+    "ITA":"1 mese"},
+  "3 Months":{
+    "ITA":"3 mesi"},
+  "6 Months":{
+    "ITA":"6 mesi"},
+  "1 Year":{
+    "ITA":"1 anno"},
+  "3 Years":{
+    "ITA":"3 anni"},
+  "5 Years":{
+    "ITA":"5 anni"},
+  "This implementation of the interface does not support the enum value selected. Contact your Microsoft partner for assistance. The following information can help them address the issue: Value: %1, Interface: Interface Retention Period, Implementation: codeunit 3901 Retention Period Custom Impl.":{
+    "ITA":"Questa implementazione dell'interfaccia non supporta il valore enum selezionato. Contatta il tuo partner Microsoft per assistenza. Le informazioni seguenti possono aiutarli a risolvere il problema: Valore: %1, Interfaccia: Periodo di conservazione dell'interfaccia, Implementazione: codeunit 3901 Periodo di conservazione Impl personalizzato."},
+  "Six Months":{
+    "ITA":"Sei mesi"},
+  "Retention Policy Installer aborted due to missing table Retention Policy Log Entry on: %1":{
+    "ITA":"Programma di installazione dei criteri di conservazione interrotto a causa di una tabella mancante Voce del registro dei criteri di conservazione il: %1"},
+  "No filters were set on table %1, %2. Please contact your Microsoft Partner for assistance.":{
+    "ITA":"Non è stato impostato alcun filtro nella tabella %1, %2. Contatta il tuo partner Microsoft per assistenza."},
+  "The retention policy setup for table %1 was not found.":{
+    "ITA":"La configurazione dei criteri di conservazione per la tabella %1 non è stata trovata."},
+  "The expiration date %1 for table %2, %3, must be at least two days before the current date.":{
+    "ITA":"La data di scadenza %1 per la tabella %2, %3, deve essere almeno due giorni prima della data corrente."},
+  "Applying filters: Table ID: %1, All Records, Expiration Date: %2.":{
+    "ITA":"Applicazione di filtri: ID tabella: %1, Tutti i record, Data di scadenza: %2."},
+  "There are no records to delete for table ID %1, %2.":{
+    "ITA":"Non sono presenti record da eliminare per l'ID tabella %1, %2."},
+  "The oldest record in table ID %1, %2 is younger than the earliest expiration date. There are no records to delete.":{
+    "ITA":"Il record meno recente nella tabella ID %1, %2 è più recente della data di scadenza precedente. Non ci sono record da eliminare."},
+  "The expiration date for table %1, %2 must be at least %3 days before the current date. Please update the retention policy.":{
+    "ITA":"La data di scadenza per la tabella %1, %2 deve essere almeno %3 giorni prima della data corrente. Aggiorna i criteri di conservazione."},
+  "sorting (field%1) where(field%1=1(<>":{
+    "ITA":"ordinamento (campo%1) dove(campo%1=1(<>"},
+  "Unable to check number of records to delete due to missing read permission for table %1, %2":{
+    "ITA":"Impossibile controllare il numero di record da eliminare a causa dell'autorizzazione di lettura mancante per la tabella %1, %2"},
+  "Max. Number of Rec. To Delete is less than 0.":{
+    "ITA":"Numero massimo di rec. Da eliminare è minore di 0."},
+  "Started by user.":{
+    "ITA":"Avviato dall'utente."},
+  "Started applying all retention policies.":{
+    "ITA":"Avvio dell'applicazione di tutti i criteri di conservazione."},
+  "Finished applying all retention policies.":{
+    "ITA":"Completata l'applicazione di tutti i criteri di conservazione."},
+  "Started applying the retention policy defined for table %1, %2. ":{
+    "ITA":"Avvio dell'applicazione dei criteri di conservazione definiti per la tabella %1, %2."},
+  "Finished applying the retention policy defined for table: %1, %2.":{
+    "ITA":"Completata l'applicazione dei criteri di conservazione definiti per la tabella: %1, %2."},
+  "Table %1 was not found. The retention policy has been disabled.":{
+    "ITA":"La tabella %1 non è stata trovata. I criteri di conservazione sono stati disabilitati."},
+  "Started counting the number of expired records in table %1, %2. ":{
+    "ITA":"Iniziato il conteggio del numero di record scaduti nella tabella %1, %2."},
+  "%1 of %2 records are expired in table %3, %4, and can be deleted.":{
+    "ITA":"%1 dei record %2 sono scaduti nelle tabelle %3, %4 e possono essere eliminati."},
+  "Finished counting the number of expired records in table %1, %2.":{
+    "ITA":"Conteggio del numero di record scaduti nelle tabelle %1, %2."},
+  "Table %1, %2, is not in the list of allowed tables.":{
+    "ITA":"La tabella %1, %2 non è presente nell'elenco delle tabelle consentite."},
+  "An error occured while applying the retention policy for table %1 %2.\\\\%3":{
+    "ITA":"Si è verificato un errore durante l'applicazione dei criteri di conservazione per la tabella %1 %2.\\\\%3"},
+  "Do you want to delete expired data, as defined in your retention policies?":{
+    "ITA":"Si desidera eliminare i dati scaduti, come definito nei criteri di conservazione?"},
+  "Do you want to delete expired data, as defined in the selected retention policy?":{
+    "ITA":"Si desidera eliminare i dati scaduti, come definito nel criterio di conservazione selezionato?"},
+  "The retention policy setup record instance must be temporary. Contact your Microsoft Partner for assistance.":{
+    "ITA":"L'istanza del record di impostazione dei criteri di conservazione deve essere temporanea. Contatta il tuo partner Microsoft per assistenza."},
+  "The operation was cancelled.":{
+    "ITA":"L'operazione è stata annullata."},
+  "No filters were found in the record to apply for table %1, %2. No records will be deleted.":{
+    "ITA":"Nel record non sono stati trovati filtri da applicare alla tabella %1, %2. Nessun record verrà eliminato."},
+  "A subscriber with indirect permissions is required to delete expired records from table %1, %2. Contact your Microsoft Partner for assistance.":{
+    "ITA":"Per eliminare i record scaduti dalla tabella %1, %2, è necessario un sottoscrittore con autorizzazioni indirette. Contatta il tuo partner Microsoft per assistenza."},
+  "Deleted the maximum number of records allowed. We have stopped deleting records in this table.":{
+    "ITA":"Eliminato il numero massimo di record consentiti. Abbiamo interrotto l'eliminazione dei record in questa tabella."},
+  "Reached the maximum number of records that can be deleted at the same time. The maximum number allowed is %1.\\\\Do you want to delete more records?":{
+    "ITA":"Raggiunto il numero massimo di record che possono essere eliminati contemporaneamente. Il numero massimo consentito è %1.\\\\Si desidera eliminare altri record?"},
+  "Deleted %1 of %2 records from table %3, %4.":{
+    "ITA":"Eliminati %1 dei record %2 dalla tabella %3, %4."},
+  "WHERE(Field%1=1(>%2&%3..))":{
+    "ITA":"DOVE(Campo%1=1(>%2&%3..))"},
+  "WHERE(Field%1=1(>=%2&%3..))":{
+    "ITA":"DOVE(Campo%1=1(>=%2&%3..))"},
+  "WHERE(Field%1=1(>%2&..%3))":{
+    "ITA":"WHERE(Campo%1=1(>%2&.. %3))"},
+  "WHERE(Field%1=1(>=%2&..%3))":{
+    "ITA":"DOVE(Campo%1=1(>=%2&.. %3))"},
+  "WHERE(Field%1=1(%2|%3))":{
+    "ITA":"DOVE(Campo%1=1(%2|%3))"},
+  "WHERE(Field%1=1(%2))":{
+    "ITA":"DOVE(Campo%1=1(%2))"},
+  "The field Date Field No. must have a value in the retention policy for table %1, %2":{
+    "ITA":"Il campo Data Campo n. Deve avere un valore nei criteri di conservazione per la tabella %1, %2"},
+  "{00000000-0000-0000-0000-000000000001}":{
+    "ITA":"{00000000-0000-0000-0000-000000000001}"},
+  "Environment blocks an outgoing HTTP request to ":{
+    "ITA":"L'ambiente blocca una richiesta HTTP in uscita per"},
+  ".":{},
+  "Connection to the remote service ":{
+    "ITA":"Collegamento al servizio remoto"},
+  " could not be established.":{},
+  "The request failed: %1 %2":{
+    "ITA":"La richiesta non è riuscita: %1 %2"},
+  "Dynamics 365 Business Central - |%1| %2/%3":{
+    "ITA":"Dynamics 365 Business Central - |%1| %2/%3"},
+  "GET":{
+    "ITA":"OTTIENI"},
+  "POST":{
+    "ITA":"INSERISCI"},
+  "PATCH":{
+    "ITA":"BENDA"},
+  "PUT":{
+    "ITA":"METTERE"},
+  "DELETE":{
+    "ITA":"CANCELLARE"},
+  "HEAD":{
+    "ITA":"TESTA"},
+  "OPTIONS":{
+    "ITA":"OPZIONI"},
+  "The value of the Content-Type header must be specified.":{
+    "ITA":"È necessario specificare il valore dell'intestazione Content-Type."},
+  "text/plain":{
+    "ITA":"testo/semplice"},
+  "text/xml":{
+    "ITA":"Testo/XML"},
+  "application/octet-stream":{
+    "ITA":"Applicazione/flusso di ottetti"},
+  "application/json":{
+    "ITA":"Applicazione/JSON"},
+  "Acquire of token with Client Credentials failed.":{
+    "ITA":"Acquisizione del token con credenziali client non riuscita."},
+  "%1\\%2":{
+    "ITA":"%1\\%2"},
+  "Ignore Case":{
+    "ITA":"Ignora maiuscole e minuscole"},
+  "Explicit Capture":{
+    "ITA":"Acquisizione esplicita"},
+  "Ignore Pattern Whitespace":{
+    "ITA":"Ignora gli spazi bianchi del modello"},
+  "Right To Left":{
+    "ITA":"Da destra a sinistra"},
+  "ECMA Script":{
+    "ITA":"ECMA Script"},
+  "Culture Invariant":{
+    "ITA":"Invariante delle impostazioni cultura"},
+  "Match Timeout In Milliseconds":{
+    "ITA":"Timeout partita in millisecondi"},
+  "The regular expression timeout should be at least 1000 ms":{
+    "ITA":"Il timeout dell'espressione regolare deve essere di almeno 1000 ms"},
+  "The regular expression timeout should be at most 10000 ms":{
+    "ITA":"Il timeout dell'espressione regolare deve essere al massimo di 10000 ms"},
+  "Regex is not Instantiated. Consider calling Regex() first or use an overload supporting a pattern.":{
+    "ITA":"Regex non è stata creata un'istanza. Prendere in considerazione la possibilità di chiamare prima Regex() o di utilizzare un overload che supporti un modello."},
+  "Match Index":{
+    "ITA":"Indice delle partite"},
+  "Group Index":{
+    "ITA":"Indice di gruppo"},
+  "Values":{
+    "ITA":"Valori"},
+  "Capture Index":{
+    "ITA":"Indice di acquisizione"},
+  "Recurring %1 starting %2":{
+    "ITA":"Ricorrente %1 a partire da %2"},
+  "Exceeded maximum calculation limit for recurrence. Change start date to be today.":{
+    "ITA":"Superato il limite massimo di calcolo per la ricorrenza. Modificare la data di inizio in modo che sia oggi."},
+  "<-CW+%1D>":{
+    "ITA":"<-CW+%1G>"},
+  "<-CW+%1D+%2W>":{
+    "ITA":"<-CW+%1D+%2W>"},
+  "<-CM+%1D>":{
+    "ITA":"<-CM+%1D>"},
+  "<-CM+%1M+%2D>":{
+    "ITA":"<-CM+%1M+%2D>"},
+  "<-CM+%1M>":{
+    "ITA":"<-CM+%1M>"},
+  "<-CM+%1Y>":{
+    "ITA":"<-CM+%1Y>"},
+  "<-CM+%1Y+%2D>":{
+    "ITA":"<-CM+%1Y+%2D>"},
+  "Specifies the ID of the recurrence schedule.":{
+    "ITA":"Specifica l'ID della pianificazione della ricorrenza."},
+  "Recurrence Start Time":{
+    "ITA":"Ora di inizio ricorrenza"},
+  "Specifies the time of day when the recurrence takes effect. This is also the time of day for each occurrence.":{
+    "ITA":"Specifica l'ora del giorno in cui la ricorrenza diventa effettiva. Questa è anche l'ora del giorno per ogni occorrenza."},
+  "Recurrence Pattern":{
+    "ITA":"Modello di ricorrenza"},
+  "Specifies the frequency of the recurrence. For example, a recurrence pattern might be set up for a day in the first week of every month.":{
+    "ITA":"Specifica la frequenza della ricorrenza. Ad esempio, un modello di ricorrenza potrebbe essere impostato per un giorno nella prima settimana di ogni mese."},
+  "Specifies the date when the recurrence takes effect.":{
+    "ITA":"Specifica la data in cui la ricorrenza diventa effettiva."},
+  "Specifies when the recurrence will stop.":{
+    "ITA":"Specifica quando la ricorrenza verrà interrotta."},
+  "Daily":{
+    "ITA":"Quotidiano"},
+  "Days Between":{
+    "ITA":"Giorni tra"},
+  "Specifies the interval between occurrences.":{
+    "ITA":"Specifica l'intervallo tra le occorrenze."},
+  "Weekly":{
+    "ITA":"Settimanalmente"},
+  "Weeks Between":{
+    "ITA":"Settimane tra"},
+  "Recur on Monday":{
+    "ITA":"Si ripresenta il lunedì"},
+  "Specifies that Monday is the day of the week for the recurrence.":{
+    "ITA":"Specifica che il lunedì è il giorno della settimana in cui si verifica la ricorrenza."},
+  "Recur on Tuesday":{
+    "ITA":"Si ripresenta il martedì"},
+  "Specifies that Tuesday is the day of the week for the recurrence.":{
+    "ITA":"Specifica che il martedì è il giorno della settimana in cui si verifica la ricorrenza."},
+  "Recur on Wednesday":{
+    "ITA":"Ricorre il mercoledì"},
+  "Specifies that Wednesday is the day of the week for the recurrence.":{
+    "ITA":"Specifica che il mercoledì è il giorno della settimana in cui si verifica la ricorrenza."},
+  "Recur on Thursday":{
+    "ITA":"Si ripresenta il giovedì"},
+  "Specifies that Thursday is the day of the week for the recurrence.":{
+    "ITA":"Specifica che il giovedì è il giorno della settimana in cui si verifica la ricorrenza."},
+  "Recur on Friday":{
+    "ITA":"Si ripresenta il venerdì"},
+  "Specifies that Friday is the day of the week for the recurrence.":{
+    "ITA":"Specifica che il venerdì è il giorno della settimana in cui si verifica la ricorrenza."},
+  "Recur on Saturday":{
+    "ITA":"Si ripresenta il sabato"},
+  "Specifies that Saturday is the day of the week for the recurrence.":{
+    "ITA":"Specifica che il sabato è il giorno della settimana in cui si verifica la ricorrenza."},
+  "Recur on Sunday":{
+    "ITA":"Ricorre la domenica"},
+  "Specifies that Sunday is the day of the week for the recurrence.":{
+    "ITA":"Specifica che la domenica è il giorno della settimana in cui si verifica la ricorrenza."},
+  "Monthly":{
+    "ITA":"Mensile"},
+  "Months Between":{
+    "ITA":"Mesi tra"},
+  "Monthly Specific Day":{
+    "ITA":"Giorno specifico mensile"},
+  "Recur on Day":{
+    "ITA":"Si ripresenta il giorno"},
+  "Specifies the day of the month for the recurrence.":{
+    "ITA":"Specifica il giorno del mese in cui si verifica la ricorrenza."},
+  "Monthly By Weekday":{
+    "ITA":"Mensile Per Giorno Feriale"},
+  "Recur in Week in Month":{
+    "ITA":"Ricorre in Settimana in Mese"},
+  "Specifies the week of the month for the recurrence.":{
+    "ITA":"Specifica la settimana del mese in cui si verifica la ricorrenza."},
+  "Weekday":{
+    "ITA":"Giorno feriale"},
+  "Specifies the day of the week for the recurrence.":{
+    "ITA":"Specifica il giorno della settimana in cui si verifica la ricorrenza."},
+  "Yearly":{
+    "ITA":"Annuale"},
+  "Years Between":{
+    "ITA":"Anni tra"},
+  "Specifies the month for the recurrence.":{
+    "ITA":"Specifica il mese in cui si verifica la ricorrenza."},
+  "Yearly Specific Day":{
+    "ITA":"Giorno specifico annuale"},
+  "Yearly By Weekday":{
+    "ITA":"Annuale Per giorno feriale"},
+  "Create a daily recurrence.":{
+    "ITA":"Crea una ricorrenza giornaliera."},
+  "Create a weekly recurrence.":{
+    "ITA":"Crea una ricorrenza settimanale."},
+  "Create a monthly recurrence.":{
+    "ITA":"Crea una ricorrenza mensile."},
+  "Create a yearly recurrence.":{
+    "ITA":"Crea una ricorrenza annuale."},
+  "Some months have fewer than %1 days. These months will not be included in the recurrence.\\\\Do you want to continue?":{
+    "ITA":"Alcuni mesi hanno meno di %1 giorni. Questi mesi non saranno inclusi nella ricorrenza.\\\\Vuoi continuare?"},
+  "The table contains only one record, which has been automatically selected.":{
+    "ITA":"La tabella contiene un solo record, che è stato selezionato automaticamente."},
+  "The selected table does not contain any records.":{
+    "ITA":"La tabella selezionata non contiene alcun record."},
+  "The selected table contains more than %1 records which is not supported.":{
+    "ITA":"La tabella selezionata contiene più di %1 record che non è supportato."},
+  "Specifies the 1st value in the key of the record.":{
+    "ITA":"Specifica il 1° valore nella chiave del record."},
+  "Specifies the 2nd value in the key of the record.":{
+    "ITA":"Specifica il 2° valore nella chiave del record."},
+  "Specifies the 3rd value in the key of the record.":{
+    "ITA":"Specifica il 3° valore nella chiave del record."},
+  "Specifies the 4th value in the key of the record.":{
+    "ITA":"Specifica il 4° valore nella chiave del record."},
+  "Specifies the 5th value in the key of the record.":{
+    "ITA":"Specifica il 5° valore nella chiave del record."},
+  "Specifies the 6th value in the key of the record.":{
+    "ITA":"Specifica il 6° valore nella chiave del record."},
+  "Specifies the 7th value in the key of the record.":{
+    "ITA":"Specifica il 7° valore nella chiave del record."},
+  "Specifies the 8th value in the key of the record.":{
+    "ITA":"Specifica l'8° valore nella chiave del record."},
+  "Specifies the 9th value in the key of the record.":{
+    "ITA":"Specifica il 9° valore nella chiave del record."},
+  "Specifies the 10th value in the key of the record.":{
+    "ITA":"Specifica il decimo valore nella chiave del record."},
+  "44012bcf-22c2-40d9-bb24-410b1dfc72dc":{
+    "ITA":"44012BCF-22C2-40D9-BB24-410B1DFC72DC"},
+  "Do you want to remove links with no record reference?":{
+    "ITA":"Vuoi rimuovere i link senza riferimento al record?"},
+  "Removing Record Links without record reference.\\":{
+    "ITA":"Rimozione dei collegamenti ai record senza riferimento ai record.\\"},
+  "@1@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@":{
+    "ITA":"@1@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"},
+  "%1 orphaned links were removed.":{
+    "ITA":"%1 link orfani sono stati rimossi."},
+  "Internal server error. Please contact your system administrator.":{
+    "ITA":"Errore interno del server. Contattare l'amministratore di sistema."},
+  "Microsoft Teams":{
+    "ITA":"Microsoft Teams"},
+  "Power Automate":{
+    "ITA":"Automazione di potenza"},
+  "Microsoft Power Automate":{
+    "ITA":"Microsoft Power Automate"},
+  "Privacy Notices Status":{
+    "ITA":"Stato delle informative sulla privacy"},
+  "Integration Name":{
+    "ITA":"Nome integrazione"},
+  "Specifies the integration name.":{
+    "ITA":"Specifica il nome dell'integrazione."},
+  "Agree for Everyone":{
+    "ITA":"D'accordo per tutti"},
+  "Specifies whether an administrator has accepted the integration":{
+    "ITA":"Specifica se un amministratore ha accettato l'integrazione"},
+  "Disagree for Everyone":{
+    "ITA":"Non sono d'accordo per tutti"},
+  "Specifies whether an administrator has disagreed to the integration":{
+    "ITA":"Specifica se un amministratore non è d'accordo con l'integrazione"},
+  "Let Users Decide":{
+    "ITA":"Lascia che siano gli utenti a decidere"},
+  "Specifies whether users can choose to agree or disagree to the integration":{
+    "ITA":"Specifica se gli utenti possono scegliere di accettare o meno l'integrazione"},
+  "Approve All":{
+    "ITA":"Approva tutto"},
+  "Agrees to all privacy notices in the list for all users.":{
+    "ITA":"Accetta tutte le informative sulla privacy nell'elenco per tutti gli utenti."},
+  "Show individual approvals":{
+    "ITA":"Mostra le approvazioni individuali"},
+  "Shows a list of individual approvals.":{
+    "ITA":"Mostra un elenco di singole approvazioni."},
+  "By using %1, you consent to your data being shared with Microsoft services that might be outside of your organization":{
+    "ITA":"Usando %1, l'utente acconsente alla condivisione dei dati con i servizi Microsoft che potrebbero trovarsi all'esterno dell'organizzazione"},
+  "s selected geographic boundaries and might have different compliance and security standards than %2. Your privacy is important to us, and you can choose whether to share data with the service. To learn more, follow the link below.":{},
+  "https://go.microsoft.com/fwlink/?linkid=521839":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=521839"},
+  "Your admin has disabled the integration with %1, please contact your administrator to approve this integration.":{
+    "ITA":"L'amministratore ha disabilitato l'integrazione con %1, contattare l'amministratore per approvare l'integrazione."},
+  "No privacy notice link was specified":{
+    "ITA":"Non è stato specificato alcun link all'informativa sulla privacy"},
+  "The privacy notice %1 does not exist.":{
+    "ITA":"L'informativa sulla privacy %1 non esiste."},
+  "Privacy Notice":{
+    "ITA":"Informativa sulla privacy"},
+  "Creating privacy notice":{
+    "ITA":"Creazione dell'informativa sulla privacy"},
+  "Confirming privacy notice":{
+    "ITA":"Conferma dell'informativa sulla privacy"},
+  "The privacy notice was auto-approved by the admin":{
+    "ITA":"L'informativa sulla privacy è stata approvata automaticamente dall'amministratore"},
+  "The privacy notice was auto-rejected by the admin":{
+    "ITA":"L'informativa sulla privacy è stata rifiutata automaticamente dall'amministratore"},
+  "The privacy notice was auto-approved by the user":{
+    "ITA":"L'informativa sulla privacy è stata approvata automaticamente dall'utente"},
+  "Showing privacy notice":{
+    "ITA":"Visualizzazione dell'informativa sulla privacy"},
+  "Approval State after showing privacy notice: %1":{
+    "ITA":"Stato di approvazione dopo la visualizzazione dell'informativa sulla privacy: %1"},
+  "Checking privacy approval state":{
+    "ITA":"Controllo dello stato di approvazione della privacy"},
+  "Admin privacy approval state: %1":{
+    "ITA":"Stato di approvazione della privacy dell'amministratore: %1"},
+  "User privacy approval state: %1":{
+    "ITA":"Stato di approvazione della privacy dell'utente: %1"},
+  "Privacy notices could not be registered":{
+    "ITA":"Impossibile registrare le informative sulla privacy"},
+  "A privacy notice could not be created":{
+    "ITA":"Impossibile creare un'informativa sulla privacy"},
+  "The Privacy Notice %1 does not exist.":{
+    "ITA":"L'Informativa sulla privacy %1 non esiste."},
+  "System event privacy notice could be created.":{
+    "ITA":"Potrebbe essere creata un'informativa sulla privacy degli eventi di sistema."},
+  "Specifies the user who this approval belongs to. <Organization> means for everyone in the company.":{
+    "ITA":"Specifica l'utente a cui appartiene l'approvazione. <Organization> mezzi per tutti in azienda."},
+  "Agree":{
+    "ITA":"D'accordo"},
+  "Specifies that the privacy notice was agreed to. .":{
+    "ITA":"Specifica che l'informativa sulla privacy è stata accettata. ."},
+  "Disagree":{
+    "ITA":"Non sono d'accordo"},
+  "Specifies that the privacy notice was not agreed to. .":{
+    "ITA":"Specifica che l'informativa sulla privacy non è stata accettata. ."},
+  "Approver User Name":{
+    "ITA":"Nome utente approvatore"},
+  "Specifies the user who agreed/disagreed to the privacy notice.":{
+    "ITA":"Specifica l'utente che ha accettato/non è stato d'accordo con l'informativa sulla privacy."},
+  "<Organization>":{
+    "ITA":"<Organization>"},
+  "Please review terms and conditions":{
+    "ITA":"Si prega di rivedere i termini e le condizioni"},
+  "View information about the privacy.":{
+    "ITA":"Visualizza le informazioni sulla privacy."},
+  "You are consenting on behalf of your organization.":{
+    "ITA":"L'utente acconsente per conto della propria organizzazione."},
+  "Disagree to the terms and conditions.":{
+    "ITA":"Non sono d'accordo con i termini e le condizioni."},
+  "Agree to the terms and conditions.":{
+    "ITA":"Accetta i termini e le condizioni."},
+  "Privacy and Cookies":{
+    "ITA":"Privacy e cookie"},
+  "Set Up Power Automate":{
+    "ITA":"Configurare Power Automate"},
+  "Specifies an image that will be shown at the top of each page in the assisted setup guide.":{
+    "ITA":"Specifica un'immagine che verrà visualizzata nella parte superiore di ogni pagina della guida al setup assistito."},
+  "Welcome to Power Automate Setup":{
+    "ITA":"Ti diamo il benvenuto nella configurazione di Power Automate"},
+  "Business Central offers even deeper integration with Power Automate now. With this new capability, users can create and start an instant Power Automate flow for a given record, such as a customer, item, or sales order.":{
+    "ITA":"Business Central offre ora un'integrazione ancora più profonda con Power Automate. Con questa nuova funzionalità, gli utenti possono creare e avviare un flusso Power Automate istantaneo per un determinato record, ad esempio un cliente, un articolo o un ordine cliente."},
+  "When this feature is switched on, every page that contains data gets a new Automate group in the action bar. From that group, users can run any instant manual flows that the company has defined for Business Central in Power Automate in a seamless, no-code approach.":{
+    "ITA":"Quando questa funzione è attivata, ogni pagina che contiene dati ottiene un nuovo gruppo Automatizza nella barra delle azioni. Da questo gruppo, gli utenti possono eseguire qualsiasi flusso manuale istantaneo che l'azienda ha definito per Business Central in Power Automate in un approccio semplice e senza codice."},
+  "Learn more about this capability.":{
+    "ITA":"Scopri di più su questa funzionalità."},
+  "Privacy notice":{
+    "ITA":"Informativa sulla privacy"},
+  "Go back to the previous page.":{
+    "ITA":"Torna alla pagina precedente."},
+  "Go to the next page.":{
+    "ITA":"Vai alla pagina successiva."},
+  "https://go.microsoft.com/fwlink/?linkid=2202635":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2202635"},
+  "You must sign out and then sign in again to make the changes take effect.":{
+    "AND":"sign in",
+    "ITA":"È necessario disconnettersi e quindi accedere di nuovo per rendere effettive le modifiche."},
+  "63b6f5ec-6db4-4e87-b103-c4bcb539f09e":{
+    "ITA":"63b6f5ec-6db4-4e87-b103-c4bcbcb539f09e"},
+  "Showing privacy notice for Power Automate":{
+    "ITA":"Visualizzazione dell'informativa sulla privacy per Power Automate"},
+  "Privacy Notice Power Automate":{
+    "ITA":"Informativa sulla privacy Power Automate"},
+  "Privacy Notice - View":{
+    "ITA":"Informativa sulla privacy - Visualizza"},
+  "Privacy Notice - Admin":{
+    "ITA":"Informativa sulla privacy - Admin"},
+  "Privacy Notice - Read":{
+    "ITA":"Informativa sulla privacy - Leggi"},
+  "The default unit (0.01 in.)":{
+    "ITA":"L'unità predefinita (0,01 pollici)"},
+  "One-hundredth of a millimeter (0.01 mm).":{
+    "ITA":"Un centesimo di millimetro (0,01 mm)."},
+  "One-tenth of a millimeter (0.1 mm).":{
+    "ITA":"Un decimo di millimetro (0,1 mm)."},
+  "One-thousandth of an inch (0.001 in.).":{
+    "ITA":"Un millesimo di pollice (0,001 pollici)."},
+  "Local Printer":{
+    "ITA":"Stampante locale"},
+  "Cloud Printer":{
+    "ITA":"Stampante cloud"},
+  "Network Printer":{
+    "ITA":"Stampante di rete"},
+  "No configuration is available for this printer.":{
+    "ITA":"Non è disponibile alcuna configurazione per questa stampante."},
+  "Cannot set this printer as the default printer.":{
+    "ITA":"Impossibile impostare questa stampante come stampante predefinita."},
+  "Printer %1 is set as default printer for all reports. You can open Printer Selections page to see the created entry.":{
+    "ITA":"La stampante %1 è impostata come stampante predefinita per tutti i report. È possibile aprire la pagina Selezioni stampante per visualizzare la voce creata."},
+  "Printer %1 is set as default printer for all reports of all users. You can open Printer Selections page to see the created entry.":{
+    "ITA":"La stampante %1 è impostata come stampante predefinita per tutti i report di tutti gli utenti. È possibile aprire la pagina Selezioni stampante per visualizzare la voce creata."},
+  "Automatically fed paper.":{
+    "ITA":"Carta alimentata automaticamente."},
+  "A paper cassette.":{
+    "ITA":"Un cassetto di carta."},
+  "A printer-specific paper source.":{
+    "ITA":"Un'origine carta specifica per la stampante."},
+  "An envelope.":{
+    "ITA":"Una busta."},
+  "The default input bin of printer.":{
+    "ITA":"Il contenitore di input predefinito della stampante."},
+  "The large-capacity bin of printer.":{
+    "ITA":"Il contenitore della stampante ad alta capacità."},
+  "Large-format paper.":{
+    "ITA":"Carta di grande formato."},
+  "The lower bin of a printer.":{
+    "ITA":"Il raccoglitore inferiore di una stampante."},
+  "Manually fed paper.":{
+    "ITA":"Carta alimentata manualmente."},
+  "Manually fed envelope.":{
+    "ITA":"Busta alimentata manualmente."},
+  "The middle bin of a printer.":{
+    "ITA":"Il cestino centrale di una stampante."},
+  "Small-format paper.":{
+    "ITA":"Carta di piccolo formato."},
+  "A tractor feed.":{
+    "ITA":"Un alimentatore per trattori."},
+  "The upper bin of a printer.":{
+    "ITA":"Il cestino superiore di una stampante."},
+  "A2 paper (420 mm by 594 mm).":{
+    "ITA":"Carta A2 (420 mm x 594 mm)."},
+  "A3 paper (297 mm by 420 mm).":{
+    "ITA":"Carta A3 (297 mm x 420 mm)."},
+  "A4 paper (210 mm by 297 mm).":{
+    "ITA":"Carta A4 (210 mm x 297 mm)."},
+  "A5 paper (148 mm by 210 mm).":{
+    "ITA":"Carta A5 (148 mm x 210 mm)."},
+  "A6 paper (105 mm by 148 mm).":{
+    "ITA":"Carta A6 (105 mm x 148 mm)."},
+  "B4 paper (250 mm by 353 mm).":{
+    "ITA":"Carta B4 (250 mm x 353 mm)."},
+  "B4 envelope (250 mm by 353 mm).":{
+    "ITA":"Busta B4 (250 mm x 353 mm)."},
+  "B5 paper (176 mm by 250 mm).":{
+    "ITA":"Carta B5 (176 mm per 250 mm)."},
+  "B5 envelope (176 mm by 250 mm).":{
+    "ITA":"Busta B5 (176 mm x 250 mm)."},
+  "B6 envelope (176 mm by 125 mm).":{
+    "ITA":"Busta B6 (176 mm x 125 mm)."},
+  "JIS B6 paper (128 mm by 182 mm).":{
+    "ITA":"Carta JIS B6 (128 mm x 182 mm)."},
+  "C3 envelope (324 mm by 458 mm).":{
+    "ITA":"Busta C3 (324 mm x 458 mm)."},
+  "C4 envelope (229 mm by 324 mm).":{
+    "ITA":"Busta C4 (229 mm x 324 mm)."},
+  "C5 envelope (162 mm by 229 mm).":{
+    "ITA":"Busta C5 (162 mm x 229 mm)."},
+  "C65 envelope (114 mm by 229 mm).":{
+    "ITA":"Busta C65 (114 mm x 229 mm)."},
+  "C6 envelope (114 mm by 162 mm).":{
+    "ITA":"Busta C6 (114 mm x 162 mm)."},
+  "C paper (17 in. by 22 in.).":{
+    "ITA":"C (17 pollici per 22 pollici)."},
+  "DL envelope (110 mm by 220 mm).":{
+    "ITA":"Busta DL (110 mm per 220 mm)."},
+  "D paper (22 in. by 34 in.).":{
+    "ITA":"D (22 pollici per 34 pollici)."},
+  "E paper (34 in. by 44 in.).":{
+    "ITA":"E paper (34 pollici per 44 pollici)."},
+  "Executive paper (7.25 in. by 10.5 in.).":{
+    "ITA":"Carta esecutiva (7,25 pollici per 10,5 pollici)."},
+  "Folio paper (8.5 in. by 13 in.).":{
+    "ITA":"Carta folia (8,5 pollici per 13 pollici)."},
+  "German legal fanfold (8.5 in. by 13 in.).":{
+    "ITA":"Foldante legale tedesco (8,5 pollici per 13 pollici)."},
+  "German standard fanfold (8.5 in. by 12 in.).":{
+    "ITA":"Modulo continuo standard tedesco (8,5 pollici per 12 pollici)."},
+  "Invitation envelope (220 mm by 220 mm).":{
+    "ITA":"Busta d'invito (220 mm per 220 mm)."},
+  "ISO B4 (250 mm by 353 mm).":{
+    "ITA":"ISO B4 (250 mm x 353 mm)."},
+  "Italy envelope (110 mm by 230 mm).":{
+    "ITA":"Busta Italia (110 mm per 230 mm)."},
+  "Japanese double postcard (200 mm by 148 mm).":{
+    "ITA":"Doppia cartolina giapponese (200 mm per 148 mm)."},
+  "Japanese Chou #3 envelope.":{
+    "ITA":"Busta giapponese Chou #3."},
+  "Japanese Chou #4 envelope.":{
+    "ITA":"Busta giapponese Chou #4."},
+  "Japanese Kaku #2 envelope.":{
+    "ITA":"Busta giapponese Kaku #2."},
+  "Japanese Kaku #3 envelope.":{
+    "ITA":"Busta giapponese Kaku #3."},
+  "Japanese You #4 envelope.":{
+    "ITA":"Busta giapponese You #4."},
+  "Japanese postcard (100 mm by 148 mm).":{
+    "ITA":"Cartolina giapponese (100 mm per 148 mm)."},
+  "Ledger paper (17 in. by 11 in.).":{
+    "ITA":"Carta mastro (17 pollici per 11 pollici)."},
+  "Legal paper (8.5 in. by 14 in.).":{
+    "ITA":"Carta legale (8,5 pollici per 14 pollici)."},
+  "Letter paper (8.5 in. by 11 in.).":{
+    "ITA":"Carta da lettere (8,5 pollici per 11 pollici)."},
+  "Monarch envelope (3.875 in. by 7.5 in.).":{
+    "ITA":"Busta Monarch (3,875 pollici per 7,5 pollici)."},
+  "Note paper (8.5 in. by 11 in.).":{
+    "ITA":"Carta per appunti (8,5 pollici per 11 pollici)."},
+  "#10 envelope (4.125 in. by 9.5 in.).":{
+    "ITA":"Busta #10 (4,125 pollici per 9,5 pollici)."},
+  "#11 envelope (4.5 in. by 10.375 in.).":{
+    "ITA":"Busta #11 (4,5 pollici per 10,375 pollici)."},
+  "#12 envelope (4.75 in. by 11 in.).":{
+    "ITA":"Busta #12 (4,75 pollici per 11 pollici)."},
+  "#14 envelope (5 in. by 11.5 in.).":{
+    "ITA":"Busta #14 (5 pollici per 11,5 pollici)."},
+  "#9 envelope (3.875 in. by 8.875 in.).":{
+    "ITA":"Busta #9 (3,875 pollici per 8,875 pollici)."},
+  "6 3/4 envelope (3.625 in. by 6.5 in.).":{
+    "ITA":"6 busta 3/4 (3,625 pollici per 6,5 pollici)."},
+  "16K paper (146 mm by 215 mm).":{
+    "ITA":"Carta 16K (146 mm x 215 mm)."},
+  "32K paper (97 mm by 151 mm).":{
+    "ITA":"Carta 32K (97 mm x 151 mm)."},
+  "#1 envelope (102 mm by 165 mm).":{
+    "ITA":"Busta #1 (102 mm x 165 mm)."},
+  "#10 envelope (324 mm by 458 mm).":{
+    "ITA":"Busta #10 (324 mm x 458 mm)."},
+  "#2 envelope (102 mm by 176 mm).":{
+    "ITA":"Busta #2 (102 mm per 176 mm)."},
+  "#3 envelope (125 mm by 176 mm).":{
+    "ITA":"Busta #3 (125 mm x 176 mm)."},
+  "#4 envelope (110 mm by 208 mm).":{
+    "ITA":"Busta #4 (110 mm per 208 mm)."},
+  "#5 envelope (110 mm by 220 mm).":{
+    "ITA":"Busta #5 (110 mm per 220 mm)."},
+  "#6 envelope (120 mm by 230 mm).":{
+    "ITA":"Busta #6 (120 mm per 230 mm)."},
+  "#7 envelope (160 mm by 230 mm).":{
+    "ITA":"Busta #7 (160 mm per 230 mm)."},
+  "#8 envelope (120 mm by 309 mm).":{
+    "ITA":"Busta #8 (120 mm x 309 mm)."},
+  "#9 envelope (229 mm by 324 mm).":{
+    "ITA":"Busta #9 (229 mm x 324 mm)."},
+  "Quarto paper (215 mm by 275 mm).":{
+    "ITA":"Carta Quarto (215 mm x 275 mm)."},
+  "Standard paper (10 in. by 11 in.).":{
+    "ITA":"Carta standard (10 pollici per 11 pollici)."},
+  "Standard paper (10 in. by 14 in.).":{
+    "ITA":"Carta standard (10 pollici per 14 pollici)."},
+  "Standard paper (11 in. by 17 in.).":{
+    "ITA":"Carta standard (11 pollici per 17 pollici)."},
+  "Standard paper (12 in. by 11 in.).":{
+    "ITA":"Carta standard (12 pollici per 11 pollici)."},
+  "Standard paper (15 in. by 11 in.).":{
+    "ITA":"Carta standard (15 pollici per 11 pollici)."},
+  "Standard paper (9 in. by 11 in.).":{
+    "ITA":"Carta standard (9 pollici per 11 pollici)."},
+  "Statement paper (5.5 in. by 8.5 in.).":{
+    "ITA":"Carta di dichiarazione (5,5 pollici per 8,5 pollici)."},
+  "Tabloid paper (11 in. by 17 in.).":{
+    "ITA":"Carta da tabloid (11 pollici per 17 pollici)."},
+  "US standard fanfold (14.875 in. by 11 in.).":{
+    "ITA":"Modulo continuo standard USA (14,875 pollici per 11 pollici)."},
+  "Custom. The paper size is defined by the user.":{
+    "ITA":"Costume. Il formato della carta è definito dall'utente."},
+  "Printer Management":{
+    "ITA":"Gestione della stampante"},
+  "Printer ID":{
+    "ITA":"ID stampante"},
+  "Specifies the ID of the printer.":{
+    "ITA":"Specifica l'ID della stampante."},
+  "Specifies the description of the printer.":{
+    "ITA":"Specifica la descrizione della stampante."},
+  "Type":{
+    "ITA":"Digitare"},
+  "Specifies the type of the printer.":{
+    "ITA":"Specifica il tipo di stampante."},
+  "Device":{
+    "ITA":"Dispositivo"},
+  "Specifies the printer device.":{
+    "ITA":"Specifica la periferica di stampa."},
+  "Driver":{
+    "ITA":"Autista"},
+  "Specifies the driver of the printer.":{
+    "ITA":"Specifica il driver della stampante."},
+  "Printer Selections":{
+    "ITA":"Selezioni della stampante"},
+  "Open the Printer Selections page.":{
+    "ITA":"Aprire la pagina Selezioni stampante."},
+  "Edit printer settings":{
+    "ITA":"Modificare le impostazioni della stampante"},
+  "View or edit the settings of the selected printer.":{
+    "ITA":"Visualizzare o modificare le impostazioni della stampante selezionata."},
+  "Set as my default printer":{
+    "ITA":"Imposta come stampante predefinita"},
+  "Create a Printer Selection entry with your user name in User ID field and the printer name in the Printer Name field, leaving the Report ID field blank.":{
+    "ITA":"Creare una voce Selezione stampante con il proprio nome utente nel campo ID utente e il nome della stampante nel campo Nome stampante, lasciando vuoto il campo ID report."},
+  "Set as default printer for all users":{
+    "ITA":"Imposta come stampante predefinita per tutti gli utenti"},
+  "Create a Printer Selection entry with the printer name in the Printer Name field, leaving the User ID and Report ID fields blank.":{
+    "ITA":"Creare una voce di selezione della stampante con il nome della stampante nel campo Nome stampante, lasciando vuoti i campi ID utente e ID report."},
+  "Basic User (All Inclusive)":{
+    "ITA":"Utente di base (All Inclusive)"},
+  "Assign permissions to users":{
+    "ITA":"Assegnare autorizzazioni agli utenti"},
+  "Login access":{
+    "ITA":"Accesso al login"},
+  "D365 Excel Export Action":{
+    "ITA":"Azione di esportazione di Excel D365"},
+  "Import Permission Sets":{
+    "ITA":"Set di autorizzazioni per l'importazione"},
+  "Only users with the SUPER or the SECURITY permission set can create or edit permission sets.":{
+    "ITA":"Solo gli utenti che dispongono del set di autorizzazioni SUPER o SECURITY possono creare o modificare i set di autorizzazioni."},
+  "Export Permission Sets":{
+    "ITA":"Set di autorizzazioni per l'esportazione"},
+  "Specifies the permission set.":{
+    "ITA":"Specifica il set di autorizzazioni."},
+  "Permission Set Name":{
+    "ITA":"Nome set di autorizzazioni"},
+  "Specifies the type of permission.":{
+    "ITA":"Specifica il tipo di autorizzazione."},
+  "Specifies the type of object that the permissions apply to in the current database.":{
+    "ITA":"Specifica il tipo di oggetto a cui si applicano le autorizzazioni nel database corrente."},
+  "Specifies the ID of the object to which the permissions apply.":{
+    "ITA":"Specifica l'ID dell'oggetto a cui si applicano le autorizzazioni."},
+  "Object Name":{
+    "ITA":"Nome oggetto"},
+  "Specifies the name of the object to which the permissions apply.":{
+    "ITA":"Specifica il nome dell'oggetto a cui si applicano le autorizzazioni."},
+  "Object Caption":{
+    "ITA":"Didascalia dell'oggetto"},
+  "Specifies the caption of the object that the permissions apply to.":{
+    "ITA":"Specifica la didascalia dell'oggetto a cui si applicano le autorizzazioni."},
+  "Read Permission":{
+    "ITA":"Autorizzazione di lettura"},
+  "Specifies if the permission set has read permission to this object.":{
+    "ITA":"Specifica se il set di autorizzazioni dispone dell'autorizzazione di lettura per l'oggetto."},
+  "Insert Permission":{
+    "ITA":"Autorizzazione di inserimento"},
+  "Specifies if the permission set has insert permission to this object.":{
+    "ITA":"Specifica se il set di autorizzazioni dispone dell'autorizzazione di inserimento per l'oggetto."},
+  "Modify Permission":{
+    "ITA":"Autorizzazione di modifica"},
+  "Specifies if the permission set has modify permission to this object.":{
+    "ITA":"Specifica se il set di autorizzazioni dispone dell'autorizzazione di modifica per l'oggetto."},
+  "Delete Permission":{
+    "ITA":"Autorizzazione di eliminazione"},
+  "Specifies if the permission set has delete permission to this object.":{
+    "ITA":"Specifica se il set di autorizzazioni dispone dell'autorizzazione di eliminazione per l'oggetto."},
+  "Execute Permission":{
+    "ITA":"Autorizzazione di esecuzione"},
+  "Specifies if the permission set has execute permission to this object.":{
+    "ITA":"Specifica se il set di autorizzazioni dispone dell'autorizzazione di esecuzione per l'oggetto."},
+  "Specifies a security filter that applies to this permission set to limit the access that this permission set has to the data contained in this table.":{
+    "ITA":"Specifica un filtro di sicurezza che si applica a questo set di autorizzazioni per limitare l'accesso di questo set di autorizzazioni ai dati contenuti in questa tabella."},
+  "Select Objects":{
+    "ITA":"Seleziona oggetti"},
+  "Add two or more objects.":{
+    "ITA":"Aggiungere due o più oggetti."},
+  "Add Read Permission to Related Tables":{
+    "ITA":"Aggiunta dell'autorizzazione di lettura alle tabelle correlate"},
+  "Add read access to tables that are related to the selected tables.":{
+    "ITA":"Aggiungere l'accesso in lettura alle tabelle correlate alle tabelle selezionate."},
+  "Allow Read":{
+    "ITA":"Consenti lettura"},
+  "Yes":{
+    "ITA":"Sì"},
+  "Allow access to read data in the object.":{
+    "ITA":"Consentire l'accesso per leggere i dati nell'oggetto."},
+  "No":{
+    "ITA":"No"},
+  "Disallow access to read data in the object.":{
+    "ITA":"Non consentire l'accesso alla lettura dei dati nell'oggetto."},
+  "Indirect":{
+    "ITA":"Indiretto"},
+  "Allow access to read data in the object if there is read access to a related object.":{
+    "ITA":"Consentire l'accesso ai dati di lettura nell'oggetto se è disponibile l'accesso in lettura a un oggetto correlato."},
+  "Allow Insert":{
+    "ITA":"Consenti inserimento"},
+  "Allow access to insert data in the object.":{
+    "ITA":"Consenti l'accesso per inserire dati nell'oggetto."},
+  "Disallow access to insert data in the object.":{
+    "ITA":"Non consentire l'accesso per inserire dati nell'oggetto."},
+  "Allow access to insert data in the object if there is insert access to a related object.":{
+    "ITA":"Consentire l'accesso per inserire dati nell'oggetto se è presente l'accesso per l'inserimento a un oggetto correlato."},
+  "Allow Modify":{
+    "ITA":"Consenti modifica"},
+  "Allow access to modify data in the object.":{
+    "ITA":"Consenti l'accesso per modificare i dati nell'oggetto."},
+  "Disallow access to modify data in the object.":{
+    "ITA":"Non consentire l'accesso per modificare i dati nell'oggetto."},
+  "Allow access to modify data in the object if there is modify access to a related object.":{
+    "ITA":"Consentire l'accesso per modificare i dati nell'oggetto se è presente l'accesso di modifica a un oggetto correlato."},
+  "Allow Delete":{
+    "ITA":"Consenti eliminazione"},
+  "Allow access to delete data in the object.":{
+    "ITA":"Consenti l'accesso per eliminare i dati nell'oggetto."},
+  "Disallow access to delete data in the object.":{
+    "ITA":"Non consentire l'accesso per eliminare i dati nell'oggetto."},
+  "Allow access to delete data in the object if there is delete access to a related object.":{
+    "ITA":"Consentire l'accesso per eliminare i dati nell'oggetto se è presente l'accesso di eliminazione a un oggetto correlato."},
+  "Allow Execute":{
+    "ITA":"Consenti esecuzione"},
+  "Allow access to execute functions in the object.":{
+    "ITA":"Consentire l'accesso per eseguire funzioni nell'oggetto."},
+  "Disallow access to execute functions in the object.":{
+    "ITA":"Non consentire l'accesso all'esecuzione di funzioni nell'oggetto."},
+  "Allow access to execute functions in the object if there is execute access to a related object.":{
+    "ITA":"Consentire l'accesso alle funzioni di esecuzione nell'oggetto se è presente l'accesso di esecuzione a un oggetto correlato."},
+  "Allow All":{
+    "ITA":"Consenti tutto"},
+  "Allow access to perform all actions in the object.":{
+    "ITA":"Consenti l'accesso per eseguire tutte le azioni nell'oggetto."},
+  "Disallow access to perform all actions in the object.":{
+    "ITA":"Non consentire l'accesso per eseguire tutte le azioni nell'oggetto."},
+  "Allow access to perform all actions in the object if there is full access to a related object.":{
+    "ITA":"Consentire l'accesso per eseguire tutte le azioni nell'oggetto se è disponibile l'accesso completo a un oggetto correlato."},
+  "Composable Permission Sets":{
+    "ITA":"Set di autorizzazioni componibili"},
+  "Do you want to add the read permissions to all related tables?":{
+    "ITA":"Si desidera aggiungere i permessi di lettura a tutte le tabelle correlate?"},
+  "Specifies the scope of the permission set.":{
+    "ITA":"Specifica l'ambito del set di autorizzazioni."},
+  "Inclusion Status":{
+    "ITA":"Stato di inclusione"},
+  "Specifies the inclusion status.":{
+    "ITA":"Specifica lo stato di inclusione."},
+  "Exclude":{
+    "ITA":"Escludere"},
+  "Excludes the selected permission set.":{
+    "ITA":"Esclude il set di autorizzazioni selezionato."},
+  "View Permission Set":{
+    "ITA":"Visualizza set di autorizzazioni"},
+  "View Permissions In Set":{
+    "ITA":"Visualizza autorizzazioni nel set"},
+  "View a flat list of the permissions in the set.":{
+    "ITA":"Visualizza un elenco semplice delle autorizzazioni nel set."},
+  "Specifies whether to include or exclude the permission set":{
+    "ITA":"Specifica se includere o escludere il set di autorizzazioni"},
+  "Specifies the permission set":{
+    "ITA":"Specifica il set di autorizzazioni"},
+  "Select Permission Sets":{
+    "ITA":"Seleziona set di autorizzazioni"},
+  "You cannot change permissions sets of type Extension.":{
+    "ITA":"Non è possibile modificare i set di autorizzazioni di tipo Estensione."},
+  "You cannot include the permission set you are currently modifying.":{
+    "ITA":"Non è possibile includere il set di autorizzazioni che si sta modificando."},
+  "You cannot exclude the permission set you are currently modifying.":{
+    "ITA":"Non è possibile escludere il set di autorizzazioni che si sta modificando."},
+  "The %1 permission set is already included.":{
+    "ITA":"Il set di autorizzazioni %1 è già incluso."},
+  "The %1 permission set is already excluded.":{
+    "ITA":"Il set di autorizzazioni %1 è già escluso."},
+  "%1 (%2)":{
+    "ITA":"%1 (%2)"},
+  "Permission Set Relation Buffer":{
+    "ITA":"Set di autorizzazioni Buffer di relazione"},
+  "Role ID":{
+    "ITA":"ID ruolo"},
+  "Related App ID":{
+    "ITA":"ID app correlato"},
+  "Related Role ID":{
+    "ITA":"ID ruolo correlato"},
+  "Related Scope":{
+    "ITA":"Ambito correlato"},
+  "Position":{
+    "ITA":"Posizione"},
+  "Included":{
+    "ITA":"Incluso"},
+  "Related Name":{
+    "ITA":"Nome correlato"},
+  "Copy by reference":{
+    "ITA":"Copia per riferimento"},
+  "Flat permission copy":{
+    "ITA":"Copia semplice dell'autorizzazione"},
+  "Clone":{
+    "ITA":"Clone"},
+  "Permission set already exists.":{
+    "ITA":"Il set di autorizzazioni esiste già."},
+  "Permission Set Buffer":{
+    "ITA":"Buffer set di autorizzazioni"},
+  "App Name":{
+    "ITA":"Nome dell'applicazione"},
+  "Result":{
+    "ITA":"Risultato"},
+  "Included permissions":{
+    "ITA":"Autorizzazioni incluse"},
+  "View all permissions":{
+    "ITA":"Visualizza tutte le autorizzazioni"},
+  "View a flat list of the permissions in the set you":{
+    "ITA":"Visualizza un elenco semplice delle autorizzazioni nel set che"},
+  "Record Permissions":{
+    "ITA":"Autorizzazioni di registrazione"},
+  "Start":{
+    "ITA":"Inizio"},
+  "Start recording UI activities to generate the required permissions.":{
+    "ITA":"Avviare la registrazione delle attività dell'interfaccia utente per generare le autorizzazioni necessarie."},
+  "Stop":{
+    "ITA":"Fermarsi"},
+  "Stop recording.":{
+    "ITA":"Interrompi la registrazione."},
+  "Do you want to start the recording now?":{
+    "ITA":"Vuoi iniziare la registrazione ora?"},
+  "Do you want to add the recorded permissions?":{
+    "ITA":"Vuoi aggiungere le autorizzazioni registrate?"},
+  "Only users with the SUPER or the SECURITY permission set can delete permission sets.":{
+    "ITA":"Solo gli utenti con il set di autorizzazioni SUPER o SECURITY possono eliminare i set di autorizzazioni."},
+  "You can only delete user-created or copied permission sets.":{
+    "ITA":"È possibile eliminare solo i set di autorizzazioni creati o copiati dall'utente."},
+  "Permission Lookup List":{
+    "ITA":"Elenco di ricerca autorizzazioni"},
+  "Permission":{
+    "ITA":"Permesso"},
+  "Specifies the value for the permission to this object.":{
+    "ITA":"Specifica il valore dell'autorizzazione per l'oggetto."},
+  "Permission Lookup Buffer":{
+    "ITA":"Buffer di ricerca delle autorizzazioni"},
+  "Lookup Type":{
+    "ITA":"Tipo di ricerca"},
+  "All objects of type %1":{
+    "ITA":"Tutti gli oggetti di tipo %1"},
+  "All objects of type %1 (except where otherwise stated)":{
+    "ITA":"Tutti gli oggetti di tipo %1 (salvo diversa indicazione)"},
+  "Select objects to add":{
+    "ITA":"Seleziona gli oggetti da aggiungere"},
+  "Select object to add":{
+    "ITA":"Seleziona l'oggetto da aggiungere"},
+  "The permission already exists with type %1":{
+    "ITA":"L'autorizzazione esiste già con il tipo %1"},
+  "Specifies whether this is an include or exclude permission.":{
+    "ITA":"Specifica se si tratta di un'autorizzazione di inclusione o esclusione."},
+  "Specifies information about whether the permission set has read permission to this object. The values for the field are blank, Yes, and Indirect. Indirect means permission only through another object. If the field is empty, the permission set does not have read permission.":{
+    "ITA":"Specifica le informazioni relative al fatto che il set di autorizzazioni disponga dell'autorizzazione di lettura per l'oggetto. I valori per il campo sono vuoto, Sì e Indiretto. Indiretto significa autorizzazione solo tramite un altro oggetto. Se il campo è vuoto, il set di autorizzazioni non dispone dell'autorizzazione di lettura."},
+  "Specifies information about whether the permission set has insert permission to this object. The values for the field are blank, Yes, and Indirect. Indirect means permission only through another object. If the field is empty, the permission set does not have insert permission.":{
+    "ITA":"Specifica le informazioni relative al fatto che il set di autorizzazioni disponga dell'autorizzazione di inserimento per l'oggetto. I valori per il campo sono vuoto, Sì e Indiretto. Indiretto significa autorizzazione solo tramite un altro oggetto. Se il campo è vuoto, il set di autorizzazioni non dispone dell'autorizzazione di inserimento."},
+  "Specifies information about whether the permission set has modify permission to this object. The values for the field are blank, Yes, and Indirect. Indirect means permission only through another object. If the field is empty, the permission set does not have modify permission.":{
+    "ITA":"Specifica se il set di autorizzazioni dispone dell'autorizzazione di modifica per l'oggetto. I valori per il campo sono vuoto, Sì e Indiretto. Indiretto significa autorizzazione solo tramite un altro oggetto. Se il campo è vuoto, il set di autorizzazioni non dispone dell'autorizzazione di modifica."},
+  "Specifies information about whether the permission set has delete permission to this object. The values for the field are blank, Yes, and Indirect. Indirect means permission only through another object. If the field is empty, the permission set does not have delete permission.":{
+    "ITA":"Specifica le informazioni relative al fatto che il set di autorizzazioni disponga dell'autorizzazione di eliminazione per l'oggetto. I valori per il campo sono vuoto, Sì e Indiretto. Indiretto significa autorizzazione solo tramite un altro oggetto. Se il campo è vuoto, il set di autorizzazioni non dispone dell'autorizzazione di eliminazione."},
+  "Specifies information about whether the permission set has execute permission to this object. The values for the field are blank, Yes, and Indirect. Indirect means permission only through another object. If the field is empty, the permission set does not have execute permission.":{
+    "ITA":"Specifica se il set di autorizzazioni dispone dell'autorizzazione di esecuzione per l'oggetto. I valori per il campo sono vuoto, Sì e Indiretto. Indiretto significa autorizzazione solo tramite un altro oggetto. Se il campo è vuoto, il set di autorizzazioni non dispone dell'autorizzazione di esecuzione."},
+  "Specifies the security filter that is being applied to this permission set to limit the access that this permission set has to the data contained in this table.":{
+    "ITA":"Specifica il filtro di protezione applicato a questo set di autorizzazioni per limitare l'accesso di questo set di autorizzazioni ai dati contenuti nella tabella."},
+  "Expanded Permissions":{
+    "ITA":"Autorizzazioni estese"},
+  "IdleTime":{
+    "ITA":"Tempo di inattività"},
+  "There is no performance profiling data.":{
+    "ITA":"Non sono presenti dati di profilazione delle prestazioni."},
+  "This type of .alcpuprofile file is not supported. Please upload a sampling-based CPU profile file.":{
+    "ITA":"Questo tipo di file con estensione alcpuprofile non è supportato. Caricare un file del profilo CPU basato sul campionamento."},
+  "Not specified":{
+    "ITA":"Non specificato"},
+  "50 ms":{
+    "ITA":"50 ms"},
+  "100 ms":{
+    "ITA":"100 metri quadrati"},
+  "150 ms":{
+    "ITA":"150 metri quadrati"},
+  "Time Spent":{
+    "ITA":"Tempo trascorso"},
+  "Shows which apps were running during the recording. Durations are self-time. They show the length of activity but do not include time spent calling other apps.":{
+    "ITA":"Mostra quali app erano in esecuzione durante la registrazione. Le durate sono self-time. Mostrano la durata dell'attività, ma non includono il tempo trascorso a chiamare altre app."},
+  "Actions":{
+    "ITA":"Azioni"},
+  "Aggregate By":{
+    "ITA":"Aggrega per"},
+  "Aggregate the time spent during the performance profiling by app name.":{
+    "ITA":"Aggrega il tempo impiegato durante la profilatura delle prestazioni in base al nome dell'app."},
+  "App Publisher":{
+    "ITA":"Editore di app"},
+  "Aggregate the time spent during the performance profiling by app publisher.":{
+    "ITA":"Aggrega il tempo impiegato durante la profilatura delle prestazioni in base all'editore dell'app."},
+  "Active Apps":{
+    "ITA":"App attive"},
+  "Shows the apps that where active during the recording. They were either running or called other apps. The duration represents the time you might save by removing an app.":{
+    "ITA":"Mostra le app che erano attive durante la registrazione. Erano in esecuzione o chiamavano altre app. La durata rappresenta il tempo che è possibile risparmiare rimuovendo un'app."},
+  "Time Spent by Application Object":{
+    "ITA":"Tempo impiegato dall'oggetto applicazione"},
+  "Specifies the type of the application object.":{
+    "ITA":"Specifica il tipo dell'oggetto applicazione."},
+  "Specifies the name of the application object.":{
+    "ITA":"Specifica il nome dell'oggetto applicazione."},
+  "Specifies the amount of time spent in this application object.":{
+    "ITA":"Specifica la quantità di tempo trascorso nell'oggetto applicazione."},
+  "Specifies the name of the app that the application object belongs to.":{
+    "ITA":"Specifica il nome dell'app a cui appartiene l'oggetto applicazione."},
+  "Application calls":{
+    "ITA":"Chiamate all'applicazione"},
+  "Method Name":{
+    "ITA":"Nome metodo"},
+  "Specifies the name of the method in which the time was spent.":{
+    "ITA":"Specifica il nome del metodo in cui è stato impiegato il tempo."},
+  "Specifies the total time spent inside the method during the performance profiler recording.":{
+    "ITA":"Specifica il tempo totale trascorso all'interno del metodo durante la registrazione del profiler delle prestazioni."},
+  "Duration (milliseconds)":{
+    "ITA":"Durata (millisecondi)"},
+  "Call Tree":{
+    "ITA":"Albero delle chiamate"},
+  "Specifies the name of the method that was called.":{
+    "ITA":"Specifica il nome del metodo chiamato."},
+  "Self Time":{
+    "ITA":"Tempo per se stessi"},
+  "Specifies the amount of time spent only in this method.":{
+    "ITA":"Specifica la quantità di tempo impiegata solo in questo metodo."},
+  "Total Time":{
+    "ITA":"Tempo totale"},
+  "Specifies the amount of time spent in this method and the methods it calls.":{
+    "ITA":"Specifica la quantità di tempo impiegata per questo metodo e i metodi chiamati."},
+  "Performance Profiler":{
+    "ITA":"Profiler delle prestazioni"},
+  "Troubleshoot slow operations":{
+    "ITA":"Risolvere i problemi relativi alle operazioni lente"},
+  "Use the Start and Stop buttons to record a process that you think is slow. The charts will show how much time each app used.":{
+    "ITA":"Utilizzare i pulsanti Avvia e Interrompi per registrare un processo che si ritiene lento. I grafici mostreranno quanto tempo ha utilizzato ciascuna app."},
+  "The performance profiler is now running":{
+    "ITA":"Il profiler delle prestazioni è ora in esecuzione"},
+  "You can record your business process.":{
+    "ITA":"È possibile registrare il processo aziendale."},
+  "Show technical information":{
+    "ITA":"Mostra le informazioni tecniche"},
+  "Specifies details about the time each app took during the performance profiling.":{
+    "ITA":"Specifica i dettagli relativi al tempo impiegato da ogni app durante la profilatura delle prestazioni."},
+  "Start the performance profiler recording.":{
+    "ITA":"Avviare la registrazione del profiler delle prestazioni."},
+  "Stop the performance profiler recording.":{
+    "ITA":"Arrestare la registrazione del profiler delle prestazioni."},
+  "Clear":{
+    "ITA":"Chiaro"},
+  "Clear the performance profiler recording data.":{
+    "ITA":"Cancellare i dati di registrazione del profiler delle prestazioni."},
+  "Download the performance profile file of the recording performed.":{
+    "ITA":"Scaricare il file del profilo delle prestazioni della registrazione eseguita."},
+  "Share":{
+    "ITA":"Condividi"},
+  "Copy the profile file to your Business Central folder in OneDrive and share the file. You can also see who it":{
+    "ITA":"Copia il file del profilo nella cartella Business Central in OneDrive e condividi il file. Puoi anche vedere chi è"},
+  "s already shared with.":{},
+  "Upload the performance profile file to be processed.":{
+    "ITA":"Caricare il file del profilo prestazioni da elaborare."},
+  "Settings":{
+    "ITA":"Impostazioni"},
+  "Specify the configuration of the performance profiling recording.":{
+    "ITA":"Specificare la configurazione della registrazione della profilatura delle prestazioni."},
+  "Upload a previously recorded performance profile":{
+    "ITA":"Caricare un profilo delle prestazioni registrato in precedenza"},
+  "CPU profile |*.alcpuprofile":{
+    "ITA":"Profilo CPU |*.alcpuprofile"},
+  "PerformanceProfile_Session%1":{
+    "ITA":"PerformanceProfile_Session%1"},
+  ".alcpuprofile":{
+    "ITA":".alcpuprofile"},
+  "Performance Profiling":{
+    "ITA":"Profilazione delle prestazioni"},
+  "The file might contain sensitive data, so be sure to handle it securely and according to privacy requirements. Do you want to continue?":{
+    "ITA":"Il file potrebbe contenere dati sensibili, quindi assicurati di gestirlo in modo sicuro e secondo i requisiti di privacy. Vuoi continuare?"},
+  "Choose the sampling interval of the performance profiler. Smaller intervals will result in more precise timings, but it might result in higher load of the system.":{
+    "ITA":"Scegliere l'intervallo di campionamento del profiler delle prestazioni. Intervalli più piccoli si tradurranno in tempi più precisi, ma potrebbero comportare un carico maggiore del sistema."},
+  "The password must contain at least %1 characters.":{
+    "ITA":"La password deve contenere almeno %1 caratteri."},
+  "The passwords that you entered do not match.":{
+    "ITA":"Le password inserite non corrispondono."},
+  "The password that you entered does not meet the minimum requirements. It must be at least %1 characters long and contain at least one uppercase letter, one lowercase letter, one number and one special character. It must not have a sequence of 3 or more ascending, descending or repeating characters.":{
+    "ITA":"La password immessa non soddisfa i requisiti minimi. Deve essere lungo almeno %1 caratteri e contenere almeno una lettera maiuscola, una lettera minuscola, un numero e un carattere speciale. Non deve avere una sequenza di 3 o più caratteri crescenti, decrescenti o ripetuti."},
+  "Do you want to exit without entering a password?":{
+    "ITA":"Vuoi uscire senza inserire una password?"},
+  "Enter Password":{
+    "ITA":"Inserisci la password"},
+  "Old Password":{
+    "ITA":"Vecchia password"},
+  "Specifies the current password, before the user defines a new one.":{
+    "ITA":"Specifica la password corrente, prima che l'utente ne definisca una nuova."},
+  "Password":{
+    "ITA":"Parola d’ordine"},
+  "Specifies the password for this task. The password must consist of 8 or more characters, at least one uppercase letter, one lowercase letter, and one number.":{
+    "ITA":"Specifica la password per l'attività. La password deve essere composta da 8 o più caratteri, almeno una lettera maiuscola, una lettera minuscola e un numero."},
+  "Confirm Password":{
+    "ITA":"Conferma password"},
+  "Specifies the password repeated.":{
+    "ITA":"Specifica la password ripetuta."},
+  "Your Password has been updated.":{
+    "ITA":"La tua password è stata aggiornata."},
+  "The user with %1 %2 does not exist.":{
+    "ITA":"L'utente con %1 %2 non esiste."},
+  "Brick":{
+    "ITA":"Mattone"},
+  "Specifies the object type.":{
+    "ITA":"Specifica il tipo di oggetto."},
+  "Specifies the object ID.":{
+    "ITA":"Specifica l'ID dell'oggetto."},
+  "Specifies the caption of the object.":{
+    "ITA":"Specifica la didascalia dell'oggetto."},
+  "Specifies the name of the object.":{
+    "ITA":"Specifica il nome dell'oggetto."},
+  "Object Subtype":{
+    "ITA":"Sottotipo oggetto"},
+  "Specifies the subtype of the object.":{
+    "ITA":"Specifica il sottotipo dell'oggetto."},
+  "Specifies the name of the extension the object comes from.":{
+    "ITA":"Specifica il nome dell'estensione da cui proviene l'oggetto."},
+  "No prompt parameter in the request":{
+    "ITA":"Nessun parametro di prompt nella richiesta"},
+  "Login":{
+    "ITA":"Accesso"},
+  "Select Account":{
+    "ITA":"Seleziona Account"},
+  "Consent":{
+    "ITA":"Consenso"},
+  "Admin Consent":{
+    "ITA":"Consenso dell'amministratore"},
+  "OAuthLanding.htm":{
+    "ITA":"OAuthLanding.htm"},
+  "OAuth2":{
+    "ITA":"OAuth2"},
+  "The defined redirectURL is: %1":{
+    "ITA":"L'URL di reindirizzamento definito è: %1"},
+  "The default redirectURL is: %1":{
+    "ITA":"L'URL di reindirizzamento predefinito è: %1"},
+  "The authentication request URL %1 has been succesfully retrieved.":{
+    "ITA":"L'URL della richiesta di autenticazione %1 è stato recuperato correttamente."},
+  "The authorization request URL for the OAuth2 Grant flow cannot be constructed because of missing ClientId or RedirectUrl":{
+    "ITA":"L'URL della richiesta di autorizzazione per il flusso di concessione OAuth2 non può essere costruito a causa della mancanza di ClientId o RedirectUrl"},
+  "The OAuth2 authentication code retrieved is empty.":{
+    "ITA":"Il codice di autenticazione OAuth2 recuperato è vuoto."},
+  "The access token failed to be retrieved by the client credentials grant flow.":{
+    "ITA":"Il token di accesso non è stato recuperato dal flusso di concessione delle credenziali client."},
+  "Popup blocked":{
+    "ITA":"Popup bloccato"},
+  "Your browser may be blocking pop-ups needed by %1.\\\\Change your browser settings to allow pop-ups or allow pop-ups from the %1 site, then try again.":{
+    "ITA":"È possibile che il browser stia bloccando i popup necessari per %1.\\\\Modificare le impostazioni del browser per consentire i popup o consentire i popup dal sito %1, quindi riprovare."},
+  "Waiting for a response. Do not close this page.":{
+    "ITA":"In attesa di una risposta. Non chiudere questa pagina."},
+  "The returned authorization code is missing information about the returned state.":{
+    "ITA":"Nel codice di autorizzazione restituito mancano informazioni sullo stato restituito."},
+  "The authroization code returned state is missmatching the expected state value.":{
+    "ITA":"Lo stato restituito dal codice di autenticazione non corrisponde al valore di stato previsto."},
+  "Error: %1 ; Description: %2.":{
+    "ITA":"Errore: %1 ; Descrizione: %2."},
+  "The authorization code flow grant process has started.":{
+    "ITA":"Il processo di concessione del flusso del codice di autorizzazione è stato avviato."},
+  "No state has been returned":{
+    "ITA":"Nessuno stato è stato restituito"},
+  "The state parameter value does not match.":{
+    "ITA":"Il valore del parametro state non corrisponde."},
+  "Error: %1, description: %2":{
+    "ITA":"Errore: %1, descrizione: %2"},
+  "AL Security":{
+    "ITA":"Sicurezza AL"},
+  "Use of weak hash function":{
+    "ITA":"Uso della funzione hash debole"},
+  "There are currently no settings available for this choice.":{
+    "ITA":"Al momento non sono disponibili impostazioni per questa scelta."},
+  "https://graph.microsoft.com":{
+    "ITA":"https://graph.microsoft.com"},
+  "%1/%2":{
+    "ITA":"%1/%2"},
+  "If-Match":{
+    "ITA":"Se-Corrispondenza"},
+  "If-None-Match":{
+    "ITA":"If-None-Match"},
+  "Prefer":{
+    "ITA":"Preferire"},
+  "ConsistencyLevel":{
+    "ITA":"Livello di coerenza"},
+  "$count":{
+    "ITA":"$count"},
+  "$expand":{
+    "ITA":"$expand"},
+  "$filter":{
+    "ITA":"$filter"},
+  "$format":{
+    "ITA":"$format"},
+  "$orderby":{
+    "ITA":"$orderby"},
+  "$search":{
+    "ITA":"$search"},
+  "$select":{
+    "ITA":"$select"},
+  "$skip":{
+    "ITA":"$skip"},
+  "$skiptoken":{
+    "ITA":"$skiptoken"},
+  "$top":{
+    "ITA":"$top"},
+  "replace":{
+    "ITA":"sostituire"},
+  "fail":{
+    "ITA":"fallire"},
+  "rename":{
+    "ITA":"ribattezzare"},
+  "v1.0":{
+    "ITA":"v1.0"},
+  "beta":{
+    "ITA":"Beta"},
+  "Available Languages":{
+    "ITA":"Lingue disponibili"},
+  "Specifies the unique language ID for the Windows language.":{
+    "ITA":"Specifica l'ID lingua univoco per la lingua di Windows."},
+  "Specifies the names of the available Windows languages.":{
+    "ITA":"Specifica i nomi delle lingue di Windows disponibili."},
+  "Languages":{
+    "ITA":"Lingue"},
+  "Specifies the code for a language.":{
+    "ITA":"Specifica il codice per una lingua."},
+  "Specifies the name of the language.":{
+    "ITA":"Specifica il nome della lingua."},
+  "Specifies the ID of the Windows language associated with the language code you have set up in this line.":{
+    "ITA":"Specifica l'ID della lingua di Windows associata al codice della lingua impostato in questa riga."},
+  "Specifies if you enter an ID in the Windows Language ID field.":{
+    "ITA":"Specifica se immettere un ID nel campo ID lingua di Windows."},
+  "The language %1 could not be found.":{
+    "ITA":"Impossibile trovare la lingua %1."},
+  "LanguageIdOverride has been applied in GetLanguageIdOrDefault. The new Language Id is %1.":{
+    "ITA":"LanguageIdOverride è stato applicato in GetLanguageIdOrDefault. Il nuovo ID lingua è %1."},
+  "FormatRegionOverride has been applied in GetFormatRegionOrDefault. The new FormatRegion is %1.":{
+    "ITA":"FormatRegionOverride è stato applicato in GetFormatRegionOrDefault. Il nuovo FormatRegion è %1."},
+  "The image could not be loaded.":{
+    "ITA":"Impossibile caricare l'immagine."},
+  "Parameter Width must be greater than 0":{
+    "ITA":"La larghezza del parametro deve essere maggiore di 0"},
+  "Parameter Height must be greater than 0":{
+    "ITA":"L'altezza del parametro deve essere maggiore di 0"},
+  "The X parameter must be between 0 and the image width, which is %1.":{
+    "ITA":"Il parametro X deve essere compreso tra 0 e la larghezza dell'immagine, che è %1."},
+  "The Y parameter must be between 0 and the image height, which is %1.":{
+    "ITA":"Il parametro Y deve essere compreso tra 0 e l'altezza dell'immagine, che è %1."},
+  "The Alpha parameter must be between 0 and 255.":{
+    "ITA":"Il parametro Alpha deve essere compreso tra 0 e 255."},
+  "The Red parameter must be between 0 and 255.":{
+    "ITA":"Il parametro Rosso deve essere compreso tra 0 e 255."},
+  "The Green parameter must be between 0 and 255.":{
+    "ITA":"Il parametro Verde deve essere compreso tra 0 e 255."},
+  "The Blue parameter must be between 0 and 255.":{
+    "ITA":"Il parametro Blu deve essere compreso tra 0 e 255."},
+  "Image is not in valid format":{
+    "ITA":"L'immagine non è in formato valido"},
+  "The image is too large. Images can be up to 5 MB.":{
+    "ITA":"L'immagine è troppo grande. Le immagini possono avere una dimensione massima di 5 MB."},
+  "Format is currently not supported":{
+    "ITA":"Il formato non è attualmente supportato"},
+  "1d5be4b5-fa4a-452d-9cdd-5db35105e7eb":{
+    "ITA":"1d5be4b5-fa4a-452d-9cdd-5db35105e7eb"},
+  "Image cropped to x: %1, y: %2, width: %3, height: %4, format: %5":{
+    "ITA":"Immagine ritagliata a x: %1, y: %2, larghezza: %3, altezza: %4, formato: %5"},
+  "Image with width: %1, height: %2, format: %3 was resized":{
+    "ITA":"L'immagine con larghezza: %1, altezza: %2, formato: %3 è stata ridimensionata"},
+  "Image created with size: %1, width: %2, height: %3, format: %4":{
+    "ITA":"Immagine creata con dimensione: %1, larghezza: %2, altezza: %3, formato: %4"},
+  "Image uploaded with size: %1":{
+    "ITA":"Immagine caricata con dimensione: %1"},
+  "Image input data is in wrong format":{
+    "ITA":"I dati di input dell'immagine sono in formato errato"},
+  "Image Module":{
+    "ITA":"Modulo immagine"},
+  "Good morning, %1!":{
+    "ITA":"Buongiorno, %1!"},
+  "Hi, %1!":{
+    "ITA":"Ciao, %1!"},
+  "Good afternoon, %1!":{
+    "ITA":"Buon pomeriggio, %1!"},
+  "Good evening, %1!":{
+    "ITA":"Buonasera, %1!"},
+  "Good morning!":{
+    "ITA":"Buongiorno!"},
+  "Hi!":{
+    "ITA":"Ciao!"},
+  "Good afternoon!":{
+    "ITA":"Buon pomeriggio!"},
+  "Good evening!":{
+    "ITA":"Buona sera!"},
+  "<emphasize>%1</emphasize>":{
+    "ITA":"<emphasize>%1</emphasize>"},
+  "<payload>%1</payload>":{
+    "ITA":"<payload>%1</payload>"},
+  "<qualifier>%1</qualifier>":{
+    "ITA":"<qualifier>%1</qualifier>"},
+  "None":{
+    "ITA":"Nessuno"},
+  "Open in Excel":{
+    "ITA":"Apri in Excel"},
+  "Share to Teams":{
+    "ITA":"Condividi su Teams"},
+  "Copilot":{
+    "ITA":"Copilota"},
+  "Spotlight Tour Text":{
+    "ITA":"Testo del tour Spotlight"},
+  "Guided Experience Item Code":{
+    "ITA":"Codice oggetto Esperienza guidata"},
+  "Version":{
+    "ITA":"Versione"},
+  "Spotlight Tour Step":{
+    "ITA":"Fase del tour Spotlight"},
+  "Step1Title":{
+    "ITA":"Passaggio 1Titolo"},
+  "Step1Text":{
+    "ITA":"Passaggio 1 Testo"},
+  "Step2Title":{
+    "ITA":"Passaggio 2Titolo"},
+  "Step2Text":{
+    "ITA":"Passaggio 2 Testo"},
+  "Manual Setup":{
+    "ITA":"Configurazione manuale"},
+  "Keywords":{
+    "ITA":"Parole chiavi"},
+  "Setup Page ID":{
+    "ITA":"ID pagina di configurazione"},
+  "Icon":{
+    "ITA":"Icona"},
+  "Specifies the name of the manual setup.":{
+    "ITA":"Specifica il nome dell'impostazione manuale."},
+  "Specifies the extension which has added this setup.":{
+    "ITA":"Specifica l'estensione a cui è stata aggiunta questa configurazione."},
+  "Specifies a description of the manual setup.":{
+    "ITA":"Specifica una descrizione dell'impostazione manuale."},
+  "Specifies the category enum to which the setup belongs":{
+    "ITA":"Specifica l'enumerazione di categoria a cui appartiene l'installazione"},
+  "Specifies which keywords relate to the manual setup on the line.":{
+    "ITA":"Specifica quali parole chiave sono correlate all'impostazione manuale della linea."},
+  "Expected Duration":{
+    "ITA":"Durata prevista"},
+  "Specifies how long the manual setup will take in minutes.":{
+    "ITA":"Specifica la durata dell'installazione manuale, in minuti."},
+  "Open Manual Setup":{
+    "ITA":"Apri l'impostazione manuale"},
+  "View or edit the setup for the application feature.":{
+    "ITA":"Visualizzare o modificare la configurazione per la funzione dell'applicazione."},
+  "Business Setup Icon":{
+    "ITA":"Icona di configurazione aziendale"},
+  "Business Setup Name":{
+    "ITA":"Nome configurazione aziendale"},
+  "Media Resources Ref":{
+    "ITA":"Risorse multimediali Ref"},
+  "Primary Guided Experience Item":{
+    "ITA":"Oggetto Esperienza guidata principale"},
+  "Extension":{
+    "ITA":"Estensione"},
+  "Primary Setup":{
+    "ITA":"Configurazione primaria"},
+  "%1_%2":{
+    "ITA":"%1_%2"},
+  "TOUR_PAGE_9022__0":{
+    "ITA":"TOUR_PAGE_9022__0"},
+  "The Business Manager home page offers metrics and activities that help run a business. We`ll also show you how to explore all Business Central features.":{
+    "ITA":"La home page di Business Manager offre metriche e attività che aiutano a gestire un'azienda. Verrà inoltre illustrato come esplorare tutte le funzionalità di Business Central."},
+  "TOUR_PAGE_9006__0":{
+    "ITA":"TOUR_PAGE_9006__0"},
+  "The Sales Order Processor home page helps you stay on top of your sales documents. We`ll also show you how to explore all Business Central features.":{
+    "ITA":"La home page di Sales Order Processor consente di tenere sotto controllo i documenti di vendita. Verrà inoltre illustrato come esplorare tutte le funzionalità di Business Central."},
+  "TOUR_PAGE_9027__0":{
+    "ITA":"TOUR_PAGE_9027__0"},
+  "The Accountant home page makes it easier for businesses to keep their books. We`ll also show you how to explore all Business Central features.":{
+    "ITA":"La home page di Accountant rende più facile per le aziende tenere i propri libri contabili. Verrà inoltre illustrato come esplorare tutte le funzionalità di Business Central."},
+  "Guided Experience Type":{
+    "ITA":"Tipo di esperienza guidata"},
+  "Assisted Setup":{
+    "ITA":"Configurazione assistita"},
+  "Learn":{
+    "ITA":"Imparare"},
+  "Tour":{
+    "ITA":"Viaggio"},
+  "Spotlight Tour":{
+    "ITA":"Tour dei riflettori"},
+  "Video":{
+    "ITA":"Video"},
+  "Application Feature":{
+    "ITA":"Caratteristica dell'applicazione"},
+  "Uninitialized":{
+    "ITA":"Inizializzato"},
+  "Codeunit":{
+    "ITA":"Unità di codice"},
+  "Page":{
+    "ITA":"Pagina"},
+  "Report":{
+    "ITA":"Rapporto"},
+  "XmlPort":{
+    "ITA":"XmlPort"},
+  "Guided Experience Item List":{
+    "ITA":"Elenco degli elementi dell'esperienza guidata"},
+  "Specifies the name of the item.":{
+    "ITA":"Specifica il nome dell'elemento."},
+  "Specifies the description of the item.":{
+    "ITA":"Specifica la descrizione dell'elemento."},
+  "Specifies the app that added the guided experience item.":{
+    "ITA":"Specifica l'app che ha aggiunto l'elemento dell'esperienza guidata."},
+  "Specifies the link to start the guided experience.":{
+    "ITA":"Specifica il collegamento per avviare l'esperienza guidata."},
+  "Duplicated Guided Experience Item Cleanup":{
+    "ITA":"Pulizia degli oggetti dell'esperienza guidata duplicata"},
+  "This page provides an overview of duplicated guided experience items. You can either delete individual items or schedule a daily job queue to clean up all duplicated items.":{
+    "ITA":"Questa pagina fornisce una panoramica degli elementi dell'esperienza guidata duplicati. È possibile eliminare singoli elementi o pianificare una coda processi giornaliera per ripulire tutti gli elementi duplicati."},
+  "Specifies the code of the Guided Experience Item.":{
+    "ITA":"Specifica il codice dell'elemento dell'esperienza guidata."},
+  "Number of Records":{
+    "ITA":"Numero di record"},
+  "Specifies the number of Guided Experience Items with the same code.":{
+    "ITA":"Specifica il numero di elementi dell'esperienza guidata con lo stesso codice."},
+  "Delete Duplicates":{
+    "ITA":"Elimina duplicati"},
+  "Delete duplicated records for the selected Guided Experience Item.":{
+    "ITA":"Elimina i record duplicati per l'elemento dell'esperienza guidata selezionato."},
+  "Load or Refresh Duplicated Items":{
+    "ITA":"Caricare o aggiornare gli elementi duplicati"},
+  "Load or Refresh duplicated Guided Experience Items.":{
+    "ITA":"Carica o aggiorna gli elementi dell'esperienza guidata duplicati."},
+  "This operation may take a long time to execute, are you sure you want to proceed?":{
+    "ITA":"L'esecuzione di questa operazione potrebbe richiedere molto tempo, sei sicuro di voler procedere?"},
+  "Only one Guided Experience Item can be selected at a time.":{
+    "ITA":"È possibile selezionare un solo elemento esperienza guidata alla volta."},
+  "Guided Experience Item":{
+    "ITA":"Elemento Esperienza guidata"},
+  "Object Type to Run":{
+    "ITA":"Tipo di oggetto da eseguire"},
+  "Object ID to Run":{
+    "ITA":"ID oggetto da eseguire"},
+  "External Link":{
+    "ITA":"Link esterno"},
+  "Short Title":{
+    "ITA":"Titolo breve"},
+  "Completed":{
+    "ITA":"Finito"},
+  "Assisted Setup Group":{
+    "ITA":"Gruppo di configurazione assistita"},
+  "Help Url":{
+    "ITA":"URL di aiuto"},
+  "Video Category":{
+    "ITA":"Categoria Video"},
+  "Manual Setup Category":{
+    "ITA":"Categoria di configurazione manuale"},
+  "Spotlight Tour Type":{
+    "ITA":"Tipo di tour Spotlight"},
+  "Extension Publisher":{
+    "ITA":"Editore di estensioni"},
+  "You cannot populate the Object Type to Run or the Object ID to Run fields when the Link field is not empty.":{
+    "ITA":"Non è possibile compilare i campi Tipo di oggetto da eseguire o ID oggetto da eseguire quando il campo Collegamento non è vuoto."},
+  "You cannot populate the Link field when the Object Type to Run and Object ID to Run fields fields are not empty.":{
+    "ITA":"Non è possibile compilare il campo Collega quando i campi Tipo di oggetto da eseguire e ID oggetto da eseguire non sono vuoti."},
+  "You cannot insert a guided experience item with both an object to run and a link.":{
+    "ITA":"Non è possibile inserire un elemento dell'esperienza guidata con un oggetto da eseguire e un collegamento."},
+  "The object type to run is not valid":{
+    "ITA":"Il tipo di oggetto da eseguire non è valido"},
+  "The Expected Duration is too large: %1, it needs to be lower than 30000.":{
+    "ITA":"La durata prevista è troppo grande: %1, deve essere inferiore a 30000."},
+  "The object %1 %2 does not exist":{
+    "ITA":"L'oggetto %1 %2 non esiste"},
+  "You have already completed the %1 assisted setup guide. Do you want to run it again?":{
+    "ITA":"La guida al setup assistito %1 è già stata completata. Vuoi eseguirlo di nuovo?"},
+  "%1_%2_%3_%4_%5":{
+    "ITA":"%1_%2_%3_%4_%5"},
+  "Guided Experience Item inserted.":{
+    "ITA":"Elemento esperienza guidata inserito."},
+  "Guided Experience Item modified.":{
+    "ITA":"Elemento dell'esperienza guidata modificato."},
+  "Guided Experience Item deleted.":{
+    "ITA":"L'elemento dell'esperienza guidata è stato eliminato."},
+  "%1ItemTitle":{
+    "ITA":"%1ItemTitle"},
+  "%1ItemShortTitle":{
+    "ITA":"%1ItemShortTitle"},
+  "%1ItemDescription":{
+    "ITA":"%1ArticoloDescrizione"},
+  "%1ItemExtensionId":{
+    "ITA":"%1ItemExtensionId"},
+  "%1ItemExtensionName":{
+    "ITA":"%1ItemExtensionName"},
+  "ObjectTypeToRun":{
+    "ITA":"ObjectTypeToRun"},
+  "ObjectIdToRun":{
+    "ITA":"ObjectIdToRun"},
+  "LinkToRun":{
+    "ITA":"LinkToRun"},
+  "SpotlightTourType":{
+    "ITA":"SpotlightTipo di tour"},
+  "VideoUrl":{
+    "ITA":"VideoUrl"},
+  "GuidedExperienceType":{
+    "ITA":"GuidatoEsperienzaTipo"},
+  "This app doesn":{
+    "ITA":"Questa app non"},
+  "Is Setup Done":{
+    "ITA":"L'installazione è terminata"},
+  "Is Setup in Progress":{
+    "ITA":"L'installazione è in corso"},
+  "Date when Setup Started":{
+    "ITA":"Data di inizio dell'installazione"},
+  "Show the checklist":{
+    "ITA":"Mostra l'elenco di controllo"},
+  "Do you want to see the checklist on your home page?":{
+    "ITA":"Vuoi vedere la checklist sulla tua home page?"},
+  "Your checklist is empty. You can add items to it on the Checklist Administration page.":{
+    "ITA":"La tua lista di controllo è vuota. È possibile aggiungere elementi nella pagina Amministrazione elenco di controllo."},
+  "Order ID":{
+    "ITA":"ID ordine"},
+  "Completion Requirements":{
+    "ITA":"Requisiti di completamento"},
+  "Assigned To":{
+    "ITA":"Assegnato a"},
+  "This step is completed":{
+    "ITA":"Questo passaggio è completato"},
+  "You skipped this step":{
+    "ITA":"Hai saltato questo passaggio"},
+  "Get started":{
+    "ITA":"Inizia"},
+  "Get started:":{
+    "ITA":"Inizia:"},
+  "Hi, ready to set up your business?":{
+    "ITA":"Ciao, pronto a creare la tua attività?"},
+  "Hi, meet Business Central!":{
+    "ITA":"Ciao, ti presento Business Central!"},
+  "Here are a few steps that make you ready for business":{
+    "ITA":"Ecco alcuni passaggi che ti rendono pronto per il lavoro"},
+  "Here are a few things you can try out":{
+    "ITA":"Ecco alcune cose che puoi provare"},
+  "Continue the steps to get ready for business":{
+    "ITA":"Continua i passaggi per prepararti al lavoro"},
+  "Complete the last steps to get ready for business":{
+    "ITA":"Completa gli ultimi passaggi per essere pronto per il lavoro"},
+  "All set, ready for business!":{
+    "ITA":"Tutto pronto, pronto per il lavoro!"},
+  "Thank you for trying Business Central!":{
+    "ITA":"Grazie per aver provato Business Central!"},
+  "Complete a few steps to get ready for business":{
+    "ITA":"Completa alcuni passaggi per prepararti al lavoro"},
+  "Complete a few steps to get ready for business":{
+    "ITA":"Completa alcuni passaggi per prepararti al lavoro"},
+  "You":{
+    "ITA":"Tu"},
+  "re all set to try out our demo company, Cronus. Go explore on your own, or take a quick tour first.":{},
+  "The Cronus company data you are using is for demonstration, evaluation, and training purposes.":{
+    "ITA":"I dati dell'azienda Cronus che stai utilizzando sono a scopo dimostrativo, di valutazione e di formazione."},
+  "Start exploring Business Central now. You can revisit the checklist later and enable additional features as you need them.":{
+    "ITA":"Inizia subito a esplorare Business Central. Puoi rivedere l'elenco di controllo in un secondo momento e abilitare funzionalità aggiuntive quando ne hai bisogno."},
+  "Continue exploring the Cronus demo company to learn more.​":{
+    "ITA":"Continua a esplorare l'azienda demo di Cronus per saperne di più."},
+  "User checklist status updated: %1 to %2":{
+    "ITA":"Stato dell'elenco di controllo utente aggiornato: da %1 a %2"},
+  "Checklist item status updated: %1 to %2":{
+    "ITA":"Stato dell'elemento dell'elenco di controllo aggiornato: da %1 a %2"},
+  "Specifies the title.":{
+    "ITA":"Specifica il titolo."},
+  "Specifies the header.":{
+    "ITA":"Specifica l'intestazione."},
+  "Header":{
+    "ITA":"Intestazione"},
+  "Specifies the description.":{
+    "ITA":"Specifica la descrizione."},
+  "Specifies the task as completed.":{
+    "ITA":"Specifica l'attività come completata."},
+  "Mark as completed":{
+    "ITA":"Segna come completato"},
+  "Your checklist:":{
+    "ITA":"La tua lista di controllo:"},
+  "Specifies the status.":{
+    "ITA":"Specifica lo stato."},
+  "Specifies the task is exclusive when started.":{
+    "ITA":"Specifica che l'attività è esclusiva all'avvio."},
+  "Exclusive when started":{
+    "ITA":"Esclusivo all'avvio"},
+  "Show demo tours":{
+    "ITA":"Mostra tour dimostrativi"},
+  "Got it":{
+    "ITA":"Capito"},
+  "Skip checklist":{
+    "ITA":"Salta la lista di controllo"},
+  "Back to checklist":{
+    "ITA":"Torna all'elenco di controllo"},
+  "Start tour":{
+    "ITA":"Inizia il tour"},
+  "Play video":{
+    "ITA":"Riprodurre video"},
+  "Revisit":{
+    "ITA":"Rivisitare"},
+  "Skip for now":{
+    "ITA":"Salta per ora"},
+  "Are you sure that you want to skip the remaining steps of the checklist?":{
+    "ITA":"Sei sicuro di voler saltare i passaggi rimanenti della lista di controllo?"},
+  "Checklist Users":{
+    "ITA":"Utenti dell'elenco di controllo"},
+  "Specifies the user.":{
+    "ITA":"Specifica l'utente."},
+  "Checklist Item Roles":{
+    "ITA":"Ruoli degli elementi dell'elenco di controllo"},
+  "Specifies the ID of the role.":{
+    "ITA":"Specifica l'ID del ruolo."},
+  "Checklist Administration":{
+    "ITA":"Amministrazione della lista di controllo"},
+  "Specifies the type of action that the checklist item is for, such as a link to a setup guide or a link to learn more.":{
+    "ITA":"Specifica il tipo di azione a cui è destinato l'elemento dell'elenco di controllo, ad esempio un collegamento a una guida all'installazione o un collegamento per ulteriori informazioni."},
+  "Task":{
+    "ITA":"Compito"},
+  "Specifies the title of the checklist item.":{
+    "ITA":"Specifica il titolo dell'elemento dell'elenco di controllo."},
+  "Specifies the description of the checklist item.":{
+    "ITA":"Specifica la descrizione dell'elemento dell'elenco di controllo."},
+  "Expected Duration (in minutes)":{
+    "ITA":"Durata prevista (in minuti)"},
+  "Specifies how long you expect it will take to complete the checklist item, such as 2 minutes or 10 minutes.":{
+    "ITA":"Specifica il tempo previsto per completare l'elemento dell'elenco di controllo, ad esempio 2 minuti o 10 minuti."},
+  "Specifies the object that the checklist item will run.":{
+    "ITA":"Specifica l'oggetto che verrà eseguito dall'elemento dell'elenco di controllo."},
+  "Object to Run":{
+    "ITA":"Oggetto da eseguire"},
+  "Specifies the link that the checklist item will open.":{
+    "ITA":"Specifica il collegamento che verrà aperto dall'elemento dell'elenco di controllo."},
+  "Link to open":{
+    "ITA":"Link per aprire"},
+  "Specifies the URL of the video that the checklist item will open.":{
+    "ITA":"Specifica l'URL del video che verrà aperto dall'elemento dell'elenco di controllo."},
+  "Video URL":{
+    "ITA":"Video URL"},
+  "Specifies the type of spotlight tour that the checklist item will run.":{
+    "ITA":"Specifica il tipo di tour Spotlight che verrà eseguito dall'elemento dell'elenco di controllo."},
+  "Specifies the completion requirements of the checklist item.":{
+    "ITA":"Specifica i requisiti di completamento dell'elemento dell'elenco di controllo."},
+  "Specifies which step in the checklist this task will appear at.":{
+    "ITA":"Specifica in quale passaggio dell'elenco di controllo verrà visualizzata l'attività."},
+  "Manage translations for the title":{
+    "ITA":"Gestire le traduzioni per il titolo"},
+  "Manage translations for the short title":{
+    "ITA":"Gestire le traduzioni per il titolo breve"},
+  "Manage translations for the description":{
+    "ITA":"Gestisci le traduzioni per la descrizione"},
+  "The number must be larger than 0.":{
+    "ITA":"Il numero deve essere maggiore di 0."},
+  "A checklist item already exists for the guided experience item that you selected. Do you want to open and edit the existing checklist item?":{
+    "ITA":"Esiste già un elemento dell'elenco di controllo per l'elemento dell'esperienza guidata selezionato. Si desidera aprire e modificare l'elemento dell'elenco di controllo esistente?"},
+  "Do you want to reset the status for users who have already completed this checklist item?":{
+    "ITA":"Si desidera reimpostare lo stato per gli utenti che hanno già completato questo elemento dell'elenco di controllo?"},
+  "If you change the completion requirements to \"Specific users\", then any roles that are assigned to complete this checklist item will be deleted. Are you sure that you want to continue?":{
+    "ITA":"Se si modificano i requisiti di completamento in \"Utenti specifici\", tutti i ruoli assegnati per completare questo elemento dell'elenco di controllo verranno eliminati. Sei sicuro di voler continuare?"},
+  "If you change the completion requirements now, then any users that are assigned to complete this checklist item will be deleted. Are you sure that you want to continue?":{
+    "ITA":"Se si modificano i requisiti di completamento ora, tutti gli utenti assegnati a completare questo elemento dell'elenco di controllo verranno eliminati. Sei sicuro di voler continuare?"},
+  "Specifies the title of the checklist item as it will display in the checklist. Choose from the list of previously defined tasks.":{
+    "ITA":"Specifica il titolo dell'elemento dell'elenco di controllo così come verrà visualizzato nell'elenco di controllo. Scegliere dall'elenco delle attività definite in precedenza."},
+  "Specifies the completition requirements of the checklist item.":{
+    "ITA":"Specifica i requisiti di completamento dell'elemento dell'elenco di controllo."},
+  "Specifies which users or roles the checklist item is assigned to.":{
+    "ITA":"Specifica a quali utenti o ruoli è assegnato l'elemento dell'elenco di controllo."},
+  "Add a new task for the checklist.":{
+    "ITA":"Aggiungi una nuova attività per l'elenco di controllo."},
+  "Checklist Status":{
+    "ITA":"Stato dell'elenco di controllo"},
+  "Is Current Role Center":{
+    "ITA":"è la Gestione ruolo utente corrente"},
+  "Is Visible":{
+    "ITA":"è visibile"},
+  "Not Started":{
+    "ITA":"Non avviato"},
+  "In progress":{
+    "ITA":"In corso"},
+  "Skipped":{
+    "ITA":"Saltato"},
+  "Checklist Item User":{
+    "ITA":"Elemento dell'elenco di controllo Utente"},
+  "Checklist Item Status":{
+    "ITA":"Stato dell'elemento dell'elenco di controllo"},
+  "Assigned to User":{
+    "ITA":"Assegnato all'utente"},
+  "Started":{
+    "ITA":"Avviato"},
+  "Checklist Item Role":{
+    "ITA":"Ruolo dell'elemento dell'elenco di controllo"},
+  "Please provide a valid role":{
+    "ITA":"Si prega di fornire un ruolo valido"},
+  "Checklist item inserted.":{
+    "ITA":"Elemento dell'elenco di controllo inserito."},
+  "Checklist item deleted.":{
+    "ITA":"Elemento dell'elenco di controllo eliminato."},
+  "Looking for your checklist to set up Business Central?":{
+    "ITA":"Stai cercando l'elenco di controllo per configurare Business Central?"},
+  "Checklist banner resurfaced.":{
+    "ITA":"Il banner della lista di controllo è riemerso."},
+  "Checklist banner resurfaced, new session requested.":{
+    "ITA":"Banner della lista di controllo riemerso, richiesta una nuova sessione."},
+  "Checklist banner initialized.":{
+    "ITA":"Banner dell'elenco di controllo inizializzato."},
+  "Find training on Microsoft Learn":{
+    "ITA":"Trova formazione su Microsoft Learn"},
+  "Microsoft Learn":{
+    "ITA":"Microsoft Learn"},
+  "Explore the free e-learning material for Business Central on the Microsoft Learn site in a new browser tab.":{
+    "ITA":"Esplora il materiale di e-learning gratuito per Business Central sul sito Microsoft Learn in una nuova scheda del browser."},
+  "Show checklist on the role center":{
+    "ITA":"Mostra elenco di controllo nella Gestione ruolo utente"},
+  "Anyone with roles":{
+    "ITA":"Chiunque abbia ruoli"},
+  "Everyone with roles":{
+    "ITA":"Tutti con ruoli"},
+  "Specific users":{
+    "ITA":"Utenti specifici"},
+  "Product Video Category":{
+    "ITA":"Categoria video del prodotto"},
+  "Alternate Title":{
+    "ITA":"Titolo alternativo"},
+  "Assisted Setup Log":{
+    "ITA":"Registro del setup assistito"},
+  "No.":{
+    "ITA":"No."},
+  "Entery No.":{
+    "ITA":"Entery No."},
+  "Date Time":{
+    "ITA":"Data Ora"},
+  "Invoked Action":{
+    "ITA":"Azione richiamata"},
+  "Assisted Setup Icons":{
+    "ITA":"Icone di configurazione assistita"},
+  "Image":{
+    "ITA":"Immagine"},
+  "Page ID":{
+    "ITA":"ID pagina"},
+  "Order":{
+    "ITA":"Ordine"},
+  "Visible":{
+    "ITA":"Visibile"},
+  "Parent":{
+    "ITA":"Genitore"},
+  "Item Type":{
+    "ITA":"Tipo di elemento"},
+  "Featured":{
+    "ITA":"In primo piano"},
+  "Assisted Setup Page ID":{
+    "ITA":"ID pagina Setup assistito"},
+  "Tour Id":{
+    "ITA":"Tour Id"},
+  "Video Status":{
+    "ITA":"Stato del video"},
+  "Help Status":{
+    "ITA":"Stato della Guida"},
+  "Tour Status":{
+    "ITA":"Stato del tour"},
+  "Group":{
+    "ITA":"Gruppo"},
+  "Specifies the name.":{
+    "ITA":"Specifica il nome."},
+  "Specifies whether the setup is complete.":{
+    "ITA":"Specifica se l'installazione è stata completata."},
+  "Learn more about the process.":{
+    "ITA":"Scopri di più sul processo."},
+  "Play a video that describes the process.":{
+    "ITA":"Riproduci un video che descriva il processo."},
+  "Translated Name":{
+    "ITA":"Nome tradotto"},
+  "Specifies the name translated locally.":{
+    "ITA":"Specifica il nome tradotto localmente."},
+  "Specifies the description of the set up.":{
+    "ITA":"Specifica la descrizione dell'impostazione."},
+  "Start Setup":{
+    "ITA":"Avvia l'installazione"},
+  "Start the assisted setup guide.":{
+    "ITA":"Avviare la guida al setup assistito."},
+  "General Videos":{
+    "ITA":"Video generali"},
+  "See other videos that can help you set up the app.":{
+    "ITA":"Guarda altri video che possono aiutarti a configurare l'app."},
+  "Read":{
+    "ITA":"Leggere"},
+  "Watch":{
+    "ITA":"Orologio"},
+  "Aggregated Assisted Setup":{
+    "ITA":"Configurazione assistita aggregata"},
+  "External Assisted Setup":{
+    "ITA":"Configurazione assistita esterna"},
+  "Record ID":{
+    "ITA":"Record ID"},
+  "App Setups":{
+    "ITA":"Configurazioni dell'app"},
+  "Specifies the app that this page is used to set up.":{
+    "ITA":"Specifica l'app utilizzata per la configurazione di questa pagina."},
+  "Specifies a description of the setup.":{
+    "ITA":"Specifica una descrizione dell'impostazione."},
+  "Specifies the publisher of the app that this page is used to set up.":{
+    "ITA":"Specifica l'autore dell'app per la quale viene configurata la pagina."},
+  "Start setup.":{
+    "ITA":"Avvia la configurazione."},
+  "Setups for %1":{
+    "ITA":"Configurazioni per %1"},
+  "Do you want to run the initial setup?":{
+    "ITA":"Vuoi eseguire la configurazione iniziale?"},
+  "Available":{
+    "ITA":"Disponibile"},
+  "No Data":{
+    "ITA":"Nessun dato"},
+  "Timed Out":{
+    "ITA":"Timeout"},
+  "Not Available":{
+    "ITA":"Non disponibile"},
+  "The geographical location data was not retrieved.":{
+    "ITA":"I dati sulla posizione geografica non sono stati recuperati."},
+  "Geolocation request":{
+    "ITA":"Richiesta di geolocalizzazione"},
+  "Requesting geographical location...":{
+    "ITA":"Richiesta di posizione geografica..."},
+  "Could not access the geographical location":{
+    "ITA":"Impossibile accedere alla posizione geografica"},
+  "TODAY":{
+    "ITA":"OGGI"},
+  "WORKDATE":{
+    "ITA":"DATA DI LAVORO"},
+  "ABCDEFGHIJKLMNOPQRSTUVWXYZ":{
+    "ITA":"ABCDEFGHIJKLMNOPQRSTUVWXYZ"},
+  "NOW":{
+    "ITA":"ORA"},
+  "YESTERDAY":{
+    "ITA":"IERI"},
+  "TOMORROW":{
+    "ITA":"DOMANI"},
+  "WEEK":{
+    "ITA":"SETTIMANA"},
+  "MONTH":{
+    "ITA":"MESE"},
+  "QUARTER":{
+    "ITA":"QUARTO"},
+  "USER":{
+    "ITA":"UTENTE"},
+  "ME":{
+    "ITA":"ME"},
+  "COMPANY":{
+    "ITA":"SOCIETÀ"},
+  "%1..%2":{
+    "ITA":"%1..%2"},
+  "Specifies the number of the table this field belongs to.":{
+    "ITA":"Specifica il numero della tabella a cui appartiene questo campo."},
+  "Specifies the name of the table this field belongs to.":{
+    "ITA":"Specifica il nome della tabella a cui appartiene questo campo."},
+  "Specifies the number of the field.":{
+    "ITA":"Specifica il numero del campo."},
+  "Specifies the name of the field.":{
+    "ITA":"Specifica il nome del campo."},
+  "Specifies the caption of the field, that is, the name that will be shown in the user interface.":{
+    "ITA":"Specifica la didascalia del campo, ovvero il nome che verrà visualizzato nell'interfaccia utente."},
+  "Managing change":{
+    "ITA":"Gestire il cambiamento"},
+  "Learn more about managing features.":{
+    "ITA":"Scopri di più sulla gestione delle funzionalità."},
+  "Learn more about feature management.":{
+    "ITA":"Scopri di più sulla gestione delle funzionalità."},
+  "See the Release Plan":{
+    "ITA":"Vedi il piano di rilascio"},
+  "See the Release Plan.":{
+    "ITA":"Consulta il piano di rilascio."},
+  "https://go.microsoft.com/fwlink/?linkid=2112707":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2112707"},
+  "https://go.microsoft.com/fwlink/?linkid=2047422":{
+    "ITA":"https://go.microsoft.com/fwlink/?linkid=2047422"},
+  "Feature Data Update":{
+    "ITA":"Aggiornamento dei dati delle funzionalità"},
+  "Step 1":{
+    "ITA":"Passaggio 1"},
+  "What is updated":{
+    "ITA":"Cosa viene aggiornato"},
+  "Specifies the description of what is going to happen during the data update task.":{
+    "ITA":"Specifica la descrizione di ciò che accadrà durante l'attività di aggiornamento dei dati."},
+  "I accept the data update":{
+    "ITA":"Accetto l'aggiornamento dei dati"},
+  "Specifies whether the user does understand the update procedure and agree to proceed.":{
+    "ITA":"Specifica se l'utente comprende la procedura di aggiornamento e accetta di procedere."},
+  "Step 2":{
+    "ITA":"Passaggio 2"},
+  "Run In Background Session":{
+    "ITA":"Esegui in sessione in background"},
+  "Specifies whether the task should be run in the current or in the background session.":{
+    "ITA":"Specifica se l'attività deve essere eseguita nella sessione corrente o in quella in background."},
+  "Schedule Background Task":{
+    "ITA":"Pianificare l'attività in background"},
+  "Start Date/Time":{
+    "ITA":"Data/Ora di inizio"},
+  "Specifies the earliest date and time when the task should be run in the background session.":{
+    "ITA":"Specifica la prima data e ora in cui l'attività deve essere eseguita nella sessione in background."},
+  "Run Immediately":{
+    "ITA":"Esegui immediatamente"},
+  "Specifies whether the task should be run immediately in the background session.":{
+    "ITA":"Specifica se l'attività deve essere eseguita immediatamente nella sessione in background."},
+  "&Back":{
+    "ITA":"&Indietro"},
+  "&Next":{
+    "ITA":"&Successivo"},
+  "&Update":{
+    "ITA":"&Aggiornamento"},
+  "&Schedule":{
+    "ITA":"&Programmazione"},
+  "Review affected data":{
+    "ITA":"Esaminare i dati interessati"},
+  "There is no data to be updated. Complete the update in the current session to enable the feature.":{
+    "ITA":"Non ci sono dati da aggiornare. Completare l'aggiornamento nella sessione corrente per abilitare la funzione."},
+  "The feature %1 cannot be enabled because data update handling is not implemented.":{
+    "ITA":"Impossibile abilitare la funzionalità %1 perché la gestione degli aggiornamenti dei dati non è implementata."},
+  "Disabled":{
+    "ITA":"Disabile"},
+  "Enabled":{
+    "ITA":"Abilitato"},
+  "Pending Data Update":{
+    "ITA":"Aggiornamento dei dati in sospeso"},
+  "Scheduled Data Update":{
+    "ITA":"Aggiornamento dati pianificato"},
+  "Updating Data":{
+    "ITA":"Aggiornamento dei dati"},
+  "Incomplete Data Update":{
+    "ITA":"Aggiornamento dati incompleto"},
+  "Completed Data Update":{
+    "ITA":"Aggiornamento dati completato"},
+  "previewfeatures=%1":{
+    "ITA":"previewfeatures=%1"},
+  "Error on the feature data update task for feature %1 in company %2: %3":{
+    "ITA":"Errore nell'attività di aggiornamento dei dati della funzionalità per la funzionalità %1 nella società %2: %3"},
+  "The task for updating data for feature %1 in company %2 is scheduled to start at %3.":{
+    "ITA":"L'attività per l'aggiornamento dei dati per la funzionalità %1 nella società %2 è pianificata per iniziare alle %3."},
+  "The task for updating data for feature %1 in company %2 is started.":{
+    "ITA":"Viene avviata l'attività per l'aggiornamento dei dati per la funzionalità %1 nella società %2."},
+  "Data is updated for feature %1 in company %2.":{
+    "ITA":"I dati vengono aggiornati per la funzionalità %1 nella società %2."},
+  "%1&%2":{
+    "ITA":"%1&%2"},
+  "Feature Management":{
+    "ITA":"Gestione delle funzionalità"},
+  "Feature":{
+    "ITA":"Caratteristica"},
+  "Specifies the name of the new capability or change in design.":{
+    "ITA":"Specifica il nome della nuova funzionalità o della modifica nella progettazione."},
+  "View a detailed description of new capabilities and behaviors that are available when the feature is enabled (opens in a new tab).":{
+    "ITA":"Visualizza una descrizione dettagliata delle nuove funzionalità e dei nuovi comportamenti disponibili quando la funzione è abilitata (si apre in una nuova scheda)."},
+  "Automatically enabled from":{
+    "ITA":"Abilitato automaticamente da"},
+  "Specifies a future software version and approximate date when this feature is automatically enabled for all users and cannot be disabled. Until this future version, the feature is optional.":{
+    "ITA":"Specifica una versione futura del software e la data approssimativa in cui questa funzione viene attivata automaticamente per tutti gli utenti e non può essere disabilitata. Fino a questa versione futura, la funzione è facoltativa."},
+  "Automatically enabled from version":{
+    "ITA":"Abilitato automaticamente dalla versione"},
+  "Specifies a future software version when this feature is automatically enabled for all users and cannot be disabled. Until this future version, the feature is optional.":{
+    "ITA":"Specifica una versione futura del software quando questa funzione viene abilitata automaticamente per tutti gli utenti e non può essere disabilitata. Fino a questa versione futura, la funzione è facoltativa."},
+  "Enabled for":{
+    "ITA":"Abilitato per"},
+  "Specifies whether the feature is enabled for all users or for none. The change takes effect the next time each user signs in.":{
+    "ITA":"Specifica se la funzionalità è abilitata per tutti gli utenti o per nessuno. La modifica ha effetto al successivo accesso di ogni utente."},
+  "Starts a new session with the feature temporarily enabled (opens in a new tab). This does not affect any other users.":{
+    "ITA":"Avvia una nuova sessione con la funzione temporaneamente abilitata (si apre in una nuova scheda). Ciò non influisce su altri utenti."},
+  "Current Company Status":{
+    "ITA":"Stato attuale dell'azienda"},
+  "Specifies the status of data update in the current company. Until it is complete the feature is not fully enabled in the current company.":{
+    "ITA":"Specifica lo stato dell'aggiornamento dei dati nella società corrente. Fino a quando non è completata, la funzione non è completamente abilitata nell'azienda corrente."},
+  "Update Start Date/Time":{
+    "ITA":"Aggiorna data/ora di inizio"},
+  "Specifies the earliest date and time when the data update task should be run.":{
+    "ITA":"Specifica la prima data e ora in cui deve essere eseguita l'attività di aggiornamento dei dati."},
+  "Specifies the id of the scheduled task.":{
+    "ITA":"Specifica l'ID dell'attività pianificata."},
+  "Specifies the session id where the task is being ran.":{
+    "ITA":"Specifica l'ID sessione in cui viene eseguita l'attività."},
+  "Specifies the serviec instance id where the task is being ran.":{
+    "ITA":"Specifica l'ID istanza serviec in cui viene eseguita l'attività."},
+  "Data Update":{
+    "ITA":"Aggiornamento dati"},
+  "Schedule":{
+    "ITA":"Programma"},
+  "Schedule or run the data update task in the current or background session.":{
+    "ITA":"Pianificare o eseguire l'attività di aggiornamento dei dati nella sessione corrente o in background."},
+  "Show Log":{
+    "ITA":"Mostra registro"},
+  "Show the error log entry.":{
+    "ITA":"Mostra la voce del log degli errori."},
+  "Cancel Scheduled Job":{
+    "ITA":"Annulla processo pianificato"},
+  "Cancel the scheduled data update task.":{
+    "ITA":"Annullare l'attività di aggiornamento dei dati pianificata."},
+  "Try it out now":{
+    "ITA":"Provalo ora"},
+  "A new browser tab was opened for you to try out the feature. For now, the feature has been temporarily enabled for you only. It will remain enabled whenever you open Business Central in the browser, until you completely sign out or close the browser.":{
+    "ITA":"È stata aperta una nuova scheda del browser per provare la funzione. Per ora, la funzione è stata temporaneamente abilitata solo per te. Rimarrà abilitato ogni volta che si apre Business Central nel browser, fino a quando non ci si disconnette completamente o si chiude il browser."},
+  "After you enable this feature for all users, you cannot turn it off again. This is because the feature may include changes to your data and may initiate an upgrade of some database tables as soon as you enable it.\\\\We strongly recommend that you first enable and test this feature on a sandbox environment that has a copy of production data before doing this on a production environment.\\\\For detailed information about the impact of enabling this feature, you should choose No and use the Learn more link.\\\\Are you sure you want to enable this feature?":{
+    "ITA":"Dopo aver abilitato questa funzione per tutti gli utenti, non è possibile disattivarla di nuovo. Ciò è dovuto al fatto che la funzionalità può includere modifiche ai dati e può avviare un aggiornamento di alcune tabelle di database non appena viene abilitata.\\\\Si consiglia vivamente di abilitare e testare questa funzionalità in un ambiente sandbox che dispone di una copia dei dati di produzione prima di eseguire questa operazione in un ambiente di produzione.\\\\Per informazioni dettagliate sull'impatto dell'abilitazione di questa funzionalità,  è necessario scegliere No e utilizzare il collegamento Ulteriori informazioni.\\\\Si è certi di voler abilitare questa funzione?"},
+  "This feature has already been enabled and cannot be disabled.":{
+    "ITA":"Questa funzione è già stata abilitata e non può essere disabilitata."},
+  "Feature Key":{
+    "ITA":"Chiave funzione"},
+  "Approximate mandatory date":{
+    "ITA":"Data obbligatoria approssimativa"},
+  "Is One Way":{
+    "ITA":"è a senso unico"},
+  "Data Update Required":{
+    "ITA":"Aggiornamento dei dati richiesto"},
+  "Index":{
+    "ITA":"Indice"},
+  "Parent Feature Key":{
+    "ITA":"Chiave funzione padre"},
+  "Confirmed":{
+    "ITA":"Confermato"},
+  "Task Id":{
+    "ITA":"ID attività"},
+  "Session Id":{
+    "ITA":"ID sessione"},
+  "Server Instance Id":{
+    "ITA":"ID istanza server"},
+  "Background Task":{
+    "ITA":"Attività in background"},
+  "Feature Management - Admin":{}
+}

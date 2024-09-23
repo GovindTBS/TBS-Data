@@ -135,6 +135,6 @@ page 800 "Online Map Setup"
     var
         TermsOfUseLbl: Label 'Microsoft Bing Maps Services Agreement.';
         PrivacyStatementLbl: Label 'Microsoft Bing Maps Privacy Statement.';
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 Name of the service (online map setup)';
+EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 Name of the service (online map setup)';
 }
 

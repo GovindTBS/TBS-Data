@@ -208,7 +208,7 @@ report 5803 "Reset Cost Is Adjusted"
         ResetItemCosting: Boolean;
         ResetProdOrderCosting: Boolean;
         ResetAssemblyOrderCosting: Boolean;
-        ItemProgressTxt: Label 'Processing item #1###########', Comment = '%1: Item No.';
+ItemProgressTxt: Label 'Processing item #1###########', Comment = '%1: Item No.';
         NoFilterWarningStartDateQst: Label 'You have not specified a start date, which means that the following cost adjustment may take some time. Are you sure you want to continue?';
         NoFilterWarningItemQst: Label 'You have not specified an Item No., which means that the following cost adjustment may take some time. Are you sure you want to continue?';
         CompletedMsg: Label 'Reset is completed. Please run Adjust Cost - Item Entries batch job.';

@@ -1003,12 +1003,12 @@ table 5767 "Warehouse Activity Line"
         Text013: Label 'All related Warehouse Activity Lines are deleted.';
         Text014: Label '%1 %2 has already been reserved for another document.';
         Text015: Label 'The total available quantity has already been applied.';
-        InventoryNotAvailableErr: Label '%1 %2 is not available in inventory, it has already been reserved for another document, or the quantity available is lower than the quantity to handle specified on the line.', Comment = '%1 = CD No. Caption; %2 = CD No. Value';
+InventoryNotAvailableErr: Label '%1 %2 is not available in inventory, it has already been reserved for another document, or the quantity available is lower than the quantity to handle specified on the line.', Comment = '%1 = CD No. Caption; %2 = CD No. Value';
         UseBaseQty: Boolean;
-        Text018: Label '%1 already exists with %2 %3.', Comment = 'Warehouse Activity Line already exists with Serial No. XXX';
+Text018: Label '%1 already exists with %2 %3.', Comment = 'Warehouse Activity Line already exists with Serial No. XXX';
         Text019: Label 'The %1 bin code must be different from the %2 bin code on location %3.';
         Text020: Label 'The %1 bin code must not be the Receipt Bin Code or the Shipment Bin Code that are set up on location %2.';
-        ValidValuesIfSNDefinedErr: Label 'Field %1 can only have values -1, 0 or 1 when serial no. is defined. Current value is %2.', Comment = '%1 = field name, %2 = field value';
+ValidValuesIfSNDefinedErr: Label 'Field %1 can only have values -1, 0 or 1 when serial no. is defined. Current value is %2.', Comment = '%1 = field name, %2 = field value';
         NotEnoughQtyToPickMsg: Label 'Quantity available to pick is not enough.';
 
 

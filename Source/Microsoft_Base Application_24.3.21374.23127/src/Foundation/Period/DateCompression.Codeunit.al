@@ -29,12 +29,12 @@ codeunit 9040 "Date Compression"
     var
         EndingDateMissingErr: Label 'You must specify an ending date.';
         DescriptionMissingErr: Label 'You must specify a description.';
-        DateCompressionEndingDateErr: Label 'The end date %1 is not valid. You must keep at least %2 years uncompressed.', Comment = '%1 is a date in short date format, %2 is an integer';
-        DateCompressionStartingDateErr: Label 'The start date %1 must be before the end date %2', Comment = '%1 and %2 are dates in short date format';
+DateCompressionEndingDateErr: Label 'The end date %1 is not valid. You must keep at least %2 years uncompressed.', Comment = '%1 is a date in short date format, %2 is an integer';
+DateCompressionStartingDateErr: Label 'The start date %1 must be before the end date %2', Comment = '%1 and %2 are dates in short date format';
         AccountingPeriodMustBeDateLockedErr: Label 'The accounting periods for the period you wish to date compress must be Date Locked.';
         NoAccountingPeriodsErr: Label 'No accounting periods have been set up. In order to run date compression you must set up accounting periods.';
         MinUncompressedYearsErr: Label 'The number of years to keep uncompressed cannot be less than 1.';
-        DefaultDateCompressionDescriptionLbl: Label 'Date Compressed', Comment = 'this label is used as a description on compressed entries.', MaxLength = 100;
+DefaultDateCompressionDescriptionLbl: Label 'Date Compressed', Comment = 'this label is used as a description on compressed entries.', MaxLength = 100;
         StartDateCompressionTelemetryMsg: Label 'Running date compression codeunit %1.', Locked = true;
         EndDateCompressionTelemetryMsg: Label 'Completed date compression codeunit %1.', Locked = true;
 

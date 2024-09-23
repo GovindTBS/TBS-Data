@@ -11,12 +11,12 @@ codeunit 440 "IC Setup Diagnostics"
         PartnerSetupIdTok: Label 'PARTNERSETUP', Locked = true;
         PartnerSetupDescriptionTxt: Label 'IC Partner Configuration';
         PartnerSetupICNotFoundErr: Label 'Intercompany setup for current company not found.';
-        PartnerSetupUnconfiguredCustomerOrVendorErr: Label 'IC Partner %1 has not configured neither a customer nor a vendor.', Comment = '%1 - Intercompany Partner Code';
-        PartnerSetupVendorNoPayablesErr: Label 'IC Partner %1 has configured a vendor without a Payables account.', Comment = '%1 - Intercompany Partner Code';
-        PartnerSetupCustomerNoReceivablesErr: Label 'IC Partner %1 has configured a customer without a Receivables account.', Comment = '%1 - Intercompany Partner Code';
-        PartnerSetupPartnerNoCompanyErr: Label 'IC Partner %1 has not configured a company.', Comment = '%1 - Intercompany Partner Code';
-        PartnerSetupPartnerNoICErr: Label 'IC Partner company %1 has not configured intercompany.', Comment = '%1 - Intercompany Partner Code';
-        PartnerSetupMissmatchCodesErr: Label 'IC Partner %1 has a different code than the one you configured.', Comment = '%1 - Intercompany Partner Code';
+PartnerSetupUnconfiguredCustomerOrVendorErr: Label 'IC Partner %1 has not configured neither a customer nor a vendor.', Comment = '%1 - Intercompany Partner Code';
+PartnerSetupVendorNoPayablesErr: Label 'IC Partner %1 has configured a vendor without a Payables account.', Comment = '%1 - Intercompany Partner Code';
+PartnerSetupCustomerNoReceivablesErr: Label 'IC Partner %1 has configured a customer without a Receivables account.', Comment = '%1 - Intercompany Partner Code';
+PartnerSetupPartnerNoCompanyErr: Label 'IC Partner %1 has not configured a company.', Comment = '%1 - Intercompany Partner Code';
+PartnerSetupPartnerNoICErr: Label 'IC Partner company %1 has not configured intercompany.', Comment = '%1 - Intercompany Partner Code';
+PartnerSetupMissmatchCodesErr: Label 'IC Partner %1 has a different code than the one you configured.', Comment = '%1 - Intercompany Partner Code';
 
         MappingSetupIdTok: Label 'MAPPINGSETUP', Locked = true;
         MappingSetupDescriptionTxt: Label 'IC Mappings';

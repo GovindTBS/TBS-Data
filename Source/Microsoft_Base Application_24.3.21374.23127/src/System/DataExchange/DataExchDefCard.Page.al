@@ -190,11 +190,11 @@ page 1210 "Data Exch Def Card"
         {
             group(Category_New)
             {
-                Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'Import/Export', Comment = 'Generated from the PromotedActionCategories property index 0.';
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Import Data Exchange Definition_Promoted"; "Import Data Exchange Definition")
                 {
@@ -205,7 +205,7 @@ page 1210 "Data Exch Def Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -234,6 +234,6 @@ page 1210 "Data Exch Def Card"
         IsNonXMLFileType: Boolean;
         IsImportType: Boolean;
         IsDelimitedFileType: Boolean;
-        DefaultTxt: Label 'DEFAULT', Comment = 'Transate';
+DefaultTxt: Label 'DEFAULT', Comment = 'Transate';
 }
 

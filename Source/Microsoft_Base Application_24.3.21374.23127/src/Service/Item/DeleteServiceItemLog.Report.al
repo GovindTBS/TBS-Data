@@ -59,7 +59,7 @@ report 6010 "Delete Service Item Log"
 
     var
         Text000: Label 'There is nothing to delete.';
-        Text001: Label '%1 %2 records will be deleted.\\Do you want to continue?', Comment = '10 Service Item Log  record(s) will be deleted.\\Do you want to continue?';
+Text001: Label '%1 %2 records will be deleted.\\Do you want to continue?', Comment = '10 Service Item Log  record(s) will be deleted.\\Do you want to continue?';
         Text003: Label 'No records were deleted.';
         Text004: Label '%1 records were deleted.';
         Text005: Label '%1 record was deleted.';

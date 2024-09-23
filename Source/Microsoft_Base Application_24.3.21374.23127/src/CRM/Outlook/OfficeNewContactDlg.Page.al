@@ -92,11 +92,11 @@ page 1604 "Office New Contact Dlg"
     end;
 
     var
-        CreatePersonContactLbl: Label 'Add %1 as a contact', Comment = '%1 = Contact name';
+CreatePersonContactLbl: Label 'Add %1 as a contact', Comment = '%1 = Contact name';
         LinkContactLbl: Label 'View existing contacts';
         TempOfficeAddinContext: Record "Office Add-in Context" temporary;
         ChangeCompanyLbl: Label 'Wrong company?';
-        CurrentCompanyLbl: Label 'Current company: %1', Comment = '%1 - the name of the current company';
+CurrentCompanyLbl: Label 'Current company: %1', Comment = '%1 - the name of the current company';
 
     local procedure NotLinked(Contact: Record Contact): Boolean
     var

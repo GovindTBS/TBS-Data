@@ -86,9 +86,9 @@ codeunit 7307 "Whse.-Activity-Register"
         LineCount: Integer;
         HideDialog: Boolean;
         Text003: Label 'There is nothing to register.';
-        InsufficientQtyItemTrkgErr: Label 'Item tracking defined for source line %1 of %2 %3 amounts to more than the quantity you have entered.\\You must adjust the existing item tracking specification and then reenter a new quantity.', Comment = '%1=Source Line No.,%2=Source Document,%3=Source No.';
+InsufficientQtyItemTrkgErr: Label 'Item tracking defined for source line %1 of %2 %3 amounts to more than the quantity you have entered.\\You must adjust the existing item tracking specification and then reenter a new quantity.', Comment = '%1=Source Line No.,%2=Source Document,%3=Source No.';
         InventoryNotAvailableErr: Label '%1 %2 is not available on inventory or it has already been reserved for another document.';
-        ItemAlreadyConsumedErr: Label 'Cannot register pick for more than %1 %2 for %3 %4. %5 %6 is partially or completely consumed in %7 of %8 %9 %10.', Comment = 'Cannot Register Pick for more than %1=3 %2=BOX for %3=Line No %4=10000. %5=Item, %6=Item No. is partially or completely consumed in the %7=Project Usage of %8=Project No. %9=Source Line No. %10=Project Contract Entry No.';
+ItemAlreadyConsumedErr: Label 'Cannot register pick for more than %1 %2 for %3 %4. %5 %6 is partially or completely consumed in %7 of %8 %9 %10.', Comment = 'Cannot Register Pick for more than %1=3 %2=BOX for %3=Line No %4=10000. %5=Item, %6=Item No. is partially or completely consumed in the %7=Project Usage of %8=Project No. %9=Source Line No. %10=Project Contract Entry No.';
         OrderToOrderBindingOnSalesLineQst: Label 'Registering the pick will remove the existing order-to-order reservation for the sales order.\Do you want to continue?';
         RegisterInterruptedErr: Label 'The action has been interrupted to respect the warning.';
         SuppressCommit: Boolean;

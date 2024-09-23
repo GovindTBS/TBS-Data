@@ -183,11 +183,11 @@ table 334 "Column Layout"
         GLSetup: Record "General Ledger Setup";
         HasGLSetup: Boolean;
 
-        PeriodFormulaErr: Label '%1 is not a valid Period Formula.', Comment = '%1 - value of Comparison Period Formula field';
-        Text002: Label 'P', Comment = 'Period';
-        Text003: Label 'FY', Comment = 'Fiscal year';
-        Text004: Label 'CP', Comment = 'Current Period';
-        Text005: Label 'LP', Comment = 'Last period';
+PeriodFormulaErr: Label '%1 is not a valid Period Formula.', Comment = '%1 - value of Comparison Period Formula field';
+Text002: Label 'P', Comment = 'Period';
+Text003: Label 'FY', Comment = 'Fiscal year';
+Text004: Label 'CP', Comment = 'Current Period';
+Text005: Label 'LP', Comment = 'Last period';
         Text006: Label '1,6,,Dimension 1 Filter';
         Text007: Label '1,6,,Dimension 2 Filter';
         Text008: Label '1,6,,Dimension 3 Filter';

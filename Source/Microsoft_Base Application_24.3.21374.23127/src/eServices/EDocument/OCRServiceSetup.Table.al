@@ -201,7 +201,7 @@ table 1270 "OCR Service Setup"
     end;
 
     var
-        MustBeEnabledErr: Label 'The OCR service is not enabled.\\In the OCR Service Setup window, select the Enabled check box.', Comment = 'OCR = Optical Character Recognition';
+MustBeEnabledErr: Label 'The OCR service is not enabled.\\In the OCR Service Setup window, select the Enabled check box.', Comment = 'OCR = Optical Character Recognition';
         JobQEntriesCreatedQst: Label 'Job queue entries for sending and receiving electronic documents have been created.\\Do you want to open the Job Queue Entries window?';
         OCRServiceCreatedTxt: Label 'The user started setting up OCR service.', Locked = true;
         OCRServiceEnabledTxt: Label 'The user enabled OCR service.', Locked = true;

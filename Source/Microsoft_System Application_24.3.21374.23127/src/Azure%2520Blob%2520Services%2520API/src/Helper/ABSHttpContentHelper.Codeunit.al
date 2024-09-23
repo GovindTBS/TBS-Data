@@ -12,7 +12,7 @@ codeunit 9049 "ABS HttpContent Helper"
     InherentPermissions = X;
 
     var
-        ContentLengthLbl: Label '%1', Comment = '%1 = Length', Locked = true;
+ContentLengthLbl: Label '%1', Comment = '%1 = Length', Locked = true;
 
     [NonDebuggable]
     procedure AddBlobPutBlockBlobContentHeaders(var HttpContent: HttpContent; ABSOperationPayload: Codeunit "ABS Operation Payload"; var SourceInStream: InStream; ContentType: Text)

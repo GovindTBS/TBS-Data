@@ -63,8 +63,8 @@ table 5392 "CRM Annotation Coupling"
     }
 
     var
-        RecordLinkAlreadyCoupledErr: Label 'Record Link %1 is already coupled to another CRM Annotation.', Comment = '%1 - an integer';
-        CRMAnnotationAlreadyCoupledErr: Label 'CRM Annotation %1 is already coupled to another Record Link.', Comment = '%1 - a GUID';
+RecordLinkAlreadyCoupledErr: Label 'Record Link %1 is already coupled to another CRM Annotation.', Comment = '%1 - an integer';
+CRMAnnotationAlreadyCoupledErr: Label 'CRM Annotation %1 is already coupled to another Record Link.', Comment = '%1 - a GUID';
 
     [Scope('OnPrem')]
     procedure CoupleRecordLinkToCRMAnnotation(RecordLink: Record "Record Link"; CRMAnnotation: Record "CRM Annotation")

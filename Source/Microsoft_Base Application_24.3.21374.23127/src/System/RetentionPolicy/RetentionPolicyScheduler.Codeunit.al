@@ -12,7 +12,7 @@ codeunit 3998 "Retention Policy Scheduler"
         JobQueueActivatedNotificationTxt: Label 'A Job Queue Entry to apply the retention policies has been scheduled to run.';
         JobQueueReadyNotificationTxt: Label 'A Job Queue Entry to apply the retention policies was set to Ready state.';
         JobQueueDeactivatedNotificationTxt: Label 'A Job Queue Entry to apply the retention policies was set to On-Hold state.';
-        JobQueueCategoryTok: Label 'RETENTION', Locked = true, Comment = 'Max Length 10';
+JobQueueCategoryTok: Label 'RETENTION', Locked = true, Comment = 'Max Length 10';
         JobQueueCategoryDescTxt: Label 'Retention Policies';
         RetentionPolicyLogCategory: Enum "Retention Policy Log Category";
 

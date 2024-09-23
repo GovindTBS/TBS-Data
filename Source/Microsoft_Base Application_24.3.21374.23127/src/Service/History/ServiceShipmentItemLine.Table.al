@@ -200,7 +200,7 @@ table 5989 "Service Shipment Item Line"
                                                               "No." = field("No."),
                                                               Type = const(Fault),
                                                               "Table Line No." = field("Line No.")));
-            Caption = 'Fault Comment';
+Caption = 'Fault Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -211,7 +211,7 @@ table 5989 "Service Shipment Item Line"
                                                               "No." = field("No."),
                                                               Type = const(Resolution),
                                                               "Table Line No." = field("Line No.")));
-            Caption = 'Resolution Comment';
+Caption = 'Resolution Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -222,7 +222,7 @@ table 5989 "Service Shipment Item Line"
                                                               "No." = field("No."),
                                                               Type = const(Accessory),
                                                               "Table Line No." = field("Line No.")));
-            Caption = 'Accessory Comment';
+Caption = 'Accessory Comment';
             Editable = false;
             FieldClass = FlowField;
         }

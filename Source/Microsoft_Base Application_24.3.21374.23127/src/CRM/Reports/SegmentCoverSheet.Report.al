@@ -278,7 +278,7 @@ report 5064 "Segment - Cover Sheet"
                         field("Marks[3]"; Marks[3])
                         {
                             ApplicationArea = RelationshipMgmt;
-                            Caption = 'Your comments please';
+Caption = 'Your comments please';
                             ToolTip = 'Specifies a standard remark on the cover sheet.';
 
                             trigger OnValidate()
@@ -324,7 +324,7 @@ report 5064 "Segment - Cover Sheet"
                             ApplicationArea = RelationshipMgmt;
                             Caption = 'Custom remark';
                             Importance = Additional;
-                            ToolTip = 'Specifies if a custom remark is displayed on the cover sheet. You can also enter your own comment.';
+ToolTip = 'Specifies if a custom remark is displayed on the cover sheet. You can also enter your own comment.';
 
                             trigger OnValidate()
                             begin
@@ -393,7 +393,7 @@ report 5064 "Segment - Cover Sheet"
         CompanyInfo__Bank_Account_No__CaptionLbl: Label 'Account No.';
         As_agreed_uponCaptionLbl: Label 'As agreed upon';
         For_your_informationCaptionLbl: Label 'For your information';
-        Your_comments_pleaseCaptionLbl: Label 'Your comments please';
+Your_comments_pleaseCaptionLbl: Label 'Your comments please';
         For_your_approvalCaptionLbl: Label 'For your approval';
         Please_callCaptionLbl: Label 'Please call';
         Returned_after_useCaptionLbl: Label 'Returned after use';

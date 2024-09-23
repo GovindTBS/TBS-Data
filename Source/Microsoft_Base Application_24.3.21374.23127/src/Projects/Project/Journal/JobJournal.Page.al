@@ -765,11 +765,11 @@ page 201 "Job Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category6)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref("P&ost_Promoted"; "P&ost")
@@ -788,7 +788,7 @@ page 201 "Job Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(SuggestLinesFromTimeSheets_Promoted; SuggestLinesFromTimeSheets)
                 {
@@ -799,12 +799,12 @@ page 201 "Job Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
             }
             group(Category_Category8)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(ItemTrackingLines_Promoted; ItemTrackingLines)
                 {
@@ -815,7 +815,7 @@ page 201 "Job Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -829,7 +829,7 @@ page 201 "Job Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

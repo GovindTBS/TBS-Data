@@ -364,12 +364,12 @@ page 9200 "Personalized Pages"
 
     var
         TempDesignerDiagnostics: Record "Designer Diagnostic" temporary;
-        ValidatePageTxt: Label 'Scanning page personalizations for %1\%2 of %3 users scanned', Comment = '%1 = user id, %2 and %3 are all whole numbers';
-        PageValidationFailedWithErrorsTxt: Label '%1 error(s)', Comment = '%1 = a number from 1 and up';
-        PageSuccessfullyValidatedWithWarningsTxt: Label '%1 warning(s)', Comment = '%1 = a number from 1 and up';
-        PageSuccessfullyValidatedWithInformationalMessagesTxt: Label '%1 informational message(s)', Comment = '%1 = a number from 1 and up';
+ValidatePageTxt: Label 'Scanning page personalizations for %1\%2 of %3 users scanned', Comment = '%1 = user id, %2 and %3 are all whole numbers';
+PageValidationFailedWithErrorsTxt: Label '%1 error(s)', Comment = '%1 = a number from 1 and up';
+PageSuccessfullyValidatedWithWarningsTxt: Label '%1 warning(s)', Comment = '%1 = a number from 1 and up';
+PageSuccessfullyValidatedWithInformationalMessagesTxt: Label '%1 informational message(s)', Comment = '%1 = a number from 1 and up';
         PageSuccessfullyValidatedTxt: Label 'OK';
-        ScanCompletedWithErrorsMsg: Label 'Scanning complete, %1 error(s) were found.', Comment = '%1 = a number from 1 and up';
+ScanCompletedWithErrorsMsg: Label 'Scanning complete, %1 error(s) were found.', Comment = '%1 = a number from 1 and up';
         ScanCompletedSuccessfullyMsg: Label 'Scanning complete, no issues were found.';
         HealthStatusStyleExpr: Text;
         HealthStatus: Text;

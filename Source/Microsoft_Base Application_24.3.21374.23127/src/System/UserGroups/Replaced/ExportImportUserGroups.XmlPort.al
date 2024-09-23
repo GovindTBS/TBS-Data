@@ -110,7 +110,7 @@ xmlport 9000 "Export/Import User Groups"
         IsImport: Boolean;
         NoOfUserGroupsInserted: Integer;
         NoOfUserGroupPermissionSetsInserted: Integer;
-        InsertedMsg: Label '%1 user groups with a total of %2 user group permission sets were inserted.', Comment = '%1 and %2 are numbers/quantities.';
+InsertedMsg: Label '%1 user groups with a total of %2 user group permission sets were inserted.', Comment = '%1 and %2 are numbers/quantities.';
 }
 
 #endif

@@ -132,8 +132,8 @@ table 589 "G/L Account Source Currency"
     var
         GLAccount: Record "G/L Account";
         GLAccountSourceCurrency: Record "G/L Account Source Currency";
-        CannotRenameErr: Label 'You cannot rename %1', Comment = '%1 - currency code';
-        CannotDeleteErr: Label 'You cannot remove currency %1 because this currency code is set in field %2 in table %3', Comment = '%1 - currency code, %2 - field caption, %3 table caption';
+CannotRenameErr: Label 'You cannot rename %1', Comment = '%1 - currency code';
+CannotDeleteErr: Label 'You cannot remove currency %1 because this currency code is set in field %2 in table %3', Comment = '%1 - currency code, %2 - field caption, %3 table caption';
 
     procedure BuildCurrencyList()
     var

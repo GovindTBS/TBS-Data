@@ -23,7 +23,7 @@ codeunit 5720 "Item Reference Management"
         GlobalSalesLine: Record "Sales Line";
         GlobalPurchLine: Record "Purchase Line";
         Found: Boolean;
-        ItemRefNotExistErr: Label 'There are no items with reference %1.', Comment = '%1=Reference No.';
+ItemRefNotExistErr: Label 'There are no items with reference %1.', Comment = '%1=Reference No.';
         ItemRefWrongTypeErr: Label 'The reference type must be Customer or Vendor.';
 
     procedure EnterSalesItemReference(var SalesLine2: Record "Sales Line")

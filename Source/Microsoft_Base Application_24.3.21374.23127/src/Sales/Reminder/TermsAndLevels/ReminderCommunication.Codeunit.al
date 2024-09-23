@@ -849,10 +849,10 @@ codeunit 1890 "Reminder Communication"
         AppendixTextTok: Label '%1\\%2', Locked = true;
         ReminderLbl: Label 'Reminder';
         NoEnoughSpaceForTextErr: Label 'There is not enough space to insert the text.';
-        LanguagesCustomerCommunicationsLbl: Label 'Attachments: %1\Emails: %2', Comment = '%1 = List of languages with attachment texts, %2 = List of languages with email texts';
-        ReminderLevelNotFoundErr: Label 'Reminder Level %1 on Reminder Term %2 was not found.', Comment = '%1 = Reminder Level No., %2 = Reminder Term Code';
-        ReminderTermNotFoundErr: Label 'Reminder Term %1 was not found.', Comment = '%1 = Reminder Term Code';
-        MismatchLanguagesBetweenTermsAndLevelsMsg: Label 'The languages for the communications for the reminder terms and levels don''t match, which means that reminders won''t be personalized for some languages. Do you want to review the languages in level %1?', Comment = '%1 = List of affected reminder levels.';
+LanguagesCustomerCommunicationsLbl: Label 'Attachments: %1\Emails: %2', Comment = '%1 = List of languages with attachment texts, %2 = List of languages with email texts';
+ReminderLevelNotFoundErr: Label 'Reminder Level %1 on Reminder Term %2 was not found.', Comment = '%1 = Reminder Level No., %2 = Reminder Term Code';
+ReminderTermNotFoundErr: Label 'Reminder Term %1 was not found.', Comment = '%1 = Reminder Term Code';
+MismatchLanguagesBetweenTermsAndLevelsMsg: Label 'The languages for the communications for the reminder terms and levels don''t match, which means that reminders won''t be personalized for some languages. Do you want to review the languages in level %1?', Comment = '%1 = List of affected reminder levels.';
         ExtensionMismatchLanguagesBetweenTermsAndLevelsMsg: Label 'There are differences among selected languages on levels also, so you might want to review those as well.';
         MismatchLanguagesBetweenLevelsMsg: Label 'The languages for the communications for the reminder levels don''t match, which means that reminders won''t be personalized for some languages. Do you want to review the languages before leaving this page?';
 

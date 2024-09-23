@@ -82,11 +82,11 @@ page 1340 "Config Templates"
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -132,7 +132,7 @@ page 1340 "Config Templates"
         SelectCustomerTemplatesCap: Label 'Select a template for a new customer';
         SelectVendorTemplatesCap: Label 'Select a template for a new vendor';
         SelectItemTemplatesCap: Label 'Select a template for a new item';
-        DeleteQst: Label 'Delete %1?', Comment = '%1 - configuration template code';
+DeleteQst: Label 'Delete %1?', Comment = '%1 - configuration template code';
 
     protected var
         NewMode: Boolean;

@@ -24,8 +24,8 @@ codeunit 6060 "Hybrid Deployment"
         FailedCreatingIRErr: Label 'Failed to create your integration runtime. Please try again later. If the problem continues, contact support.';
         FailedDisableReplicationErr: Label 'Failed to disable replication.';
         CloudMigrationFailedContinueTxt: Label 'The request to remove the integration runtime failed. \Do you want to continue with disabling the replication?\\Error:';
-        CloudMigrationFailedContinueQst: Label '%1\%2', Locked = true, Comment = '%1 question to user, %2 error message';
-        TelemetryContinuedWithMigrationMsg: Label 'Decided to continue with disabling the replication. Error: %1', Locked = true, Comment = '%1 error message';
+CloudMigrationFailedContinueQst: Label '%1\%2', Locked = true, Comment = '%1 question to user, %2 error message';
+TelemetryContinuedWithMigrationMsg: Label 'Decided to continue with disabling the replication. Error: %1', Locked = true, Comment = '%1 error message';
         FailedDisableDataLakeMigrationErr: Label 'Failed to disable the Azure Data Lake migration.';
         FailedEnableReplicationErr: Label 'Failed to enable your replication. Make sure your integration runtime is successfully connected and try again.';
         FailedGettingStatusErr: Label 'Failed to retrieve the replication run status.';

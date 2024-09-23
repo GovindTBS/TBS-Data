@@ -322,7 +322,7 @@ table 85 "Acc. Schedule Line"
         CostType: Record "Cost Type";
         HasGLSetup: Boolean;
 
-        ForceUnderLineMsg: Label '%1 will be set to false.', Comment = '%1= Field underline ';
+ForceUnderLineMsg: Label '%1 will be set to false.', Comment = '%1= Field underline ';
         Text000: Label 'Default Schedule';
         Text001: Label 'The parenthesis at position %1 is misplaced.';
         Text002: Label 'You cannot have two consecutive operators. The error occurred at position %1.';
@@ -339,7 +339,7 @@ table 85 "Acc. Schedule Line"
         Text013: Label '1,5,,Dimension 3 Totaling';
         Text014: Label '1,5,,Dimension 4 Totaling';
         Text015: Label 'The %1 refers to %2 %3, which does not exist. The field %4 on table %5 has now been deleted.';
-        UnderlineTrueMsg: Label 'The %1 should be true when %2 is %3.', Comment = '%1 - Double Underline; %2 - Totaling Type; %3 - value of Totaling Type';
+UnderlineTrueMsg: Label 'The %1 should be true when %2 is %3.', Comment = '%1 - Double Underline; %2 - Totaling Type; %3 - value of Totaling Type';
 
     procedure LookUpDimFilter(DimNo: Integer; var Text: Text) Result: Boolean
     var

@@ -343,18 +343,18 @@ page 9515 "Azure AD User Update Wizard"
 
         ConfirmCancelQst: Label 'Are you sure you wish to cancel the updates?';
         NumberOfUpdatesApplied: Text;
-        NumberOfUpdatesAppliedTxt: Label '%1 out of %2 updates have been applied in Business Central. You can close this guide.', Comment = '%1 = An integer count of total updates applied; %2 = total count of updates';
+NumberOfUpdatesAppliedTxt: Label '%1 out of %2 updates have been applied in Business Central. You can close this guide.', Comment = '%1 = An integer count of total updates applied; %2 = total count of updates';
 
         NoAvailableUpdatesVisible: Boolean;
 
         TotalUpdatesToConfirm: Text;
         TotalUpdatesToConfirmVisible: Boolean;
-        TotalUpdatesToConfirmSingularTxt: Label 'We found %1 license update for a user who has customized permissions. Before continuing, you must either keep the current permissions or add the permissions associated with the new license for the user.', Comment = '%1 = An integer count of total updates to get confirmation on';
-        TotalUpdatesToConfirmPluralTxt: Label 'We found %1 license updates for users who have customized permissions. Before continuing, you must either keep the current permissions or add the permissions associated with the new license for those users.', Comment = '%1 = An integer count of total updates to get confirmation on';
+TotalUpdatesToConfirmSingularTxt: Label 'We found %1 license update for a user who has customized permissions. Before continuing, you must either keep the current permissions or add the permissions associated with the new license for the user.', Comment = '%1 = An integer count of total updates to get confirmation on';
+TotalUpdatesToConfirmPluralTxt: Label 'We found %1 license updates for users who have customized permissions. Before continuing, you must either keep the current permissions or add the permissions associated with the new license for those users.', Comment = '%1 = An integer count of total updates to get confirmation on';
 
         TotalUpdatesReadyToApply: Text;
         TotalUpdatesReadyToApplyVisible: Boolean;
-        TotalUpdatesReadyToApplyTxt: Label 'Number of updates ready to be applied: %1. These can be name, email address, preferred language, and user access changes. Choose View changes to see the list.', Comment = '%1 = An integer count of total updates ready to apply';
+TotalUpdatesReadyToApplyTxt: Label 'Number of updates ready to be applied: %1. These can be name, email address, preferred language, and user access changes. Choose View changes to see the list.', Comment = '%1 = An integer count of total updates ready to apply';
 
         LinkToLicenseConfigurationTxt: Label 'Configure permissions per license';
         CannotUpdateUsersFromOfficeErr: Label 'Your user account does not give you permission to fetch users from Microsoft 365. Please contact your administrator.';

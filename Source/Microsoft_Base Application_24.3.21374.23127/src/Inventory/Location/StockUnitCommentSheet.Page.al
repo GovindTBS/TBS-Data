@@ -3,7 +3,7 @@ namespace Microsoft.Inventory.Location;
 page 5704 "Stock. Unit Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Stock. Unit Comment Sheet';
+Caption = 'Stock. Unit Comment Sheet';
     DataCaptionFields = "Location Code", "Item No.", "Variant Code";
     DelayedInsert = true;
     LinksAllowed = false;
@@ -21,17 +21,17 @@ page 5704 "Stock. Unit Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

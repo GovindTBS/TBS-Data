@@ -96,6 +96,6 @@ pageextension 9204 "User Settings" extends "User Settings"
         OneDriveLinkText: Text;
         IsMyNotificationsVisible: Boolean;
         MyNotificationsLbl: Label 'Change when I receive notifications.';
-        OneDriveLinkTextTemplateTxt: Label '%1''s files on OneDrive', Comment = '%1 = A full user name, for example "John Doe"';
+OneDriveLinkTextTemplateTxt: Label '%1''s files on OneDrive', Comment = '%1 = A full user name, for example "John Doe"';
         OneDriveLinkVisibilityTelemetryMsg: Label 'OneDrive link visibility set to %1.', Locked = true;
 }

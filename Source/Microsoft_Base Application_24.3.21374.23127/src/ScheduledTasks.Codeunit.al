@@ -7,8 +7,8 @@ codeunit 3846 "Scheduled Tasks"
     Access = Internal;
 
     var
-        SetTaskReadyDifferentCompanyTasksLbl: Label 'The task is created for company %1, and will run according to its schedule. Do you want to continue?', Comment = '%1 - Company Name';
-        CancelDifferentCompanyTasksLbl: Label 'The task is created for company %1. Are you sure you want to cancel it?', Comment = '%1 - Company Name';
+SetTaskReadyDifferentCompanyTasksLbl: Label 'The task is created for company %1, and will run according to its schedule. Do you want to continue?', Comment = '%1 - Company Name';
+CancelDifferentCompanyTasksLbl: Label 'The task is created for company %1. Are you sure you want to cancel it?', Comment = '%1 - Company Name';
 
     procedure SetTasksReady(var ScheduledTasks: Record "Scheduled Task")
     var

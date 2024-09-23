@@ -197,6 +197,6 @@ page 2590 "Dimension Correction Changes"
         NewValueEditable: Boolean;
         DimensionValueText: Text;
         NewValueText: Text;
-        NewValueDisplayTextPlaceHolderLbl: Label '%1 - %2', Locked = true, Comment = '%1 Change type, %2 New value';
-        DimensionValueDisplayTxt: Label 'Multiple - Number of different values (%1)', Comment = '%1 Number of different dimension values';
+NewValueDisplayTextPlaceHolderLbl: Label '%1 - %2', Locked = true, Comment = '%1 Change type, %2 New value';
+DimensionValueDisplayTxt: Label 'Multiple - Number of different values (%1)', Comment = '%1 Number of different dimension values';
 }

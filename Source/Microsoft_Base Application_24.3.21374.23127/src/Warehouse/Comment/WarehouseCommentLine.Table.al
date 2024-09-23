@@ -4,7 +4,7 @@ using Microsoft.Warehouse.Activity;
 
 table 5770 "Warehouse Comment Line"
 {
-    Caption = 'Warehouse Comment Line';
+Caption = 'Warehouse Comment Line';
     DrillDownPageID = "Warehouse Comment List";
     LookupPageID = "Warehouse Comment List";
     DataClassification = CustomerContent;
@@ -39,7 +39,7 @@ table 5770 "Warehouse Comment Line"
         }
         field(7; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

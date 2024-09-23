@@ -138,7 +138,7 @@ page 5770 "Warehouse Put-away"
                     RunPageLink = "Table Name" = const("Whse. Activity Header"),
                                   Type = field(Type),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Registered Put-aways")
                 {
@@ -223,7 +223,7 @@ page 5770 "Warehouse Put-away"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Register Put-away_Promoted"; "&Register Put-away")
                 {

@@ -54,7 +54,7 @@ table 5091 "Sales Cycle Stage"
             CalcFormula = exist("Rlshp. Mgt. Comment Line" where("Table Name" = const("Sales Cycle Stage"),
                                                                   "No." = field("Sales Cycle Code"),
                                                                   "Sub No." = field(Stage)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

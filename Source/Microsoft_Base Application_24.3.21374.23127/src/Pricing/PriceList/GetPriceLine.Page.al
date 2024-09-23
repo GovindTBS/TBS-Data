@@ -143,7 +143,7 @@ page 7010 "Get Price Line"
         DataCaptionExpr: Text;
         DataCaptionExprTok: Label 'Pick %1 for %2 of %3 %4',
             Comment = '%1 - Price or Discount, %2 - Sale or Purchase, %3 - the product type, %4 - the product no., e.g. Pick price for sale of Item 1000.';
-        DataCaptionAssetTok: Label '%1 %2 %3', Locked = true, Comment = '%1 %2 %3 - Product Type, Product No, Description';
+DataCaptionAssetTok: Label '%1 %2 %3', Locked = true, Comment = '%1 %2 %3 - Product Type, Product No, Description';
 
     protected var
         AmountType: Enum "Price Amount Type";

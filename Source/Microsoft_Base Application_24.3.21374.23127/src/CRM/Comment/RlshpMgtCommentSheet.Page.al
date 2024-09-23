@@ -3,7 +3,7 @@ namespace Microsoft.CRM.Comment;
 page 5072 "Rlshp. Mgt. Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Rlshp. Mgt. Comment Sheet';
+Caption = 'Rlshp. Mgt. Comment Sheet';
     DataCaptionFields = "No.";
     DelayedInsert = true;
     LinksAllowed = false;
@@ -20,17 +20,17 @@ page 5072 "Rlshp. Mgt. Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = RelationshipMgmt;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = RelationshipMgmt;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = RelationshipMgmt;
-                    ToolTip = 'Specifies the code for the comment.';
+ToolTip = 'Specifies the code for the comment.';
                     Visible = false;
                 }
             }

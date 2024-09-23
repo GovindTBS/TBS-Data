@@ -68,7 +68,7 @@ table 1524 "Workflow Rule"
     }
 
     var
-        RuleDisplayTxt: Label '%1 is %2', Comment = '%1 = The field; %2 = type of operation; (Amount is Increased)';
+RuleDisplayTxt: Label '%1 is %2', Comment = '%1 = The field; %2 = type of operation; (Amount is Increased)';
 
     procedure EvaluateRule(RecRef: RecordRef; xRecRef: RecordRef): Boolean
     var

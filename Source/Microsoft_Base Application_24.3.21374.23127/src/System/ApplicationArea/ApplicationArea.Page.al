@@ -64,7 +64,7 @@ page 9179 "Application Area"
     end;
 
     var
-        ReSignInMsg: Label 'You must sign out and then sign in again to have the changes take effect.', Comment = '"sign out" and "sign in" are the same terms as shown in the Business Central client.';
+ReSignInMsg: Label 'You must sign out and then sign in again to have the changes take effect.', Comment = '"sign out" and "sign in" are the same terms as shown in the Business Central client.';
         Modified: Boolean;
 
     local procedure TrySave(): Boolean

@@ -44,20 +44,20 @@ codeunit 1100 "Cost Account Mgt"
         Text010: Label 'Indenting chart\Number   #1########';
         Text011: Label 'End-Total %1 does not belong to Begin-Total.';
         Text012: Label 'The range is too long and cannot be transferred to the End-Total field.\\Move End-Total closer to Begin-Total or use shorter codes.';
-        Text013: Label '%1 %2 is not defined in Cost Accounting.', Comment = '%1=Table caption Cost Center;%2=Field Value Cost Center Code';
-        Text014: Label '%1 %2 is blocked in Cost Accounting.', Comment = '%1=Table caption Cost Center;%2=Field Value Cost Center Code';
-        Text015: Label '%1 %2 does not have line type %1 or Begin-Total.', Comment = '%1=Table caption Cost Center;%2=Field Value Cost Center Code';
-        Text016: Label 'Do you want to create %1 %2 in Cost Accounting?', Comment = '%1=Table caption Cost Center or Cost Object;%2=Field Value';
-        Text017: Label '%1 %2 has been updated in Cost Accounting.', Comment = '%1=Table caption Cost Center or Cost Object or Cost Type;%2=Field Value';
+Text013: Label '%1 %2 is not defined in Cost Accounting.', Comment = '%1=Table caption Cost Center;%2=Field Value Cost Center Code';
+Text014: Label '%1 %2 is blocked in Cost Accounting.', Comment = '%1=Table caption Cost Center;%2=Field Value Cost Center Code';
+Text015: Label '%1 %2 does not have line type %1 or Begin-Total.', Comment = '%1=Table caption Cost Center;%2=Field Value Cost Center Code';
+Text016: Label 'Do you want to create %1 %2 in Cost Accounting?', Comment = '%1=Table caption Cost Center or Cost Object;%2=Field Value';
+Text017: Label '%1 %2 has been updated in Cost Accounting.', Comment = '%1=Table caption Cost Center or Cost Object or Cost Type;%2=Field Value';
         Text018: Label 'Create dimension\Number   #1########';
         Text019: Label '%1 cost centers created.';
         Text020: Label '%1 cost objects created.';
         Text021: Label 'Do you want to get cost centers from dimension %1 ?';
         Text022: Label 'Do you want to get cost objects from dimension %1 ?';
-        Text023: Label 'The %1 %2 cannot be inserted because it already exists as %3.', Comment = '%1=Table caption Cost Center or Cost Object or Cost Type or Dimension Value;%2=Field Value';
-        Text024: Label 'Do you want to update %1 %2 in Cost Accounting?', Comment = '%1=Table caption Cost Center or Cost Object;%2=Field Value';
-        Text025: Label 'The %1 cannot be updated with this %2 because the %3 does not fall within the From/To range.', Comment = '%1=Cost Budget Register tablecaption,%2=Cost Budget Entry tablecaption,%3=Entry No. fieldcaption';
-        ArrayExceededErr: Label 'You can only indent %1 levels for entities of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
+Text023: Label 'The %1 %2 cannot be inserted because it already exists as %3.', Comment = '%1=Table caption Cost Center or Cost Object or Cost Type or Dimension Value;%2=Field Value';
+Text024: Label 'Do you want to update %1 %2 in Cost Accounting?', Comment = '%1=Table caption Cost Center or Cost Object;%2=Field Value';
+Text025: Label 'The %1 cannot be updated with this %2 because the %3 does not fall within the From/To range.', Comment = '%1=Cost Budget Register tablecaption,%2=Cost Budget Entry tablecaption,%3=Entry No. fieldcaption';
+ArrayExceededErr: Label 'You can only indent %1 levels for entities of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
 
     procedure GetCostTypesFromChartOfAccount()
     var

@@ -35,7 +35,7 @@ using System.Visualization;
 
 page 9026 "Sales & Relationship Mgr. RC"
 {
-    Caption = 'Sales and Relationship Manager', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
+Caption = 'Sales and Relationship Manager', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
     PageType = RoleCenter;
 
     layout

@@ -154,11 +154,11 @@ page 536 Dimensions
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Dimension', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Dimension', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Dimension &Values_Promoted"; "Dimension &Values")
                 {

@@ -24,7 +24,7 @@ codeunit 9144 "SharePoint Authorization Code" implements "SharePoint Authorizati
         [NonDebuggable]
         Scopes: List of [Text];
 AuthorityTxt: Label 'https://login.microsoftonline.com/%1/oauth2/v2.0/authorize', Comment = '%1 = Microsoft Entra tenant ID', Locked = true;
-        BearerTxt: Label 'Bearer %1', Comment = '%1 - Token', Locked = true;
+BearerTxt: Label 'Bearer %1', Comment = '%1 - Token', Locked = true;
 
     procedure SetParameters(NewEntraTenantId: Text; NewClientId: Text; NewClientSecret: SecretText; NewScopes: List of [Text])
     begin

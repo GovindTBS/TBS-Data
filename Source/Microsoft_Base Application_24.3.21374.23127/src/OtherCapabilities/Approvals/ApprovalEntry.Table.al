@@ -90,7 +90,7 @@ table 454 "Approval Entry"
             CalcFormula = exist("Approval Comment Line" where("Table ID" = field("Table ID"),
                                                                "Record ID to Approve" = field("Record ID to Approve"),
                                                                "Workflow Step Instance ID" = field("Workflow Step Instance ID")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -232,7 +232,7 @@ table 454 "Approval Entry"
     var
         PageManagement: Codeunit "Page Management";
         RecNotExistTxt: Label 'The record does not exist.';
-        ChangeRecordDetailsTxt: Label '; %1 changed from %2 to %3', Comment = 'Prefix = Record information %1 = field caption %2 = old value %3 = new value. Example: Customer 123455; Credit Limit changed from 100.00 to 200.00';
+ChangeRecordDetailsTxt: Label '; %1 changed from %2 to %3', Comment = 'Prefix = Record information %1 = field caption %2 = old value %3 = new value. Example: Customer 123455; Credit Limit changed from 100.00 to 200.00';
 
     local procedure DeleteWorkflowEventQueue()
     var

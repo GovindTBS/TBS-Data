@@ -106,7 +106,7 @@ page 1105 "Cost Allocation"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = CostAccounting;
-                    ToolTip = 'Specifies a comment that applies to the cost allocation.';
+ToolTip = 'Specifies a comment that applies to the cost allocation.';
                 }
                 field("Total Share"; Rec."Total Share")
                 {

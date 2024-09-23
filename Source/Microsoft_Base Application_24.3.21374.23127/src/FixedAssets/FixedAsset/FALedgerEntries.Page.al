@@ -365,7 +365,7 @@ page 5604 "FA Ledger Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Navigate_Promoted"; "&Navigate")
                 {

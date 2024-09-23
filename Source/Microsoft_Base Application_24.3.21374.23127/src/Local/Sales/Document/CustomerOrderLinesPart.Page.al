@@ -212,7 +212,7 @@ page 10012 "Customer Order Lines Part"
         SalesCrMemoHeader: Record "Sales Cr.Memo Header";
         LastShipmentDate: Date;
         LastInvoiceDate: Date;
-        OrphanSalesLinesWarningTxt: Label 'Warning:  There are orphan sales line records for %1 %2.', Comment = '%1 - document type, %2 - document number';
+OrphanSalesLinesWarningTxt: Label 'Warning:  There are orphan sales line records for %1 %2.', Comment = '%1 - document type, %2 - document number';
 
     procedure DefaultFromSalesHeader()
     begin

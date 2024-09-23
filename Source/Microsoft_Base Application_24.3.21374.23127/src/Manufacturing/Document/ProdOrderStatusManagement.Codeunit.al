@@ -77,7 +77,7 @@ codeunit 5407 "Prod. Order Status Management"
         Text008: Label '%1 %2 cannot be finished as the associated subcontract order %3 has not been fully delivered.';
         Text009: Label 'You cannot finish line %1 on %2 %3. It has consumption or capacity posted with no output.';
         Text010: Label 'You must specify a %1 in %2 %3 %4.';
-        ProdOrderCompRemainToPickErr: Label 'You cannot finish production order no. %1 because there is an outstanding pick for one or more components.', Comment = '%1: Production Order No.';
+ProdOrderCompRemainToPickErr: Label 'You cannot finish production order no. %1 because there is an outstanding pick for one or more components.', Comment = '%1: Production Order No.';
 
     procedure ChangeProdOrderStatus(ProdOrder: Record "Production Order"; NewStatus: Enum "Production Order Status"; NewPostingDate: Date; NewUpdateUnitCost: Boolean)
     var

@@ -23,8 +23,8 @@ codeunit 5488 "Graph Mgt - Reports"
     end;
 
     var
-        BalanceColumnNameTxt: Label 'M-BALANCE', Comment = 'Max 10 char';
-        NetChangeColumnNameTxt: Label 'M-NETCHANG', Comment = 'Max 10 char';
+BalanceColumnNameTxt: Label 'M-BALANCE', Comment = 'Max 10 char';
+NetChangeColumnNameTxt: Label 'M-NETCHANG', Comment = 'Max 10 char';
         RecordNotProvidedErr: Label 'A record must be provided for this report API.';
         HeaderLineTypeTxt: Label 'header', Locked = true;
         DetailLineTypeTxt: Label 'detail', Locked = true;

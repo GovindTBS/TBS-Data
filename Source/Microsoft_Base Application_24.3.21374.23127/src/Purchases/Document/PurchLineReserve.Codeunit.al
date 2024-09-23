@@ -28,7 +28,7 @@ codeunit 99000834 "Purch. Line-Reserve"
         OverruleItemTracking: Boolean;
         DeleteItemTracking: Boolean;
 
-        Text000Err: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
+Text000Err: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
         Text001Err: Label 'must be filled in when a quantity is reserved';
         Text002Err: Label 'must not be filled in when a quantity is reserved';
         Text003Err: Label 'must not be changed when a quantity is reserved';

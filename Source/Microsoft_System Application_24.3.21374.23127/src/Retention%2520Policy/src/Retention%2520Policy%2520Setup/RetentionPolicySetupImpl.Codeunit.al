@@ -28,7 +28,7 @@ codeunit 3903 "Retention Policy Setup Impl."
 RetentionPeriodUsedErr: Label 'You cannot delete the retention period %1 because one or more retention policies are using it.', Comment = '%1 = a retention period code';
 RetentionPeriodLockedErr: Label 'You cannot modify the retention period %1 because one or more mandatory retention policies are using it.', Comment = '%1 = a retention period code';
 TableNotAllowedErrorLbl: Label 'Table %1 %2 is not in the list of allowed tables.', Comment = '%1 = table number, %2 = table name';
-        FilterPageBuilderCaptionLbl: Label '%1 Filters', Comment = '%1 = Table caption (i.e. Change Log Entry';
+FilterPageBuilderCaptionLbl: Label '%1 Filters', Comment = '%1 = Table caption (i.e. Change Log Entry';
 MinExpirationDateErr: Label 'The mandatory minimum retention period for this retention policy is %1 days. The expiration date for this retention policy must be equal to or before %2.', Comment = '%1 integer, %2 = Date';
 RetentionPolicySetupLineLockedErr: Label 'The retention policy setup for table %1, %2 has mandatory filters that cannot be modified.', Comment = '%1 = table number, %2 = table caption';
 RetenPolAllowedTableFilterMismatchLbl: Label 'The retention policy allow list contains a mismatched filter for table ID %1. Filter table ID is %2', Comment = '%1 = table number, %2 = table number';

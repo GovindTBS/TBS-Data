@@ -921,7 +921,7 @@ page 490 "Acc. Schedule Overview"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Recalculate_Promoted; Recalculate)
                 {
@@ -947,7 +947,7 @@ page 490 "Acc. Schedule Overview"
 
             group(Category_Category4)
             {
-                Caption = 'Column', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Column', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(PreviousColumn_Promoted; PreviousColumn)
                 {
@@ -958,7 +958,7 @@ page 490 "Acc. Schedule Overview"
             }
             group(Category_Category5)
             {
-                Caption = 'Period', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Period', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(PreviousPeriod_Promoted; PreviousPeriod)
                 {
@@ -997,7 +997,7 @@ page 490 "Acc. Schedule Overview"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

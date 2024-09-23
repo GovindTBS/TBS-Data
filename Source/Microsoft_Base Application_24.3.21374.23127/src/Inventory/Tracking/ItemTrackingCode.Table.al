@@ -655,14 +655,14 @@ table 6502 "Item Tracking Code"
     var
         Item: Record Item;
         EntriesExistErr: Label 'Entries exist for item %1. The field %2 cannot be changed.';
-        CostingMethodErr: Label 'Costing Method is %1 for item %2. The field %3 cannot be changed.', Comment = '%1 = Costing Method, %2 = Item No., %3 - field caption.';
+CostingMethodErr: Label 'Costing Method is %1 for item %2. The field %3 cannot be changed.', Comment = '%1 = Costing Method, %2 = Item No., %3 - field caption.';
         Text002: Label 'You cannot delete %1 %2 because it is used on one or more items.';
-        IgnoreExpirationDateErr: Label 'You cannot stop using expiration dates because item ledger entries with expiration dates exist for item %1.', Comment = '%1 is the item number';
-        ExpDateCalcSetOnItemsQst: Label 'You cannot stop using expiration dates because they are set up for %1 item(s). Do you want to see a list of these items, and decide whether to remove the expiration dates?', Comment = '%1 is the number of items';
-        ExpDateCalcSetOnItemsErr: Label 'You cannot stop using expiration dates because they are set up for %1 item(s).', Comment = '%1 is the number of items';
+IgnoreExpirationDateErr: Label 'You cannot stop using expiration dates because item ledger entries with expiration dates exist for item %1.', Comment = '%1 is the item number';
+ExpDateCalcSetOnItemsQst: Label 'You cannot stop using expiration dates because they are set up for %1 item(s). Do you want to see a list of these items, and decide whether to remove the expiration dates?', Comment = '%1 is the number of items';
+ExpDateCalcSetOnItemsErr: Label 'You cannot stop using expiration dates because they are set up for %1 item(s).', Comment = '%1 is the number of items';
         IgnoreButManExpirDateReqdErr: Label 'You cannot stop using expiration dates if you require manual expiration date entry on the item tracking code.';
         IgnoreButStrictExpirationPostingErr: Label 'You cannot stop using expiration dates if you require strict expiration posting on the item tracking code.';
-        WhseEntriesExistErr: Label 'You cannot change %1 because there are one or more warehouse entries for item %2.', Comment = '%1: Changed field name; %2: Item No.';
+WhseEntriesExistErr: Label 'You cannot change %1 because there are one or more warehouse entries for item %2.', Comment = '%1: Changed field name; %2: Item No.';
 
     local procedure EnsureNoExpirationDatesExistInRelatedItemLedgerEntries()
     var

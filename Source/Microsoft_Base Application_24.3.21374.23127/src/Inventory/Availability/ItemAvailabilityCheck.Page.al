@@ -126,7 +126,7 @@ page 1872 "Item Availability Check"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Purchase Order_Promoted"; "Purchase Order")
                 {
@@ -140,11 +140,11 @@ page 1872 "Item Availability Check"
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -159,7 +159,7 @@ page 1872 "Item Availability Check"
         Heading: Text;
         SelectVentorTxt: Label 'Select a vendor';
         AvailableInventoryLbl: Label 'Available Inventory';
-        AvailableInventoryCaptionLbl: Label '%1 (%2)', Comment = '%1 = Available Inventory Label, %2 = Location Code';
+AvailableInventoryCaptionLbl: Label '%1 (%2)', Comment = '%1 = Available Inventory Label, %2 = Location Code';
         AvailableInventoryCaption: Text;
 
     procedure PopulateDataOnNotification(var AvailabilityCheckNotification: Notification; ItemNo: Code[20]; UnitOfMeasureCode: Code[20]; InventoryQty: Decimal; GrossReq: Decimal; ReservedReq: Decimal; SchedRcpt: Decimal; ReservedRcpt: Decimal; CurrentQuantity: Decimal; CurrentReservedQty: Decimal; TotalQuantity: Decimal; EarliestAvailDate: Date; LocationCode: Code[10])

@@ -88,7 +88,7 @@ page 1102 "Cost Allocation Sources"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = CostAccounting;
-                    ToolTip = 'Specifies a comment that applies to the cost allocation.';
+ToolTip = 'Specifies a comment that applies to the cost allocation.';
                 }
             }
         }

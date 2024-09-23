@@ -368,7 +368,7 @@ table 5092 Opportunity
         {
             CalcFormula = exist("Rlshp. Mgt. Comment Line" where("Table Name" = const(Opportunity),
                                                                   "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -671,7 +671,7 @@ table 5092 Opportunity
         TempRlshpMgtCommentLine: Record "Rlshp. Mgt. Comment Line" temporary;
         NoSeries: Codeunit "No. Series";
         Text006: Label 'Sales %1 %2 is already assigned to opportunity %3.';
-        ChangeConfirmQst: Label 'Do you want to change %1 on the related open tasks with the same %1?', Comment = '%1 = Field Caption';
+ChangeConfirmQst: Label 'Do you want to change %1 on the related open tasks with the same %1?', Comment = '%1 = Field Caption';
         Text009: Label 'Contact %1 %2 is related to another company.';
         Text011: Label 'A sales quote has already been assigned to this opportunity.';
         Text012: Label 'Current process @1@@@@@@@@@@@@@@@\';

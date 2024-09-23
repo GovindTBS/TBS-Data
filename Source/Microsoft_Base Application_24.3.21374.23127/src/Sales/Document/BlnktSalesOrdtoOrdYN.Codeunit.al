@@ -32,7 +32,7 @@ codeunit 84 "Blnkt Sales Ord. to Ord. (Y/N)"
         BlanketSalesOrderToOrder: Codeunit "Blanket Sales Order to Order";
 
         CreateConfirmQst: Label 'Do you want to create an order from the blanket order?';
-        OrderCreatedMsg: Label 'Order %1 has been created from blanket order %2.', Comment = '%1 = Order No., %2 = Blanket Order No.';
+OrderCreatedMsg: Label 'Order %1 has been created from blanket order %2.', Comment = '%1 = Order No., %2 = Blanket Order No.';
 
     local procedure IsOnRunHandled(var SalesHeader: Record "Sales Header") IsHandled: Boolean
     begin

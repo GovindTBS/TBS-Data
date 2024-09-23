@@ -21,7 +21,7 @@ codeunit 1280 "Map Currency Exchange Rate"
     end;
 
     var
-        FieldNotMappedErr: Label 'Mandatory field %1 is not mapped. Map the field by choosing Field Mapping in the Currency Exchange Rate Sync. Setup window.', Comment = '%1 - Field Caption';
+FieldNotMappedErr: Label 'Mandatory field %1 is not mapped. Map the field by choosing Field Mapping in the Currency Exchange Rate Sync. Setup window.', Comment = '%1 - Field Caption';
 
     [Scope('OnPrem')]
     procedure MapCurrencyExchangeRates(DataExch: Record "Data Exch."; var CurrencyExchangeRate: Record "Currency Exchange Rate")

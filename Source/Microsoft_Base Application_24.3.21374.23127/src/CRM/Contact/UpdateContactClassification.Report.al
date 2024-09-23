@@ -155,8 +155,8 @@ report 5199 "Update Contact Classification"
         Text002: Label 'Finding Values        #5######## @6@@@@@@@@@@@@@\';
         Text003: Label '%1 results in a date before the result of the %2.';
         Text004: Label 'Two or more questions are causing the rating calculation to loop.';
-        Text005: Label 'You must specify %1 and %2 in Profile Questionnaire %3, question %4. To find additional errors, run the Test report.', Comment = '%1 = Starting Date Formula;%2 = Ending Date Formula;%3 = Profile Questionaire Code;%4 = Question Description';
-        Text008: Label 'You must specify %1 in Profile Questionnaire %2, question %3. To find additional errors, run the Test report.', Comment = '%1 = Sorting Method;%2 = Profile Questionaire Code;%3 = Question Description';
+Text005: Label 'You must specify %1 and %2 in Profile Questionnaire %3, question %4. To find additional errors, run the Test report.', Comment = '%1 = Starting Date Formula;%2 = Ending Date Formula;%3 = Profile Questionaire Code;%4 = Question Description';
+Text008: Label 'You must specify %1 in Profile Questionnaire %2, question %3. To find additional errors, run the Test report.', Comment = '%1 = Sorting Method;%2 = Profile Questionaire Code;%3 = Question Description';
 
     protected procedure AnswersExists(var ProfileQuestionnaireLine: Record "Profile Questionnaire Line"; UpdateContNo: Code[20]; DoDelete: Boolean): Boolean
     var

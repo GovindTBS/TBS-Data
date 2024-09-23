@@ -58,12 +58,12 @@ table 9183 "Generic Chart Query Column"
     }
 
     var
-        Text000: Label 'NONE', Comment = 'NONE';
-        Text001: Label 'COUNT', Comment = 'COUNT';
-        Text002: Label 'SUM', Comment = 'SUM';
-        Text003: Label 'MIN', Comment = 'MIN';
-        Text004: Label 'MAX', Comment = 'MAX';
-        Text005: Label 'AVERAGE', Comment = 'AVERAGE';
+Text000: Label 'NONE', Comment = 'NONE';
+Text001: Label 'COUNT', Comment = 'COUNT';
+Text002: Label 'SUM', Comment = 'SUM';
+Text003: Label 'MIN', Comment = 'MIN';
+Text004: Label 'MAX', Comment = 'MAX';
+Text005: Label 'AVERAGE', Comment = 'AVERAGE';
 
     procedure SetAggregationType(InputTxt: Text)
     begin

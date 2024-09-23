@@ -7,7 +7,7 @@ namespace Microsoft.Integration.Dataverse;
 page 7207 "CDS Environments"
 {
     Extensible = false;
-    Caption = 'Dataverse User Environments', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse User Environments', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     Editable = false;
     PageType = List;
     SourceTable = "CDS Environment";
@@ -25,19 +25,19 @@ page 7207 "CDS Environments"
                 {
                     Caption = 'Name';
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the name of the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the name of the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                 }
                 field(Linked; Rec.Linked)
                 {
                     Caption = 'Linked';
                     ApplicationArea = All;
-                    ToolTip = 'Specifies whether the Dataverse environment is the linked environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies whether the Dataverse environment is the linked environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                 }
                 field(Url; Rec.Url)
                 {
                     Caption = 'URL';
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the URL of the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the URL of the Dataverse environment.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                 }
             }
         }

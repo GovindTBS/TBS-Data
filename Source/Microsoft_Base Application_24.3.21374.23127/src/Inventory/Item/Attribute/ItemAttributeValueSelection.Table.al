@@ -125,12 +125,12 @@ table 7504 "Item Attribute Value Selection"
     }
 
     var
-        AttributeDoesntExistErr: Label 'The item attribute ''%1'' doesn''t exist.', Comment = '%1 - arbitrary name';
-        AttributeBlockedErr: Label 'The item attribute ''%1'' is blocked.', Comment = '%1 - arbitrary name';
-        AttributeValueBlockedErr: Label 'The item attribute value ''%1'' is blocked.', Comment = '%1 - arbitrary name';
-        AttributeValueDoesntExistErr: Label 'The item attribute value ''%1'' doesn''t exist.', Comment = '%1 - arbitrary name';
-        AttributeValueAlreadySpecifiedErr: Label 'You have already specified a value for item attribute ''%1''.', Comment = '%1 - attribute name';
-        AttributeValueTypeMismatchErr: Label 'The value ''%1'' does not match the item attribute of type %2.', Comment = ' %1 is arbitrary string, %2 is type name';
+AttributeDoesntExistErr: Label 'The item attribute ''%1'' doesn''t exist.', Comment = '%1 - arbitrary name';
+AttributeBlockedErr: Label 'The item attribute ''%1'' is blocked.', Comment = '%1 - arbitrary name';
+AttributeValueBlockedErr: Label 'The item attribute value ''%1'' is blocked.', Comment = '%1 - arbitrary name';
+AttributeValueDoesntExistErr: Label 'The item attribute value ''%1'' doesn''t exist.', Comment = '%1 - arbitrary name';
+AttributeValueAlreadySpecifiedErr: Label 'You have already specified a value for item attribute ''%1''.', Comment = '%1 - attribute name';
+AttributeValueTypeMismatchErr: Label 'The value ''%1'' does not match the item attribute of type %2.', Comment = ' %1 is arbitrary string, %2 is type name';
 
     procedure PopulateItemAttributeValueSelection(var TempItemAttributeValue: Record "Item Attribute Value" temporary)
     begin

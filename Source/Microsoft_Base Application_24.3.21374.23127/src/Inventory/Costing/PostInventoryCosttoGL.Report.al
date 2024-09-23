@@ -711,9 +711,9 @@ report 1002 "Post Inventory Cost to G/L"
     end;
 
     var
-        EnterWhenPostingErr: Label 'Please enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
-        DoNotEnterWhenPostingErr: Label 'Do not enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
-        PostedPostingTypeTxt: Label 'Posted %1', Comment = '%1 - posting type';
+EnterWhenPostingErr: Label 'Please enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
+DoNotEnterWhenPostingErr: Label 'Do not enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
+PostedPostingTypeTxt: Label 'Posted %1', Comment = '%1 - posting type';
         ProcessingItemsTxt: Label 'Processing items  #1##########';
         ItemNoLongerExistTxt: Label 'The item no. no longer exists.';
         ProcessingProdOrdersTxt: Label 'Processing production order  #1##########';
@@ -762,7 +762,7 @@ report 1002 "Post Inventory Cost to G/L"
         SourceNoCaptionLbl: Label 'Source No.';
         InvPostingGroupCaptionLbl: Label 'Inventory Posting Group';
         PostingDateCaptionLbl: Label 'Posting Date';
-        COGSCaptionLbl: Label 'COGS', Comment = 'Cost of goods sold';
+COGSCaptionLbl: Label 'COGS', Comment = 'Cost of goods sold';
         InventoryAdjustmentCaptionLbl: Label 'Inventory Adjustment';
         DirectCostAppliedCaptionLbl: Label 'Direct Cost Applied';
         OverheadAppliedCaptionLbl: Label 'Overhead Applied';
@@ -785,9 +785,9 @@ report 1002 "Post Inventory Cost to G/L"
         PrevCapValueEntryOrderNo: Code[20];
         TotalValueEntriesPostedToGL: Integer;
         IsJournalTemplNameMandatory: Boolean;
-        StatisticsMsg: Label '%1 value entries have been posted to the general ledger.', Comment = '10 value entries have been posted to the general ledger.';
+StatisticsMsg: Label '%1 value entries have been posted to the general ledger.', Comment = '10 value entries have been posted to the general ledger.';
         NothingToPostMsg: Label 'There is nothing to post to the general ledger.';
-        MissingJournalFieldErr: Label 'Please enter a %1 when posting inventory cost to G/L.', Comment = '%1 - field caption';
+MissingJournalFieldErr: Label 'Please enter a %1 when posting inventory cost to G/L.', Comment = '%1 - field caption';
 
     protected var
         DocNo: Code[20];

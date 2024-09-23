@@ -283,6 +283,6 @@ table 2582 "Dimension Correction"
     end;
 
     var
-        CannotChangeDimensionCorrectionErr: Label 'You cannot change a dimension correction while it is in %1 state.', Comment = '%1 Name of the state';
-        DimensionCorrectionLbl: Label 'Dimension Correction %1', Comment = '%1 Entry No of the dimension correction';
+CannotChangeDimensionCorrectionErr: Label 'You cannot change a dimension correction while it is in %1 state.', Comment = '%1 Name of the state';
+DimensionCorrectionLbl: Label 'Dimension Correction %1', Comment = '%1 Entry No of the dimension correction';
 }

@@ -36,7 +36,7 @@ codeunit 1304 "Sales-Quote to Invoice Yes/No"
 
     var
         ConfirmConvertToInvoiceQst: Label 'Do you want to convert the quote to an invoice?';
-        OpenNewInvoiceQst: Label 'The quote has been converted to invoice %1. Do you want to open the new invoice?', Comment = '%1 - invoice number';
+OpenNewInvoiceQst: Label 'The quote has been converted to invoice %1. Do you want to open the new invoice?', Comment = '%1 - invoice number';
 
     local procedure ShowInvoice(var InvoiceSalesHeader: Record "Sales Header")
     var

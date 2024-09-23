@@ -481,10 +481,10 @@ table 13 "Salesperson/Purchaser"
         CreateActionTxt: Label 'create';
         SalespersonTxt: Label 'Salesperson';
         PurchaserTxt: Label 'Purchaser';
-        CannotDeleteBecauseActiveTasksErr: Label 'You cannot delete the salesperson/purchaser with code %1 because it has open tasks.', Comment = '%1 = Salesperson/Purchaser code.';
-        BlockedSalesPersonPurchErr: Label 'You cannot %1 this document because %2 %3 is blocked due to privacy.', Comment = '%1 = post or create, %2 = Salesperson / Purchaser, %3 = salesperson / purchaser code.';
-        PrivacyBlockedGenericTxt: Label 'Privacy Blocked must not be true for %1 %2.', Comment = '%1 = Salesperson / Purchaser, %2 = salesperson / purchaser code.';
-        CannotDeleteBecauseActiveOpportunitiesErr: Label 'You cannot delete the salesperson/purchaser with code %1 because it has open opportunities.', Comment = '%1 = Salesperson/Purchaser code.';
+CannotDeleteBecauseActiveTasksErr: Label 'You cannot delete the salesperson/purchaser with code %1 because it has open tasks.', Comment = '%1 = Salesperson/Purchaser code.';
+BlockedSalesPersonPurchErr: Label 'You cannot %1 this document because %2 %3 is blocked due to privacy.', Comment = '%1 = post or create, %2 = Salesperson / Purchaser, %3 = salesperson / purchaser code.';
+PrivacyBlockedGenericTxt: Label 'Privacy Blocked must not be true for %1 %2.', Comment = '%1 = Salesperson / Purchaser, %2 = salesperson / purchaser code.';
+CannotDeleteBecauseActiveOpportunitiesErr: Label 'You cannot delete the salesperson/purchaser with code %1 because it has open opportunities.', Comment = '%1 = Salesperson/Purchaser code.';
 
     procedure CreateInteraction()
     var

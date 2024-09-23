@@ -428,7 +428,7 @@ page 27 "Vendor List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Vendor),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Item Refe&rences")
                 {
@@ -812,7 +812,7 @@ page 27 "Vendor List"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCDSCoupling)
@@ -1382,7 +1382,7 @@ page 27 "Vendor List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(PayVendor_Promoted; PayVendor)
                 {
@@ -1399,7 +1399,7 @@ page 27 "Vendor List"
             }
             group(Category_Category4)
             {
-                Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(NewPurchaseInvoice_Promoted; NewPurchaseInvoice)
                 {
@@ -1413,7 +1413,7 @@ page 27 "Vendor List"
             }
             group(Category_Category5)
             {
-                Caption = 'Vendor', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Vendor', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Ledger E&ntries_Promoted"; "Ledger E&ntries")
                 {
@@ -1508,11 +1508,11 @@ page 27 "Vendor List"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Synchronize)
             {

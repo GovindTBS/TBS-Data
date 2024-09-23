@@ -103,7 +103,7 @@ table 1050 "Additional Fee Setup"
     }
 
     var
-        InvalidMaxAddFeeErr: Label 'The value of the %1 field is greater than the value of the %2 field. You must change one of the values.', Comment = '%1 : Min. Additional Fee Amount,%2 : Max Additional Fee Amount';
+InvalidMaxAddFeeErr: Label 'The value of the %1 field is greater than the value of the %2 field. You must change one of the values.', Comment = '%1 : Min. Additional Fee Amount,%2 : Max Additional Fee Amount';
 
     local procedure CalculateAddFeeSingleDynamic(var AdditionalFeeSetup: Record "Additional Fee Setup"; RemainingAmount: Decimal): Decimal
     var

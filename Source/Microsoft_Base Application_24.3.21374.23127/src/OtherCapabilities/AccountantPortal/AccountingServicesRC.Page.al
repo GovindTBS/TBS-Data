@@ -8,7 +8,7 @@ using Microsoft.Sales.History;
 
 page 9023 "Accounting Services RC"
 {
-    Caption = 'Outsourced Accounting Manager', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
+Caption = 'Outsourced Accounting Manager', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
     PageType = RoleCenter;
 
     layout

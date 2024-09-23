@@ -750,9 +750,9 @@ page 2900 "Demand Forecast Variant Matrix"
         Field31Visible: Boolean;
         Field32Visible: Boolean;
 
-        MaxNumberOfRowsReachedMsg: Label 'Maximum number of rows to be loaded in the matrix has been set to %1 and hence only top %1 number of rows are loaded. Consider using %2 to load relevant rows.', Comment = '%1 is the default row limit set in MaxRowsToLoad(), %2 is Item Filter Field Caption';
+MaxNumberOfRowsReachedMsg: Label 'Maximum number of rows to be loaded in the matrix has been set to %1 and hence only top %1 number of rows are loaded. Consider using %2 to load relevant rows.', Comment = '%1 is the default row limit set in MaxRowsToLoad(), %2 is Item Filter Field Caption';
         Text000Err: Label 'The Forecast On field must be Sales Items or Component.';
-        Text001Tok: Label 'A forecast was previously made on the %1. Do you want all forecasts of the period %2-%3 moved to the start of the period?', Comment = '%1 = Date e.g. 01-10-11, %2 = Start Period e.g. 12/02/2012, %3 = End Period e.g. 12/03/2012';
+Text001Tok: Label 'A forecast was previously made on the %1. Do you want all forecasts of the period %2-%3 moved to the start of the period?', Comment = '%1 = Date e.g. 01-10-11, %2 = Start Period e.g. 12/02/2012, %3 = End Period e.g. 12/03/2012';
         Text004Err: Label 'You must change view to Sales Items or Component.';
 
     protected var

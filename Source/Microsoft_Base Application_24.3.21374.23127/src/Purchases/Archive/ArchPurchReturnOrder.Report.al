@@ -1354,7 +1354,7 @@ report 417 "Arch.Purch. Return Order"
         TotalAmount: Decimal;
         TotalInvoiceDiscountAmount: Decimal;
 
-        Text004: Label 'Purchase Return Order Archived %1', Comment = '%1 = Document No.';
+Text004: Label 'Purchase Return Order Archived %1', Comment = '%1 = Document No.';
         Text007: Label 'VAT Amount Specification in ';
         Text008: Label 'Local Currency';
         Text009: Label 'Exchange rate: %1/%2';

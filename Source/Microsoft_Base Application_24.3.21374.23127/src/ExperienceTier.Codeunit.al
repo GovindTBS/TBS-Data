@@ -35,10 +35,10 @@ codeunit 257 "Experience Tier"
     SingleInstance = true;
 
     var
-        BasicCannotAccessPremiumCompanyErr: Label 'You cannot access company %1 as the experience tier of the company is premium and you are using a basic license.', Comment = '%1 - Company name';
-        CannotInsertErr: Label 'You cannot insert into table %1. Premium features are blocked since you are accessing a non-premium company.', Comment = '%1 - Table caption';
+BasicCannotAccessPremiumCompanyErr: Label 'You cannot access company %1 as the experience tier of the company is premium and you are using a basic license.', Comment = '%1 - Company name';
+CannotInsertErr: Label 'You cannot insert into table %1. Premium features are blocked since you are accessing a non-premium company.', Comment = '%1 - Table caption';
         DontShowAgainTxt: Label 'Don''t show again.';
-        EssentialsCannotAccessPremiumCompanyErr: Label 'You cannot access company %1 as the experience tier of the company is premium and you are using an essentials license.', Comment = '%1 - Company name';
+EssentialsCannotAccessPremiumCompanyErr: Label 'You cannot access company %1 as the experience tier of the company is premium and you are using an essentials license.', Comment = '%1 - Company name';
         PremiumAccessEssentialCompanyTelemetryMsg: Label 'Premium user accessing non-premium company. Disabling premium functionality.', Locked = true;
         PremiumAccessEssentialCompanyMsg: Label 'Premium features are blocked since you are accessing a non-premium company.';
         PremiumAccessEssentialWarningNameTxt: Label 'Experience tier mismatch';

@@ -88,7 +88,7 @@ codeunit 7324 "Whse.-Activity-Post"
         SuppressCommit: Boolean;
         IsPreview: Boolean;
         PostingDateErr: Label 'is before the posting date';
-        InventoryNotAvailableErr: Label '%1 %2 is not available on inventory or it has already been reserved for another document.', Comment = '%1 = Item Tracking ID, %2 = Item Tracking No."';
+InventoryNotAvailableErr: Label '%1 %2 is not available on inventory or it has already been reserved for another document.', Comment = '%1 = Item Tracking ID, %2 = Item Tracking No."';
 
     local procedure "Code"()
     var

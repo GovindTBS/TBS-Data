@@ -80,13 +80,13 @@ table 1877 "VAT Setup Posting Groups"
     }
 
     var
-        FULLNORMTok: Label 'FULL NORM', Comment = 'the same as values in Product posting group';
-        FULLREDTok: Label 'FULL RED', Comment = 'the same as values in Product posting group';
-        REDUCEDTok: Label 'REDUCED', Comment = 'the same as values in Product posting group';
-        SERVNORMTok: Label 'SERV NORM', Comment = 'the same as values in Product posting group';
-        SERVREDTok: Label 'SERV RED', Comment = 'the same as values in Product posting group';
-        STANDARDTok: Label 'STANDARD', Comment = 'the same as values in Product posting group';
-        ZEROTok: Label 'ZERO', Comment = 'the same as values in Product posting group';
+FULLNORMTok: Label 'FULL NORM', Comment = 'the same as values in Product posting group';
+FULLREDTok: Label 'FULL RED', Comment = 'the same as values in Product posting group';
+REDUCEDTok: Label 'REDUCED', Comment = 'the same as values in Product posting group';
+SERVNORMTok: Label 'SERV NORM', Comment = 'the same as values in Product posting group';
+SERVREDTok: Label 'SERV RED', Comment = 'the same as values in Product posting group';
+STANDARDTok: Label 'STANDARD', Comment = 'the same as values in Product posting group';
+ZEROTok: Label 'ZERO', Comment = 'the same as values in Product posting group';
         FULLNORMTxt: Label 'VAT Only Invoices 25%';
         FULLREDTxt: Label 'VAT Only Invoices 10%';
         REDUCEDTxt: Label 'Reduced VAT (10%)';
@@ -94,7 +94,7 @@ table 1877 "VAT Setup Posting Groups"
         SERVREDTxt: Label 'Miscellaneous 10 VAT';
         STANDARDTxt: Label 'Standard VAT (25%)';
         ZEROTxt: Label 'No VAT';
-        InvalidGLAccountsTxt: Label '%1 is not valid G/L Account.', Comment = '%1 is placeholder for the invalid gl account code';
+InvalidGLAccountsTxt: Label '%1 is not valid G/L Account.', Comment = '%1 is placeholder for the invalid gl account code';
         VATAssistedAccountsMsg: Label 'You have not assigned general ledger accounts for sales and purchases for all VAT amounts. You won''t be able to calculate and post VAT for the missing accounts. If you''re skipping this step on purpose, you can manually assign accounts later in the VAT Posting Setup page.';
 
     procedure ValidateVATRates(): Boolean

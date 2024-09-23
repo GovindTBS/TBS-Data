@@ -230,7 +230,7 @@ page 5076 "Interaction Log Entries"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that a comment exists for this interaction log entry.';
+ToolTip = 'Specifies that a comment exists for this interaction log entry.';
                 }
             }
         }
@@ -308,7 +308,7 @@ page 5076 "Interaction Log Entries"
                     Image = ViewComments;
                     RunObject = Page "Inter. Log Entry Comment Sheet";
                     RunPageLink = "Entry No." = field("Entry No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -436,7 +436,7 @@ page 5076 "Interaction Log Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create &Interaction_Promoted"; "Create &Interaction")
                 {
@@ -456,7 +456,7 @@ page 5076 "Interaction Log Entries"
             }
             group(Category_Category4)
             {
-                Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Entry', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Filter_Promoted; Filter)
                 {
@@ -470,7 +470,7 @@ page 5076 "Interaction Log Entries"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

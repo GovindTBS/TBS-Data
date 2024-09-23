@@ -98,7 +98,7 @@ table 7331 "Whse. Internal Put-away Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Internal Put-away"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

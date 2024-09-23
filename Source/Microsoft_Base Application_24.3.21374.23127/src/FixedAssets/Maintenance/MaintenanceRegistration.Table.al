@@ -31,7 +31,7 @@ table 5616 "Maintenance Registration"
         }
         field(5; Comment; Text[50])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(6; "Service Agent Name"; Text[30])
         {

@@ -90,8 +90,8 @@ table 1227 "Data Exch. Line Def"
     end;
 
     var
-        IncorrectNamespaceErr: Label 'The imported file contains unsupported namespace "%1". The supported namespace is ''%2''.', Comment = '%1=file namespace,%2=supported namespace';
-        DontPointToTheSameLineErr: Label '%1 cannot be the same as %2.', Comment = '%1 =Parent Code and %2 = Code';
+IncorrectNamespaceErr: Label 'The imported file contains unsupported namespace "%1". The supported namespace is ''%2''.', Comment = '%1=file namespace,%2=supported namespace';
+DontPointToTheSameLineErr: Label '%1 cannot be the same as %2.', Comment = '%1 =Parent Code and %2 = Code';
 
     procedure InsertRec(DataExchDefCode: Code[20]; NewCode: Code[20]; NewName: Text[100]; ColumnCount: Integer)
     begin

@@ -161,7 +161,7 @@ report 713 "Inventory - Customer Sales"
         LastItemLedgEntryNo: Integer;
         ReportLineNo: Integer;
 
-        PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
+PeriodInfoTxt: Label 'Period: %1', Comment = '%1 - period name';
         TableFiltersTxt: Label '%1: %2', Locked = true;
 
     local procedure CalcDiscountAmount(ItemLedgerEntryNo: Integer): Decimal

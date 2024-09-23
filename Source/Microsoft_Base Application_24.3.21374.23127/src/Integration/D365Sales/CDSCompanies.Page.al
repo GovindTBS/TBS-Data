@@ -2,7 +2,7 @@ namespace Microsoft.Integration.D365Sales;
 
 page 7214 "CDS Companies"
 {
-    Caption = 'Dataverse Companies', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Companies', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     PageType = List;
     UsageCategory = None;
     Editable = false;
@@ -27,7 +27,7 @@ page 7214 "CDS Companies"
                 field(ExternalId; Rec.ExternalId)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the ID of the Dataverse company.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Specifies the ID of the Dataverse company.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                 }
             }
         }

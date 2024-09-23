@@ -130,7 +130,7 @@ page 5086 "Campaign Card"
                     RunPageLink = "Table Name" = const(Campaign),
                                   "No." = field("No."),
                                   "Sub No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Statistics)
                 {
@@ -350,7 +350,7 @@ page 5086 "Campaign Card"
         {
             group(Category_Category4)
             {
-                Caption = 'Campaign', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Campaign', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -370,7 +370,7 @@ page 5086 "Campaign Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
 #if not CLEAN23
                 actionref(PriceListsDiscounts_Promoted; PriceListsDiscounts)
@@ -383,7 +383,7 @@ page 5086 "Campaign Card"
             }
             group(Category_Category6)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
 #if not CLEAN23
                 actionref("Sales &Prices_Promoted"; "Sales &Prices")
@@ -419,7 +419,7 @@ page 5086 "Campaign Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

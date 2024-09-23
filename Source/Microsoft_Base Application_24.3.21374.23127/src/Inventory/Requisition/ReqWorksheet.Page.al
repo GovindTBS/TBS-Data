@@ -814,7 +814,7 @@ page 291 "Req. Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(CarryOutActionMessage_Promoted; CarryOutActionMessage)
                 {
@@ -828,7 +828,7 @@ page 291 "Req. Worksheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Drop Shipment', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Drop Shipment', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Get &Sales Orders_Promoted"; "Get &Sales Orders")
                 {
@@ -839,7 +839,7 @@ page 291 "Req. Worksheet"
             }
             group(Category_Category5)
             {
-                Caption = 'Special Order', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Special Order', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Action53_Promoted; Action53)
                 {
@@ -850,7 +850,7 @@ page 291 "Req. Worksheet"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref("Order &Tracking_Promoted"; "Order &Tracking")
                 {
@@ -864,7 +864,7 @@ page 291 "Req. Worksheet"
             }
             group(Category_Category7)
             {
-                Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Item Availability by', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(Event_Promoted; "Event")
                 {
@@ -887,7 +887,7 @@ page 291 "Req. Worksheet"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Inventory Availability_Promoted"; "Inventory Availability")
                 {
@@ -965,7 +965,7 @@ page 291 "Req. Worksheet"
         ItemAvailFormsMgt: Codeunit "Item Availability Forms Mgt";
         ChangeExchangeRate: Page "Change Exchange Rate";
         SalesOrder: Page "Sales Order";
-        ExcelFileNameTxt: Label 'Requisition Worksheet - BatchName %1 - JournalName %2', Comment = '%1 = Journal Batch Name; %2 = Journal Template Name';
+ExcelFileNameTxt: Label 'Requisition Worksheet - BatchName %1 - JournalName %2', Comment = '%1 = Journal Batch Name; %2 = Journal Template Name';
         ExtendedPriceEnabled: Boolean;
         VariantCodeMandatory: Boolean;
         OpenedFromBatch: Boolean;

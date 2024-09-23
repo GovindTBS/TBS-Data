@@ -76,8 +76,8 @@ table 5384 "Man. Int. Field Mapping"
     }
 
     var
-        FieldTypeNotTheSameErr: Label 'The field %1 with type %2 must have the same type as field %3 (%4).', Comment = '%1 - field name, %2 - field type, %3 - field name, %4 - field type';
-        FieldRelationExistsErr: Label 'The field %1 must not have a relationship with another table.', Comment = '%1 = field name';
+FieldTypeNotTheSameErr: Label 'The field %1 with type %2 must have the same type as field %3 (%4).', Comment = '%1 - field name, %2 - field type, %3 - field name, %4 - field type';
+FieldRelationExistsErr: Label 'The field %1 must not have a relationship with another table.', Comment = '%1 = field name';
 
     internal procedure GetAllValidFields(var Field: Record "Field"; IntegrationTable: Boolean; IntegrationMappingName: Code[20]; TableNo: Integer)
     var

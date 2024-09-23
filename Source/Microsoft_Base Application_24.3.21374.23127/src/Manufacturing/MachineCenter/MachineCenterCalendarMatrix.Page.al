@@ -415,7 +415,7 @@ page 9293 "Machine Center Calendar Matrix"
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "No." = field("No.");
                     RunPageView = where("Table Name" = const("Machine Center"));
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Lo&ad")
                 {

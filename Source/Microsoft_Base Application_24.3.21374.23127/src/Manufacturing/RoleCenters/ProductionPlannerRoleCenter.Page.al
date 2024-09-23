@@ -527,7 +527,7 @@ page 9010 "Production Planner Role Center"
                     Image = Comment;
                     RunObject = Page "Work Center List";
                     RunPageView = where("Subcontractor No." = filter(= ''));
-                    ToolTip = 'View or register internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
+ToolTip = 'View or register internal comments for the service item. Internal comments are for internal use only and are not printed on reports.';
                 }
                 action(WorkCentersSubcontracted)
                 {

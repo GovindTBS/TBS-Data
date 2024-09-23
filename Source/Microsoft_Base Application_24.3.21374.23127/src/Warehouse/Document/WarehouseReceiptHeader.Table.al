@@ -167,7 +167,7 @@ table 7316 "Warehouse Receipt Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Whse. Receipt"),
                                                                 Type = const(" "),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

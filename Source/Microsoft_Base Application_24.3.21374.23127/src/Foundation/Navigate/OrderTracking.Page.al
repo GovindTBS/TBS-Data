@@ -205,7 +205,7 @@ page 99000822 "Order Tracking"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Show_Promoted; Show)
                 {

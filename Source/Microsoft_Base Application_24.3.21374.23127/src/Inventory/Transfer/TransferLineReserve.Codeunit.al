@@ -31,7 +31,7 @@ codeunit 99000836 "Transfer Line-Reserve"
         DeleteItemTracking: Boolean;
 
         Text000Err: Label 'Codeunit is not initialized correctly.';
-        Text001Err: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
+Text001Err: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
         Text002Err: Label 'must be filled in when a quantity is reserved';
         Text003Err: Label 'must not be changed when a quantity is reserved';
         Text006Err: Label 'Outbound,Inbound';

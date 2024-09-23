@@ -46,6 +46,6 @@ table 1175 "User Task Group"
     end;
 
     var
-        GroupDeleteActionMsg: Label 'If you delete the user task group with the code %1, any user tasks that are assigned to this group are not deleted.', Comment = '%1 = group code';
+GroupDeleteActionMsg: Label 'If you delete the user task group with the code %1, any user tasks that are assigned to this group are not deleted.', Comment = '%1 = group code';
 }
 

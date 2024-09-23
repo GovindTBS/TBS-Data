@@ -120,7 +120,7 @@ page 851 "Chart of Cash Flow Accounts"
                     RunObject = Page "Cash Flow Comment";
                     RunPageLink = "Table Name" = const("Cash Flow Account"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

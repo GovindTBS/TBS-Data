@@ -20,7 +20,7 @@ codeunit 265 "Feature Key Management"
     var
         FeatureManagementFacade: Codeunit "Feature Management Facade";
 #if not CLEAN23
-        FeatureEventConflictErr: Label 'Feature ''%1'' cannot be enabled because there are extensions with subscriptions to old Invoice Posting implementation. If you enable now, these extensions will stop working properly.', Comment = '%1 - feature description';
+FeatureEventConflictErr: Label 'Feature ''%1'' cannot be enabled because there are extensions with subscriptions to old Invoice Posting implementation. If you enable now, these extensions will stop working properly.', Comment = '%1 - feature description';
         AllowMultipleCustVendPostingGroupsLbl: Label 'AllowMultipleCustVendPostingGroups', Locked = true;
         ExtensibleExchangeRateAdjustmentLbl: Label 'ExtensibleExchangeRateAdjustment', Locked = true;
         ExtensibleInvoicePostingEngineLbl: Label 'ExtensibleInvoicePostingEngine', Locked = true;

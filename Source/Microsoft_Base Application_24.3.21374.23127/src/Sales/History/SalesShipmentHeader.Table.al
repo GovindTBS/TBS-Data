@@ -254,7 +254,7 @@ table 110 "Sales Shipment Header"
             CalcFormula = exist("Sales Comment Line" where("Document Type" = const(Shipment),
                                                             "No." = field("No."),
                                                             "Document Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -907,7 +907,7 @@ table 110 "Sales Shipment Header"
         DimMgt: Codeunit DimensionManagement;
         ApprovalsMgmt: Codeunit "Approvals Mgmt.";
         UserSetupMgt: Codeunit "User Setup Management";
-        NoElectronicStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1 - Document No.';
+NoElectronicStampErr: Label 'There is no electronic stamp for document no. %1.', Comment = '%1 - Document No.';
 
     procedure SendProfile(var DocumentSendingProfile: Record "Document Sending Profile")
     var

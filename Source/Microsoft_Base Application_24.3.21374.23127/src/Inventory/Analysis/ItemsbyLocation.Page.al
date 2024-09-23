@@ -126,7 +126,7 @@ page 491 "Items by Location"
         MATRIX_CaptionRange: Text;
         MATRIX_PKFirstRecInCurrSet: Text;
         MATRIX_CurrSetLength: Integer;
-        UnspecifiedLocationCodeTxt: Label 'UNSPECIFIED', Comment = 'Code for unspecified location';
+UnspecifiedLocationCodeTxt: Label 'UNSPECIFIED', Comment = 'Code for unspecified location';
 
     procedure SetMatrixColumns(StepType: Enum "Matrix Page Step Type")
     var

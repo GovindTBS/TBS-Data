@@ -40,7 +40,7 @@ codeunit 1800 "Assisted Company Setup"
         InitialCompanySetupHelpTxt: Label 'https://go.microsoft.com/fwlink/?linkid=2115383', Locked = true;
         InitialCompanySetupDescTxt: Label 'Provide your company''s name, address, logo, and other basic information.';
         CompanyEvaluationCategoryTok: Label 'Company Evaluation', Locked = true;
-        CompanyEvaluationTxt: Label 'Company Evaluation:%1', Comment = '%1 = Company Evaluation', Locked = true;
+CompanyEvaluationTxt: Label 'Company Evaluation:%1', Comment = '%1 = Company Evaluation', Locked = true;
 
     local procedure EnableAssistedCompanySetup(SetupCompanyName: Text[30]; AssistedSetupEnabled: Boolean)
     var

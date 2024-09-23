@@ -16,7 +16,7 @@ using Microsoft.Sales.Customer;
 
 page 7208 "CDS Full Synch. Review"
 {
-    Caption = 'Dataverse Full Synchronization Review', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Full Synchronization Review', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     Editable = false;
     PageType = List;
     SourceTable = "CRM Full Synch. Review Line";
@@ -51,7 +51,7 @@ page 7208 "CDS Full Synch. Review"
                 {
                     ApplicationArea = Suite;
                     Caption = 'Dataverse', Locked = true;
-                    ToolTip = 'Open the selected page and present the existing Dataverse records.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+ToolTip = 'Open the selected page and present the existing Dataverse records.', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
                     Width = 10;
                     trigger OnDrillDown()
                     begin

@@ -30,16 +30,16 @@ codeunit 1380 "Batch Processing Mgt."
         IsHandled: Boolean;
         KeepParameters: Boolean;
 
-        PostingTemplateMsg: Label 'Processing: @1@@@@@@@', Comment = '1 - overall progress';
+PostingTemplateMsg: Label 'Processing: @1@@@@@@@', Comment = '1 - overall progress';
         ProcessingCodeunitNotSetErr: Label 'A processing codeunit has not been selected.';
         BatchCompletedMsg: Label 'All of your selections were processed.';
         TelemetryCategoryTxt: Label 'GenJournal', Locked = true;
         GenJournalPostFailedTxt: Label 'General journal posting failed. Journal Template: %1, Journal Batch: %2', Locked = true;
-        InterCompanyZipFileNamePatternTok: Label 'General Journal IC Batch - %1.zip', Comment = '%1 - today date, Sample: Sales IC Batch - 23-01-2024.zip';
-        BatchProcessingTxt: Label 'Batch processing of %1 records.', Comment = '%1 - a table caption';
-        ProcessingMsg: Label 'Executing codeunit %1 on record %2.', Comment = '%1 - codeunit id,%2 - record id';
-        ProcessConfirmWithSkipQst: Label 'You have selected multiple documents for processing. \Some of the documents are not available and will be skipped. (Selected %1, Skipping %2)\\Do you want to continue?', Comment = '%1=integer(number of rows selected) %2=integer(number of rows skipped)';
-        ProcessConfirmWithoutSkipQst: Label 'You have selected multiple documents for processing. (Selected %1, Skipping 0)\\Do you want to continue?', Comment = '%1=integer(number of rows selected)';
+InterCompanyZipFileNamePatternTok: Label 'General Journal IC Batch - %1.zip', Comment = '%1 - today date, Sample: Sales IC Batch - 23-01-2024.zip';
+BatchProcessingTxt: Label 'Batch processing of %1 records.', Comment = '%1 - a table caption';
+ProcessingMsg: Label 'Executing codeunit %1 on record %2.', Comment = '%1 - codeunit id,%2 - record id';
+ProcessConfirmWithSkipQst: Label 'You have selected multiple documents for processing. \Some of the documents are not available and will be skipped. (Selected %1, Skipping %2)\\Do you want to continue?', Comment = '%1=integer(number of rows selected) %2=integer(number of rows skipped)';
+ProcessConfirmWithoutSkipQst: Label 'You have selected multiple documents for processing. (Selected %1, Skipping 0)\\Do you want to continue?', Comment = '%1=integer(number of rows selected)';
         NotARecordErr: Label 'Something went wrong and we could not complete the process. Contact your administrator for assistance.';
 
     procedure BatchProcess(var RecRef: RecordRef)

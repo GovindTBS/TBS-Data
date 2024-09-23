@@ -656,7 +656,7 @@ report 410 "Blanket Purchase Order"
         ArchiveDocument: Boolean;
         LogInteractionEnable: Boolean;
 
-        Text002: Label 'Blanket Purchase Order %1', Comment = '%1 = Document No.';
+Text002: Label 'Blanket Purchase Order %1', Comment = '%1 = Document No.';
         CompanyInfoPhoneNoCaptionLbl: Label 'Phone No.';
         CompanyInfoVATRegistrationNoCaptionLbl: Label 'VAT Registration No.';
         CompanyInfoGiroNoCaptionLbl: Label 'Giro No.';

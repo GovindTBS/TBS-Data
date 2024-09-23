@@ -32,8 +32,8 @@ page 9103 "Pending Approval FactBox"
             field(Comment; ApprovalCommentLine.Comment)
             {
                 ApplicationArea = Suite;
-                Caption = 'Comment';
-                ToolTip = 'Specifies a comment that applies to the approval entry.';
+Caption = 'Comment';
+ToolTip = 'Specifies a comment that applies to the approval entry.';
 
                 trigger OnDrillDown()
                 var

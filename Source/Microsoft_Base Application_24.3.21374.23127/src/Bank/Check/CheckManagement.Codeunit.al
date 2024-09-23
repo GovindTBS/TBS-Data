@@ -43,11 +43,11 @@ codeunit 367 CheckManagement
         NextCheckEntryNo: Integer;
         AppliesIDCounter: Integer;
 
-        CheckAlreadyExistsErr: Label 'Check %1 already exists for this %2.', Comment = '%1=The check number., %2=The Bank Account table name.';
-        VoidingCheckMsg: Label 'Voiding check %1.', Comment = '%1=The check number being voided.';
+CheckAlreadyExistsErr: Label 'Check %1 already exists for this %2.', Comment = '%1=The check number., %2=The Bank Account table name.';
+VoidingCheckMsg: Label 'Voiding check %1.', Comment = '%1=The check number being voided.';
         VoidingCheckErr: Label 'You cannot Financially Void checks posted in a non-balancing transaction.';
-        PaymentOrRefundErr: Label '%1 must be either %2 or %3.', Comment = '%1=Document Type for the payment., %2=Payment Document Type., %3=Refund Document Type.';
-        BankAccountTypeErr: Label 'Either the %1 or the %2 must refer to a Bank Account.', Comment = '%1=Account type., %2=Balancing Account type.';
+PaymentOrRefundErr: Label '%1 must be either %2 or %3.', Comment = '%1=Document Type for the payment., %2=Payment Document Type., %3=Refund Document Type.';
+BankAccountTypeErr: Label 'Either the %1 or the %2 must refer to a Bank Account.', Comment = '%1=Account type., %2=Balancing Account type.';
         NoAppliedEntryErr: Label 'Cannot find an applied entry within the specified filter.';
 
     procedure InsertCheck(var CheckLedgEntry: Record "Check Ledger Entry"; RecordIdToPrint: RecordID)

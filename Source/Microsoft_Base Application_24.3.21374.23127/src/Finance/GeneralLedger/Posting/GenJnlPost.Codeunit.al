@@ -31,7 +31,7 @@ codeunit 231 "Gen. Jnl.-Post"
         Text003: Label 'The journal lines were successfully posted.';
         Text004: Label 'The journal lines were successfully posted. You are now in the %1 journal.';
         Text005: Label 'Using %1 for Declining Balance can result in misleading numbers for subsequent years. You should manually check the postings and correct them if necessary. Do you want to continue?';
-        Text006: Label '%1 in %2 must not be equal to %3 in %4.', Comment = 'Source Code in Genenral Journal Template must not be equal to Job G/L WIP in Source Code Setup.';
+Text006: Label '%1 in %2 must not be equal to %3 in %4.', Comment = 'Source Code in Genenral Journal Template must not be equal to Job G/L WIP in Source Code Setup.';
         GenJnlsScheduled: Boolean;
         PreviewMode: Boolean;
 

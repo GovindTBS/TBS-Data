@@ -84,31 +84,31 @@ page 460 "Purchases & Payables Setup"
                 {
                     ApplicationArea = Suite;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from blanket purchase orders to purchase orders.';
+ToolTip = 'Specifies whether to copy comments from blanket purchase orders to purchase orders.';
                 }
                 field("Copy Comments Order to Invoice"; Rec."Copy Comments Order to Invoice")
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from purchase orders to purchase invoices.';
+ToolTip = 'Specifies whether to copy comments from purchase orders to purchase invoices.';
                 }
                 field("Copy Comments Order to Receipt"; Rec."Copy Comments Order to Receipt")
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from purchase orders to receipts.';
+ToolTip = 'Specifies whether to copy comments from purchase orders to receipts.';
                 }
                 field("Copy Cmts Ret.Ord. to Cr. Memo"; Rec."Copy Cmts Ret.Ord. to Cr. Memo")
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies whether to copy comments from purchase return orders to purchase credit memos.';
+ToolTip = 'Specifies whether to copy comments from purchase return orders to purchase credit memos.';
                 }
                 field("Copy Cmts Ret.Ord. to Ret.Shpt"; Rec."Copy Cmts Ret.Ord. to Ret.Shpt")
                 {
                     ApplicationArea = Comments;
                     Importance = Additional;
-                    ToolTip = 'Specifies that comments are copied from the purchase return order to the posted return shipment.';
+ToolTip = 'Specifies that comments are copied from the purchase return order to the posted return shipment.';
                 }
                 field("Exact Cost Reversing Mandatory"; Rec."Exact Cost Reversing Mandatory")
                 {

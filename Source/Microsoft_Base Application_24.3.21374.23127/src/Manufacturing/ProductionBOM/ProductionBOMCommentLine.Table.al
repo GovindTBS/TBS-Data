@@ -2,7 +2,7 @@ namespace Microsoft.Manufacturing.ProductionBOM;
 
 table 99000776 "Production BOM Comment Line"
 {
-    Caption = 'Production BOM Comment Line';
+Caption = 'Production BOM Comment Line';
     DrillDownPageID = "Prod. BOM Comment List";
     LookupPageID = "Prod. BOM Comment List";
     DataClassification = CustomerContent;
@@ -37,7 +37,7 @@ table 99000776 "Production BOM Comment Line"
         }
         field(12; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(13; "Code"; Code[10])
         {

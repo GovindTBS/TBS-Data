@@ -25,7 +25,7 @@ codeunit 426 "Payment Tolerance Management"
 
     var
         CurrExchRate: Record "Currency Exchange Rate";
-        AccTypeOrBalAccTypeIsIncorrectErr: Label 'The value in either the Account Type field or the Bal. Account Type field is wrong.\\ The value must be %1.', Comment = '%1 = Customer or Vendor';
+AccTypeOrBalAccTypeIsIncorrectErr: Label 'The value in either the Account Type field or the Bal. Account Type field is wrong.\\ The value must be %1.', Comment = '%1 = Customer or Vendor';
         SuppressCommit: Boolean;
         SuppressWarning: Boolean;
 

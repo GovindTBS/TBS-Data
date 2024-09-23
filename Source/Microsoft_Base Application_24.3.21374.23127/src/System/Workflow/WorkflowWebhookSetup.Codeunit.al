@@ -21,7 +21,7 @@ codeunit 1540 "Workflow Webhook Setup"
         SalesDocCategoryTxt: Label 'SALESDOC', Locked = true;
         SalesDocApprovalDescriptionTxt: Label 'Sales Document Approval Workflow', Locked = true;
         SalesMktCategoryTxt: Label 'SALES', Locked = true;
-        UnsupportedWorkflowEventCodeErr: Label 'Unsupported workflow event code ''%1''.', Comment = '%1=Workflow event code';
+UnsupportedWorkflowEventCodeErr: Label 'Unsupported workflow event code ''%1''.', Comment = '%1=Workflow event code';
         VendorApprovalDescriptionTxt: Label 'Vendor Approval Workflow', Locked = true;
 
     [Scope('OnPrem')]

@@ -18,13 +18,13 @@ codeunit 85 "Sales Post Batch via Job Queue"
     end;
 
     var
-        UnpostedDocumentsErr: Label '%1 sales documents out of %2 have errors during posting.', Comment = '%1 - number of documents with errors, %2 - total number of documents';
-        UnprintedDocumentsErr: Label '%1 sales documents out of %2 have errors during printing.', Comment = '%1 - number of documents with errors, %2 - total number of documents';
+UnpostedDocumentsErr: Label '%1 sales documents out of %2 have errors during posting.', Comment = '%1 - number of documents with errors, %2 - total number of documents';
+UnprintedDocumentsErr: Label '%1 sales documents out of %2 have errors during printing.', Comment = '%1 - number of documents with errors, %2 - total number of documents';
         DefaultCategoryCodeLbl: Label 'SALESBCKGR', Locked = true;
         DefaultCategoryDescLbl: Label 'Def. Background Sales Posting', Locked = true;
         PostingDescriptionTxt: Label 'Post sales documents batch.';
         PostAndPrintDescriptionTxt: Label 'Post and print sales documents batch.';
-        PrintingDescriptionTxt: Label 'Print Sales %1 No. %2', Comment = '%1 - document type, %2 - document no.';
+PrintingDescriptionTxt: Label 'Print Sales %1 No. %2', Comment = '%1 - document type, %2 - document no.';
 
     local procedure PostSalesBatch(var JobQueueEntry: Record "Job Queue Entry")
     var

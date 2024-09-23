@@ -505,8 +505,8 @@ report 7050 "Item Price List"
         SourceNoCtrlEnable: Boolean;
         InclTok: Label 'Incl.';
         ExclTok: Label 'Excl.';
-        PageTok: Label 'Page %1', Comment = '%1 - a page number';
-        AsOfTok: Label 'As of %1', Comment = '%1 - a date';
+PageTok: Label 'Page %1', Comment = '%1 - a page number';
+AsOfTok: Label 'As of %1', Comment = '%1 - a date';
         MissSourceNoErr: Label 'You must specify an Assign-to, if the Assign-to Type is different from All Customers.';
         PriceListCaptionLbl: Label 'Price List';
         CompanyInfoPhoneNoCaptionLbl: Label 'Phone No.';

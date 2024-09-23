@@ -695,11 +695,11 @@ codeunit 2679 "Purchase Alloc. Acc. Mgt."
 
     var
         AllocationAccountMustOnlyDistributeToGLAccountsErr: Label 'The allocation account must contain G/L accounts as distribution accounts.';
-        CannotGetAllocationAccountFromLineErr: Label 'Cannot get allocation account from Purchase line %1.', Comment = '%1 - Line No., it is an integer that identifies the line e.g. 10000, 200000.';
-        NoLinesGeneratedLbl: Label 'No allocation account lines were generated for Purchase line %1.', Comment = '%1 - Unique identification of the line.';
+CannotGetAllocationAccountFromLineErr: Label 'Cannot get allocation account from Purchase line %1.', Comment = '%1 - Line No., it is an integer that identifies the line e.g. 10000, 200000.';
+NoLinesGeneratedLbl: Label 'No allocation account lines were generated for Purchase line %1.', Comment = '%1 - Unique identification of the line.';
         ChangeDimensionsOnAllocationDistributionsQst: Label 'The line is connected to the Allocation Account. Any dimensions that you change through this action will be merged with dimensions that are defined on the Allocation Line. To change the final dimensions you should invoke the Redistribute Account Allocations action.\\Do you want to continue?';
         DeleteManualOverridesQst: Label 'Modifying the line will delete all manual overrides for allocation account.\\Do you want to continue?';
-        InvalidAccountTypeForInheritFromParentErr: Label 'Selected account type - %1 cannot be used for allocation accounts that have inherit from parent defined.', Comment = '%1 - Account type, e.g. G/L Account, Customer, Vendor, Bank Account, Fixed Asset, Item, Resource, Charge, Project, or Blank.';
+InvalidAccountTypeForInheritFromParentErr: Label 'Selected account type - %1 cannot be used for allocation accounts that have inherit from parent defined.', Comment = '%1 - Account type, e.g. G/L Account, Customer, Vendor, Bank Account, Fixed Asset, Item, Resource, Charge, Project, or Blank.';
         MustProvideAccountNoForInheritFromParentErr: Label 'You must provide an account number for allocation account with inherit from parent defined.';
         ReplaceAllocationLinesBeforeSendingToApprovalErr: Label 'You must replace allocation lines before sending the document to approval.';
         ReplaceAllocationLinesBeforeSendingToApprovalQst: Label 'Document contains allocation lines.\\Do you want to replace them before sending the document to approval?';

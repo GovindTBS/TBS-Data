@@ -49,7 +49,7 @@ table 5877 "Phys. Invt. Record Header"
             CalcFormula = exist("Phys. Invt. Comment Line" where("Document Type" = const(Recording),
                                                                   "Order No." = field("Order No."),
                                                                   "Recording No." = field("Recording No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -169,8 +169,8 @@ table 5877 "Phys. Invt. Record Header"
     end;
 
     var
-        CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = Table caption';
-        CannotChangeErr: Label 'You cannot change the %1.', Comment = '%1 = Field caption';
+CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = Table caption';
+CannotChangeErr: Label 'You cannot change the %1.', Comment = '%1 = Field caption';
         PhysInvtRecordHeader: Record "Phys. Invt. Record Header";
         PhysInvtRecordLine: Record "Phys. Invt. Record Line";
         PhysInvtOrderHeader: Record "Phys. Invt. Order Header";

@@ -296,7 +296,7 @@ report 10116 "Vendor 1099 Misc 2020"
         PageGroupNo: Integer;
         VendorNo: Integer;
         ValidYearErr: Label 'You must enter a valid year, eg 1998.';
-        UnknownMiscCodeErr: Label 'Invoice %1 on vendor %2 has unknown 1099 miscellaneous code  %3.', Comment = '%1 = invoice "Entry No.", %2 = "Vendor No.", %3 = misc Code';
+UnknownMiscCodeErr: Label 'Invoice %1 on vendor %2 has unknown 1099 miscellaneous code  %3.', Comment = '%1 = invoice "Entry No.", %2 = "Vendor No.", %3 = misc Code';
 
     procedure ProcessVendorInvoices(VendorNo: Code[20]; PeriodDate: array[2] of Date)
     var

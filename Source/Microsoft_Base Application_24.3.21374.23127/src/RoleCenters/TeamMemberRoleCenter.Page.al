@@ -35,7 +35,7 @@ using System.Email;
 
 page 9028 "Team Member Role Center"
 {
-    Caption = 'Team Member', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
+Caption = 'Team Member', Comment = 'Use same translation as ''Profile Description'' (if applicable)';
     PageType = RoleCenter;
 
     layout

@@ -564,11 +564,11 @@ report 5753 "Get Source Documents"
         SuppressCommit: Boolean;
 
         Text000Err: Label 'There are no warehouse receipt lines created.';
-        Text001Msg: Label '%1 %2 has been created.', comment = '%1 = ActivitiesCreated %2 = WhseReceiptHeader.TableCaption() + SpecialHandlingMessage';
-        Text002Msg: Label '%1 warehouse receipts have been created.', comment = '%1 = ActivitiesCreated + SpecialHandlingMessage';
+Text001Msg: Label '%1 %2 has been created.', comment = '%1 = ActivitiesCreated %2 = WhseReceiptHeader.TableCaption() + SpecialHandlingMessage';
+Text002Msg: Label '%1 warehouse receipts have been created.', comment = '%1 = ActivitiesCreated + SpecialHandlingMessage';
         Text003Err: Label 'There are no warehouse shipment lines created.';
-        Text004Msg: Label '%1 warehouse shipments have been created.', comment = '%1 = ActivitiesCreated + SpecialHandlingMessage';
-        Text005Err: Label 'One or more of the lines on this %1 require special warehouse handling. The %2 for such lines has been set to blank.', comment = '%1 = WhseReceiptHeader.TableCaption, %2 = WhseReceiptLine.FieldCaption("Bin Code")';
+Text004Msg: Label '%1 warehouse shipments have been created.', comment = '%1 = ActivitiesCreated + SpecialHandlingMessage';
+Text005Err: Label 'One or more of the lines on this %1 require special warehouse handling. The %2 for such lines has been set to blank.', comment = '%1 = WhseReceiptHeader.TableCaption, %2 = WhseReceiptLine.FieldCaption("Bin Code")';
         NoNewReceiptLinesForPurchaseOrderErr: Label 'This usually happens when warehouse receipt lines have already been created for a purchase order. Or if there were no changes to the purchase order quantities since you last created the warehouse receipt lines.';
         NoNewReceiptLinesForPurchaseReturnErr: Label 'This usually happens when warehouse receipt lines have already been created for a purchase return order. Or if there were no changes to the purchase return order quantities since you last created the warehouse receipt lines.';
         Text007Err: Label 'There are no new warehouse receipt lines to create';
@@ -576,7 +576,7 @@ report 5753 "Get Source Documents"
         NoNewShipmentLinesForSalesReturnErr: Label 'This usually happens when warehouse shipment lines have already been created for a sales return order. Or there were no changes to sales return order quantities since you last created the warehouse shipment lines.';
         Text010Err: Label 'There are no new warehouse shipment lines to create';
         ShowOpenLinesTxt: Label 'Show open lines';
-        CustomerIsBlockedMsg: Label '%1 source documents were not included because the customer is blocked.', Comment = '%1 = no. of source documents.';
+CustomerIsBlockedMsg: Label '%1 source documents were not included because the customer is blocked.', Comment = '%1 = no. of source documents.';
         ShowOpenShipmentLinesTooltipTxt: Label 'Shows open warehouse shipment lines already created for this document.';
         ShowOpenReceiptLinesTooltipTxt: Label 'Shows open warehouse receipt lines already created for this document.';
 

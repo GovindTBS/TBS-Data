@@ -59,8 +59,8 @@ page 1627 "Office No Customer Dlg"
     }
 
     var
-        CustDialogLbl: Label 'Cannot find an existing customer that matches the contact %1. Do you want to create a new customer based on this contact?', Comment = '%1 = Contact name';
-        CreateCustLbl: Label 'Create a customer record for %1', Comment = '%1 = Contact name';
+CustDialogLbl: Label 'Cannot find an existing customer that matches the contact %1. Do you want to create a new customer based on this contact?', Comment = '%1 = Contact name';
+CreateCustLbl: Label 'Create a customer record for %1', Comment = '%1 = Contact name';
         ViewCustListLbl: Label 'View customer list';
 }
 

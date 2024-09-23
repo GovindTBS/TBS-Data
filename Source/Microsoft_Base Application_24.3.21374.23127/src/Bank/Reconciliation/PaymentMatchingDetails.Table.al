@@ -50,7 +50,7 @@ table 1299 "Payment Matching Details"
     }
 
     var
-        MultipleMessagesTxt: Label '%1 message(s)', Comment = 'Used to show users how many messages is present. Text will be followed by actual messages text. %1 is number of messages.';
+MultipleMessagesTxt: Label '%1 message(s)', Comment = 'Used to show users how many messages is present. Text will be followed by actual messages text. %1 is number of messages.';
 
     procedure MergeMessages(BankAccReconciliationLine: Record "Bank Acc. Reconciliation Line"): Text
     var

@@ -619,14 +619,14 @@ report 1408 "Bank Acc. Recon. - Test"
         CurrencyCode: Code[20];
         PrintOutstandingTransactions: Boolean;
         ShouldShowOutstandingBankTransactions: Boolean;
-        StatementDateErr: Label '%1 must be specified.', Comment = '%1=Statement Date field caption';
-        StatementBalanceErr: Label '%1 is not equal to Total Balance.', Comment = '%1=Statement Ending Balance field caption';
-        TableValueWrongErr: Label '%1 must be %2 for %3 %4.', Comment = '%1=field caption;%2=field value;%3=table name caption;%4=field value';
-        TableValueEmptyErr: Label '%1 must not be empty for %2 %3.', Comment = '%1=field caption;%2=table name caption;%3=field value';
-        TableValueMissingErr: Label '%1 %2 does not exist.', Comment = '%1=table name caption;%2=table field name caption';
-        AmountWrongErr: Label '%1 must be %2.', Comment = '%1=field name caption;%2=field value';
+StatementDateErr: Label '%1 must be specified.', Comment = '%1=Statement Date field caption';
+StatementBalanceErr: Label '%1 is not equal to Total Balance.', Comment = '%1=Statement Ending Balance field caption';
+TableValueWrongErr: Label '%1 must be %2 for %3 %4.', Comment = '%1=field caption;%2=field value;%3=table name caption;%4=field value';
+TableValueEmptyErr: Label '%1 must not be empty for %2 %3.', Comment = '%1=field caption;%2=table name caption;%3=field value';
+TableValueMissingErr: Label '%1 %2 does not exist.', Comment = '%1=table name caption;%2=table field name caption';
+AmountWrongErr: Label '%1 must be %2.', Comment = '%1=field name caption;%2=field value';
         ApplicationErr: Label 'Application is wrong.';
-        TotalDifferenceErr: Label 'The total difference is %1. It must be %2.', Comment = '%1=field value;%2=field value';
+TotalDifferenceErr: Label 'The total difference is %1. It must be %2.', Comment = '%1=field value;%2=field value';
         Bank_Account_Statement___TestCaptionLbl: Label 'Bank Account Statement';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
         Bank_Acc__Reconciliation___Balance_Last_Statement_CaptionLbl: Label 'Balance Last Statement';
@@ -642,16 +642,16 @@ report 1408 "Bank Acc. Recon. - Test"
         Outstanding_PaymentsCaptionLbl: Label 'Outstanding Checks';
         Total_Outstanding_BankTransactionsCaptionLbl: Label 'Total Outstanding Bank Transactions';
         Total_Outstanding_PaymentsCaptionLbl: Label 'Total Outstanding Payments';
-        G_L_BalanceCaptionLbl: Label 'G/L Account No. %1 Balance (%2) - Calculated', Comment = '%1= Account number; %2= Currency symbol';
-        G_L_BalanceLCYCaptionLbl: Label 'G/L Account No. %1 Balance', Comment = '%1= Account number';
+G_L_BalanceCaptionLbl: Label 'G/L Account No. %1 Balance (%2) - Calculated', Comment = '%1= Account number; %2= Currency symbol';
+G_L_BalanceLCYCaptionLbl: Label 'G/L Account No. %1 Balance', Comment = '%1= Account number';
         Bank_Acc_BalanceCaptionLbl: Label 'Bank Account Balance';
         Ending_G_L_BalanceCaptionLbl: Label 'Ending G/L Balance';
         Subtotal_CaptionLbl: Label 'Subtotal';
         Difference_CaptionLbl: Label 'Sum of Differences';
         BankAccountBalanceLbl: Label 'Bank Account Balance';
-        AtLbl: Label ' at ', Comment = 'used to build the construct a string like balance at 31-12-2020';
+AtLbl: Label ' at ', Comment = 'used to build the construct a string like balance at 31-12-2020';
         Statement_BalanceCaptionLbl: Label 'Statement Balance';
-        PotentialUnstabilityDueToDirectPostingEntriesLbl: Label 'Bank reconciliation might not be possible because there are direct posting entries. For more information, see %1.', Comment = '%1= URL link';
+PotentialUnstabilityDueToDirectPostingEntriesLbl: Label 'Bank reconciliation might not be possible because there are direct posting entries. For more information, see %1.', Comment = '%1= URL link';
         DirectPostingURLLinkLbl: Label 'https://go.microsoft.com/fwlink/?linkid=2197950';
 
     local procedure AddError(Text: Text[250])

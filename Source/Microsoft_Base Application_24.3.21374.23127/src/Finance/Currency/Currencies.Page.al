@@ -386,7 +386,7 @@ page 5 Currencies
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCRMCoupling)
@@ -464,7 +464,7 @@ page 5 Currencies
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(SuggestAccounts_Promoted; SuggestAccounts)
                 {
@@ -484,7 +484,7 @@ page 5 Currencies
             }
             group(Category_Category4)
             {
-                Caption = 'Exchange Rate Service', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Exchange Rate Service', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(UpdateExchangeRates_Promoted; UpdateExchangeRates)
                 {
@@ -495,7 +495,7 @@ page 5 Currencies
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Synchronize)
             {

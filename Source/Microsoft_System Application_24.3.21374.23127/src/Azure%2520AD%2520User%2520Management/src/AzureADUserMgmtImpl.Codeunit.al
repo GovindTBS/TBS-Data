@@ -36,8 +36,8 @@ codeunit 9017 "Azure AD User Mgmt. Impl."
         AzureADGraphUser: Codeunit "Azure AD Graph User";
         AzureADGraph: Codeunit "Azure AD Graph";
         AzureADPlan: Codeunit "Azure AD Plan";
-        ProgressDlgMsg: Label 'Number of users retrieved: ''#1#################################\Current user name: ''#2#################################\', Comment = '%1 Integer number, %2 a user name';
-        NoOfUsersRetrievedMsg: Label 'Number of users retrieved: %1.', Comment = '%1=integer number';
+ProgressDlgMsg: Label 'Number of users retrieved: ''#1#################################\Current user name: ''#2#################################\', Comment = '%1 Integer number, %2 a user name';
+NoOfUsersRetrievedMsg: Label 'Number of users retrieved: %1.', Comment = '%1=integer number';
         UserCategoryTxt: Label 'AL User', Locked = true;
         CouldNotGetUserErr: Label 'Could not get a user.', Locked = true;
         UserTenantAdminMsg: Label 'User is a tenant admin.', Locked = true;
@@ -48,8 +48,8 @@ codeunit 9017 "Azure AD User Mgmt. Impl."
 #pragma warning restore AA0240
         UserSetupCategoryTxt: Label 'User Setup', Locked = true;
         UserCreatedMsg: Label 'User %1 has been created', Locked = true;
-        ProcessingUserTxt: Label 'Processing the user %1.', Comment = '%1 - Display name', Locked = true;
-        UserCannotBeDeletedAlreadyLoggedInErr: Label 'The user "%1" cannot be deleted because the user has been logged on to the system. To deactivate a user, set the user''s state to Disabled.', Comment = 'Shown when trying to delete a user that has been logged onto the system. %1 = UserName.';
+ProcessingUserTxt: Label 'Processing the user %1.', Comment = '%1 - Display name', Locked = true;
+UserCannotBeDeletedAlreadyLoggedInErr: Label 'The user "%1" cannot be deleted because the user has been logged on to the system. To deactivate a user, set the user''s state to Disabled.', Comment = 'Shown when trying to delete a user that has been logged onto the system. %1 = UserName.';
 
     [NonDebuggable]
     procedure Run(ForUserSecurityId: Guid)

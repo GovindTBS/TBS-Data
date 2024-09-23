@@ -84,8 +84,8 @@ report 1235 "Get File Structure"
         SuggestColDefinitionJson: Codeunit "Suggest Col. Definition - Json";
         FileType: Option " ",Xsd,Xml,Csv,Json;
         FilePath: Text;
-        FileTypeCannotBeSelectedErr: Label ' You cannot select %1 when File Type is %2 in %3.', Comment = '%1 is XML, JSON, etc, %2 is simlar to %1, and %3 will be Data Exch. Definition. ';
-        FileTypeNotSupportedErr: Label ' File type %1 is not supported.', Comment = '%1 is XML, JSON, etc';
+FileTypeCannotBeSelectedErr: Label ' You cannot select %1 when File Type is %2 in %3.', Comment = '%1 is XML, JSON, etc, %2 is simlar to %1, and %3 will be Data Exch. Definition. ';
+FileTypeNotSupportedErr: Label ' File type %1 is not supported.', Comment = '%1 is XML, JSON, etc';
 
     procedure Initialize(NewDataExchLineDef: Record "Data Exch. Line Def")
     begin

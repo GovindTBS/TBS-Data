@@ -263,7 +263,7 @@ report 92 "Import Consolidation from File"
         Text027: Label 'Reading File...';
         Text031: Label 'Import from File';
         Text036: Label 'Imported checksum (%1) does not equal the calculated checksum (%2). The file may be corrupt.';
-        FileFormatQst: Label 'The entered %1, %2, does not equal the %1 on this %3, %4.\Do you want to continue?', Comment = '%1 - field caption, %2 - field value, %3 - table captoin, %4 - field value';
+FileFormatQst: Label 'The entered %1, %2, does not equal the %1 on this %3, %4.\Do you want to continue?', Comment = '%1 - field caption, %2 - field value, %3 - table captoin, %4 - field value';
 
     procedure InitializeRequest(NewFileFormat: Option; NewFilePath: Text; NewGLDocNo: Code[20])
     begin

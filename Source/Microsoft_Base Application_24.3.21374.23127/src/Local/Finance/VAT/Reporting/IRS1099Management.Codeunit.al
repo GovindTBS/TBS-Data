@@ -24,14 +24,14 @@ codeunit 10500 "IRS 1099 Management"
 
     var
         BlockIfUpgradeNeededErr: Label 'You must update the form boxes in the 1099 Forms-Boxes window before you can run this report.';
-        UpgradeFormBoxesNotificationMsg: Label 'The list of 1099 form boxes is not up to date. Update: %1.', Comment = '%1 = year';
+UpgradeFormBoxesNotificationMsg: Label 'The list of 1099 form boxes is not up to date. Update: %1.', Comment = '%1 = year';
         UpgradeFormBoxesMsg: Label 'Upgrade the form boxes.';
         ScheduleUpgradeFormBoxesMsg: Label 'Schedule an update of the form boxes.';
         UpgradeFormBoxesScheduledMsg: Label 'A job queue entry has been created.\\Make sure Earliest Start Date/Time field in the Job Queue Entry Card window is correct, and then choose the Set Status to Ready action to schedule a background job.';
         ConfirmUpgradeNowQst: Label 'The update process can take a while and block other users activities. Do you want to start the update now?';
         FormBoxesUpgradedMsg: Label 'The 1099 form boxes are successfully updated.';
-        UnkownCodeErr: Label 'Invoice %1 for vendor %2 has unknown 1099 code %3.', Comment = '%1 = document number;%2 = vendor number;%3 = IRS 1099 code.';
-        IRS1099CodeHasNotBeenSetupErr: Label 'IRS1099 code %1 was not set up during the initialization.', Comment = '%1 = misc code';
+UnkownCodeErr: Label 'Invoice %1 for vendor %2 has unknown 1099 code %3.', Comment = '%1 = document number;%2 = vendor number;%3 = IRS 1099 code.';
+IRS1099CodeHasNotBeenSetupErr: Label 'IRS1099 code %1 was not set up during the initialization.', Comment = '%1 = misc code';
         February2020Lbl: Label 'February 2020';
         IRS1099ComplianceMsg: Label 'You are compliant with the latest format of 1099 reporting.';
         DontShowAgainTxt: Label 'Do not show again';

@@ -74,7 +74,7 @@ codeunit 5815 "Undo Sales Shipment Line"
         Text055: Label '#1#################################\\Checking Undo Assembly #2###########.';
         Text056: Label '#1#################################\\Posting Undo Assembly #2###########.';
         Text057: Label '#1#################################\\Finalizing Undo Assembly #2###########.';
-        Text059: Label '%1 %2 %3', Comment = '%1 = SalesShipmentLine."Document No.". %2 = SalesShipmentLine.FIELDCAPTION("Line No."). %3 = SalesShipmentLine."Line No.". This is used in a progress window.';
+Text059: Label '%1 %2 %3', Comment = '%1 = SalesShipmentLine."Document No.". %2 = SalesShipmentLine.FIELDCAPTION("Line No."). %3 = SalesShipmentLine."Line No.". This is used in a progress window.';
         AlreadyReversedErr: Label 'This shipment has already been reversed.';
 
     procedure SetHideDialog(NewHideDialog: Boolean)

@@ -157,7 +157,7 @@ page 5176 "Job Archive List"
                     RunPageLink = "Table Name" = const(Job),
                                   "No." = field("No."),
                                   "Version No." = field("Version No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -165,7 +165,7 @@ page 5176 "Job Archive List"
         {
             group(Category_Category5)
             {
-                Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Project', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Co&mments_Promoted"; "Co&mments")
                 {

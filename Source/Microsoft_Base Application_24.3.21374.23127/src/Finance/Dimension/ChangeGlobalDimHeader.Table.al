@@ -97,7 +97,7 @@ table 484 "Change Global Dim. Header"
 
     var
         GeneralLedgerSetup: Record "General Ledger Setup";
-        DimIsUsedInGLSetupErr: Label 'The dimension %1 is used in General Ledger Setup window as a shortcut dimension.', Comment = '%1 - a dimension code, like PROJECT';
+DimIsUsedInGLSetupErr: Label 'The dimension %1 is used in General Ledger Setup window as a shortcut dimension.', Comment = '%1 - a dimension code, like PROJECT';
 
     local procedure CalcChangeType(var ChangeType: Option "None",Blank,Replace,New; "Code": Code[20]; OldCode: Code[20]; OtherOldCode: Code[20])
     begin

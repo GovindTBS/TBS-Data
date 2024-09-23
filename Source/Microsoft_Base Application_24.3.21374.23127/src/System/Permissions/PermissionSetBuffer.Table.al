@@ -58,10 +58,10 @@ table 9009 "Permission Set Buffer"
     }
 
     var
-        IsTempErr: Label '%1 should only be used as a temporary record.', Comment = '%1 table caption';
+IsTempErr: Label '%1 should only be used as a temporary record.', Comment = '%1 table caption';
         CannotRenameTenantPermissionSetHavingUsageErr: Label 'You cannot rename a tenant permission set while it is used elsewhere, for example, in permission settings for a user or security group.';
         PermissionSetCategoryTxt: Label 'AL PermissionSet', Locked = true;
-        DuplicatePermissionSetTelemetryTxt: Label 'Two apps define a permission set with the same type and role: %1, %2. Apps: %3, %4', Comment = '%1 = type, %2 = role, %3 = first app name, %4 = second app name', Locked = true;
+DuplicatePermissionSetTelemetryTxt: Label 'Two apps define a permission set with the same type and role: %1, %2. Apps: %3, %4', Comment = '%1 = type, %2 = role, %3 = first app name, %4 = second app name', Locked = true;
 
     procedure SetType()
     begin

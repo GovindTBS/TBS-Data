@@ -161,7 +161,7 @@ page 859 "Cash Flow Manual Expenses"
         CashFlowManagement: Codeunit "Cash Flow Management";
         Recurrence: Option " ",Daily,Weekly,Monthly,Quarterly,Yearly;
         EndingDateEnabled: Boolean;
-        FromDatePrecedesToDateErr: Label '%1 must be later than the %2', Comment = '%1 = Field name end date; %2 = Field name start date';
+FromDatePrecedesToDateErr: Label '%1 must be later than the %2', Comment = '%1 = Field name end date; %2 = Field name start date';
 
     local procedure GetRecord()
     begin

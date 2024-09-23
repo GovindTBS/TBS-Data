@@ -164,7 +164,7 @@ page 8625 "Config. Package Subform"
                 field(Comments; Rec.Comments)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies a comment in which you can provide a description';
+ToolTip = 'Specifies a comment in which you can provide a description';
                 }
                 field("Created Date and Time"; Rec."Created Date and Time")
                 {
@@ -411,10 +411,10 @@ page 8625 "Config. Package Subform"
     end;
 
     var
-        MultipleTablesSelectedQst: Label '%1 tables have been selected. Do you want to continue?', Comment = '%1 = Number of selected tables';
+MultipleTablesSelectedQst: Label '%1 tables have been selected. Do you want to continue?', Comment = '%1 = Number of selected tables';
         Show: Option Records,Errors,All;
         NoOfErrorsStyleTxt: Text;
-        SingleTableSelectedQst: Label 'One table has been selected. Do you want to continue?', Comment = '%1 = Table name';
+SingleTableSelectedQst: Label 'One table has been selected. Do you want to continue?', Comment = '%1 = Table name';
         MultiRelationQst: Label 'Some fields have two or more related tables.\Do you want to check them?';
 
     protected var

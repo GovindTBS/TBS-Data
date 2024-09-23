@@ -2,7 +2,7 @@ namespace Microsoft.Purchases.Archive;
 
 page 5179 "Purch. Archive Comment Sheet"
 {
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     Editable = false;
     PageType = List;
     SourceTable = "Purch. Comment Line Archive";
@@ -22,13 +22,13 @@ page 5179 "Purch. Archive Comment Sheet"
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the document line number of the quote or order to which the comment applies.';
+ToolTip = 'Specifies the document line number of the quote or order to which the comment applies.';
                     Visible = false;
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the line number for the comment.';
+ToolTip = 'Specifies the line number for the comment.';
                 }
             }
         }

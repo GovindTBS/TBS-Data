@@ -36,7 +36,7 @@ page 9155 "My Time Sheets"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies any comments about the assignment.';
+ToolTip = 'Specifies any comments about the assignment.';
                 }
             }
         }

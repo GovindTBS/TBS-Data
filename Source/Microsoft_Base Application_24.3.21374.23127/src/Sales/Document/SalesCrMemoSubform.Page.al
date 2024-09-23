@@ -56,7 +56,7 @@ page 96 "Sales Cr. Memo Subform"
                     Editable = CurrPageIsEditable;
                     LookupPageID = "Option Lookup List";
                     TableRelation = "Option Lookup Buffer"."Option Caption" where("Lookup Type" = const(Sales));
-                    ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
+ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
                     Visible = IsFoundation;
 
                     trigger OnValidate()
@@ -996,7 +996,7 @@ page 96 "Sales Cr. Memo Subform"
                     ApplicationArea = Comments;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     begin
@@ -1216,7 +1216,7 @@ page 96 "Sales Cr. Memo Subform"
         ItemChargeStyleExpression: Text;
         UseAllocationAccountNumber: Boolean;
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Type.';
-        ExcelFileNameTxt: Label 'Sales Credit Memo %1 - Lines', Comment = '%1 = document number, ex. 10000';
+ExcelFileNameTxt: Label 'Sales Credit Memo %1 - Lines', Comment = '%1 = document number, ex. 10000';
 
     protected var
         Currency: Record Currency;

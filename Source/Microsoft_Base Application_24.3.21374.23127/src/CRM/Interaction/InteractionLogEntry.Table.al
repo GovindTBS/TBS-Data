@@ -221,7 +221,7 @@ table 5065 "Interaction Log Entry"
         field(43; Comment; Boolean)
         {
             CalcFormula = exist("Inter. Log Entry Comment Line" where("Entry No." = field("Entry No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -345,8 +345,8 @@ table 5065 "Interaction Log Entry"
         Text009: Label 'Do you want to remove Attachment?';
         Text010: Label 'Do you want to remove unique Attachments for the selected lines?';
         Text011: Label 'Very Positive,Positive,Neutral,Negative,Very Negative';
-        TitleFromLbl: Label '%1 - from %2', Comment = '%1 - document description, %2 - name';
-        TitleByLbl: Label '%1 - by %2', Comment = '%1 - document description, %2 - name';
+TitleFromLbl: Label '%1 - from %2', Comment = '%1 - document description, %2 - name';
+TitleByLbl: Label '%1 - by %2', Comment = '%1 - document description, %2 - name';
         OpenMessageQst: Label 'You are about to open an email message in Outlook Online. Email messages might contain harmful content. Use caution when interacting with the message. Do you want to continue?';
 
     procedure InsertRecord()

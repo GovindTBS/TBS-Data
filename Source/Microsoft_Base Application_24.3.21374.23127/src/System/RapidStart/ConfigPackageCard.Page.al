@@ -273,7 +273,7 @@ page 8614 "Config. Package Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ApplyPackage_Promoted; ApplyPackage)
                 {
@@ -314,16 +314,16 @@ page 8614 "Config. Package Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Package', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Package', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -444,13 +444,13 @@ report 1003 "Post Invt. Cost to G/L - Test"
     end;
 
     var
-        EnterWhenPostingErr: Label 'Please enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
-        DoNotEnterWhenPostingErr: Label 'Do not enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
-        FieldCombinationErr: Label 'The following combination %1 = %2, %3 = %4, and %5 = %6 is not allowed.', Comment = '%1, %3, %5 - field captions, %2, %4, %6 - field values';
-        PostedPostingTypeTxt: Label 'Posted %1', Comment = '%1 - posting type';
+EnterWhenPostingErr: Label 'Please enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
+DoNotEnterWhenPostingErr: Label 'Do not enter a %1 when posting %2.', Comment = '%1 - field caption, %2 - posting type';
+FieldCombinationErr: Label 'The following combination %1 = %2, %3 = %4, and %5 = %6 is not allowed.', Comment = '%1, %3, %5 - field captions, %2, %4, %6 - field values';
+PostedPostingTypeTxt: Label 'Posted %1', Comment = '%1 - posting type';
         PostingTypeTxt: Label 'per Posting Group,per Entry';
-        DoesNotExistErr: Label '%1 %2 does not exist.', Comment = '%1 - field caption, %2 - field value';
-        MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 and %3 - field captions, %2 and %4 - field values';
+DoesNotExistErr: Label '%1 %2 does not exist.', Comment = '%1 - field caption, %2 - field value';
+MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 and %3 - field captions, %2 and %4 - field values';
         GLSetup: Record "General Ledger Setup";
         GLAcc: Record "G/L Account";
         TempInvtPostToGLTestBuf: Record "Invt. Post to G/L Test Buffer" temporary;
@@ -474,7 +474,7 @@ report 1003 "Post Invt. Cost to G/L - Test"
         ShowOnlyWarnings: Boolean;
         ErrorCounter: Integer;
         IsJournalTemplNameVisible: Boolean;
-        SetupBlockedErr: Label 'Setup is blocked in %1 for %2 %3 and %4 %5.', Comment = '%1 - General/Inventory Posting Setup, %2 %3 %4 %5 - posting groups.';
+SetupBlockedErr: Label 'Setup is blocked in %1 for %2 %3 and %4 %5.', Comment = '%1 - General/Inventory Posting Setup, %2 %3 %4 %5 - posting groups.';
         Text011: Label '%1 is missing for %2 %3 and %4 %5.';
         Text012: Label '%1 is missing in %2, %3 %4.';
         Text013: Label '%1 must be false, if %2 is not Direct Cost or Revaluation.';
@@ -495,7 +495,7 @@ report 1003 "Post Invt. Cost to G/L - Test"
         ItemValueEntry__Item_No__CaptionLbl: Label 'Item No.';
         DimensionsCaptionLbl: Label 'Dimensions';
         ErrorText_Number_CaptionLbl: Label 'Warning!';
-        MissingJournalFieldErr: Label 'Please enter a %1 when posting inventory cost to G/L.', Comment = '%1 - field caption';
+MissingJournalFieldErr: Label 'Please enter a %1 when posting inventory cost to G/L.', Comment = '%1 - field caption';
 
     local procedure FillInvtPostToGLTestBuf(ValueEntry: Record "Value Entry")
     var

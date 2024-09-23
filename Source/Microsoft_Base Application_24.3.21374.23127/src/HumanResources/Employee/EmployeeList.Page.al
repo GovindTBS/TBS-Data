@@ -137,7 +137,7 @@ page 5201 "Employee List"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies if a comment has been entered for this entry.';
+ToolTip = 'Specifies if a comment has been entered for this entry.';
                 }
             }
         }
@@ -178,7 +178,7 @@ page 5201 "Employee List"
                     RunObject = Page "Human Resource Comment Sheet";
                     RunPageLink = "Table Name" = const(Employee),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {

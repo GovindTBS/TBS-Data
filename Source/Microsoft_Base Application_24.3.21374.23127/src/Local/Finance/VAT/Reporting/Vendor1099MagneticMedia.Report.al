@@ -640,8 +640,8 @@ report 10115 "Vendor 1099 Magnetic Media"
         Text007: Label 'You must enter a valid year, eg 1993.';
         ClientFileNameTxt: Label 'IRSTAX.txt';
         ExportingTxt: Label 'Exporting...\';
-        ProcessTransactionsARecTxt: label 'Processing transactions for A records: #1###', Comment = '#1 - percent of processed vendors';
-        ProcessTransactionsBRecTxt: label 'Processing transactions for B records: #1###', Comment = '#1 - percent of processed vendors';
+ProcessTransactionsARecTxt: label 'Processing transactions for A records: #1###', Comment = '#1 - percent of processed vendors';
+ProcessTransactionsBRecTxt: label 'Processing transactions for B records: #1###', Comment = '#1 - percent of processed vendors';
         MagMediaTok: Label 'MagMediaTelemetryCategoryTok', Locked = true;
         RunMagMediaReportMsg: Label 'Run magnetic media report', Locked = true;
         MiscCodeTok: Label 'MISC-', Locked = true;

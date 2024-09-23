@@ -16,11 +16,11 @@ codeunit 1252 "Match Bank Rec. Lines"
 
     var
         MatchSummaryMsg: Label '%1 reconciliation lines out of %2 are matched.\\';
-        MatchDetailsTxt: Label 'This statement line matched the corresponding bank account ledger entry on the following fields: %1.', Comment = '%1 - a comma-separated list of field captions.';
+MatchDetailsTxt: Label 'This statement line matched the corresponding bank account ledger entry on the following fields: %1.', Comment = '%1 - a comma-separated list of field captions.';
         MatchedManuallyTxt: Label 'This statement line was matched manually.';
         MissingMatchMsg: Label 'Text shorter than %1 characters cannot be matched.';
         ProgressBarMsgTemplateTok: Label '#1##############################', Locked = true;
-        ProgressBarUpdateTxt: Label 'Processed %1 statement lines.', Comment = '%1 - an integer';
+ProgressBarUpdateTxt: Label 'Processed %1 statement lines.', Comment = '%1 - an integer';
         ProgressBarMsg: Label 'Please wait while the operation is being completed.';
         ManyToManyNotSupportedErr: Label 'Many-to-Many matchings are not supported';
         OverwriteExistingMatchesTxt: Label 'There are lines in this statement that are already matched with ledger entries.\\ Do you want to overwrite the existing matches?';

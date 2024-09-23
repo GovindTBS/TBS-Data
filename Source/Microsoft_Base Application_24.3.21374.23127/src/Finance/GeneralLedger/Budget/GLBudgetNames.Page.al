@@ -129,7 +129,7 @@ page 121 "G/L Budget Names"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(EditBudget_Promoted; EditBudget)
                 {
@@ -140,7 +140,7 @@ page 121 "G/L Budget Names"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
             }
         }

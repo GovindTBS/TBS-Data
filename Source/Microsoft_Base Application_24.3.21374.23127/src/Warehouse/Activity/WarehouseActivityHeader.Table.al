@@ -123,7 +123,7 @@ table 5766 "Warehouse Activity Header"
             CalcFormula = exist("Warehouse Comment Line" where("Table Name" = const("Whse. Activity Header"),
                                                                 Type = field(Type),
                                                                 "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -478,9 +478,9 @@ table 5766 "Warehouse Activity Header"
         InvtSetup: Record "Inventory Setup";
         NoSeries: Codeunit "No. Series";
         Text000: Label 'You cannot rename a %1.';
-        SetUpWarehouseEmployeeInLocationErr: Label 'You must first set up user %1 as a warehouse employee. %2 %3', Comment = '%1 - user ID, %2 - caption, %3 - location code.';
+SetUpWarehouseEmployeeInLocationErr: Label 'You must first set up user %1 as a warehouse employee. %2 %3', Comment = '%1 - user ID, %2 - caption, %3 - location code.';
         Text002: Label 'You cannot change %1 because one or more lines exist.';
-        NotSupportedSourceDocumentTypeErr: Label 'Source Document type %1 is not supported.', Comment = '%1 - source document type, like Sales Order.';
+NotSupportedSourceDocumentTypeErr: Label 'Source Document type %1 is not supported.', Comment = '%1 - source document type, like Sales Order.';
 
     procedure AssistEdit(OldWhseActivHeader: Record "Warehouse Activity Header"): Boolean
     begin

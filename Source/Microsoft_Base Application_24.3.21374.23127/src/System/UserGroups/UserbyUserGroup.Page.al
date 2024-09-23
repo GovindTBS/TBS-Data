@@ -255,11 +255,11 @@ page 9838 "User by User Group"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Browse', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Browse', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(AllColumnsLeft_Promoted; AllColumnsLeft)
                 {

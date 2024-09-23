@@ -17,28 +17,28 @@ page 1613 "Exchange Client Credentials"
             label(SpecifyClientIdAndSecret)
             {
                 ApplicationArea = RelationshipMgmt;
-                Caption = 'Specify the ID, application secret and redirect URL of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+Caption = 'Specify the ID, application secret and redirect URL of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
             }
             field(ClientId; Rec.Name)
             {
                 ApplicationArea = RelationshipMgmt;
                 ExtendedDatatype = EMail;
                 Caption = 'Client ID';
-                ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the ID of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
             }
             field(ClientSecret; Rec.Value)
             {
                 ApplicationArea = RelationshipMgmt;
                 ExtendedDatatype = Masked;
                 Caption = 'Client Secret';
-                ToolTip = 'Specifies the secret of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the secret of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
             }
             field(RedirectURL; Rec."Value Long")
             {
                 ApplicationArea = RelationshipMgmt;
                 ExtendedDatatype = URL;
                 Caption = 'Redirect URL';
-                ToolTip = 'Specifies the redirect URL of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
+ToolTip = 'Specifies the redirect URL of the Microsoft Entra application that will be used to connect to Exchange.', Comment = 'Exchange and Microsoft Entra are names of a Microsoft service and a Microsoft Azure resource and should not be translated.';
             }
         }
     }

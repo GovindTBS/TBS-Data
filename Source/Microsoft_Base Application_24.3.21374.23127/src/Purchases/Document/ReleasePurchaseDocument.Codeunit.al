@@ -30,7 +30,7 @@ codeunit 415 "Release Purchase Document"
         Text002: Label 'This document can only be released when the approval process is complete.';
         Text003: Label 'The approval process must be cancelled or completed to reopen this document.';
         Text005: Label 'There are unpaid prepayment invoices that are related to the document of type %1 with the number %2.';
-        UnpostedPrepaymentAmountsErr: Label 'There are unposted prepayment amounts on the document of type %1 with the number %2.', Comment = '%1 - Document Type; %2 - Document No.';
+UnpostedPrepaymentAmountsErr: Label 'There are unposted prepayment amounts on the document of type %1 with the number %2.', Comment = '%1 - Document Type; %2 - Document No.';
         PreviewMode: Boolean;
         SkipCheckReleaseRestrictions: Boolean;
         SkipWhseRequestOperations: Boolean;

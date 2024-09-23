@@ -23,7 +23,7 @@ codeunit 79 "Sales-Post and Send"
     var
         SalesHeader: Record "Sales Header";
         DocumentErrorsMgt: Codeunit "Document Errors Mgt.";
-        NotSupportedDocumentTypeErr: Label 'Document type %1 is not supported.', Comment = '%1=Document Type';
+NotSupportedDocumentTypeErr: Label 'Document type %1 is not supported.', Comment = '%1=Document Type';
 
     local procedure "Code"()
     var

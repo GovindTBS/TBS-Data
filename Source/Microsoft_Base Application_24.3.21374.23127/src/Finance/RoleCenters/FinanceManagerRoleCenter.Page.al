@@ -1334,7 +1334,7 @@ page 8901 "Finance Manager Role Center"
                     }
                     action("Customer Comment List")
                     {
-                        Caption = 'Customer Comment List';
+Caption = 'Customer Comment List';
                         RunObject = Report "Customer Comment List";
                     }
                     action("Customer Statement")
@@ -1880,7 +1880,7 @@ page 8901 "Finance Manager Role Center"
                     }
                     action("Vendor Comment List")
                     {
-                        Caption = 'Vendor Comment List';
+Caption = 'Vendor Comment List';
                         RunObject = Report "Vendor Comment List";
                     }
                     action("Purchase Statistics1")
@@ -2428,7 +2428,7 @@ page 8901 "Finance Manager Role Center"
                     }
                     action("Item Comment List")
                     {
-                        Caption = 'Item Comment List';
+Caption = 'Item Comment List';
                         RunObject = Report "Item Comment List";
                     }
                     action("Inventory Labels")

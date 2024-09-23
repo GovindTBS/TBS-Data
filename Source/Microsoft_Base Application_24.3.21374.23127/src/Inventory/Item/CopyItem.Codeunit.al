@@ -53,8 +53,8 @@ codeunit 730 "Copy Item"
         InventorySetup: Record "Inventory Setup";
         FirstItemNo: Code[20];
         LastItemNo: Code[20];
-        TargetItemDoesNotExistErr: Label 'Target item number %1 already exists.', Comment = '%1 - item number.';
-        ItemCopiedMsg: Label 'Item %1 was successfully copied.', Comment = '%1 - item number';
+TargetItemDoesNotExistErr: Label 'Target item number %1 already exists.', Comment = '%1 - item number.';
+ItemCopiedMsg: Label 'Item %1 was successfully copied.', Comment = '%1 - item number';
         ShowCreatedItemTxt: Label 'Show created item.';
         ShowCreatedItemsTxt: Label 'Show created items.';
 

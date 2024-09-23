@@ -279,7 +279,7 @@ report 5754 "Create Pick"
         Text001: Label 'Pick activity no. %1 has been created.';
         Text002: Label 'Pick activities no. %1 to %2 have been created.';
         NothingToHandleErr: Label 'There is nothing to handle. %1.';
-        SourceDocumentDoesNotExistErr: Label 'The %1 does not exist. Filters: %2.', Comment = '%1 = Table caption; %2 = filters';
+SourceDocumentDoesNotExistErr: Label 'The %1 does not exist. Filters: %2.', Comment = '%1 = Table caption; %2 = filters';
 
     protected var
         PickWhseWkshLine: Record "Whse. Worksheet Line";

@@ -3,7 +3,7 @@ namespace Microsoft.HumanResources.Employee;
 page 5234 "HR Confidential Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Confidential Comment Sheet';
+Caption = 'Confidential Comment Sheet';
     DataCaptionExpression = Caption(Rec);
     DelayedInsert = true;
     LinksAllowed = false;
@@ -21,17 +21,17 @@ page 5234 "HR Confidential Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the date when the comment was created.';
+ToolTip = 'Specifies the date when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = BasicHR;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

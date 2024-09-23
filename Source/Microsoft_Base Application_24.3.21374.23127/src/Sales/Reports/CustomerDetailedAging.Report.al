@@ -294,7 +294,7 @@ report 106 "Customer Detailed Aging"
         Counter: Integer;
         Counter1: Integer;
 
-        Text000Lbl: Label 'As of %1', Comment = '%1 is the as of date';
+Text000Lbl: Label 'As of %1', Comment = '%1 is the as of date';
         Customer_Detailed_AgingCaptionLbl: Label 'Customer Detailed Aging';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
         Cust_Ledger_Entry_Posting_Date_CaptionLbl: Label 'Posting Date';

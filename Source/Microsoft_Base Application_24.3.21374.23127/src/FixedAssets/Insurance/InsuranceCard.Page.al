@@ -153,7 +153,7 @@ page 5644 "Insurance Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Insurance),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

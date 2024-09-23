@@ -222,7 +222,7 @@ page 6076 "Serv. Item List (Contract)"
                                   "Table Subtype" = field("Contract Type"),
                                   "No." = field("Contract No."),
                                   "Table Line No." = field("Line No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Statistics)
                 {

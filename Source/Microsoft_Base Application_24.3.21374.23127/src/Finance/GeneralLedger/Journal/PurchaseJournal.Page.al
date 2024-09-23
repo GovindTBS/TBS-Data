@@ -523,7 +523,7 @@ page 254 "Purchase Journal"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
+ToolTip = 'Specifies a comment about the activity on the journal line. Note that the comment is not carried forward to posted entries.';
                     Visible = false;
                 }
                 field("Job Queue Status"; Rec."Job Queue Status")
@@ -1313,9 +1313,9 @@ page 254 "Purchase Journal"
                 action(Comments)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser or ApprovalEntriesExistSentByCurrentUser;
 
                     trigger OnAction()
@@ -1337,11 +1337,11 @@ page 254 "Purchase Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category5)
                 {
-                    Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Post/Print', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -1369,7 +1369,7 @@ page 254 "Purchase Journal"
             }
             group(Category_Category8)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1413,7 +1413,7 @@ page 254 "Purchase Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1421,7 +1421,7 @@ page 254 "Purchase Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Account', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
             }
             group("Category_Incoming Document")
@@ -1443,7 +1443,7 @@ page 254 "Purchase Journal"
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(SimpleView_Promoted; SimpleView)
                 {
@@ -1463,7 +1463,7 @@ page 254 "Purchase Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

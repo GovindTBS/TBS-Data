@@ -2565,9 +2565,9 @@ xmlport 5801 "Export Item Data"
         ItemTypeFieldExists: Boolean;
         ItemTypeInt: Integer;
         SingleItemExportOnlyErr: Label 'Select just one item to export.';
-        ItemLedgEntryNoExistErr: Label 'Item Ledger Entry %1 already exists in the database.\You must delete all entries before continue.', Comment = '%1 = Entry No.';
-        ExportOKMsg: Label 'Item %1 has been successfully exported in %2.', Comment = '%1 = Item No., %2 = Duration';
-        ImportOKMsg: Label 'Item %1 has been successfully imported in %2.', Comment = '%1 = Item No., %2 = Duration';
+ItemLedgEntryNoExistErr: Label 'Item Ledger Entry %1 already exists in the database.\You must delete all entries before continue.', Comment = '%1 = Entry No.';
+ExportOKMsg: Label 'Item %1 has been successfully exported in %2.', Comment = '%1 = Item No., %2 = Duration';
+ImportOKMsg: Label 'Item %1 has been successfully imported in %2.', Comment = '%1 = Item No., %2 = Duration';
 
     procedure FinishImport()
     var

@@ -15,7 +15,7 @@ codeunit 9045 "ABS Web Request Helper"
 
     var
         ReadResponseFailedErr: Label 'Could not read response.';
-        HttpResponseInfoErr: Label '%1.\\Response Code: %2 %3', Comment = '%1 = Default Error Message ; %2 = Status Code; %3 = Reason Phrase';
+HttpResponseInfoErr: Label '%1.\\Response Code: %2 %3', Comment = '%1 = Default Error Message ; %2 = Status Code; %3 = Reason Phrase';
 
     #region GET Request
     [NonDebuggable]

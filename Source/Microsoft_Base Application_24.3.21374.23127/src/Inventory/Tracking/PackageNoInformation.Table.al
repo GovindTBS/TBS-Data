@@ -57,7 +57,7 @@ table 6515 "Package No. Information"
             CalcFormula = exist("Item Tracking Comment" where("Item No." = field("Item No."),
                                                                "Variant Code" = field("Variant Code"),
                                                                "Serial/Lot No." = field("Package No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

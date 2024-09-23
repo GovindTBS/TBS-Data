@@ -76,7 +76,7 @@ table 376 "G/L Account (Analysis View)"
         {
             CalcFormula = exist("Comment Line" where("Table Name" = const("G/L Account"),
                                                       "No." = field("No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

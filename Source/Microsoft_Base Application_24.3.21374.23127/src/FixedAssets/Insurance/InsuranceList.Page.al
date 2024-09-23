@@ -108,7 +108,7 @@ page 5645 "Insurance List"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Insurance),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {

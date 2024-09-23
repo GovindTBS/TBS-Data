@@ -41,7 +41,7 @@ page 1112 "Cost Object Card"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = CostAccounting;
-                    ToolTip = 'Specifies a comment that applies to the cost object.';
+ToolTip = 'Specifies a comment that applies to the cost object.';
                 }
                 field("Net Change"; Rec."Net Change")
                 {

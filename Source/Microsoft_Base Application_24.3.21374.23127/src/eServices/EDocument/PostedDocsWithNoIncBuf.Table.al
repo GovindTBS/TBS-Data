@@ -80,7 +80,7 @@ table 134 "Posted Docs. With No Inc. Buf."
     var
         OnlyFirst1000Msg: Label 'There are more than 1000 document numbers within the filter. Only the first 1000 are shown. Narrow your filter to get fewer document numbers.';
         AlreadyAssignedIncomingDocErr: Label 'This document no. and date already has an incoming document.';
-        AlreadyIncomingDocErr: Label 'The specified incoming document no. has already been used for %1 %2.', Comment = '%1=document type, %2=document no., e.g. Invoice 1234.';
+AlreadyIncomingDocErr: Label 'The specified incoming document no. has already been used for %1 %2.', Comment = '%1=document type, %2=document no., e.g. Invoice 1234.';
 
     procedure GetDocNosWithoutIncomingDoc(var PostedDocsWithNoIncBuf: Record "Posted Docs. With No Inc. Buf."; DateFilter: Text; DocNoFilter: Code[250]; GLAccFilter: Code[250]; ExternalDocNoFilter: Code[250])
     var

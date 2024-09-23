@@ -26,7 +26,7 @@ codeunit 7017 "Price List Management"
         SearchIfPriceExists: Boolean;
         AllLinesVerifiedMsg: Label 'All price list lines which were modified by you were verified.';
         EmptyPriceSourceErr: Label 'You must specify what the price applies to.';
-        ImplementPricesMsg: Label 'Implementing price changes: inserted - %1, modified - %2, skipped - %3', Comment = '%1, %2, %3 are numbers';
+ImplementPricesMsg: Label 'Implementing price changes: inserted - %1, modified - %2, skipped - %3', Comment = '%1, %2, %3 are numbers';
         VerifyLinesLbl: Label 'Verify lines';
         VerifyLinesMsg: Label 'You must verify and activate modified lines to include them in price calculations.';
         VerifyLinesActionMsg: Label 'Prices that have been changed but not verified will not be included in price calculations. Use the Verify Lines action to verify and activate the changed lines.';

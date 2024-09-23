@@ -356,7 +356,7 @@ page 5340 "CRM Systemuser List"
         ClosePageCoupledUserNotInTeamTxt: Label 'Some coupled users are not added to the default owning team in Dataverse and might not have access to synchronized data.\\Do you want to add them now?';
         ClosePageUncoupledUserTxt: Label 'No Salespersons were scheduled for coupling.\\Are you sure you would like to exit?';
         NoSelectedUserErr: Label 'No record has been selected for uncoupling.';
-        UserIsNotCoupledErr: Label 'The user/s %1is/are not coupled. The uncoupling action for those users will be skipped.', Comment = '%1- A list of CRMSystemuser full names';
+UserIsNotCoupledErr: Label 'The user/s %1is/are not coupled. The uncoupling action for those users will be skipped.', Comment = '%1- A list of CRMSystemuser full names';
         ShowCouplingControls: Boolean;
         HasCoupled: Boolean;
 

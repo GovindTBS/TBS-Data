@@ -26,11 +26,11 @@ codeunit 1032 "Job Planning Line-Reserve"
         ReservationEngineMgt: Codeunit "Reservation Engine Mgt.";
         ReservationManagement: Codeunit "Reservation Management";
 
-        Text000Err: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1 - qualtity';
-        Text002Err: Label 'must be filled in when a quantity is reserved', Comment = 'starts with "Planning Date"';
-        Text004Err: Label 'must not be changed when a quantity is reserved', Comment = 'starts with some field name';
+Text000Err: Label 'Reserved quantity cannot be greater than %1.', Comment = '%1 - qualtity';
+Text002Err: Label 'must be filled in when a quantity is reserved', Comment = 'starts with "Planning Date"';
+Text004Err: Label 'must not be changed when a quantity is reserved', Comment = 'starts with some field name';
         Text005Err: Label 'Codeunit is not initialized correctly.';
-        InvalidLineTypeErr: Label 'must be %1 or %2', Comment = '%1 and %2 are line type options, fx. Budget or Billable';
+InvalidLineTypeErr: Label 'must be %1 or %2', Comment = '%1 and %2 are line type options, fx. Budget or Billable';
         SummaryTypeTxt: Label '%1, %2', Locked = true;
 
     procedure CreateReservation(JobPlanningLine: Record "Job Planning Line"; Description: Text[100]; ExpectedReceiptDate: Date; Quantity: Decimal; QuantityBase: Decimal; ForReservEntry: Record "Reservation Entry")

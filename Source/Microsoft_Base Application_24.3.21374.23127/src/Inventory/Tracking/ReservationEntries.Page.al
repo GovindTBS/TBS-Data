@@ -285,7 +285,7 @@ page 497 "Reservation Entries"
     end;
 
     var
-        CancelReservationQst: Label 'Cancel reservation of %1 of item number %2, reserved for %3 from %4?', Comment = '%1 - quantity, %2 - item number, %3 - from table name, %4 - to table name';
+CancelReservationQst: Label 'Cancel reservation of %1 of item number %2, reserved for %3 from %4?', Comment = '%1 - quantity, %2 - item number, %3 - from table name, %4 - to table name';
 
     protected var
         ReservEngineMgt: Codeunit "Reservation Engine Mgt.";

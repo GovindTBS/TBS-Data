@@ -291,7 +291,7 @@ page 160 "Sales Statistics"
         Text002: Label 'Amount';
         Text003: Label '%1 must not be 0.';
         Text004: Label '%1 must not be greater than %2.';
-        Text005: Label 'You cannot change the invoice discount because there is a %1 record for %2 %3.', Comment = 'You cannot change the invoice discount because there is a Cust. Invoice Disc. record for Invoice Disc. Code 30000.';
+Text005: Label 'You cannot change the invoice discount because there is a %1 record for %2 %3.', Comment = 'You cannot change the invoice discount because there is a Cust. Invoice Disc. record for Invoice Disc. Code 30000.';
 
     protected var
         TotalSalesLine: Record "Sales Line";

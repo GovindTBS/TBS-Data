@@ -570,7 +570,7 @@ table 5373 "CRM Full Synch. Review Line"
 
     var
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;
-        SynchRecommDetailsTxt: Label 'The synchronization recommendation for Dataverse entity %1, with the direction %2 is %3', Comment = '%1 = Name of Dataverse entity, %2 = Synchronization Direction of Dataverse entity, %3 = Synchronization Recommendation', Locked = true;
-        NoIntegrationMappingErr: Label 'Integration Table Mapping with the name %1 does not exist.', Comment = '%1 = Name of Integration Table Mapping';
+SynchRecommDetailsTxt: Label 'The synchronization recommendation for Dataverse entity %1, with the direction %2 is %3', Comment = '%1 = Name of Dataverse entity, %2 = Synchronization Direction of Dataverse entity, %3 = Synchronization Recommendation', Locked = true;
+NoIntegrationMappingErr: Label 'Integration Table Mapping with the name %1 does not exist.', Comment = '%1 = Name of Integration Table Mapping';
 }
 

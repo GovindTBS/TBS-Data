@@ -186,7 +186,7 @@ page 99000755 "Work Center List"
                     RunObject = Page "Manufacturing Comment Sheet";
                     RunPageLink = "No." = field("No.");
                     RunPageView = where("Table Name" = const("Work Center"));
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {
@@ -327,7 +327,7 @@ page 99000755 "Work Center List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Calculate Work Center Calendar_Promoted"; "Calculate Work Center Calendar")
                 {
@@ -344,7 +344,7 @@ page 99000755 "Work Center List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Work Center List_Promoted"; "Work Center List")
                 {
@@ -355,7 +355,7 @@ page 99000755 "Work Center List"
             }
             group(Category_Category4)
             {
-                Caption = 'Work Center', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Work Center', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {

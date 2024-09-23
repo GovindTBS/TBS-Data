@@ -243,7 +243,7 @@ table 5107 "Sales Header Archive"
                                                                     "Document Line No." = const(0),
                                                                     "Doc. No. Occurrence" = field("Doc. No. Occurrence"),
                                                                     "Version No." = field("Version No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

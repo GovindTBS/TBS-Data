@@ -3,7 +3,7 @@ namespace Microsoft.Manufacturing.Routing;
 page 99000794 "Routing Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     DataCaptionExpression = Rec.Caption();
     LinksAllowed = false;
     MultipleNewLines = true;
@@ -20,17 +20,17 @@ page 99000794 "Routing Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the date when the comment was created.';
+ToolTip = 'Specifies the date when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the actual comment.';
+ToolTip = 'Specifies the actual comment.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies a code for the comments.';
+ToolTip = 'Specifies a code for the comments.';
                     Visible = false;
                 }
             }

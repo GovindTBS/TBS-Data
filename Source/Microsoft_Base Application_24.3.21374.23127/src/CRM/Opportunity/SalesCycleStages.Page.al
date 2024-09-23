@@ -60,7 +60,7 @@ page 5121 "Sales Cycle Stages"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies that comments exist for this sales cycle stage.';
+ToolTip = 'Specifies that comments exist for this sales cycle stage.';
                 }
             }
         }
@@ -107,7 +107,7 @@ page 5121 "Sales Cycle Stages"
                     RunPageLink = "Table Name" = const("Sales Cycle Stage"),
                                   "No." = field("Sales Cycle Code"),
                                   "Sub No." = field(Stage);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

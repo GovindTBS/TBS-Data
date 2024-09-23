@@ -32,7 +32,7 @@ codeunit 5510 "Production Journal Mgt"
         NextLineNo: Integer;
         Text000: Label '%1 journal';
         Text001: Label 'Do you want to leave the Production Journal?';
-        BlockedMsg: Label '%2 %1 is blocked and therefore, no journal line is created for this %2.', Comment = '%1 - Entity No, %2 - Table caption';
+BlockedMsg: Label '%2 %1 is blocked and therefore, no journal line is created for this %2.', Comment = '%1 - Entity No, %2 - Table caption';
         Text003: Label 'DEFAULT';
         Text004: Label 'Production Journal';
         Text005: Label '%1 %2 for operation %3 is blocked and therefore, no journal line is created for this operation.';
@@ -201,7 +201,7 @@ codeunit 5510 "Production Journal Mgt"
         OriginalNeededQty: Decimal;
         IsHandled: Boolean;
         ShouldAdjustQty: Boolean;
-        ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
     begin
         Item.Get(ProdOrderComp."Item No.");
         if Item.Blocked then begin

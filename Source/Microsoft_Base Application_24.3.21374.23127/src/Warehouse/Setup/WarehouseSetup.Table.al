@@ -197,8 +197,8 @@ table 5769 "Warehouse Setup"
     }
 
     var
-        SetDiscontinuedFieldQst: Label 'The %1 field will be removed from %2 in a future release. Use the %1 field for a specific location instead. \\Do you want to continue?', Comment = '%1 = field name, %2 = table name.';
-        SetDiscontinuedFieldTelemetryMsg: Label 'The %1 field was enabled on %2 in company %3.', Comment = '%1 = field name, %2 = table name, %3 = company name';
+SetDiscontinuedFieldQst: Label 'The %1 field will be removed from %2 in a future release. Use the %1 field for a specific location instead. \\Do you want to continue?', Comment = '%1 = field name, %2 = table name.';
+SetDiscontinuedFieldTelemetryMsg: Label 'The %1 field was enabled on %2 in company %3.', Comment = '%1 = field name, %2 = table name, %3 = company name';
         TelemetryCategoryLbl: Label 'AL Warehouse Setup', Locked = true;
 
 

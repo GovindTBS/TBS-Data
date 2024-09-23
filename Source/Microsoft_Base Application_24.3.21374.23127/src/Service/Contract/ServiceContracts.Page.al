@@ -247,7 +247,7 @@ page 9321 "Service Contracts"
                                   "Table Subtype" = field("Contract Type"),
                                   "No." = field("Contract No."),
                                   "Table Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Statistics)
                 {

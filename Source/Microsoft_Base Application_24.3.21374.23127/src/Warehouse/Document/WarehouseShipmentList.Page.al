@@ -137,7 +137,7 @@ page 7339 "Warehouse Shipment List"
                     RunPageLink = "Table Name" = const("Whse. Shipment"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Pick Lines")
                 {
@@ -268,7 +268,7 @@ page 7339 "Warehouse Shipment List"
 
                 group(Category_Category4)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref("Re&lease_Promoted"; "Re&lease")
@@ -313,7 +313,7 @@ page 7339 "Warehouse Shipment List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

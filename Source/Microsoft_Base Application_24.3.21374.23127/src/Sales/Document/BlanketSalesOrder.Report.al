@@ -921,7 +921,7 @@ report 210 "Blanket Sales Order"
         ArchiveDocument: Boolean;
         LogInteractionEnable: Boolean;
 
-        Text004: Label 'Blanket Sales Order %1', Comment = '%1 = Document No.';
+Text004: Label 'Blanket Sales Order %1', Comment = '%1 = Document No.';
         Text005: Label 'Page %1';
         PaymentTermsDescCaptionLbl: Label 'Payment Terms';
         ShipmentMethodDescrCaptionLbl: Label 'Shipment Method';

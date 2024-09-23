@@ -97,7 +97,7 @@ page 729 "Copy Item"
                 field(Comments; Rec.Comments)
                 {
                     ApplicationArea = Basic, Suite;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     ToolTip = 'Specifies if the selected data type if also copied to the new item.';
                 }
             }
@@ -220,7 +220,7 @@ page 729 "Copy Item"
         CopyItemParameters: Record "Copy Item Parameters";
         SpecifyTargetItemNoErr: Label 'You must specify the target item number.';
         TargetItemNoTxt: Label 'Target Item No.';
-        UnincrementableStringErr: Label 'The value in the %1 field must have a number so that we can assign the next number in the series.', Comment = '%1 = New Field Name';
+UnincrementableStringErr: Label 'The value in the %1 field must have a number so that we can assign the next number in the series.', Comment = '%1 = New Field Name';
 
     procedure GetParameters(var CopyItemBuffer: Record "Copy Item Buffer")
     begin

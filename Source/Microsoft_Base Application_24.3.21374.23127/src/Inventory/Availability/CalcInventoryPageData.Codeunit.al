@@ -27,7 +27,7 @@ codeunit 5531 "Calc. Inventory Page Data"
         CalcItemAvailability: Codeunit "Calc. Item Availability";
         RecRef: RecordRef;
         PageLineNo: Integer;
-        UnsupportedEntitySourceErr: Label 'Unsupported Entity Source Type = %1, Source Subtype = %2.', Comment = '%1 = source type, %2 = source subtype';
+UnsupportedEntitySourceErr: Label 'Unsupported Entity Source Type = %1, Source Subtype = %2.', Comment = '%1 = source type, %2 = source subtype';
         Text0032: Label 'Current Qty. on Hand';
         Text0036: Label 'Sales %1';
         Text0038: Label 'Purchase %1';

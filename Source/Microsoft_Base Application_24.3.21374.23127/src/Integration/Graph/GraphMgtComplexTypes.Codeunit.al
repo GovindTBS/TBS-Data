@@ -37,7 +37,7 @@ codeunit 5468 "Graph Mgt - Complex Types"
         DocumentLineObjectDetailsDescriptionTxt: Label 'description', Locked = true;
         DocumentLineObjectDetailsTxt: Label 'documentLineObjectDetails', Locked = true;
         DocumentLineObjectDetailsEDMDescriptionTxt: Label 'Graph API - Complex type exposing details of the line object that is being sold.';
-        DimensionErr: Label 'The Dimension does not exist. Identification fields and values: Code=%1.', Comment = '%1 is just the short code value of the name for the dimensions';
+DimensionErr: Label 'The Dimension does not exist. Identification fields and values: Code=%1.', Comment = '%1 is just the short code value of the name for the dimensions';
 
     procedure GetDocumentLineObjectDetailsEDM(): Text
     var

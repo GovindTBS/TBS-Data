@@ -137,7 +137,7 @@ report 114 "Salesperson - Sales Statistics"
     end;
 
     var
-        PeriodTxt: Label 'Period: %1', Comment = '%1 - period text';
+PeriodTxt: Label 'Period: %1', Comment = '%1 - period text';
         SalespersonFilter: Text;
         CustLedgEntryFilter: Text;
         PeriodText: Text;

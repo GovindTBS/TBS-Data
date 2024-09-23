@@ -36,10 +36,10 @@ codeunit 132 "Release Incoming Document"
     end;
 
     var
-        NothingToReleaseErr: Label 'There is nothing to release for the incoming document number %1.', Comment = '%1 = Incoming Document Entry No';
+NothingToReleaseErr: Label 'There is nothing to release for the incoming document number %1.', Comment = '%1 = Incoming Document Entry No';
         DocReleasedWhenApprovedErr: Label 'This document can only be released when the approval process is complete.';
         CancelOrCompleteToReopenDocErr: Label 'The approval process must be cancelled or completed to reopen this document.';
-        CanReleasedIfStatusErr: Label 'It is only possible to release the document when the status is %1, %2 or %3.', Comment = '%1 = status released, %2 = status pending approval';
+CanReleasedIfStatusErr: Label 'It is only possible to release the document when the status is %1, %2 or %3.', Comment = '%1 = status released, %2 = status pending approval';
 
     procedure Reopen(var IncomingDocument: Record "Incoming Document")
     var

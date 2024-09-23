@@ -16,10 +16,10 @@ codeunit 5811 "Change Exp. Cost Post. to G/L"
     end;
 
     var
-        ExpCostEnableTxt: Label 'If you enable the %1, the program must update table %2.', Comment = '%1 - Expected Cost Posting to G/L; %2 - Post Value Entry to G/L';
-        ExpCostDisableTxt: Label 'If you disable the %1, the program must update table %2.', Comment = '%1 - Expected Cost Posting to G/L; %2 - Post Value Entry to G/L';
+ExpCostEnableTxt: Label 'If you enable the %1, the program must update table %2.', Comment = '%1 - Expected Cost Posting to G/L; %2 - Post Value Entry to G/L';
+ExpCostDisableTxt: Label 'If you disable the %1, the program must update table %2.', Comment = '%1 - Expected Cost Posting to G/L; %2 - Post Value Entry to G/L';
         TakeHoursTxt: Label 'This can take several hours.\';
-        ConfirmChangeTxt: Label 'Do you really want to change the %1?', Comment = '%1 - Expected Cost Posting to G/L';
+ConfirmChangeTxt: Label 'Do you really want to change the %1?', Comment = '%1 - Expected Cost Posting to G/L';
         Text003: Label 'The change has been cancelled.';
         Text004: Label 'Processing entries...\\';
         Text005: Label 'Item No. #1########## @2@@@@@@@@@@@@@';

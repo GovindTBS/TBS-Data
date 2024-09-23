@@ -89,12 +89,12 @@ codeunit 7312 "Create Pick"
         SummaryPageMessage: Text;
 
         NothingToHandleTryShowSummaryLbl: Label 'Try the "Show Summary (Directed Put-away and Pick)" option when creating pick to inspect the error.';
-        NothingToHandleErr: Label 'Nothing to handle. %1.', Comment = '%1 = reason in text';
+NothingToHandleErr: Label 'Nothing to handle. %1.', Comment = '%1 = reason in text';
         NothingToHandleWithoutReasonErr: Label 'Nothing to handle.';
-        BinIsNotForPickTxt: Label 'The quantity to be picked is in bin %1, which is not set up for picking', Comment = '%1: Field("Bin Code")';
-        BinIsForReceiveOrShipTxt: Label 'The quantity to be picked is in bin %1, which is set up for receiving or shipping', Comment = '%1: Field("Bin Code")';
+BinIsNotForPickTxt: Label 'The quantity to be picked is in bin %1, which is not set up for picking', Comment = '%1: Field("Bin Code")';
+BinIsForReceiveOrShipTxt: Label 'The quantity to be picked is in bin %1, which is set up for receiving or shipping', Comment = '%1: Field("Bin Code")';
         QtyReservedNotFromInventoryTxt: Label 'The quantity to be picked is not in inventory yet. You must first post the supply from which the source document is reserved';
-        ValidValuesIfSNDefinedErr: Label 'Field %1 can only have values -1, 0 or 1 when serial no. is defined. Current value is %2.', Comment = '%1 = field name, %2 = field value';
+ValidValuesIfSNDefinedErr: Label 'Field %1 can only have values -1, 0 or 1 when serial no. is defined. Current value is %2.', Comment = '%1 = field name, %2 = field value';
         BinPolicyTelemetryCategoryTok: Label 'Bin Policy', Locked = true;
         DefaultBinPickPolicyTelemetryTok: Label 'Default Bin Pick Policy in used for warehouse pick.', Locked = true;
         RankingBinPickPolicyTelemetryTok: Label 'Bin Ranking Bin Pick Policy in used for warehouse pick.', Locked = true;

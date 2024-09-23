@@ -693,7 +693,7 @@ page 5510 "Production Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
@@ -716,7 +716,7 @@ page 5510 "Production Journal"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(ItemTrackingLines_Promoted; ItemTrackingLines)
                 {
@@ -727,12 +727,12 @@ page 5510 "Production Journal"
             }
             group(Category_Category6)
             {
-                Caption = 'Prod. Order', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Prod. Order', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

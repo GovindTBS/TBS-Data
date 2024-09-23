@@ -102,7 +102,7 @@ table 99000851 "Production Forecast Name"
     end;
 
     var
-        Confirm001Qst: Label 'Demand forecast %1 has entries. Do you want to delete it anyway?', Comment = '%1 = forecast name';
+Confirm001Qst: Label 'Demand forecast %1 has entries. Do you want to delete it anyway?', Comment = '%1 = forecast name';
 
     procedure GetItemFilterBlobAsViewFilters(): Text
     begin

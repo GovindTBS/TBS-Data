@@ -242,7 +242,7 @@ page 9325 "Firm Planned Prod. Orders"
                     RunObject = Page "Prod. Order Comment Sheet";
                     RunPageLink = Status = field(Status),
                                   "Prod. Order No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

@@ -184,7 +184,7 @@ page 702 "Merge Duplicate"
     }
 
     var
-        RecordMergedMsg: Label '%1 %2 has been merged to %1 %3.', Comment = '%1 - table name (Customer/Vendor); %2 - Duplicate value; %3 - new kew value';
+RecordMergedMsg: Label '%1 %2 has been merged to %1 %3.', Comment = '%1 - table name (Customer/Vendor); %2 - Duplicate value; %3 - new kew value';
         ShowRecID: Boolean;
         ConflictResolved: Boolean;
         ConflictsExist: Boolean;

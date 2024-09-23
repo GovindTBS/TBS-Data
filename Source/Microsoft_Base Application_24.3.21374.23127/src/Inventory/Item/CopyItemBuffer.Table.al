@@ -55,7 +55,7 @@ table 729 "Copy Item Buffer"
         }
         field(14; Comments; Boolean)
         {
-            Caption = 'Comments';
+Caption = 'Comments';
             DataClassification = SystemMetadata;
         }
         field(15; "Sales Prices"; Boolean)

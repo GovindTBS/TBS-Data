@@ -125,7 +125,7 @@ page 9017 "Service Technician Role Center"
                 Caption = 'Service &Item Worksheet';
                 Image = ServiceItemWorksheet;
                 RunObject = Report "Service Item Worksheet";
-                ToolTip = 'View or edit information about service items, such as repair status, fault comments and codes, and cost. In this window, you can update information on the items such as repair status and fault and resolution codes. You can also enter new service lines for resource hours, for the use of spare parts and for specific service costs.';
+ToolTip = 'View or edit information about service items, such as repair status, fault comments and codes, and cost. In this window, you can update information on the items such as repair status and fault and resolution codes. You can also enter new service lines for resource hours, for the use of spare parts and for specific service costs.';
             }
         }
         area(embedding)
@@ -223,7 +223,7 @@ page 9017 "Service Technician Role Center"
                 Caption = 'Service Item &Worksheet';
                 Image = ServiceItemWorksheet;
                 RunObject = Page "Service Item Worksheet";
-                ToolTip = 'Prepare to record service hours and spare parts used, repair status, fault comments, and cost.';
+ToolTip = 'Prepare to record service hours and spare parts used, repair status, fault comments, and cost.';
             }
         }
     }

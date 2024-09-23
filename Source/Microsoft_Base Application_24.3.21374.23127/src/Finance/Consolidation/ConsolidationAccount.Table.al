@@ -168,17 +168,17 @@ table 1829 "Consolidation Account"
         XExtraordinaryIncomeTok: Label 'Extraordinary Income';
         XExtraordinaryExpensesTok: Label 'Extraordinary Expenses';
         XCorporateTaxTok: Label 'Corporate Tax';
-        XVendorPrepaymentsVATTok: Label 'Vendor Prepayments %1', Comment = '%1=No Vat, Services, or Retail.  Do not translate.';
-        XCustomerPrepaymentsVATTok: Label 'Customer Prepayments %1', Comment = '%1=No Vat, Services, or Retail.  Do not translate.';
+XVendorPrepaymentsVATTok: Label 'Vendor Prepayments %1', Comment = '%1=No Vat, Services, or Retail.  Do not translate.';
+XCustomerPrepaymentsVATTok: Label 'Customer Prepayments %1', Comment = '%1=No Vat, Services, or Retail.  Do not translate.';
         XGSTHSTTok: Label 'GST/HST - Sales Tax';
         XPSTTok: Label 'Provincial Sales Tax';
         XACCRUEDPAYABLESTok: Label 'Accrued Payables';
         XLandTok: Label 'Land';
         XBuildingsTok: Label 'Buildings';
         XRentExpensesTok: Label 'Rent expenses';
-        XNOVATTok: Label 'NO VAT', Comment = 'Do not translate.';
-        XRETAILTok: Label 'RETAIL', Comment = 'Do not translate.';
-        XSERVICESTok: Label 'SERVICES', Comment = 'Do not translate.';
+XNOVATTok: Label 'NO VAT', Comment = 'Do not translate.';
+XRETAILTok: Label 'RETAIL', Comment = 'Do not translate.';
+XSERVICESTok: Label 'SERVICES', Comment = 'Do not translate.';
 
     [Scope('OnPrem')]
     procedure PopulateAccountsForCA()

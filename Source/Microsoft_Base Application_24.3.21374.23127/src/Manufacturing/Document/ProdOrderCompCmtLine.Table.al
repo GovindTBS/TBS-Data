@@ -29,7 +29,7 @@ table 5416 "Prod. Order Comp. Cmt Line"
         }
         field(12; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(13; "Code"; Code[10])
         {

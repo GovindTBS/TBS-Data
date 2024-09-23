@@ -31,7 +31,7 @@ codeunit 100 "Calc. G/L Acc. Where-Used"
         TempGLAccWhereUsed: Record "G/L Account Where-Used" temporary;
         NextEntryNo: Integer;
         Text000: Label 'The update has been interrupted to respect the warning.';
-        ShowWhereUsedQst: Label 'You cannot delete a %1 that is used in one or more setup windows.\Do you want to open the G/L Account No. Where-Used List Window?', Comment = '%1 -  Table Caption';
+ShowWhereUsedQst: Label 'You cannot delete a %1 that is used in one or more setup windows.\Do you want to open the G/L Account No. Where-Used List Window?', Comment = '%1 -  Table Caption';
 
     procedure ShowSetupForm(GLAccWhereUsed: Record "G/L Account Where-Used")
     var

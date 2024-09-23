@@ -141,7 +141,7 @@ page 9650 "Custom Report Layouts"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Open in OneDrive';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can manage or share the file.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can manage or share the file.', Comment = 'OneDrive should not be translated';
                 Image = Cloud;
                 Visible = ShareOptionsVisible;
                 Enabled = ShareOptionsEnabled;
@@ -164,7 +164,7 @@ page 9650 "Custom Report Layouts"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Edit in OneDrive';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can edit the file.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can edit the file.', Comment = 'OneDrive should not be translated';
                 Image = Cloud;
                 Visible = ShareOptionsVisible;
                 Enabled = ShareOptionsEnabled;
@@ -193,7 +193,7 @@ page 9650 "Custom Report Layouts"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Share';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and share the file. You can also see who it''s already shared with.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and share the file. You can also see who it''s already shared with.', Comment = 'OneDrive should not be translated';
                 Image = Share;
                 Visible = ShareOptionsVisible;
                 Enabled = ShareOptionsEnabled;
@@ -301,7 +301,7 @@ page 9650 "Custom Report Layouts"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
                 actionref(NewLayout_Promoted; NewLayout)
                 {
@@ -312,14 +312,14 @@ page 9650 "Custom Report Layouts"
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(RunReport_Promoted; RunReport)
                 {
                 }
                 group(Category_Category4)
                 {
-                    Caption = 'Layout', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Layout', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                     actionref(UpdateWordLayout_Promoted; UpdateWordLayout)
                     {
@@ -350,7 +350,7 @@ page 9650 "Custom Report Layouts"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
                 actionref(MigrateToSystem_promoted; MigrateToSystemLayouts)
                 {
                 }
@@ -388,8 +388,8 @@ page 9650 "Custom Report Layouts"
     end;
 
     var
-        UpdateSuccesMsg: Label 'The %1 layout has been updated to use the current report design.', Comment = '%1 will be replaced by the layout name.';
-        UpdateNotRequiredMsg: Label 'The %1 layout is up-to-date. No further updates are required.', Comment = '%1 will be replaced by the layout name.';
+UpdateSuccesMsg: Label 'The %1 layout has been updated to use the current report design.', Comment = '%1 will be replaced by the layout name.';
+UpdateNotRequiredMsg: Label 'The %1 layout is up-to-date. No further updates are required.', Comment = '%1 will be replaced by the layout name.';
         PageName: Text;
         CaptionTxt: Label '%1 - %2 %3', Locked = true;
         IsNotBuiltIn: Boolean;

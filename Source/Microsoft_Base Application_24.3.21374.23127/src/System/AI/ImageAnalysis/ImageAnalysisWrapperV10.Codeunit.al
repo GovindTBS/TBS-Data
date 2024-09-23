@@ -10,7 +10,7 @@ codeunit 2024 "Image Analysis Wrapper V1.0" implements "Image Analysis Provider"
     Access = Internal;
 
     var
-        CognitiveServicesErr: Label 'Could not contact the %1. %2 Status code: %3.', Comment = '%1: Error returned from called API. %2: the error message. %3: HTTP status code of error';
+CognitiveServicesErr: Label 'Could not contact the %1. %2 Status code: %3.', Comment = '%1: Error returned from called API. %2: the error message. %3: HTTP status code of error';
         OnlyOneAnalysisSupportedErr: Label 'The current implementation of Image Analysis supports only one analysis type at a time.';
         ComputerVisionApiTxt: Label 'Computer Vision API';
         CustomVisionServiceTxt: Label 'Custom Vision Service';

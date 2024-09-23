@@ -65,12 +65,12 @@ codeunit 225 "Gen. Jnl.-Apply"
         AccType: Enum "Gen. Journal Account Type";
 
         Text000: Label 'You must specify %1 or %2.';
-        ConfirmChangeQst: Label 'CurrencyCode in the %1 will be changed from %2 to %3.\Do you wish to continue?', Comment = '%1 = Table Name, %2 and %3 = Currency Code';
+ConfirmChangeQst: Label 'CurrencyCode in the %1 will be changed from %2 to %3.\Do you wish to continue?', Comment = '%1 = Table Name, %2 and %3 = Currency Code';
         UpdateInterruptedErr: Label 'The update has been interrupted to respect the warning.';
         Text005: Label 'The %1 or %2 must be Customer or Vendor.';
         Text006: Label 'All entries in one application must be in the same currency.';
         Text007: Label 'All entries in one application must be in the same currency or one or more of the EMU currencies. ';
-        EarlierPostingDateErr: Label 'You cannot apply and post an entry to an entry with an earlier posting date. Instead, post the document of type %1 with the number %2 and then apply it to the document of type %3 with the number %4.', Comment = '%1 = Applying document type, %2 = Applying document number, %3 = Entry document type, %4 = Entry document number';
+EarlierPostingDateErr: Label 'You cannot apply and post an entry to an entry with an earlier posting date. Instead, post the document of type %1 with the number %2 and then apply it to the document of type %3 with the number %4.', Comment = '%1 = Applying document type, %2 = Applying document number, %3 = Entry document type, %4 = Entry document number';
 
     local procedure SelectCustLedgEntry(var GenJnlLine: Record "Gen. Journal Line"; var CustomAppliesToId: Code[50]) Selected: Boolean
     var

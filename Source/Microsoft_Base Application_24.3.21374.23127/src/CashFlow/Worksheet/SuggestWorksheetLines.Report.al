@@ -760,18 +760,18 @@ report 840 "Suggest Worksheet Lines"
         Text034: Label 'Record found        #3####################';
         ManualPmtRevExpNeedsUpdateMsg: Label 'There are one or more Cash Flow Manual Revenues/Expenses with a Recurring Frequency.\But the Recurring Frequency cannot be applied because the Manual Payments To date in Cash Flow Forecast %1 is empty.\Fill in this date in order to get multiple lines.';
         JobsMsg: Label 'Projects';
-        PostedSalesDocumentDescriptionTxt: Label 'Posted Sales %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Customer Name). Example: Posted Sales Invoice - 04-05-18 The Cannon Group PLC';
-        PostedPurchaseDocumentDescriptionTxt: Label 'Posted Purchase %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Vendor Name). Example: Posted Purchase Invoice - 04-05-18 The Cannon Group PLC';
-        SalesDocumentDescriptionTxt: Label 'Sales %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Customer Name). Example: Sales Invoice - 04-05-18 The Cannon Group PLC';
-        PurchaseDocumentDescriptionTxt: Label 'Purchase %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Vendor Name). Example: Purchase Invoice - 04-05-18 The Cannon Group PLC';
-        ServiceDocumentDescriptionTxt: Label 'Service %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Customer Name). Example: Service Invoice - 04-05-18 The Cannon Group PLC';
-        TaxForMsg: Label 'Taxes from %1', Comment = '%1 = The description of the source tyoe based on which taxes are calculated.';
-        AzureAIForecastDescriptionTxt: Label 'Predicted %1 in the period starting on %2 with precision of +/-  %3.', Comment = '%1 =RECEIVABLES or PAYABLES or PAYABLES TAX or RECEIVABLES TAX, %2 = Date; %3 Percentage';
-        AzureAIForecastTaxDescriptionTxt: Label 'Predicted tax on %1 in the period starting on %2 with precision of +/-  %3.', Comment = '%1 =RECEIVABLES or PAYABLES, %2 = Date; %3 Percentage';
-        AzureAICorrectionDescriptionTxt: Label 'Correction due to posted %1', Comment = '%1 = SALES ORDERS or PURCHASE ORDERS';
-        AzureAICorrectionTaxDescriptionTxt: Label 'Correction of tax amount due to posted %1', Comment = '%1 = RECEIVABLES or PAYABLES';
-        AzureAIOrdersCorrectionDescriptionTxt: Label 'Correction due to %1', Comment = '%1 = SALES or PURCHASE';
-        AzureAIOrdersTaxCorrectionDescriptionTxt: Label 'Correction of tax amount due to %1', Comment = '%1 = SALES ORDERS or PURCHASE ORDERS';
+PostedSalesDocumentDescriptionTxt: Label 'Posted Sales %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Customer Name). Example: Posted Sales Invoice - 04-05-18 The Cannon Group PLC';
+PostedPurchaseDocumentDescriptionTxt: Label 'Posted Purchase %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Vendor Name). Example: Posted Purchase Invoice - 04-05-18 The Cannon Group PLC';
+SalesDocumentDescriptionTxt: Label 'Sales %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Customer Name). Example: Sales Invoice - 04-05-18 The Cannon Group PLC';
+PurchaseDocumentDescriptionTxt: Label 'Purchase %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Vendor Name). Example: Purchase Invoice - 04-05-18 The Cannon Group PLC';
+ServiceDocumentDescriptionTxt: Label 'Service %1 - %2 %3', Comment = '%1 = Source Document Type (e.g. Invoice), %2 = Due Date, %3 = Source Name (e.g. Customer Name). Example: Service Invoice - 04-05-18 The Cannon Group PLC';
+TaxForMsg: Label 'Taxes from %1', Comment = '%1 = The description of the source tyoe based on which taxes are calculated.';
+AzureAIForecastDescriptionTxt: Label 'Predicted %1 in the period starting on %2 with precision of +/-  %3.', Comment = '%1 =RECEIVABLES or PAYABLES or PAYABLES TAX or RECEIVABLES TAX, %2 = Date; %3 Percentage';
+AzureAIForecastTaxDescriptionTxt: Label 'Predicted tax on %1 in the period starting on %2 with precision of +/-  %3.', Comment = '%1 =RECEIVABLES or PAYABLES, %2 = Date; %3 Percentage';
+AzureAICorrectionDescriptionTxt: Label 'Correction due to posted %1', Comment = '%1 = SALES ORDERS or PURCHASE ORDERS';
+AzureAICorrectionTaxDescriptionTxt: Label 'Correction of tax amount due to posted %1', Comment = '%1 = RECEIVABLES or PAYABLES';
+AzureAIOrdersCorrectionDescriptionTxt: Label 'Correction due to %1', Comment = '%1 = SALES or PURCHASE';
+AzureAIOrdersTaxCorrectionDescriptionTxt: Label 'Correction of tax amount due to %1', Comment = '%1 = SALES ORDERS or PURCHASE ORDERS';
         XRECEIVABLESTxt: Label 'RECEIVABLES', Locked = true;
         XPAYABLESTxt: Label 'PAYABLES', Locked = true;
         XPAYABLESCORRECTIONTxt: Label 'Payables Correction';
@@ -784,8 +784,8 @@ report 840 "Suggest Worksheet Lines"
         XTAXRECEIVABLESCORRECTIONTxt: Label 'Tax from Sales entries';
         XTAXSALESORDERSTxt: Label 'Tax from Sales Orders';
         XTAXPURCHORDERSTxt: Label 'Tax from Purchase Orders';
-        CircularRefsErr: Label 'There are one or more circular references where the following G/L accounts reference to each other either directly or indirectly:\ %1.\Change the value of the Totaling field in one of these accounts.', Comment = '%1 - list of accounts.';
-        ThreePlaceHoldersLbl: Label '%1%2%3', Locked = true, Comment = '%1%2%3 are placeholders';
+CircularRefsErr: Label 'There are one or more circular references where the following G/L accounts reference to each other either directly or indirectly:\ %1.\Change the value of the Totaling field in one of these accounts.', Comment = '%1 - list of accounts.';
+ThreePlaceHoldersLbl: Label '%1%2%3', Locked = true, Comment = '%1%2%3 are placeholders';
 
     protected var
         CFSetup: Record "Cash Flow Setup";

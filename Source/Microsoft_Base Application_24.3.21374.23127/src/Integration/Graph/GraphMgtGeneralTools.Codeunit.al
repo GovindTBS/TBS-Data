@@ -35,7 +35,7 @@ codeunit 5465 "Graph Mgt - General Tools"
     var
         CannotChangeIDErr: Label 'Value of Id is immutable.';
         CannotChangeLastDateTimeModifiedErr: Label 'Value of LastDateTimeModified is immutable.';
-        MissingFieldValueErr: Label '%1 must be specified.', Comment = '%1 = Property name';
+MissingFieldValueErr: Label '%1 must be specified.', Comment = '%1 = Property name';
         AggregateErrorTxt: Label 'AL APIAggregate', Locked = true;
         AggregateIsMissingMainRecordTxt: Label 'Aggregate does not have main record.';
         JobQueueIsRunningErr: Label 'The job queue entry is already running. Stop the existing job queue entry, and then schedule a new entry.';

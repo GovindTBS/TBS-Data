@@ -622,7 +622,7 @@ page 2583 "Dim. Correct Ledger Entries"
         SelectLedgerEntriesToCorrectLbl: Label 'Ledger Entries';
         NoRelatedEntriesErr: Label 'No entries are related to the selected ledger entry.';
         FindLastNotSupportedTooManyEntriesLbl: Label 'There are more entries than the list can show. Filter the list to find fewer entries.';
-        LargeCorrectionTelemetryLbl: Label 'Large dimension correction created. Dimension Correction Entry No. %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
+LargeCorrectionTelemetryLbl: Label 'Large dimension correction created. Dimension Correction Entry No. %1.', Locked = true, Comment = '%1 Dimension Correction Entry No.';
         DimensionCorrectionTok: Label 'DimensionCorrection';
         TooManyGLEntriesSelectedErr: Label 'You have selected too many G/L entries. Use filters to reduce the number of entries.';
         ViewWasNotModifiedErr: Label 'You have not entered any selection criteria.';

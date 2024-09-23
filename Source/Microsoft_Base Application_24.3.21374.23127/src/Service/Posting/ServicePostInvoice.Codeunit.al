@@ -25,7 +25,7 @@ codeunit 817 "Service Post Invoice" implements "Invoice Posting"
         SuppressCommit: Boolean;
         SalesTaxCalculationOverridden: Boolean;
         IncorrectInterfaceErr: Label 'This implementation designed to post Service Header table only.';
-        GenProdPostingGroupErr: Label 'You must enter a value in %1 for %2 %3 if you want to post discounts for that line.', Comment = '%1 = field name of Gen. Prod. Posting Group, %2 = field name of Line No., %3 = value of Line No.';
+GenProdPostingGroupErr: Label 'You must enter a value in %1 for %2 %3 if you want to post discounts for that line.', Comment = '%1 = field name of Gen. Prod. Posting Group, %2 = field name of Line No., %3 = value of Line No.';
 
     procedure Check(TableID: Integer)
     begin

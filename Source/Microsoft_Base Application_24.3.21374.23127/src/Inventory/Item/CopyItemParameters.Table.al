@@ -50,7 +50,7 @@ table 728 "Copy Item Parameters"
         }
         field(14; Comments; Boolean)
         {
-            Caption = 'Comments';
+Caption = 'Comments';
             DataClassification = SystemMetadata;
         }
         field(15; "Sales Prices"; Boolean)

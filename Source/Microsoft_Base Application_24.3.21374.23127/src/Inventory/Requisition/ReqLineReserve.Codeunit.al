@@ -25,7 +25,7 @@ codeunit 99000833 "Req. Line-Reserve"
         ReservationManagement: Codeunit "Reservation Management";
         Blocked: Boolean;
 
-        Text000: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
+Text000: Label 'Reserved quantity cannot be greater than %1', Comment = '%1 - quantity';
         Text002: Label 'must be filled in when a quantity is reserved';
         Text003: Label 'must not be filled in when a quantity is reserved';
         Text004: Label 'must not be changed when a quantity is reserved';

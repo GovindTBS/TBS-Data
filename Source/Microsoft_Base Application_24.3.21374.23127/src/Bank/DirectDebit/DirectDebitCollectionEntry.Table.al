@@ -278,7 +278,7 @@ table 1208 "Direct Debit Collection Entry"
     var
         DocTypeErr: Label 'The customer ledger entry must be of type Invoice, Finance Charge Memo, or Reminder.';
         AmountMustBePositiveErr: Label 'The amount must be positive.';
-        LargerThanRemainingErr: Label 'You cannot collect an amount that is larger than the remaining amount for the invoice (%1 %2) that is not on other collection entries.', Comment = '%1 = an amount. %2 = currency code, e.g. 123.45 EUR';
+LargerThanRemainingErr: Label 'You cannot collect an amount that is larger than the remaining amount for the invoice (%1 %2) that is not on other collection entries.', Comment = '%1 = an amount. %2 = currency code, e.g. 123.45 EUR';
         RejectQst: Label 'Do you want to reject this collection entry?';
 
     procedure CreateNew(DirectDebitCollectionNo: Integer; CustLedgerEntry: Record "Cust. Ledger Entry")

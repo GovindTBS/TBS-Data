@@ -8,7 +8,7 @@ using Microsoft.CRM.Outlook;
 
 page 7202 "CDS Admin Credentials"
 {
-    Caption = 'Dataverse Administrator Credentials', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Administrator Credentials', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     PageType = StandardDialog;
     SourceTable = "Office Admin. Credentials";
     SourceTableTemporary = true;

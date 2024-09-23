@@ -10,7 +10,7 @@ codeunit 2114 "O365 HTML Templ. Mgt."
         InvoiceNoTxt: Label 'Invoice No.';
         EstimateNoTxt: Label 'Estimate No.';
         ValidUntilTxt: Label 'Valid until';
-        TotalTxt: Label 'Total %1', Comment = '%1 = Currency Code';
+TotalTxt: Label 'Total %1', Comment = '%1 = Currency Code';
         YourInvoiceTxt: Label 'Your Invoice';
         YourEstimateTxt: Label 'Your Estimate';
         WantToPayOnlineQst: Label 'Want to pay online?';
@@ -19,8 +19,8 @@ codeunit 2114 "O365 HTML Templ. Mgt."
         CompanyInfoRead: Boolean;
         EmailSentToTxt: Label 'This email was sent to';
         ThankYouForYourBusinessTxt: Label 'Thank you for your business.';
-        InvoiceFromTitleTxt: Label 'Invoice from %1', Comment = 'This is a mail title. %1 - company name';
-        EstimateFromTitleTxt: Label 'Estimate from %1', Comment = 'This is a mail title. %1 - company name';
+InvoiceFromTitleTxt: Label 'Invoice from %1', Comment = 'This is a mail title. %1 - company name';
+EstimateFromTitleTxt: Label 'Estimate from %1', Comment = 'This is a mail title. %1 - company name';
 
     procedure CreateEmailBodyFromReportSelections(ReportSelections: Record "Report Selections"; RecordVariant: Variant; MailTo: Text; MailText: Text) OutputFileName: Text[250]
     var

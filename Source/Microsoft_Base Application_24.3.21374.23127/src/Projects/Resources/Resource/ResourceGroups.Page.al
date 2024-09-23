@@ -82,7 +82,7 @@ page 72 "Resource Groups"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("Resource Group"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 group(Dimensions)
                 {
@@ -247,7 +247,7 @@ page 72 "Resource Groups"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 
                 actionref("New Resource_Promoted"; "New Resource")
                 {
@@ -255,7 +255,7 @@ page 72 "Resource Groups"
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
             }
             group(Category_Group)
@@ -283,11 +283,11 @@ page 72 "Resource Groups"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(PurchPriceLists_Promoted; PurchPriceLists)
                 {

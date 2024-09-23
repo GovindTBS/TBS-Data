@@ -78,7 +78,7 @@ page 417 "Post Pmts and Rec. Bank Acc."
 
     var
         TotalBalance: Decimal;
-        StatementDateEmptyMsg: Label 'The bank account reconciliation does not have a statement date. %1 is the latest date on a line. Do you want to use that date for the statement?', Comment = '%1 - statement date';
+StatementDateEmptyMsg: Label 'The bank account reconciliation does not have a statement date. %1 is the latest date on a line. Do you want to use that date for the statement?', Comment = '%1 - statement date';
 
     local procedure GetCurrencyCode(): Code[10]
     var

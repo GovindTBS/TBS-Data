@@ -67,7 +67,7 @@ codeunit 489 "IC Partner Change Monitor"
     end;
 
     var
-        YouMustHaveICPartnerEditPermissionToChangeSensitiveFieldsErr: Label 'To modify sensitive Cross-Environment Setup values, you must be assigned the %1 or SUPER permission set.', Comment = '%1 - Name of permission set';
+YouMustHaveICPartnerEditPermissionToChangeSensitiveFieldsErr: Label 'To modify sensitive Cross-Environment Setup values, you must be assigned the %1 or SUPER permission set.', Comment = '%1 - Name of permission set';
         ICCompanySetupPermissionSetNameTxt: Label 'D365 IC Partner Edit', Locked = true;
         InsertICPartnerContextTok: Label 'Insert new IC Partner', Locked = true;
         InsertICPartnerDescriptionTxt: Label 'A new IC Partner was inserted.';
@@ -75,7 +75,7 @@ codeunit 489 "IC Partner Change Monitor"
         ModifyICPartnerDescriptionTxt: Label 'Sensible fields in IC Partner were modified.';
         DeleteICPartnerContextTok: Label 'Delete IC Partner', Locked = true;
         DeleteICPartnerDescriptionTxt: Label 'An IC Partner was deleted.';
-        ICPartnerDetailsTxt: Label 'IC Partner Code: %1, IC Partner System ID: %2.', Comment = '%1 = Code of IC Partner, %2 = System ID of the IC Partner';
+ICPartnerDetailsTxt: Label 'IC Partner Code: %1, IC Partner System ID: %2.', Comment = '%1 = Code of IC Partner, %2 = System ID of the IC Partner';
 
 
     [EventSubscriber(ObjectType::Table, Database::"IC Partner", 'OnBeforeInsertEvent', '', false, false)]

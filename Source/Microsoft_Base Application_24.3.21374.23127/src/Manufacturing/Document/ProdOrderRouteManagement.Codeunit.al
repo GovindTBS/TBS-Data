@@ -8,7 +8,7 @@ codeunit 99000772 "Prod. Order Route Management"
     end;
 
     var
-        CannotCalculateRoutingNumberErr: Label 'Cannot calculate routing number %3 %4 in %1 production order %2, because sequence number %5 is higher than the maximum sequence number, %6.', Comment = '%1: Status Text; %2: Field(Prod. Order No.); %3: Field(Routing No.); %4: Direction Text; %5: Field(Actual Sequence); %6: Field (Max. Sequences)';
+CannotCalculateRoutingNumberErr: Label 'Cannot calculate routing number %3 %4 in %1 production order %2, because sequence number %5 is higher than the maximum sequence number, %6.', Comment = '%1: Status Text; %2: Field(Prod. Order No.); %3: Field(Routing No.); %4: Direction Text; %5: Field(Actual Sequence); %6: Field (Max. Sequences)';
         Text001: Label 'Back';
         Text002: Label 'back';
         Text003: Label 'Actual number of termination processes in prod. order %1 route %2  is %3. They should be 1. Check %4.';

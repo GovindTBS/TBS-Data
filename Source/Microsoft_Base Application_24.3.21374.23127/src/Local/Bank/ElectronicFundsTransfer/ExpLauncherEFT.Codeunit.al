@@ -21,7 +21,7 @@ codeunit 10320 "Exp. Launcher EFT"
 
     var
         ExportEFTACH: Codeunit "Export EFT (ACH)";
-        InvalidExportFormatErr: Label '%1 is not a valid %2 in %3 %4.', Comment = '%1=Bank account export format,%2=Bank account export format field caption,%3=Bank account table caption,%4=Bank account number';
+InvalidExportFormatErr: Label '%1 is not a valid %2 in %3 %4.', Comment = '%1=Bank account export format,%2=Bank account export format field caption,%3=Bank account table caption,%4=Bank account number';
         ExportEFTRB: Codeunit "Export EFT (RB)";
         ExportEFTCecoban: Codeunit "Export EFT (Cecoban)";
         ExportEFTIAT: Codeunit "Export EFT (IAT)";

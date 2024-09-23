@@ -3,7 +3,7 @@ namespace Microsoft.Warehouse.Comment;
 page 5776 "Warehouse Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     DataCaptionExpression = Rec.FormCaption();
     DelayedInsert = true;
     LinksAllowed = false;
@@ -21,17 +21,17 @@ page 5776 "Warehouse Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the date when the comment was created.';
+ToolTip = 'Specifies the date when the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the comment.';
+ToolTip = 'Specifies the comment.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Warehouse;
-                    ToolTip = 'Specifies the code for the comment.';
+ToolTip = 'Specifies the code for the comment.';
                     Visible = false;
                 }
             }

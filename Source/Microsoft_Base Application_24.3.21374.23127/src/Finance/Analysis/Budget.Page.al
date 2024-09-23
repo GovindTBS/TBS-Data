@@ -641,7 +641,7 @@ page 113 Budget
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Import from Excel_Promoted"; "Import from Excel")
                 {
@@ -661,7 +661,7 @@ page 113 Budget
             }
             group(Category_Category4)
             {
-                Caption = 'Period', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Period', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Previous Period_Promoted"; "Previous Period")
                 {
@@ -672,7 +672,7 @@ page 113 Budget
             }
             group(Category_Category5)
             {
-                Caption = 'Column', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Column', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Previous Column_Promoted"; "Previous Column")
                 {
@@ -689,12 +689,12 @@ page 113 Budget
             }
             group(Category_Category6)
             {
-                Caption = 'Budget', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Budget', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(ReportBudget_Promoted; ReportBudget)
                 {

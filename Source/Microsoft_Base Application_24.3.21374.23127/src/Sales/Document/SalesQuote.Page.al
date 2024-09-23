@@ -1140,7 +1140,7 @@ page 41 "Sales Quote"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Print)
                 {
@@ -1297,9 +1297,9 @@ page 41 "Sales Quote"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -1629,7 +1629,7 @@ page 41 "Sales Quote"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(MakeOrder_Promoted; MakeOrder)
                 {
@@ -1639,7 +1639,7 @@ page 41 "Sales Quote"
                 }
                 group(Category_Category10)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 9.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -1686,7 +1686,7 @@ page 41 "Sales Quote"
             }
             group(Category_Category6)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -1703,7 +1703,7 @@ page 41 "Sales Quote"
             }
             group(Category_Category9)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(Email_Promoted; Email)
                 {
@@ -1717,7 +1717,7 @@ page 41 "Sales Quote"
             }
             group(Category_Category7)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -1728,7 +1728,7 @@ page 41 "Sales Quote"
             }
             group(Category_Category4)
             {
-                Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -1757,19 +1757,19 @@ page 41 "Sales Quote"
             }
             group(Category_Category5)
             {
-                Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'View', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category8)
             {
-                Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Category11)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 10.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 10.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

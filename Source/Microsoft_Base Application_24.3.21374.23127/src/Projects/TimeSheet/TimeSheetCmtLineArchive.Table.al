@@ -33,7 +33,7 @@ table 957 "Time Sheet Cmt. Line Archive"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

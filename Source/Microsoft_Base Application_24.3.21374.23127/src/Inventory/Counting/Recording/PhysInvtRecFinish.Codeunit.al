@@ -23,7 +23,7 @@ codeunit 5876 "Phys. Invt. Rec.-Finish"
     end;
 
     var
-        FinishingLinesMsg: Label 'Finishing lines              #2######', Comment = '%2 = counter';
+FinishingLinesMsg: Label 'Finishing lines              #2######', Comment = '%2 = counter';
         InvtSetup: Record "Inventory Setup";
         Location: Record Location;
         PhysInvtRecordHeader: Record "Phys. Invt. Record Header";

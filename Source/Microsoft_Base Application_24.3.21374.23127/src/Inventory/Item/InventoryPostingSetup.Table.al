@@ -143,7 +143,7 @@ table 5813 "Inventory Posting Setup"
         PostingSetupMgt: Codeunit PostingSetupManagement;
         AccountSuggested: Boolean;
 
-        YouCannotDeleteErr: Label 'You cannot delete %1 %2.', Comment = '%1 = Location Code; %2 = Posting Group';
+YouCannotDeleteErr: Label 'You cannot delete %1 %2.', Comment = '%1 = Location Code; %2 = Posting Group';
         NoAccountSuggestedMsg: Label 'Cannot suggest G/L accounts as there is nothing to base suggestion on.';
 
     local procedure CheckSetupUsage()

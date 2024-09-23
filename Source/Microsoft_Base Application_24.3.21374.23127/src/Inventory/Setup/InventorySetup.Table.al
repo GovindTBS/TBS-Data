@@ -144,13 +144,13 @@ table 313 "Inventory Setup"
         field(5703; "Copy Comments Order to Shpt."; Boolean)
         {
             AccessByPermission = TableData "Transfer Header" = R;
-            Caption = 'Copy Comments Order to Shpt.';
+Caption = 'Copy Comments Order to Shpt.';
             InitValue = true;
         }
         field(5704; "Copy Comments Order to Rcpt."; Boolean)
         {
             AccessByPermission = TableData "Transfer Header" = R;
-            Caption = 'Copy Comments Order to Rcpt.';
+Caption = 'Copy Comments Order to Rcpt.';
             InitValue = true;
         }
         field(5718; "Nonstock Item Nos."; Code[20])
@@ -250,7 +250,7 @@ table 313 "Inventory Setup"
         }
         field(5854; "Copy Comments to Invt. Doc."; Boolean)
         {
-            Caption = 'Copy Comments to Invt. Doc.';
+Caption = 'Copy Comments to Invt. Doc.';
         }
         field(5855; "Direct Transfer Posting"; Option)
         {
@@ -367,7 +367,7 @@ table 313 "Inventory Setup"
         Text000: Label 'Some unadjusted value entries will not be covered with the new setting. You must run the Adjust Cost - Item Entries batch job once to adjust these.';
         Text004: Label 'The program has cancelled the change that would have caused an adjustment of all items.';
         Text005: Label '%1 has been changed to %2. You should now run %3.';
-        ItemEntriesAdjustQst: Label 'If you change the %1, the program must adjust all item entries.The adjustment of all entries can take several hours.\Do you really want to change the %1?', Comment = '%1 - field caption';
+ItemEntriesAdjustQst: Label 'If you change the %1, the program must adjust all item entries.The adjustment of all entries can take several hours.\Do you really want to change the %1?', Comment = '%1 - field caption';
 
     procedure GetRecordOnce()
     begin

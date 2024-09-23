@@ -47,7 +47,7 @@ page 1111 "Cost Center Card"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = CostAccounting;
-                    ToolTip = 'Specifies a comment that applies to the cost center.';
+ToolTip = 'Specifies a comment that applies to the cost center.';
                 }
                 field("Responsible Person"; Rec."Responsible Person")
                 {

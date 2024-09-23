@@ -14,30 +14,30 @@ codeunit 6512 "Item Tracking CaptionClass Mgt"
     var
         InventorySetup: Record "Inventory Setup";
         PackageTxt: Label 'Package';
-        PackageNoTxt: Label '%1 No.', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        NewPackageNoTxt: Label 'New %1 No.', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageNoFilterTxt: Label '%1 No. Filter', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageNoRequiredTxt: Label '%1 No. Required', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageNoInfoRequiredTxt: Label '%1 No. Info. Required', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageNoMatchTxt: Label '%1 No. Match', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageSpecificTrackingTxt: Label '%1 Specific Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageWarehouseTrackingTxt: Label '%1 Warehouse Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageInfoInboundMustExistTxt: Label '%1 Info. Inbound Must Exist', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageInfoOutboundMustExistTxt: Label '%1 Info. Outbound Must Exist', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackagePurchaseInboundTrackingTxt: Label '%1 Purchase Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackagePurchOutboundTrackingTxt: Label '%1 Purchase Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageSalesInboundTrackingTxt: Label '%1 Sales Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageSalesOutboundTrackingTxt: Label '%1 Sales Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackagePosInboundTrackingTxt: Label '%1 Pos. Adj. Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackagePosOutboundTrackingTxt: Label '%1 Pos. Adj. Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageNegInboundTrackingTxt: Label '%1 Neg. Adj. Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageNegOutboundTrackingTxt: Label '%1 Neg. Adj. Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageTransferTrackingTxt: Label '%1 Transfer Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageManufInboundTrackingTxt: Label '%1 Manuf. Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageManufOutboundTrackingTxt: Label '%1 Manuf. Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageAssemblyInboundTrackingTxt: Label '%1 Assembly Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageAssemblyOutboundTrackingTxt: Label '%1 Assembly Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
-        PackageAvailabilityTxt: Label 'Availability, %1 No.', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageNoTxt: Label '%1 No.', Comment = '%1 = item tracking dimension name, by default - Package No.';
+NewPackageNoTxt: Label 'New %1 No.', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageNoFilterTxt: Label '%1 No. Filter', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageNoRequiredTxt: Label '%1 No. Required', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageNoInfoRequiredTxt: Label '%1 No. Info. Required', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageNoMatchTxt: Label '%1 No. Match', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageSpecificTrackingTxt: Label '%1 Specific Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageWarehouseTrackingTxt: Label '%1 Warehouse Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageInfoInboundMustExistTxt: Label '%1 Info. Inbound Must Exist', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageInfoOutboundMustExistTxt: Label '%1 Info. Outbound Must Exist', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackagePurchaseInboundTrackingTxt: Label '%1 Purchase Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackagePurchOutboundTrackingTxt: Label '%1 Purchase Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageSalesInboundTrackingTxt: Label '%1 Sales Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageSalesOutboundTrackingTxt: Label '%1 Sales Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackagePosInboundTrackingTxt: Label '%1 Pos. Adj. Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackagePosOutboundTrackingTxt: Label '%1 Pos. Adj. Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageNegInboundTrackingTxt: Label '%1 Neg. Adj. Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageNegOutboundTrackingTxt: Label '%1 Neg. Adj. Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageTransferTrackingTxt: Label '%1 Transfer Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageManufInboundTrackingTxt: Label '%1 Manuf. Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageManufOutboundTrackingTxt: Label '%1 Manuf. Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageAssemblyInboundTrackingTxt: Label '%1 Assembly Inbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageAssemblyOutboundTrackingTxt: Label '%1 Assembly Outbound Tracking', Comment = '%1 = item tracking dimension name, by default - Package No.';
+PackageAvailabilityTxt: Label 'Availability, %1 No.', Comment = '%1 = item tracking dimension name, by default - Package No.';
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Caption Class", 'OnResolveCaptionClass', '', true, true)]
     local procedure ResolveCaptionClass(CaptionArea: Text; CaptionExpr: Text; Language: Integer; var Caption: Text; var Resolved: Boolean)

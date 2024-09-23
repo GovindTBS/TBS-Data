@@ -707,7 +707,7 @@ page 5933 "Service Invoice"
                                   "Table Subtype" = field("Document Type"),
                                   "No." = field("No."),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("&Dimensions")
                 {
@@ -917,11 +917,11 @@ page 5933 "Service Invoice"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category4)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -954,7 +954,7 @@ page 5933 "Service Invoice"
             }
             group(Category_Category5)
             {
-                Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Invoice', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("&Dimensions_Promoted"; "&Dimensions")
                 {
@@ -974,7 +974,7 @@ page 5933 "Service Invoice"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -1050,7 +1050,7 @@ page 5933 "Service Invoice"
         FormatAddress: Codeunit "Format Address";
         ChangeExchangeRate: Page "Change Exchange Rate";
         DocumentIsPosted: Boolean;
-        OpenPostedServiceInvQst: Label 'The invoice is posted as number %1 and moved to the Posted Service Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
+OpenPostedServiceInvQst: Label 'The invoice is posted as number %1 and moved to the Posted Service Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
         IsBillToCountyVisible: Boolean;
         IsSellToCountyVisible: Boolean;
         IsShipToCountyVisible: Boolean;

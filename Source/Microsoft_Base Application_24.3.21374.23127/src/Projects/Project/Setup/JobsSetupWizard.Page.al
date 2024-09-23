@@ -519,7 +519,7 @@ page 1824 "Jobs Setup Wizard"
         ResourceTimeSheetOwnerID: Code[50];
         ResourceTimeSheetApproverID: Code[50];
         ResourceType: Enum "Resource Type";
-        ValueNotExistMsg: Label 'The value for field %1 does not exist. To continue, select an existing value from the lookup.', Comment = '%1=field name';
+ValueNotExistMsg: Label 'The value for field %1 does not exist. To continue, select an existing value from the lookup.', Comment = '%1=field name';
 
     local procedure EnableControls()
     begin

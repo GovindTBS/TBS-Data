@@ -169,7 +169,7 @@ page 8889 "Email Attachments"
                 ApplicationArea = All;
                 Image = Cloud;
                 Caption = 'Edit in OneDrive';
-                ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can edit the file.', Comment = 'OneDrive should not be translated';
+ToolTip = 'Copy the file to your Business Central folder in OneDrive and open it in a new window so you can edit the file.', Comment = 'OneDrive should not be translated';
                 Scope = Repeater;
                 Visible = EditOptionVisible;
 

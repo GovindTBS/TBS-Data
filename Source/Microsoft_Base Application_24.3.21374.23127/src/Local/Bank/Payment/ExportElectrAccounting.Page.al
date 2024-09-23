@@ -142,11 +142,11 @@ page 27000 "Export Electr. Accounting"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Export', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Export', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Export_Promoted; Export)
                 {

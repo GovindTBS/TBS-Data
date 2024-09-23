@@ -401,7 +401,7 @@ page 5200 "Employee Card"
                     RunObject = Page "Human Resource Comment Sheet";
                     RunPageLink = "Table Name" = const(Employee),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -650,7 +650,7 @@ page 5200 "Employee Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Email_Promoted; Email)
                 {
@@ -661,7 +661,7 @@ page 5200 "Employee Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Employee', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Employee', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -696,12 +696,12 @@ page 5200 "Employee Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

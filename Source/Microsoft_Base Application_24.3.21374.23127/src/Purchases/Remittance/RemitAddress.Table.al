@@ -181,7 +181,7 @@ table 2224 "Remit Address"
         Vend: Record Vendor;
         PostCode: Record "Post Code";
         UntitledLbl: Label 'Untitled';
-        CaptionInformationLbl: Label '%1 %2 %3 %4', Comment = '%1 = Vendor No, %2 = Vendor Name, %3 = Code, %4 = Name';
+CaptionInformationLbl: Label '%1 %2 %3 %4', Comment = '%1 = Vendor No, %2 = Vendor Name, %3 = Code, %4 = Name';
 
     procedure Caption(): Text
     begin

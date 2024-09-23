@@ -284,7 +284,7 @@ page 1500 Workflows
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
                 ShowAs = SplitButton;
 
                 actionref(CopyFromTemplate_Promoted; CopyFromTemplate)
@@ -299,7 +299,7 @@ page 1500 Workflows
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(ImportWorkflow_Promoted; ImportWorkflow)
                 {
@@ -310,7 +310,7 @@ page 1500 Workflows
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditAction_Promoted; EditAction)
                 {
@@ -324,7 +324,7 @@ page 1500 Workflows
             }
             group(Category_Category5)
             {
-                Caption = 'Power Automate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Power Automate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(WebhookClientLink_Promoted; WebhookClientLink)
                 {
@@ -332,7 +332,7 @@ page 1500 Workflows
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

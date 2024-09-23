@@ -8,7 +8,7 @@ using Microsoft.Integration.D365Sales;
 
 page 7205 "CDS Integration User Roles"
 {
-    Caption = 'Dataverse Integration User Roles', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
+Caption = 'Dataverse Integration User Roles', Comment = 'Dataverse is the name of a Microsoft Service and should not be translated.';
     DeleteAllowed = false;
     ModifyAllowed = false;
     InsertAllowed = false;

@@ -2,7 +2,7 @@ namespace Microsoft.Inventory.Comment;
 
 table 5748 "Inventory Comment Line"
 {
-    Caption = 'Inventory Comment Line';
+Caption = 'Inventory Comment Line';
     LookupPageID = "Inventory Comment List";
     DataClassification = CustomerContent;
 
@@ -30,7 +30,7 @@ table 5748 "Inventory Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

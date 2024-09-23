@@ -461,7 +461,7 @@ page 6650 "Posted Return Shipment"
                     RunPageLink = "Document Type" = const("Posted Return Shipment"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {

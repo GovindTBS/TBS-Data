@@ -17,7 +17,7 @@ codeunit 5852 "Invt. Doc.-Post + Print"
         InvtDocHeader: Record "Invt. Document Header";
         InvtRcptHeader: Record "Invt. Receipt Header";
         InvtShptHeader: Record "Invt. Shipment Header";
-        PostingConfirmationTxt: Label 'Do you want to post the %1?', Comment = '%1 - document type.';
+PostingConfirmationTxt: Label 'Do you want to post the %1?', Comment = '%1 - document type.';
 
     local procedure "Code"()
     var

@@ -158,11 +158,11 @@ table 418 "IC Inbox Transaction"
     end;
 
     var
-        InvalidActionForReturnedTransactionErr: Label 'Transaction No. %1 has been returned by IC Partner %2.\You can only cancel returned transactions.', Comment = '%1 - Transaction No, %2 - IC parthner code';
-        TransactionAlreadyExistsInInboxHandledQst: Label '%1 %2 has already been received from intercompany partner %3. Accepting it again will create a duplicate %1. Do you want to accept the %1?', Comment = '%1 - Document Type, %2 - Document No, %3 - IC parthner code';
-        DuplicateTransactionNoMsg: Label 'Transaction No. %2 is a copy of Transaction No. %1, which has already been set to Accept.\Do you also want to accept Transaction No. %2?', Comment = '%1 - New Transaction No, %2 - Old Transaction No';
-        DuplicatePurchaseOrderMsg: Label 'A purchase order already exists for transaction %1. If you accept and post this document, you should delete the original purchase order %2 to avoid duplicate postings.', Comment = '%1 - New Transaction No, %2 - Old Transaction No';
-        DuplicatePurchaseInvoiceMsg: Label 'Purchase invoice %1 has already been posted for transaction %2. If you accept and post this document, you will have duplicate postings.\Are you sure you want to accept the transaction?', Comment = '%1 - Purchase Invoice No, %2 - Transaction No';
+InvalidActionForReturnedTransactionErr: Label 'Transaction No. %1 has been returned by IC Partner %2.\You can only cancel returned transactions.', Comment = '%1 - Transaction No, %2 - IC parthner code';
+TransactionAlreadyExistsInInboxHandledQst: Label '%1 %2 has already been received from intercompany partner %3. Accepting it again will create a duplicate %1. Do you want to accept the %1?', Comment = '%1 - Document Type, %2 - Document No, %3 - IC parthner code';
+DuplicateTransactionNoMsg: Label 'Transaction No. %2 is a copy of Transaction No. %1, which has already been set to Accept.\Do you also want to accept Transaction No. %2?', Comment = '%1 - New Transaction No, %2 - Old Transaction No';
+DuplicatePurchaseOrderMsg: Label 'A purchase order already exists for transaction %1. If you accept and post this document, you should delete the original purchase order %2 to avoid duplicate postings.', Comment = '%1 - New Transaction No, %2 - Old Transaction No';
+DuplicatePurchaseInvoiceMsg: Label 'Purchase invoice %1 has already been posted for transaction %2. If you accept and post this document, you will have duplicate postings.\Are you sure you want to accept the transaction?', Comment = '%1 - Purchase Invoice No, %2 - Transaction No';
 
     procedure ShowDetails()
     var

@@ -71,7 +71,7 @@ table 954 "Time Sheet Header Archive"
         {
             CalcFormula = exist("Time Sheet Comment Line" where("No." = field("No."),
                                                                  "Time Sheet Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

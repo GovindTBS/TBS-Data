@@ -79,10 +79,10 @@ codeunit 7322 "Create Inventory Pick/Movement"
         HasExpiredItems: Boolean;
         SuppressCommit: Boolean;
         NothingToHandleErr: Label 'There is nothing to handle.';
-        QtyNotSufficientOnSalesErr: Label 'Quantity available to pick is not sufficient to fulfill shipping advise %1 for sales line with Document Type %2, Document No. %3, Line No. %4.', Comment = '%1=Shipping advise no., %2=Document Type, %3=Document No., %4=Line No.';
-        QtyNotSufficientOnTransferErr: Label 'Quantity available to pick is not sufficient to fulfill shipping advise %1 for transfer line with Document No. %2, Line No. %3.', Comment = '%1=Shipping advise no., %2=Document No., %3=Line No.';
-        ActivityCreatedMsg: Label '%1 activity number %2 has been created.', Comment = '%1=Warehouse Activity Type,%2=Warehouse Activity number';
-        TrackingNotFullyAppliedMsg: Label '%1 activity number %2 has been created.\\Item tracking lines cannot be fully applied.', Comment = '%1=Warehouse Activity Type,%2=Warehouse Activity No.';
+QtyNotSufficientOnSalesErr: Label 'Quantity available to pick is not sufficient to fulfill shipping advise %1 for sales line with Document Type %2, Document No. %3, Line No. %4.', Comment = '%1=Shipping advise no., %2=Document Type, %3=Document No., %4=Line No.';
+QtyNotSufficientOnTransferErr: Label 'Quantity available to pick is not sufficient to fulfill shipping advise %1 for transfer line with Document No. %2, Line No. %3.', Comment = '%1=Shipping advise no., %2=Document No., %3=Line No.';
+ActivityCreatedMsg: Label '%1 activity number %2 has been created.', Comment = '%1=Warehouse Activity Type,%2=Warehouse Activity number';
+TrackingNotFullyAppliedMsg: Label '%1 activity number %2 has been created.\\Item tracking lines cannot be fully applied.', Comment = '%1=Warehouse Activity Type,%2=Warehouse Activity No.';
         CreateInvtMvmtQst: Label 'Do you want to create Inventory Movement?';
         BinPolicyTelemetryCategoryTok: Label 'Bin Policy', Locked = true;
         DefaultBinPickPolicyTelemetryTok: Label 'Default Bin Pick Policy in used for inventory pick.', Locked = true;

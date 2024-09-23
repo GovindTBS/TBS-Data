@@ -74,12 +74,12 @@ page 975 "Time Sheet Archive Card"
             action(TimeSheetComments)
             {
                 ApplicationArea = Comments;
-                Caption = 'Comments';
+Caption = 'Comments';
                 Image = ViewComments;
                 RunObject = Page "Time Sheet Arc. Comment Sheet";
                 RunPageLink = "No." = field("No."),
                                   "Time Sheet Line No." = const(0);
-                ToolTip = 'View comments about the time sheet.';
+ToolTip = 'View comments about the time sheet.';
             }
         }
         area(Promoted)

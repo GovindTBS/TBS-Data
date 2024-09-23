@@ -126,19 +126,19 @@ table 312 "Purchases & Payables Setup"
         field(22; "Copy Comments Blanket to Order"; Boolean)
         {
             AccessByPermission = TableData "Purch. Rcpt. Header" = R;
-            Caption = 'Copy Comments Blanket to Order';
+Caption = 'Copy Comments Blanket to Order';
             InitValue = true;
         }
         field(23; "Copy Comments Order to Invoice"; Boolean)
         {
             AccessByPermission = TableData "Purch. Rcpt. Header" = R;
-            Caption = 'Copy Comments Order to Invoice';
+Caption = 'Copy Comments Order to Invoice';
             InitValue = true;
         }
         field(24; "Copy Comments Order to Receipt"; Boolean)
         {
             AccessByPermission = TableData "Purch. Rcpt. Header" = R;
-            Caption = 'Copy Comments Order to Receipt';
+Caption = 'Copy Comments Order to Receipt';
             InitValue = true;
         }
         field(25; "Allow VAT Difference"; Boolean)

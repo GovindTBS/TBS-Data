@@ -9,7 +9,7 @@ using Microsoft.Intercompany.Setup;
 
 table 424 "IC Comment Line"
 {
-    Caption = 'IC Comment Line';
+Caption = 'IC Comment Line';
     DataClassification = CustomerContent;
 
     fields
@@ -39,7 +39,7 @@ table 424 "IC Comment Line"
         }
         field(6; Comment; Text[50])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(7; "Transaction Source"; Option)
         {

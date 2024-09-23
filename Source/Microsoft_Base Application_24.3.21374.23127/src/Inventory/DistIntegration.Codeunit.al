@@ -25,8 +25,8 @@ codeunit 5702 "Dist. Integration"
         PurchLine: Record "Purchase Line";
         ItemReference: Record "Item Reference";
 
-        ItemsNotFoundErr: Label 'There are no items with cross reference %1.', Comment = '%1=Cross-Reference No.';
-        Text001: Label 'The Quantity per Unit of Measure %1 has changed from %2 to %3 since the sales order was created. Adjust the quantity on the sales order or the unit of measure.', Comment = '%1=Unit of Measure Code,%2=Qty. per Unit of Measure in Sales Line,%3=Qty. per Unit of Measure in Item Unit of Measure';
+ItemsNotFoundErr: Label 'There are no items with cross reference %1.', Comment = '%1=Cross-Reference No.';
+Text001: Label 'The Quantity per Unit of Measure %1 has changed from %2 to %3 since the sales order was created. Adjust the quantity on the sales order or the unit of measure.', Comment = '%1=Unit of Measure Code,%2=Qty. per Unit of Measure in Sales Line,%3=Qty. per Unit of Measure in Item Unit of Measure';
 
     procedure GetSpecialOrders(var PurchHeader: Record "Purchase Header")
     var

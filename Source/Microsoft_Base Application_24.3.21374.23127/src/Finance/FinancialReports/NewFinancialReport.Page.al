@@ -113,9 +113,9 @@ page 8747 "New Financial Report"
         AlreadyExistsFinancialReportTxt: Text;
         AlreadyExistsAccountScheduleTxt: Text;
         AlreadyExistsColumnLayoutTxt: Text;
-        AlreadyExistsFinancialReportErr: Label 'Financial report %1 will be overwritten.', Comment = '%1 - name of the financial report.';
-        AlreadyExistsAccountScheduleErr: Label 'Row definition %1 will be overwritten.', Comment = '%1 - name of the row definition.';
-        AlreadyExistsColumnLayoutErr: Label 'Column definition %1 will be overwritten.', Comment = '%1 - name of the column definition.';
+AlreadyExistsFinancialReportErr: Label 'Financial report %1 will be overwritten.', Comment = '%1 - name of the financial report.';
+AlreadyExistsAccountScheduleErr: Label 'Row definition %1 will be overwritten.', Comment = '%1 - name of the row definition.';
+AlreadyExistsColumnLayoutErr: Label 'Column definition %1 will be overwritten.', Comment = '%1 - name of the column definition.';
 
     procedure Set(FinancialReportName: Code[10]; AccSchedName: Code[10]; ColumnLayout: Code[10])
     begin

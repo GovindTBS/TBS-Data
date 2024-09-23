@@ -770,7 +770,7 @@ report 208 "Sales - Shipment"
         AsmHeaderExists: Boolean;
         LinNo: Integer;
 
-        Text002: Label 'Sales - Shipment %1', Comment = '%1 = Document No.';
+Text002: Label 'Sales - Shipment %1', Comment = '%1 = Document No.';
         ItemTrackingAppendixCaptionLbl: Label 'Item Tracking - Appendix';
         PhoneNoCaptionLbl: Label 'Phone No.';
         VATRegNoCaptionLbl: Label 'VAT Reg. No.';

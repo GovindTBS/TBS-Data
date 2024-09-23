@@ -257,7 +257,7 @@ report 5877 "Phys. Invt. Order - Test"
                     trigger OnAfterGetRecord()
                     var
                         ItemVariant: Record "Item Variant";
-                        ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
                     begin
                         OnBeforePhysInvtOrderLineOnAfterGetRecord("Phys. Invt. Order Line", ErrorCounter, ErrorText);
                         LineIsEmpty := EmptyLine();
@@ -380,13 +380,13 @@ report 5877 "Phys. Invt. Order - Test"
     }
 
     var
-        MustBeSpecifiedErr: Label '%1 must be specified.', Comment = '%1 = field caption';
-        MustBeErr: Label '%1 must be %2.', Comment = '%1 = field caption, %2 = field value';
-        MustNotBeClosignDateErr: Label '%1 must not be a closing date.', Comment = '%1 = field caption';
+MustBeSpecifiedErr: Label '%1 must be specified.', Comment = '%1 = field caption';
+MustBeErr: Label '%1 must be %2.', Comment = '%1 = field caption, %2 = field value';
+MustNotBeClosignDateErr: Label '%1 must not be a closing date.', Comment = '%1 = field caption';
         FinishedTxt: Label 'Finished';
-        NotAllowedDateRangeErr: Label '%1 is not within your allowed range of posting dates.', Comment = '%1 = field caption';
-        MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 = field caption, %2 = value, %3 = table caption, %4 = field caption';
-        DoesNotExistErr: Label '%2 %1 does not exist.', Comment = '%1 = Entity No., %2 - Table Caption';
+NotAllowedDateRangeErr: Label '%1 is not within your allowed range of posting dates.', Comment = '%1 = field caption';
+MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 = field caption, %2 = value, %3 = table caption, %4 = field caption';
+DoesNotExistErr: Label '%2 %1 does not exist.', Comment = '%1 = Entity No., %2 - Table Caption';
         GLSetup: Record "General Ledger Setup";
         UserSetup: Record "User Setup";
         PhysInvtOrderLine: Record "Phys. Invt. Order Line";

@@ -9,7 +9,7 @@ codeunit 6702 "O365 Contact Sync. Helper"
         CountryRegionNotFoundErr: Label 'The Exchange Country/Region cannot be found in your company.';
         CreateExchangeContactTxt: Label 'Create exchange contact.';
         CreateExchangeContactFailedTxt: Label 'Failed to create the new exchange contact.';
-        CreateNavContactTxt: Label 'Create contact. - %1', Comment = '%1 = The contact';
+CreateNavContactTxt: Label 'Create contact. - %1', Comment = '%1 = The contact';
         FieldParseFailedTxt: Label 'Could not parse the field %1 for the Exchange contact', Locked = true;
         UniqueCompanyNameErr: Label 'The Exchange Company Name is not unique in your company.';
         LocalCountTelemetryTxt: Label 'Synchronizing %1 contacts to Exchange.', Locked = true;

@@ -42,6 +42,6 @@ codeunit 1181 "Prvacy Data Mgmt Excel"
     end;
 
     var
-        PrivacyDataTxt: Label 'Privacy Data for %1', Comment = '%1=The name of the package code.';
+PrivacyDataTxt: Label 'Privacy Data for %1', Comment = '%1=The name of the package code.';
 }
 

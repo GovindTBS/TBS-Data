@@ -8,7 +8,7 @@ using Microsoft.Service.Loaner;
 page 5911 "Service Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Service Comment Sheet';
+Caption = 'Service Comment Sheet';
     LinksAllowed = false;
     PageType = List;
     SourceTable = "Service Comment Line";
@@ -23,12 +23,12 @@ page 5911 "Service Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Service;
-                    ToolTip = 'Specifies the date you entered the service comment.';
+ToolTip = 'Specifies the date you entered the service comment.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the service comment.';
+ToolTip = 'Specifies the service comment.';
                 }
             }
         }

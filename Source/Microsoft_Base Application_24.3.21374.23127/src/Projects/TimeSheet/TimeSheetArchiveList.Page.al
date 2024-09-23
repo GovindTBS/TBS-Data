@@ -85,7 +85,7 @@ page 960 "Time Sheet Archive List"
                     RunObject = Page "Time Sheet Arc. Comment Sheet";
                     RunPageLink = "No." = field("No."),
                                   "Time Sheet Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

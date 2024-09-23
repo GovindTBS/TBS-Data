@@ -599,7 +599,7 @@ table 32 "Item Ledger Entry"
         ItemTrackingMgt: Codeunit "Item Tracking Management";
         ItemTrackingType: Enum "Item Tracking Type";
         GLSetupRead: Boolean;
-        UseItemTrackingLinesPageErr: Label 'You must use form %1 to enter %2, if item tracking is used.', Comment = '%1 - page caption, %2 - field caption';
+UseItemTrackingLinesPageErr: Label 'You must use form %1 to enter %2, if item tracking is used.', Comment = '%1 - page caption, %2 - field caption';
         IsNotOnInventoryErr: Label 'You have insufficient quantity of Item %1 on inventory.';
 
     procedure GetCurrencyCode(): Code[10]

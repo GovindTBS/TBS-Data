@@ -282,7 +282,7 @@ report 113 "Customer/Item Sales"
         Profit: Decimal;
         ProfitPct: Decimal;
 
-        PeriodTxt: Label 'Period: %1', Comment = '%1 - period text';
+PeriodTxt: Label 'Period: %1', Comment = '%1 - period text';
         Customer_Item_SalesCaptionLbl: Label 'Customer/Item Sales';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
         All_amounts_are_in_LCYCaptionLbl: Label 'All amounts are in LCY';

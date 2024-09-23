@@ -1138,7 +1138,7 @@ page 21 "Customer Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = CONST(Customer),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(ApprovalEntries)
                 {
@@ -1241,7 +1241,7 @@ page 21 "Customer Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dataverse record.';
                     action(ManageCRMCoupling)
@@ -1962,9 +1962,9 @@ page 21 "Customer Card"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistCurrUser;
 
                     trigger OnAction()
@@ -2400,7 +2400,7 @@ page 21 "Customer Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Contact_Promoted; Contact)
                 {
@@ -2417,7 +2417,7 @@ page 21 "Customer Card"
             }
             group(Category_Category5)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -2434,7 +2434,7 @@ page 21 "Customer Card"
             }
             group(Category_Category6)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -2445,7 +2445,7 @@ page 21 "Customer Card"
             }
             group(Category_Category4)
             {
-                Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'New Document', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(NewSalesQuoteAddin_Promoted; NewSalesQuoteAddin)
                 {
@@ -2477,7 +2477,7 @@ page 21 "Customer Card"
             }
             group(Category_Category7)
             {
-                Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Prices & Discounts', Comment = 'Generated from the PromotedActionCategories property index 6.';
 #if not CLEAN23
                 actionref(Prices_Promoted; Prices)
                 {
@@ -2514,7 +2514,7 @@ page 21 "Customer Card"
             }
             group(Category_Category9)
             {
-                Caption = 'Customer', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Customer', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref("Ledger E&ntries_Promoted"; "Ledger E&ntries")
                 {
@@ -2557,11 +2557,11 @@ page 21 "Customer Card"
             }
             group(Category_Category8)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 7.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Report Statement_Promoted"; "Report Statement")
                 {
@@ -2909,13 +2909,13 @@ page 21 "Customer Card"
         CustSalesLCY: Decimal;
         OverdueBalance: Decimal;
         OverduePaymentsMsg: Label 'Overdue Payments';
-        PostedInvoicesMsg: Label 'Posted Invoices (%1)', Comment = 'Invoices (5)';
-        CreditMemosMsg: Label 'Posted Credit Memos (%1)', Comment = 'Credit Memos (3)';
-        OutstandingInvoicesMsg: Label 'Ongoing Invoices (%1)', Comment = 'Ongoing Invoices (4)';
-        OutstandingCrMemosMsg: Label 'Ongoing Credit Memos (%1)', Comment = 'Ongoing Credit Memos (4)';
+PostedInvoicesMsg: Label 'Posted Invoices (%1)', Comment = 'Invoices (5)';
+CreditMemosMsg: Label 'Posted Credit Memos (%1)', Comment = 'Credit Memos (3)';
+OutstandingInvoicesMsg: Label 'Ongoing Invoices (%1)', Comment = 'Ongoing Invoices (4)';
+OutstandingCrMemosMsg: Label 'Ongoing Credit Memos (%1)', Comment = 'Ongoing Credit Memos (4)';
         ShowMapLbl: Label 'Show on Map';
         CustomerCardServiceCategoryTxt: Label 'Customer Card', Locked = true;
-        PageBckGrndTaskStartedTxt: Label 'Page Background Task to calculate customer statistics for customer %1 started.', Locked = true, Comment = '%1 = Customer No.';
+PageBckGrndTaskStartedTxt: Label 'Page Background Task to calculate customer statistics for customer %1 started.', Locked = true, Comment = '%1 = Customer No.';
         PageBckGrndTaskCompletedTxt: Label 'Page Background Task to calculate customer statistics completed successfully.', Locked = true;
         ExpectedMoneyOwed: Decimal;
         TotalMoneyOwed: Decimal;
@@ -2933,13 +2933,13 @@ page 21 "Customer Card"
         IsSaaS: Boolean;
         IsCountyVisible: Boolean;
         IsAllowMultiplePostingGroupsVisible: Boolean;
-        StatementFileNameTxt: Label 'Statement', Comment = 'Shortened form of ''Customer Statement''';
+StatementFileNameTxt: Label 'Statement', Comment = 'Shortened form of ''Customer Statement''';
         LoadOnDemand: Boolean;
         PrevCustNo: Code[20];
         PrevCountryCode: Code[10];
         BackgroundTaskId: Integer;
         BalanceAsVendorEnabled: Boolean;
-        PaymentsThisYearTxt: Label 'Payments This Year as of %1', Comment = '%1 = Current Fiscal Year Filter';
+PaymentsThisYearTxt: Label 'Payments This Year as of %1', Comment = '%1 = Current Fiscal Year Filter';
 
     protected var
         ContactEditable: Boolean;

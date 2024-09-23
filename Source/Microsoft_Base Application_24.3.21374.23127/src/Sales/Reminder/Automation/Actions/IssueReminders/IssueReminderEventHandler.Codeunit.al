@@ -16,7 +16,7 @@ codeunit 6756 "Issue Reminder Event Handler"
         GlobalReminderAction: Record "Reminder Action";
         GlobalReminderActionProgress: Codeunit "Reminder Action Progress";
         NoRemindersIssuedTxt: Label 'No reminders were issued.';
-        RemindersIssuedTxt: Label '%1 reminders were issued.', Comment = '%1 number of reminders issued';
+RemindersIssuedTxt: Label '%1 reminders were issued.', Comment = '%1 number of reminders issued';
         NumberOfIssuedReminders: Integer;
 
     internal procedure SetReminderAction(ReminderAction: Record "Reminder Action")

@@ -152,7 +152,7 @@ page 5725 "Catalog Item Card"
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const("Nonstock Item"),
                                   "No." = field("Entry No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

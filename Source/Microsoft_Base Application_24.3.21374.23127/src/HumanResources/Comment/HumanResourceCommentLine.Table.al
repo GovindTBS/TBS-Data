@@ -5,7 +5,7 @@ using Microsoft.HumanResources.Employee;
 
 table 5208 "Human Resource Comment Line"
 {
-    Caption = 'Human Resource Comment Line';
+Caption = 'Human Resource Comment Line';
     DataCaptionFields = "No.";
     DrillDownPageID = "Human Resource Comment List";
     LookupPageID = "Human Resource Comment List";
@@ -57,7 +57,7 @@ table 5208 "Human Resource Comment Line"
         }
         field(9; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

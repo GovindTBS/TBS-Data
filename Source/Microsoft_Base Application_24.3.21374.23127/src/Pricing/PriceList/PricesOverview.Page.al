@@ -613,7 +613,7 @@ page 7024 "Prices Overview"
         PageCaptionText: Text;
         Description3Lbl: Label '%1 %2 %3', Locked = true;
         Description5Lbl: Label '%1 %2 %3 %4 %5', Locked = true;
-        WithinFilterLbl: Label 'No %1 within the filter %2.', Comment = '%1 - the unique entity id, %2 - the filter string ';
+WithinFilterLbl: Label 'No %1 within the filter %2.', Comment = '%1 - the unique entity id, %2 - the filter string ';
         AssignToNoEditable: Boolean;
         AssignToParentNoEditable: Boolean;
         PriceTypeVisible: Boolean;

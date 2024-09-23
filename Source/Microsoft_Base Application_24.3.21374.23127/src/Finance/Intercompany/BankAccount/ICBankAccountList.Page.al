@@ -116,7 +116,7 @@ page 697 "IC Bank Account List"
 
     var
         EnableCopy: Boolean;
-        CopyICBankAccountsQst: Label 'Do you want to create IC Bank Accounts for partner %1 using its current Bank Accounts? This will delete the existing IC Bank Accounts for this partner.', Comment = '%1 = IC Partner code';
+CopyICBankAccountsQst: Label 'Do you want to create IC Bank Accounts for partner %1 using its current Bank Accounts? This will delete the existing IC Bank Accounts for this partner.', Comment = '%1 = IC Partner code';
         OnlyAvailableForICUsingDatabaseLbl: Label 'Copy is only available for partners using Database as their Inbox Type. Select this option in the partner''s setup if you want to use this action.';
 
 }

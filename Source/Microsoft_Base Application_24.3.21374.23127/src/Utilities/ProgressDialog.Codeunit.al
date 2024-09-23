@@ -11,8 +11,8 @@ codeunit 1815 "Progress Dialog"
         ProgressWindow: Dialog;
         WindowUpdateDateTime: DateTime;
         CurrentRecCount: Integer;
-        ProgressCopyCountMaxMsg: Label 'Copying #1###### #2###### out of #3#######', Comment = '#1######=Type of object copied; #2######=amount copied;#3#######=total amount to copy';
-        ProgressCopyCountMsg: Label 'Copying #1###### #2######', Comment = '#1######=Type of object copied; #2######=amount copied';
+ProgressCopyCountMaxMsg: Label 'Copying #1###### #2###### out of #3#######', Comment = '#1######=Type of object copied; #2######=amount copied;#3#######=total amount to copy';
+ProgressCopyCountMsg: Label 'Copying #1###### #2######', Comment = '#1######=Type of object copied; #2######=amount copied';
 
     procedure OpenCopyCountMax(Type: Text; MaxCount: Integer)
     begin

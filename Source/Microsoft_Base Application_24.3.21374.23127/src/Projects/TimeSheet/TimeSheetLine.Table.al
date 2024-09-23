@@ -219,7 +219,7 @@ table 951 "Time Sheet Line"
         {
             CalcFormula = exist("Time Sheet Comment Line" where("No." = field("Time Sheet No."),
                                                                  "Time Sheet Line No." = field("Line No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -317,7 +317,7 @@ table 951 "Time Sheet Line"
         Text002: Label 'Status must be Open or Rejected in line with Time Sheet No.=''%1'', Line No.=''%2''.';
         Text003: Label 'Service order %1 for customer %2';
         Text005: Label 'Select a type before you enter an activity.';
-        PrivacyBlockedErr: Label 'You cannot use resource %1 because they are marked as blocked due to privacy.', Comment = '%1=resource no.';
+PrivacyBlockedErr: Label 'You cannot use resource %1 because they are marked as blocked due to privacy.', Comment = '%1=resource no.';
 
     procedure TestStatus()
     var
@@ -503,7 +503,7 @@ table 951 "Time Sheet Line"
 
     procedure CheckIfTimeSheetLineLinkExist(Job: Record Job)
     var
-        TimeSheetLineExistsForJobErr: Label 'One or more unposted Time Sheet lines exists for the project %1.\\You must post or delete the time sheet lines before you can change the project status.', Comment = '%1 = Project No.';
+TimeSheetLineExistsForJobErr: Label 'One or more unposted Time Sheet lines exists for the project %1.\\You must post or delete the time sheet lines before you can change the project status.', Comment = '%1 = Project No.';
     begin
         if Job.Status = Job.Status::Open then
             exit;

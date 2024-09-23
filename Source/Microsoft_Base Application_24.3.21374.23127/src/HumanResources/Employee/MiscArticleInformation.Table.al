@@ -57,7 +57,7 @@ table 5214 "Misc. Article Information"
                                                                      "No." = field("Employee No."),
                                                                      "Alternative Address Code" = field("Misc. Article Code"),
                                                                      "Table Line No." = field("Line No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -100,7 +100,7 @@ table 5214 "Misc. Article Information"
     end;
 
     var
-        Text000: Label 'You cannot delete information if there are comments associated with it.';
+Text000: Label 'You cannot delete information if there are comments associated with it.';
         MiscArticle: Record "Misc. Article";
 }
 

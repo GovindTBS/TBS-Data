@@ -194,13 +194,13 @@ page 1797 "Data Migration Error"
 
     var
         MultipleRecordsSelectedErr: Label 'You can view the content of one record at a time.';
-        MigrationStartedMsg: Label 'The selected records are scheduled for data migration. To check the status of the migration, go to the %1 page.', Comment = '%1 = Caption for the page Data Migration Overview';
+MigrationStartedMsg: Label 'The selected records are scheduled for data migration. To check the status of the migration, go to the %1 page.', Comment = '%1 = Caption for the page Data Migration Overview';
         NoSelectionsMadeErr: Label 'No records have been selected.';
         StagingTableRecIdSpecified: Boolean;
         SkipSelectionConfirmQst: Label 'The selected errors will be deleted and the corresponding entities will not be migrated. Do you want to continue?';
         ExtensionNotInstalledErr: Label 'Sorry, but it looks like someone uninstalled the data migration extension you are trying to use. When that happens, we remove all data that was not fully migrated.';
         SkipEditNotificationMsg: Label 'Skip errors, or edit the entity to fix them, and then migrate again.';
-        MigrateEntitiesAgainQst: Label 'Do you want to migrate the updated entities?\\If you do, remember to refresh the %1 page so you can follow the progress.', Comment = '%1 = caption of the Data Migration Overview page';
+MigrateEntitiesAgainQst: Label 'Do you want to migrate the updated entities?\\If you do, remember to refresh the %1 page so you can follow the progress.', Comment = '%1 = caption of the Data Migration Overview page';
         BulkFixErrorsButtonEnabled: Boolean;
         StackTraceTxt: Text;
 

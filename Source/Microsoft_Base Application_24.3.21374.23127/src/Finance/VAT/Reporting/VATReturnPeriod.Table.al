@@ -130,8 +130,8 @@ table 737 "VAT Return Period"
         VATReportSetupGot: Boolean;
 
         DeleteExistingVATRetErr: Label 'You cannot delete a VAT return period that has a linked VAT return.';
-        OverdueTxt: Label 'Your VAT return is overdue since %1 (%2 days)', Comment = '%1 - date; %2 - days count';
-        OpenTxt: Label 'Your VAT return is due %1 (in %2 days)', Comment = '%1 - date; %2 - days count';
+OverdueTxt: Label 'Your VAT return is overdue since %1 (%2 days)', Comment = '%1 - date; %2 - days count';
+OpenTxt: Label 'Your VAT return is due %1 (in %2 days)', Comment = '%1 - date; %2 - days count';
 
     local procedure GetNoSeriesCode(): Code[20]
     var

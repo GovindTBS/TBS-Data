@@ -7,7 +7,7 @@ using Microsoft.Service.Loaner;
 
 table 5906 "Service Comment Line"
 {
-    Caption = 'Service Comment Line';
+Caption = 'Service Comment Line';
     DataCaptionFields = Type, "No.";
     DrillDownPageID = "Service Comment Sheet";
     LookupPageID = "Service Comment Sheet";
@@ -41,7 +41,7 @@ table 5906 "Service Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(7; Date; Date)
         {

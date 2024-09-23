@@ -662,7 +662,7 @@ page 5935 "Service Credit Memo"
                                   "Table Subtype" = field("Document Type"),
                                   "No." = field("No."),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -1041,7 +1041,7 @@ page 5935 "Service Credit Memo"
         FormatAddress: Codeunit "Format Address";
         ChangeExchangeRate: Page "Change Exchange Rate";
         DocumentIsPosted: Boolean;
-        OpenPostedServiceCrMemoQst: Label 'The credit memo is posted as number %1 and moved to the Posted Service Credit Memos window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
+OpenPostedServiceCrMemoQst: Label 'The credit memo is posted as number %1 and moved to the Posted Service Credit Memos window.\\Do you want to open the posted credit memo?', Comment = '%1 = posted document number';
         IsBillToCountyVisible: Boolean;
         IsSellToCountyVisible: Boolean;
         IsShipToCountyVisible: Boolean;

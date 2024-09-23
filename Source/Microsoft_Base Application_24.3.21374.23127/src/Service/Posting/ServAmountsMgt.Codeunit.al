@@ -47,7 +47,7 @@ codeunit 5986 "Serv-Amounts Mgt."
         IsInitialized: Boolean;
 #if not CLEAN23
         TaxOption: Option ,VAT,SalesTax;
-        USText003: Label 'You must enter a value in %1 for %2 %3 if you want to post discounts for that line.', Comment = '%1 = field name of Gen. Prod. Posting Group, %2 = field name of Line No., %3 = value of Line No.';
+USText003: Label 'You must enter a value in %1 for %2 %3 if you want to post discounts for that line.', Comment = '%1 = field name of Gen. Prod. Posting Group, %2 = field name of Line No., %3 = value of Line No.';
         SalesTaxCalculationOverridden: Boolean;
 #endif
         SuppressCommit: Boolean;

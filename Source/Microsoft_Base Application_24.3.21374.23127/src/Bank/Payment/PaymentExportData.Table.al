@@ -490,8 +490,8 @@ table 1226 "Payment Export Data"
     var
         TempPaymentExportRemittanceText: Record "Payment Export Remittance Text" temporary;
         PreserveNonLatinCharacters: Boolean;
-        BankMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for Bank Account %1.', Comment = '%1 = Bank Account Name';
-        EmployeeMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for employee %1.', Comment = '%1 - Employee name';
+BankMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for Bank Account %1.', Comment = '%1 = Bank Account Name';
+EmployeeMustHaveBankAccountNoErr: Label 'You must specify either Bank Account No. or IBAN for employee %1.', Comment = '%1 - Employee name';
 
     procedure InitData(var GenJnlLine: Record "Gen. Journal Line")
     begin

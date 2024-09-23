@@ -412,7 +412,7 @@ page 311 "Intrastat Journal"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(GetEntries_Promoted; GetEntries)
                 {
@@ -432,23 +432,23 @@ page 311 "Intrastat Journal"
             }
             group(Category_Category7)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 6.';
             }
             group(Category_Category4)
             {
-                Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Application', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Application', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category6)
             {
-                Caption = 'Payroll', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Payroll', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Category8)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -456,7 +456,7 @@ page 311 "Intrastat Journal"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(Form_Promoted; Form)
                 {

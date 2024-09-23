@@ -98,7 +98,7 @@ table 1103 "Cost Type"
         }
         field(20; Comment; Text[50])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(22; "Cost Classification"; Option)
         {

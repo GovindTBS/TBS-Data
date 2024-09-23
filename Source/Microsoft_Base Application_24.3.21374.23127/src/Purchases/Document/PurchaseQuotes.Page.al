@@ -266,7 +266,7 @@ page 9306 "Purchase Quotes"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(Dimensions)
                 {
@@ -449,7 +449,7 @@ page 9306 "Purchase Quotes"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(MakeOrder_Promoted; MakeOrder)
                 {
@@ -469,7 +469,7 @@ page 9306 "Purchase Quotes"
             }
             group(Category_Category5)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -483,7 +483,7 @@ page 9306 "Purchase Quotes"
             }
             group(Category_Category4)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
 #if not CLEAN22
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
@@ -506,7 +506,7 @@ page 9306 "Purchase Quotes"
             }
             group(Category_Category6)
             {
-                Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Quote', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -523,7 +523,7 @@ page 9306 "Purchase Quotes"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

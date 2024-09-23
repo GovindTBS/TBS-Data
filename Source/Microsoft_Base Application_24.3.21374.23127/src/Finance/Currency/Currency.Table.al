@@ -587,13 +587,13 @@ table 4 Currency
 
         Text000: Label 'must be rounded to the nearest %1';
         Text001: Label '%1 must be rounded to the nearest %2.';
-        Text002: Label 'There is one or more opened entries in the %1 table using %2 %3.', Comment = '1 either customer or vendor ledger entry table 2 name co currency table 3 currencency code';
+Text002: Label 'There is one or more opened entries in the %1 table using %2 %3.', Comment = '1 either customer or vendor ledger entry table 2 name co currency table 3 currencency code';
         IncorrectEntryTypeErr: Label 'Incorrect Entry Type %1.';
-        EuroDescriptionTxt: Label 'Euro', Comment = 'Currency Description';
-        CanadiandollarDescriptionTxt: Label 'Canadian dollar', Comment = 'Currency Description';
-        BritishpoundDescriptionTxt: Label 'Pound Sterling', Comment = 'Currency Description';
-        USdollarDescriptionTxt: Label 'US dollar', Comment = 'Currency Description';
-        ISOCodeLengthErr: Label 'The length of the string is %1, but it must be equal to %2 characters. Value: %3.', Comment = '%1, %2 - numbers, %3 - actual value';
+EuroDescriptionTxt: Label 'Euro', Comment = 'Currency Description';
+CanadiandollarDescriptionTxt: Label 'Canadian dollar', Comment = 'Currency Description';
+BritishpoundDescriptionTxt: Label 'Pound Sterling', Comment = 'Currency Description';
+USdollarDescriptionTxt: Label 'US dollar', Comment = 'Currency Description';
+ISOCodeLengthErr: Label 'The length of the string is %1, but it must be equal to %2 characters. Value: %3.', Comment = '%1, %2 - numbers, %3 - actual value';
         ASCIILetterErr: Label 'must contain ASCII letters only';
         NumericErr: Label 'must contain numbers only';
         NoAccountSuggestedMsg: Label 'Cannot suggest G/L accounts as there is nothing to base suggestion on.';

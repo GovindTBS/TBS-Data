@@ -94,7 +94,7 @@ page 1295 "Posted Payment Reconciliation"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Print_Promoted; Print)
                 {
@@ -105,15 +105,15 @@ page 1295 "Posted Payment Reconciliation"
             }
             group(Category_Category4)
             {
-                Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Bank', Comment = 'Generated from the PromotedActionCategories property index 3.';
             }
             group(Category_Category5)
             {
-                Caption = 'Matching', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Matching', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -24,7 +24,7 @@ codeunit 2500 "Extension Installation Impl"
         NotInstalledTxt: Label 'Not Installed';
 FullVersionStringTxt: Label '%1.%2.%3.%4', Comment = '%1=Version Major, %2=Version Minor, %3=Version build, %4=Version revision';
 NoRevisionVersionStringTxt: Label '%1.%2.%3', Comment = '%1=Version Major, %2=Version Minor, %3=Version build';
-        NoBuildVersionStringTxt: Label '%1.%2', Comment = '%1=Version Major, %2=Version Minor';
+NoBuildVersionStringTxt: Label '%1.%2', Comment = '%1=Version Major, %2=Version Minor';
         PermissionErr: Label 'You do not have the required permissions to install the selected app. Contact your Partner or system administrator to install the app or assign you permissions.';
 DependenciesFoundQst: Label 'The extension %1 has a dependency on one or more extensions: %2. \ \Do you want to install %1 and all of its dependencies?', Comment = '%1=name of app, %2=semicolon separated list of uninstalled dependencies';
 DependentsFoundQst: Label 'The extension %1 is a dependency for one or more extensions: %2. \ \Do you want to uninstall %1 and all of its dependents?', Comment = '%1=name of app, %2=semicolon separated list of installed dependents';

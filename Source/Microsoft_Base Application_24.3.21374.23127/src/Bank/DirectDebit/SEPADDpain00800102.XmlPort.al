@@ -405,7 +405,7 @@ xmlport 1010 "SEPA DD pain.008.001.02"
     end;
 
     var
-        NoDataToExportErr: Label 'There is no data to export. Make sure the %1 field is not set to %2 or %3.', Comment = '%1=Field;%2=Value;%3=Value';
+NoDataToExportErr: Label 'There is no data to export. Make sure the %1 field is not set to %2 or %3.', Comment = '%1=Field;%2=Value;%3=Value';
 
     local procedure InitData()
     var

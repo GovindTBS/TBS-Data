@@ -219,8 +219,8 @@ table 9657 "Custom Report Selection"
     end;
 
     var
-        TargetEmailAddressErr: Label 'The target email address has not been specified on the document layout for %1, %2. //Choose the Document Layouts action on the customer or vendor card to specify the email address.', Comment = '%1 - Source Data RecordID, %2 - Usage';
-        ExceededContactsNotificationTxt: Label 'Too many contacts were selected. Only %1 of %2 contact emails were processed. You can revise contact selection.', Comment = '%1 = number of contacts, %2 = number of contacts';
+TargetEmailAddressErr: Label 'The target email address has not been specified on the document layout for %1, %2. //Choose the Document Layouts action on the customer or vendor card to specify the email address.', Comment = '%1 - Source Data RecordID, %2 - Usage';
+ExceededContactsNotificationTxt: Label 'Too many contacts were selected. Only %1 of %2 contact emails were processed. You can revise contact selection.', Comment = '%1 = number of contacts, %2 = number of contacts';
         UseEmailFromContactErr: Label 'You already use emails from contacts and cannot enter email addresses manually. Delete the value in the Send to Email field, and then enter another email address.';
         StartUseEmailFromContactTxt: Label 'Choose the Select Email from Contacts action if you want to view the list of contacts that will be used to send emails.';
         EmptyGuid: Guid;

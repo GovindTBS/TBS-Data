@@ -181,9 +181,9 @@ table 5331 "CRM Integration Record"
         CRMProductName: Codeunit "CRM Product Name";
 
         IntegrationRecordNotFoundErr: Label 'The integration record for entity %1 was not found.';
-        CRMIdAlreadyMappedErr: Label 'Cannot couple %1 to this %3 record, because the %3 record is already coupled to %2.', Comment = '%1 ID of the record, %2 ID of the already mapped record, %3 = Dataverse service name';
-        RecordRefAlreadyMappedErr: Label 'Cannot couple %1 to this %3 record, because the %3 record is already coupled to %2.', Comment = '%1 ID of the record, %2 ID of the already mapped record, %3 = table caption';
-        RecordIdAlreadyMappedErr: Label 'Cannot couple the %2 record to %1, because %1 is already coupled to another %2 record.', Comment = '%1 ID from the record, %2 ID of the already mapped record';
+CRMIdAlreadyMappedErr: Label 'Cannot couple %1 to this %3 record, because the %3 record is already coupled to %2.', Comment = '%1 ID of the record, %2 ID of the already mapped record, %3 = Dataverse service name';
+RecordRefAlreadyMappedErr: Label 'Cannot couple %1 to this %3 record, because the %3 record is already coupled to %2.', Comment = '%1 ID of the record, %2 ID of the already mapped record, %3 = table caption';
+RecordIdAlreadyMappedErr: Label 'Cannot couple the %2 record to %1, because %1 is already coupled to another %2 record.', Comment = '%1 ID from the record, %2 ID of the already mapped record';
         ZeroTableIdErr: Label 'Table ID must be specified.';
         ZeroTableIdTxt: Label 'Table ID is zero in CRM Integration Record. System ID: %1, CRM ID: %2', Locked = true;
         FixedTableIdTxt: Label 'Table ID has been fixed in CRM Integration Record. New Table ID: %1, System ID: %2, CRM ID: %3', Locked = true;

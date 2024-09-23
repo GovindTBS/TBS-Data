@@ -323,7 +323,7 @@ report 295 "Combine Shipments"
         Text007: Label 'Not all the invoices were posted. A total of %1 invoices were not posted.';
         Text008: Label 'There is nothing to combine.';
         Text010: Label 'The shipments are now combined and the number of invoices created is %1.';
-        Text011: Label 'The shipments are now combined, and the number of invoices created is %1.\%2 Shipments with nonstandard payment terms have not been combined.', Comment = '%1-Number of invoices,%2-Number Of shipments';
+Text011: Label 'The shipments are now combined, and the number of invoices created is %1.\%2 Shipments with nonstandard payment terms have not been combined.', Comment = '%1-Number of invoices,%2-Number Of shipments';
         VATDateEmptyErr: Label 'Enter the VAT date.';
         NotAllInvoicesCreatedMsg: Label 'Not all the invoices were created. A total of %1 invoices were not created.';
 

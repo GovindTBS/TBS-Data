@@ -31,15 +31,15 @@ codeunit 950 "Time Sheet Management"
 
     var
         Text001: Label 'Mon,Tue,Wed,Thu,Fri,Sat,Sun';
-        Text002: Label '%1 is already defined as Time Sheet Owner User ID for Resource No. %2 with type %3.', Comment = 'User1 is already defined as Resources for Resource No. LIFT with type Machine.';
-        Text003: Label 'Time Sheet Header %1 is not found.', Comment = 'Time Sheet Header Archive 10 is not found.';
-        Text004: Label 'cannot be greater than %1 %2.', Comment = '%1 - Quantity, %2 - Unit of measure. Example: Quantity cannot be greater than 8 HOUR.';
-        Text005: Label 'Time Sheet Header Archive %1 is not found.', Comment = 'Time Sheet Header Archive 10 is not found.';
+Text002: Label '%1 is already defined as Time Sheet Owner User ID for Resource No. %2 with type %3.', Comment = 'User1 is already defined as Resources for Resource No. LIFT with type Machine.';
+Text003: Label 'Time Sheet Header %1 is not found.', Comment = 'Time Sheet Header Archive 10 is not found.';
+Text004: Label 'cannot be greater than %1 %2.', Comment = '%1 - Quantity, %2 - Unit of measure. Example: Quantity cannot be greater than 8 HOUR.';
+Text005: Label 'Time Sheet Header Archive %1 is not found.', Comment = 'Time Sheet Header Archive 10 is not found.';
         NoLinesToCopyErr: Label 'There are no time sheet lines to copy.';
-        CopyLinesQst: Label 'Do you want to copy lines from the previous time sheet (%1)?', Comment = '%1 - number';
+CopyLinesQst: Label 'Do you want to copy lines from the previous time sheet (%1)?', Comment = '%1 - number';
         JobPlanningLinesNotFoundErr: Label 'Could not find project planning lines.';
-        CreateLinesQst: Label 'Do you want to create lines from project planning (%1)?', Comment = '%1 - number';
-        PageDataCaptionTxt: Label '%1 (%2)', Comment = '%1 - start date, %2 - Description,';
+CreateLinesQst: Label 'Do you want to create lines from project planning (%1)?', Comment = '%1 - number';
+PageDataCaptionTxt: Label '%1 (%2)', Comment = '%1 - start date, %2 - Description,';
 
 #if not CLEAN22
     [Obsolete('Remove old time sheet experience.', '22.0')]
@@ -540,7 +540,7 @@ codeunit 950 "Time Sheet Management"
     local procedure ConfirmCopyTimeSheetLines(TimeSheetLineCount: Integer; TimeSheetNo: Code[20]): Integer
     var
         SelectLineConfirmTxt: Label 'All lines,Selected line';
-        StrMenuInstructionTxt: Label 'You selected just 1 of %1 lines from Time Sheet %2. Do you want to copy:', Comment = '%1 - Lines count, %2 - Time Sheet No.';
+StrMenuInstructionTxt: Label 'You selected just 1 of %1 lines from Time Sheet %2. Do you want to copy:', Comment = '%1 - Lines count, %2 - Time Sheet No.';
     begin
         exit(Dialog.StrMenu(SelectLineConfirmTxt, 2, StrSubstNo(StrMenuInstructionTxt, TimeSheetLineCount, TimeSheetNo)));
     end;

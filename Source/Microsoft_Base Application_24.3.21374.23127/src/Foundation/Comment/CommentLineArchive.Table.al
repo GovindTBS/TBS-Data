@@ -2,7 +2,7 @@ namespace Microsoft.Foundation.Comment;
 
 table 5138 "Comment Line Archive"
 {
-    Caption = 'Comment Line Archive';
+Caption = 'Comment Line Archive';
     DrillDownPageID = "Comment Archive List";
     LookupPageID = "Comment Archive List";
     DataClassification = CustomerContent;
@@ -31,7 +31,7 @@ table 5138 "Comment Line Archive"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
         field(20; "Version No."; Integer)
         {

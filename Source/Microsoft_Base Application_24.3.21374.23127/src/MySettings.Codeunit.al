@@ -33,8 +33,8 @@ codeunit 9275 "My Settings"
     end;
 
     var
-        AccountantTxt: Label 'ACCOUNTANT', Comment = 'Please translate all caps';
-        ProjectManagerTxt: Label 'PROJECT MANAGER', Comment = 'Please translate all caps';
-        TeamMemberTxt: Label 'TEAM MEMBER', Comment = 'Please translate all caps';
+AccountantTxt: Label 'ACCOUNTANT', Comment = 'Please translate all caps';
+ProjectManagerTxt: Label 'PROJECT MANAGER', Comment = 'Please translate all caps';
+TeamMemberTxt: Label 'TEAM MEMBER', Comment = 'Please translate all caps';
         ExperienceMsg: Label 'You are changing to a Role Center that has more functionality. To display the full functionality for this role, your Experience setting will be set to Essential.';
 }

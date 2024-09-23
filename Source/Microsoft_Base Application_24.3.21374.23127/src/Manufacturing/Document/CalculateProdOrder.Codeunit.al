@@ -53,8 +53,8 @@ codeunit 99000773 "Calculate Prod. Order"
 
         Text000: Label 'BOM phantom structure for %1 is higher than 50 levels.';
         Text001: Label '%1 %2 %3 can not be calculated, if at least one %4 has been posted.';
-        OperationCannotFollowErr: Label 'Operation No. %1 cannot follow another operation in the routing of this Prod. Order Line.', Comment = '%1 = Operation No.';
-        OperationCannotPrecedeErr: Label 'Operation No. %1 cannot precede another operation in the routing of this Prod. Order Line.', Comment = '%1 = Operation No.';
+OperationCannotFollowErr: Label 'Operation No. %1 cannot follow another operation in the routing of this Prod. Order Line.', Comment = '%1 = Operation No.';
+OperationCannotPrecedeErr: Label 'Operation No. %1 cannot precede another operation in the routing of this Prod. Order Line.', Comment = '%1 = Operation No.';
 
     local procedure TransferRouting()
     var

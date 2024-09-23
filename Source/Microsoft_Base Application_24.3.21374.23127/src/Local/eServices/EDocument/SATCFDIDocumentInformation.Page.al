@@ -123,11 +123,11 @@ page 27015 "SAT CFDI Document Information"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Electronic Document', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Electronic Document', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Export E-Document as &XML_Promoted"; "Export E-Document as &XML")
                 {

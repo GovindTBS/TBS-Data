@@ -127,9 +127,9 @@ table 570 "G/L Account Category"
 
     var
         NewCategoryTxt: Label '<Enter a Name>';
-        CannotDeleteSystemGeneratedErr: Label '%1 is a system generated category and cannot be deleted.', Comment = '%1 = a category value, e.g. "Assets"';
-        NoAccountsInFilterErr: Label 'There are no G/L Accounts in the filter of type %1.', Comment = '%1 = either ''Balance Sheet'' or ''Income Statement''';
-        CategoryUsedOnAccountErr: Label 'You cannot delete %1 %2 because it is used in %3 %4.', Comment = '%1=account category table name, %2=category description, %3=g/l account table name, %4=g/l account number.';
+CannotDeleteSystemGeneratedErr: Label '%1 is a system generated category and cannot be deleted.', Comment = '%1 = a category value, e.g. "Assets"';
+NoAccountsInFilterErr: Label 'There are no G/L Accounts in the filter of type %1.', Comment = '%1 = either ''Balance Sheet'' or ''Income Statement''';
+CategoryUsedOnAccountErr: Label 'You cannot delete %1 %2 because it is used in %3 %4.', Comment = '%1=account category table name, %2=category description, %3=g/l account table name, %4=g/l account number.';
         DontShowAgainActionLbl: Label 'Don''t show again';
         AccSchedUpdateNeededNotificationMsg: Label 'You have changed one or more G/L account categories that financial reports use. We recommend that you update the financial reports with your changes by choosing the Generate Financial Reports action.';
         GenerateAccountSchedulesLbl: Label 'Generate Financial Reports';

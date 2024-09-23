@@ -11,7 +11,7 @@ using Microsoft.Inventory.Item.Catalog;
 codeunit 7388 "Scan Warehouse Activity Line"
 {
     var
-        BarcodeDoesNotMatchErr: Label 'Scanned barcode does not match with the defined %1 in the line.', Comment = '%1 - Serial No. or Lot No. or Package No. or GTIN/Item Reference';
+BarcodeDoesNotMatchErr: Label 'Scanned barcode does not match with the defined %1 in the line.', Comment = '%1 - Serial No. or Lot No. or Package No. or GTIN/Item Reference';
 
     internal procedure ValidateBarcode(var WarehouseActivityLine: Record "Warehouse Activity Line"; Barcode: Text): Boolean
     var

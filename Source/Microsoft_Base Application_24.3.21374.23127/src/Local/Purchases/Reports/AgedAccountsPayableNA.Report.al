@@ -845,8 +845,8 @@ report 10085 "Aged Accounts Payable NA"
         UseExternalDocNo: Boolean;
         DocNo: Code[35];
         PrintVendorWithZeroBalance: Boolean;
-        AmountsAreInLbl: Label 'Amounts are in %1', Comment = '%1=currency code';
-        VendorBlockedLbl: Label '*** This vendor is blocked for %1 processing ***', Comment = '%1=blocking type';
+AmountsAreInLbl: Label 'Amounts are in %1', Comment = '%1=currency code';
+VendorBlockedLbl: Label '*** This vendor is blocked for %1 processing ***', Comment = '%1=blocking type';
         PrivacyBlockedTxt: Label '*** This vendor is blocked for privacy ***.';
         DetailLbl: Label '(Detail';
         SummaryLbl: Label '(Summary';
@@ -862,8 +862,8 @@ report 10085 "Aged Accounts Payable NA"
         DocumentDateFullLbl: Label 'document date.';
         DocumentDateShortLbl: Label 'Doc Date';
         CurrentLbl: Label 'Current';
-        VendorCurrencyLbl: Label 'Amounts are in the vendor''s local currency (report totals are in %1).', Comment = '%1=currency code';
-        ReportTotalAmountLbl: Label 'Report Total Amount Due (%1)', Comment = '%1=currency code';
+VendorCurrencyLbl: Label 'Amounts are in the vendor''s local currency (report totals are in %1).', Comment = '%1=currency code';
+ReportTotalAmountLbl: Label 'Report Total Amount Due (%1)', Comment = '%1=currency code';
         DataLbl: Label 'Data';
         AgedAccountsPayableLbl: Label 'Aged Accounts Payable';
         CompanyNameLbl: Label 'Company Name';
@@ -876,7 +876,7 @@ report 10085 "Aged Accounts Payable NA"
         InOurFunctionalCurrencyLbl: Label 'In our Functional Currency';
         AsindicatedinDataLbl: Label 'As indicated in Data';
         AgedAsOf2Lbl: Label 'Aged as of';
-        AgingDateLbl: Label 'Aging Date (%1)', Comment = '%1=date';
+AgingDateLbl: Label 'Aging Date (%1)', Comment = '%1=date';
         BalanceDueLbl: Label 'Balance Due';
         DocumentCurrencyLbl: Label 'Document Currency';
         VendorCurrency2Lbl: Label 'Vendor Currency';

@@ -370,7 +370,7 @@ page 5098 "Task Card"
                     RunPageLink = "Table Name" = const("To-do"),
                                   "No." = field("Organizer To-do No."),
                                   "Sub No." = const(0);
-                    ToolTip = 'View or add comments.';
+ToolTip = 'View or add comments.';
                 }
                 action("Interaction Log E&ntries")
                 {
@@ -535,7 +535,7 @@ page 5098 "Task Card"
         Contact: Record Contact;
         Text000: Label 'The %1 will always have either the %2 or %3 assigned.';
         Text002: Label 'The %1 of the %2 type must always have the %3 assigned.';
-        CannotSelectAttendeesErr: Label 'You cannot select attendees for a task of the ''%1'' type.', Comment = '%1 = Task Type';
+CannotSelectAttendeesErr: Label 'You cannot select attendees for a task of the ''%1'' type.', Comment = '%1 = Task Type';
         MakePhoneCallIsNotAvailableErr: Label 'The Make Phone Call function for this task is available only in the Attendee Scheduling window.';
         MustAssignContactErr: Label 'You must assign a contact to this task before you can use the Make Phone Call function.';
         MultipleTxt: Label '(Multiple)';

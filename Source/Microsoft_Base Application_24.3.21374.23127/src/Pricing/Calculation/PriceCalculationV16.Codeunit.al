@@ -28,7 +28,7 @@ codeunit 7002 "Price Calculation - V16" implements "Price Calculation"
         CurrLineWithPrice: Interface "Line With Price";
         TempTableErr: Label 'The table passed as a parameter must be temporary.';
         PickedWrongMinQtyErr: Label 'The quantity in the line is below the minimum quantity of the picked price list line.';
-        NoSpecificReadPermissionAccessErr: Label 'Sorry, the current permissions prevented the action. (TableData %1 Read: %2)', Comment = '%1 - TableData Name, %2 - App Name';
+NoSpecificReadPermissionAccessErr: Label 'Sorry, the current permissions prevented the action. (TableData %1 Read: %2)', Comment = '%1 - TableData Name, %2 - App Name';
 
     procedure GetLine(var Line: Variant)
     begin

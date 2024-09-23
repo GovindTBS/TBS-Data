@@ -289,7 +289,7 @@ report 10400 "Check Translation Management"
         TestDateIndicatorCaptionLbl: Label 'Check Date Indicator';
         TestDateTextCaptionLbl: Label 'Check Date';
         DateSeparatorCaptionLbl: Label 'Check Date Separator';
-        USTextErr: Label '%1 language is not enabled. %2 is set up for checks in %1.', Comment = 'English language is not enabled. Bank of America is set up for checks in English.';
+USTextErr: Label '%1 language is not enabled. %2 is set up for checks in %1.', Comment = 'English language is not enabled. Bank of America is set up for checks in English.';
 
     procedure FormatNoText(var NoText: array[2] of Text[80]; No: Decimal; NewLanguageCode: Integer; NewCurrencyCode: Code[10]) Result: Boolean
     begin

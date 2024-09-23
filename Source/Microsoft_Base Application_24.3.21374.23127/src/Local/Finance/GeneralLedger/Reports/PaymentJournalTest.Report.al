@@ -994,7 +994,7 @@ report 10089 "Payment Journal - Test"
         Text063: Label 'Document,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder,Refund';
         Text064: Label '%1 %2 is already used in line %3 (%4 %5).';
         Text065: Label '%1 must not be blocked with type %2 when %3 is %4';
-        PrivacyBlockedErr: Label '%1 must not be blocked for privacy.', Comment = '%1 = account type';
+PrivacyBlockedErr: Label '%1 must not be blocked for privacy.', Comment = '%1 = account type';
         CurrentICPartner: Code[20];
         Text066: Label 'You cannot enter G/L Account or Bank Account in both %1 and %2.';
         Text067: Label '%1 %2 is linked to %3 %4.';

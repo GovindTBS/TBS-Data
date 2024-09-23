@@ -106,7 +106,7 @@ page 7332 "Warehouse Receipts"
                     RunPageLink = "Table Name" = const("Whse. Receipt"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Posted &Whse. Receipts")
                 {

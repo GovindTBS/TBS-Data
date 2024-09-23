@@ -20,12 +20,12 @@ codeunit 441 "Prepayment Mgt."
     end;
 
     var
-        JobQueueEntryHasStartedTxt: Label 'A job for changing the status from Pending Prepayment to Release has started with the frequency %1.', Comment = '%1 - job queue frequency';
-        StatusOfSalesOrderIsChangedTxt: Label 'The status of the sales order %1 is changed from Pending Prepayment to Release.', Comment = '%1 - sales order no.';
-        StatusOfPurchaseOrderIsChangedTxt: Label 'The status of the purchase order %1 is changed from Pending Prepayment to Release.', Comment = '%1 - purchase order no.';
+JobQueueEntryHasStartedTxt: Label 'A job for changing the status from Pending Prepayment to Release has started with the frequency %1.', Comment = '%1 - job queue frequency';
+StatusOfSalesOrderIsChangedTxt: Label 'The status of the sales order %1 is changed from Pending Prepayment to Release.', Comment = '%1 - sales order no.';
+StatusOfPurchaseOrderIsChangedTxt: Label 'The status of the purchase order %1 is changed from Pending Prepayment to Release.', Comment = '%1 - purchase order no.';
         UpdateSalesOrderStatusTxt: Label 'Update sales order status.';
         UpdatePurchaseOrderStatusTxt: Label 'Update purchase order status.';
-        PrepaymentAmountHigherThanTheOrderErr: Label 'The Prepayment account is assigned to a VAT product posting group where the VAT percentage is not equal to zero. This can cause posting errors when invoices have mixed VAT lines. To avoid errors, set the VAT percentage to zero for the account.\\Prepayment amount to be posted is %1. It differs from document amount %2 by %3 in related lines. If the difference is related to rounding, please adjust amounts in lines related to prepayments.', Comment = '%1 - prepayment amount; %2 = document amount; %3 = difference amount';
+PrepaymentAmountHigherThanTheOrderErr: Label 'The Prepayment account is assigned to a VAT product posting group where the VAT percentage is not equal to zero. This can cause posting errors when invoices have mixed VAT lines. To avoid errors, set the VAT percentage to zero for the account.\\Prepayment amount to be posted is %1. It differs from document amount %2 by %3 in related lines. If the difference is related to rounding, please adjust amounts in lines related to prepayments.', Comment = '%1 - prepayment amount; %2 = document amount; %3 = difference amount';
         PrepaymentInvoicesNotPaidErr: Label 'You cannot get lines until you have posted all related prepayment invoices to mark the prepayment as paid.';
 
     procedure AssertPrepmtAmountNotMoreThanDocAmount(DocumentTotalInclVAT: Decimal; PrepmtTotalInclVAT: Decimal; CurrencyCode: Code[10]; InvoiceRoundingSetup: Boolean)

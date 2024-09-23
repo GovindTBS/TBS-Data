@@ -18,7 +18,7 @@ page 5992 "Troubleshooting Subform"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the troubleshooting comment or guidelines.';
+ToolTip = 'Specifies the troubleshooting comment or guidelines.';
                 }
             }
         }

@@ -201,7 +201,7 @@ table 10120 "Bank Rec. Header"
             CalcFormula = exist("Bank Comment Line" where("Table Name" = const("Bank Rec."),
                                                            "Bank Account No." = field("Bank Account No."),
                                                            "No." = field("Statement No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

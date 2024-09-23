@@ -17,7 +17,7 @@ codeunit 5616 "Depreciation Calculation"
 
     var
         Text000: Label '%1 %2 = %3 in %4 %5 = %6';
-        DeprBookCodeErr: Label ' in depreciation book code %1', Comment = '%1=value for code, e.g. COMAPNY';
+DeprBookCodeErr: Label ' in depreciation book code %1', Comment = '%1=value for code, e.g. COMAPNY';
 
     procedure DeprDays(StartingDate: Date; EndingDate: Date; Year365Days: Boolean) NumbefOfDeprDays: Integer
     var

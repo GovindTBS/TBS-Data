@@ -98,6 +98,6 @@ table 742 "VAT Statement Report Line"
 
     var
         VATReportHeader: Record "VAT Report Header";
-        MissingSetupErr: Label 'This is not allowed because of the setup in the %1 window.', Comment = '%1 = Setup table';
+MissingSetupErr: Label 'This is not allowed because of the setup in the %1 window.', Comment = '%1 = Setup table';
 }
 

@@ -2,7 +2,7 @@ namespace Microsoft.CashFlow.Comment;
 
 page 858 "Cash Flow Comment List"
 {
-    Caption = 'Cash Flow Comment List';
+Caption = 'Cash Flow Comment List';
     Editable = false;
     PageType = List;
     SourceTable = "Cash Flow Account Comment";
@@ -22,12 +22,12 @@ page 858 "Cash Flow Comment List"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the date of the cash flow comment.';
+ToolTip = 'Specifies the date of the cash flow comment.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the comment for the record.';
+ToolTip = 'Specifies the comment for the record.';
                 }
                 field("Code"; Rec.Code)
                 {

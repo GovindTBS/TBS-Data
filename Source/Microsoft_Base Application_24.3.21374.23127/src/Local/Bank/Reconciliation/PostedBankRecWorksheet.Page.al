@@ -261,7 +261,7 @@ page 10125 "Posted Bank Rec. Worksheet"
                     RunPageLink = "Bank Account No." = field("Bank Account No."),
                                   "No." = field("Statement No.");
                     RunPageView = where("Table Name" = const("Posted Bank Rec."));
-                    ToolTip = 'View comments that apply.';
+ToolTip = 'View comments that apply.';
                 }
                 action("C&ard")
                 {
@@ -308,7 +308,7 @@ page 10125 "Posted Bank Rec. Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Navigate_Promoted; Navigate)
                 {
@@ -316,11 +316,11 @@ page 10125 "Posted Bank Rec. Worksheet"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Print_Promoted; Print)
                 {

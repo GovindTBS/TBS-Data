@@ -142,7 +142,7 @@ page 922 "Posted Assembly Orders"
                     RunPageLink = "Document Type" = const("Posted Assembly"),
                                   "Document No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

@@ -199,7 +199,7 @@ table 700 "Error Message"
         DevMsgNotTemporaryErr: Label 'This function can only be used when the record is temporary.';
         IfEmptyErr: Label '''%1'' in ''%2'' must not be blank.', Comment = '%1=caption of a field, %2=key of record';
         IfNotEmptyErr: Label '''%1'' in ''%2'' must be blank.', Comment = '%1=caption of a field, %2=key of record';
-        IfLengthExceededErr: Label 'The maximum length of ''%1'' in ''%2'' is %3 characters. The actual length is %4.', Comment = '%1=caption of a field, %2=key of record, %3=integer, %4=integer';
+IfLengthExceededErr: Label 'The maximum length of ''%1'' in ''%2'' is %3 characters. The actual length is %4.', Comment = '%1=caption of a field, %2=key of record, %3=integer, %4=integer';
         IfInvalidCharactersErr: Label '''%1'' in ''%2'' contains characters that are not valid.', Comment = '%1=caption of a field, %2=key of record';
         IfOutsideRangeErr: Label '''%1'' in ''%2'' is outside of the permitted range from %3 to %4.', Comment = '%1=caption of a field, %2=key of record, %3=integer, %4=integer';
         IfGreaterThanErr: Label '''%1'' in ''%2'' must be less than or equal to %3.', Comment = '%1=caption of a field, %2=key of record, %3=integer';
@@ -207,7 +207,7 @@ table 700 "Error Message"
         IfEqualToErr: Label '''%1'' in ''%2'' must not be equal to %3.', Comment = '%1=caption of a field, %2=key of record, %3=integer';
         IfNotEqualToErr: Label '''%1'' in ''%2'' must be equal to %3.', Comment = '%1=caption of a field, %2=key of record, %3=integer';
         HasErrorsMsg: Label 'One or more errors were found. You must resolve all the errors before you can proceed.';
-        ErrorContextNotFoundErr: Label 'Error context not found: %1', Comment = '%1 - Record Id';
+ErrorContextNotFoundErr: Label 'Error context not found: %1', Comment = '%1 - Record Id';
 
     trigger OnInsert()
     begin

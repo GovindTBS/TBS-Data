@@ -3,7 +3,7 @@ namespace Microsoft.Manufacturing.Document;
 page 99000838 "Prod. Order Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     DataCaptionFields = "Prod. Order No.";
     DelayedInsert = true;
     LinksAllowed = false;
@@ -26,12 +26,12 @@ page 99000838 "Prod. Order Comment Sheet"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies the comment.';
+ToolTip = 'Specifies the comment.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = Manufacturing;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

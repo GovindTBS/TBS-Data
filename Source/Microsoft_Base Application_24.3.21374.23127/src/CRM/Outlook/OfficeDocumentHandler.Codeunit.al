@@ -22,7 +22,7 @@ codeunit 1637 "Office Document Handler"
     end;
 
     var
-        DocDoesNotExistMsg: Label 'Cannot find a document with the number %1.', Comment = '%1=The document number the hyperlink is attempting to open.';
+DocDoesNotExistMsg: Label 'Cannot find a document with the number %1.', Comment = '%1=The document number the hyperlink is attempting to open.';
         SuggestedItemsDisabledTxt: Label 'The suggested line items page has been disabled by the user.', Locked = true;
         DocumentMatchedTelemetryTxt: Label 'Outlook Document View loaded%1  Documents matched: %2%1  Document Series: %3%1  Document Type: %4', Locked = true;
         CreateSalesDocTelemetryTxt: Label 'Creating Sales %1 from Outlook add-in.', Locked = true;

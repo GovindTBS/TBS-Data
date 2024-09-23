@@ -109,7 +109,7 @@ page 1122 "Chart of Cost Centers"
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = CostAccounting;
-                    ToolTip = 'Specifies a comment that applies.';
+ToolTip = 'Specifies a comment that applies.';
                     Visible = false;
                 }
             }

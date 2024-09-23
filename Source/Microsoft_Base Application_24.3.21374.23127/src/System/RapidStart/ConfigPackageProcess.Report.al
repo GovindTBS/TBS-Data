@@ -51,7 +51,7 @@ report 8621 "Config. Package - Process"
     }
 
     var
-        ImplementProcessingLogicMsg: Label 'Implement processing logic for Table %1 in Report 8621 - Config. Package - Process.', Comment = '%1 - a table Id.';
+ImplementProcessingLogicMsg: Label 'Implement processing logic for Table %1 in Report 8621 - Config. Package - Process.', Comment = '%1 - a table Id.';
 
     procedure AddRuleForField(TableNo: Integer; FieldNo: Integer; TransformationType: Option; var TempField: Record "Field" temporary; var TempTransformationRule: Record "Transformation Rule" temporary)
     begin

@@ -168,7 +168,7 @@ page 5774 "Warehouse Activity List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Card_Promoted; ShowDocument)
                 {

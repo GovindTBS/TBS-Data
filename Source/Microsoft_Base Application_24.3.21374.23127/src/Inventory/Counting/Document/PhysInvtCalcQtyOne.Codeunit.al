@@ -24,7 +24,7 @@ codeunit 5888 "Phys. Invt.-Calc. Qty. One"
     end;
 
     var
-        ConfirmCalculationQst: Label 'Do you want to calculate %1 for this line?', Comment = '%1 = field caption';
+ConfirmCalculationQst: Label 'Do you want to calculate %1 for this line?', Comment = '%1 = field caption';
         PhysInvtOrderLine: Record "Phys. Invt. Order Line";
 
     [IntegrationEvent(false, false)]

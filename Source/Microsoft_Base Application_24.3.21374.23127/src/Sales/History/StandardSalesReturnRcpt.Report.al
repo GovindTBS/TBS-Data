@@ -701,7 +701,7 @@ report 1309 "Standard Sales - Return Rcpt."
         QuestionsLbl: Label 'Questions?';
         ThanksLbl: Label 'Thank You!';
         UnitLbl: Label 'Unit';
-        QtyLbl: Label 'Qty', Comment = 'Short form of Quantity';
+QtyLbl: Label 'Qty', Comment = 'Short form of Quantity';
         SalespersonLbl: Label 'Salesperson';
         CompanyInfoBankAccNoLbl: Label 'Account No.';
         CompanyInfoBankNameLbl: Label 'Bank';

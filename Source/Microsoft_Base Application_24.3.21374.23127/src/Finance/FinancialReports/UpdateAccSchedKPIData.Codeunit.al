@@ -27,7 +27,7 @@ codeunit 197 "Update Acc. Sched. KPI Data"
         EndDate: Date;
         LastClosedDate: Date;
         Date: Date;
-        UpdatingMsg: Label 'Updating buffer table @1@@@@@@@@@@@@@@@@@@@', Comment = '@1 is a number';
+UpdatingMsg: Label 'Updating buffer table @1@@@@@@@@@@@@@@@@@@@', Comment = '@1 is a number';
 
     local procedure InitSetupData()
     var

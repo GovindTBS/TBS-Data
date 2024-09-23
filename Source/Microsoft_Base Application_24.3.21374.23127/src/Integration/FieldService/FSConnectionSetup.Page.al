@@ -47,7 +47,7 @@ page 6420 "FS Connection Setup"
                 field("Is Enabled"; Rec."Is Enabled")
                 {
                     ApplicationArea = Suite;
-                    Caption = 'Enabled', Comment = 'Name of tickbox which shows whether the connection is enabled or disabled';
+Caption = 'Enabled', Comment = 'Name of tickbox which shows whether the connection is enabled or disabled';
                     ToolTip = 'Specifies if the connection to Dynamics 365 Field Service is enabled. When you check this checkbox, you will be prompted to sign-in to Dataverse with an administrator user account. The account will be used one time to give consent to, install and configure applications and components that the integration requires.';
 
                     trigger OnValidate()
@@ -198,7 +198,7 @@ page 6420 "FS Connection Setup"
             action("Test Connection")
             {
                 ApplicationArea = Suite;
-                Caption = 'Test Connection', Comment = 'Test is a verb.';
+Caption = 'Test Connection', Comment = 'Test is a verb.';
                 Image = ValidateEmailLoggingSetup;
                 ToolTip = 'Tests the connection to Dynamics 365 Field Service using the specified settings.';
 
@@ -305,7 +305,7 @@ page 6420 "FS Connection Setup"
         {
             group(Category_Process)
             {
-                Caption = 'Connection', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Connection', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Assisted Setup_Promoted"; "Assisted Setup")
                 {
@@ -316,7 +316,7 @@ page 6420 "FS Connection Setup"
             }
             group(Category_Report)
             {
-                Caption = 'Mapping', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Mapping', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref(IntegrationTableMappings_Promoted; IntegrationTableMappings)
                 {
@@ -327,7 +327,7 @@ page 6420 "FS Connection Setup"
             }
             group(Category_Category4)
             {
-                Caption = 'Synchronization', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Synchronization', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(StartInitialSynchAction_Promoted; StartInitialSynchAction)
                 {
@@ -415,17 +415,17 @@ page 6420 "FS Connection Setup"
 
     var
         CRMProductName: Codeunit "CRM Product Name";
-        ResetIntegrationTableMappingConfirmQst: Label 'This will restore the default integration table mappings and synchronization jobs for %1. All custom mappings and jobs will be deleted. The default mappings and jobs will be used the next time data is synchronized. Do you want to continue?', Comment = '%1 = CRM product name';
-        ResetOneIntegrationTableMappingConfirmQst: Label 'This will restore the default integration table mappings and synchronization jobs for %1. Do you want to continue?', Comment = '%1 = CRM product name';
-        UnfavorableCRMSolutionInstalledMsg: Label 'The %1 Integration Solution was not detected.', Comment = '%1 - product name';
-        FavorableCRMSolutionInstalledMsg: Label 'The %1 Integration Solution is installed in %2.', Comment = '%1 - product name, %2 = CRM product name';
-        ReadyScheduledSynchJobsTok: Label '%1 of %2', Comment = '%1 = Count of scheduled job queue entries in ready or in process state, %2 count of all scheduled jobs';
+ResetIntegrationTableMappingConfirmQst: Label 'This will restore the default integration table mappings and synchronization jobs for %1. All custom mappings and jobs will be deleted. The default mappings and jobs will be used the next time data is synchronized. Do you want to continue?', Comment = '%1 = CRM product name';
+ResetOneIntegrationTableMappingConfirmQst: Label 'This will restore the default integration table mappings and synchronization jobs for %1. Do you want to continue?', Comment = '%1 = CRM product name';
+UnfavorableCRMSolutionInstalledMsg: Label 'The %1 Integration Solution was not detected.', Comment = '%1 - product name';
+FavorableCRMSolutionInstalledMsg: Label 'The %1 Integration Solution is installed in %2.', Comment = '%1 - product name, %2 = CRM product name';
+ReadyScheduledSynchJobsTok: Label '%1 of %2', Comment = '%1 = Count of scheduled job queue entries in ready or in process state, %2 count of all scheduled jobs';
         ScheduledSynchJobsRunning: Text;
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = This Page Caption (Microsoft Dynamics 365 Connection Setup)';
-        PartialScheduledJobsAreRunningMsg: Label 'An active job queue is available but only %1 of the %2 scheduled synchronization jobs are ready or in process.', Comment = '%1 = Count of scheduled job queue entries in ready or in process state, %2 count of all scheduled jobs';
+EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = This Page Caption (Microsoft Dynamics 365 Connection Setup)';
+PartialScheduledJobsAreRunningMsg: Label 'An active job queue is available but only %1 of the %2 scheduled synchronization jobs are ready or in process.', Comment = '%1 = Count of scheduled job queue entries in ready or in process state, %2 count of all scheduled jobs';
         JobQueueIsNotRunningMsg: Label 'There is no job queue started. Scheduled synchronization jobs require an active job queue to process jobs.\\Contact your administrator to get a job queue configured and started.';
         AllScheduledJobsAreRunningMsg: Label 'An job queue is started and all scheduled synchronization jobs are ready or already processing.';
-        SetupSuccessfulMsg: Label 'The default setup for %1 synchronization has completed successfully.', Comment = '%1 = CRM product name';
+SetupSuccessfulMsg: Label 'The default setup for %1 synchronization has completed successfully.', Comment = '%1 = CRM product name';
         CategoryTok: Label 'AL Dataverse Integration', Locked = true;
         CRMConnEnabledOnPageTxt: Label 'Field Service Connection has been enabled from FS Connection Setup Page', Locked = true;
         TestServerAddressTok: Label '@@test@@', Locked = true;

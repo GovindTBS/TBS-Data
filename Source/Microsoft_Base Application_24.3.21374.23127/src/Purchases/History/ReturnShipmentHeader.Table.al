@@ -219,7 +219,7 @@ table 6650 "Return Shipment Header"
             CalcFormula = exist("Purch. Comment Line" where("Document Type" = const("Posted Return Shipment"),
                                                              "No." = field("No."),
                                                              "Document Line No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

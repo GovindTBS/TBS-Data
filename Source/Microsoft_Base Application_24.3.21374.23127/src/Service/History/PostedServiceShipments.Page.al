@@ -282,7 +282,7 @@ page 5974 "Posted Service Shipments"
                     RunPageLink = "No." = field("No."),
                                   "Table Name" = const("Service Shipment Header"),
                                   Type = const(General);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Service Ledger E&ntries")
                 {

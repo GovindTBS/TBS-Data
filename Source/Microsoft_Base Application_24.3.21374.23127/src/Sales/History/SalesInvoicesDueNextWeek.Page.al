@@ -87,7 +87,7 @@ page 1163 "Sales Invoices Due Next Week"
     end;
 
     var
-        FilterForClosedDrillDwnTxt: Label '&filter=''Cust. Ledger Entry''.''Entry No.'' IS ''%1'' AND ''Cust. Ledger Entry''.Open IS ''1''', Comment = '%1 - Customer ledger Entry No. for sales invoice header.';
-        FilterForRemAmountDrillDwnTxt: Label '&filter=''Detailed Cust. Ledg. Entry''.''Cust. Ledger Entry No.'' IS ''%1''', Comment = '%1 - Customer ledger Entry No. for sales invoice header.';
+FilterForClosedDrillDwnTxt: Label '&filter=''Cust. Ledger Entry''.''Entry No.'' IS ''%1'' AND ''Cust. Ledger Entry''.Open IS ''1''', Comment = '%1 - Customer ledger Entry No. for sales invoice header.';
+FilterForRemAmountDrillDwnTxt: Label '&filter=''Detailed Cust. Ledg. Entry''.''Cust. Ledger Entry No.'' IS ''%1''', Comment = '%1 - Customer ledger Entry No. for sales invoice header.';
 }
 

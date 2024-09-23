@@ -543,8 +543,8 @@ report 715 "Price List"
 
         Text000Txt: Label 'Incl.';
         Text001Txt: Label 'Excl.';
-        Text002Txt: Label 'Page %1', Comment = '%1 - page number';
-        Text003Txt: Label 'As of %1', Comment = '%1 - date';
+Text002Txt: Label 'Page %1', Comment = '%1 - page number';
+Text003Txt: Label 'As of %1', Comment = '%1 - date';
         Text004Err: Label 'You must specify a sales code, if the sales type is different from All Customers.';
         PriceListCaptionLbl: Label 'Price List';
         CompanyInfoPhoneNoCaptionLbl: Label 'Phone No.';

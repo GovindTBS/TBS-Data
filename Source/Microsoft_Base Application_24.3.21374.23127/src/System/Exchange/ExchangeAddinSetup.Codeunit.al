@@ -25,8 +25,8 @@ codeunit 5323 "Exchange Add-in Setup"
         InvalidCredentialsErr: Label 'The provided email address and password are not valid Office 365 or Exchange credentials.';
         NoMailboxErr: Label 'An Office 365 or Exchange mailbox could not be found for this account.';
         AutodiscoverMsg: Label 'Searching for your mailbox.';
-        WelcomeSubjectTxt: Label 'Welcome to %1 in Outlook', Comment = '%1 - Application name';
-        WelcomeEmailFromNameTxt: Label '%1 Admin', Comment = '%1 - Application Name';
+WelcomeSubjectTxt: Label 'Welcome to %1 in Outlook', Comment = '%1 - Application name';
+WelcomeEmailFromNameTxt: Label '%1 Admin', Comment = '%1 - Application Name';
         SalesEmailAddrTxt: Label 'admin@contoso.com', Locked = true;
         ExchangeTelemetryCategoryTxt: Label 'AL Exchange', Locked = true;
         TryInitializeWithEmailTxt: Label 'Trying to initialize the service with email.', Locked = true;

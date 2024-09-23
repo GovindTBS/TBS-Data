@@ -66,7 +66,7 @@ table 869 "Cash Flow Chart Setup"
     var
         CFSetup: Record "Cash Flow Setup";
 
-        StatusTxt: Label '%1 | %2 | %3 | %4 | %5 (Updated: %6)', Comment = '<"Cash Flow Forecast No."> | <Show> | <"Start Date"> | <"Period Length"> | <"Group By">.  (Updated: <Time>)';
+StatusTxt: Label '%1 | %2 | %3 | %4 | %5 (Updated: %6)', Comment = '<"Cash Flow Forecast No."> | <Show> | <"Start Date"> | <"Period Length"> | <"Group By">.  (Updated: <Time>)';
 
     procedure GetCurrentSelectionText(): Text
     begin

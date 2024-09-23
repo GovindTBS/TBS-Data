@@ -90,7 +90,7 @@ page 7771 "Copilot Not Available"
         CopilotCapability: Enum "Copilot Capability";
         BannerVisible: Boolean;
         OpenCopilotLbl: Label 'Overview Copilot & AI Capabilities';
-        CopilotNotAvailableTitleLbl: Label 'Sorry, your Copilot isn''t activated for %1', Comment = '%1 = Copilot Capability name';
+CopilotNotAvailableTitleLbl: Label 'Sorry, your Copilot isn''t activated for %1', Comment = '%1 = Copilot Capability name';
         CopilotNotAvailableLbl: Label 'Don''t want to miss out? Contact the system administrator to make this capability available in Business Central.';
 
     internal procedure SetCopilotCapability(Capability: Enum "Copilot Capability")

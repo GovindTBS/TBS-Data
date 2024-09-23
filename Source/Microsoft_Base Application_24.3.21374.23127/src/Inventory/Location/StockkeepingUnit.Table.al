@@ -214,7 +214,7 @@ table 5700 "Stockkeeping Unit"
             CalcFormula = exist("Stockkeeping Unit Comment Line" where("Item No." = field("Item No."),
                                                                         "Variant Code" = field("Variant Code"),
                                                                         "Location Code" = field("Location Code")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }
@@ -921,7 +921,7 @@ table 5700 "Stockkeeping Unit"
         Text005: Label 'You must specify a %1 from %2 %3 to %2 %4.';
         Text006: Label 'A circular reference in %1 has been detected:\%2 ->%3 ->%4';
         Text008: Label 'You cannot change %1 because there are one or more ledger entries for this SKU.';
-        Text7380: Label 'If you change the %1, the %2 and %3 are calculated.\Do you still want to change the %1?', Comment = 'If you change the Phys Invt Counting Period Code, the Next Counting Start Date and Next Counting End Date are calculated.\Do you still want to change the Phys Invt Counting Period Code?';
+Text7380: Label 'If you change the %1, the %2 and %3 are calculated.\Do you still want to change the %1?', Comment = 'If you change the Phys Invt Counting Period Code, the Next Counting Start Date and Next Counting End Date are calculated.\Do you still want to change the Phys Invt Counting Period Code?';
         Text7381: Label 'Cancelled.';
 
     protected var

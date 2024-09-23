@@ -124,7 +124,7 @@ page 9600 "XML Schemas"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Load Schema_Promoted"; "Load Schema")
                 {
@@ -138,11 +138,11 @@ page 9600 "XML Schemas"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Show', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("Expand All_Promoted"; "Expand All")
                 {

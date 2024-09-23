@@ -545,7 +545,7 @@ report 415 "Archived Purchase Quote"
         OutputNo: Integer;
         PurchaseLineArchiveType: Integer;
 
-        Text002: Label 'Purchase - Quote Archived %1', Comment = '%1 = Document No.';
+Text002: Label 'Purchase - Quote Archived %1', Comment = '%1 = Document No.';
         Text004: Label 'Version %1 of %2 ';
         CompanyInfo__Phone_No__CaptionLbl: Label 'Phone No.';
         CompanyInfo__Fax_No__CaptionLbl: Label 'Fax No.';

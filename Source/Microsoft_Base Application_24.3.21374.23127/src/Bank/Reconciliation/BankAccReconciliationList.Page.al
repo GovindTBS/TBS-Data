@@ -278,7 +278,7 @@ page 388 "Bank Acc. Reconciliation List"
         {
             group(Category_New)
             {
-                Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
+Caption = 'New', Comment = 'Generated from the PromotedActionCategories property index 0.';
 #if not CLEAN24
                 actionref(NewRec_Promoted; NewRec)
                 {
@@ -290,7 +290,7 @@ page 388 "Bank Acc. Reconciliation List"
             }
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Posting)
                 {
@@ -336,12 +336,12 @@ page 388 "Bank Acc. Reconciliation List"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
 #if not CLEAN22
             group(Category_Category4)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ObsoleteState = Pending;
                 ObsoleteReason = 'Category_Category4 has been replaced by Category_Posting.';
                 ObsoleteTag = '22.0';

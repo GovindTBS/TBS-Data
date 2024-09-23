@@ -24,12 +24,12 @@ codeunit 884 "ReadSoft OCR Master Data Sync"
         SyncModifiedVendorsMsg: Label 'Send updated vendors to the OCR service.';
         SyncBankAccountsMsg: Label 'Send vendor bank accounts to the OCR service.';
         SyncSuccessfulSimpleMsg: Label 'Synchronization succeeded.';
-        SyncSuccessfulDetailedMsg: Label 'Synchronization succeeded. Created: %1, Updated: %2, Deleted: %3', Comment = '%1 number of created entities, %2 number of updated entities, %3 number of deleted entities';
+SyncSuccessfulDetailedMsg: Label 'Synchronization succeeded. Created: %1, Updated: %2, Deleted: %3', Comment = '%1 number of created entities, %2 number of updated entities, %3 number of deleted entities';
         SyncFailedSimpleMsg: Label 'Synchronization failed.';
-        SyncFailedDetailedMsg: Label 'Synchronization failed. Code: %1, Message: %2', Comment = '%1 error code, %2 error message';
+SyncFailedDetailedMsg: Label 'Synchronization failed. Code: %1, Message: %2', Comment = '%1 error code, %2 error message';
         InvalidResponseMsg: Label 'Response is invalid.';
-        MasterDataSyncMsg: Label 'Master data synchronization.\#1########################################', Comment = '#1 place holder for SendingPackageMsg ';
-        SendingPackageMsg: Label 'Sending package %1 of %2', Comment = '%1 package number, %2 package count';
+MasterDataSyncMsg: Label 'Master data synchronization.\#1########################################', Comment = '#1 place holder for SendingPackageMsg ';
+SendingPackageMsg: Label 'Sending package %1 of %2', Comment = '%1 package number, %2 package count';
         MaxPortionSizeTxt: Label '10000', Locked = true;
         MethodPutTok: Label 'PUT', Locked = true;
         MethodPostTok: Label 'POST', Locked = true;

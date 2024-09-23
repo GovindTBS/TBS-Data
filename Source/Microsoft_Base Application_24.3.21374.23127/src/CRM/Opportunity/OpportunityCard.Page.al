@@ -249,7 +249,7 @@ page 5124 "Opportunity Card"
                     RunObject = Page "Rlshp. Mgt. Comment Sheet";
                     RunPageLink = "Table Name" = const(Opportunity),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Show Sales Quote")
                 {
@@ -319,7 +319,7 @@ page 5124 "Opportunity Card"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     action(ManageCRMCoupling)
@@ -465,7 +465,7 @@ page 5124 "Opportunity Card"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Activate the First Stage_Promoted"; "Activate the First Stage")
                 {
@@ -491,7 +491,7 @@ page 5124 "Opportunity Card"
             }
             group(Category_Category4)
             {
-                Caption = 'Opportunity', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Opportunity', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {
@@ -508,7 +508,7 @@ page 5124 "Opportunity Card"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Synchronize)
             {

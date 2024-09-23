@@ -1410,7 +1410,7 @@ page 42 "Sales Order"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action(AssemblyOrders)
                 {
@@ -1496,7 +1496,7 @@ page 42 "Sales Order"
                 }
                 group(Coupling)
                 {
-                    Caption = 'Coupling', Comment = 'Coupling is a noun';
+Caption = 'Coupling', Comment = 'Coupling is a noun';
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a Dynamics 365 Sales record.';
                     Enabled = IsBidirectionalSyncEnabled and (Rec.Status = Rec.Status::Released);
@@ -1721,9 +1721,9 @@ page 42 "Sales Order"
                 action(Comment)
                 {
                     ApplicationArea = All;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -2500,11 +2500,11 @@ page 42 "Sales Order"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 group(Category_Category6)
                 {
-                    Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 5.';
                     ShowAs = SplitButton;
 
                     actionref(Post_Promoted; Post)
@@ -2522,7 +2522,7 @@ page 42 "Sales Order"
                 }
                 group(Category_Category5)
                 {
-                    Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Release', Comment = 'Generated from the PromotedActionCategories property index 4.';
                     ShowAs = SplitButton;
 
                     actionref(Release_Promoted; Release)
@@ -2544,7 +2544,7 @@ page 42 "Sales Order"
             }
             group(Category_Category7)
             {
-                Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 6.';
+Caption = 'Prepare', Comment = 'Generated from the PromotedActionCategories property index 6.';
 
                 actionref(CopyDocument_Promoted; CopyDocument)
                 {
@@ -2578,7 +2578,7 @@ page 42 "Sales Order"
             }
             group(Category_Category4)
             {
-                Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Approve', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Approve_Promoted; Approve)
                 {
@@ -2595,7 +2595,7 @@ page 42 "Sales Order"
             }
             group(Category_Category11)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 10.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 10.';
 
                 actionref(SendEmailConfirmation_Promoted; SendEmailConfirmation)
                 {
@@ -2618,7 +2618,7 @@ page 42 "Sales Order"
             }
             group(Category_Category9)
             {
-                Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
+Caption = 'Request Approval', Comment = 'Generated from the PromotedActionCategories property index 8.';
 
                 actionref(SendApprovalRequest_Promoted; SendApprovalRequest)
                 {
@@ -2629,7 +2629,7 @@ page 42 "Sales Order"
             }
             group(Category_Category8)
             {
-                Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
+Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 7.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -2661,15 +2661,15 @@ page 42 "Sales Order"
             }
             group(Category_Category10)
             {
-                Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 9.';
+Caption = 'History', Comment = 'Generated from the PromotedActionCategories property index 9.';
             }
             group(Category_Category12)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 11.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 11.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Report Picking List by Order_Promoted"; "Report Picking List by Order")
                 {
@@ -2883,7 +2883,7 @@ page 42 "Sales Order"
         CanCancelApprovalForRecord: Boolean;
         JobQueuesUsed: Boolean;
         DocumentIsScheduledForPosting: Boolean;
-        OpenPostedSalesOrderQst: Label 'The order is posted as number %1 and moved to the Posted Sales Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
+OpenPostedSalesOrderQst: Label 'The order is posted as number %1 and moved to the Posted Sales Invoices window.\\Do you want to open the posted invoice?', Comment = '%1 = posted document number';
         PaymentServiceVisible: Boolean;
         PaymentServiceEnabled: Boolean;
         IsPostingGroupEditable: Boolean;

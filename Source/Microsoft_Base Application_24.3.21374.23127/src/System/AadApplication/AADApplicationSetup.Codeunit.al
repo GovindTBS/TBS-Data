@@ -11,7 +11,7 @@ codeunit 8821 "AAD Application Setup"
     end;
 
     var
-        Dynamics365BusinessCentralforVirtualEntitiesDesTok: Label '%1 for Virtual Tables', Comment = '%1 product name';
+Dynamics365BusinessCentralforVirtualEntitiesDesTok: Label '%1 for Virtual Tables', Comment = '%1 product name';
         Dynamics365BusinessCentralforVirtualEntitiesGuidTok: Label 'af30e371-ad4a-4097-88c1-5555e7ada96f', Locked = true;
 
         MicrosoftPowerPagesAuthenticatedUsersDesTok: Label 'Power Pages Authenticated External Users', MaxLength = 50;

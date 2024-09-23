@@ -110,7 +110,7 @@ page 448 "Finance Charge Memo List"
                     RunObject = Page "Fin. Charge Comment Sheet";
                     RunPageLink = Type = const("Finance Charge Memo"),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("C&ustomer")
                 {
@@ -259,7 +259,7 @@ page 448 "Finance Charge Memo List"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Create Finance Charge Memos_Promoted"; "Create Finance Charge Memos")
                 {
@@ -270,7 +270,7 @@ page 448 "Finance Charge Memo List"
             }
             group(Category_Category4)
             {
-                Caption = 'Memo', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Memo', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Statistics_Promoted; Statistics)
                 {
@@ -284,12 +284,12 @@ page 448 "Finance Charge Memo List"
             }
             group(Category_Category5)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
                 actionref("Customer - Balance to Date_Promoted"; "Customer - Balance to Date")
                 {

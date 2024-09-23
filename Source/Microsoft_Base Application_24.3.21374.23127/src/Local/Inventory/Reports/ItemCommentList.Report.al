@@ -12,7 +12,7 @@ report 10141 "Item Comment List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Local/Inventory/Reports/ItemCommentList.rdlc';
-    Caption = 'Item Comment List';
+Caption = 'Item Comment List';
     UsageCategory = ReportsAndAnalysis;
 
     dataset
@@ -130,7 +130,7 @@ report 10141 "Item Comment List"
         NewPagePer: Boolean;
         CommentFilter: Text;
         Text000: Label 'No Item Description';
-        Item_Comment_ListCaptionLbl: Label 'Item Comment List';
+Item_Comment_ListCaptionLbl: Label 'Item Comment List';
         CurrReport_PAGENOCaptionLbl: Label 'Page';
 }
 

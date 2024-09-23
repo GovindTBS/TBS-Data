@@ -533,9 +533,9 @@ page 1287 "Payment Application Review"
         CurrentRecordToReview: Integer;
         PageCaptionLbl: Label 'Payment Application Review';
         LineNotAppliedLbl: Label 'The payment is not applied to any entries.';
-        ReviewRequiredLbl: Label 'Matched Automatically - Confidence: %1. Review is required for this rule.', Comment = '%1 - Matching confidence, can be None, Low, Medium, High';
+ReviewRequiredLbl: Label 'Matched Automatically - Confidence: %1. Review is required for this rule.', Comment = '%1 - Matching confidence, can be None, Low, Medium, High';
         DifferenceToReconcileLbl: Label 'The difference must be resolved before you can post.';
-        RemainingRecordToReviewPageCaptionLbl: Label ' - %1 Remaining', Comment = 'Text before is Payment Application Review - Remaining - %1. %1 is the total number of lines.';
+RemainingRecordToReviewPageCaptionLbl: Label ' - %1 Remaining', Comment = 'Text before is Payment Application Review - Remaining - %1. %1 is the total number of lines.';
         WouldYouLikeToRunMapTexttoAccountAgainQst: Label 'Do you want to re-apply the text to account mapping rules to all lines in the bank statement?';
 
     protected var

@@ -70,7 +70,7 @@ codeunit 5940 ServContractManagement
         Text013: Label '%1 cannot be created because the %2 is too long. Please shorten the %3 %4 %5 by removing %6 character(s).';
         TempServLineDescription: Text[250];
         Text014: Label 'A %1 cannot be created because %2 %3 has at least one unposted %4 linked to it.';
-        Text015: Label '%1 %2 for the existing %3 %4 for %5 %6 differs from the newly calculated %1 %7. Do you want to use the existing %1?', Comment = 'Location Code SILVER for the existing Service Credit Memo 1001 for Service Contract 1002 differs from the newly calculated Location Code BLUE. Do you want to use the existing Location Code?';
+Text015: Label '%1 %2 for the existing %3 %4 for %5 %6 differs from the newly calculated %1 %7. Do you want to use the existing %1?', Comment = 'Location Code SILVER for the existing Service Credit Memo 1001 for Service Contract 1002 differs from the newly calculated Location Code BLUE. Do you want to use the existing Location Code?';
         AppliedGLAccount: Code[20];
         CheckMParts: Boolean;
         CombinedCurrenciesErr1: Label 'Customer %1 has service contracts with different currency codes %2 and %3, which cannot be combined on one invoice.';

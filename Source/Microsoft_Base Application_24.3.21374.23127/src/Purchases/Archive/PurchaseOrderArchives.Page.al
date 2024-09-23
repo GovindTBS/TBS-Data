@@ -286,7 +286,7 @@ page 9347 "Purchase Order Archives"
                                   "Document Line No." = const(0),
                                   "Doc. No. Occurrence" = field("Doc. No. Occurrence"),
                                   "Version No." = field("Version No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

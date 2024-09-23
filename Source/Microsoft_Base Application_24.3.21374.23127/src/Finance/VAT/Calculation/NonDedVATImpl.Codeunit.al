@@ -27,13 +27,13 @@ codeunit 6201 "Non-Ded. VAT Impl."
 
     var
         NonDeductibleVAT: Codeunit "Non-Deductible VAT";
-        FCYValueExceedsLimitErr: Label '%1 for %2 must not exceed %3 = %4.', Comment = '%1, %3 = Field caption, %2 = currency code, %4 = decimal value';
-        LCYValueExceedsLimitErr: Label '%1 must not exceed %2 = %3.', Comment = '%1, %2 = Field caption, %3 = decimal value';
-        TotalExceedsLimitErr: Label 'The total %1 for a document must not exceed the value %2 in the %3 field.', Comment = '%1, %2 = decimal values; %3 = field caption';
+FCYValueExceedsLimitErr: Label '%1 for %2 must not exceed %3 = %4.', Comment = '%1, %3 = Field caption, %2 = currency code, %4 = decimal value';
+LCYValueExceedsLimitErr: Label '%1 must not exceed %2 = %3.', Comment = '%1, %2 = Field caption, %3 = decimal value';
+TotalExceedsLimitErr: Label 'The total %1 for a document must not exceed the value %2 in the %3 field.', Comment = '%1, %2 = decimal values; %3 = field caption';
         CannotBeNegativeErr: Label 'cannot be negative';
         PrepaymentsWithNDVATErr: Label 'You cannot post prepayment that contains Non-Deductible VAT.';
         UnrealizedVATWithNDVATErr: Label 'You cannot post unrealized VAT that contains Non-Deductible VAT.';
-        DifferentNonDedVATRatesSameVATIdentifierErr: Label 'You cannot set different Non-Deductible VAT % for the combinations of business and product groups with the same VAT identifier.\The following combination with the same VAT identifier has different Non-Deductible VAT %: business group %1, product group %2', Comment = '%1, %2 - codes';
+DifferentNonDedVATRatesSameVATIdentifierErr: Label 'You cannot set different Non-Deductible VAT % for the combinations of business and product groups with the same VAT identifier.\The following combination with the same VAT identifier has different Non-Deductible VAT %: business group %1, product group %2', Comment = '%1, %2 - codes';
 
     procedure IsNonDeductibleVATEnabled(): Boolean
     var

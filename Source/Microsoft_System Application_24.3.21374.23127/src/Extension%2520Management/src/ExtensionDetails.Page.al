@@ -435,10 +435,10 @@ page 2501 "Extension Details"
         Legal: Boolean;
         Step1Enabled: Boolean;
         ClearSchema: Boolean;
-        InstallationPageCaptionMsg: Label 'Extension Installation', Comment = 'Caption for when extension needs to be installed';
+InstallationPageCaptionMsg: Label 'Extension Installation', Comment = 'Caption for when extension needs to be installed';
 UninstallationPageCaptionMsg: Label 'Extension Uninstallation', Comment = 'Caption for when extension needs to be uninstalled';
         TermsLbl: Label 'Terms and Conditions';
-        PrivacyLbl: Label 'Privacy Statement', Comment = 'Label for privacy statement link';
+PrivacyLbl: Label 'Privacy Statement', Comment = 'Label for privacy statement link';
         UrlLbl: Label 'Website';
         HelpLbl: Label 'Help';
         SaaSEULALbl: Label ' https://go.microsoft.com/fwlink/?linkid=834880', Locked = true;

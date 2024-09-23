@@ -58,7 +58,7 @@ page 95 "Sales Quote Subform"
                     Editable = CurrPageIsEditable;
                     LookupPageID = "Option Lookup List";
                     TableRelation = "Option Lookup Buffer"."Option Caption" where("Lookup Type" = const(Sales));
-                    ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
+ToolTip = 'Specifies the type of transaction that will be posted with the document line. If you select Comment, then you can enter any text in the Description field, such as a message to a customer. ';
                     Visible = IsFoundation;
 
                     trigger OnValidate()
@@ -199,7 +199,7 @@ page 95 "Sales Quote Subform"
                 {
                     ApplicationArea = Basic, Suite;
                     ShowMandatory = not IsCommentLine;
-                    ToolTip = 'Specifies a description of the item you''re offering to the customer. The suggested text comes from the item, but you can change it to suit this document without changing the original description. If you''re adding a comment (you''ve chosen Comment in the Type field), this is where you enter it. For comments, leave the other fields on the line empty.';
+ToolTip = 'Specifies a description of the item you''re offering to the customer. The suggested text comes from the item, but you can change it to suit this document without changing the original description. If you''re adding a comment (you''ve chosen Comment in the Type field), this is where you enter it. For comments, leave the other fields on the line empty.';
 
                     trigger OnValidate()
                     begin
@@ -865,7 +865,7 @@ page 95 "Sales Quote Subform"
                     ApplicationArea = Comments;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     begin
@@ -1235,7 +1235,7 @@ page 95 "Sales Quote Subform"
         TypeAsText: Text[30];
         UseAllocationAccountNumber: Boolean;
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Type.';
-        ExcelFileNameTxt: Label 'Sales Quote %1 - Lines', Comment = '%1 = document number, ex. 10000';
+ExcelFileNameTxt: Label 'Sales Quote %1 - Lines', Comment = '%1 = document number, ex. 10000';
 
     protected var
         Currency: Record Currency;

@@ -206,7 +206,7 @@ report 1201 "Post Direct Debit Collection"
     end;
 
     var
-        TemplateTypeErr: Label 'Only General Journal templates of type %1, %2, %3, %4, or %5 are allowed.', Comment = '%1..5 lists Type=General,Purchases,Payments,Sales,Cash Receipts';
+TemplateTypeErr: Label 'Only General Journal templates of type %1, %2, %3, %4, or %5 are allowed.', Comment = '%1..5 lists Type=General,Purchases,Payments,Sales,Cash Receipts';
         DirectDebitCollection: Record "Direct Debit Collection";
         GenJnlLine: Record "Gen. Journal Line";
         GenJnlBatch: Record "Gen. Journal Batch";
@@ -217,13 +217,13 @@ report 1201 "Post Direct Debit Collection"
         GeneralJournalTemplateName: Code[10];
         GeneralJournalBatchName: Code[10];
         LastLineNo: Integer;
-        PostingTxt: Label '%1 %2 Direct Debit', Comment = '%1=Doc. type, %2=Doc. No. E.g. Invoice 234 Direct Debit';
+PostingTxt: Label '%1 %2 Direct Debit', Comment = '%1=Doc. type, %2=Doc. No. E.g. Invoice 234 Direct Debit';
         CreateJnlOnly: Boolean;
         TotalCount: Integer;
         CurrCount: Integer;
         ProgressMsg: Label '#1##################';
-        JnlCreatedMsg: Label '%1 journal lines were created. %2 lines were skipped.', Comment = '%1 and %2 are both numbers / count.';
-        PostedMsg: Label '%1 payments were posted. %2 lines were skipped.', Comment = '%1 and %2 are both numbers / count.';
+JnlCreatedMsg: Label '%1 journal lines were created. %2 lines were skipped.', Comment = '%1 and %2 are both numbers / count.';
+PostedMsg: Label '%1 payments were posted. %2 lines were skipped.', Comment = '%1 and %2 are both numbers / count.';
         SkippedCount: Integer;
 
     procedure SetCollectionEntry(NewCollectionEntry: Integer)

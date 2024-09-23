@@ -81,7 +81,7 @@ report 5883 "Copy Phys. Invt. Recording"
         PhysInvtRecordLine: Record "Phys. Invt. Record Line";
         I: Integer;
 
-        NotEnoughSpaceErr: Label 'There is not enough space to insert %1 copies.', Comment = '%1 = Number';
+NotEnoughSpaceErr: Label 'There is not enough space to insert %1 copies.', Comment = '%1 = Number';
 
     protected var
         ToPhysInvtRecordLine: Record "Phys. Invt. Record Line";

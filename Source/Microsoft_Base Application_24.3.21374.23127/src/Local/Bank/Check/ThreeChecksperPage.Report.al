@@ -1070,25 +1070,25 @@ report 10413 "Three Checks per Page"
     var
         Text000Err: Label 'Preview is not allowed.';
         Text001Err: Label 'Last Check No. must be filled in.';
-        Text002Err: Label 'Filters on %1 and %2 are not allowed.', Comment = '%1=Field caption for Line No. field.; %2=Field caption for Document No. field.';
-        Text003Lbl: Label 'XXXXXXXXXXXXXXXX', Comment = 'Do not translate.';
+Text002Err: Label 'Filters on %1 and %2 are not allowed.', Comment = '%1=Field caption for Line No. field.; %2=Field caption for Document No. field.';
+Text003Lbl: Label 'XXXXXXXXXXXXXXXX', Comment = 'Do not translate.';
         Text004Err: Label 'must be entered';
         Text005Err: Label 'The Bank Account and the General Journal Line must have the same currency.';
         Text008Err: Label 'Both Bank Accounts must have the same currency.';
-        Text010Lbl: Label 'XXXXXXXXXX', Comment = 'Do not translate.';
-        Text011Lbl: Label 'XXXX', Comment = 'Do not translate.';
-        Text013Err: Label '%1 already exists.', Comment = '%1=Check number.';
-        Text014Lbl: Label 'Check for %1 %2', Comment = '%1=Balancing account type. %2=Balancing account code.';
+Text010Lbl: Label 'XXXXXXXXXX', Comment = 'Do not translate.';
+Text011Lbl: Label 'XXXX', Comment = 'Do not translate.';
+Text013Err: Label '%1 already exists.', Comment = '%1=Check number.';
+Text014Lbl: Label 'Check for %1 %2', Comment = '%1=Balancing account type. %2=Balancing account code.';
         Text016Err: Label 'In the Check report, One Check per Vendor and Document No.\must not be activated when Applies-to ID is specified in the journal lines.';
         Text019Lbl: Label 'Total';
-        Text020Err: Label 'The total amount of check %1 is %2. The amount must be positive.', Comment = '%1=The check number.; %2=The total amount of the check.';
-        Text021Lbl: Label 'VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID', Comment = 'Translation is acceptable, but keep the capitalization.';
-        Text022Lbl: Label 'NON-NEGOTIABLE', Comment = 'Translation is acceptable, but keep the capitalization.';
+Text020Err: Label 'The total amount of check %1 is %2. The amount must be positive.', Comment = '%1=The check number.; %2=The total amount of the check.';
+Text021Lbl: Label 'VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID', Comment = 'Translation is acceptable, but keep the capitalization.';
+Text022Lbl: Label 'NON-NEGOTIABLE', Comment = 'Translation is acceptable, but keep the capitalization.';
         Text023Lbl: Label 'Test print';
-        Text024Lbl: Label 'XXXX.XX', Comment = 'Do not translate.';
-        Text025Lbl: Label 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Comment = 'Do not translate.';
-        Text030Err: Label ' is already applied to %1 %2 for customer %3.', Comment = '%1=Document Type;%2=Document Number;%3=Customer Number.';
-        Text031Err: Label ' is already applied to %1 %2 for vendor %3.', Comment = '%1=Document Type;%2=Document Number;%3=Vendor Number.';
+Text024Lbl: Label 'XXXX.XX', Comment = 'Do not translate.';
+Text025Lbl: Label 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Comment = 'Do not translate.';
+Text030Err: Label ' is already applied to %1 %2 for customer %3.', Comment = '%1=Document Type;%2=Document Number;%3=Customer Number.';
+Text031Err: Label ' is already applied to %1 %2 for vendor %3.', Comment = '%1=Document Type;%2=Document Number;%3=Vendor Number.';
         CompanyInfo: Record "Company Information";
         CurrencyExchangeRate: Record "Currency Exchange Rate";
         SalespersonPurchaser: Record "Salesperson/Purchaser";
@@ -1145,8 +1145,8 @@ report 10413 "Three Checks per Page"
         i: Integer;
         CurrencyCode2: Code[10];
         LineAmount2: Decimal;
-        Text064Err: Label '%1 must not be %2 for %3 %4.', Comment = '%1=Blocked field caption;%2=Blocked value from Customer table;%3=Caption for Customer table;%4=Customer Number';
-        PrivacyBlockedErr: Label '%1 %2 must not be blocked for privacy.', Comment = '%1 = customer or vendor, %2 = customer or vendor code.';
+Text064Err: Label '%1 must not be %2 for %3 %4.', Comment = '%1=Blocked field caption;%2=Blocked value from Customer table;%3=Caption for Customer table;%4=Customer Number';
+PrivacyBlockedErr: Label '%1 %2 must not be blocked for privacy.', Comment = '%1 = customer or vendor, %2 = customer or vendor code.';
         Text065Lbl: Label 'Subtotal';
         Text062Lbl: Label 'G/L Account,Customer,Vendor,Bank Account,,,Employee';
         USText001Qst: Label 'Warning:  Checks cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?';
@@ -1168,8 +1168,8 @@ report 10413 "Three Checks per Page"
         PrnChkVoidText: array[2] of Text[30];
         PrnChkDateIndicator: array[2] of Text[10];
         PrnChkCurrencyCode: array[2] of Code[10];
-        USText006Err: Label 'You cannot use the <blank> %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Check Date Format field caption;%2=Caption for Bank Account table;%3=Bank Account number.';
-        USText007Err: Label 'You cannot use the Spanish %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Bank Communication field caption;%2=Caption for Bank Account table;%3=Bank Account number.';
+USText006Err: Label 'You cannot use the <blank> %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Check Date Format field caption;%2=Caption for Bank Account table;%3=Bank Account number.';
+USText007Err: Label 'You cannot use the Spanish %1 option with a Canadian style check. Please check %2 %3.', Comment = '%1=Bank Communication field caption;%2=Caption for Bank Account table;%3=Bank Account number.';
         PostingDesc: Text[100];
         CheckStyleIndex: Integer;
         BankCurrencyCode: Text[30];
@@ -1186,8 +1186,8 @@ report 10413 "Three Checks per Page"
         DocDateCaptionLbl: Label 'Document Date';
         PostingDescriptionCaptionLbl: Label 'Posting Description';
         CheckIteration: Integer;
-        AlreadyAppliedToEmployeeErr: Label ' is already applied to %1 %2 for employee %3.', Comment = '%1 = Document type, %2 = Document No., %3 = Employee No.';
-        BlockedEmplForCheckErr: Label 'You cannot print check because employee %1 is blocked due to privacy.', Comment = '%1 - Employee no.';
+AlreadyAppliedToEmployeeErr: Label ' is already applied to %1 %2 for employee %3.', Comment = '%1 = Document type, %2 = Document No., %3 = Employee No.';
+BlockedEmplForCheckErr: Label 'You cannot print check because employee %1 is blocked due to privacy.', Comment = '%1 - Employee no.';
 
     local procedure CustUpdateAmounts(var CustLedgEntry2: Record "Cust. Ledger Entry"; RemainingAmount2: Decimal)
     var

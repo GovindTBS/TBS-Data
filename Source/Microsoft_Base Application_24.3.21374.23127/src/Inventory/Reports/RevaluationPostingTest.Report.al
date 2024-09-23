@@ -197,7 +197,7 @@ report 5812 "Revaluation Posting - Test"
                     UserSetupManagement: Codeunit "User Setup Management";
                     InvtPeriodEndDate: Date;
                     TempErrorText: Text[250];
-                    ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
                 begin
                     OnBeforeItemJournalLineOnAfterGetRecord("Item Journal Line", ErrorCounter, ErrorText);
 

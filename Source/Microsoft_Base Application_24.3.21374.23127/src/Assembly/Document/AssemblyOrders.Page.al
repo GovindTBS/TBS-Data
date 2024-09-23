@@ -326,7 +326,7 @@ page 902 "Assembly Orders"
                     RunPageLink = "Document Type" = field("Document Type"),
                                   "Document No." = field("No."),
                                   "Document Line No." = const(0);
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -435,7 +435,7 @@ page 902 "Assembly Orders"
             }
             group(Category_Category4)
             {
-                Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Posting', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ShowAs = SplitButton;
 
                 actionref("P&ost_Promoted"; "P&ost")
@@ -450,7 +450,7 @@ page 902 "Assembly Orders"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
             }
             group(Category_Order)
@@ -498,7 +498,7 @@ page 902 "Assembly Orders"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

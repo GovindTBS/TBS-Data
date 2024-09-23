@@ -346,7 +346,7 @@ page 841 "Cash Flow Worksheet"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(SuggestWorksheetLines_Promoted; SuggestWorksheetLines)
                 {
@@ -363,11 +363,11 @@ page 841 "Cash Flow Worksheet"
             }
             group(Category_Category5)
             {
-                Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Line', Comment = 'Generated from the PromotedActionCategories property index 4.';
             }
             group(Category_Category6)
             {
-                Caption = 'Cash Flow', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Cash Flow', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
                 actionref(Card_Promoted; Card)
                 {
@@ -375,7 +375,7 @@ page 841 "Cash Flow Worksheet"
             }
             group(Category_Category4)
             {
-                Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Page', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(EditInExcel_Promoted; EditInExcel)
                 {
@@ -383,7 +383,7 @@ page 841 "Cash Flow Worksheet"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

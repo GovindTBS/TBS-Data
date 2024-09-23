@@ -18,7 +18,7 @@ codeunit 6700 "O365 Sync. Management"
         IsolatedStorageManagement: Codeunit "Isolated Storage Management";
         ProgressWindow: Dialog;
         BookingsConnectionID: Text;
-        ConnectionErr: Label '%1 is unable to connect to Exchange. This may be due to a service outage or invalid credentials.', Comment = '%1 = User who cannot connect';
+ConnectionErr: Label '%1 is unable to connect to Exchange. This may be due to a service outage or invalid credentials.', Comment = '%1 = User who cannot connect';
         LoggingConstTxt: Label 'Contact synchronization.';
         O365RecordMissingErr: Label 'The Office 365 synchronization setup record is not configured correctly.';
         ExchangeConnectionID: Text;
@@ -29,7 +29,7 @@ codeunit 6700 "O365 Sync. Management"
         GettingContactsTxt: Label 'Getting Exchange contacts.';
         GettingBookingCustomersTxt: Label 'Getting Booking customers.';
         GettingBookingServicesTxt: Label 'Getting Booking services.';
-        NoUserAccessErr: Label 'Could not connect to %1. Verify that %2 is an administrator in the Bookings mailbox.', Comment = '%1 = The Bookings company; %2 = The user';
+NoUserAccessErr: Label 'Could not connect to %1. Verify that %2 is an administrator in the Bookings mailbox.', Comment = '%1 = The Bookings company; %2 = The user';
         JobQueueEntryDescTxt: Label 'Auto-created for retrieval of new data from Outlook and Bookings. Can be deleted if not used. Will be recreated when the feature is activated.';
 
     [TryFunction]

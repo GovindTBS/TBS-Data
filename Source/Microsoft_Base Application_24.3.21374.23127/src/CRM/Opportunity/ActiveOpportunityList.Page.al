@@ -201,7 +201,7 @@ page 5132 "Active Opportunity List"
                     RunObject = Page "Rlshp. Mgt. Comment Sheet";
                     RunPageLink = "Table Name" = const(Opportunity),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }

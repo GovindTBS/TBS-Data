@@ -229,7 +229,7 @@ report 1005 "Job Journal - Test"
                         InvtPeriodEndDate: Date;
                         TempErrorText: Text[250];
                         IsHandled: Boolean;
-                        ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
                     begin
                         if EmptyLine() then
                             exit;
@@ -437,8 +437,8 @@ report 1005 "Job Journal - Test"
         Text004: Label '%1 %2 %3 does not exist.';
         Text005: Label 'Resource %1 does not exist.';
         Text006: Label '%1 must be %2 for resource %3.';
-        MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 = field caption, %2 = value, %3 = table caption, %4 = field caption';
-        DoesNotExistErr: Label '%2 %1 does not exist.', Comment = '%1 = Entity No., %2 - Table Caption';
+MustBeForErr: Label '%1 must be %2 for %3 %4.', Comment = '%1 = field caption, %2 = value, %3 = table caption, %4 = field caption';
+DoesNotExistErr: Label '%2 %1 does not exist.', Comment = '%1 = Entity No., %2 - Table Caption';
         Text009: Label '%1 must not be a closing date.';
         Text010: Label 'The lines are not listed according to posting date because they were not entered in that order.';
         Text011: Label '%1 is not within your allowed range of posting dates.';

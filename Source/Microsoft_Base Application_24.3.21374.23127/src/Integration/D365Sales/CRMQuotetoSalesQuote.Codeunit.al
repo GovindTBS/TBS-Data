@@ -46,27 +46,27 @@ codeunit 5348 "CRM Quote to Sales Quote"
         UnableToFindCrmOrderTelemetryErr: Label 'Unable to find Dynamics 365 Sales order that corresponds to this quote.', Locked = true;
         UpdatedQuoteNoOnExistingOrderTelemetryTxt: Label 'Updated Quote No. on the existing order that corresponds to this quote.', Locked = true;
         CannotCreateSalesQuoteInNAVTxt: Label 'The sales quote cannot be created.';
-        CannotFindCRMAccountForQuoteErr: Label 'The %2 account for %2 sales quote %1 does not exist.', Comment = '%1=Dataverse Sales Order Name, %2 - Dataverse service name';
-        ItemDoesNotExistErr: Label '%1 The item %2 does not exist.', Comment = '%1= the text: "The sales order cannot be created.", %2=product name';
-        ItemUnitOfMeasureDoesNotExistErr: Label '%1 The item unit of measure %2 does not exist.', Comment = '%1= the text: "The sales order cannot be created.", %2=item unit of measure name';
-        ResourceUnitOfMeasureDoesNotExistErr: Label '%1 The resource unit of measure %2 does not exist.', Comment = '%1= the text: "The sales order cannot be created.", %2=resource unit of measure name';
-        NoCustomerErr: Label '%1 There is no potential customer defined on the %3 sales quote %2.', Comment = '%1= the text: "The sales quote cannot be created.", %2=sales order title, %3 - Dataverse service name';
-        NotCoupledCustomerErr: Label '%1 There is no customer coupled to %3 account %2.', Comment = '%1= the text: "The sales quote cannot be created.", %2=account name, %3 - Dataverse service name';
-        NotCoupledCRMProductErr: Label '%1 The %3 product %2 is not coupled to an item.', Comment = '%1= the text: "The sales quote cannot be created.", %2=product name, %3 - Dataverse service name';
-        NotCoupledCRMResourceErr: Label '%1 The %3 resource %2 is not coupled to a resource.', Comment = '%1= the text: "The sales quote cannot be created.", %2=resource name, %3 - Dataverse service name';
-        NotCoupledCRMUomErr: Label '%1 The %3 unit %2 is not coupled to a unit of measure.', Comment = '%1= the text: "The sales quote cannot be created.", %2=unit name, %3 - Dataverse service name';
-        AccountNotCustomerErr: Label '%1 The selected type of the %2 %3 account is not customer.', Comment = '%1= the text: "The sales order cannot be created.", %2=account name, %3=Dataverse service name';
+CannotFindCRMAccountForQuoteErr: Label 'The %2 account for %2 sales quote %1 does not exist.', Comment = '%1=Dataverse Sales Order Name, %2 - Dataverse service name';
+ItemDoesNotExistErr: Label '%1 The item %2 does not exist.', Comment = '%1= the text: "The sales order cannot be created.", %2=product name';
+ItemUnitOfMeasureDoesNotExistErr: Label '%1 The item unit of measure %2 does not exist.', Comment = '%1= the text: "The sales order cannot be created.", %2=item unit of measure name';
+ResourceUnitOfMeasureDoesNotExistErr: Label '%1 The resource unit of measure %2 does not exist.', Comment = '%1= the text: "The sales order cannot be created.", %2=resource unit of measure name';
+NoCustomerErr: Label '%1 There is no potential customer defined on the %3 sales quote %2.', Comment = '%1= the text: "The sales quote cannot be created.", %2=sales order title, %3 - Dataverse service name';
+NotCoupledCustomerErr: Label '%1 There is no customer coupled to %3 account %2.', Comment = '%1= the text: "The sales quote cannot be created.", %2=account name, %3 - Dataverse service name';
+NotCoupledCRMProductErr: Label '%1 The %3 product %2 is not coupled to an item.', Comment = '%1= the text: "The sales quote cannot be created.", %2=product name, %3 - Dataverse service name';
+NotCoupledCRMResourceErr: Label '%1 The %3 resource %2 is not coupled to a resource.', Comment = '%1= the text: "The sales quote cannot be created.", %2=resource name, %3 - Dataverse service name';
+NotCoupledCRMUomErr: Label '%1 The %3 unit %2 is not coupled to a unit of measure.', Comment = '%1= the text: "The sales quote cannot be created.", %2=unit name, %3 - Dataverse service name';
+AccountNotCustomerErr: Label '%1 The selected type of the %2 %3 account is not customer.', Comment = '%1= the text: "The sales order cannot be created.", %2=account name, %3=Dataverse service name';
         AccountNotCustomerTelemetryMsg: Label '%1 The selected type of the %2 %3 account is not customer.', Locked = true;
-        ResourceDoesNotExistErr: Label '%1 The resource %2 does not exist.', Comment = '%1= the text: "The sales quote cannot be created.", %2=product name';
-        UnexpectedProductTypeErr: Label '%1 Unexpected value of product type code for product %2. The supported values are: sales inventory, services.', Comment = '%1= the text: "The sales quote cannot be created.", %2=product name';
-        MissingWriteInProductNoErr: Label '%1 %2 %3 contains a write-in product. You must choose the default write-in product in Sales & Receivables Setup window.', Comment = '%1 - Dataverse service name,%2 - document type (order or quote), %3 - document number';
+ResourceDoesNotExistErr: Label '%1 The resource %2 does not exist.', Comment = '%1= the text: "The sales quote cannot be created.", %2=product name';
+UnexpectedProductTypeErr: Label '%1 Unexpected value of product type code for product %2. The supported values are: sales inventory, services.', Comment = '%1= the text: "The sales quote cannot be created.", %2=product name';
+MissingWriteInProductNoErr: Label '%1 %2 %3 contains a write-in product. You must choose the default write-in product in Sales & Receivables Setup window.', Comment = '%1 - Dataverse service name,%2 - document type (order or quote), %3 - document number';
         MisingWriteInProductTelemetryMsg: Label 'The user is missing a default write-in product when creating a sales quote from a %1 quote.', Locked = true;
         CrmTelemetryCategoryTok: Label 'AL CRM Integration', Locked = true;
         SuccessfullyCoupledSalesQuoteTelemetryMsg: Label 'The user successfully coupled quote %2 to %1 quote %3 (quote number %4).', Locked = true;
         SkippingProcessQuoteConnectionDisabledMsg: Label 'Skipping creation of quote header from %1 quote %2. The %1 integration is not enabled.', Locked = true;
         SuccessfullyAppliedSalesQuoteDiscountsTelemetryMsg: Label 'Successfully applied discounts from %1 quote %3 to quote %2.', Locked = true;
         StartingToApplySalesQuoteDiscountsTelemetryMsg: Label 'Starting to appliy discounts from %1 quote %3 to quote %2.', Locked = true;
-        OverwriteCRMDiscountQst: Label 'There is a discount on the %2 quote, which will be overwritten by %1 settings. You will have the possibility to update the discounts directly on the quote, after it is created. Do you want to continue?', Comment = '%1 - product name, %2 - Dataverse service name';
+OverwriteCRMDiscountQst: Label 'There is a discount on the %2 quote, which will be overwritten by %1 settings. You will have the possibility to update the discounts directly on the quote, after it is created. Do you want to continue?', Comment = '%1 - product name, %2 - Dataverse service name';
 
     local procedure ApplyQuoteDiscounts(CRMQuote: Record "CRM Quote"; var SalesHeader: Record "Sales Header")
     var

@@ -47,7 +47,7 @@ table 959 "Time Sheet Chart Setup"
     }
 
     var
-        Text001: Label 'Period: %1..%2 | Show by: %3 | Updated: %4.', Comment = 'Period: (date)..(date) | show by (Status or Posted) | updated (time).';
+Text001: Label 'Period: %1..%2 | Show by: %3 | Updated: %4.', Comment = 'Period: (date)..(date) | show by (Status or Posted) | updated (time).';
 
     procedure GetCurrentSelectionText(): Text[250]
     begin

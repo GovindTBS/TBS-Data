@@ -439,8 +439,8 @@ table 5878 "Phys. Invt. Record Line"
         UOMMgt: Codeunit "Unit of Measure Management";
         PhysInvtTrackingMgt: Codeunit "Phys. Invt. Tracking Mgt.";
         ItemReferenceManagement: Codeunit "Item Reference Management";
-        CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = Table caption';
-        SerialNoAlreadyExistErr: Label 'Serial No. %1 for item %2 already exists.', Comment = '%1 = serial no. %2 = item no.';
+CannotRenameErr: Label 'You cannot rename a %1.', Comment = '%1 = Table caption';
+SerialNoAlreadyExistErr: Label 'Serial No. %1 for item %2 already exists.', Comment = '%1 = serial no. %2 = item no.';
         QuantityCannotBeErr: Label 'Quantity cannot be larger than 1 when Serial No. is assigned.';
 
     local procedure GetPhysInvtRecordHeader()

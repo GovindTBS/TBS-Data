@@ -37,11 +37,11 @@ codeunit 1393 "Cancel Issued Reminder"
         ReminderSourceCode: Code[10];
         TotalAmount: Decimal;
         TotalAmountLCY: Decimal;
-        CancelNextLevelReminderTxt: Label 'You must cancel the issued reminder %1 before canceling issued reminder %2.', Comment = '%1 and %2 issued reminder numbers.';
-        ShowIssuedReminderTxt: Label 'Show issued reminder %1.', Comment = '%1 - issued reminder number.';
-        CancelAppliedEntryErr: Label 'You must unapply customer ledger entry %1 before canceling issued reminder %2.', Comment = '%1 - entry number, %2 - issued reminder number';
-        ShowCustomerLedgerEntryTxt: Label 'Show customer ledger entry %1.', Comment = '%1 - entry number.';
-        MissingFieldNameErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
+CancelNextLevelReminderTxt: Label 'You must cancel the issued reminder %1 before canceling issued reminder %2.', Comment = '%1 and %2 issued reminder numbers.';
+ShowIssuedReminderTxt: Label 'Show issued reminder %1.', Comment = '%1 - issued reminder number.';
+CancelAppliedEntryErr: Label 'You must unapply customer ledger entry %1 before canceling issued reminder %2.', Comment = '%1 - entry number, %2 - issued reminder number';
+ShowCustomerLedgerEntryTxt: Label 'Show customer ledger entry %1.', Comment = '%1 - entry number.';
+MissingFieldNameErr: Label 'Please enter a %1.', Comment = '%1 - field caption';
         SkipShowNotification: Boolean;
         UseSameDocumentNo: Boolean;
         UseSamePostingDate, UseSameVATDate : Boolean;

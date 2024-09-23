@@ -57,7 +57,7 @@ codeunit 6620 "Copy Document Mgt."
     var
         Text000: Label 'Please enter a Document No.';
         Text001: Label '%1 %2 cannot be copied onto itself.';
-        DeleteLinesQst: Label 'The existing lines for %1 %2 will be deleted.\\Do you want to continue?', Comment = '%1=Document type, e.g. Invoice. %2=Document No., e.g. 001';
+DeleteLinesQst: Label 'The existing lines for %1 %2 will be deleted.\\Do you want to continue?', Comment = '%1=Document type, e.g. Invoice. %2=Document No., e.g. 001';
         Text006: Label 'NOTE: A Payment Discount was Granted by %1 %2.';
         Currency: Record Currency;
         Item: Record Item;
@@ -122,18 +122,18 @@ codeunit 6620 "Copy Document Mgt."
         WarningDone: Boolean;
         DiffPostDateOrderQst: Label 'The Posting Date of the copied document is different from the Posting Date of the original document. The original document already has a Posting No. based on a number series with date order. When you post the copied document, you may have the wrong date order in the posted documents.\Do you want to continue?';
         CopyPostedDeferral: Boolean;
-        CrMemoCancellationMsg: Label 'Cancellation of credit memo %1.', Comment = '%1 = Document No.';
+CrMemoCancellationMsg: Label 'Cancellation of credit memo %1.', Comment = '%1 = Document No.';
         CopyExtText: Boolean;
         CopyJobData: Boolean;
         SkipWarningNotification: Boolean;
         SkipOldInvoiceDesc: Boolean;
-        IsBlockedErr: Label '%1 %2 is blocked.', Comment = '%1 - type of entity, e.g. Item; %2 - entity''s No.';
-        IsSalesBlockedItemErr: Label 'You cannot sell %1 %2 because the %3 check box is selected on the %1 card.', Comment = '%1 - Table Caption (item/variant), %2 - Entity Code, %3 - Field Caption';
-        IsPurchBlockedItemErr: Label 'You cannot purchase %1 %2 because the %3 check box is selected on the %1 card.', Comment = '%1 - Table Caption (item/variant), %2 - Entity Code, %3 - Field Caption';
-        FAIsInactiveErr: Label 'Fixed asset %1 is inactive.', Comment = '%1 - fixed asset no.';
-        DirectPostingErr: Label 'G/L account %1 does not allow direct posting.', Comment = '%1 - g/l account no.';
-        SalesErrorContextMsg: Label 'Copying sales document %1', Comment = '%1 - document no.';
-        PurchErrorContextMsg: Label 'Copying purchase document %1', Comment = '%1 - document no.';
+IsBlockedErr: Label '%1 %2 is blocked.', Comment = '%1 - type of entity, e.g. Item; %2 - entity''s No.';
+IsSalesBlockedItemErr: Label 'You cannot sell %1 %2 because the %3 check box is selected on the %1 card.', Comment = '%1 - Table Caption (item/variant), %2 - Entity Code, %3 - Field Caption';
+IsPurchBlockedItemErr: Label 'You cannot purchase %1 %2 because the %3 check box is selected on the %1 card.', Comment = '%1 - Table Caption (item/variant), %2 - Entity Code, %3 - Field Caption';
+FAIsInactiveErr: Label 'Fixed asset %1 is inactive.', Comment = '%1 - fixed asset no.';
+DirectPostingErr: Label 'G/L account %1 does not allow direct posting.', Comment = '%1 - g/l account no.';
+SalesErrorContextMsg: Label 'Copying sales document %1', Comment = '%1 - document no.';
+PurchErrorContextMsg: Label 'Copying purchase document %1', Comment = '%1 - document no.';
 
     procedure SetProperties(NewIncludeHeader: Boolean; NewRecalculateLines: Boolean; NewMoveNegLines: Boolean; NewCreateToHeader: Boolean; NewHideDialog: Boolean; NewExactCostRevMandatory: Boolean; NewApplyFully: Boolean)
     begin
@@ -4786,7 +4786,7 @@ codeunit 6620 "Copy Document Mgt."
         MessageType: Option Error,Warning,Information;
         BlockedForSalesPurch: Boolean;
         IsHandled: Boolean;
-        ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
+ItemItemVariantLbl: Label '%1 %2', Comment = '%1 - Item No., %2 - Variant Code';
     begin
         OnBeforeIsEntityBlocked(TableNo, CreditDocType, Type, EntityNo, EntityIsBlocked, IsHandled, EntityCode);
         if IsHandled then

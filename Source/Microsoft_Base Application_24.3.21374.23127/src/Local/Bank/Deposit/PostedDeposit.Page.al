@@ -114,13 +114,13 @@ page 10143 "Posted Deposit"
                 action(Comments)
                 {
                     ApplicationArea = Comments;
-                    Caption = 'Comments';
+Caption = 'Comments';
                     Image = ViewComments;
                     RunObject = Page "Bank Comment Sheet";
                     RunPageLink = "Bank Account No." = field("Bank Account No."),
                                   "No." = field("No.");
                     RunPageView = where("Table Name" = const("Posted Deposit"));
-                    ToolTip = 'View deposit comments that apply.';
+ToolTip = 'View deposit comments that apply.';
                 }
                 action(Dimensions)
                 {
@@ -171,11 +171,11 @@ page 10143 "Posted Deposit"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Deposit', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Deposit', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -189,7 +189,7 @@ page 10143 "Posted Deposit"
             }
             group(Category_Category5)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref(Print_Promoted; Print)
                 {

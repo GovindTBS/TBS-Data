@@ -340,7 +340,7 @@ page 99000831 "Released Production Order"
                     RunObject = Page "Prod. Order Comment Sheet";
                     RunPageLink = Status = field(Status),
                                   "Prod. Order No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Put-away/Pick Lines/Movement Lines")
                 {
@@ -608,7 +608,7 @@ page 99000831 "Released Production Order"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Change &Status_Promoted"; "Change &Status")
                 {
@@ -645,7 +645,7 @@ page 99000831 "Released Production Order"
             }
             group(Category_Category4)
             {
-                Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Order', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Dimensions_Promoted; Dimensions)
                 {
@@ -659,7 +659,7 @@ page 99000831 "Released Production Order"
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

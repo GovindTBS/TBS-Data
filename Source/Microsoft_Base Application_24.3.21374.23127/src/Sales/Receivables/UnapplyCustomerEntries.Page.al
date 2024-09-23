@@ -224,7 +224,7 @@ page 623 "Unapply Customer Entries"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(Unapply_Promoted; Unapply)
                 {

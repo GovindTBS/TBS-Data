@@ -21,12 +21,12 @@ codeunit 439 "Export F/O Consolidation"
         TempDimensionIDBuffer: Record "Dimension ID Buffer" temporary;
         CompanyCurrencyCode: Code[10];
         FOLegalEntityID: Code[4];
-        DimConflictErr: Label 'It is not possible to consolidate ledger entry dimensions for G/L Entry No. %1, because there are conflicting dimension values %2 and %3 for consolidation dimension %4.', Comment = '%1 - entry number, %2 and %3 - dimension values, %4 - dimension code';
-        LegalEntityIDLineTok: Label '4,"%1"', Comment = '%1  text value';
-        DimensionLineTok: Label '6,"%1",%2', Comment = '%2 - number, %1 - text value';
-        DimensionValueLineTok: Label '7,"%1",%2,%3', Comment = '%1 text value, %2, %3 - number';
-        GLEntryLineTok: Label '2,"%1","%2",%3,"%4",%5,%6,%7,%8,%9', Comment = '%3, %5, %6, %7, %8, %9 - numbers, %1,%4 - text value, %2 - date';
-        GLAccountLineTok: Label '1,"%1","%2",%3', Comment = '%1, %2 - text value, %3 - number';
+DimConflictErr: Label 'It is not possible to consolidate ledger entry dimensions for G/L Entry No. %1, because there are conflicting dimension values %2 and %3 for consolidation dimension %4.', Comment = '%1 - entry number, %2 and %3 - dimension values, %4 - dimension code';
+LegalEntityIDLineTok: Label '4,"%1"', Comment = '%1  text value';
+DimensionLineTok: Label '6,"%1",%2', Comment = '%2 - number, %1 - text value';
+DimensionValueLineTok: Label '7,"%1",%2,%3', Comment = '%1 text value, %2, %3 - number';
+GLEntryLineTok: Label '2,"%1","%2",%3,"%4",%5,%6,%7,%8,%9', Comment = '%3, %5, %6, %7, %8, %9 - numbers, %1,%4 - text value, %2 - date';
+GLAccountLineTok: Label '1,"%1","%2",%3', Comment = '%1, %2 - text value, %3 - number';
 
     procedure SetFOLegalEntityID(NewFOLegalEntityID: Code[4])
     begin

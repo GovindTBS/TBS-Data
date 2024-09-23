@@ -100,9 +100,9 @@ table 1251 "Text-to-Account Mapping"
 
     var
         RecordMatchMgt: Codeunit "Record Match Mgt.";
-        AlreadyExistErr: Label 'Entry with Mapping Text=''%1'' already exists.', Comment = '%1 is the value currently inserted.';
-        BalAccountNoQst: Label 'The Bal. Account No. field must have a value if the Bal. Source Type field contains %1.\\Affected Mapping Text: %2. Do you want to quit without saving the data?', Comment = '%1 is option: Vendor or Customer and %2 is the record value in this field.';
-        GLAccountNoQst: Label 'The Debit Acc. No. field or the Credit Acc. No. field must have a value if the Bal. Source Type field contains %1.\\Affected Mapping Text: %2. Do you want to quit without saving the data?', Comment = '%1 is option: G/L Account and %2 is the record value in this field.';
+AlreadyExistErr: Label 'Entry with Mapping Text=''%1'' already exists.', Comment = '%1 is the value currently inserted.';
+BalAccountNoQst: Label 'The Bal. Account No. field must have a value if the Bal. Source Type field contains %1.\\Affected Mapping Text: %2. Do you want to quit without saving the data?', Comment = '%1 is option: Vendor or Customer and %2 is the record value in this field.';
+GLAccountNoQst: Label 'The Debit Acc. No. field or the Credit Acc. No. field must have a value if the Bal. Source Type field contains %1.\\Affected Mapping Text: %2. Do you want to quit without saving the data?', Comment = '%1 is option: G/L Account and %2 is the record value in this field.';
         FilterInvalidCharTxt: Label '(&)', Locked = true;
 
     procedure InsertRec(GenJnlLine: Record "Gen. Journal Line")

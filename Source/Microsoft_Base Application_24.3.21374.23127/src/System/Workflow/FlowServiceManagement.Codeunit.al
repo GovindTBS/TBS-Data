@@ -23,9 +23,9 @@ codeunit 6400 "Flow Service Management"
 
         FlowUrlProdTxt: Label 'https://make.powerautomate.com/', Locked = true;
         FlowUrlTip1Txt: Label 'https://make.test.powerautomate.com/', Locked = true;
-        FlowSearchTemplatesUrlTxt: Label 'https://make.powerautomate.com/templates/?q=%1', Locked = true, Comment = '%1: a query string to use for template search';
+FlowSearchTemplatesUrlTxt: Label 'https://make.powerautomate.com/templates/?q=%1', Locked = true, Comment = '%1: a query string to use for template search';
         FlowARMResourceUrlTxt: Label 'https://management.core.windows.net/', Locked = true;
-        FlowServiceResourceUrlTxt: Label 'https://service.flow.microsoft.com/', Locked = true, Comment = 'Note: while the url of Power Automate changed, the AAD resource still contains the old product name"Flow".';
+FlowServiceResourceUrlTxt: Label 'https://service.flow.microsoft.com/', Locked = true, Comment = 'Note: while the url of Power Automate changed, the AAD resource still contains the old product name"Flow".';
         FlowEnvironmentsProdApiTxt: Label 'https://api.flow.microsoft.com/providers/Microsoft.ProcessSimple/environments?api-version=2016-11-01', Locked = true;
         FlowEnvironmentsTip1ApiTxt: Label 'https://tip1.api.powerapps.com/providers/Microsoft.PowerApps/environments?api-version=2016-11-01', Locked = true;
         GenericErr: Label 'An error occurred while trying to access the Power Automate service. Please try again or contact your system administrator if the error persists.';

@@ -177,9 +177,9 @@ report 5756 "Create Warehouse Location"
         Text017: Label '\\Do you really want to proceed?';
         Text018: Label 'There is nothing to convert for %1 %2 ''%3''.';
         Text019: Label 'Location %1 cannot be converted because at least one %2 exists for this location.';
-        ProcessingTxt: Label 'Location %1 is being converted to a directed put-away and pick location.\\This might take some time so please be patient.\\', Comment = '%1: Location Code';
-        ItemNoInProgressTxt: Label 'Processing item number #100##################.', Comment = '#100 - Item No.';
-        ErrorInfoTxt: Label '%1: %2', Locked = true, Comment = '%1: FieldCaption, %2: FieldValue';
+ProcessingTxt: Label 'Location %1 is being converted to a directed put-away and pick location.\\This might take some time so please be patient.\\', Comment = '%1: Location Code';
+ItemNoInProgressTxt: Label 'Processing item number #100##################.', Comment = '#100 - Item No.';
+ErrorInfoTxt: Label '%1: %2', Locked = true, Comment = '%1: FieldCaption, %2: FieldValue';
 
     protected var
         HideValidationDialog: Boolean;

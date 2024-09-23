@@ -67,7 +67,7 @@ table 5090 "Sales Cycle"
             CalcFormula = exist("Rlshp. Mgt. Comment Line" where("Table Name" = const("Sales Cycle"),
                                                                   "No." = field(Code),
                                                                   "Sub No." = const(0)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

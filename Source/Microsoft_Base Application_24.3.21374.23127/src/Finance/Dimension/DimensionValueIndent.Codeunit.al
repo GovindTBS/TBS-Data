@@ -31,7 +31,7 @@ codeunit 409 "Dimension Value-Indent"
         Text003: Label 'Do you want to indent the dimension values?';
         Text004: Label 'Indenting Dimension Values @1@@@@@@@@@@@@@@@@@@';
         Text005: Label 'End-Total %1 is missing a matching Begin-Total.';
-        ArrayExceededErr: Label 'You can only indent %1 levels for dimension values of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
+ArrayExceededErr: Label 'You can only indent %1 levels for dimension values of the type Begin-Total.', Comment = '%1 = A number bigger than 1';
 
     procedure RunIndent(DimensionCode: Code[20])
     begin

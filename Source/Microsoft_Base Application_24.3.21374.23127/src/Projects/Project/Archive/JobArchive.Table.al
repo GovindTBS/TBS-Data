@@ -111,7 +111,7 @@ table 5135 "Job Archive"
             CalcFormula = exist("Comment Line Archive" where("Table Name" = const(Job),
                                                             "No." = field("No."),
                                                             "Version No." = field("Version No.")));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

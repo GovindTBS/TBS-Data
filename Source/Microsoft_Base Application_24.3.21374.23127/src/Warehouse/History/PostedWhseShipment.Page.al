@@ -165,7 +165,7 @@ page 7337 "Posted Whse. Shipment"
                     RunPageLink = "Table Name" = const("Posted Whse. Shipment"),
                                   Type = const(" "),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
             }
         }
@@ -189,7 +189,7 @@ page 7337 "Posted Whse. Shipment"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("&Print_Promoted"; "&Print")
                 {

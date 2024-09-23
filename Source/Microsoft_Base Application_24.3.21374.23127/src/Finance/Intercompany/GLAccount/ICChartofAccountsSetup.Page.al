@@ -65,8 +65,8 @@ page 629 "IC Chart of Accounts Setup"
     end;
 
     var
-        SplitMessageTxt: Label '%1\%2', Comment = '%1 = First part of the message, %2 = Second part of the message.', Locked = true;
-        SyncronizeChartOfAccountsQst: Label 'Partner %1 has an intercompany chart of accounts that can be synchronized now.', Comment = '%1 = IC Partner code';
+SplitMessageTxt: Label '%1\%2', Comment = '%1 = First part of the message, %2 = Second part of the message.', Locked = true;
+SyncronizeChartOfAccountsQst: Label 'Partner %1 has an intercompany chart of accounts that can be synchronized now.', Comment = '%1 = IC Partner code';
         CleanExistingICAccountsMsg: Label 'Before synchronizing with a new partner it is necessary to delete existing intercompany accounts.';
         ContinueQst: Label 'Do you want to continue?';
 }

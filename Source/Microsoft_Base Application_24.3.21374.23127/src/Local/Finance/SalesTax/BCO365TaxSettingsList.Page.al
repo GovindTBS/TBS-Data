@@ -79,11 +79,11 @@ page 10351 "BC O365 Tax Settings List"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Manage', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(_NEW_TEMP__Promoted; _NEW_TEMP_)
                 {
@@ -113,6 +113,6 @@ page 10351 "BC O365 Tax Settings List"
     var
         O365TaxSettingsManagement: Codeunit "O365 Tax Settings Management";
         IsCanada: Boolean;
-        DefaultTaxDescriptionTxt: Label '%1 (Default)', Comment = '%1 = a VAT rate name, such as "Reduced VAT"';
+DefaultTaxDescriptionTxt: Label '%1 (Default)', Comment = '%1 = a VAT rate name, such as "Reduced VAT"';
         TaxAreaDescription: Text;
 }

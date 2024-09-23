@@ -24,7 +24,7 @@ codeunit 5366 "CRM Archived Sales Orders Job"
 
     var
         CRMProductName: Codeunit "CRM Product Name";
-        ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
+ConnectionNotEnabledErr: Label 'The %1 connection is not enabled.', Comment = '%1 = CRM product name';
         BidirectionalSyncNotEnabledErr: Label 'Bidirectional sales order synchronization is not enabled.';
         ArchivedOrdersUpdatedMsg: Label 'Archived sales orders have been synchronized.';
 

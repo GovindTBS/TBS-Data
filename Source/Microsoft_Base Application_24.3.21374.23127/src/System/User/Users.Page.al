@@ -497,7 +497,7 @@ page 9800 Users
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref("Effective Permissions_Promoted"; "Effective Permissions")
                 {
@@ -517,7 +517,7 @@ page 9800 Users
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref("User Details_Promoted"; "User Details")
                 {
@@ -560,7 +560,7 @@ page 9800 Users
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }
@@ -581,17 +581,17 @@ page 9800 Users
         BasicAuthUsedNotification: Notification;
 #endif
         WindowsUserName: Text[208];
-        Text001Err: Label 'The account %1 is not a valid Windows account.', Comment = '%1=user name';
-        Text002Err: Label 'The account %1 already exists.', Comment = '%1=user name';
-        Text003Err: Label 'The account %1 is not allowed.', Comment = '%1=user name';
-        Text004Err: Label '%1 cannot be empty.', Comment = '%1=user name';
+Text001Err: Label 'The account %1 is not a valid Windows account.', Comment = '%1=user name';
+Text002Err: Label 'The account %1 already exists.', Comment = '%1=user name';
+Text003Err: Label 'The account %1 is not allowed.', Comment = '%1=user name';
+Text004Err: Label '%1 cannot be empty.', Comment = '%1=user name';
         CreateUserInSaaSErr: Label 'Creating users is not allowed in the online environment.';
         DeleteUserInSaaSErr: Label 'Deleting users is not allowed in the online environment.';
-        MissingUserSettingsMsg: Label 'Some user settings, such as language, region, or time zone, weren''t specified when %1 was created, so default values were assigned. You can change them if needed.', Comment = '%1=user name';
+MissingUserSettingsMsg: Label 'Some user settings, such as language, region, or time zone, weren''t specified when %1 was created, so default values were assigned. You can change them if needed.', Comment = '%1=user name';
         NoUserExists: Boolean;
-        CreateQst: Label 'Do you want to create %1 as super user?', Comment = '%1=user name, e.g. europe\myaccountname';
+CreateQst: Label 'Do you want to create %1 as super user?', Comment = '%1=user name, e.g. europe\myaccountname';
         CanSendEmail: Boolean;
-        RestoreUserGroupsToDefaultQst: Label 'Do you want to restore the default permissions for user %1?', Comment = 'Do you want to restore the default permissions for user Annie?';
+RestoreUserGroupsToDefaultQst: Label 'Do you want to restore the default permissions for user %1?', Comment = 'Do you want to restore the default permissions for user Annie?';
         CanManageUsersOnTenant: Boolean;
         HasSuperForAllCompanies: Boolean;
         IsSaaS: Boolean;

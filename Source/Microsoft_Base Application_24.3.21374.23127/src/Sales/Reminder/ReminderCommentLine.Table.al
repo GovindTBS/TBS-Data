@@ -2,7 +2,7 @@ namespace Microsoft.Sales.Reminder;
 
 table 299 "Reminder Comment Line"
 {
-    Caption = 'Reminder Comment Line';
+Caption = 'Reminder Comment Line';
     DrillDownPageID = "Reminder Comment List";
     LookupPageID = "Reminder Comment List";
     DataClassification = CustomerContent;
@@ -35,7 +35,7 @@ table 299 "Reminder Comment Line"
         }
         field(6; Comment; Text[80])
         {
-            Caption = 'Comment';
+Caption = 'Comment';
         }
     }
 

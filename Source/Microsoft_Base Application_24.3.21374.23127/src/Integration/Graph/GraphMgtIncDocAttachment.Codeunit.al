@@ -24,7 +24,7 @@ codeunit 5509 "Graph Mgt - Inc Doc Attachment"
 
     var
         AttachmentCategoryLbl: Label 'AL Attachment', Locked = true;
-        NoPermissionErr: Label 'No permission to update a related document (table %1).', Comment = '%1=table number that caused the error', Locked = true;
+NoPermissionErr: Label 'No permission to update a related document (table %1).', Comment = '%1=table number that caused the error', Locked = true;
 
     [EventSubscriber(ObjectType::Table, Database::"Incoming Document Attachment", 'OnAfterInsertEvent', '', false, false)]
     local procedure HandleOnAfterInsert(var Rec: Record "Incoming Document Attachment"; RunTrigger: Boolean)

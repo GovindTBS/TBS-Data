@@ -790,7 +790,7 @@ report 5911 "Service - Invoice"
         ServiceItemSerialNo: Code[50];
         DisplayAdditionalFeeNote: Boolean;
 
-        Text004: Label 'Service - Invoice %1', Comment = '%1 = Document No.';
+Text004: Label 'Service - Invoice %1', Comment = '%1 = Document No.';
         Text005: Label 'Page %1';
         Text007: Label 'Phone No.';
         Text008: Label 'Fax No.';

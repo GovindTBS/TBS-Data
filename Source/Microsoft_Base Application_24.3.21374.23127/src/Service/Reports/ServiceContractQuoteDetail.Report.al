@@ -335,8 +335,8 @@ report 5973 "Service Contract Quote-Detail"
                     field(ShowComments; ShowComments)
                     {
                         ApplicationArea = Service;
-                        Caption = 'Show Comments';
-                        ToolTip = 'Specifies if you want the printed report to show any comments to a service contract quote item.';
+Caption = 'Show Comments';
+ToolTip = 'Specifies if you want the printed report to show any comments to a service contract quote item.';
                     }
                 }
             }
@@ -373,9 +373,9 @@ report 5973 "Service Contract Quote-Detail"
         CompanyInfoFaxNoCaptionLbl: Label 'Fax No.';
         ServiceContractHeaderEMailCaptionLbl: Label 'Email';
         ServiceDiscountsCaptionLbl: Label 'Service Discounts';
-        ServiceCommentLineDateCaptionLbl: Label 'Date';
+ServiceCommentLineDateCaptionLbl: Label 'Date';
         ShiptoAddressCaptionLbl: Label 'Ship-to Address';
-        CommentsCaptionLbl: Label 'Comments';
+CommentsCaptionLbl: Label 'Comments';
 
     procedure InitializeRequest(ShowCommentsFrom: Boolean)
     begin

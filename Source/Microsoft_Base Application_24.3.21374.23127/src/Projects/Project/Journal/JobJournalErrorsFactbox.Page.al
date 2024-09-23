@@ -97,7 +97,7 @@ page 9127 "Job Journal Errors Factbox"
         TotalErrorsStyleTxt: Text;
         CurrentLineStyleTxt: Text;
         ErrorText: array[2] of Text;
-        OtherIssuesTxt: Label '(+%1 other issues)', comment = '%1 - number of issues';
+OtherIssuesTxt: Label '(+%1 other issues)', comment = '%1 - number of issues';
         NoIssuesFoundTxt: Label 'No issues found.';
 
     local procedure GetTotalErrorsStyle(): Text

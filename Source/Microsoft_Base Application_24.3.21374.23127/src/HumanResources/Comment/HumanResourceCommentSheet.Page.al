@@ -6,7 +6,7 @@ using Microsoft.HumanResources.Employee;
 page 5222 "Human Resource Comment Sheet"
 {
     AutoSplitKey = true;
-    Caption = 'Comment Sheet';
+Caption = 'Comment Sheet';
     DataCaptionExpression = Caption(Rec);
     DelayedInsert = true;
     LinksAllowed = false;
@@ -24,17 +24,17 @@ page 5222 "Human Resource Comment Sheet"
                 field(Date; Rec.Date)
                 {
                     ApplicationArea = BasicHR;
-                    ToolTip = 'Specifies the date the comment was created.';
+ToolTip = 'Specifies the date the comment was created.';
                 }
                 field(Comment; Rec.Comment)
                 {
                     ApplicationArea = Comments;
-                    ToolTip = 'Specifies the comment itself.';
+ToolTip = 'Specifies the comment itself.';
                 }
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = BasicHR;
-                    ToolTip = 'Specifies a code for the comment.';
+ToolTip = 'Specifies a code for the comment.';
                     Visible = false;
                 }
             }

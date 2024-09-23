@@ -25,7 +25,7 @@ codeunit 364 "PostPurch-Delete"
     var
         ItemTrackingMgt: Codeunit "Item Tracking Management";
         MoveEntries: Codeunit MoveEntries;
-        DocumentDeletionErr: Label 'You cannot delete posted purchase documents that are posted after %1. \\The date is defined by the Allow Document Deletion Before field in the Purchases & Payables Setup window.', Comment = '%1 - Posting Date';
+DocumentDeletionErr: Label 'You cannot delete posted purchase documents that are posted after %1. \\The date is defined by the Allow Document Deletion Before field in the Purchases & Payables Setup window.', Comment = '%1 - Posting Date';
 
     procedure DeleteHeader(PurchHeader: Record "Purchase Header"; var PurchRcptHeader: Record "Purch. Rcpt. Header"; var PurchInvHeader: Record "Purch. Inv. Header"; var PurchCrMemoHdr: Record "Purch. Cr. Memo Hdr."; var ReturnShptHeader: Record "Return Shipment Header"; var PurchInvHeaderPrepmt: Record "Purch. Inv. Header"; var PurchCrMemoHdrPrepmt: Record "Purch. Cr. Memo Hdr.")
     var

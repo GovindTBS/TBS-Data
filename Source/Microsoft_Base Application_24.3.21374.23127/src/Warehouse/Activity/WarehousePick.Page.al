@@ -138,7 +138,7 @@ page 5779 "Warehouse Pick"
                     RunPageLink = "Table Name" = const("Whse. Activity Header"),
                                   Type = field(Type),
                                   "No." = field("No.");
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
                 }
                 action("Registered Picks")
                 {
@@ -223,7 +223,7 @@ page 5779 "Warehouse Pick"
         {
             group(Category_Process)
             {
-                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
 
                 actionref(RegisterPick_Promoted; RegisterPick)
                 {
@@ -246,12 +246,12 @@ page 5779 "Warehouse Pick"
             }
             group(Category_Category4)
             {
-                Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Print/Send', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
             }
             group(Category_Category5)
             {
-                Caption = 'Pick', Comment = 'Generated from the PromotedActionCategories property index 4.';
+Caption = 'Pick', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
                 actionref("Co&mments_Promoted"; "Co&mments")
                 {
@@ -267,11 +267,11 @@ page 5779 "Warehouse Pick"
             }
             group(Category_Category6)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 5.';
             }
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
         }
     }

@@ -44,8 +44,8 @@ codeunit 21 "Item Jnl.-Check Line"
         Text005: Label 'must be %1 or %2 when %3 is %4';
         Text006: Label 'must equal %1 - %2 when %3 is %4 and %5 is %6';
         Text007: Label 'You cannot post these lines because you have not entered a quantity on one or more of the lines. ';
-        DimCombBlockedErr: Label 'The combination of dimensions used in item journal line %1, %2, %3 is blocked. %4.', Comment = '%1 = Journal Template Name; %2 = Journal Batch Name; %3 = Line No.';
-        DimCausedErr: Label 'A dimension used in item journal line %1, %2, %3 has caused an error. %4.', Comment = '%1 = Journal Template Name; %2 = Journal Batch Name; %3 = Line No.';
+DimCombBlockedErr: Label 'The combination of dimensions used in item journal line %1, %2, %3 is blocked. %4.', Comment = '%1 = Journal Template Name; %2 = Journal Batch Name; %3 = Line No.';
+DimCausedErr: Label 'A dimension used in item journal line %1, %2, %3 has caused an error. %4.', Comment = '%1 = Journal Template Name; %2 = Journal Batch Name; %3 = Line No.';
         Text011: Label '%1 must not be equal to %2';
         Text012: Label 'Warehouse handling is required for %1 = %2, %3 = %4, %5 = %6.';
         UseInTransitLocationErr: Label 'You can use In-Transit location %1 for transfer orders only.';

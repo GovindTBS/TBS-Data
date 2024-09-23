@@ -901,7 +901,7 @@ page 97 "Purchase Quote Subform"
                     ApplicationArea = Comments;
                     Caption = 'Co&mments';
                     Image = ViewComments;
-                    ToolTip = 'View or add comments for the record.';
+ToolTip = 'View or add comments for the record.';
 
                     trigger OnAction()
                     begin
@@ -1125,7 +1125,7 @@ page 97 "Purchase Quote Subform"
         SuppressTotals: Boolean;
         UseAllocationAccountNumber: Boolean;
         ActionOnlyAllowedForAllocationAccountsErr: Label 'This action is only available for lines that have Allocation Account set as Type.';
-        ExcelFileNameTxt: Label 'Purchase Quote %1 - Lines', Comment = '%1 = document number, ex. 10000';
+ExcelFileNameTxt: Label 'Purchase Quote %1 - Lines', Comment = '%1 = document number, ex. 10000';
 
     protected var
         TotalPurchaseHeader: Record "Purchase Header";

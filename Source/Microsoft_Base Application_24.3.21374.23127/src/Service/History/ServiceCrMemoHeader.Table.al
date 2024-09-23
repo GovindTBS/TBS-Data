@@ -234,7 +234,7 @@ table 5994 "Service Cr.Memo Header"
             CalcFormula = exist("Service Comment Line" where("Table Name" = const("Service Cr.Memo Header"),
                                                               "No." = field("No."),
                                                               Type = const(General)));
-            Caption = 'Comment';
+Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
         }

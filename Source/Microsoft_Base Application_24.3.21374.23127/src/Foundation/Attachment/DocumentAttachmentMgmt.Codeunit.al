@@ -42,7 +42,7 @@ codeunit 1173 "Document Attachment Mgmt"
         NoSaveToPDFReportTxt: Label 'There are no reports which could be saved to PDF for this document.';
         ShowAttachmentsTxt: Label 'Show Attachments';
         DeleteAttachmentsConfirmQst: Label 'Do you want to delete the attachments for this document?';
-        RelatedAttachmentsFilterTxt: Label '%1|%2', Comment = '%1 = Source Table ID, %2 = Related Table ID', Locked = true;
+RelatedAttachmentsFilterTxt: Label '%1|%2', Comment = '%1 = Source Table ID, %2 = Related Table ID', Locked = true;
 
     procedure DeleteAttachedDocuments(RecRef: RecordRef)
     var

@@ -46,8 +46,8 @@ codeunit 431 "IC Outbox Export"
         Text001: Label 'Intercompany transactions from %1.';
         Text002: Label 'Attached to this mail is an xml file containing one or more intercompany transactions from %1 (%2 %3).';
         Text003: Label 'Do you want to complete line actions?';
-        FolderPathMissingErr: Label 'Folder Path must have a value in IC Partner: Code=%1. It cannot be zero or empty.', Comment = '%1=Intercompany Code';
-        EmailAddressMissingErr: Label 'Email Address must have a value in IC Partner: Code=%1. It cannot be zero or empty.', Comment = '%1=Intercompany Code';
+FolderPathMissingErr: Label 'Folder Path must have a value in IC Partner: Code=%1. It cannot be zero or empty.', Comment = '%1=Intercompany Code';
+EmailAddressMissingErr: Label 'Email Address must have a value in IC Partner: Code=%1. It cannot be zero or empty.', Comment = '%1=Intercompany Code';
 
     [Scope('OnPrem')]
     procedure RunOutboxTransactions(var ICOutboxTransaction: Record "IC Outbox Transaction")

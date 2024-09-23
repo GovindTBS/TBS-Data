@@ -180,11 +180,11 @@ page 1638 "Booking Items"
         {
             group(Category_Report)
             {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
             }
             group(Category_Category4)
             {
-                Caption = 'Invoicing', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Invoicing', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
                 actionref(Invoice_Promoted; Invoice)
                 {
@@ -218,7 +218,7 @@ page 1638 "Booking Items"
         AlreadyInvoicedMsg: Label 'The selected appointments have already been invoiced.';
         StartDate: DateTime;
         NoCustomerSelectedMsg: Label 'A customer must be selected to create an invoice for the booking. Select a customer for the booking in the Bookings app, then re-open this page.';
-        NoCustomerSelectedTxt: Label '<No customer selected>', Comment = 'Indicates that a customer was not selected for the Bookings appointment.';
+NoCustomerSelectedTxt: Label '<No customer selected>', Comment = 'Indicates that a customer was not selected for the Bookings appointment.';
         CustomerName: Text;
 
     local procedure ActionAllowed() Allowed: Boolean
