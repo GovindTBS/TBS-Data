@@ -18,12 +18,4 @@ tableextension 50142 "Lot No Information Ext" extends "Lot No. Information"
         }
     }
 
-    keys
-    {
-    }
-
-    fieldgroups
-    {
-    }
-
 }

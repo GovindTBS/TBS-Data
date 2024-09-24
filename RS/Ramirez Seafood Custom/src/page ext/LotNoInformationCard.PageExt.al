@@ -13,7 +13,6 @@ pageextension 50143 "Lot No Information Card Ext" extends "Lot No. Information C
             {
                 ApplicationArea = All;
             }
-
         }
     }
 
