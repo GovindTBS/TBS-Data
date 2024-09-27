@@ -37,13 +37,6 @@ public class CertificateLoader {
         return (X509Certificate) certFactory.generateCertificate(inputStream);
     }
     
-    
-    public static Document encryptXml(Document xmlDoc, PrivateKey privateSignKey, X509Certificate signCert, X509Certificate encryptCert) throws Exception {
-        org.apache.xml.security.Init.init();
-                                                                                                                                                                                                                                                                                                            
-        return xmlDoc;
-    }
-    
     public static void main(String[] args) throws Exception {
         
         Security.addProvider(new BouncyCastleProvider());

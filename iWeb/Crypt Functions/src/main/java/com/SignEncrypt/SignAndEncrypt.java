@@ -26,7 +26,6 @@ import java.util.logging.Level;
 public class SignAndEncrypt {
 
     @FunctionName("SignAndEncrypt")
-    
     public HttpResponseMessage run(
         @HttpTrigger(name = "req", methods = {HttpMethod.GET, HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS)
         HttpRequestMessage<Optional<String>> request,
