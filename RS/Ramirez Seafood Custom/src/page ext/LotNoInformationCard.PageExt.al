@@ -4,7 +4,7 @@ pageextension 50143 "Lot No Information Card Ext" extends "Lot No. Information C
     {
         addlast(General)
         {
-            field(Location; Rec.Location)
+            field("Harvest Location"; Rec."Harvest Location")
             {
                 ApplicationArea = All;
             }

@@ -2,12 +2,11 @@ tableextension 50142 "Lot No Information Ext" extends "Lot No. Information"
 {
     fields
     {
-        field(50100; "Location"; Code[50])
+        field(50100; "Harvest Location"; Text[50])
         {
-            Caption = 'Location';
-            TableRelation = Location.Code;
+            Caption = 'Harvest Location';
             DataClassification = CustomerContent;
-            ToolTip = 'Specifies the location for the lot.';
+            ToolTip = 'Specifies the harvest location for the lot.';
         }
 
         field(50101; "Date"; Date)

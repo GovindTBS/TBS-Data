@@ -142,6 +142,128 @@
 				2.10.5.1.LIFERAY-PATCHED-1
 			</version>
 		</dependency>
+		
+		<!-- BouncyCastle PKIX -->
+		
+		<dependency>
+			<groupId>
+				org.slf4j
+			</groupId>
+			<artifactId>
+				slf4j-simple
+			</artifactId>
+			<version>
+				2.0.0
+			</version>
+			<!-- Check for the latest version -->
+		</dependency>
+		<!-- JOSE4J for JSON Web Signature (JWS) and JSON Web Encryption (JWE) -->
+		
+		<dependency>
+			<groupId>
+				org.hamcrest
+			</groupId>
+			<artifactId>
+				hamcrest
+			</artifactId>
+			<version>
+				3.0
+			</version>
+		</dependency>
+		<dependency>
+			<groupId>
+				io.vertx
+			</groupId>
+			<artifactId>
+				vertx-web
+			</artifactId>
+			<version>
+				4.5.10
+			</version>
+		</dependency>
+		<dependency>
+			<groupId>
+				io.vertx
+			</groupId>
+			<artifactId>
+				vertx-web-client
+			</artifactId>
+			<version>
+				4.5.10
+			</version>
+		</dependency>
+		<dependency>
+			<groupId>
+				one.gfw
+			</groupId>
+			<artifactId>
+				jakarta.activation-api
+			</artifactId>
+			<version>
+				2.1.1
+			</version>
+		</dependency>
+		<dependency>
+			<groupId>
+				one.gfw
+			</groupId>
+			<artifactId>
+				jakarta.xml.bind-api
+			</artifactId>
+			<version>
+				4.0.0.1
+			</version>
+		</dependency>
+		<dependency>
+			<groupId>
+				com.sun.xml.bind
+			</groupId>
+			<artifactId>
+				jaxb-impl
+			</artifactId>
+			<version>
+				4.0.5
+			</version>
+		</dependency>
+		<dependency>
+			<groupId>
+				org.apache.santuario
+			</groupId>
+			<artifactId>
+				xmlsec
+			</artifactId>
+			<version>
+				4.0.2
+			</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.19.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>1.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>xml-security</groupId>
+			<artifactId>xmlsec</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
