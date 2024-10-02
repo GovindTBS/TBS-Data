@@ -116,6 +116,7 @@ public class DecryptAndVerify {
     }
 
     private static Document decryptXml(String responseXMLPayload, PrivateKey privateDecryptKey) throws Exception {
+        org.apache.xml.security.Init.init();
         Document decryptedDoc = null;
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);

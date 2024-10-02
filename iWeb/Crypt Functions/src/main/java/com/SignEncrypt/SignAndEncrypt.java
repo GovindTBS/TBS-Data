@@ -23,6 +23,7 @@ import org.apache.xml.security.utils.ElementProxy;
 import org.apache.xml.security.utils.Constants;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import java.math.BigInteger;
 import org.xml.sax.InputSource;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -124,46 +125,62 @@ public class SignAndEncrypt {
     
     private String signAndEncryptXml(String xmlString, PrivateKey privateSignKey, PublicKey publicEncryptKey) throws Exception {
         X509Certificate signCert = loadCertificate("sylogist2_ned_org.pem");
+        X509Certificate encpCert = loadCertificate("citigroupsoauat.xenc.citigroup.com-pub.pem");
+        
         Document xmlDoc = buildXmlDocument(xmlString);
-        ElementProxy.setDefaultPrefix(Constants.SignatureSpecNS, "ds");
-        
         // Sign the XML
-        XMLSignature sig = new XMLSignature(xmlDoc, "file:", XMLSignature.ALGO_ID_SIGNATURE_RSA);
+        org.apache.xml.security.Init.init();
+        ElementProxy.setDefaultPrefix(Constants.SignatureSpecNS, "ds");
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        dbf.setNamespaceAware(true);
         Element root = xmlDoc.getDocumentElement();
+        XMLSignature sig = new XMLSignature(xmlDoc, "file:", XMLSignature.ALGO_ID_SIGNATURE_RSA);
         root.appendChild(sig.getElement());
-        
         Transforms transforms = new Transforms(xmlDoc);
         transforms.addTransform(Transforms.TRANSFORM_ENVELOPED_SIGNATURE);
         transforms.addTransform(Transforms.TRANSFORM_C14N_OMIT_COMMENTS);
         sig.addDocument("", transforms, Constants.ALGO_ID_DIGEST_SHA1);
         
-        KeyInfo Info = sig.getKeyInfo();
-        X509Data x509Data = new X509Data(xmlDoc);
-        x509Data.add(new XMLX509IssuerSerial(xmlDoc, signCert));
-        x509Data.add(new XMLX509Certificate(xmlDoc, signCert));
-        Info.add(x509Data);
+        KeyInfo info = sig.getKeyInfo();
+        X509Data x509data = new X509Data(xmlDoc);
+        x509data.add(new XMLX509IssuerSerial(xmlDoc,signCert));
+        x509data.add(new XMLX509Certificate(xmlDoc, signCert));
+        info.add(x509data);
+        
         sig.sign(privateSignKey);
         
         // Encrypt the XML
-        Key symmetricKey = KeyGenerator.getInstance("DESede").generateKey();
-        XMLCipher keyCipher = XMLCipher.getInstance(XMLCipher.RSA_v1dot5);
+        String jceAlgorithmName = "DESede";
+        KeyGenerator keyGenerator = KeyGenerator.getInstance(jceAlgorithmName);
+        Key symmetricKey = keyGenerator.generateKey();
+        String algorithmURI = XMLCipher.RSA_v1dot5;
+        XMLCipher keyCipher = XMLCipher.getInstance(algorithmURI);
         keyCipher.init(XMLCipher.WRAP_MODE, publicEncryptKey);
-        EncryptedKey encryptedKey = keyCipher.encryptKey(xmlDoc, symmetricKey);
-        
-        XMLCipher xmlCipher = XMLCipher.getInstance(XMLCipher.TRIPLEDES);
+        EncryptedKey  encryptedKey = keyCipher.encryptKey(xmlDoc, symmetricKey);
+        Element rootElement = xmlDoc.getDocumentElement();
+        algorithmURI = XMLCipher.TRIPLEDES;
+        XMLCipher xmlCipher = XMLCipher.getInstance(algorithmURI);
         xmlCipher.init(XMLCipher.ENCRYPT_MODE, symmetricKey);
         EncryptedData encryptedData = xmlCipher.getEncryptedData();
         KeyInfo keyInfo = new KeyInfo(xmlDoc);
         keyInfo.add(encryptedKey);
         encryptedData.setKeyInfo(keyInfo);
-        xmlCipher.doFinal(xmlDoc, root, false);
+        xmlCipher.doFinal(xmlDoc, rootElement, false);
         
         return documentToString(xmlDoc);
     }
     
     private Document buildXmlDocument(String xmlString) throws Exception {
-        String paymentBase64 = Base64.getEncoder().encodeToString(xmlString.getBytes());
-        xmlString = "<Request><paymentBase64>" + paymentBase64 + "</paymentBase64></Request>";
+        StringBuilder xmlStrSb = new StringBuilder();
+        String paymentBase64 = new String(java.util.Base64.getEncoder().encode(xmlString.getBytes()));
+        
+        xmlStrSb.append("<Request>");
+        xmlStrSb.append("<paymentBase64>");
+        xmlStrSb.append(paymentBase64);
+        xmlStrSb.append("</paymentBase64>");
+        xmlStrSb.append("</Request>");
+        xmlString =xmlStrSb.toString();
+        
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);
         DocumentBuilder builder = factory.newDocumentBuilder();
