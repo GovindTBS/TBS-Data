@@ -1,4 +1,4 @@
-reportextension 50100 "Sales - Invoice Ext" extends "Standard Sales - Invoice"
+reportextension 50100 "Sales - Invoice" extends "Standard Sales - Invoice"
 {
     RDLCLayout = 'src/report ext/report layout/Invoice.rdl';
 

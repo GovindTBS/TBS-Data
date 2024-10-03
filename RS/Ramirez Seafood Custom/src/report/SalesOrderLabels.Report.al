@@ -3,7 +3,8 @@ report 50100 "Sales Order Labels"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultRenderingLayout = InvoiceLabels;
-
+    Permissions = tabledata "Sales Header" = R,
+                tabledata "Sales Line" = R;
     dataset
     {
         dataitem(SalesOrder; "Sales Header")

@@ -1,6 +1,5 @@
 package com.SignEncrypt;
 
-import java.util.Base64;
 import java.util.Map;
 import java.util.Optional;
 
@@ -23,7 +22,6 @@ import org.apache.xml.security.utils.ElementProxy;
 import org.apache.xml.security.utils.Constants;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import java.math.BigInteger;
 import org.xml.sax.InputSource;
 
 import javax.xml.parsers.DocumentBuilder;

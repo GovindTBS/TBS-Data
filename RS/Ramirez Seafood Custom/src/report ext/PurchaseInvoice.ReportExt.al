@@ -1,4 +1,4 @@
-reportextension 50101 "Purchase Invoice Ext" extends "Purchase Invoice NA"
+reportextension 50101 "Purchase Invoice" extends "Purchase Invoice NA"
 {
     dataset
     {

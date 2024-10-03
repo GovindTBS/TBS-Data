@@ -142,9 +142,7 @@
 				2.10.5.1.LIFERAY-PATCHED-1
 			</version>
 		</dependency>
-		
 		<!-- BouncyCastle PKIX -->
-		
 		<dependency>
 			<groupId>
 				org.slf4j
@@ -158,7 +156,6 @@
 			<!-- Check for the latest version -->
 		</dependency>
 		<!-- JOSE4J for JSON Web Signature (JWS) and JSON Web Encryption (JWE) -->
-		
 		<dependency>
 			<groupId>
 				org.hamcrest
@@ -237,32 +234,59 @@
 			</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-client</artifactId>
-			<version>1.19.4</version>
+			<groupId>
+				com.sun.jersey
+			</groupId>
+			<artifactId>
+				jersey-client
+			</artifactId>
+			<version>
+				1.19.4
+			</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>1.3.2</version>
+			<groupId>
+				org.apache.commons
+			</groupId>
+			<artifactId>
+				commons-io
+			</artifactId>
+			<version>
+				1.3.2
+			</version>
 		</dependency>
-
 		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-text</artifactId>
-			<version>1.8</version>
+			<groupId>
+				org.apache.commons
+			</groupId>
+			<artifactId>
+				commons-text
+			</artifactId>
+			<version>
+				1.8
+			</version>
 		</dependency>
-
 		<dependency>
-			<groupId>xml-security</groupId>
-			<artifactId>xmlsec</artifactId>
-			<version>1.3.0</version>
+			<groupId>
+				xml-security
+			</groupId>
+			<artifactId>
+				xmlsec
+			</artifactId>
+			<version>
+				1.3.0
+			</version>
 		</dependency>
-
 		<dependency>
-			<groupId>commons-codec</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>1.9</version>
+			<groupId>
+				commons-codec
+			</groupId>
+			<artifactId>
+				commons-codec
+			</artifactId>
+			<version>
+				1.9
+			</version>
 		</dependency>
 	</dependencies>
 	<build>

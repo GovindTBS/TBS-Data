@@ -22,6 +22,10 @@
 	$ Citi : https://developer.citi.com
 		UNAME : dj.sims@sylogist.com
 		PWORD : Citibank1
+	
+	$ Isabel Connect - Ibanity : https://developer.ibanity.com/teams/d77763f5-5654-4fd8-b1d9-cb43c905c6ab/applications/c2eca353-3801-4e47-ba9f-8ed6445c8c6f/isabel-connect
+		UNAME : bhadrajeetsinh.puwar@techcronus.com
+		PWORD : IsabelConnect@123
 		
 	$ Citi Partner : https://partner.citi.com/user/login
 		UNAME : GovindTBS
@@ -56,6 +60,11 @@
 		
 		UNAME : accounts@intnetinc.com
 		PWORD : Apply145%
+	
+	$ LEUS
+		URL : https://businesscentral.dynamics.com/4660b34b-8c06-490d-9b6e-1419d03001dc/LEUS-QA-BE-001
+		UNAME : dynmx.dev@bouwkampioen.onmicrosoft.com
+		PWORD : cHH93G$xfjBUxKL
 
 # NAV Credentials
 

@@ -1,4 +1,4 @@
-pageextension 50143 "Lot No Information Card Ext" extends "Lot No. Information Card"
+pageextension 50143 "Lot No Information Card" extends "Lot No. Information Card"
 {
     layout
     {

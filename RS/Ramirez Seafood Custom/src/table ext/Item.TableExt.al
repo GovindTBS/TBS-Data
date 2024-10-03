@@ -1,4 +1,4 @@
-tableextension 50100 "Item Ext" extends Item
+tableextension 50100 "Item" extends Item
 {
     fields
     {

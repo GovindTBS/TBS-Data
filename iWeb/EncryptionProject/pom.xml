@@ -200,7 +200,7 @@
 				</version>
 				<configuration>
 					<mainClass>
-						com.example.XmlCrypto
+						com.example.HashAndSign
 					</mainClass>
 				</configuration>
 			</plugin>

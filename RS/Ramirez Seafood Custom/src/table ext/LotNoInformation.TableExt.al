@@ -1,4 +1,4 @@
-tableextension 50142 "Lot No Information Ext" extends "Lot No. Information"
+tableextension 50142 "Lot No Information" extends "Lot No. Information"
 {
     fields
     {

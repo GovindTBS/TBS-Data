@@ -10,7 +10,6 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.util.Map;
 import java.util.Optional;
-import org.w3c.dom.Node;
 
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
@@ -24,6 +23,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.microsoft.azure.functions.*;
 import org.apache.xml.security.encryption.XMLCipher;
 import org.apache.xml.security.signature.XMLSignature;
+import org.w3c.dom.Node;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
