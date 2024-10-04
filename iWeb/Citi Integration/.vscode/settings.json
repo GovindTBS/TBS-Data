@@ -1,3 +1,9 @@
 {
-    "al.showHomeAtStartup": "Always"
+    "al.showHomeAtStartup": "Always",
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}",
+        "${analyzerFolder}BusinessCentral.LinterCop.dll"
+    ]
 }
