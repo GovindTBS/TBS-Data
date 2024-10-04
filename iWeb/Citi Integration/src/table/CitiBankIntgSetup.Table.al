@@ -1,14 +1,13 @@
 table 50140 "Citi Bank Intg. Setup"
 {
     Caption = 'Citi Integration Setup';
+    DataClassification = CustomerContent;
 
     fields
     {
-        field(1; "Primary Key"; Code[10])
+        field(1; "Primary Key"; Code[20])
         {
             Caption = 'Primary Key';
-            NotBlank = false;
-            AllowInCustomizations = Never;
             DataClassification = CustomerContent;
         }
 
@@ -36,12 +35,14 @@ table 50140 "Citi Bank Intg. Setup"
         field(5; "Token Expires At"; Time)
         {
             Caption = 'Token Expires At';
+            ToolTip = 'Specifies the Token Expires at time.';
             DataClassification = CustomerContent;
         }
 
-        field(6; "Auth Token"; Text[1000])
+        field(6; "Auth Token"; Text[1024])
         {
             Caption = 'Auth Token';
+            ToolTip = 'Specifies the auth token.';
             DataClassification = CustomerContent;
         }
 
@@ -69,15 +70,24 @@ table 50140 "Citi Bank Intg. Setup"
         field(10; "Payment Initiation Endpoint"; Text[1000])
         {
             ToolTip = 'The Payment Initiation Endpoint for the Citi bank API authorization.';
-            Caption = 'Auth Token Endpoint';
+            Caption = 'Payment Initiation Endpoint';
             DataClassification = CustomerContent;
         }
 
         field(11; "Payment Status Endpoint"; Text[1000])
         {
             ToolTip = 'The Payment Status Endpoint for the Citi bank API authorization.';
-            Caption = 'Auth Token Endpoint';
+            Caption = 'Payment Status Endpoint';
             DataClassification = CustomerContent;
         }
     }
+
+    keys
+    {
+        key(PK; "Primary Key")
+        {
+            Clustered = true;
+        }
+    }
+
 }

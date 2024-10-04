@@ -1,13 +1,12 @@
 codeunit 50142 "Citi Intg API Handler"
 {
-    Permissions = tabledata "Citi Bank Intg. Keys" = R,
-                    tabledata "Citi Bank Intg. Setup" = RIMD;
+    Permissions = tabledata "Citi Bank Intg. Keys" = RIMD,
+    tabledata "Citi Bank Intg. Setup" = RIMD;
 
 
     procedure GetAuthToken(): Text
     var
         CitiIntgKey: Record "Citi Bank Intg. Keys";
-        CitiIntgSetup: Record "Citi Bank Intg. Setup";
         CitiEncrytionHandler: Codeunit "Citi Intg Encryption Handler";
         Base64: Codeunit "Base64 Convert";
         Client: HttpClient;
@@ -70,9 +69,11 @@ codeunit 50142 "Citi Intg API Handler"
 
 
         if AcsTokenString.AsObject().Get('access_token', AcsToken) and AcsTokenString.AsObject().Get('expires_in', ExpiryDuration) then begin
-            CitiIntgSetup."Auth Token" := Format(AcsToken);
+            CitiIntgSetup.Get();
+            CitiIntgSetup."Auth Token" := Format(AcsToken.AsValue().AsText());
             CitiIntgSetup."Token Expires At" := GetExpiryTime(ExpiryDuration.AsValue().AsInteger());
-            CitiIntgSetup.Modify(true);
+            CitiIntgSetup.Modify();
+            Commit();
             Message('API token refreshed. Expires at %1', CitiIntgSetup."Token Expires At");
         end;
     end;
@@ -81,7 +82,6 @@ codeunit 50142 "Citi Intg API Handler"
     procedure InitiatePayment(var GenJnlLine: Record "Gen. Journal Line"): Text
     var
         CitiIntgKey: Record "Citi Bank Intg. Keys";
-        CitiIntgSetup: Record "Citi Bank Intg. Setup";
         Base64: Codeunit "Base64 Convert";
         CitiIntgEncryptionHandler: Codeunit "Citi Intg Encryption Handler";
         HttpRequestMessage: HttpRequestMessage;
@@ -107,7 +107,6 @@ codeunit 50142 "Citi Intg API Handler"
         PemCert := Base64.ToBase64(InputStream);
 
         CitiIntgSetup.Get();
-        Message('%1', CitiIntgSetup."Token Expires At");
         if CitiIntgSetup."Token Expires At" < DT2Time(CurrentDateTime) then
             GetAuthToken();
         AccessToken := CitiIntgSetup."Auth Token";
@@ -159,7 +158,6 @@ codeunit 50142 "Citi Intg API Handler"
     procedure SendEnhancedPaymentStatusInquiry(var GenJnlLine: Record "Gen. Journal Line"): Text
     var
         CitiIntgKey: Record "Citi Bank Intg. Keys";
-        CitiIntgSetup: Record "Citi Bank Intg. Setup";
         HttpRequestMessage: HttpRequestMessage;
         ResponseMessage: HttpResponseMessage;
         RequestHeaders: HttpHeaders;
@@ -292,5 +290,8 @@ codeunit 50142 "Citi Intg API Handler"
 
         exit(XmlData);
     end;
+
+    var
+        CitiIntgSetup: Record "Citi Bank Intg. Setup";
 }
 

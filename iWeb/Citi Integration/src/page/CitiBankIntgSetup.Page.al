@@ -6,6 +6,8 @@ page 50140 "Citi Bank Intg. Setup"
     UsageCategory = Administration;
     SourceTable = "Citi Bank Intg. Setup";
     Permissions = tabledata "Citi Bank Intg. Keys" = RMID;
+    ModifyAllowed = true;
+
     layout
     {
         area(Content)
@@ -33,23 +35,17 @@ page 50140 "Citi Bank Intg. Setup"
                 field("Auth Token Endpoint"; Rec."Auth Token Endpoint")
                 {
                     Editable = CitiIntegrationEnabled;
-                    RowSpan = 2;
                 }
 
                 field("Payment Initiation Endpoint"; Rec."Payment Initiation Endpoint")
                 {
                     Editable = CitiIntegrationEnabled;
-                    RowSpan = 2;
                 }
 
                 field("Payment Status Endpoint"; Rec."Payment Status Endpoint")
                 {
                     Editable = CitiIntegrationEnabled;
-                    RowSpan = 2;
                 }
-
-
-
             }
 
             group("Azure Functions")
@@ -126,19 +122,18 @@ page 50140 "Citi Bank Intg. Setup"
 
     trigger OnOpenPage()
     begin
+        if not GuidedExperience.IsAssistedSetupComplete(ObjectType::Page, Page::"Citi Intg. Setup Wizard") then
+            Page.Run(Page::"Citi Intg. Setup Wizard");
+
         if Rec."Integration Enabled" then
             CitiIntegrationEnabled := false
         else
             CitiIntegrationEnabled := true;
 
-        if not GuidedExperience.IsAssistedSetupComplete(ObjectType::Page, Page::"Citi Intg. Setup Wizard") then
-            Page.RunModal(Page::"Citi Intg. Setup Wizard");
-
         if not Rec.Get() then begin
             Rec.Init();
-            Rec.Insert(false);
+            Rec.Insert();
         end;
-
     end;
 
     procedure ValidateCitiSetup()
