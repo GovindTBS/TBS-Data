@@ -1,5 +1,6 @@
 table 50141 "Citi Bank Intg. Keys"
 {
+    Caption = 'Citi Bank Integration Keys';
     DataClassification = CustomerContent;
 
     fields
@@ -7,32 +8,32 @@ table 50141 "Citi Bank Intg. Keys"
         field(1; "Certificate Name"; Enum "Citi Bank Intg. Certificate")
         {
             Caption = 'Certificate Name';
+            ToolTip = 'Specifies the name of the certificate uploaded.';
             Editable = false;
-            DataClassification = CustomerContent;
         }
 
         field(2; "Value"; Blob)
         {
             Caption = 'Value';
-            DataClassification = CustomerContent;
+            ToolTip = 'Specifies the name of the certificate file.';
         }
 
         field(3; "Uploaded"; Boolean)
         {
             Caption = 'Uploaded';
-            DataClassification = CustomerContent;
+            ToolTip = 'Specifies if the certificate is uploaded.';
         }
 
         field(4; "File Name"; Text[50])
         {
             Caption = 'File Name';
-            DataClassification = CustomerContent;
+            ToolTip = 'Specifies the name of the certificate file.';
         }
 
         field(5; "Password"; Text[100])
         {
             Caption = 'Password';
-            DataClassification = CustomerContent;
+            ToolTip = 'Specifies the password of the certificate file.';
             ExtendedDatatype = Masked;
         }
     }

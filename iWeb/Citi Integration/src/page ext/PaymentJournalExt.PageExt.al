@@ -1,5 +1,6 @@
 pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
 {
+
     layout
     {
         addafter("Document No.")
@@ -8,7 +9,6 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
             {
                 ApplicationArea = All;
                 Editable = false;
-                ToolTip = 'Specifies the Payment request ID';
                 Caption = 'Payment request ID';
             }
         }
@@ -19,6 +19,7 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
         {
             group("Citi Bank")
             {
+                Caption = 'Citi Bank';
                 actionref(InitiatePayment; "Initiate Payment") { }
 
                 actionref("Check/Post Status"; "Check / Post Status") { }
@@ -38,16 +39,24 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
                 trigger OnAction()
                 var
                     CitiAPIHandler: Codeunit "Citi Intg API Handler";
+                    PaymentRequestID: Text;
                 begin
                     PaymentJournalLine.Reset();
                     CurrPage.SetSelectionFilter(PaymentJournalLine);
+
                     if PaymentJournalLine.FindFirst() then
                         repeat
-                            PaymentJournalLine."Payment Request ID" := Format(CitiAPIHandler.InitiatePayment(PaymentJournalLine));
-                            PaymentJournalLine.Modify();
+                            Clear(PaymentRequestID);
+                            PaymentRequestID := Format(CitiAPIHandler.InitiatePayment(PaymentJournalLine));
+                            if PaymentRequestID.IndexOfAny('Error') = 0 then begin
+                                PaymentJournalLine."Payment Request ID" := PaymentRequestID;
+                                PaymentJournalLine.Modify(false);
+                            end else
+                                Message(PaymentRequestID);
+
                         until PaymentJournalLine.Next() = 0;
 
-                    Message('Payment Initiation finished');
+                    Message('%1 payments initiated successfully.', PaymentJournalLine.Count);
                 end;
             }
         }
@@ -65,17 +74,26 @@ pageextension 50140 "Payment Journal Ext" extends "Payment Journal"
                 trigger OnAction()
                 var
                     CitiAPIHandler: Codeunit "Citi Intg API Handler";
-                    GenJnlPostLine: Codeunit "Gen. Jnl.-Post Line";
+                    PaymentStatus: Text;
+                    PostedCount: Integer;
                 begin
-                    // PaymentJournalLine.Reset();
-                    // CurrPage.SetSelectionFilter(PaymentJournalLine);
-                    // if PaymentJournalLine.FindFirst() then
-                    //     repeat
-                    //         if CitiAPIHandler.SendEnhancedPaymentStatusInquiry(Rec) = 'ACSP' then
-                    //              GenJnlPostLine.Run(PaymentJournalLine);
-                    //     until PaymentJournalLine.Next() = 0;
+                    PaymentJournalLine.Reset();
+                    PostedCount := 0;
+                    CurrPage.SetSelectionFilter(PaymentJournalLine);
+                    if PaymentJournalLine.FindFirst() then
+                        repeat
+                            Clear(PaymentStatus);
+                            PaymentStatus := CitiAPIHandler.SendEnhancedPaymentStatusInquiry(Rec);
+                            if PaymentStatus = 'ACSP' then begin
+                                PaymentJournalLine.SendToPosting(Codeunit::"Gen. Jnl.-Post");
+                                CurrentJnlBatchName := PaymentJournalLine.GetRangeMax("Journal Batch Name");
+                                CurrPage.Update(false);
+                                // GenJnlPostLine.RunWithCheck(PaymentJournalLine);
+                                PostedCount := PostedCount + 1;
+                            end;
+                        until PaymentJournalLine.Next() = 0;
 
-                    // Message('Processed Payment Posted Successfully');
+                    Message('%1 processed payment''s posted successfully', PostedCount);
                 end;
             }
         }

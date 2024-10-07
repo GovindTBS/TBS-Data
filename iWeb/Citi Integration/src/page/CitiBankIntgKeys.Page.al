@@ -1,9 +1,11 @@
 page 50141 "Citi Bank Intg. Keys"
 {
+    Caption = 'Citi Bank Integration Keys';
     PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = None;
     SourceTable = "Citi Bank Intg. Keys";
+    Permissions = tabledata "Citi Bank Intg. Setup" = R;
 
     layout
     {
@@ -13,29 +15,25 @@ page 50141 "Citi Bank Intg. Keys"
             {
                 field("Certificate Name"; Rec."Certificate Name")
                 {
-                    ToolTip = 'Specifies the name of the certificate uploaded.';
-                    ApplicationArea = All;
+                    Caption = 'Certificate Name';
                     Editable = false;
                 }
 
                 field("Uploaded"; Rec.Uploaded)
                 {
-                    ToolTip = 'Specifies if the certificate is uploaded.';
-                    ApplicationArea = all;
+                    Caption = 'Uploaded';
                     Editable = false;
                 }
 
                 field("File Name"; Rec."File Name")
                 {
-                    ToolTip = 'Specifies the name of the certificate file.';
-                    ApplicationArea = all;
+                    Caption = 'File Name';
                     Editable = false;
                 }
 
                 field(Password; Rec.Password)
                 {
-                    ToolTip = 'Specifies the name of the certificate file.';
-                    ApplicationArea = All;
+                    Caption = 'Password';
                 }
             }
         }
@@ -55,7 +53,6 @@ page 50141 "Citi Bank Intg. Keys"
                 var
                     InputStream: InStream;
                     OutputStream: OutStream;
-                    KeyValue: Text;
                 begin
                     if Rec.Uploaded = false and checkAllowKeysModification() then begin
                         if File.UploadIntoStream('Upload the certificate file', '', '', Rec."File Name", InputStream) then begin
@@ -66,7 +63,7 @@ page 50141 "Citi Bank Intg. Keys"
                         end else
                             exit;
                     end else
-                        Message('%1 certificate is already uploaded', rec."Certificate Name");
+                        Message('%1 certificate is already uploaded', Rec."Certificate Name");
                 end;
             }
 
@@ -82,8 +79,8 @@ page 50141 "Citi Bank Intg. Keys"
                         Clear(Rec.Uploaded);
                         Clear(Rec."File Name");
                         Clear(Rec.Value);
-                        Clear(rec.Password);
-                        Rec.Modify();
+                        Clear(Rec.Password);
+                        Rec.Modify(false);
                     end else
                         Message('%1 certificate is not uploaded', Rec."Certificate Name");
                 end;
@@ -112,33 +109,6 @@ page 50141 "Citi Bank Intg. Keys"
         else
             exit(true);
     end;
-
-    // procedure ValidatePemFileFormatFromStream(var InputStream: InStream): Boolean;
-    // var
-    //     PemFileContent: Text;
-    //     StartMarker: Text;
-    //     EndMarker: Text;
-    //     StartPos: Integer;
-    //     EndPos: Integer;
-    // begin
-    //     StartMarker := '-----BEGIN CERTIFICATE-----';
-    //     EndMarker := '-----END CERTIFICATE-----';
-
-    //     PemFileContent := Rec.ReturnKeyText(InputStream);
-
-    //     StartPos := StrPos(PemFileContent, StartMarker);
-    //     EndPos := StrPos(PemFileContent, EndMarker);
-
-    //     if (StartPos = 0) or (EndPos = 0) or (EndPos < StartPos) then
-    //         Error('Invalid PEM file format: Missing or incorrectly ordered certificate markers.');
-
-    //     if (EndPos - (StartPos + StrLen(StartMarker))) <= 0 then
-    //         Error('Invalid PEM file format: No content found between certificate markers.');
-
-    //     exit(true);
-    // end;
-
-
 }
 
 
