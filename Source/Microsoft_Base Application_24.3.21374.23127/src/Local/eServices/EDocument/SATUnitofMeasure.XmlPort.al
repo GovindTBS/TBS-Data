@@ -22,7 +22,7 @@ xmlport 27013 "SAT Unit of Measure"
                 {
                 }
                 fieldelement(Descripcion; "SAT Unit of Measure".Description)
-                {
+            {
                 }
                 fieldelement(Simbolo; "SAT Unit of Measure".Symbol)
                 {

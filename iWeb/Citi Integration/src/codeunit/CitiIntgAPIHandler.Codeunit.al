@@ -323,8 +323,8 @@ codeunit 50142 "Citi Intg API Handler"
 
 
     var
-        RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
-        EncodedUriLbl: Label '%1?client_id=%2', Comment = '%1 = URL, %2 = client ID';
+RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
+EncodedUriLbl: Label '%1?client_id=%2', Comment = '%1 = URL, %2 = client ID';
 
 }
 
