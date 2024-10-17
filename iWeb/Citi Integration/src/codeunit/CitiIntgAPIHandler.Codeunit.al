@@ -4,6 +4,7 @@ codeunit 50142 "Citi Intg API Handler"
     tabledata "Citi Bank Intg. Setup" = RIMD;
 
 
+
     procedure GetAuthToken(var CitiIntgSetup: Record "Citi Bank Intg. Setup"): Text
     var
         CitiIntgKey: Record "Citi Bank Intg. Keys";
@@ -62,13 +63,13 @@ codeunit 50142 "Citi Intg API Handler"
         JsonPayload.ReadFrom(ResponseBody);
         JsonPayload.Get('token', AcsTokenString);
 
-
         if AcsTokenString.AsObject().Get('access_token', AcsToken) and AcsTokenString.AsObject().Get('expires_in', ExpiryDuration) then begin
             CitiIntgSetup."Auth Token" := '';
             CitiIntgSetup."Auth Token" := Format(AcsToken.AsValue().AsText());
             CitiIntgSetup."Token Expires At" := GetExpiryDateTime(ExpiryDuration.AsValue().AsInteger());
             CitiIntgSetup.Modify(false);
             Message('API token refreshed. Expires at %1', CitiIntgSetup."Token Expires At");
+            Message(AcsToken.AsValue().AsText());
         end;
     end;
 
@@ -102,11 +103,13 @@ codeunit 50142 "Citi Intg API Handler"
         if TypeHelper.CompareDateTime(CitiIntegrationSetup."Token Expires At", CurrentDateTime) <> 1 then
             GetAuthToken(CitiIntegrationSetup);
         AuthToken := CitiIntegrationSetup."Auth Token";
-
+        Message(AuthToken);
         RequestUri := StrSubstNo(EncodedUriLbl, CitiIntegrationSetup."Payment Initiation Endpoint", CitiIntegrationSetup."Client ID");
 
         // XmlPayload := GetPaymentInitXMLPayload(GenJnlLine); //?
-        XmlPayload := '<?xml version="1.0" encoding="UTF-8" standalone="no"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><CstmrCdtTrfInitn><GrpHdr><MsgId>A1234567</MsgId><CreDtTm>2017-07-17T04:59:18</CreDtTm><NbOfTxs>1</NbOfTxs><InitgPty><Nm>ABC COMPANY NAME</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>A1234567</PmtInfId><PmtMtd>CHK</PmtMtd><PmtTpInf><SvcLvl><Cd>NURG</Cd></SvcLvl><LclInstrm><Prtry>CITI19</Prtry></LclInstrm></PmtTpInf><ReqdExctnDt>2017-07-17</ReqdExctnDt><Dbtr><Nm>ABC COMPANY NAME</Nm><PstlAdr><Ctry>US</Ctry></PstlAdr><Id><OrgId><Othr><Id>1123456789</Id></Othr></OrgId></Id></Dbtr><DbtrAcct><Id><Othr><Id>93000001</Id></Othr></Id></DbtrAcct><DbtrAgt><FinInstnId><BIC>CITIUS33XXX</BIC><ClrSysMmbId><MmbId>021000089</MmbId></ClrSysMmbId></FinInstnId></DbtrAgt><CdtTrfTxInf><PmtId><EndToEndId>123456</EndToEndId></PmtId><Amt><InstdAmt Ccy="USD">1000.00</InstdAmt></Amt><ChqInstr><ChqNb>98765421</ChqNb><DlvrTo><Nm>Receiver Name</Nm><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123,STREET NAME</AdrLine></Adr></DlvrTo></ChqInstr><Cdtr><Nm>BENEFICIARY NAME</Nm><PstlAdr><PstCd>11111</PstCd><TwnNm>CITY NAME</TwnNm><CtrySubDvsn>IL</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123, STREET NAME</AdrLine></PstlAdr></Cdtr><RltdRmtInf><RmtLctnPstlAdr><Nm/><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn></Adr></RmtLctnPstlAdr></RltdRmtInf><RmtInf><Strd><RfrdDocInf><Tp><CdOrPrtry><Cd>CINV</Cd></CdOrPrtry></Tp><Nb>INV#123</Nb><RltdDt>2017-07-17</RltdDt></RfrdDocInf><RfrdDocAmt><DuePyblAmt Ccy="USD">1000.00</DuePyblAmt><DscntApldAmt Ccy="USD">0.00</DscntApldAmt><RmtdAmt Ccy="USD">1000.00</RmtdAmt></RfrdDocAmt><AddtlRmtInf>payment for invoice 123</AddtlRmtInf></Strd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>';
+        // XmlPayload := '<?xml version="1.0" encoding="UTF-8" standalone="no"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><CstmrCdtTrfInitn><GrpHdr><MsgId>A1234567</MsgId><CreDtTm>2017-07-17T04:59:18</CreDtTm><NbOfTxs>1</NbOfTxs><InitgPty><Nm>ABC COMPANY NAME</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>A1234567</PmtInfId><PmtMtd>CHK</PmtMtd><PmtTpInf><SvcLvl><Cd>NURG</Cd></SvcLvl><LclInstrm><Prtry>CITI19</Prtry></LclInstrm></PmtTpInf><ReqdExctnDt>2017-07-17</ReqdExctnDt><Dbtr><Nm>ABC COMPANY NAME</Nm><PstlAdr><Ctry>US</Ctry></PstlAdr><Id><OrgId><Othr><Id>1123456789</Id></Othr></OrgId></Id></Dbtr><DbtrAcct><Id><Othr><Id>93000001</Id></Othr></Id></DbtrAcct><DbtrAgt><FinInstnId><BIC>CITIUS33XXX</BIC><ClrSysMmbId><MmbId>021000089</MmbId></ClrSysMmbId></FinInstnId></DbtrAgt><CdtTrfTxInf><PmtId><EndToEndId>123456</EndToEndId></PmtId><Amt><InstdAmt Ccy="USD">1000.00</InstdAmt></Amt><ChqInstr><ChqNb>98765421</ChqNb><DlvrTo><Nm>Receiver Name</Nm><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123,STREET NAME</AdrLine></Adr></DlvrTo></ChqInstr><Cdtr><Nm>BENEFICIARY NAME</Nm><PstlAdr><PstCd>11111</PstCd><TwnNm>CITY NAME</TwnNm><CtrySubDvsn>IL</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123, STREET NAME</AdrLine></PstlAdr></Cdtr><RltdRmtInf><RmtLctnPstlAdr><Nm/><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn></Adr></RmtLctnPstlAdr></RltdRmtInf><RmtInf><Strd><RfrdDocInf><Tp><CdOrPrtry><Cd>CINV</Cd></CdOrPrtry></Tp><Nb>INV#123</Nb><RltdDt>2017-07-17</RltdDt></RfrdDocInf><RfrdDocAmt><DuePyblAmt Ccy="USD">1000.00</DuePyblAmt><DscntApldAmt Ccy="USD">0.00</DscntApldAmt><RmtdAmt Ccy="USD">1000.00</RmtdAmt></RfrdDocAmt><AddtlRmtInf>payment for invoice 123</AddtlRmtInf></Strd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>';
+        XmlPayload := '<?xml version="1.0" encoding="UTF-8" standalone="no"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><CstmrCdtTrfInitn><GrpHdr><MsgId/><CreDtTm>2024-10-08T14:09:05</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>1.00</CtrlSum><InitgPty><Nm>National Endowment For Democracy</Nm><PstlAdr><StrtNm>1201 Pennsylvania Ave, NW Ste 1100</StrtNm><PstCd>20004</PstCd><TwnNm>Washington</TwnNm><Ctry>USA</Ctry></PstlAdr><Id><OrgId><Othr><Id>1201</Id></Othr></OrgId></Id></InitgPty></GrpHdr><PmtInf><PmtInfId>/0</PmtInfId><PmtMtd>TRF</PmtMtd><BtchBookg>false</BtchBookg><NbOfTxs>10000</NbOfTxs><CtrlSum>1.00</CtrlSum><PmtTpInf><InstrPrty/></PmtTpInf><ReqdExctnDt>2024-10-08</ReqdExctnDt><Dbtr><Nm>National Endowment For Democracy</Nm><PstlAdr><StrtNm>1201 Pennsylvania Ave, NW Ste 1100</StrtNm><PstCd>20004</PstCd><TwnNm>Washington</TwnNm><Ctry>USA</Ctry></PstlAdr><Id><OrgId><BICOrBEI>930</BICOrBEI></OrgId></Id></Dbtr><DbtrAcct><Id><IBAN>51052943</IBAN></Id></DbtrAcct><DbtrAgt><FinInstnId><BIC>930</BIC></FinInstnId></DbtrAgt><ChrgBr/><CdtTrfTxInf><PmtId><EndToEndId>/1</EndToEndId></PmtId><Amt><InstdAmt Ccy="USD">1.00</InstdAmt></Amt><CdtrAgt><FinInstnId><BIC>SWFTUS123</BIC></FinInstnId></CdtrAgt><Cdtr><Nm>Vendor Citi Test</Nm><PstlAdr><StrtNm>675 W Kendall St</StrtNm><PstCd>02142</PstCd><TwnNm>Cambridge</TwnNm></PstlAdr></Cdtr><CdtrAcct><Id><IBAN>US12345678901234567890</IBAN></Id></CdtrAcct><RmtInf><Ustrd>Test transaction</Ustrd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>';
+
         XmlPayload := EncryptionHandler.EncryptAndSign(XmlPayload, 'xml');
 
         RequestContent.WriteFrom(XmlPayload);
@@ -133,7 +136,7 @@ codeunit 50142 "Citi Intg API Handler"
 
         ResponseMessage.Content().ReadAs(ResponseContent);
         ResponseContent := EncryptionHandler.DecryptAndVerify(ResponseContent, 'xml');
-
+        Message(ResponseContent);
         PaymentRequestId := ParsePaymentInitiationResponse(ResponseContent);
         exit(PaymentRequestId);
     end;
@@ -197,7 +200,7 @@ codeunit 50142 "Citi Intg API Handler"
         RequestUri := StrSubstNo(EncodedUriLbl, CitiIntegrationSetup."Payment Status Endpoint", CitiIntegrationSetup."Client ID");
 
         XmlPayload := GetPaymentStatusPayload(GenJnlLine); //?
-        XmlPayload := '<?xml version="1.0" encoding="UTF-8" standalone="no"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><CstmrCdtTrfInitn><GrpHdr><MsgId>A1234567</MsgId><CreDtTm>2017-07-17T04:59:18</CreDtTm><NbOfTxs>1</NbOfTxs><InitgPty><Nm>ABC COMPANY NAME</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>A1234567</PmtInfId><PmtMtd>CHK</PmtMtd><PmtTpInf><SvcLvl><Cd>NURG</Cd></SvcLvl><LclInstrm><Prtry>CITI19</Prtry></LclInstrm></PmtTpInf><ReqdExctnDt>2017-07-17</ReqdExctnDt><Dbtr><Nm>ABC COMPANY NAME</Nm><PstlAdr><Ctry>US</Ctry></PstlAdr><Id><OrgId><Othr><Id>1123456789</Id></Othr></OrgId></Id></Dbtr><DbtrAcct><Id><Othr><Id>93000001</Id></Othr></Id></DbtrAcct><DbtrAgt><FinInstnId><BIC>CITIUS33XXX</BIC><ClrSysMmbId><MmbId>021000089</MmbId></ClrSysMmbId></FinInstnId></DbtrAgt><CdtTrfTxInf><PmtId><EndToEndId>123456</EndToEndId></PmtId><Amt><InstdAmt Ccy="USD">1000.00</InstdAmt></Amt><ChqInstr><ChqNb>98765421</ChqNb><DlvrTo><Nm>Receiver Name</Nm><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123,STREET NAME</AdrLine></Adr></DlvrTo></ChqInstr><Cdtr><Nm>BENEFICIARY NAME</Nm><PstlAdr><PstCd>11111</PstCd><TwnNm>CITY NAME</TwnNm><CtrySubDvsn>IL</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123, STREET NAME</AdrLine></PstlAdr></Cdtr><RltdRmtInf><RmtLctnPstlAdr><Nm/><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn></Adr></RmtLctnPstlAdr></RltdRmtInf><RmtInf><Strd><RfrdDocInf><Tp><CdOrPrtry><Cd>CINV</Cd></CdOrPrtry></Tp><Nb>INV#123</Nb><RltdDt>2017-07-17</RltdDt></RfrdDocInf><RfrdDocAmt><DuePyblAmt Ccy="USD">1000.00</DuePyblAmt><DscntApldAmt Ccy="USD">0.00</DscntApldAmt><RmtdAmt Ccy="USD">1000.00</RmtdAmt></RfrdDocAmt><AddtlRmtInf>payment for invoice 123</AddtlRmtInf></Strd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>';
+        // XmlPayload := '<?xml version="1.0" encoding="UTF-8" standalone="no"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><CstmrCdtTrfInitn><GrpHdr><MsgId>A1234567</MsgId><CreDtTm>2017-07-17T04:59:18</CreDtTm><NbOfTxs>1</NbOfTxs><InitgPty><Nm>ABC COMPANY NAME</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>A1234567</PmtInfId><PmtMtd>CHK</PmtMtd><PmtTpInf><SvcLvl><Cd>NURG</Cd></SvcLvl><LclInstrm><Prtry>CITI19</Prtry></LclInstrm></PmtTpInf><ReqdExctnDt>2017-07-17</ReqdExctnDt><Dbtr><Nm>ABC COMPANY NAME</Nm><PstlAdr><Ctry>US</Ctry></PstlAdr><Id><OrgId><Othr><Id>1123456789</Id></Othr></OrgId></Id></Dbtr><DbtrAcct><Id><Othr><Id>93000001</Id></Othr></Id></DbtrAcct><DbtrAgt><FinInstnId><BIC>CITIUS33XXX</BIC><ClrSysMmbId><MmbId>021000089</MmbId></ClrSysMmbId></FinInstnId></DbtrAgt><CdtTrfTxInf><PmtId><EndToEndId>123456</EndToEndId></PmtId><Amt><InstdAmt Ccy="USD">1000.00</InstdAmt></Amt><ChqInstr><ChqNb>98765421</ChqNb><DlvrTo><Nm>Receiver Name</Nm><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123,STREET NAME</AdrLine></Adr></DlvrTo></ChqInstr><Cdtr><Nm>BENEFICIARY NAME</Nm><PstlAdr><PstCd>11111</PstCd><TwnNm>CITY NAME</TwnNm><CtrySubDvsn>IL</CtrySubDvsn><Ctry>US</Ctry><AdrLine>123, STREET NAME</AdrLine></PstlAdr></Cdtr><RltdRmtInf><RmtLctnPstlAdr><Nm/><Adr><PstCd>22222</PstCd><TwnNm>Receiver City</TwnNm><CtrySubDvsn>NY</CtrySubDvsn></Adr></RmtLctnPstlAdr></RltdRmtInf><RmtInf><Strd><RfrdDocInf><Tp><CdOrPrtry><Cd>CINV</Cd></CdOrPrtry></Tp><Nb>INV#123</Nb><RltdDt>2017-07-17</RltdDt></RfrdDocInf><RfrdDocAmt><DuePyblAmt Ccy="USD">1000.00</DuePyblAmt><DscntApldAmt Ccy="USD">0.00</DscntApldAmt><RmtdAmt Ccy="USD">1000.00</RmtdAmt></RfrdDocAmt><AddtlRmtInf>payment for invoice 123</AddtlRmtInf></Strd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>';
         XmlPayload := EncryptionHandler.EncryptAndSign(XmlPayload, 'xml');
 
         RequestContent.WriteFrom(XmlPayload);
@@ -223,8 +226,8 @@ codeunit 50142 "Citi Intg API Handler"
 
         ResponseMessage.Content().ReadAs(ResponseText);
         ResponseText := EncryptionHandler.DecryptAndVerify(ResponseText, 'xml');
-
-        ResponseText := '<?xml version="1.0" encoding="UTF-8"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.002.001.03"><CstmrPmtStsRpt><GrpHdr><MsgId>CITIBANK/20210311-PSR/981382059</MsgId><CreDtTm>2021-03-11T19:31:39</CreDtTm><InitgPty><Id><OrgId><BICOrBEI>CITIUS33</BICOrBEI></OrgId></Id></InitgPty></GrpHdr><OrgnlGrpInfAndSts><OrgnlMsgId>GBP161114694869</OrgnlMsgId><OrgnlMsgNmId>pain.001.001.03</OrgnlMsgNmId></OrgnlGrpInfAndSts><OrgnlPmtInfAndSts><OrgnlPmtInfId>14017498 Fund Transfer Domestic</OrgnlPmtInfId><TxInfAndSts><OrgnlEndToEndId>CC21TPH3B8J8H2R</OrgnlEndToEndId><TxSts>ACSP</TxSts><StsRsnInf><AddtlInf>Processed Settled at clearing System. Payment settled at clearing system</AddtlInf></StsRsnInf><OrgnlTxRef><Amt><InstdAmt Ccy="USD">1.00</InstdAmt></Amt><ReqdExctnDt>2021-02-03</ReqdExctnDt><PmtMtd>TRF</PmtMtd><RmtInf><Ustrd>TR002638</Ustrd></RmtInf><Dbtr><Nm>CITIBANK E-BUSINESS EUR DUM DEMO</Nm></Dbtr><DbtrAcct><Id><Othr><Id>12345678</Id></Othr></Id></DbtrAcct><DbtrAgt><FinInstnId><PstlAdr><Ctry>GB</Ctry></PstlAdr></FinInstnId></DbtrAgt><CdtrAgt><FinInstnId><BIC>fakebic</BIC></FinInstnId></CdtrAgt><Cdtr><Nm>8010643122X XXXXXXXXXXXXX XXX</Nm></Cdtr><CdtrAcct><Id><Othr><Id>12345678</Id></Othr></Id></CdtrAcct></OrgnlTxRef></TxInfAndSts></OrgnlPmtInfAndSts></CstmrPmtStsRpt></Document>';
+        Message(ResponseText);
+        // ResponseText := '<?xml version="1.0" encoding="UTF-8"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.002.001.03"><CstmrPmtStsRpt><GrpHdr><MsgId>CITIBANK/20210311-PSR/981382059</MsgId><CreDtTm>2021-03-11T19:31:39</CreDtTm><InitgPty><Id><OrgId><BICOrBEI>CITIUS33</BICOrBEI></OrgId></Id></InitgPty></GrpHdr><OrgnlGrpInfAndSts><OrgnlMsgId>GBP161114694869</OrgnlMsgId><OrgnlMsgNmId>pain.001.001.03</OrgnlMsgNmId></OrgnlGrpInfAndSts><OrgnlPmtInfAndSts><OrgnlPmtInfId>14017498 Fund Transfer Domestic</OrgnlPmtInfId><TxInfAndSts><OrgnlEndToEndId>CC21TPH3B8J8H2R</OrgnlEndToEndId><TxSts>ACSP</TxSts><StsRsnInf><AddtlInf>Processed Settled at clearing System. Payment settled at clearing system</AddtlInf></StsRsnInf><OrgnlTxRef><Amt><InstdAmt Ccy="USD">1.00</InstdAmt></Amt><ReqdExctnDt>2021-02-03</ReqdExctnDt><PmtMtd>TRF</PmtMtd><RmtInf><Ustrd>TR002638</Ustrd></RmtInf><Dbtr><Nm>CITIBANK E-BUSINESS EUR DUM DEMO</Nm></Dbtr><DbtrAcct><Id><Othr><Id>12345678</Id></Othr></Id></DbtrAcct><DbtrAgt><FinInstnId><PstlAdr><Ctry>GB</Ctry></PstlAdr></FinInstnId></DbtrAgt><CdtrAgt><FinInstnId><BIC>fakebic</BIC></FinInstnId></CdtrAgt><Cdtr><Nm>8010643122X XXXXXXXXXXXXX XXX</Nm></Cdtr><CdtrAcct><Id><Othr><Id>12345678</Id></Othr></Id></CdtrAcct></OrgnlTxRef></TxInfAndSts></OrgnlPmtInfAndSts></CstmrPmtStsRpt></Document>';
         XmlDocument.ReadFrom(ResponseText, XMLDoc);
         if XMLDoc.SelectSingleNode('/*[local-name()="Document"]/*[local-name()="CstmrPmtStsRpt"]/*[local-name()="OrgnlPmtInfAndSts"]/*[local-name()="TxInfAndSts"]/*[local-name()="TxSts"]', OrgnlMsgIdNode) then
             PaymentTxtStatus := OrgnlMsgIdNode.AsXmlElement().InnerText
@@ -269,21 +272,27 @@ codeunit 50142 "Citi Intg API Handler"
     end;
 
 
-    local procedure GetPaymentInitXMLPayload(GenJnlLine: Record "Gen. Journal Line"): Text
+    local procedure GetPaymentInitXMLPayload(var GenJnlLine: Record "Gen. Journal Line"): Text
     var
         TempBlob: Codeunit "Temp Blob";
-        PaymentInitRequestPort: XmlPort "SEPA CT pain.001.001.03";
         OutputStream: OutStream;
         InputStream: InStream;
         XmlPayload: Text;
+        CRLF_lTxt: array[3] of Char;
     begin
         TempBlob.CreateOutStream(OutputStream);
-        PaymentInitRequestPort.SetDestination(OutputStream);
-        PaymentInitRequestPort.SetTableView(GenJnlLine);
-        PaymentInitRequestPort.Export();
+        Xmlport.Export(xmlport::"SEPA CITI pain.001.001.03", OutputStream, GenJnlLine);
         TempBlob.CreateInStream(InputStream);
         InputStream.Read(XmlPayload);
-        exit(XmlPayload);
+        CRLF_lTxt[1] := 10;
+        CRLF_lTxt[2] := 13;
+        CRLF_lTxt[3] := 9;
+        XmlPayload := XmlPayload.Replace('  ', '');
+        XmlPayload := DelChr(XmlPayload, '=', CRLF_lTxt[1]);
+        XmlPayload := DelChr(XmlPayload, '=', CRLF_lTxt[2]);
+        XmlPayload := DelChr(XmlPayload, '=', CRLF_lTxt[3]);
+        Message('%1', XmlPayload);
+        exit(Format(XmlPayload));
     end;
 
     local procedure GetPaymentStatusPayload(GenJnlLine: Record "Gen. Journal Line"): Text

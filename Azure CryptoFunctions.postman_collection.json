@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "ca077931-cf73-4838-87a9-46d8b9f2ed4e",
+		"name": "Azure CryptoFunctions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38322503"
+	},
+	"item": [
+		{
+			"name": "JOSE Decrypt/Verify",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"encryptedPayload\": \"eyJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.Xf7oPbb_cx45lx4JkcCdMz1bRgZHpbydr8UmdSWe9iq83q1Rx5lMFzMmdIiLkb67uIPVGu-p1jmHHl3wqUVVMw06Xz4fIvIL0K0tIUAoTLFfuqpWm4veaxbzQAfSJuRHU1ObbXW4s2EluEF1xs-VqtVuFEo-bntuci4PunRgGT-wT8ApogcIqQGM8FKi1TJFPXkGsrsksbxWHQ2_-qYOXtKh2bCrNAxbsgcaKHb7_6emRz4SSNn2MMy12c7yfXiq6v58_1jTcXbtm0Zf-3FJ68H1roMuiTuHfjQXsqQlDkC7vdMmA2nPg89lV6qAory9KjoSaCp_K75SFRWIEt4lbA.N8797SKjQwysyJiG.D_9QneRVahT7nHDDaGN77bJ4YtLv96_NoSGuUOD66dRguvG7-dKfIAcjW9n-yCclEIAiNjvYR9-qaO_ub5Qe44ImBPcus5EKF9r-B5fL2ZRHVhjQ_MmxwawHfqbjz0cqpMGWU_QN96iYmmsfHv6lmfbuVL6V0J2Dmco3mZ96lo6Z5lCIkNjeQcmjd9IVlXzSWgECRSVpUbp8QprsdhttBHwDUxs4ggt5QGyt5uuCZGOofedfASHdIGlZXs6LvWQKrDfY-GhOMWVzhbSVC-n2abi1tVksNS2TdYzu1sflvwuPQ31oPoGUB146No_yVyrLw3uol1Peq49odyO1kc4lQZ_9fZpXd2KyxAKWjiL6uhTYUlmjbN-NR-sKWh-n0EgvtH-3PCcj4h7JSwpB-Nvr48Ximd6tcxx4YVXwhmb9H5XYKj07cLe2rlAuZi52Ey-0NBdJBkk-MbzxnrztSS_jewc0YhEsEDSPd8_Bb45QufB3Rf-JrL0ER2aZPV-NAxzlGvACEBOsLx6ARNdS5vSQIZuU2mh_n5akY8yCOdPLERxLx7VttcUxSEPGTotqd9zwNL91D-Q8JimSCsllBSJwJ0y1EN4kTKZQdIr44uttZGJVeBSp3Idx3KGNzCdUMPE2ekg6rhTlW0h9Qcj7tU0BAUSWsQ_o516uYPAo4RLjCM6yhQRy-fLwManNZgW9bYiq0Nj59rLt2kakMclfvl4CYUV2cP1NYFUvwFVqx3Eg24GMtXwTDCwFYgRev6SMv4-q47MdwBI7O2ow0vwVhYQhBkm1UAW-zf8ybn3yzlrFujqz-K9zxCuJtPpG5zKFMibmCjqJiWPW1dQQsSphzq_ZzPda_xF-eEd-9bD4flKDAzYBaf7AUX8SlJWLotfwjcZFyuZiBsaD8E-B3CSl8JEIzMMb0tt2EGGOJVX777NqBDOq6D7ZI6ceYoqIaaUFLxnP3QmXtMkCbNcUE8Hls-jI5Jw2JWPSRKdsGPiqA51ItrLU6tdejQngzu0ibhk7T1oBrwgHL6Dc6H99_WxlVc_wP8hNN2xjjzDWNhSGj7gFaOgDT94HDFE4fFka0UA8C_PHB-lWKD4eiOdGwUUj-5bYlfBSpH1U5tQokIdA6GMbQEcO_hN_UwhjWi4CSSTtgD28kuZDIHdNvF9IqOLYFtqCNric5blS2u392AstQoU0eL34nGuGOzulYVw8aYqYxK60L138FHLgfpid89O5nMMyXhMYvF4q-5tquFw4BoS2wuHug0ysiqmocO83FCcewtGFnkndEZN7zm9uwt7daBdayY4y4Uua33mpfsMu_GjHIECSTwHDaVKfwe00Jm2Y-JQPNcOIYJt5u-FcngLKsGKNDD4DottYB7L08V4TtfZKCcYoM7GNeRrvhWq4K1KwvRvTfAANAMNxFa1zkLhwL-hxuHSk2ms1T43bb0rxWtq-uvJShrYUARjGNT_fr6wRGvpyh9MTf5mFwgUTJVvKWaZrsy5qEjeNW0HUG7cBMKyTWHzCc7jZ4pOJ1yTK7xv2gqNsFtPrOqLxYr4hNz_V-q7Ud8kLCaFe3udWNOYU1F9cFuLZObF0rsaEZpAz5OyNScxe2ChHHjGGMnOS4xVQS0paF8pERW13xRzPGKV9U_Ey3UpCO2q26nHMjEJ_Co44zPvxwXIYUiqU-Q9uxnqDkI_zc8uwtyR4zKfUiAwSGMO5bH_uhqJ-Ujyjt2vVXaOHpVRyUeNu_c6AMSG6Uun9qyiImWMp2Y1Uygg3wXsOpSLYIVnIv4PtISRFQewoay3YPzASDAUxhoMCWWpBDArdGhJYm4g4me3nHVihkiNq2GTJyqh-KclF7RjyW5ykkTA-N0Fng93xo9ihmnJP0f0KLmx3P-wccO3BMJFW5aRSBLvtaBWCjGwO71zFiYbfwt6lUl_VObGOmroK001Xl_uBsPrGX9yoaKjx0ImYRKZSkPp4PJxRAMBE2JVdanHf31c1NCmG22PYXpe0nnVOWKtBbvCVjKMcg0jK810MeIQncxfCWPMtVtGrWT1giDe72fie9h347Q.4kkvtiBn6iLe1xJ7x63YoA\",\r\n    \"mode\": \"json\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{AppName}}.azurewebsites.net/api/DecryptAndVerify",
+					"protocol": "https",
+					"host": [
+						"{{AppName}}",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"DecryptAndVerify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "XML Decrypt/Verify",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"encryptedPayload\": \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><xenc:EncryptedData Type=\\\"http://www.w3.org/2001/04/xmlenc#Element\\\" xmlns:xenc=\\\"http://www.w3.org/2001/04/xmlenc#\\\"><xenc:EncryptionMethod Algorithm=\\\"http://www.w3.org/2001/04/xmlenc#tripledes-cbc\\\"/><dsig:KeyInfo xmlns:dsig=\\\"http://www.w3.org/2000/09/xmldsig#\\\"><xenc:EncryptedKey Recipient=\\\"name:18c09f8e-5b20-4d41-9b62-1dc059362b75\\\"><xenc:EncryptionMethod Algorithm=\\\"http://www.w3.org/2001/04/xmlenc#rsa-1_5\\\"/><dsig:KeyInfo><dsig:KeyName>18c09f8e-5b20-4d41-9b62-1dc059362b75</dsig:KeyName></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>bYoK/iTXdLyRwseHmX91081scdWKd5JtUPt2dbezFCVssU748jci1fFqfT0aKIFz+fkUWofe4BOJmJ0e0DcUZMdeK05DbgRhK7aHzZNfRIAtSMDfq9R46fXZbaqQRl+FpwpBkT/0Pm3uNLPxfe481lo9fZTaPJkafnd30oWQ6j6yeuKGznYfhDQW1wyjiqZgR6QHXUxN+338xRHTUAc0gRLodyM0VM7I0ib0JvVXYgW1wEJ2ghzQqIis6IfATjasntefm1YsO5S0/4t6dk4fPiGryZx6jGQfiPGtMv6wO9IGg1pbB8W5G8J5IEeNw8vPszuKHE+dmorydoBTQtNqzg==</xenc:CipherValue></xenc:CipherData></xenc:EncryptedKey></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>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</xenc:CipherValue></xenc:CipherData></xenc:EncryptedData>\",\r\n    \"mode\": \"xml\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{AppName}}.azurewebsites.net/api/DecryptAndVerify",
+					"protocol": "https",
+					"host": [
+						"{{AppName}}",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"DecryptAndVerify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JOSE Encrypt/Sign",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"payload\": \"{\\\"oAuthToken\\\":{\\\"grantType\\\":\\\"client_credentials\\\",\\\"scope\\\":\\\"/authenticationservices/v1\\\"}}\",\r\n    \"mode\": \"JSON\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{AppName}}.azurewebsites.net/api/SignAndEncrypt",
+					"protocol": "https",
+					"host": [
+						"{{AppName}}",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"SignAndEncrypt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "XML Encrypt/Sign",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// {\r\n//     \"payload\": \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\" standalone=\\\"no\\\"?><Document xmlns=\\\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.03\\\" xmlns:xsi=\\\"http://www.w3.org/2001/XMLSchema-instance\\\"><CstmrCdtTrfInitn><GrpHdr><MsgId/><CreDtTm>2024-10-08T14:09:05</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>1.00</CtrlSum><InitgPty><Nm>National Endowment For Democracy</Nm><PstlAdr><StrtNm>1201 Pennsylvania Ave, NW Ste 1100</StrtNm><PstCd>20004</PstCd><TwnNm>Washington</TwnNm><Ctry>USA</Ctry></PstlAdr><Id><OrgId><Othr><Id>1201</Id></Othr></OrgId></Id></InitgPty></GrpHdr><PmtInf><PmtInfId>/0</PmtInfId><PmtMtd>TRF</PmtMtd><BtchBookg>false</BtchBookg><NbOfTxs>10000</NbOfTxs><CtrlSum>1.00</CtrlSum><PmtTpInf><InstrPrty/></PmtTpInf><ReqdExctnDt>2024-10-08</ReqdExctnDt><Dbtr><Nm>National Endowment For Democracy</Nm><PstlAdr><StrtNm>1201 Pennsylvania Ave, NW Ste 1100</StrtNm><PstCd>20004</PstCd><TwnNm>Washington</TwnNm><Ctry>USA</Ctry></PstlAdr><Id><OrgId><BICOrBEI>930</BICOrBEI></OrgId></Id></Dbtr><DbtrAcct><Id><IBAN>51052943</IBAN></Id></DbtrAcct><DbtrAgt><FinInstnId><BIC>930</BIC></FinInstnId></DbtrAgt><ChrgBr/><CdtTrfTxInf><PmtId><EndToEndId>565625814561611</EndToEndId></PmtId><Amt><InstdAmt Ccy=\\\"USD\\\">1.00</InstdAmt></Amt><CdtrAgt><FinInstnId><BIC>SWFTUS123</BIC></FinInstnId></CdtrAgt><Cdtr><Nm>Vendor Citi Test</Nm><PstlAdr><StrtNm>675 W Kendall St</StrtNm><PstCd>02142</PstCd><TwnNm>Cambridge</TwnNm></PstlAdr></Cdtr><CdtrAcct><Id><IBAN>US12345678901234567890</IBAN></Id></CdtrAcct><RmtInf><Ustrd>Test transaction</Ustrd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>\",\r\n//     \"mode\": \"xml\"\r\n// }\r\n{\r\n    \"payload\": \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><paymentInquiryRequest xmlns=\\\"http://com.citi.citiconnect/services/types/inquiries/payment/v1\\\"><EndToEndId>565625814561611</EndToEndId></paymentInquiryRequest>\",\r\n    \"mode\": \"xml\"\r\n}\r\n\r\n\r\n\r\n// <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.03\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><CstmrCdtTrfInitn><GrpHdr><MsgId/><CreDtTm>2024-10-08T14:09:05</CreDtTm><NbOfTxs>1</NbOfTxs><CtrlSum>1.00</CtrlSum><InitgPty><Nm>National Endowment For Democracy</Nm><PstlAdr><StrtNm>1201 Pennsylvania Ave, NW Ste 1100</StrtNm><PstCd>20004</PstCd><TwnNm>Washington</TwnNm><Ctry>USA</Ctry></PstlAdr><Id><OrgId><Othr><Id>1201</Id></Othr></OrgId></Id></InitgPty></GrpHdr><PmtInf><PmtInfId>/0</PmtInfId><PmtMtd>TRF</PmtMtd><BtchBookg>false</BtchBookg><NbOfTxs>10000</NbOfTxs><CtrlSum>1.00</CtrlSum><PmtTpInf><InstrPrty/></PmtTpInf><ReqdExctnDt>2024-10-08</ReqdExctnDt><Dbtr><Nm>National Endowment For Democracy</Nm><PstlAdr><StrtNm>1201 Pennsylvania Ave, NW Ste 1100</StrtNm><PstCd>20004</PstCd><TwnNm>Washington</TwnNm><Ctry>USA</Ctry></PstlAdr><Id><OrgId><BICOrBEI>930</BICOrBEI></OrgId></Id></Dbtr><DbtrAcct><Id><IBAN>51052943</IBAN></Id></DbtrAcct><DbtrAgt><FinInstnId><BIC>930</BIC></FinInstnId></DbtrAgt><ChrgBr/><CdtTrfTxInf><PmtId><EndToEndId>565625814561611</EndToEndId></PmtId><Amt><InstdAmt Ccy=\"USD\">1.00</InstdAmt></Amt><CdtrAgt><FinInstnId><BIC>SWFTUS123</BIC></FinInstnId></CdtrAgt><Cdtr><Nm>Vendor Citi Test</Nm><PstlAdr><StrtNm>675 W Kendall St</StrtNm><PstCd>02142</PstCd><TwnNm>Cambridge</TwnNm></PstlAdr></Cdtr><CdtrAcct><Id><IBAN>US12345678901234567890</IBAN></Id></CdtrAcct><RmtInf><Ustrd>Test transaction</Ustrd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn></Document>\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{AppName}}.azurewebsites.net/api/SignAndEncrypt",
+					"protocol": "https",
+					"host": [
+						"{{AppName}}",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"SignAndEncrypt"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "AppName",
+			"value": "CryptoMethods"
+		}
+	]
+}

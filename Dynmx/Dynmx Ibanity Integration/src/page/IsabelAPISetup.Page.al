@@ -1,0 +1,164 @@
+page 50140 "Isabel API Setup"
+{
+    PageType = Card;
+    Caption = 'Isabel6 API Setup';
+    SourceTable = "Isabel API Setup";
+    UsageCategory = Administration;
+    ApplicationArea = all;
+
+    layout
+    {
+        area(Content)
+        {
+            group(General)
+            {
+                Caption = 'General';
+                field("Client ID"; Rec."Client ID")
+                {
+                    Editable = IsabelIntegrationEnabled;
+                }
+                field("Client Secret"; Rec."Client Secret")
+                {
+                    Editable = IsabelIntegrationEnabled;
+                }
+                field("Auth Token Endpoint"; Rec."Auth Token Endpoint")
+                {
+                    Editable = IsabelIntegrationEnabled;
+                }
+                field("Payment Initiation Endpoint"; Rec."Payment Initiation Endpoint")
+                {
+                    Editable = IsabelIntegrationEnabled;
+                }
+                field("Integration Enabled"; Rec."Integration Enabled")
+                {
+                    Editable = false;
+                }
+                field("Authorization Code"; Rec."Authorization Code")
+                {
+                    Editable = IsabelIntegrationEnabled;
+                }
+                field("SSL Certificate File"; Rec."SSL Certificate File")
+                {
+                    Editable = false;
+                }
+                field("SSL Certificate Password"; Rec."SSL Certificate Password")
+                {
+                    Editable = IsabelIntegrationEnabled;
+                }
+                field("Payment Status Endpoint"; Rec."Payment Status Endpoint")
+                {
+                    Editable = IsabelIntegrationEnabled;
+                }
+                field("SSL Certificate Uploaded"; Rec."SSL Certificate Uploaded")
+                {
+                    Editable = false;
+                }
+
+            }
+        }
+    }
+
+    actions
+    {
+        area(Promoted)
+        {
+            actionref(EnableIntegration; "Enable/Disable Integration") { }
+            actionref(UploadSSLCertificate; "Upload SSL Certificate") { }
+            actionref(DeleteSSLCertificate; "Delete SSL Certificate") { }
+        }
+
+        area(Processing)
+        {
+            action("Enable/Disable Integration")
+            {
+                ApplicationArea = all;
+                ToolTip = 'Allows you to enable Citi bank payments api itegration.';
+                Caption = 'Enable/Disable Integration';
+                Image = Bank;
+                trigger OnAction()
+                begin
+                    if Rec."Integration Enabled" = true then begin
+                        Rec."Integration Enabled" := false;
+                        IsabelIntegrationEnabled := true;
+                    end else begin
+                        ValidateCitiSetup();
+                        Rec."Integration Enabled" := true;
+                        IsabelIntegrationEnabled := false;
+                    end;
+                    Rec.Modify(false);
+                    CurrPage.Update();
+                end;
+            }
+
+            action("Upload SSL Certificate")
+            {
+                ToolTip = 'Allows to Upload the certificate file.';
+                ApplicationArea = All;
+                Caption = 'Upload Certificate';
+                Image = Import;
+                trigger OnAction()
+                var
+                    InputStream: InStream;
+                    OutputStream: OutStream;
+                begin
+                    if Rec."SSL Certificate Uploaded" = false and IsabelIntegrationEnabled then begin
+                        if File.UploadIntoStream('Upload the certificate file', '', '', Rec."SSL Certificate File", InputStream) then begin
+                            Rec."SSL Certificate Value".CreateOutStream(OutputStream);
+                            CopyStream(OutputStream, InputStream);
+                            Rec."SSL Certificate Uploaded" := true;
+                            Rec.Modify();
+                        end else
+                            exit;
+                    end else
+                        Message('%1 certificate is already uploaded', Rec."SSL Certificate File");
+                end;
+            }
+
+            action("Delete SSL Certificate")
+            {
+                ToolTip = 'Allows to Delete the certificate file.';
+                ApplicationArea = All;
+                Caption = 'Delete Certificate';
+                Image = Import;
+                trigger OnAction()
+                begin
+                    if Rec."SSL Certificate Uploaded" = true and IsabelIntegrationEnabled then begin
+                        Clear(Rec."SSL Certificate Uploaded");
+                        Clear(Rec."SSL Certificate File");
+                        Clear(Rec."SSL Certificate Value");
+                        Clear(Rec."SSL Certificate Password");
+                        Rec.Modify(false);
+                    end else
+                        Message('SSL certificate is not uploaded.');
+                end;
+            }
+        }
+    }
+
+    trigger OnOpenPage()
+    begin
+        if not Rec.Get() then begin
+            Rec.Init();
+            Rec.Insert(false);
+        end;
+    end;
+
+    trigger OnAfterGetCurrRecord()
+    begin
+        if Rec."Integration Enabled" then
+            IsabelIntegrationEnabled := false
+        else
+            IsabelIntegrationEnabled := true;
+        CurrPage.Update();
+    end;
+
+    procedure ValidateCitiSetup()
+    begin
+        Rec.TestField("Client ID");
+        Rec.TestField("Client Secret");
+        Rec.TestField("SSL Certificate Uploaded", true);
+    end;
+
+    var
+        IsabelIntegrationEnabled: Boolean;
+}

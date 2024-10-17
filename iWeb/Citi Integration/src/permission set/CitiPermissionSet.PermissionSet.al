@@ -10,7 +10,7 @@ permissionset 50140 "Citi Permission Set"
         page "Citi Bank Intg. Setup" = X,
         table "Citi Bank Intg. Keys" = X,
         codeunit "Citi Intg. Setup Subscribers" = X,
-        xmlport "Citi Payment Init Request" = X,
+        xmlport "SEPA CITI pain.001.001.03" = X,
         page "Citi Bank Intg. Keys" = X,
         page "Citi Intg. Setup Wizard" = X;
 }

@@ -65,6 +65,11 @@
 		URL : https://businesscentral.dynamics.com/4660b34b-8c06-490d-9b6e-1419d03001dc/LEUS-QA-BE-001
 		UNAME : dynmx.dev@bouwkampioen.onmicrosoft.com
 		PWORD : cHH93G$xfjBUxKL
+		
+	$ TBS  
+		URL: https://businesscentral.dynamics.com/cb29f84e-0766-479d-ae63-7e6eeb53bf74/SandboxUS
+		UNAME : hrithik.jain@techcronus.com
+		PWORD : Hrithik@2022#
 
 # NAV Credentials
 

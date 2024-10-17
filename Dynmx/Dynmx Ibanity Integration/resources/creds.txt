@@ -1,0 +1,17 @@
+$ Credentials
+    # Client Id : c2eca353-3801-4e47-ba9f-8ed6445c8c6f
+    # Client Secret : valid_secret
+    # Authorization Code : valid_authorization_code
+
+$ SSL Certficate :
+    # SSL Certificate File : resources\TLS\certificate.pfx
+    # SSL Certificate Password : w-ztA!Giq4bm55b
+
+$ Sign Certficate :
+    # Sign Certificate File : resources\Sign\signature_certificate.pfx
+    # Sign Certificate Password : mIqn8t8As-skB5d
+
+$ Endpoints
+    # Auth Token Endpoint : https://api.ibanity.com/isabel-connect/oauth2/token
+    # Payment Initiation Endpoint : https://api.ibanity.com/isabel-connect/bulk-payment-initiation-requests
+    # Payment Status Endpoint : https://api.ibanity.com/isabel-connect/bulk-payment-initiation-requests

@@ -1,0 +1,11 @@
+$ Credentials
+    # Client Id : c2eca353-3801-4e47-ba9f-8ed6445c8c6f
+    # Client Secret : valid_secret
+    # Authorization Code : valid_authorization_code
+
+$ SSL Certficate :
+    # SSL Certificate File : resources\TLS\certificate.pfx
+    # SSL Certificate Password : w-ztA!Giq4bm55b
+
+$ Endpoints
+    # Auth Token Endpoint : https://api.ibanity.com/isabel-connect/oauth2/token

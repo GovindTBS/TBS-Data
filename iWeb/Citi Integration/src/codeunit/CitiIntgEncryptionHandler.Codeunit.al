@@ -71,7 +71,7 @@ codeunit 50141 "Citi Intg Encryption Handler"
     end;
 
     var
-        RequestErrLbl: Label 'The azure requested responded with %1 status code and the reason is %2', Comment = '%1= Status code , %2= reason ';
+RequestErrLbl: Label 'The azure requested responded with %1 status code and the reason is %2', Comment = '%1= Status code , %2= reason ';
 
 }
 

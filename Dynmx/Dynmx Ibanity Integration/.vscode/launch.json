@@ -7,7 +7,6 @@
             "type": "al",
             "environmentName": "LEUS-QA-BE-001",
             "environmentType": "Sandbox",
-            "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
             "tenant": "4660b34b-8c06-490d-9b6e-1419d03001dc",

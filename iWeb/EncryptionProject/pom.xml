@@ -200,7 +200,7 @@
 				</version>
 				<configuration>
 					<mainClass>
-						com.example.HashAndSign
+						com.example.Main
 					</mainClass>
 				</configuration>
 			</plugin>

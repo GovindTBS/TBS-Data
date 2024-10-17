@@ -26,7 +26,6 @@
 //                     Page.Run(Page::"Lot No. Information Card", LotNoInformation);
 //                 end;
 //             }
-
 //         }
 //     }
 // }
