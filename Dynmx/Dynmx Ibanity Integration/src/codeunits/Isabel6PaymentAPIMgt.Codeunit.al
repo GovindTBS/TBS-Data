@@ -1,11 +1,11 @@
-codeunit 50140 "Isabel API Management"
+codeunit 50140 "Isabel Payment API Mgt."
 {
-    Permissions = tabledata "Isabel API Setup" = RIMD;
+    Permissions = tabledata "Isabel6 Setup" = RIMD;
 
 
     procedure PaymentsInitiation(PaymentJournalLine: Record "Payment Journal Line")
     var
-        Isabel6APISetup: Record "Isabel API Setup";
+        Isabel6APISetup: Record "Isabel6 Setup";
         Base64Convert: Codeunit "Base64 Convert";
         InputStream: InStream;
         Client: HttpClient;
@@ -26,8 +26,8 @@ codeunit 50140 "Isabel API Management"
         Isabel6APISetup.CalcFields("SSL Certificate Value");
         Isabel6APISetup."SSL Certificate Value".CreateInStream(InputStream);
         Certificate := Base64Convert.ToBase64(InputStream);
-        // XMLPayload := '<?xml version="1.0" encoding="UTF-8"?>< Document xmlns = "urn:iso:std:iso:20022:tech:xsd:pain.001.001.02" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:pain.001.001.02 D:\SEPA\pain.001.001.02.xsd" ><pain.001.001.02></pain.001.001.02></Document>';
-        XMLPayload := GetPaymentsInitiationRequestPayload(PaymentJournalLine);
+        XMLPayload := '<?xml version="1.0" encoding="UTF-8"?>< Document xmlns = "urn:iso:std:iso:20022:tech:xsd:pain.001.001.02" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:pain.001.001.02 D:\SEPA\pain.001.001.02.xsd" ><pain.001.001.02></pain.001.001.02></Document>';
+        // XMLPayload := GetPaymentsInitiationRequestPayload(PaymentJournalLine);
         URI := Isabel6APISetup."Payment Initiation Endpoint";
 
         RequestContent.WriteFrom(XMLPayload);
@@ -66,7 +66,7 @@ codeunit 50140 "Isabel API Management"
 
     procedure GetPaymentsStatus(PaymentJournalLine: Record "Payment Journal Line")
     var
-        Isabel6APISetup: Record "Isabel API Setup";
+        Isabel6APISetup: Record "Isabel6 Setup";
         Base64Convert: Codeunit "Base64 Convert";
         InputStream: InStream;
         Client: HttpClient;
@@ -112,18 +112,18 @@ codeunit 50140 "Isabel API Management"
 
     local procedure ParsePaymentInitiationResponse(ResponseBody: Text; var PaymentRequestID: Text; var PaymentRequestStatus: Text)
     var
-        JsonPayload: JsonObject;
-        PayloadData: JsonToken;
-        PayloadAttributes: JsonToken;
+        JsonResponse: JsonObject;
+        ResponseData: JsonToken;
+        ResponseAttributes: JsonToken;
         Status: JsonToken;
         RequestID: JsonToken;
     begin
-        JsonPayload.ReadFrom(ResponseBody);
-        JsonPayload.Get('data', PayloadData);
+        JsonResponse.ReadFrom(ResponseBody);
+        JsonResponse.Get('data', ResponseData);
 
-        if PayloadData.AsObject().Get('id', RequestID) and PayloadData.AsObject().Get('attributes', PayloadAttributes) then begin
+        if ResponseData.AsObject().Get('id', RequestID) and ResponseData.AsObject().Get('attributes', ResponseAttributes) then begin
             PaymentRequestID := RequestID.AsValue().AsText();
-            if PayloadAttributes.AsObject().Get('status', Status) then
+            if ResponseAttributes.AsObject().Get('status', Status) then
                 PaymentRequestStatus := Status.AsValue().AsText();
         end;
     end;
@@ -142,9 +142,9 @@ codeunit 50140 "Isabel API Management"
             PaymentRequestStatus := Status.AsValue().AsText();
     end;
 
-    local procedure GetAuthToken(): Boolean
+    procedure GetAuthToken(): Boolean
     var
-        IsabelAPISetup: Record "Isabel API Setup";
+        IsabelAPISetup: Record "Isabel6 Setup";
         Base64Convert: Codeunit "Base64 Convert";
         JsonPayload: JsonObject;
         AccessToken: JsonToken;
@@ -200,7 +200,7 @@ codeunit 50140 "Isabel API Management"
 
     local procedure GetEncodedClientSecret(): Text
     var
-        IsabelAPISetup: Record "Isabel API Setup";
+        IsabelAPISetup: Record "Isabel6 Setup";
         Base64Convert: Codeunit "Base64 Convert";
         Base64Value: Text;
     begin

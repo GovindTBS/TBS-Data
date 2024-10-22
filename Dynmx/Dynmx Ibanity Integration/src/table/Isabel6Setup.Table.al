@@ -1,4 +1,4 @@
-table 50100 "Isabel API Setup"
+table 50100 "Isabel6 Setup"
 {
     Caption = 'Isabel API Setup';
     DataClassification = ToBeClassified;
@@ -60,17 +60,42 @@ table 50100 "Isabel API Setup"
         field(11; "Auth Token"; Text[100])
         {
             Caption = 'Auth Token';
-            ToolTip = 'Specifies the Authorization Token for Isabel API access.';
+            ToolTip = 'Specifies the Authorization Token for Isabel6 API access.';
         }
         field(12; "Payment Initiation Endpoint"; Text[100])
         {
             Caption = 'Payment Initiation Endpoint';
-            ToolTip = 'Specifies Payment Initiation Endpoint URL for the Isabel API.';
+            ToolTip = 'Specifies Payment Initiation Endpoint URL for the Isabel6 API.';
         }
         field(13; "Payment Status Endpoint"; Text[100])
         {
             Caption = 'Payment Status Endpoint';
-            ToolTip = 'Specifies Payment Status Endpoint URL for the Isabel API.';
+            ToolTip = 'Specifies Payment Status Endpoint URL for the Isabel6 API.';
+        }
+        field(14; "Accounting Office Endpoint"; Text[100])
+        {
+            Caption = 'Accounting Office Endpoint';
+            ToolTip = 'Specifies Accounting Office Endpoint URL for the Isabel6 API.';
+        }
+        field(15; "Document Search Endpoint"; Text[100])
+        {
+            Caption = 'Document Search Endpoint';
+            ToolTip = 'Specifies Document Search Endpoint URL for the Isabel6 API.';
+        }
+        field(16; "Account Statement Endpoint"; Text[100])
+        {
+            Caption = 'Account Statement Endpoint';
+            ToolTip = 'Specifies Account Statement Endpoint URL for the Isabel6 API.';
+        }
+        field(17; "Accounting Office Company No."; Text[50])
+        {
+            Caption = 'Accounting Office Company Number';
+            ToolTip = 'Specifies Accounting Office Company Number for the Isabel6 API.';
+        }
+        field(18; "Accounting Office ID"; Text[50])
+        {
+            Caption = 'Accounting Office ID';
+            ToolTip = 'Specifies Accounting Office ID for the Isabel6 API.';
         }
     }
 

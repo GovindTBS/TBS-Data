@@ -1,8 +1,8 @@
-page 50140 "Isabel API Setup"
+page 50140 "Isabel6 Setup"
 {
     PageType = Card;
     Caption = 'Isabel6 API Setup';
-    SourceTable = "Isabel API Setup";
+    SourceTable = "Isabel6 Setup";
     UsageCategory = Administration;
     ApplicationArea = all;
 
@@ -15,19 +15,23 @@ page 50140 "Isabel API Setup"
                 Caption = 'General';
                 field("Client ID"; Rec."Client ID")
                 {
-                    Editable = IsabelIntegrationEnabled;
+                    Editable = Isabel6IntegrationEnabled;
                 }
                 field("Client Secret"; Rec."Client Secret")
                 {
-                    Editable = IsabelIntegrationEnabled;
+                    Editable = Isabel6IntegrationEnabled;
                 }
                 field("Auth Token Endpoint"; Rec."Auth Token Endpoint")
                 {
-                    Editable = IsabelIntegrationEnabled;
+                    Editable = Isabel6IntegrationEnabled;
                 }
                 field("Payment Initiation Endpoint"; Rec."Payment Initiation Endpoint")
                 {
-                    Editable = IsabelIntegrationEnabled;
+                    Editable = Isabel6IntegrationEnabled;
+                }
+                field("Account Statement Endpoint"; Rec."Account Statement Endpoint")
+                {
+                    Editable = Isabel6IntegrationEnabled;
                 }
                 field("Integration Enabled"; Rec."Integration Enabled")
                 {
@@ -35,7 +39,7 @@ page 50140 "Isabel API Setup"
                 }
                 field("Authorization Code"; Rec."Authorization Code")
                 {
-                    Editable = IsabelIntegrationEnabled;
+                    Editable = Isabel6IntegrationEnabled;
                 }
                 field("SSL Certificate File"; Rec."SSL Certificate File")
                 {
@@ -43,11 +47,19 @@ page 50140 "Isabel API Setup"
                 }
                 field("SSL Certificate Password"; Rec."SSL Certificate Password")
                 {
-                    Editable = IsabelIntegrationEnabled;
+                    Editable = Isabel6IntegrationEnabled;
                 }
                 field("Payment Status Endpoint"; Rec."Payment Status Endpoint")
                 {
-                    Editable = IsabelIntegrationEnabled;
+                    Editable = Isabel6IntegrationEnabled;
+                }
+                field("Accounting Office Endpoint"; Rec."Accounting Office Endpoint")
+                {
+                    Editable = Isabel6IntegrationEnabled;
+                }
+                field("Document Search Endpoint"; Rec."Document Search Endpoint")
+                {
+                    Editable = Isabel6IntegrationEnabled;
                 }
                 field("SSL Certificate Uploaded"; Rec."SSL Certificate Uploaded")
                 {
@@ -79,11 +91,11 @@ page 50140 "Isabel API Setup"
                 begin
                     if Rec."Integration Enabled" = true then begin
                         Rec."Integration Enabled" := false;
-                        IsabelIntegrationEnabled := true;
+                        Isabel6IntegrationEnabled := true;
                     end else begin
                         ValidateCitiSetup();
                         Rec."Integration Enabled" := true;
-                        IsabelIntegrationEnabled := false;
+                        Isabel6IntegrationEnabled := false;
                     end;
                     Rec.Modify(false);
                     CurrPage.Update();
@@ -101,7 +113,7 @@ page 50140 "Isabel API Setup"
                     InputStream: InStream;
                     OutputStream: OutStream;
                 begin
-                    if Rec."SSL Certificate Uploaded" = false and IsabelIntegrationEnabled then begin
+                    if Rec."SSL Certificate Uploaded" = false and Isabel6IntegrationEnabled then begin
                         if File.UploadIntoStream('Upload the certificate file', '', '', Rec."SSL Certificate File", InputStream) then begin
                             Rec."SSL Certificate Value".CreateOutStream(OutputStream);
                             CopyStream(OutputStream, InputStream);
@@ -122,7 +134,7 @@ page 50140 "Isabel API Setup"
                 Image = Import;
                 trigger OnAction()
                 begin
-                    if Rec."SSL Certificate Uploaded" = true and IsabelIntegrationEnabled then begin
+                    if Rec."SSL Certificate Uploaded" = true and Isabel6IntegrationEnabled then begin
                         Clear(Rec."SSL Certificate Uploaded");
                         Clear(Rec."SSL Certificate File");
                         Clear(Rec."SSL Certificate Value");
@@ -146,9 +158,9 @@ page 50140 "Isabel API Setup"
     trigger OnAfterGetCurrRecord()
     begin
         if Rec."Integration Enabled" then
-            IsabelIntegrationEnabled := false
+            Isabel6IntegrationEnabled := false
         else
-            IsabelIntegrationEnabled := true;
+            Isabel6IntegrationEnabled := true;
         CurrPage.Update();
     end;
 
@@ -160,5 +172,5 @@ page 50140 "Isabel API Setup"
     end;
 
     var
-        IsabelIntegrationEnabled: Boolean;
+        Isabel6IntegrationEnabled: Boolean;
 }

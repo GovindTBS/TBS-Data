@@ -3,8 +3,8 @@ namespace Isabel;
 permissionset 50100 "Isabel Integration"
 {
     Assignable = true;
-    Permissions = tabledata "Isabel API Setup" = RIMD,
-        table "Isabel API Setup" = X,
-        page "Isabel API Setup" = X,
-        codeunit "Isabel API Management" = X;
+    Permissions = tabledata "Isabel6 Setup" = RIMD,
+        table "Isabel6 Setup" = X,
+        page "Isabel6 Setup" = X,
+        codeunit "Isabel Payment API Mgt." = X;
 }

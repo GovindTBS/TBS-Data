@@ -34,10 +34,10 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
                 Visible = IntegrationEnabled;
                 trigger OnAction()
                 var
-                    IsabelAPIMgt: Codeunit "Isabel API Management";
+                    IsabelAPIMgt: Codeunit "Isabel Payment API Mgt.";
                 begin
-                    IsabelAPIMgt.CertificateAndHash();
-                    // IsabelAPIMgt.PaymentsInitiation(Rec);
+                    // IsabelAPIMgt.CertificateAndHash();
+                    IsabelAPIMgt.PaymentsInitiation(Rec);
                 end;
             }
             action(CheckStatus)
@@ -49,7 +49,7 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
                 Visible = IntegrationEnabled;
                 trigger OnAction()
                 var
-                    IsabelAPIMgt: Codeunit "Isabel API Management";
+                    IsabelAPIMgt: Codeunit "Isabel Payment API Mgt.";
                 begin
                     IsabelAPIMgt.GetPaymentsStatus(Rec);
                 end;
@@ -58,7 +58,7 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
     }
     trigger OnOpenPage()
     var
-        IsabelAPiSetup: Record "Isabel API Setup";
+        IsabelAPiSetup: Record "Isabel6 Setup";
     begin
         IsabelAPiSetup.Get();
         IntegrationEnabled := IsabelAPiSetup."Integration Enabled";
