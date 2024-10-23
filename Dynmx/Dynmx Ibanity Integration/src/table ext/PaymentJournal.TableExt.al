@@ -13,4 +13,17 @@ tableextension 50140 "Payment Journal" extends "Payment Journal Line"
             ToolTip = 'Specifies the Payment Status for the initaited payment';
         }
     }
+
+    trigger OnDelete()
+    begin
+        TestField("Payment Request ID");
+        if ("Payment Request ID" <> '') then
+            case "Payment Status" of
+                'not-processed':
+                    Error('Cannot delete payments under processing');
+                'processed-ok':
+                    Error('Cannot delete processed payments');
+            end;
+
+    end;
 }

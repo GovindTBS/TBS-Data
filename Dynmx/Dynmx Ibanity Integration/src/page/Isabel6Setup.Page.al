@@ -1,7 +1,7 @@
 page 50140 "Isabel6 Setup"
 {
     PageType = Card;
-    Caption = 'Isabel6 API Setup';
+    Caption = 'Isabel6 Setup';
     SourceTable = "Isabel6 Setup";
     UsageCategory = Administration;
     ApplicationArea = all;
@@ -12,24 +12,20 @@ page 50140 "Isabel6 Setup"
         {
             group(General)
             {
-                Caption = 'General';
-                field("Client ID"; Rec."Client ID")
+                Caption = 'Isabel6';
+                field("Client ID"; Rec."Isabel6 Client ID")
                 {
                     Editable = Isabel6IntegrationEnabled;
                 }
-                field("Client Secret"; Rec."Client Secret")
+                field("Client Secret"; Rec."Isabel6 Client Secret")
                 {
                     Editable = Isabel6IntegrationEnabled;
                 }
-                field("Auth Token Endpoint"; Rec."Auth Token Endpoint")
+                field("Auth Token Endpoint"; Rec."Isabel6 Auth Token Endpoint")
                 {
                     Editable = Isabel6IntegrationEnabled;
                 }
                 field("Payment Initiation Endpoint"; Rec."Payment Initiation Endpoint")
-                {
-                    Editable = Isabel6IntegrationEnabled;
-                }
-                field("Account Statement Endpoint"; Rec."Account Statement Endpoint")
                 {
                     Editable = Isabel6IntegrationEnabled;
                 }
@@ -53,6 +49,34 @@ page 50140 "Isabel6 Setup"
                 {
                     Editable = Isabel6IntegrationEnabled;
                 }
+                field("SSL Certificate Uploaded"; Rec."SSL Certificate Uploaded")
+                {
+                    Editable = false;
+                }
+            }
+
+            group(Codabox)
+            {
+                field("Codabox Client ID"; Rec."Codabox Client ID")
+                {
+                    Editable = Isabel6IntegrationEnabled;
+                }
+                field(" Codabox Client Secret"; Rec."Codabox Client Secret")
+                {
+                    Editable = Isabel6IntegrationEnabled;
+                }
+                field("Codabox Auth Token Endpoint"; Rec."Codabox Auth Token Endpoint")
+                {
+                    Editable = Isabel6IntegrationEnabled;
+                }
+                field("Accounting Office Company No."; Rec."Accounting Office Company No.")
+                {
+                    Editable = Isabel6IntegrationEnabled;
+                }
+                field("Account Statement Endpoint"; Rec."Account Statement Endpoint")
+                {
+                    Editable = Isabel6IntegrationEnabled;
+                }
                 field("Accounting Office Endpoint"; Rec."Accounting Office Endpoint")
                 {
                     Editable = Isabel6IntegrationEnabled;
@@ -61,11 +85,6 @@ page 50140 "Isabel6 Setup"
                 {
                     Editable = Isabel6IntegrationEnabled;
                 }
-                field("SSL Certificate Uploaded"; Rec."SSL Certificate Uploaded")
-                {
-                    Editable = false;
-                }
-
             }
         }
     }
@@ -166,8 +185,8 @@ page 50140 "Isabel6 Setup"
 
     procedure ValidateCitiSetup()
     begin
-        Rec.TestField("Client ID");
-        Rec.TestField("Client Secret");
+        Rec.TestField("Isabel6 Client ID");
+        Rec.TestField("Isabel6 Client Secret");
         Rec.TestField("SSL Certificate Uploaded", true);
     end;
 

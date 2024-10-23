@@ -27,31 +27,17 @@ report 50100 "Isabel6 Bank Statement"
                 }
             }
         }
-
-
-        actions
-        {
-            area(processing)
-            {
-                action("Generate Statement")
-                {
-                    ApplicationArea = All;
-                    Caption = 'Generate Statement';
-                    InFooterBar = true;
-
-                    trigger OnAction()
-                    var
-                        Isabel6StatementAPIMgt: Codeunit "Isabel Bank Statement API Mgt.";
-                    begin
-                        if (ToDate <> 0DT) and (FromDate <> 0DT) then
-                            Isabel6StatementAPIMgt.GetAccountInformationAndStatement(FromDate, ToDate)
-                        else
-                            Error('Select proper dates');
-                    end;
-                }
-            }
-        }
     }
+
+    trigger OnPostReport()
+    var
+        Isabel6StatementAPIMgt: Codeunit "Codabox Bank Stmt API Mgt.";
+    begin
+        if (ToDate <> 0DT) and (FromDate <> 0DT) then
+            Isabel6StatementAPIMgt.GetAccountInformationAndStatement(FromDate, ToDate)
+        else
+            Error('Select proper dates');
+    end;
 
     var
         FromDate: DateTime;

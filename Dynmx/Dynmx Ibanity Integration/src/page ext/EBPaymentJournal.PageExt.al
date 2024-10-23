@@ -34,10 +34,21 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
                 Visible = IntegrationEnabled;
                 trigger OnAction()
                 var
-                    IsabelAPIMgt: Codeunit "Isabel Payment API Mgt.";
+                    PaymentJournalLine: Record "Payment Journal Line";
+                    BankAccount: Record "Bank Account";
+                    IsabelAPIMgt: Codeunit "Isabel6 Payment API Mgt.";
                 begin
-                    // IsabelAPIMgt.CertificateAndHash();
-                    IsabelAPIMgt.PaymentsInitiation(Rec);
+                    PaymentJournalLine.Reset();
+                    PaymentJournalLine.SetRange("Journal Template Name", Rec."Journal Template Name");
+                    PaymentJournalLine.SetRange("Journal Batch Name", Rec."Journal Batch Name");
+                    if PaymentJournalLine.FindSet() then
+                        repeat
+                            PaymentJournalLine.TestField("Bank Account");
+                            PaymentJournalLine.TestField("Beneficiary Bank Account");
+                            BankAccount.Get(PaymentJournalLine."Bank Account");
+                            BankAccount.TestField("Isabel Account", true);
+                            IsabelAPIMgt.PaymentsInitiation(PaymentJournalLine);
+                        until PaymentJournalLine.Next() = 0;
                 end;
             }
             action(CheckStatus)
@@ -49,9 +60,17 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
                 Visible = IntegrationEnabled;
                 trigger OnAction()
                 var
-                    IsabelAPIMgt: Codeunit "Isabel Payment API Mgt.";
+                    PaymentJournalLine: Record "Payment Journal Line";
+                    IsabelAPIMgt: Codeunit "Isabel6 Payment API Mgt.";
                 begin
-                    IsabelAPIMgt.GetPaymentsStatus(Rec);
+                    PaymentJournalLine.Reset();
+                    PaymentJournalLine.SetRange("Journal Template Name", Rec."Journal Template Name");
+                    PaymentJournalLine.SetRange("Journal Batch Name", Rec."Journal Batch Name");
+                    if PaymentJournalLine.FindSet() then
+                        repeat
+                            if PaymentJournalLine."Payment Request ID" <> '' then
+                                IsabelAPIMgt.GetPaymentsStatus(PaymentJournalLine);
+                        until PaymentJournalLine.Next() = 0;
                 end;
             }
         }

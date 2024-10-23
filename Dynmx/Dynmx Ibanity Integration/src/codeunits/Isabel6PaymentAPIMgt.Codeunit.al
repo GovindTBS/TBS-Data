@@ -1,8 +1,6 @@
-codeunit 50140 "Isabel Payment API Mgt."
+codeunit 50140 "Isabel6 Payment API Mgt."
 {
     Permissions = tabledata "Isabel6 Setup" = RIMD;
-
-
     procedure PaymentsInitiation(PaymentJournalLine: Record "Payment Journal Line")
     var
         Isabel6APISetup: Record "Isabel6 Setup";
@@ -32,7 +30,7 @@ codeunit 50140 "Isabel Payment API Mgt."
 
         RequestContent.WriteFrom(XMLPayload);
         RequestMessage.GetHeaders(RequestHeader);
-        RequestHeader.Add('Authorization', 'Bearer ' + Isabel6APISetup."Auth Token");
+        RequestHeader.Add('Authorization', 'Bearer ' + Isabel6APISetup."Isabel6 Auth Token");
         if RequestHeader.Contains('Accept') then
             RequestHeader.Remove('Accept');
         RequestHeader.Add('Accept', 'application/vnd.api+json');
@@ -88,7 +86,7 @@ codeunit 50140 "Isabel Payment API Mgt."
         URI := StrSubstNo('%1/%2', URI, PaymentJournalLine."Payment Request ID");
 
         RequestMessage.GetHeaders(RequestHeader);
-        RequestHeader.Add('Authorization', 'Bearer ' + Isabel6APISetup."Auth Token");
+        RequestHeader.Add('Authorization', 'Bearer ' + Isabel6APISetup."Isabel6 Auth Token");
         if RequestHeader.Contains('Accept') then
             RequestHeader.Remove('Accept');
         RequestHeader.Add('Accept', 'application/vnd.api+json');
@@ -142,7 +140,7 @@ codeunit 50140 "Isabel Payment API Mgt."
             PaymentRequestStatus := Status.AsValue().AsText();
     end;
 
-    procedure GetAuthToken(): Boolean
+    local procedure GetAuthToken(): Boolean
     var
         IsabelAPISetup: Record "Isabel6 Setup";
         Base64Convert: Codeunit "Base64 Convert";
@@ -164,8 +162,8 @@ codeunit 50140 "Isabel Payment API Mgt."
         IsabelAPISetup."SSL Certificate Value".CreateInStream(InputStream);
         Certificate := Base64Convert.ToBase64(InputStream);
 
-        URI := IsabelAPISetup."Auth Token Endpoint";
-        URI := StrSubstNo(EncodedUriLbl, IsabelAPISetup."Auth Token Endpoint", 'authorization_code', IsabelAPISetup."Authorization Code", '');
+        URI := IsabelAPISetup."Isabel6 Auth Token Endpoint";
+        URI := StrSubstNo(EncodedUriLbl, IsabelAPISetup."Isabel6 Auth Token Endpoint", 'authorization_code', IsabelAPISetup."Authorization Code", '');
 
         RequestMessage.GetHeaders(RequestHeader);
         RequestHeader.Add('Authorization', SecretStrSubstNo('Basic %1', GetEncodedClientSecret()));
@@ -191,8 +189,8 @@ codeunit 50140 "Isabel Payment API Mgt."
 
         JsonPayload.ReadFrom(ResponseBody);
         if JsonPayload.Get('access_token', AccessToken) then begin
-            IsabelAPISetup."Auth Token" := '';
-            IsabelAPISetup."Auth Token" := Format(AccessToken.AsValue().AsText());
+            IsabelAPISetup."Isabel6 Auth Token" := '';
+            IsabelAPISetup."Isabel6 Auth Token" := Format(AccessToken.AsValue().AsText());
             IsabelAPISetup.Modify();
             exit(true);
         end;
@@ -205,11 +203,11 @@ codeunit 50140 "Isabel Payment API Mgt."
         Base64Value: Text;
     begin
         IsabelAPISetup.Get();
-        Base64Value := Base64Convert.ToBase64(StrSubstNo('%1:%2', IsabelAPISetup."Client ID", IsabelAPISetup."Client Secret"), TextEncoding::UTF8);
+        Base64Value := Base64Convert.ToBase64(StrSubstNo('%1:%2', IsabelAPISetup."Isabel6 Client ID", IsabelAPISetup."Isabel6 Client Secret"), TextEncoding::UTF8);
         exit(Base64Value);
     end;
 
-    local procedure GetPaymentsInitiationRequestPayload(PaymentJournalLine: Record "Payment Journal Line"): Text
+    procedure GetPaymentsInitiationRequestPayload(PaymentJournalLine: Record "Payment Journal Line"): Text
     var
         TempBlob: Codeunit "Temp Blob";
         OutputSTream: OutStream;
@@ -223,18 +221,7 @@ codeunit 50140 "Isabel Payment API Mgt."
         exit(XMLPayload);
     end;
 
-    procedure CertificateAndHash()
     var
-        X509Certificate2: Codeunit X509Certificate2;
-        CertBase64: Text;
-        CertificateProperties: Text;
-    begin
-        CertBase64 := 'MIIFNTCCAx2gAwIBAgIUDBYgNcUFIk/o7590NovlOY6o0xEwDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkJFMTYwNAYDVQQDDC1JYmFuaXR5IFByb2R1Y3Rpb24gVGhpcmQgUGFydHkgQXBwbGljYXRpb24gQ0ExFTATBgNVBAoMDElzYWJlbCBHcm91cDErMCkGA1UECwwiSXNhYmVsIEdyb3VwIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0yNDEwMDEwODUwMTJaFw0yNTExMDEwODUwNDJaMIHKMQswCQYDVQQGEwJCRTEVMBMGA1UEChMMSXNhYmVsIEdyb3VwMSswKQYDVQQLEyJJc2FiZWwgR3JvdXAgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MUgwRgYDVQQDEz9EeSBhcHBsaWNhdGlvbiBzaWduYXR1cmUgKDU5MGZlNjY2LThlMmEtNDc1Ny04Y2E0LWE5NDU0YmJkNTgxMSkxLTArBgNVBAUTJDEwZGVhNDQ3LWFlYmMtNGI5My1iZjdhLWJiZGJmNGEzNmRiZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOqXBMd1n2EamYEvl1vJueHepJjD9TmX32elt/7n4KeDIge4N+LZ4JJUjcH0Os5QLU+wIwh7B/3jbOzOFkbvCnJT4GhmN4mmG5XQ5Zi2ZiLSMC7Ryibpc4vzTMfLG8hXqqakW8jgtVbuM2D7b4yjE4bf7i20XWKLXls53RA4r1TqzXxtvoxcnjT1DtzqbkFLsLKXbQpdMxMMv8T4rg3X6vbcyCjrDeZrucafz1hmbDwKuq4LNogWU4YAHebKbTyxayN9ctj/1o4/IkfxtJY1/JE5B1KkhzUMKK1X4S/mfTe18HrW5VTvMIisNMgPt8NsWk46McTyPubPVBSr/j6ntUUCAwEAAaNSMFAwDgYDVR0PAQH/BAQDAgOoMB0GA1UdDgQWBBQjUNVAXfIHj0SoQtKQBX+QdoCJOzAfBgNVHSMEGDAWgBRbTWya9sGCdDRZ7249f8EreUv4nTANBgkqhkiG9w0BAQsFAAOCAgEAh9Ex1udCq0Lop4ZuLXmAlbGF6Ln9W4SY2EhmDVd4c2jkZ5etGdMQ+HLEJYtM84rQlnY/Ah5eHjWOCRmTJMrdWgj/n6Nqv9eMA8DRky1KU0trdYbGco3Yk0486OpPkD3CaExp07ONK9KmSM72UxwBUW6SZa3tfqHIlwbR24abxoMhTT3PxfZVr5KGhRqlEB6NUcWLUAerx04UCIHFuYRkv0A+6T+bQzZg8GqCEOjqBOvApleyKByL/s/FmguQjxJb5bO7QsMN5AupWGx2xufwUx1Dkgv4Hy889JVLgqNhF3n479q+MqHXv/65mNhOBBMn2EfO3hqI1qV670RxtDP/zn8VTGk83bw4STvlsB0KgfYqJLQI/pO8hvuB9G9m+xwalxJwVos3nHyvaRiow1s58JHwOesvyrKD0zbZE6VdkUjR9pqEi+aKryNfXVMae0YDLL8n/mZwCTa5kSFPOHrUyKX3eCkxHj0sLdql5uDTBVDsuZsciSLo6+BIruAKMujQB4lJA7FhWFJ84GzO7CwA09t6L3RrMDniuh0sR4T07y//B7lKFEBL3B42BMr3QdoMArCTJ1Cl/6OkgFJYYIEGEOcU1GVf77zJjgCsdjDpiiRiKl5Pwdr6fV44WjbDgzS1EjpyMa+J8LNrveWL/T68uZ9dNQLZ2gsvRxIEm1Uf984=';
-        X509Certificate2.GetCertificatePropertiesAsJson(CertBase64, 'mIqn8t8As-skB5d', CertificateProperties);
-        Message(CertificateProperties);
-    end;
-
-    var
-        RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
-        EncodedUriLbl: Label '%1?grant_type=%2&code=%3&redirect_uri=%4', Comment = '%1 = URL, %2 = client ID,%3= ,%4 =';
+RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
+EncodedUriLbl: Label '%1?grant_type=%2&code=%3&redirect_uri=%4', Comment = '%1 = URL, %2 = client ID,%3= ,%4 =';
 }

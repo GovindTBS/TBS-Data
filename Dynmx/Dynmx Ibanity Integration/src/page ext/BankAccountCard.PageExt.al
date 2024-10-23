@@ -1,5 +1,15 @@
 pageextension 50141 "Bank Account Card" extends "Bank Account Card"
 {
+    layout
+    {
+        addlast(General)
+        {
+            field("Isabel Account"; Rec."Isabel Account")
+            {
+                ApplicationArea = all;
+            }
+        }
+    }
     actions
     {
         addafter("CODA Statements")
@@ -9,12 +19,18 @@ pageextension 50141 "Bank Account Card" extends "Bank Account Card"
                 ApplicationArea = All;
                 ToolTip = 'Allows to import CODA bank statement from Isabel API.';
                 Caption = 'Import Isabel CODA';
-                Promoted = true;
                 Image = Import;
                 trigger OnAction()
                 begin
                     Report.Run(Report::"Isabel6 Bank Statement");
                 end;
+            }
+        }
+        addafter("CODA Statements_Promoted")
+        {
+            actionref("Import Isabel &CODA"; "Import Isabel CODA")
+            {
+
             }
         }
     }
