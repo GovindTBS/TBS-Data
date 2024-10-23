@@ -11839,5 +11839,12 @@
   "%1 must not be longer than %2.":{
     "ITA":"%1 non deve essere superiore a %2."},
   "rdf:about":{
-    "ITA":"rdf:Informazioni"}
+    "ITA":"rdf:Informazioni"},
+  "XML Buffer":{},
+  "Depth":{},
+  "Parent Entry No.":{},
+  "Is Parent":{},
+  "Has Attributes":{},
+  "Node Number":{},
+  "Namespace":{}
 }
