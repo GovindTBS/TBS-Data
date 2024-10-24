@@ -1,3 +1,7 @@
+namespace Isabel6;
+
+using Microsoft.Bank.Payment;
+
 tableextension 50140 "Payment Journal" extends "Payment Journal Line"
 {
     fields

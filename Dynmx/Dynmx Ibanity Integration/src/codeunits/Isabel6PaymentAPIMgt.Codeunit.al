@@ -1,3 +1,9 @@
+namespace Isabel6;
+
+using Microsoft.Bank.Payment;
+using System.Text;
+using System.Utilities;
+
 codeunit 50140 "Isabel6 Payment API Mgt."
 {
     Permissions = tabledata "Isabel6 Setup" = RIMD;

@@ -1,3 +1,7 @@
+namespace Isabel6;
+
+using Microsoft.Bank.Payment;
+
 xmlport 50140 "SEPA CT pain.001.001.02"
 {
     Caption = 'SEPA CT pain.001.001.03';

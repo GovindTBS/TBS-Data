@@ -1,3 +1,7 @@
+namespace Isabel6;
+
+using Microsoft.Bank.BankAccount;
+
 pageextension 50141 "Bank Account Card" extends "Bank Account Card"
 {
     layout
@@ -22,16 +26,14 @@ pageextension 50141 "Bank Account Card" extends "Bank Account Card"
                 Image = Import;
                 trigger OnAction()
                 begin
-                    Report.Run(Report::"Isabel6 Bank Statement");
+                    Report.Run(Report::"Isabel6 Bank Statement", true, false);
                 end;
             }
         }
         addafter("CODA Statements_Promoted")
         {
             actionref("Import Isabel &CODA"; "Import Isabel CODA")
-            {
-
-            }
+            { }
         }
     }
 }

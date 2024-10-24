@@ -1,3 +1,8 @@
+namespace Isabel6;
+
+using Microsoft.Bank.Payment;
+using Microsoft.Bank.BankAccount;
+
 pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
 {
     layout
@@ -41,6 +46,7 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
                     PaymentJournalLine.Reset();
                     PaymentJournalLine.SetRange("Journal Template Name", Rec."Journal Template Name");
                     PaymentJournalLine.SetRange("Journal Batch Name", Rec."Journal Batch Name");
+                    PaymentJournalLine.SetFilter("Payment Request ID", '=%1', '');
                     if PaymentJournalLine.FindSet() then
                         repeat
                             PaymentJournalLine.TestField("Bank Account");
@@ -75,6 +81,7 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
             }
         }
     }
+
     trigger OnOpenPage()
     var
         IsabelAPiSetup: Record "Isabel6 Setup";

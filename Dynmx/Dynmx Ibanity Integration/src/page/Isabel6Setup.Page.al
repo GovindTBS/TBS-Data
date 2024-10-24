@@ -1,3 +1,5 @@
+namespace Isabel6;
+
 page 50140 "Isabel6 Setup"
 {
     PageType = Card;

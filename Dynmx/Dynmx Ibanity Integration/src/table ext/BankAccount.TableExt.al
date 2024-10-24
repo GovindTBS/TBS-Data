@@ -1,3 +1,7 @@
+namespace Isabel6;
+
+using Microsoft.Bank.BankAccount;
+
 tableextension 50141 "Bank Account" extends "Bank Account"
 {
     fields

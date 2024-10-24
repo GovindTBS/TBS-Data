@@ -1,8 +1,18 @@
+namespace Isabel6;
+
+using Microsoft.Bank.BankAccount;
+
 report 50100 "Isabel6 Bank Statement"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     ProcessingOnly = true;
+    //UseRequestPage = true;
+
+    dataset
+    {
+        dataitem(BankAccount; "Bank Account") { }
+    }
 
     requestpage
     {
@@ -34,7 +44,7 @@ report 50100 "Isabel6 Bank Statement"
         Isabel6StatementAPIMgt: Codeunit "Codabox Bank Stmt API Mgt.";
     begin
         if (ToDate <> 0DT) and (FromDate <> 0DT) then
-            Isabel6StatementAPIMgt.GetAccountInformationAndStatement(FromDate, ToDate)
+            Isabel6StatementAPIMgt.GetAccountInformationAndStatement(FromDate, ToDate, BankAccount."No.")
         else
             Error('Select proper dates');
     end;

@@ -1,17 +1,25 @@
+namespace Isabel6;
+
+using System.Text;
+using Microsoft.Bank.BankAccount;
+using Microsoft.Bank.CODA;
+
 codeunit 50141 "Codabox Bank Stmt API Mgt."
 {
-    procedure GetAccountInformationAndStatement(FromDate: DateTime; ToDate: DateTime)
+    procedure GetAccountInformationAndStatement(FromDate: DateTime; ToDate: DateTime; BankAccountNo: Code[20])
     var
         AccountStatementID: Text;
         ClientID: Text;
+        Statement: Text;
     begin
         GetAuthToken();
         PostAccountingOfficeConsent();
         DocumentSearch(FromDate, ToDate, ClientID, AccountStatementID);
-        GetAccountStatement(AccountStatementID, ClientID);
+        Statement := GetAccountStatement(AccountStatementID, ClientID);
+        ImportCodaStatementFromText(Statement, BankAccountNo);
     end;
 
-    local procedure GetAccountStatement(AccountStatementID: Text; ClientID: Text)
+    local procedure GetAccountStatement(AccountStatementID: Text; ClientID: Text): Text
     var
         Isabel6Setup: Record "Isabel6 Setup";
         Base64Convert: Codeunit "Base64 Convert";
@@ -45,7 +53,8 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
             Error(RequestErrLbl, ResponseMessage.HttpStatusCode(), ResponseMessage.ReasonPhrase());
 
         ResponseMessage.Content().ReadAs(ResponseBody);
-        Message(ResponseBody);
+
+        exit(ResponseBody);
     end;
 
     local procedure DocumentSearch(FromDate: DateTime; ToDate: DateTime; var DocClientID: Text; var StmtID: Text)
@@ -103,7 +112,6 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
             Error(RequestErrLbl, ResponseMessage.HttpStatusCode(), ResponseMessage.ReasonPhrase());
 
         JsonResponse.ReadFrom(ResponseBody);
-        // JsonResponse.Get('data', ResponseData);
         if JsonResponse.Get('included', IncludedNode) then
             if IncludedNode.AsObject().Get('documents', DocumentsNode) then
                 if DocumentsNode.AsArray().Count > 0 then begin
@@ -373,6 +381,111 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
         exit(ExpiryDateTime);
     end;
 
+    procedure ImportCodaStatementFromText(TextData: Text; BankAccountNo: Code[20])
+    begin
+        BankAccNo := BankAccountNo;
+        CodaMgmt.InitCodaImport(BankAccNo);
+        FirstTime := true;
+        InLines := false;
+        Pos := 1;
+        LineLength := StrLen(TextData);
+        LineNo := 0;
+
+        if CodBankStmtSrcLine.FindLast() then
+            TempStatementNo := IncStr(CodBankStmtSrcLine."Statement No.");
+        if TempStatementNo = '' then
+            TempStatementNo := CopyStr(BankAccNo, 1, 18) + '/1';
+        CodBankStmtSrcLine.Reset();
+
+        while Pos <= LineLength do begin
+            LineNo := LineNo + 1;
+
+            LineText := CopyStr(TextData, Pos, 128);
+            LineText := LineText.Trim();
+            Pos := Pos + 128;
+
+            CodBankStmtSrcLine.Init();
+            CodBankStmtSrcLine."Bank Account No." := BankAccNo;
+            CodBankStmtSrcLine."Statement No." := TempStatementNo;
+            CodBankStmtSrcLine."Line No." := LineNo;
+            CodBankStmtSrcLine.Data := LineText;
+
+            PutRecordInDatabase();
+        end;
+    end;
+
+    procedure PutRecordInDatabase()
     var
+        i: Integer;
+    begin
+        if not Evaluate(i, CopyStr(CodBankStmtSrcLine.Data, 1, 1)) then begin
+            if InLines then
+                Error(Text000Lbl, CodBankStmtSrcLine.Data);
+
+            CodaMgmt.SkipLine();
+            exit;
+        end;
+        CodBankStmtSrcLine.ID := i;
+
+        if not ((VersionCode = '2') and (CodBankStmtSrcLine.ID = CodBankStmtSrcLine.ID::"Free Message")) then
+            CodaMgmt.UpdateLineCounter(CodBankStmtSrcLine);
+
+        case CodBankStmtSrcLine.ID of
+            CodBankStmtSrcLine.ID::Header:
+                CodBankStmtSrcLine.Insert();
+            // begin
+            // CodaMgmt.CheckCodaHeader(CodBankStmtSrcLine);
+            // end;
+            CodBankStmtSrcLine.ID::"Old Balance":
+                begin
+                    CodaMgmt.CheckOldBalance(CodBankStmtSrcLine);
+                    if FirstTime then begin
+                        TempStatementNo :=
+                          CodaMgmt.UpdateStatementNo(CodBankStmtSrcLine, TempStatementNo, CodBankStmtSrcLine."Statement No.");
+                        AccountType := CopyStr(CodBankStmtSrcLine.Data, 2, 1);
+                        FirstTime := false
+                    end else
+                        TempStatementNo := CodBankStmtSrcLine."Statement No.";
+                    CodBankStmtSrcLine.Insert();
+                end;
+            CodBankStmtSrcLine.ID::Movement, CodBankStmtSrcLine.ID::Information, CodBankStmtSrcLine.ID::"Free Message":
+                begin
+                    CodaMgmt.CheckCodaRecord(CodBankStmtSrcLine);
+                    CodBankStmtSrcLine.Insert();
+                end;
+            CodBankStmtSrcLine.ID::"New Balance":
+                begin
+                    CodaMgmt.CheckNewBalance(CodBankStmtSrcLine, AccountType);
+                    CodBankStmtSrcLine.Insert();
+                end;
+            CodBankStmtSrcLine.ID::Trailer:
+                begin
+                    CodaMgmt.CheckCodaTrailer(CodBankStmtSrcLine);
+                    CodaMgmt.Success();
+
+                    CodBankStmtSrcLine2.SetRange("Bank Account No.", BankAccNo);
+                    CodBankStmtSrcLine2.SetRange("Statement No.", TempStatementNo);
+                    REPORT.RunModal(REPORT::"Initialise CODA Stmt. Lines", false, false, CodBankStmtSrcLine2);
+                    CodBankStmtSrcLine2.DeleteAll();
+                    TempStatementNo := IncStr(TempStatementNo);
+                end;
+        end;
+    end;
+
+    var
+        CodBankStmtSrcLine2: Record "CODA Statement Source Line";
+        CodBankStmtSrcLine: Record "CODA Statement Source Line";
+        CodaMgmt: Codeunit "Coda Import Management";
+        BankAccNo: Code[20];
+        TempStatementNo: Code[20];
+        LineNo: Integer;
+        FirstTime: Boolean;
+        InLines: Boolean;
+        VersionCode: Text[1];
+        AccountType: Text[1];
+        Pos: Integer;
+        LineLength: Integer;
+        LineText: Text[128];
+        Text000Lbl: Label 'Line is not valid\%1.', Comment = '%1 = ';
         RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
 }
