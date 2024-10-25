@@ -15,7 +15,7 @@ codeunit 307 "No. Series - Sequence Impl." implements "No. Series - Single"
         tabledata "No. Series Line" = rimd;
 
     var
-        NoOverFlowErr: Label 'Number series can only use up to 18 digit numbers. %1 has %2 digits.', Comment = '%1 is a string that also contains digits. %2 is a number.';
+NoOverFlowErr: Label 'Number series can only use up to 18 digit numbers. %1 has %2 digits.', Comment = '%1 is a string that also contains digits. %2 is a number.';
         NoSeriesSequenceTxt: Label 'No. Series - Sequence', Locked = true;
         UpdatingSequenceBasedOnTempValueTxt: Label 'Updating sequence based on temporary value.', Locked = true;
 

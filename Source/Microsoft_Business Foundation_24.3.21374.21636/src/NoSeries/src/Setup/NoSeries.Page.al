@@ -310,7 +310,7 @@ page 456 "No. Series"
             }
             group(Category_Category4)
             {
-                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
+Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 3.';
                 ObsoleteReason = 'This promoted group is no longer used, please create a group manually.';
                 ObsoleteState = Pending;
                 ObsoleteTag = '24.0';
@@ -358,8 +358,8 @@ page 456 "No. Series"
         LastDateUsed: Date;
         AllowGaps: Boolean;
         Implementation: Enum "No. Series Implementation";
-        CheckNoSucceededTxt: Label 'The test was successful. Number %1 for date %2 was returned.', Comment = '%1 = A No. Series number, %2 = a date';
-        CheckNoFailedTxt: Label 'The test failed. No number was returned for date %1.', Comment = '%1 = a date';
+CheckNoSucceededTxt: Label 'The test was successful. Number %1 for date %2 was returned.', Comment = '%1 = A No. Series number, %2 = a date';
+CheckNoFailedTxt: Label 'The test failed. No number was returned for date %1.', Comment = '%1 = a date';
 
     protected procedure UpdateLineActionOnPage()
     var

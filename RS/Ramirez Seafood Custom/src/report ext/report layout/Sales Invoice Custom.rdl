@@ -9,7 +9,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.0.20283.0</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-10-25T06:14:27.3726280Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-10-25T06:46:03.6335544Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -482,6 +482,108 @@
         <Field Name="DisplayAssemblyLines">
           <DataField>DisplayAssemblyLines</DataField>
         </Field>
+        <Field Name="CompanyInfo_Address">
+          <DataField>CompanyInfo_Address</DataField>
+        </Field>
+        <Field Name="CompanyInfo_Address2">
+          <DataField>CompanyInfo_Address2</DataField>
+        </Field>
+        <Field Name="CompanyInfo_City">
+          <DataField>CompanyInfo_City</DataField>
+        </Field>
+        <Field Name="CompanyInfo_County">
+          <DataField>CompanyInfo_County</DataField>
+        </Field>
+        <Field Name="CompanyInfo_PostCode">
+          <DataField>CompanyInfo_PostCode</DataField>
+        </Field>
+        <Field Name="CompanyInfo_CountryRegionCode">
+          <DataField>CompanyInfo_CountryRegionCode</DataField>
+        </Field>
+        <Field Name="CompanyFaxNo">
+          <DataField>CompanyFaxNo</DataField>
+        </Field>
+        <Field Name="Bill_to_Name">
+          <DataField>Bill_to_Name</DataField>
+        </Field>
+        <Field Name="Bill_to_Address">
+          <DataField>Bill_to_Address</DataField>
+        </Field>
+        <Field Name="Bill_to_Address_2">
+          <DataField>Bill_to_Address_2</DataField>
+        </Field>
+        <Field Name="Bill_to_City">
+          <DataField>Bill_to_City</DataField>
+        </Field>
+        <Field Name="Bill_to_County">
+          <DataField>Bill_to_County</DataField>
+        </Field>
+        <Field Name="Bill_to_Country_Region_Code">
+          <DataField>Bill_to_Country_Region_Code</DataField>
+        </Field>
+        <Field Name="Bill_to_Post_Code">
+          <DataField>Bill_to_Post_Code</DataField>
+        </Field>
+        <Field Name="Ship_to_Address">
+          <DataField>Ship_to_Address</DataField>
+        </Field>
+        <Field Name="Ship_to_Address_2">
+          <DataField>Ship_to_Address_2</DataField>
+        </Field>
+        <Field Name="Ship_to_City">
+          <DataField>Ship_to_City</DataField>
+        </Field>
+        <Field Name="Ship_to_County">
+          <DataField>Ship_to_County</DataField>
+        </Field>
+        <Field Name="Ship_to_Country_Region_Code">
+          <DataField>Ship_to_Country_Region_Code</DataField>
+        </Field>
+        <Field Name="Ship_to_Post_Code">
+          <DataField>Ship_to_Post_Code</DataField>
+        </Field>
+        <Field Name="ShellfishPermit">
+          <DataField>ShellfishPermit</DataField>
+        </Field>
+        <Field Name="TERMS_Lbl">
+          <DataField>TERMS_Lbl</DataField>
+        </Field>
+        <Field Name="REP_Lbl">
+          <DataField>REP_Lbl</DataField>
+        </Field>
+        <Field Name="PHONE_Lbl">
+          <DataField>PHONE_Lbl</DataField>
+        </Field>
+        <Field Name="UM_Lbl">
+          <DataField>UM_Lbl</DataField>
+        </Field>
+        <Field Name="PRODUCTDESCRIPTION_Lbl">
+          <DataField>PRODUCTDESCRIPTION_Lbl</DataField>
+        </Field>
+        <Field Name="AMOUNT_Lbl">
+          <DataField>AMOUNT_Lbl</DataField>
+        </Field>
+        <Field Name="RECEIVEDBY_Lbl">
+          <DataField>RECEIVEDBY_Lbl</DataField>
+        </Field>
+        <Field Name="TIMEOFSHIPMENT_Lbl">
+          <DataField>TIMEOFSHIPMENT_Lbl</DataField>
+        </Field>
+        <Field Name="TOTAL__Lbl">
+          <DataField>TOTAL__Lbl</DataField>
+        </Field>
+        <Field Name="PRICE__Lbl">
+          <DataField>PRICE__Lbl</DataField>
+        </Field>
+        <Field Name="DocumentNo_Barcode">
+          <DataField>DocumentNo_Barcode</DataField>
+        </Field>
+        <Field Name="Sell_to_Customer_Name">
+          <DataField>Sell_to_Customer_Name</DataField>
+        </Field>
+        <Field Name="DocumentDate1">
+          <DataField>DocumentDate1</DataField>
+        </Field>
         <Field Name="LineNo_Line">
           <DataField>LineNo_Line</DataField>
         </Field>
@@ -620,6 +722,33 @@
         <Field Name="PricePer_Lbl">
           <DataField>PricePer_Lbl</DataField>
         </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+        </Field>
+        <Field Name="AmountFormat">
+          <DataField>AmountFormat</DataField>
+        </Field>
+        <Field Name="CommentLine">
+          <DataField>CommentLine</DataField>
+        </Field>
+        <Field Name="Document_No_">
+          <DataField>Document_No_</DataField>
+        </Field>
+        <Field Name="CatchMethod">
+          <DataField>CatchMethod</DataField>
+        </Field>
+        <Field Name="CountryOfOrigin">
+          <DataField>CountryOfOrigin</DataField>
+        </Field>
+        <Field Name="CatchMethodLbl">
+          <DataField>CatchMethodLbl</DataField>
+        </Field>
+        <Field Name="CountryOfOriginLbl">
+          <DataField>CountryOfOriginLbl</DataField>
+        </Field>
+        <Field Name="ItemDescription">
+          <DataField>ItemDescription</DataField>
+        </Field>
         <Field Name="DocumentNo_ShipmentLine">
           <DataField>DocumentNo_ShipmentLine</DataField>
         </Field>
@@ -655,6 +784,9 @@
         </Field>
         <Field Name="VariantCode_AssemblyLine">
           <DataField>VariantCode_AssemblyLine</DataField>
+        </Field>
+        <Field Name="No_">
+          <DataField>No_</DataField>
         </Field>
         <Field Name="WorkDescriptionLineNumber">
           <DataField>WorkDescriptionLineNumber</DataField>
@@ -922,138 +1054,6 @@
         </Field>
         <Field Name="CurrencySymbol">
           <DataField>CurrencySymbol</DataField>
-        </Field>
-        <Field Name="CompanyInfo_Address">
-          <DataField>CompanyInfo_Address</DataField>
-        </Field>
-        <Field Name="CompanyInfo_Address2">
-          <DataField>CompanyInfo_Address2</DataField>
-        </Field>
-        <Field Name="CompanyInfo_City">
-          <DataField>CompanyInfo_City</DataField>
-        </Field>
-        <Field Name="CompanyInfo_County">
-          <DataField>CompanyInfo_County</DataField>
-        </Field>
-        <Field Name="CompanyInfo_PostCode">
-          <DataField>CompanyInfo_PostCode</DataField>
-        </Field>
-        <Field Name="CompanyInfo_CountryRegionCode">
-          <DataField>CompanyInfo_CountryRegionCode</DataField>
-        </Field>
-        <Field Name="CompanyFaxNo">
-          <DataField>CompanyFaxNo</DataField>
-        </Field>
-        <Field Name="Bill_to_Name">
-          <DataField>Bill_to_Name</DataField>
-        </Field>
-        <Field Name="Bill_to_Address">
-          <DataField>Bill_to_Address</DataField>
-        </Field>
-        <Field Name="Bill_to_Address_2">
-          <DataField>Bill_to_Address_2</DataField>
-        </Field>
-        <Field Name="Bill_to_City">
-          <DataField>Bill_to_City</DataField>
-        </Field>
-        <Field Name="Bill_to_County">
-          <DataField>Bill_to_County</DataField>
-        </Field>
-        <Field Name="Bill_to_Country_Region_Code">
-          <DataField>Bill_to_Country_Region_Code</DataField>
-        </Field>
-        <Field Name="Bill_to_Post_Code">
-          <DataField>Bill_to_Post_Code</DataField>
-        </Field>
-        <Field Name="Ship_to_Address">
-          <DataField>Ship_to_Address</DataField>
-        </Field>
-        <Field Name="Ship_to_Address_2">
-          <DataField>Ship_to_Address_2</DataField>
-        </Field>
-        <Field Name="Ship_to_City">
-          <DataField>Ship_to_City</DataField>
-        </Field>
-        <Field Name="Ship_to_County">
-          <DataField>Ship_to_County</DataField>
-        </Field>
-        <Field Name="Ship_to_Country_Region_Code">
-          <DataField>Ship_to_Country_Region_Code</DataField>
-        </Field>
-        <Field Name="Ship_to_Post_Code">
-          <DataField>Ship_to_Post_Code</DataField>
-        </Field>
-        <Field Name="ShellfishPermit">
-          <DataField>ShellfishPermit</DataField>
-        </Field>
-        <Field Name="TERMS_Lbl">
-          <DataField>TERMS_Lbl</DataField>
-        </Field>
-        <Field Name="REP_Lbl">
-          <DataField>REP_Lbl</DataField>
-        </Field>
-        <Field Name="PHONE_Lbl">
-          <DataField>PHONE_Lbl</DataField>
-        </Field>
-        <Field Name="UM_Lbl">
-          <DataField>UM_Lbl</DataField>
-        </Field>
-        <Field Name="PRODUCTDESCRIPTION_Lbl">
-          <DataField>PRODUCTDESCRIPTION_Lbl</DataField>
-        </Field>
-        <Field Name="AMOUNT_Lbl">
-          <DataField>AMOUNT_Lbl</DataField>
-        </Field>
-        <Field Name="RECEIVEDBY_Lbl">
-          <DataField>RECEIVEDBY_Lbl</DataField>
-        </Field>
-        <Field Name="TIMEOFSHIPMENT_Lbl">
-          <DataField>TIMEOFSHIPMENT_Lbl</DataField>
-        </Field>
-        <Field Name="TOTAL__Lbl">
-          <DataField>TOTAL__Lbl</DataField>
-        </Field>
-        <Field Name="PRICE__Lbl">
-          <DataField>PRICE__Lbl</DataField>
-        </Field>
-        <Field Name="DocumentNo_Barcode">
-          <DataField>DocumentNo_Barcode</DataField>
-        </Field>
-        <Field Name="Amount">
-          <DataField>Amount</DataField>
-        </Field>
-        <Field Name="AmountFormat">
-          <DataField>AmountFormat</DataField>
-        </Field>
-        <Field Name="CommentLine">
-          <DataField>CommentLine</DataField>
-        </Field>
-        <Field Name="Document_No_">
-          <DataField>Document_No_</DataField>
-        </Field>
-        <Field Name="CatchMethod">
-          <DataField>CatchMethod</DataField>
-        </Field>
-        <Field Name="CountryOfOrigin">
-          <DataField>CountryOfOrigin</DataField>
-        </Field>
-        <Field Name="CatchMethodLbl">
-          <DataField>CatchMethodLbl</DataField>
-        </Field>
-        <Field Name="CountryOfOriginLbl">
-          <DataField>CountryOfOriginLbl</DataField>
-        </Field>
-        <Field Name="ItemDescription">
-          <DataField>ItemDescription</DataField>
-        </Field>
-        <Field Name="Sell_to_Customer_Name">
-          <DataField>Sell_to_Customer_Name</DataField>
-        </Field>
-        <Field Name="DocumentDate1">
-          <DataField>DocumentDate1</DataField>
-        </Field>
-        <Field Name="No_">
-          <DataField>No_</DataField>
         </Field>
       </Fields>
     </DataSet>
@@ -2558,10 +2558,10 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
-              <Top>0.98805cm</Top>
-              <Left>12.19412cm</Left>
+              <Top>0.95277cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.6cm</Height>
-              <Width>3.24493cm</Width>
+              <Width>4.25516cm</Width>
               <ZIndex>8</ZIndex>
               <Style>
                 <Border>
@@ -2592,10 +2592,10 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
-              <Top>0.98805cm</Top>
-              <Left>15.70076cm</Left>
+              <Top>0.95277cm</Top>
+              <Left>15.15344cm</Left>
               <Height>0.6cm</Height>
-              <Width>3.4483cm</Width>
+              <Width>4.47484cm</Width>
               <ZIndex>9</ZIndex>
               <Style>
                 <Border>
@@ -2626,8 +2626,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
-              <Top>1.76444cm</Top>
-              <Left>12.19412cm</Left>
+              <Top>1.69388cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.6cm</Height>
               <Width>1.57396cm</Width>
               <ZIndex>10</ZIndex>
@@ -2660,9 +2660,9 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
               <Top>1.76444cm</Top>
-              <Left>15.70076cm</Left>
+              <Left>15.15344cm</Left>
               <Height>0.6cm</Height>
-              <Width>1.75497cm</Width>
+              <Width>2.19646cm</Width>
               <ZIndex>11</ZIndex>
               <Style>
                 <Border>
@@ -2689,10 +2689,10 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox15</rd:DefaultName>
-              <Top>1.76444cm</Top>
-              <Left>13.83863cm</Left>
+              <Top>1.69388cm</Top>
+              <Left>12.43696cm</Left>
               <Height>0.6cm</Height>
-              <Width>1.60042cm</Width>
+              <Width>2.57536cm</Width>
               <ZIndex>12</ZIndex>
               <Style>
                 <Border>
@@ -2722,7 +2722,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
               <Top>1.76444cm</Top>
               <Left>17.45573cm</Left>
               <Height>0.6cm</Height>
-              <Width>1.69333cm</Width>
+              <Width>2.17255cm</Width>
               <ZIndex>13</ZIndex>
               <Style>
                 <Border>

@@ -9,7 +9,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.0.20283.0</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-10-25T06:14:27.3726280Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-10-25T09:07:34.4653877Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -482,6 +482,108 @@
         <Field Name="DisplayAssemblyLines">
           <DataField>DisplayAssemblyLines</DataField>
         </Field>
+        <Field Name="CompanyInfo_Address">
+          <DataField>CompanyInfo_Address</DataField>
+        </Field>
+        <Field Name="CompanyInfo_Address2">
+          <DataField>CompanyInfo_Address2</DataField>
+        </Field>
+        <Field Name="CompanyInfo_City">
+          <DataField>CompanyInfo_City</DataField>
+        </Field>
+        <Field Name="CompanyInfo_County">
+          <DataField>CompanyInfo_County</DataField>
+        </Field>
+        <Field Name="CompanyInfo_PostCode">
+          <DataField>CompanyInfo_PostCode</DataField>
+        </Field>
+        <Field Name="CompanyInfo_CountryRegionCode">
+          <DataField>CompanyInfo_CountryRegionCode</DataField>
+        </Field>
+        <Field Name="CompanyFaxNo">
+          <DataField>CompanyFaxNo</DataField>
+        </Field>
+        <Field Name="Bill_to_Name">
+          <DataField>Bill_to_Name</DataField>
+        </Field>
+        <Field Name="Bill_to_Address">
+          <DataField>Bill_to_Address</DataField>
+        </Field>
+        <Field Name="Bill_to_Address_2">
+          <DataField>Bill_to_Address_2</DataField>
+        </Field>
+        <Field Name="Bill_to_City">
+          <DataField>Bill_to_City</DataField>
+        </Field>
+        <Field Name="Bill_to_County">
+          <DataField>Bill_to_County</DataField>
+        </Field>
+        <Field Name="Bill_to_Country_Region_Code">
+          <DataField>Bill_to_Country_Region_Code</DataField>
+        </Field>
+        <Field Name="Bill_to_Post_Code">
+          <DataField>Bill_to_Post_Code</DataField>
+        </Field>
+        <Field Name="Ship_to_Address">
+          <DataField>Ship_to_Address</DataField>
+        </Field>
+        <Field Name="Ship_to_Address_2">
+          <DataField>Ship_to_Address_2</DataField>
+        </Field>
+        <Field Name="Ship_to_City">
+          <DataField>Ship_to_City</DataField>
+        </Field>
+        <Field Name="Ship_to_County">
+          <DataField>Ship_to_County</DataField>
+        </Field>
+        <Field Name="Ship_to_Country_Region_Code">
+          <DataField>Ship_to_Country_Region_Code</DataField>
+        </Field>
+        <Field Name="Ship_to_Post_Code">
+          <DataField>Ship_to_Post_Code</DataField>
+        </Field>
+        <Field Name="ShellfishPermit">
+          <DataField>ShellfishPermit</DataField>
+        </Field>
+        <Field Name="TERMS_Lbl">
+          <DataField>TERMS_Lbl</DataField>
+        </Field>
+        <Field Name="REP_Lbl">
+          <DataField>REP_Lbl</DataField>
+        </Field>
+        <Field Name="PHONE_Lbl">
+          <DataField>PHONE_Lbl</DataField>
+        </Field>
+        <Field Name="UM_Lbl">
+          <DataField>UM_Lbl</DataField>
+        </Field>
+        <Field Name="PRODUCTDESCRIPTION_Lbl">
+          <DataField>PRODUCTDESCRIPTION_Lbl</DataField>
+        </Field>
+        <Field Name="AMOUNT_Lbl">
+          <DataField>AMOUNT_Lbl</DataField>
+        </Field>
+        <Field Name="RECEIVEDBY_Lbl">
+          <DataField>RECEIVEDBY_Lbl</DataField>
+        </Field>
+        <Field Name="TIMEOFSHIPMENT_Lbl">
+          <DataField>TIMEOFSHIPMENT_Lbl</DataField>
+        </Field>
+        <Field Name="TOTAL__Lbl">
+          <DataField>TOTAL__Lbl</DataField>
+        </Field>
+        <Field Name="PRICE__Lbl">
+          <DataField>PRICE__Lbl</DataField>
+        </Field>
+        <Field Name="DocumentNo_Barcode">
+          <DataField>DocumentNo_Barcode</DataField>
+        </Field>
+        <Field Name="Sell_to_Customer_Name">
+          <DataField>Sell_to_Customer_Name</DataField>
+        </Field>
+        <Field Name="DocumentDate1">
+          <DataField>DocumentDate1</DataField>
+        </Field>
         <Field Name="LineNo_Line">
           <DataField>LineNo_Line</DataField>
         </Field>
@@ -620,6 +722,33 @@
         <Field Name="PricePer_Lbl">
           <DataField>PricePer_Lbl</DataField>
         </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+        </Field>
+        <Field Name="AmountFormat">
+          <DataField>AmountFormat</DataField>
+        </Field>
+        <Field Name="CommentLine">
+          <DataField>CommentLine</DataField>
+        </Field>
+        <Field Name="Document_No_">
+          <DataField>Document_No_</DataField>
+        </Field>
+        <Field Name="CatchMethod">
+          <DataField>CatchMethod</DataField>
+        </Field>
+        <Field Name="CountryOfOrigin">
+          <DataField>CountryOfOrigin</DataField>
+        </Field>
+        <Field Name="CatchMethodLbl">
+          <DataField>CatchMethodLbl</DataField>
+        </Field>
+        <Field Name="CountryOfOriginLbl">
+          <DataField>CountryOfOriginLbl</DataField>
+        </Field>
+        <Field Name="ItemDescription">
+          <DataField>ItemDescription</DataField>
+        </Field>
         <Field Name="DocumentNo_ShipmentLine">
           <DataField>DocumentNo_ShipmentLine</DataField>
         </Field>
@@ -655,6 +784,9 @@
         </Field>
         <Field Name="VariantCode_AssemblyLine">
           <DataField>VariantCode_AssemblyLine</DataField>
+        </Field>
+        <Field Name="No_">
+          <DataField>No_</DataField>
         </Field>
         <Field Name="WorkDescriptionLineNumber">
           <DataField>WorkDescriptionLineNumber</DataField>
@@ -922,138 +1054,6 @@
         </Field>
         <Field Name="CurrencySymbol">
           <DataField>CurrencySymbol</DataField>
-        </Field>
-        <Field Name="CompanyInfo_Address">
-          <DataField>CompanyInfo_Address</DataField>
-        </Field>
-        <Field Name="CompanyInfo_Address2">
-          <DataField>CompanyInfo_Address2</DataField>
-        </Field>
-        <Field Name="CompanyInfo_City">
-          <DataField>CompanyInfo_City</DataField>
-        </Field>
-        <Field Name="CompanyInfo_County">
-          <DataField>CompanyInfo_County</DataField>
-        </Field>
-        <Field Name="CompanyInfo_PostCode">
-          <DataField>CompanyInfo_PostCode</DataField>
-        </Field>
-        <Field Name="CompanyInfo_CountryRegionCode">
-          <DataField>CompanyInfo_CountryRegionCode</DataField>
-        </Field>
-        <Field Name="CompanyFaxNo">
-          <DataField>CompanyFaxNo</DataField>
-        </Field>
-        <Field Name="Bill_to_Name">
-          <DataField>Bill_to_Name</DataField>
-        </Field>
-        <Field Name="Bill_to_Address">
-          <DataField>Bill_to_Address</DataField>
-        </Field>
-        <Field Name="Bill_to_Address_2">
-          <DataField>Bill_to_Address_2</DataField>
-        </Field>
-        <Field Name="Bill_to_City">
-          <DataField>Bill_to_City</DataField>
-        </Field>
-        <Field Name="Bill_to_County">
-          <DataField>Bill_to_County</DataField>
-        </Field>
-        <Field Name="Bill_to_Country_Region_Code">
-          <DataField>Bill_to_Country_Region_Code</DataField>
-        </Field>
-        <Field Name="Bill_to_Post_Code">
-          <DataField>Bill_to_Post_Code</DataField>
-        </Field>
-        <Field Name="Ship_to_Address">
-          <DataField>Ship_to_Address</DataField>
-        </Field>
-        <Field Name="Ship_to_Address_2">
-          <DataField>Ship_to_Address_2</DataField>
-        </Field>
-        <Field Name="Ship_to_City">
-          <DataField>Ship_to_City</DataField>
-        </Field>
-        <Field Name="Ship_to_County">
-          <DataField>Ship_to_County</DataField>
-        </Field>
-        <Field Name="Ship_to_Country_Region_Code">
-          <DataField>Ship_to_Country_Region_Code</DataField>
-        </Field>
-        <Field Name="Ship_to_Post_Code">
-          <DataField>Ship_to_Post_Code</DataField>
-        </Field>
-        <Field Name="ShellfishPermit">
-          <DataField>ShellfishPermit</DataField>
-        </Field>
-        <Field Name="TERMS_Lbl">
-          <DataField>TERMS_Lbl</DataField>
-        </Field>
-        <Field Name="REP_Lbl">
-          <DataField>REP_Lbl</DataField>
-        </Field>
-        <Field Name="PHONE_Lbl">
-          <DataField>PHONE_Lbl</DataField>
-        </Field>
-        <Field Name="UM_Lbl">
-          <DataField>UM_Lbl</DataField>
-        </Field>
-        <Field Name="PRODUCTDESCRIPTION_Lbl">
-          <DataField>PRODUCTDESCRIPTION_Lbl</DataField>
-        </Field>
-        <Field Name="AMOUNT_Lbl">
-          <DataField>AMOUNT_Lbl</DataField>
-        </Field>
-        <Field Name="RECEIVEDBY_Lbl">
-          <DataField>RECEIVEDBY_Lbl</DataField>
-        </Field>
-        <Field Name="TIMEOFSHIPMENT_Lbl">
-          <DataField>TIMEOFSHIPMENT_Lbl</DataField>
-        </Field>
-        <Field Name="TOTAL__Lbl">
-          <DataField>TOTAL__Lbl</DataField>
-        </Field>
-        <Field Name="PRICE__Lbl">
-          <DataField>PRICE__Lbl</DataField>
-        </Field>
-        <Field Name="DocumentNo_Barcode">
-          <DataField>DocumentNo_Barcode</DataField>
-        </Field>
-        <Field Name="Amount">
-          <DataField>Amount</DataField>
-        </Field>
-        <Field Name="AmountFormat">
-          <DataField>AmountFormat</DataField>
-        </Field>
-        <Field Name="CommentLine">
-          <DataField>CommentLine</DataField>
-        </Field>
-        <Field Name="Document_No_">
-          <DataField>Document_No_</DataField>
-        </Field>
-        <Field Name="CatchMethod">
-          <DataField>CatchMethod</DataField>
-        </Field>
-        <Field Name="CountryOfOrigin">
-          <DataField>CountryOfOrigin</DataField>
-        </Field>
-        <Field Name="CatchMethodLbl">
-          <DataField>CatchMethodLbl</DataField>
-        </Field>
-        <Field Name="CountryOfOriginLbl">
-          <DataField>CountryOfOriginLbl</DataField>
-        </Field>
-        <Field Name="ItemDescription">
-          <DataField>ItemDescription</DataField>
-        </Field>
-        <Field Name="Sell_to_Customer_Name">
-          <DataField>Sell_to_Customer_Name</DataField>
-        </Field>
-        <Field Name="DocumentDate1">
-          <DataField>DocumentDate1</DataField>
-        </Field>
-        <Field Name="No_">
-          <DataField>No_</DataField>
         </Field>
       </Fields>
     </DataSet>
@@ -1983,7 +1983,24 @@ Cstr(Fields!Ship_to_County.Value) + Chr(177) +
 Cstr(Fields!Ship_to_Country_Region_Code.Value) + Chr(177) +
 Cstr(Fields!Ship_to_Post_Code.Value)+ Chr(177) +
 Cstr(Fields!DocumentNo_Barcode.Value)+ Chr(177) +
-Cstr(Fields!TOTAL__Lbl.Value)+ Chr(177) +
+Cstr(Fields!Bill_to_Contact_No_.Value)+ Chr(177) +
+Cstr(Fields!CustomerAddress1.Value)+ Chr(177) +
+Cstr(Fields!CustomerAddress2.Value)+ Chr(177) +
+Cstr(Fields!CustomerAddress3.Value)+ Chr(177) +
+Cstr(Fields!CustomerAddress4.Value)+ Chr(177) +
+Cstr(Fields!CustomerAddress5.Value)+ Chr(177) +
+Cstr(Fields!CustomerAddress6.Value)+ Chr(177) +
+Cstr(Fields!OrderNo_Lbl.Value)+ Chr(177) +
+Cstr(Fields!OrderNo.Value)+ Chr(177) +
+Cstr(Fields!SalesPersonBlank_Lbl.Value)+ Chr(177) +
+Cstr(Fields!SalesPersonName.Value)+ Chr(177) +
+Cstr(Fields!DueDate.Value)+ Chr(177) +
+Cstr(Fields!DueDate_Lbl.Value)+ Chr(177) +
+Cstr(Fields!PaymentTermsDescription_Lbl.Value)+ Chr(177) +
+Cstr(Fields!PaymentTermsDescription.Value)+ Chr(177) +
+Cstr(Fields!Amount_ReportTotalsLine.Value)+ Chr(177) +
+Cstr(Fields!TotalInvoiceDiscountAmount.Value)+ Chr(177) +
+Cstr(Fields!TotalNetAmount.Value)+ Chr(177) +
 Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                                             </Visibility>
                                             <Style>
@@ -2282,7 +2299,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
       <Width>20.58078cm</Width>
       <Page>
         <PageHeader>
-          <Height>8.50786cm</Height>
+          <Height>8.93119cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -2321,25 +2338,23 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>=First(Fields!CompanyInfo_Address.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>3.64807cm</Top>
+              <Top>3.96557cm</Top>
               <Left>0.55245cm</Left>
-              <Height>0.45889cm</Height>
+              <Height>0.38833cm</Height>
               <Width>8.30729cm</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -2353,19 +2368,16 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>=First(Fields!CompanyInfo_Address2.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress2</rd:DefaultName>
-              <Top>4.10696cm</Top>
+              <Top>4.45064cm</Top>
               <Left>0.55245cm</Left>
-              <Height>0.42361cm</Height>
+              <Height>0.38833cm</Height>
               <Width>8.30729cm</Width>
               <ZIndex>2</ZIndex>
               <Style>
@@ -2373,6 +2385,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <Style>None</Style>
                 </Border>
                 <BackgroundColor>White</BackgroundColor>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingBottom>2pt</PaddingBottom>
@@ -2386,17 +2399,14 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>=First(Fields!CompanyInfo_City.Value, "DataSet_Result") &amp; ", " &amp; First(Fields!CompanyInfo_County.Value, "DataSet_Result") &amp; " " &amp; First(Fields!CompanyInfo_PostCode.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress3</rd:DefaultName>
-              <Top>4.53057cm</Top>
+              <Top>4.84807cm</Top>
               <Left>0.55245cm</Left>
               <Height>0.44125cm</Height>
               <Width>8.30729cm</Width>
@@ -2405,6 +2415,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingBottom>2pt</PaddingBottom>
@@ -2418,17 +2429,14 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>="Phone : " &amp; First(Fields!CompanyPhoneNo.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox6</rd:DefaultName>
-              <Top>4.97182cm</Top>
+              <Top>5.35988cm</Top>
               <Left>0.55245cm</Left>
               <Height>0.44125cm</Height>
               <Width>8.30729cm</Width>
@@ -2437,6 +2445,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingBottom>2pt</PaddingBottom>
@@ -2450,17 +2459,14 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>="Fax : " &amp; First(Fields!CompanyFaxNo.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox7</rd:DefaultName>
-              <Top>5.41307cm</Top>
+              <Top>5.85002cm</Top>
               <Left>0.55245cm</Left>
               <Height>0.44125cm</Height>
               <Width>8.30729cm</Width>
@@ -2469,6 +2475,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingBottom>2pt</PaddingBottom>
@@ -2482,17 +2489,14 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>="Email : " &amp; First(Fields!CompanyEMail.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox7</rd:DefaultName>
-              <Top>5.85432cm</Top>
+              <Top>6.36183cm</Top>
               <Left>0.55245cm</Left>
               <Height>0.44125cm</Height>
               <Width>8.30729cm</Width>
@@ -2501,6 +2505,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingBottom>2pt</PaddingBottom>
@@ -2515,7 +2520,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                     <TextRun>
                       <Value>=Code.Getdata(15,1)</Value>
                       <Style>
-                        <FontFamily>IDAutomationHC39M</FontFamily>
+                        <FontFamily>IDAHC39M Code 39 Barcode</FontFamily>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -2548,20 +2553,17 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>=Fields!DocumentDate1.Value</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>14pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
-              <Top>0.98805cm</Top>
-              <Left>12.19412cm</Left>
+              <Top>0.95277cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.6cm</Height>
-              <Width>3.24493cm</Width>
+              <Width>4.25516cm</Width>
               <ZIndex>8</ZIndex>
               <Style>
                 <Border>
@@ -2582,20 +2584,17 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>=Code.GetData(1,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>14pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
-              <Top>0.98805cm</Top>
-              <Left>15.70076cm</Left>
+              <Top>0.95277cm</Top>
+              <Left>15.15344cm</Left>
               <Height>0.6cm</Height>
-              <Width>3.4483cm</Width>
+              <Width>4.47484cm</Width>
               <ZIndex>9</ZIndex>
               <Style>
                 <Border>
@@ -2616,18 +2615,15 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>=Fields!TERMS_Lbl.Value</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
-              <Top>1.76444cm</Top>
-              <Left>12.19412cm</Left>
+              <Top>1.69388cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.6cm</Height>
               <Width>1.57396cm</Width>
               <ZIndex>10</ZIndex>
@@ -2650,8 +2646,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                     <TextRun>
                       <Value>=Fields!REP_Lbl.Value</Value>
                       <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontWeight>Bold</FontWeight>
+                        <FontWeight>Normal</FontWeight>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -2660,9 +2655,9 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
               </Paragraphs>
               <rd:DefaultName>Textbox11</rd:DefaultName>
               <Top>1.76444cm</Top>
-              <Left>15.70076cm</Left>
+              <Left>15.15344cm</Left>
               <Height>0.6cm</Height>
-              <Width>1.75497cm</Width>
+              <Width>2.19646cm</Width>
               <ZIndex>11</ZIndex>
               <Style>
                 <Border>
@@ -2689,10 +2684,10 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox15</rd:DefaultName>
-              <Top>1.76444cm</Top>
-              <Left>13.83863cm</Left>
+              <Top>1.69388cm</Top>
+              <Left>12.43696cm</Left>
               <Height>0.6cm</Height>
-              <Width>1.60042cm</Width>
+              <Width>2.57536cm</Width>
               <ZIndex>12</ZIndex>
               <Style>
                 <Border>
@@ -2722,7 +2717,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
               <Top>1.76444cm</Top>
               <Left>17.45573cm</Left>
               <Height>0.6cm</Height>
-              <Width>1.69333cm</Width>
+              <Width>2.17255cm</Width>
               <ZIndex>13</ZIndex>
               <Style>
                 <Border>
@@ -2742,124 +2737,23 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>=First(Fields!CompanyAddress1.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>3.18918cm</Top>
+              <Top>3.50668cm</Top>
               <Left>0.55245cm</Left>
-              <Height>0.45889cm</Height>
+              <Height>0.38833cm</Height>
               <Width>8.30729cm</Width>
               <ZIndex>14</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-              </Style>
-            </Textbox>
-            <Textbox Name="CompanyAddress5">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(2,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Left</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>2.54083cm</Top>
-              <Left>11.32099cm</Left>
-              <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>15</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-              </Style>
-            </Textbox>
-            <Textbox Name="CompanyAddress6">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(4,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Left</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>3.40569cm</Top>
-              <Left>11.32099cm</Left>
-              <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>16</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-              </Style>
-            </Textbox>
-            <Textbox Name="CompanyAddress7">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(3,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Left</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>2.97326cm</Top>
-              <Left>11.32099cm</Left>
-              <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>17</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -2872,10 +2766,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(5,1) &amp; ", " &amp; Code.GetData(6,1) &amp; " " &amp; Code.GetData(8,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
+                      <Value>=Code.GetData(17,1)</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>
@@ -2884,15 +2776,16 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>3.83812cm</Top>
-              <Left>11.32099cm</Left>
+              <Top>4.10585cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>18</ZIndex>
+              <Width>8.90639cm</Width>
+              <ZIndex>15</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -2905,10 +2798,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(7,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
+                      <Value>=Code.GetData(18,1)</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>
@@ -2917,15 +2808,16 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>4.27055cm</Top>
-              <Left>11.32099cm</Left>
+              <Top>4.53828cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>19</ZIndex>
+              <Width>8.90639cm</Width>
+              <ZIndex>16</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -2938,10 +2830,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(9,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
+                      <Value>=Code.GetData(19,1)</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>
@@ -2950,15 +2840,16 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>4.74196cm</Top>
-              <Left>11.32099cm</Left>
+              <Top>5.00969cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>20</ZIndex>
+              <Width>8.90639cm</Width>
+              <ZIndex>17</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -2971,10 +2862,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(10,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
+                      <Value>=Code.GetData(20,1)</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>
@@ -2983,15 +2872,16 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>5.17439cm</Top>
-              <Left>11.32099cm</Left>
+              <Top>5.44212cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>21</ZIndex>
+              <Width>8.90639cm</Width>
+              <ZIndex>18</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -3004,10 +2894,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(11,1) &amp; ", " &amp; Code.GetData(12,1) &amp; " " &amp; Code.GetData(14,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
+                      <Value>=Code.GetData(21,1)</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>
@@ -3016,15 +2904,16 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>5.60682cm</Top>
-              <Left>11.32099cm</Left>
+              <Top>5.87455cm</Top>
+              <Left>10.72189cm</Left>
               <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>22</ZIndex>
+              <Width>8.90639cm</Width>
+              <ZIndex>19</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -3037,10 +2926,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(13,1)</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                      </Style>
+                      <Value>=Code.GetData(22,1)</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style>
@@ -3049,87 +2936,19 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>CompanyAddress1</rd:DefaultName>
-              <Top>6.03925cm</Top>
-              <Left>11.32099cm</Left>
-              <Height>0.43243cm</Height>
-              <Width>8.30729cm</Width>
-              <ZIndex>23</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-              </Style>
-            </Textbox>
-            <Textbox Name="Textbox35">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>B</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>I</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>L</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>L</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox35</rd:DefaultName>
-              <Top>2.66911cm</Top>
+              <Top>6.30698cm</Top>
               <Left>10.72189cm</Left>
-              <Height>1.75535cm</Height>
-              <Width>0.42271cm</Width>
-              <ZIndex>24</ZIndex>
+              <Height>0.43243cm</Height>
+              <Width>8.90639cm</Width>
+              <ZIndex>20</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
               </Style>
             </Textbox>
             <Textbox Name="Textbox36">
@@ -3139,21 +2958,8 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>S</Value>
+                      <Value>SHIP TO</Value>
                       <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>HIP</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
                         <FontWeight>Bold</FontWeight>
                       </Style>
                     </TextRun>
@@ -3162,15 +2968,16 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox35</rd:DefaultName>
-              <Top>4.74196cm</Top>
+              <Top>3.50668cm</Top>
               <Left>10.72189cm</Left>
-              <Height>1.75535cm</Height>
-              <Width>0.42271cm</Width>
-              <ZIndex>25</ZIndex>
+              <Height>0.45806cm</Height>
+              <Width>8.90639cm</Width>
+              <ZIndex>21</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -3184,25 +2991,24 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Fields!PHONE_Lbl.Value</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                      </Style>
+                      <Value>=Code.GetData(16,1)</Value>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox37</rd:DefaultName>
-              <Top>6.3562cm</Top>
+              <Top>6.84524cm</Top>
               <Left>10.72189cm</Left>
               <Height>0.44125cm</Height>
-              <Width>5.47625cm</Width>
-              <ZIndex>26</ZIndex>
+              <Width>8.90639cm</Width>
+              <ZIndex>22</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
                 <PaddingTop>2pt</PaddingTop>
@@ -3217,27 +3023,273 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                   <TextRuns>
                     <TextRun>
                       <Value>="Shellfish Permit: " &amp; First(Fields!ShellfishPermit.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>12pt</FontSize>
-                      </Style>
+                      <Style />
                     </TextRun>
                   </TextRuns>
                   <Style />
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox7</rd:DefaultName>
-              <Top>6.4014cm</Top>
+              <Top>6.87363cm</Top>
               <Left>0.55245cm</Left>
-              <Height>0.44125cm</Height>
+              <Height>0.41286cm</Height>
               <Width>8.30729cm</Width>
+              <ZIndex>23</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox5">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(23,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.66706cm</Top>
+              <Left>0.55245cm</Left>
+              <Height>0.58043cm</Height>
+              <Width>4.18042cm</Width>
+              <ZIndex>24</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Bottom</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox19">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(25,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.66706cm</Top>
+              <Left>4.97007cm</Left>
+              <Height>0.58043cm</Height>
+              <Width>4.50247cm</Width>
+              <ZIndex>25</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Bottom</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox35">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(28,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.66706cm</Top>
+              <Left>9.82532cm</Left>
+              <Height>0.58043cm</Height>
+              <Width>4.99821cm</Width>
+              <ZIndex>26</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Bottom</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox45">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(29,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.63178cm</Top>
+              <Left>14.92936cm</Left>
+              <Height>0.61571cm</Height>
+              <Width>4.69892cm</Width>
               <ZIndex>27</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+                <VerticalAlign>Bottom</VerticalAlign>
                 <PaddingLeft>2pt</PaddingLeft>
                 <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox46">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(24,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.95913cm</Top>
+              <Left>0.55245cm</Left>
+              <Height>0.55755cm</Height>
+              <Width>4.18042cm</Width>
+              <ZIndex>28</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox47">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(26,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.99441cm</Top>
+              <Left>4.97008cm</Left>
+              <Height>0.55755cm</Height>
+              <Width>4.50247cm</Width>
+              <ZIndex>29</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox48">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(27,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.95913cm</Top>
+              <Left>9.82532cm</Left>
+              <Height>0.55755cm</Height>
+              <Width>4.99821cm</Width>
+              <ZIndex>30</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox49">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(30,1)</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>7.99441cm</Top>
+              <Left>14.92936cm</Left>
+              <Height>0.55755cm</Height>
+              <Width>4.69892cm</Width>
+              <ZIndex>31</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
                 <PaddingBottom>2pt</PaddingBottom>
               </Style>
             </Textbox>
@@ -3254,7 +3306,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>3.33375cm</Height>
+          <Height>4.55111cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -3262,18 +3314,6 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
               <CanGrow>true</CanGrow>
               <KeepTogether>true</KeepTogether>
               <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value />
-                      <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>14pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
@@ -3289,68 +3329,7 @@ Last(Fields!TotalAmountIncludingVAT.Value),1)</Hidden>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Prices are subject to change without notice.</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontSize>7pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>All claims must be made within 48 hours of receipt of goods. All returns must be in original packaging.</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontSize>7pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>A $50.00 charge will be charged to buyers' account for any insufficient fund check returned.
-Accounts unpaid 30 days after invoice date and receipt of merchandise are subject to a service charge 18% </Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontSize>7pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>yearly.</Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontSize>7pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>Buyer pays all costs of collection, including attorney’s fees and costs both at the trial level and at all appellate levels. </Value>
-                      <Style>
-                        <FontFamily>Times New Roman</FontFamily>
-                        <FontSize>7pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>Buyer irrevocably submits to the jurisdiction of New York State. </Value>
+                      <Value>Prices are subject to change without notice.All claims must be made within 48 hours of receipt of goods. All returns must be in original packaging.A $50.00 charge will be charged to buyers' account for any insufficient fund check returned. Accounts unpaid 30 days after invoice date and receipt of merchandise are subject to a service charge 18%  yearly. Buyer pays all costs of collection, including attorney’s fees and costs both at the trial level and at all appellate levels.  Buyer irrevocably submits to the jurisdiction of New York State. </Value>
                       <Style>
                         <FontFamily>Times New Roman</FontFamily>
                         <FontSize>7pt</FontSize>
@@ -3361,9 +3340,10 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox4</rd:DefaultName>
-              <Top>0.03528cm</Top>
-              <Height>3.29847cm</Height>
-              <Width>12.36168cm</Width>
+              <Top>2.97244cm</Top>
+              <Left>0cm</Left>
+              <Height>1.57867cm</Height>
+              <Width>20.58078cm</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -3384,20 +3364,20 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
                       <Value>=Fields!TIMEOFSHIPMENT_Lbl.Value</Value>
                       <Style>
                         <FontFamily>Courier New</FontFamily>
-                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
                       </Style>
                     </TextRun>
                   </TextRuns>
                   <Style>
-                    <TextAlign>Center</TextAlign>
+                    <TextAlign>Left</TextAlign>
                   </Style>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox21</rd:DefaultName>
-              <Top>1.1198cm</Top>
-              <Left>13.3389cm</Left>
-              <Height>0.45889cm</Height>
-              <Width>4.80187cm</Width>
+              <Top>2.44299cm</Top>
+              <Left>10.72189cm</Left>
+              <Height>0.52945cm</Height>
+              <Width>4.29043cm</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
@@ -3419,8 +3399,8 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
                     <TextRun>
                       <Value>=Fields!RECEIVEDBY_Lbl.Value</Value>
                       <Style>
-                        <FontFamily>Lucida Console</FontFamily>
-                        <FontSize>14pt</FontSize>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontWeight>Bold</FontWeight>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -3430,9 +3410,10 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox23</rd:DefaultName>
-              <Top>0.07056cm</Top>
-              <Height>0.6cm</Height>
-              <Width>4.46202cm</Width>
+              <Top>2.45181cm</Top>
+              <Left>0cm</Left>
+              <Height>0.45007cm</Height>
+              <Width>3.50952cm</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <Border>
@@ -3444,30 +3425,6 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
                 <PaddingBottom>2pt</PaddingBottom>
               </Style>
             </Textbox>
-            <Line Name="Line2">
-              <Top>0.67056cm</Top>
-              <Left>3.80683cm</Left>
-              <Height>0cm</Height>
-              <Width>8.2109cm</Width>
-              <ZIndex>3</ZIndex>
-              <Style>
-                <Border>
-                  <Style>Solid</Style>
-                </Border>
-              </Style>
-            </Line>
-            <Line Name="Line3">
-              <Top>1.57869cm</Top>
-              <Left>17.85917cm</Left>
-              <Height>0cm</Height>
-              <Width>2.72161cm</Width>
-              <ZIndex>4</ZIndex>
-              <Style>
-                <Border>
-                  <Style>Solid</Style>
-                </Border>
-              </Style>
-            </Line>
             <Textbox Name="Textbox41">
               <CanGrow>true</CanGrow>
               <KeepTogether>true</KeepTogether>
@@ -3475,24 +3432,23 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(16,1)</Value>
+                      <Value>Subtotal: </Value>
                       <Style>
                         <FontFamily>Courier New</FontFamily>
-                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
                       </Style>
                     </TextRun>
                   </TextRuns>
                   <Style>
-                    <TextAlign>Right</TextAlign>
+                    <TextAlign>Left</TextAlign>
                   </Style>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox5</rd:DefaultName>
-              <Top>0.38779cm</Top>
-              <Left>14.92936cm</Left>
+              <Left>13.9779cm</Left>
               <Height>0.55562cm</Height>
               <Width>2.84099cm</Width>
-              <ZIndex>5</ZIndex>
+              <ZIndex>3</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -3511,24 +3467,22 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=Code.GetData(17,1)</Value>
+                      <Value>=Code.GetData(31,1)</Value>
                       <Style>
                         <FontFamily>Courier New</FontFamily>
-                        <FontSize>12pt</FontSize>
                       </Style>
                     </TextRun>
                   </TextRuns>
                   <Style>
-                    <TextAlign>Center</TextAlign>
+                    <TextAlign>Left</TextAlign>
                   </Style>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox5</rd:DefaultName>
-              <Top>0.38779cm</Top>
               <Left>16.85417cm</Left>
               <Height>0.55562cm</Height>
               <Width>3.72661cm</Width>
-              <ZIndex>6</ZIndex>
+              <ZIndex>4</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -3541,11 +3495,177 @@ Accounts unpaid 30 days after invoice date and receipt of merchandise are subjec
               </Style>
             </Textbox>
             <Line Name="Line4">
-              <Top>0.97869cm</Top>
-              <Left>17.85917cm</Left>
+              <Top>2.90188cm</Top>
+              <Left>15.15344cm</Left>
               <Height>0cm</Height>
-              <Width>2.72161cm</Width>
+              <Width>5.42734cm</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+            <Line Name="Line5">
+              <Top>2.90188cm</Top>
+              <Left>3.64808cm</Left>
+              <Height>0cm</Height>
+              <Width>6.88799cm</Width>
+              <ZIndex>6</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+            <Textbox Name="Textbox50">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(32,1)</Value>
+                      <Style>
+                        <FontFamily>Courier New</FontFamily>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>0.62618cm</Top>
+              <Left>16.85417cm</Left>
+              <Height>0.55562cm</Height>
+              <Width>3.72661cm</Width>
               <ZIndex>7</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox51">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Discounts: </Value>
+                      <Style>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>0.62618cm</Top>
+              <Left>13.9779cm</Left>
+              <Height>0.55562cm</Height>
+              <Width>2.84099cm</Width>
+              <ZIndex>8</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox52">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(33,1)</Value>
+                      <Style>
+                        <FontFamily>Courier New</FontFamily>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>1.21707cm</Top>
+              <Left>16.85417cm</Left>
+              <Height>0.55562cm</Height>
+              <Width>3.72661cm</Width>
+              <ZIndex>9</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox53">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Total: </Value>
+                      <Style>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox5</rd:DefaultName>
+              <Top>1.21707cm</Top>
+              <Left>13.9779cm</Left>
+              <Height>0.55562cm</Height>
+              <Width>2.84099cm</Width>
+              <ZIndex>10</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Line Name="Line6">
+              <Top>1.87853cm</Top>
+              <Left>13.9779cm</Left>
+              <Height>0cm</Height>
+              <Width>6.60288cm</Width>
+              <ZIndex>11</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>

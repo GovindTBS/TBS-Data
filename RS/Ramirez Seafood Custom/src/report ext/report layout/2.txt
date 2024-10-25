@@ -1,0 +1,64 @@
+If requesting support, please provide the following details to help troubleshooting:
+
+Error message: 
+This report layout has a reference to Field 'UM_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox20'.
+This report layout has a reference to Field 'PRODUCTDESCRIPTION_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox22'.
+This report layout has a reference to Field 'CatchMethodLbl' that does not exist in the dataset. Found in the Textbox element 'Textbox28'.
+This report layout has a reference to Field 'CountryOfOriginLbl' that does not exist in the dataset. Found in the Textbox element 'Textbox31'.
+This report layout has a reference to Field 'PRICE__Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox24'.
+This report layout has a reference to Field 'AMOUNT_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox26'.
+This report layout has a reference to Field 'ItemDescription' that does not exist in the dataset. Found in the Textbox element 'Description_Line'.
+This report layout has a reference to Field 'CatchMethod' that does not exist in the dataset. Found in the Textbox element 'Textbox29'.
+This report layout has a reference to Field 'CountryOfOrigin' that does not exist in the dataset. Found in the Textbox element 'Textbox32'.
+This report layout has a reference to Field 'Amount' that does not exist in the dataset. Found in the Textbox element 'Textbox27'.
+This report layout has a reference to Field 'Bill_to_Name' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Bill_to_Address' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Bill_to_Address_2' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Bill_to_City' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Bill_to_County' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Bill_to_Country_Region_Code' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Bill_to_Post_Code' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Ship_to_Address' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Ship_to_Address_2' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Ship_to_City' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Ship_to_County' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Ship_to_Country_Region_Code' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'Ship_to_Post_Code' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'DocumentNo_Barcode' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'TOTAL__Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox1'.
+This report layout has a reference to Field 'CommentLine' that does not exist in the dataset. Found in the Textbox element 'CompanyIBAN1'.
+This report layout has a reference to Field 'TOTAL__Lbl' that does not exist in the dataset. Found in the Tablix element 'Tablix2'.
+This report layout has a reference to Field 'CompanyInfo_Address' that does not exist in the dataset. Found in the Textbox element 'CompanyAddress1'.
+This report layout has a reference to Field 'CompanyInfo_Address2' that does not exist in the dataset. Found in the Textbox element 'CompanyAddress2'.
+This report layout has a reference to Field 'CompanyInfo_City' that does not exist in the dataset. Found in the Textbox element 'CompanyAddress3'.
+This report layout has a reference to Field 'CompanyInfo_County' that does not exist in the dataset. Found in the Textbox element 'CompanyAddress3'.
+This report layout has a reference to Field 'CompanyInfo_PostCode' that does not exist in the dataset. Found in the Textbox element 'CompanyAddress3'.
+This report layout has a reference to Field 'CompanyFaxNo' that does not exist in the dataset. Found in the Textbox element 'Textbox7'.
+This report layout has a reference to Field 'DocumentDate1' that does not exist in the dataset. Found in the Textbox element 'Textbox11'.
+This report layout has a reference to Field 'TERMS_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox13'.
+This report layout has a reference to Field 'REP_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox14'.
+This report layout has a reference to Field 'PHONE_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox37'.
+This report layout has a reference to Field 'ShellfishPermit' that does not exist in the dataset. Found in the Textbox element 'Textbox17'.
+This report layout has a reference to Field 'TIMEOFSHIPMENT_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox21'.
+This report layout has a reference to Field 'RECEIVEDBY_Lbl' that does not exist in the dataset. Found in the Textbox element 'Textbox23'.
+
+Internal session ID: 
+9d18390a-37a5-473e-a822-e35718c4e2ec
+
+Application Insights session ID: 
+f8ef1d8e-ea58-4895-b299-27089d7d0430
+
+Client activity id: 
+8bee68f2-6f72-4c1d-bc28-3d80c48f9fe4
+
+Time stamp on error: 
+2024-10-25T06:15:06.7837987Z
+
+User telemetry id: 
+d27231af-c3a6-40b7-87f3-e44fd521e146
+
+AL call stack: 
+"Report Layouts Impl."(CodeUnit 9660).InsertNewLayout line 81 - _Exclude_ReportLayouts by Microsoft
+"Report Layouts Impl."(CodeUnit 9660).ReplaceLayout line 9 - _Exclude_ReportLayouts by Microsoft
+"Report Layouts"(Page 9660)."ReplaceLayout - OnAction"(Trigger) line 9 - _Exclude_ReportLayouts by Microsoft
+

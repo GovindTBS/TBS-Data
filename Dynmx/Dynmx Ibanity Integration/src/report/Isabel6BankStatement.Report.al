@@ -7,8 +7,6 @@ report 50100 "Isabel6 Bank Statement"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     ProcessingOnly = true;
-    //UseRequestPage = true;
-
     dataset
     {
         dataitem(BankAccount; "Bank Account") { }

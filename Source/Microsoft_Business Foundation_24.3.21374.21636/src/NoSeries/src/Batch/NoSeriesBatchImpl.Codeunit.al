@@ -15,7 +15,7 @@ codeunit 309 "No. Series - Batch Impl."
     var
         TempGlobalNoSeriesLine: Record "No. Series Line" temporary;
         SimulationMode: Boolean;
-        CannotSaveNonExistingNoSeriesErr: Label 'Cannot save No. Series Line that does not exist: %1, %2', Comment = '%1 = No. Series Code, %2 = Line No.';
+CannotSaveNonExistingNoSeriesErr: Label 'Cannot save No. Series Line that does not exist: %1, %2', Comment = '%1 = No. Series Code, %2 = Line No.';
         CannotSaveWhileSimulatingNumbersErr: Label 'No. Series state cannot be saved while simulating numbers.';
         NoSeriesBatchTxt: Label 'No. Series - Batch', Locked = true;
         SimulationModeStartedTxt: Label 'No. Series simulation mode started.', Locked = true;
