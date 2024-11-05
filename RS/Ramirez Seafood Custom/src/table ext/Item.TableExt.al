@@ -5,8 +5,8 @@ tableextension 50100 "Item" extends Item
         field(50100; "Catch Method"; Enum "Catch Method")
         {
             Caption = 'Catch Method';
-            ToolTip = 'Specifies the Catch Method for the item.';
             DataClassification = CustomerContent;
+            ToolTip = 'Specifies the Catch Method for the item.';
         }
     }
 }

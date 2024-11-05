@@ -19,7 +19,6 @@ reportextension 50101 "Purchase Invoice" extends "Purchase Invoice NA"
                 RowID: Text[250];
                 Position: Integer;
             begin
-
                 RowID := ItemTrackingMgt.ComposeRowID(Database::"Purch. Inv. Line", 0, "Purch. Inv. Line"."Document No.", '', 0, "Purch. Inv. Line"."Line No.");
                 ValueEntryRelation.SetCurrentKey("Source RowId");
                 ValueEntryRelation.SetRange("Source RowId", RowID);
@@ -44,20 +43,17 @@ reportextension 50101 "Purchase Invoice" extends "Purchase Invoice NA"
         }
     }
 
-
     rendering
     {
-        layout(PurchaseInvoiceCust)
+        layout("Purchase Invoice Custom")
         {
             Type = RDLC;
-            LayoutFile = 'src\report ext\report layout\CustomPurchaseInvoiceNA.rdl';
+            LayoutFile = 'src\report ext\report layout\PurchaseInvoiceCustom.rdl';
         }
     }
 
-
     var
         LotNos: Text[50];
-
 }
 
 

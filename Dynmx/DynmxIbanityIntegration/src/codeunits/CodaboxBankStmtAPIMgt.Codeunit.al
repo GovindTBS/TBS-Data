@@ -400,9 +400,9 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
         while Pos <= LineLength do begin
             LineNo := LineNo + 1;
 
-            LineText := CopyStr(TextData, Pos, 136);
+            LineText := CopyStr(TextData, Pos, 128);
             LineText := LineText.Trim();
-            Pos := Pos + 136;
+            Pos := Pos + 128;
 
             CodBankStmtSrcLine.Init();
             CodBankStmtSrcLine."Bank Account No." := BankAccNo;
@@ -410,13 +410,11 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
             CodBankStmtSrcLine."Line No." := LineNo;
             CodBankStmtSrcLine.Data := LineText;
 
-            if PutRecordInDatabase() then
-                break;
+            PutRecordInDatabase();
         end;
-        Message('Statement Imported Successfully');
     end;
 
-    procedure PutRecordInDatabase(): Boolean
+    procedure PutRecordInDatabase()
     var
         i: Integer;
     begin
@@ -449,19 +447,16 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
                     end else
                         TempStatementNo := CodBankStmtSrcLine."Statement No.";
                     CodBankStmtSrcLine.Insert();
-                    exit(false);
                 end;
             CodBankStmtSrcLine.ID::Movement, CodBankStmtSrcLine.ID::Information, CodBankStmtSrcLine.ID::"Free Message":
                 begin
                     CodaMgmt.CheckCodaRecord(CodBankStmtSrcLine);
                     CodBankStmtSrcLine.Insert();
-                    exit(false);
                 end;
             CodBankStmtSrcLine.ID::"New Balance":
                 begin
                     CodaMgmt.CheckNewBalance(CodBankStmtSrcLine, AccountType);
                     CodBankStmtSrcLine.Insert();
-                    exit(false);
                 end;
             CodBankStmtSrcLine.ID::Trailer:
                 begin
@@ -473,7 +468,6 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
                     REPORT.RunModal(REPORT::"Initialise CODA Stmt. Lines", false, false, CodBankStmtSrcLine2);
                     CodBankStmtSrcLine2.DeleteAll();
                     TempStatementNo := IncStr(TempStatementNo);
-                    exit(true);
                 end;
         end;
     end;
@@ -491,7 +485,7 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
         AccountType: Text[1];
         Pos: Integer;
         LineLength: Integer;
-        LineText: Text[136];
-        Text000Lbl: Label 'Line is not valid\%1.', Comment = '%1 = ';
-        RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
+        LineText: Text[128];
+Text000Lbl: Label 'Line is not valid\%1.', Comment = '%1 = ';
+RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
 }

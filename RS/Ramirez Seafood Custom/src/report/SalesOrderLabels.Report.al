@@ -3,8 +3,7 @@ report 50100 "Sales Order Labels"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultRenderingLayout = InvoiceLabels;
-    Permissions = tabledata "Sales Header" = R,
-                tabledata "Sales Line" = R;
+
     dataset
     {
         dataitem(SalesOrder; "Sales Header")
@@ -12,37 +11,28 @@ report 50100 "Sales Order Labels"
             RequestFilterFields = "No.";
             RequestFilterHeading = 'Sales Order';
 
-            column(No_; "No.")
-            { }
+            column(No_; "No.") { }
 
-            column(HeaderDocument_Type; "Document Type")
-            { }
+            column(HeaderDocument_Type; "Document Type") { }
 
-            column(Sell_to_Customer_Name; "Sell-to Customer Name")
-            { }
+            column(Sell_to_Customer_Name; "Sell-to Customer Name") { }
 
             dataitem(SalesOrderLine; "Sales Line")
             {
                 DataItemLink = "Document No." = field("No.");
                 DataItemTableView = where("Type" = filter(Type::Item));
 
-                column(LineDocumentType; "Document Type")
-                { }
+                column(LineDocumentType; "Document Type") { }
 
-                column(Document_No_; "Document No.")
-                { }
+                column(Document_No_; "Document No.") { }
 
-                column(Line_No_; "Line No.")
-                { }
+                column(Line_No_; "Line No.") { }
 
-                column(Description; Description)
-                { }
+                column(Description; Description) { }
 
-                column(Quantity; Quantity)
-                { }
+                column(Quantity; Quantity) { }
 
-                column(Unit_of_Measure_Code; "Unit of Measure Code")
-                { }
+                column(Unit_of_Measure_Code; "Unit of Measure Code") { }
             }
         }
     }

@@ -7,6 +7,10 @@ report 50100 "Isabel6 Bank Statement"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     ProcessingOnly = true;
+    dataset
+    {
+        dataitem(BankAccount; "Bank Account") { }
+    }
 
     requestpage
     {
@@ -32,6 +36,16 @@ report 50100 "Isabel6 Bank Statement"
             }
         }
     }
+
+    trigger OnPostReport()
+    var
+        Isabel6StatementAPIMgt: Codeunit "Codabox Bank Stmt API Mgt.";
+    begin
+        if (ToDate <> 0DT) and (FromDate <> 0DT) then
+            Isabel6StatementAPIMgt.GetAccountInformationAndStatement(FromDate, ToDate, BankAccount."No.")
+        else
+            Error('Select proper dates');
+    end;
 
     var
         FromDate: DateTime;
