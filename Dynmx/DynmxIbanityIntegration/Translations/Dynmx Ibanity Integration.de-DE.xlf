@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:xliff xmlns:ns0="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <ns0:file datatype="xml" source-language="en-US" target-language="de-DE" original="Dynmx Ibanity Integration.g.xlf">
+    <ns0:body>
+      <ns0:group id="body">
+        <ns0:trans-unit id="Table 958058103 - Field 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the Payment Amount.</ns0:source>
+          <ns0:target>Hiermee wordt het betalingsbedrag opgegeven.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Amount - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Amount</ns0:source>
+          <ns0:target>Hoeveelheid</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Amount - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 3095809707 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the Payment Initiation Date &amp; Time</ns0:source>
+          <ns0:target>Specificeert de startdatum en -tijd van de betaling</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Initiation Date &amp; Time - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 3095809707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Initiation Date &amp; Time</ns0:source>
+          <ns0:target>Initiatiedatum en -tijd</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Initiation Date &amp; Time - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 1860382624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the payment request ID.</ns0:source>
+          <ns0:target>Hiermee wordt het betalingsverzoek-ID opgegeven.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Request ID - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 1860382624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Request ID</ns0:source>
+          <ns0:target>Verzoek ID</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Request ID - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the last fetched payment status</ns0:source>
+          <ns0:target>Hiermee wordt de laatste opgehaalde betalingsstatus opgegeven</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Status</ns0:source>
+          <ns0:target>Status</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 1168484000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the date and time when the status was last checked for the payment.</ns0:source>
+          <ns0:target>Hiermee worden de datum en tijd opgegeven waarop de status voor het laatst is gecontroleerd voor de betaling.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status Checked Last At - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 958058103 - Field 1168484000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Status Checked Last At</ns0:source>
+          <ns0:target>Status als laatste gecontroleerd</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status Checked Last At - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Isabel Setup</ns0:source>
+          <ns0:target>Isabel Setup</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1066735009 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Account Statement Endpoint URL for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert de eindpunt-URL van het rekeningafschrift voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Account Statement Endpoint - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1066735009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Account Statement Endpoint</ns0:source>
+          <ns0:target>Eindpunt rekeningafschrift</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Account Statement Endpoint - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3690818747 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Accounting Office Company Number for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert het bedrijfsnummer van het boekhoudkantoor voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Company No. - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3690818747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Accounting Office Company Number</ns0:source>
+          <ns0:target>Boekhoudkantoor ondernemingsnummer</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Company No. - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 873748694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Accounting Office ID for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert Accounting Office ID voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Consent ID - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 873748694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Accounting Office ID</ns0:source>
+          <ns0:target>Bureau voor bedrijfsboekhouding</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Consent ID - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3786830670 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Accounting Office Endpoint URL for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert de eindpunt-URL van het boekhoudkantoor voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Endpoint - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3786830670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Accounting Office Endpoint</ns0:source>
+          <ns0:target>Eindpunt boekhoudkantoor</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Endpoint - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1649933496 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Accounting Office ID for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert Accounting Office ID voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office ID - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1649933496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Accounting Office ID</ns0:source>
+          <ns0:target>Bureau voor bedrijfsboekhouding</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office ID - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1090384498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the Authorization code provided during the user linking process.</ns0:source>
+          <ns0:target>Hiermee wordt de autorisatiecode opgegeven die is opgegeven tijdens het koppelingsproces van de gebruiker.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Authorization Code - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1090384498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Authorization Code</ns0:source>
+          <ns0:target>Autorisatie Code</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Authorization Code - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1823838865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the Authorization Token for Codabox API access.</ns0:source>
+          <ns0:target>Specificeert het autorisatietoken voor Codabox API-toegang.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1823838865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Auth Token</ns0:source>
+          <ns0:target>Auth Token</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1973807912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Auth Token Endpoint URL for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert Auth Token Endpoint URL voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Endpoint - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1973807912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Auth Token Endpoint</ns0:source>
+          <ns0:target>Token eindpunt</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Endpoint - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1790706897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Accounting Office ID for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert Accounting Office ID voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Expires - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1790706897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Accounting Office ID</ns0:source>
+          <ns0:target>Bureau voor bedrijfsboekhouding</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Expires - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3422191324 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the client id for the Codabox API authorization.</ns0:source>
+          <ns0:target>Specificeert de client-id voor de Codabox API-autorisatie.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client ID - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3422191324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Client ID</ns0:source>
+          <ns0:target>Klantnummer</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client ID - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 140304157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the client secret for the Codabox API authorization.</ns0:source>
+          <ns0:target>Specificeert het clientgeheim voor de Codabox API-autorisatie.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client Secret - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 140304157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Client Secret</ns0:source>
+          <ns0:target>Klantgeheim</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client Secret - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3210823982 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Document Search Endpoint URL for the Codabox API.</ns0:source>
+          <ns0:target>Specificeert de URL van het documentzoek-eindpunt voor de Codabox API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Document Search Endpoint - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3210823982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Document Search Endpoint</ns0:source>
+          <ns0:target>Eindpunt voor zoeken naar documenten</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Document Search Endpoint - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3220069733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies if the payments integration is enabled or not.</ns0:source>
+          <ns0:target>Hiermee wordt opgegeven of de betalingsintegratie is ingeschakeld of niet.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Integration Enabled - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3220069733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Integration Enabled</ns0:source>
+          <ns0:target>Integratie ingeschakeld</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Integration Enabled - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3535189479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the Authorization Token for Isabel6 API access.</ns0:source>
+          <ns0:target>Specificeert het autorisatietoken voor Isabel6 API-toegang.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3535189479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Auth Token</ns0:source>
+          <ns0:target>Auth Token</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1326263026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Auth Token Endpoint URL for the Isabel6 API.</ns0:source>
+          <ns0:target>Specificeert Auth Token Endpoint URL voor de Isabel6 API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token Endpoint - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1326263026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Auth Token Endpoint</ns0:source>
+          <ns0:target>Token eindpunt</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token Endpoint - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 394784518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the client id for the Citi bank API authorization.</ns0:source>
+          <ns0:target>Hiermee wordt de client-id opgegeven voor de CITI-bank API-autorisatie.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client ID - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 394784518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Client ID</ns0:source>
+          <ns0:target>Klantnummer</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client ID - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 2708375475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the client secret for the Citi bank API authorization.</ns0:source>
+          <ns0:target>Specificeert het klantgeheim voor de CITI-bank API-autorisatie.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client Secret - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 2708375475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Client Secret</ns0:source>
+          <ns0:target>Klantgeheim</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client Secret - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1054281393 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Payment Initiation Endpoint URL for the Isabel6 API.</ns0:source>
+          <ns0:target>Specificeert de betalingsinitiatie-eindpunt-URL voor de Isabel6 API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Initiation Endpoint - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1054281393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Payment Initiation Endpoint</ns0:source>
+          <ns0:target>Eindpunt voor betalingsinitiatie</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Initiation Endpoint - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1976880575 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies Payment Status Endpoint URL for the Isabel6 API.</ns0:source>
+          <ns0:target>Specificeert de betalingsstatus-eindpunt-URL voor de Isabel6 API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Status Endpoint - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1976880575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Payment Status Endpoint</ns0:source>
+          <ns0:target>Eindpunt betalingsstatus</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Status Endpoint - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Primary key</ns0:source>
+          <ns0:target>Primaire sleutel</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Primary Key - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3865864673 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the name of the certificate file.</ns0:source>
+          <ns0:target>Hiermee wordt de naam van het certificaatbestand opgegeven.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate File - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 3865864673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>SSL Certificate File</ns0:source>
+          <ns0:target>SSL-certificaat</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate File - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 2915622946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the password of the SSL Certificate.</ns0:source>
+          <ns0:target>Specificeert het wachtwoord van het SSL-certificaat.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Password - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 2915622946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>SSL Certificate Password</ns0:source>
+          <ns0:target>SSL Certificaatwachtwoord</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Password - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 738574957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies if the SSL certificate is uploaded.</ns0:source>
+          <ns0:target>Hiermee wordt opgegeven of het SSL-certificaat is geüpload.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Uploaded - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 738574957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>SSL Certificate Uploaded</ns0:source>
+          <ns0:target>SSL-certificaat geüpload</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Uploaded - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 2725035942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the SSL Certificate BLOB value.</ns0:source>
+          <ns0:target>Specificeert de blobwaarde van het SSL-certificaat.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Value - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 1222639931 - Field 2725035942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Value</ns0:source>
+          <ns0:target>Waarde</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Value - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Payment Journal Buffer</ns0:source>
+          <ns0:target>Betalingsdagboekbuffer</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Account No.</ns0:source>
+          <ns0:target>Rekeningnr.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Account No. - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Amount</ns0:source>
+          <ns0:target>Hoeveelheid</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Amount - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 1682139193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Bank Account</ns0:source>
+          <ns0:target>Bankrekening</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Bank Account - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 1881692056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Beneficiary Bank Account</ns0:source>
+          <ns0:target>Bankrekening van begunstigde</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Beneficiary Bank Account - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Currency Code</ns0:source>
+          <ns0:target>Valutacode</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Currency Code - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 2704330142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Journal Batch Name</ns0:source>
+          <ns0:target>Dagboekbatch Naam</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Journal Batch Name - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 3684440170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Journal Template Name</ns0:source>
+          <ns0:target>Dagboeksjabloon naam</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Journal Template Name - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Table 2422162901 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Line No.</ns0:source>
+          <ns0:target>Regelnr.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Line No. - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Codeunit 821925896 - NamedType 3509362170" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>The requested responded with %1 status code and the reason is %2</ns0:source>
+          <ns0:target state="needs-adaptation">De gevraagde antwoordde met %1 statuscode en de reden is %2</ns0:target>
+          <ns0:note from="XLIFF Sync" annotates="general" priority="1">Problem detected: The number of placeholders in the source and translation text do not match.</ns0:note>
+          <ns0:note from="Developer" annotates="general" priority="2">%1= , %2= </ns0:note>
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Codeunit Codabox Bank Stmt API Mgt. - NamedType RequestErrLbl</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Codeunit 821925896 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Line is not valid\%1.</ns0:source>
+          <ns0:target state="needs-adaptation">Regel is niet geldig\%1.</ns0:target>
+          <ns0:note from="XLIFF Sync" annotates="general" priority="1">Problem detected: The number of placeholders in the source and translation text do not match.</ns0:note>
+          <ns0:note from="Developer" annotates="general" priority="2">%1 = </ns0:note>
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Codeunit Codabox Bank Stmt API Mgt. - NamedType Text000Lbl</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Codeunit 4137793120 - NamedType 1523999682" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>%1?grant_type=%2&amp;code=%3&amp;redirect_uri=%4</ns0:source>
+          <ns0:target state="needs-adaptation">%1?grant_type=%2&amp;code=%3&amp;redirect_uri=%4</ns0:target>
+          <ns0:note from="XLIFF Sync" annotates="general" priority="1">Problem detected: The number of placeholders in the source and translation text do not match.</ns0:note>
+          <ns0:note from="Developer" annotates="general" priority="2">%1 = URL, %2 = client ID,%3= ,%4 =</ns0:note>
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Codeunit Isabel6 Payment API Mgt. - NamedType EncodedUriLbl</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Codeunit 4137793120 - NamedType 3509362170" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>The requested responded with %1 status code and the reason is %2</ns0:source>
+          <ns0:target state="needs-adaptation">De gevraagde antwoordde met %1 statuscode en de reden is %2</ns0:target>
+          <ns0:note from="XLIFF Sync" annotates="general" priority="1">Problem detected: The number of placeholders in the source and translation text do not match.</ns0:note>
+          <ns0:note from="Developer" annotates="general" priority="2">%1= , %2= </ns0:note>
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Codeunit Isabel6 Payment API Mgt. - NamedType RequestErrLbl</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Page 1181203637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Isabel Transaction Logs</ns0:source>
+          <ns0:target>Isabel Transactielogboeken</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Page Isabel Transaction Logs - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Page 1222639931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Isabel6 Setup</ns0:source>
+          <ns0:target>Isabel6 Setup</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Page 1222639931 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Isabel6</ns0:source>
+          <ns0:target>Isabel6</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Control General - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Page 1222639931 - Action 1452324492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Allows to Delete the certificate file.</ns0:source>
+          <ns0:target>Hiermee kunt u het certificaatbestand verwijderen.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Delete SSL Certificate - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Page 1222639931 - Action 1452324492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Delete Certificate</ns0:source>
+          <ns0:target>Certificaat verwijderen</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Delete SSL Certificate - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Page 1222639931 - Action 1089855830 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Allows to Upload the certificate file.</ns0:source>
+          <ns0:target>Hiermee kunt u het certificaatbestand uploaden.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Upload SSL Certificate - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Page 1222639931 - Action 1089855830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Upload Certificate</ns0:source>
+          <ns0:target>Upload certificaat</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Upload SSL Certificate - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Report 2233908647 - Control 2110632758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the date to get the statement entries from.</ns0:source>
+          <ns0:target>Hiermee wordt de datum opgegeven waarop de afschriftposten moeten worden opgehaald.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control From Date - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Report 2233908647 - Control 2110632758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>From Date</ns0:source>
+          <ns0:target>Vanaf datum</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control From Date - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Report 2233908647 - Control 2565971985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>Specifies the date to get the statement entries upto.</ns0:source>
+          <ns0:target>Hiermee wordt de datum opgegeven om de afschriftposten tot op te halen.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control To Date - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="Report 2233908647 - Control 2565971985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>To Date</ns0:source>
+          <ns0:target>T/M datum</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control To Date - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 2292249509 - Action 1150806888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <ns0:source>Allows to import CODA bank statement from Isabel API.</ns0:source>
+          <ns0:target>Hiermee kunt u CODA-BANKAFSCHRIFT importeren vanuit Isabel API.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card - Action Import Isabel CODA - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 2292249509 - Action 1150806888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <ns0:source>Import Isabel CODA</ns0:source>
+          <ns0:target>Isabel CODA IMPORTEREN</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card - Action Import Isabel CODA - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 3300710496 - Action 961547678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <ns0:source>Allows you to Check Payment Status for payment request to Isabel.</ns0:source>
+          <ns0:target>Hiermee kunt u de betalingsstatus controleren voor een betalingsverzoek aan Isabel.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action CheckStatus - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 3300710496 - Action 961547678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <ns0:source>Check Payment Status</ns0:source>
+          <ns0:target>Betalingsstatus controleren</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action CheckStatus - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 3300710496 - Action 1876366554 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <ns0:source>Allows you to Export Payment for payment request to Isabel.</ns0:source>
+          <ns0:target>Hiermee kunt u betaling voor betalingsverzoek exporteren naar Isabel.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action ExportPayment - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 3300710496 - Action 1876366554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <ns0:source>Export Payment</ns0:source>
+          <ns0:target>Betalingsgegevens Exporteren</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action ExportPayment - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 3300710496 - Action 1425475865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <ns0:source>Allows you to send to payment request to Isabel.</ns0:source>
+          <ns0:target>Hiermee kunt u een betalingsverzoek naar Isabel sturen.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action SendToIsabel - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 3300710496 - Action 1425475865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <ns0:source>Send to Isabel</ns0:source>
+          <ns0:target>Stuur naar Isabel</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action SendToIsabel - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="PageExtension 337631938 - Control 4141606492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
+          <ns0:source>Allow the user to process Isabel payments</ns0:source>
+          <ns0:target>Sta de gebruiker toe om Isabel-betalingen te verwerken</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">PageExtension User Setup - Control Allow Isabel Payments - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 1682139193 - Field 140215683 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <ns0:source>Specifies wether the following bank account is a Isabel bank account.</ns0:source>
+          <ns0:target>Specificeert of de volgende bankrekening een Isabel-bankrekening is.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account - Field Isabel Account - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 1682139193 - Field 140215683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <ns0:source>Isabel Account</ns0:source>
+          <ns0:target>Isabel-account</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account - Field Isabel Account - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 568091486 - NamedType 1312568423" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 568091486">
+          <ns0:source>The selected items have already been exported. Do you want to export again?</ns0:source>
+          <ns0:target>De geselecteerde items zijn al geëxporteerd. Wilt u opnieuw exporteren?</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension Export Protocol - NamedType ReExportQst</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 3196174509 - Field 2717335242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <ns0:source>Specifies the Payment Request ID for the initiated payment.</ns0:source>
+          <ns0:target>Hiermee wordt het betalingsverzoek-ID opgegeven voor de geïnitieerde betaling.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Request ID - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 3196174509 - Field 2717335242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <ns0:source>Payment Request ID</ns0:source>
+          <ns0:target>Betalingsverzoek</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Request ID - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 3196174509 - Field 931886930 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <ns0:source>Specifies the Payment Status for the initaited payment</ns0:source>
+          <ns0:target>Hiermee wordt de betalingsstatus opgegeven voor de geïniteerde betaling</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Status - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 3196174509 - Field 931886930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <ns0:source>Payment Status</ns0:source>
+          <ns0:target>Betalingsstatus </ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Status - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="XmlPort 3130621048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <ns0:source>SEPA pain.001.001.03</ns0:source>
+          <ns0:target>SEPA pijn.001.001.03</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">XmlPort SEPA pain.001.001.03 - Property Caption</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 337631938 - Field 4141606492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <ns0:source>Allow the user to make Isabel Payments.</ns0:source>
+          <ns0:target>Sta de gebruiker toe om Isabel-betalingen uit te voeren.</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension User Setup - Field Allow Isabel Payments - Property ToolTip</ns0:note>
+        </ns0:trans-unit>
+        <ns0:trans-unit id="TableExtension 337631938 - Field 4141606492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <ns0:source>Allow Isabel Payments</ns0:source>
+          <ns0:target>Isabel-betalingen toestaan</ns0:target>
+          <ns0:note from="Developer" annotates="general" priority="2" />
+          <ns0:note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</ns0:note>
+          <ns0:note from="Xliff Generator" annotates="general" priority="3">TableExtension User Setup - Field Allow Isabel Payments - Property Caption</ns0:note>
+        </ns0:trans-unit>
+      </ns0:group>
+    </ns0:body>
+  </ns0:file>
+</ns0:xliff>

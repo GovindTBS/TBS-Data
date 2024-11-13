@@ -10,11 +10,13 @@ tableextension 50140 "Payment Journal" extends "Payment Journal Line"
         {
             Caption = 'Payment Request ID';
             ToolTip = 'Specifies the Payment Request ID for the initiated payment.';
+            DataClassification = CustomerContent;
         }
         field(50141; "Payment Status"; Text[50])
         {
             Caption = 'Payment Status';
             ToolTip = 'Specifies the Payment Status for the initaited payment';
+            DataClassification = CustomerContent;
         }
     }
 

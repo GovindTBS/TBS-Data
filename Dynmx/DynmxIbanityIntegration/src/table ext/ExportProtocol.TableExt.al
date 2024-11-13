@@ -1,3 +1,10 @@
+namespace Isabel6;
+
+using Microsoft.Finance.GeneralLedger.Journal;
+using Microsoft.Bank.Payment;
+using System.Text;
+using System.Utilities;
+
 tableextension 50104 "Export Protocol" extends "Export Protocol"
 {
     procedure ExportPaymentLine(var PaymentJnlLine: Record "Payment Journal Line"): Text
@@ -6,15 +13,10 @@ tableextension 50104 "Export Protocol" extends "Export Protocol"
         GenJnlLine: Record "Gen. Journal Line";
         SelectionFilterManagement: Codeunit SelectionFilterManagement;
         TempBlob: Codeunit "Temp Blob";
-        IsHandled: Boolean;
         OutStr: OutStream;
         InputStream: InStream;
         Payments: Text;
     begin
-        IsHandled := false;
-        if IsHandled then
-            exit;
-
         if CheckPaymentLines(PaymentJnlLine) then begin
             TestField("Export Object ID");
             PmtJnlLineToExport.Copy(PaymentJnlLine);

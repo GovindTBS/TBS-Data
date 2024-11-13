@@ -9,7 +9,10 @@ report 50100 "Isabel6 Bank Statement"
     ProcessingOnly = true;
     dataset
     {
-        dataitem(BankAccount; "Bank Account") { }
+        dataitem(BankAccount; "Bank Account")
+        {
+            RequestFilterFields = "No.";
+        }
     }
 
     requestpage

@@ -27,6 +27,8 @@
   },
   "runtime": "13.0",
   "features": [
+    "TranslationFile", 
+    "GenerateCaptions",
     "NoImplicitWith"
   ]
 }

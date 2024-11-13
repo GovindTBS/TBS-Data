@@ -2,8 +2,8 @@ namespace Isabel6;
 
 table 50100 "Isabel6 Setup"
 {
-    Caption = 'Isabel API Setup';
-    DataClassification = ToBeClassified;
+    Caption = 'Isabel Setup';
+    DataClassification = CustomerContent;
 
     fields
     {

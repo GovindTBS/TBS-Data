@@ -1,79 +1,93 @@
 package com.example;
 
-import java.io.FileInputStream;
-import java.security.KeyStore;
-import java.security.MessageDigest;
-import java.security.PrivateKey;
-import java.security.Security;
-import java.security.Signature;
-import java.util.Base64;
-
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import com.google.cloud.translate.Translate;
+import com.google.cloud.translate.TranslateOptions;
+import com.google.cloud.translate.Translation;
+import java.io.File;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 public class Main {
-    static {
-        Security.addProvider(new BouncyCastleProvider());
-    }
 
-    public static void main(String[] args) {
+    public static void translateXlfFile(String inputFilePath, String outputFilePath, String targetLanguage) {
         try {
-            String pfxFilePath = "resources/Sign/signature_certificate.pfx"; 
-            String pfxPassword = "mIqn8t8As-skB5d"; 
-            String payload = ""; 
-            String host = "api.ibanity.com";
-            String keyId = "75b5d796-de5c-400a-81ce-e72371b01cbc";
-            long createdTimestamp = System.currentTimeMillis() / 1000;
+            // Initialize the document builder
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            factory.setNamespaceAware(true);
+            DocumentBuilder builder = factory.newDocumentBuilder();
 
-            PrivateKey privateKey = extractPrivateKey(pfxFilePath, pfxPassword);
+            // Parse the input XLF file
+            Document document = builder.parse(new File(inputFilePath));
+            document.getDocumentElement().normalize();
 
-            String digestHeader = calculateDigest(payload);
+            // Get all <trans-unit> elements
+            NodeList transUnits = document.getElementsByTagName("trans-unit");
 
-            String requestTarget = "get /isabel-connect/accounts"; 
-            String signingString = String.format(
-                "(request-target): %s%n" +
-                "digest: %s%n" +
-                "created: %d%n" +
-                "host: %s",
-                requestTarget, digestHeader, createdTimestamp, host
-            );
+            // Iterate over <trans-unit> elements
+            for (int i = 0; i < transUnits.getLength(); i++) {
+                Element transUnit = (Element) transUnits.item(i);
 
-            String signature = signData(signingString, privateKey);
+                // Get the <source> and <target> elements within the <trans-unit>
+                Node sourceNode = transUnit.getElementsByTagName("source").item(0);
+                Node targetNode = transUnit.getElementsByTagName("target").item(0);
 
-            String signatureHeader = String.format(
-                "Signature: keyId=\"%s\", created=%d, algorithm=\"hs2019\", " +
-                "headers=\"(request-target) digest (created) host\", signature=\"%s\"",
-                keyId, createdTimestamp, signature
-            );
+                if (sourceNode != null && targetNode != null) {
+                    String sourceText = sourceNode.getTextContent();
+                    String targetText = targetNode.getTextContent();
 
-            String digest = String.format("Digest: %s", digestHeader);
+                    // If the target is marked as [NAB: NOT TRANSLATED], translate it dynamically
+                    if ("[NAB: NOT TRANSLATED]".equals(targetText)) {
+                        String translatedText = translateText(sourceText, targetLanguage);
+                        targetNode.setTextContent(translatedText);
+                    }
+                }
+            }
 
-            System.out.println(signatureHeader);
-            System.out.println(digest);
+            // Write the updated document to the output file
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+            DOMSource source = new DOMSource(document);
+            StreamResult result = new StreamResult(new File(outputFilePath));
+            transformer.transform(source, result);
+
+            System.out.println("Translation complete. Saved as " + outputFilePath);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static PrivateKey extractPrivateKey(String pfxFilePath, String password) throws Exception {
-        try (FileInputStream fis = new FileInputStream(pfxFilePath)) {
-            KeyStore keyStore = KeyStore.getInstance("PKCS12");
-            keyStore.load(fis, password.toCharArray());
-            String alias = keyStore.aliases().nextElement();
-            return (PrivateKey) keyStore.getKey(alias, password.toCharArray());
-        }
+    // Method to translate text using Google Cloud Translation API
+    public static String translateText(String text, String targetLanguage) {
+        // Initialize Google Cloud Translation client
+        Translate translate = TranslateOptions.getDefaultInstance().getService();
+        
+        // Translate the text
+        Translation translation = translate.translate(
+            text,
+            Translate.TranslateOption.targetLanguage(targetLanguage)
+        );
+        
+        return translation.getTranslatedText();
     }
 
-    public static String signData(String data, PrivateKey privateKey) throws Exception {
-        Signature signature = Signature.getInstance("SHA256withRSA");
-        signature.initSign(privateKey);
-        signature.update(data.getBytes("UTF-8"));
-        byte[] signedBytes = signature.sign();
-        return Base64.getEncoder().encodeToString(signedBytes);
-    }
+    public static void main(String[] args) {
+        // Input and output file paths
+        String inputFilePath = "Dynmx Ibanity Integration.de-DE.xlf";
+        String outputFilePath = "output_translated.xlf";
+        String targetLanguage = "nl";  // Dutch language code
 
-    public static String calculateDigest(String payload) throws Exception {
-        MessageDigest digest = MessageDigest.getInstance("SHA-512");
-        byte[] hash = digest.digest(payload.getBytes("UTF-8"));
-        return "SHA-512=" + Base64.getEncoder().encodeToString(hash);
+        // Perform translation
+        translateXlfFile(inputFilePath, outputFilePath, targetLanguage);
     }
 }

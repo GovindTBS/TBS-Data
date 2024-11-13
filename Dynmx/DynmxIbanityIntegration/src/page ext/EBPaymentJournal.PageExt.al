@@ -1,10 +1,9 @@
 namespace Isabel6;
 
 using Microsoft.Bank.Payment;
-using Microsoft.Finance.GeneralLedger.Journal;
-using Microsoft.Bank.DirectDebit;
 using Microsoft.Bank.BankAccount;
-using System.Text;
+using System.Security.User;
+using System.Utilities;
 
 pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
 {
@@ -43,16 +42,13 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
                 trigger OnAction()
                 var
                     PaymentJournalLine: Record "Payment Journal Line";
-                    ExportProtocol: Record "Export Protocol";
                     BankAccount: Record "Bank Account";
+                    TempBlob: Codeunit "Temp Blob";
                     IsabelAPIMgt: Codeunit "Isabel6 Payment API Mgt.";
                     Payments: Text;
+                    OutputStream: OutStream;
                 begin
-                    if ExportProtocolCode = '' then
-                        Error('Please set an Export Protocol filter on the payment journal.');
-                    ExportProtocol.Get(ExportProtocolCode);
-                    Payments := ExportProtocol.ExportPaymentLine(Rec);
-
+                    TempBlob.CreateOutStream(OutputStream);
                     PaymentJournalLine.Reset();
                     PaymentJournalLine.SetRange("Journal Template Name", Rec."Journal Template Name");
                     PaymentJournalLine.SetRange("Journal Batch Name", Rec."Journal Batch Name");
@@ -113,10 +109,13 @@ pageextension 50140 "EB Payment Journal" extends "EB Payment Journal"
 
     trigger OnOpenPage()
     var
-        IsabelAPiSetup: Record "Isabel6 Setup";
+        IsabelAPISetup: Record "Isabel6 Setup";
+        UserSetup: Record "User Setup";
     begin
-        IsabelAPiSetup.Get();
-        IntegrationEnabled := IsabelAPiSetup."Integration Enabled";
+        IsabelAPISetup.Get();
+        UserSetup.Get(UserId);
+        if IsabelAPISetup."Integration Enabled" and UserSetup."Allow Isabel Payments" then
+            IntegrationEnabled := true;
     end;
 
     var

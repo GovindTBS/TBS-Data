@@ -1,4 +1,5 @@
 namespace Isabel6;
+using System.Security.User;
 
 page 50140 "Isabel6 Setup"
 {
@@ -31,9 +32,9 @@ page 50140 "Isabel6 Setup"
                 {
                     Editable = Isabel6IntegrationEnabled;
                 }
-                field("Integration Enabled"; Rec."Integration Enabled")
+                field("Enable Integration"; Rec."Integration Enabled")
                 {
-                    Editable = false;
+                    Editable = AllowEnableIntegration;
                 }
                 field("Authorization Code"; Rec."Authorization Code")
                 {
@@ -95,34 +96,12 @@ page 50140 "Isabel6 Setup"
     {
         area(Promoted)
         {
-            actionref(EnableIntegration; "Enable/Disable Integration") { }
             actionref(UploadSSLCertificate; "Upload SSL Certificate") { }
             actionref(DeleteSSLCertificate; "Delete SSL Certificate") { }
         }
 
         area(Processing)
         {
-            action("Enable/Disable Integration")
-            {
-                ApplicationArea = all;
-                ToolTip = 'Allows you to enable Citi bank payments api itegration.';
-                Caption = 'Enable/Disable Integration';
-                Image = Bank;
-                trigger OnAction()
-                begin
-                    if Rec."Integration Enabled" = true then begin
-                        Rec."Integration Enabled" := false;
-                        Isabel6IntegrationEnabled := true;
-                    end else begin
-                        ValidateCitiSetup();
-                        Rec."Integration Enabled" := true;
-                        Isabel6IntegrationEnabled := false;
-                    end;
-                    Rec.Modify(false);
-                    CurrPage.Update();
-                end;
-            }
-
             action("Upload SSL Certificate")
             {
                 ToolTip = 'Allows to Upload the certificate file.';
@@ -169,11 +148,16 @@ page 50140 "Isabel6 Setup"
     }
 
     trigger OnOpenPage()
+    var
+        UserSetup: Record "User Setup";
     begin
         if not Rec.Get() then begin
             Rec.Init();
             Rec.Insert(false);
         end;
+
+        UserSetup.get(UserId);
+        AllowEnableIntegration := UserSetup."Allow Isabel Payments";
     end;
 
     trigger OnAfterGetCurrRecord()
@@ -194,4 +178,5 @@ page 50140 "Isabel6 Setup"
 
     var
         Isabel6IntegrationEnabled: Boolean;
+        AllowEnableIntegration: Boolean;
 }

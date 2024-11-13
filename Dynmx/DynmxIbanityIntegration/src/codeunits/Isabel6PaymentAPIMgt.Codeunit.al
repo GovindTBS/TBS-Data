@@ -30,8 +30,8 @@ codeunit 50140 "Isabel6 Payment API Mgt."
         Isabel6APISetup.CalcFields("SSL Certificate Value");
         Isabel6APISetup."SSL Certificate Value".CreateInStream(InputStream);
         Certificate := Base64Convert.ToBase64(InputStream);
-        // XMLPayload := '<?xml version="1.0" encoding="UTF-8"?>< Document xmlns = "urn:iso:std:iso:20022:tech:xsd:pain.001.001.02" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "urn:iso:std:iso:20022:tech:xsd:pain.001.001.02 D:\SEPA\pain.001.001.02.xsd" ><pain.001.001.02></pain.001.001.02></Document>';
         XMLPayload := GetPaymentsInitiationRequestPayload(PaymentJournalLine);
+        // Message(XMLPayload);
         URI := Isabel6APISetup."Payment Initiation Endpoint";
 
         RequestContent.WriteFrom(XMLPayload);
@@ -215,15 +215,29 @@ codeunit 50140 "Isabel6 Payment API Mgt."
 
     procedure GetPaymentsInitiationRequestPayload(PaymentJournalLine: Record "Payment Journal Line"): Text
     var
+        PaymentJournalBuffer: Record "Payment Journal Buffer";
         TempBlob: Codeunit "Temp Blob";
-        OutputSTream: OutStream;
+        OutputStream: OutStream;
         InputStream: InStream;
         XMLPayload: Text;
+        CRLF_lTxt: array[3] of Char;
     begin
+        PaymentJournalBuffer.GetFromPaymentJnlLine(PaymentJournalLine);
         TempBlob.CreateOutStream(OutputStream);
-        // Xmlport.Export(Xmlport::"SEPA CT pain.001.001.02", OutputStream, PaymentJournalLine);
+        Xmlport.Export(Xmlport::"SEPA pain.001.001.03", OutputStream, PaymentJournalBuffer);
+
+        PaymentJournalBuffer.DeleteAll();
         TempBlob.CreateInStream(InputStream);
         InputStream.Read(XMLPayload);
+
+        XMLPayload := XMLPayload.Replace('<Document>', '<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">');
+        CRLF_lTxt[1] := 10;
+        CRLF_lTxt[2] := 13;
+        CRLF_lTxt[3] := 9;
+        XMLPayload := DELCHR(XMLPayload, '=', CRLF_lTxt[1]);
+        XMLPayload := DELCHR(XMLPayload, '=', CRLF_lTxt[2]);
+        XMLPayload := DELCHR(XMLPayload, '=', CRLF_lTxt[3]);
+
         exit(XMLPayload);
     end;
 
