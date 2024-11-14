@@ -1,5 +1,0 @@
-.alpackages/*.app
-*.app
-.*rad.json
-.vscode/.alcache/cache_*.json
-.vscode/rad.json
