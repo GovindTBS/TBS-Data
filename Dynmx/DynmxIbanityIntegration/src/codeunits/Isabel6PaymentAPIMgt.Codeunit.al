@@ -242,6 +242,6 @@ codeunit 50140 "Isabel6 Payment API Mgt."
     end;
 
     var
-        RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
-        EncodedUriLbl: Label '%1?grant_type=%2&code=%3&redirect_uri=%4', Comment = '%1 = URL, %2 = client ID,%3= ,%4 =';
+RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
+EncodedUriLbl: Label '%1?grant_type=%2&code=%3&redirect_uri=%4', Comment = '%1 = URL, %2 = client ID,%3= ,%4 =';
 }

@@ -27,7 +27,7 @@ page 50141 "Isabel Transaction Logs"
                 {
                     ApplicationArea = all;
                 }
-                field("Initiation Date & Time"; Rec."Initiation Date & Time")
+                field("Initiation Date & Time"; Rec."Initiation Date and Time")
                 {
                     ApplicationArea = all;
                 }

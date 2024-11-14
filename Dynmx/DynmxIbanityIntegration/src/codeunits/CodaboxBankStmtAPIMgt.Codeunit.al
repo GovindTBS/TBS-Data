@@ -491,6 +491,6 @@ codeunit 50141 "Codabox Bank Stmt API Mgt."
         Pos: Integer;
         LineLength: Integer;
         LineText: Text[136];
-        Text000Lbl: Label 'Line is not valid\%1.', Comment = '%1 = ';
-        RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
+Text000Lbl: Label 'Line is not valid \%1.', Comment = '%1 = ';
+RequestErrLbl: Label 'The requested responded with %1 status code and the reason is %2', Comment = '%1= , %2= ';
 }

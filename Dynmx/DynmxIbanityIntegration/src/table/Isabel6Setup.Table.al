@@ -131,6 +131,11 @@ table 50100 "Isabel6 Setup"
             Caption = 'Accounting Office ID';
             ToolTip = 'Specifies Accounting Office ID for the Codabox API.';
         }
+        field(25; "Allow Reconciliation Mail"; Boolean)
+        {
+            Caption = 'Allow Reconciliation Mail';
+            ToolTip = 'Specifies to Allow Sending Reconciliation Mail on Posting Bank Account Statement.';
+        }
     }
 
     keys

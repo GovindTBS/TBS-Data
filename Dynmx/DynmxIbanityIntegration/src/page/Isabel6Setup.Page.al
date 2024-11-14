@@ -35,6 +35,10 @@ page 50140 "Isabel6 Setup"
                 field("Enable Integration"; Rec."Integration Enabled")
                 {
                     Editable = AllowEnableIntegration;
+                    trigger OnValidate()
+                    begin
+                        CurrPage.Update();
+                    end;
                 }
                 field("Authorization Code"; Rec."Authorization Code")
                 {
@@ -55,6 +59,10 @@ page 50140 "Isabel6 Setup"
                 field("SSL Certificate Uploaded"; Rec."SSL Certificate Uploaded")
                 {
                     Editable = false;
+                }
+                field("Allow Reconciliation Mail"; Rec."Allow Reconciliation Mail")
+                {
+                    Editable = Isabel6IntegrationEnabled;
                 }
             }
 

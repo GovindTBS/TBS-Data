@@ -1,4 +1,3 @@
-
 namespace Isabel6;
 
 using Microsoft.Bank.Payment;

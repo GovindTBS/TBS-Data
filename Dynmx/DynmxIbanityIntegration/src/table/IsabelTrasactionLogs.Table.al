@@ -10,9 +10,9 @@ table 50101 "Isabel Trasaction Logs"
         {
             ToolTip = 'Specifies the payment request ID.';
         }
-        field(2; "Initiation Date & Time"; DateTime)
+        field(2; "Initiation Date and Time"; DateTime)
         {
-            ToolTip = 'Specifies the Payment Initiation Date & Time';
+            ToolTip = 'Specifies the Payment Initiation Date and Time';
         }
         field(3; "Amount"; Decimal)
         {
@@ -38,6 +38,6 @@ table 50101 "Isabel Trasaction Logs"
 
     trigger OnInsert()
     begin
-        "Initiation Date & Time" := CurrentDateTime;
+        "Initiation Date and Time" := CurrentDateTime;
     end;
 }
