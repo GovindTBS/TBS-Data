@@ -49,9 +49,9 @@ pageextension 50141 "Bank Account Card" extends "Bank Account Card"
         UserSetup: Record "User Setup";
     begin
         IsabelAPISetup.Get();
-        UserSetup.Get(UserId);
-        if IsabelAPISetup."Integration Enabled" and UserSetup."Allow Isabel Payments" then
-            IntegrationEnabled := true;
+        if UserSetup.Get(UserId) then
+            if IsabelAPISetup."Integration Enabled" and UserSetup."Allow Isabel Payments" then
+                IntegrationEnabled := true;
     end;
 
     var

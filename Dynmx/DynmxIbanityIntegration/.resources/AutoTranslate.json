@@ -1,92 +1,182 @@
 {
-  "SEPA pain.001.001.03":{},
-  "Allow Isabel Payments":{},
-  "Allow the user to make Isabel Payments.":{},
-  "Payment Request ID":{},
-  "Specifies the Payment Request ID for the initiated payment.":{},
-  "Payment Status":{},
-  "Specifies the Payment Status for the initaited payment":{},
-  "The selected items have already been exported. Do you want to export again?":{},
-  "Isabel Account":{},
-  "Specifies wether the following bank account is a Isabel bank account.":{},
-  "Payment Journal Buffer":{},
-  "Journal Template Name":{},
-  "Line No.":{},
-  "Account No.":{},
-  "Currency Code":{},
-  "Amount":{},
-  "Beneficiary Bank Account":{},
-  "Bank Account":{},
-  "Journal Batch Name":{},
-  "Specifies the payment request ID.":{},
-  "Specifies the Payment Initiation Date and Time":{},
-  "Specifies the Payment Amount.":{},
-  "Specifies the last fetched payment status":{},
-  "Specifies the date and time when the status was last checked for the payment.":{},
-  "Isabel Setup":{},
-  "Primary key":{},
-  "Auth Token Endpoint":{},
-  "Specifies Auth Token Endpoint URL for the Isabel6 API.":{},
-  "Value":{},
-  "Specifies the SSL Certificate BLOB value.":{},
-  "SSL Certificate Uploaded":{},
-  "Specifies if the SSL certificate is uploaded.":{},
-  "SSL Certificate Password":{},
-  "Specifies the password of the SSL Certificate.":{},
-  "SSL Certificate File":{},
-  "Specifies the name of the certificate file.":{},
-  "Client ID":{},
-  "Specifies the client id for the Citi bank API authorization.":{},
-  "Client Secret":{},
-  "Specifies the client secret for the Citi bank API authorization.":{},
-  "Integration Enabled":{},
-  "Specifies if the payments integration is enabled or not.":{},
-  "Authorization Code":{},
-  "Specifies the Authorization code provided during the user linking process.":{},
-  "Auth Token":{},
-  "Specifies the Authorization Token for Isabel6 API access.":{},
-  "Payment Initiation Endpoint":{},
-  "Specifies Payment Initiation Endpoint URL for the Isabel6 API.":{},
-  "Payment Status Endpoint":{},
-  "Specifies Payment Status Endpoint URL for the Isabel6 API.":{},
-  "Accounting Office Endpoint":{},
-  "Specifies Accounting Office Endpoint URL for the Codabox API.":{},
-  "Document Search Endpoint":{},
-  "Specifies Document Search Endpoint URL for the Codabox API.":{},
-  "Account Statement Endpoint":{},
-  "Specifies Account Statement Endpoint URL for the Codabox API.":{},
-  "Accounting Office Company Number":{},
-  "Specifies Accounting Office Company Number for the Codabox API.":{},
-  "Accounting Office ID":{},
-  "Specifies Accounting Office ID for the Codabox API.":{},
-  "Specifies the client id for the Codabox API authorization.":{},
-  "Specifies the client secret for the Codabox API authorization.":{},
-  "Specifies Auth Token Endpoint URL for the Codabox API.":{},
-  "Specifies the Authorization Token for Codabox API access.":{},
-  "Allow Reconciliation Mail":{},
-  "Specifies to Allow Sending Reconciliation Mail on Posting Bank Account Statement.":{},
-  "Specifies the date to get the statement entries from.":{},
-  "From Date":{},
-  "Specifies the date to get the statement entries upto.":{},
-  "To Date":{},
-  "Allow the user to process Isabel payments":{},
-  "Send to Isabel":{},
-  "Allows you to send to payment request to Isabel.":{},
-  "Check Payment Status":{},
-  "Allows you to Check Payment Status for payment request to Isabel.":{},
-  "Export Payment":{},
-  "Allows you to Export Payment for payment request to Isabel.":{},
-  "Allows to import CODA bank statement from Isabel API.":{},
-  "Import Isabel CODA":{},
-  "Isabel Transaction Logs":{},
-  "Isabel6 Setup":{},
-  "Isabel6":{},
-  "Allows to Upload the certificate file.":{},
-  "Upload Certificate":{},
-  "Allows to Delete the certificate file.":{},
-  "Delete Certificate":{},
-  "Finance Department":{},
-  "The requested responded with %1 status code and the reason is %2":{},
-  "%1?grant_type=%2&code=%3&redirect_uri=%4":{},
-  "Line is not valid \\%1.":{}
+  "SEPA pain.001.001.03":{
+    "ITA":"SEPA pain.001.001.03"},
+  "Allow Isabel Payments":{
+    "ITA":"Consenti pagamenti Isabel"},
+  "Allow the user to make Isabel Payments.":{
+    "ITA":"Consenti all'utente di effettuare Isabel Payments."},
+  "Payment Request ID":{
+    "ITA":"ID richiesta di pagamento"},
+  "Specifies the Payment Request ID for the initiated payment.":{
+    "ITA":"Specifica l'ID della richiesta di pagamento per il pagamento avviato."},
+  "Payment Status":{
+    "ITA":"Stato del pagamento"},
+  "Specifies the Payment Status for the initaited payment":{
+    "ITA":"Specifica lo stato del pagamento per il pagamento avviato"},
+  "The selected items have already been exported. Do you want to export again?":{
+    "ITA":"Gli elementi selezionati sono già stati esportati. Vuoi esportare di nuovo?"},
+  "Isabel Account":{
+    "ITA":"Conto Isabel"},
+  "Specifies wether the following bank account is a Isabel bank account.":{
+    "ITA":"Specifica se il seguente conto bancario è un conto bancario Isabel."},
+  "Payment Journal Buffer":{
+    "ITA":"Buffer giornale di registrazione pagamenti"},
+  "Journal Template Name":{
+    "ITA":"Nome del modello di giornale"},
+  "Line No.":{
+    "ITA":"Linea n."},
+  "Account No.":{
+    "ITA":"Numero di conto"},
+  "Currency Code":{
+    "ITA":"Codice valuta"},
+  "Amount":{
+    "ITA":"Importo"},
+  "Beneficiary Bank Account":{
+    "ITA":"Conto bancario beneficiario"},
+  "Bank Account":{
+    "ITA":"Conto bancario"},
+  "Journal Batch Name":{
+    "ITA":"Nome batch giornale di registrazione"},
+  "Specifies the payment request ID.":{
+    "ITA":"Specifica l'ID della richiesta di pagamento."},
+  "Specifies the Payment Initiation Date and Time":{
+    "ITA":"Specifica la data e l'ora di inizio del pagamento"},
+  "Specifies the Payment Amount.":{
+    "ITA":"Specifica l'importo del pagamento."},
+  "Specifies the last fetched payment status":{
+    "ITA":"Specifica lo stato dell'ultimo pagamento recuperato"},
+  "Specifies the date and time when the status was last checked for the payment.":{
+    "ITA":"Specifica la data e l'ora dell'ultimo controllo dello stato del pagamento."},
+  "Isabel Setup":{
+    "ITA":"Configurazione di Isabel"},
+  "Primary key":{
+    "ITA":"Chiave primaria"},
+  "Auth Token Endpoint":{
+    "ITA":"Endpoint del token di autenticazione"},
+  "Specifies Auth Token Endpoint URL for the Isabel6 API.":{
+    "ITA":"Specifica l'URL dell'endpoint del token di autenticazione per l'API Isabel6."},
+  "Value":{
+    "ITA":"Valore"},
+  "Specifies the SSL Certificate BLOB value.":{
+    "ITA":"Specifica il valore BLOB del certificato SSL."},
+  "SSL Certificate Uploaded":{
+    "ITA":"Certificato SSL caricato"},
+  "Specifies if the SSL certificate is uploaded.":{
+    "ITA":"Specifica se il certificato SSL viene caricato."},
+  "SSL Certificate Password":{
+    "ITA":"Password del certificato SSL"},
+  "Specifies the password of the SSL Certificate.":{
+    "ITA":"Specifica la password del certificato SSL."},
+  "SSL Certificate File":{
+    "ITA":"File del certificato SSL"},
+  "Specifies the name of the certificate file.":{
+    "ITA":"Specifica il nome del file del certificato."},
+  "Client ID":{
+    "ITA":"ID cliente"},
+  "Specifies the client id for the Citi bank API authorization.":{
+    "ITA":"Specifica l'ID client per l'autorizzazione API della banca Citi."},
+  "Client Secret":{
+    "ITA":"Segreto client"},
+  "Specifies the client secret for the Citi bank API authorization.":{
+    "ITA":"Specifica il segreto client per l'autorizzazione API della banca Citi."},
+  "Integration Enabled":{
+    "ITA":"Integrazione abilitata"},
+  "Specifies if the payments integration is enabled or not.":{
+    "ITA":"Specifica se l'integrazione dei pagamenti è abilitata o meno."},
+  "Authorization Code":{
+    "ITA":"Codice di autorizzazione"},
+  "Specifies the Authorization code provided during the user linking process.":{
+    "ITA":"Specifica il codice di autorizzazione fornito durante il processo di collegamento dell'utente."},
+  "Auth Token":{
+    "ITA":"Token di autenticazione"},
+  "Specifies the Authorization Token for Isabel6 API access.":{
+    "ITA":"Specifica il token di autorizzazione per l'accesso all'API Isabel6."},
+  "Payment Initiation Endpoint":{
+    "ITA":"Endpoint di disposizione di ordine di pagamento"},
+  "Specifies Payment Initiation Endpoint URL for the Isabel6 API.":{
+    "ITA":"Specifica l'URL dell'endpoint di disposizione di ordine di pagamento per l'API Isabel6."},
+  "Payment Status Endpoint":{
+    "ITA":"Endpoint dello stato del pagamento"},
+  "Specifies Payment Status Endpoint URL for the Isabel6 API.":{
+    "ITA":"Specifica l'URL dell'endpoint dello stato del pagamento per l'API Isabel6."},
+  "Accounting Office Endpoint":{
+    "ITA":"Punto finale dell'ufficio contabilità"},
+  "Specifies Accounting Office Endpoint URL for the Codabox API.":{
+    "ITA":"Specifica l'URL dell'endpoint di Accounting Office per l'API Codabox."},
+  "Document Search Endpoint":{
+    "ITA":"Endpoint di ricerca documenti"},
+  "Specifies Document Search Endpoint URL for the Codabox API.":{
+    "ITA":"Specifica l'URL dell'endpoint di ricerca documenti per l'API Codabox."},
+  "Account Statement Endpoint":{
+    "ITA":"Endpoint estratto conto"},
+  "Specifies Account Statement Endpoint URL for the Codabox API.":{
+    "ITA":"Specifica l'URL dell'endpoint dell'estratto conto per l'API Codabox."},
+  "Accounting Office Company Number":{
+    "ITA":"Numero di società dell'ufficio contabile"},
+  "Specifies Accounting Office Company Number for the Codabox API.":{
+    "ITA":"Specifica il numero di società dell'ufficio contabilità per l'API Codabox."},
+  "Accounting Office ID":{
+    "ITA":"ID ufficio contabilità"},
+  "Specifies Accounting Office ID for the Codabox API.":{
+    "ITA":"Specifica l'ID dell'ufficio contabilità per l'API Codabox."},
+  "Specifies the client id for the Codabox API authorization.":{
+    "ITA":"Specifica l'ID client per l'autorizzazione API Codabox."},
+  "Specifies the client secret for the Codabox API authorization.":{
+    "ITA":"Specifica il segreto client per l'autorizzazione API Codabox."},
+  "Specifies Auth Token Endpoint URL for the Codabox API.":{
+    "ITA":"Specifica l'URL dell'endpoint del token di autenticazione per l'API Codabox."},
+  "Specifies the Authorization Token for Codabox API access.":{
+    "ITA":"Specifica il token di autorizzazione per l'accesso all'API Codabox."},
+  "Allow Reconciliation Mail":{
+    "ITA":"Consenti posta di riconciliazione"},
+  "Specifies to Allow Sending Reconciliation Mail on Posting Bank Account Statement.":{
+    "ITA":"Specifica di consentire l'invio di messaggi di riconciliazione al momento della registrazione dell'estratto conto bancario."},
+  "Specifies the date to get the statement entries from.":{
+    "ITA":"Specifica la data da cui ottenere le voci dell'istruzione."},
+  "From Date":{
+    "ITA":"Da Data"},
+  "Specifies the date to get the statement entries upto.":{
+    "ITA":"Specifica la data in cui vengono aggiornati i movimenti dell'istruzione."},
+  "To Date":{
+    "ITA":"Ad oggi"},
+  "Allow the user to process Isabel payments":{
+    "ITA":"Consenti all'utente di elaborare i pagamenti Isabel"},
+  "Send to Isabel":{
+    "ITA":"Invia a Isabel"},
+  "Allows you to send to payment request to Isabel.":{
+    "ITA":"Permette di inviare una richiesta di pagamento a Isabel."},
+  "Check Payment Status":{
+    "ITA":"Controlla lo stato del pagamento"},
+  "Allows you to Check Payment Status for payment request to Isabel.":{
+    "ITA":"Consente di controllare lo stato del pagamento per la richiesta di pagamento a Isabel."},
+  "Export Payment":{
+    "ITA":"Pagamento all'esportazione"},
+  "Allows you to Export Payment for payment request to Isabel.":{
+    "ITA":"Consente di esportare il pagamento per la richiesta di pagamento a Isabel."},
+  "Allows to import CODA bank statement from Isabel API.":{
+    "ITA":"Consente di importare l'estratto conto bancario CODA dall'API Isabel."},
+  "Import Isabel CODA":{
+    "ITA":"Importa Isabel CODA"},
+  "Isabel Transaction Logs":{
+    "ITA":"Registri delle transazioni di Isabel"},
+  "Isabel6 Setup":{
+    "ITA":"Installazione di Isabel6"},
+  "Isabel6":{
+    "ITA":"Isabella6"},
+  "Allows to Upload the certificate file.":{
+    "ITA":"Consente di caricare il file del certificato."},
+  "Upload Certificate":{
+    "ITA":"Carica certificato"},
+  "Allows to Delete the certificate file.":{
+    "ITA":"Consente di eliminare il file del certificato."},
+  "Delete Certificate":{
+    "ITA":"Elimina certificato"},
+  "Finance Department":{
+    "ITA":"Dipartimento Finanziario"},
+  "The requested responded with %1 status code and the reason is %2":{
+    "ITA":"La richiesta ha risposto con il codice di stato %1 e il motivo è %2"},
+  "%1?grant_type=%2&code=%3&redirect_uri=%4":{
+    "ITA":"%1?grant_type=%2&codice=%3&redirect_uri=%4"},
+  "Line is not valid \\%1.":{
+    "ITA":"La riga non è valida \\%1."}
 }

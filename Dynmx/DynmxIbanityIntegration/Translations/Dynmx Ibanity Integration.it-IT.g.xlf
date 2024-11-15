@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="Dynmx Ibanity Integration">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 958058103 - Field 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Payment Amount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 4043721424 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Payment Initiation Date and Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Initiation Date and Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 4043721424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initiation Date and Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Initiation Date and Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 1860382624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment request ID.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Request ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 1860382624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Request ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last fetched payment status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 1168484000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time when the status was last checked for the payment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status Checked Last At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 958058103 - Field 1168484000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Checked Last At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel Trasaction Logs - Field Status Checked Last At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Isabel Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1066735009 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Account Statement Endpoint URL for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Account Statement Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1066735009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Statement Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Account Statement Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3690818747 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Accounting Office Company Number for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Company No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3690818747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Office Company Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Company No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 873748694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Accounting Office ID for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Consent ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 873748694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Office ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Consent ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3786830670 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Accounting Office Endpoint URL for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3786830670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Office Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1649933496 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Accounting Office ID for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1649933496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Office ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Accounting Office ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2461389633 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to Allow Sending Reconciliation Mail on Posting Bank Account Statement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Allow Reconciliation Mail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2461389633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Reconciliation Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Allow Reconciliation Mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1090384498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Authorization code provided during the user linking process.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Authorization Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1090384498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Authorization Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1823838865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Authorization Token for Codabox API access.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1823838865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auth Token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1973807912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Auth Token Endpoint URL for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1973807912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auth Token Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1790706897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Accounting Office ID for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Expires - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1790706897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Office ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Auth Token Expires - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3422191324 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client id for the Codabox API authorization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3422191324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 140304157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client secret for the Codabox API authorization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client Secret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 140304157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Codabox Client Secret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3210823982 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Document Search Endpoint URL for the Codabox API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Document Search Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3210823982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Search Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Document Search Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3220069733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the payments integration is enabled or not.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Integration Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3220069733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integration Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Integration Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3535189479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Authorization Token for Isabel6 API access.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3535189479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auth Token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1326263026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Auth Token Endpoint URL for the Isabel6 API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1326263026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auth Token Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Auth Token Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 394784518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client id for the Citi bank API authorization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 394784518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2708375475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client secret for the Citi bank API authorization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client Secret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2708375475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Isabel6 Client Secret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1054281393 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Payment Initiation Endpoint URL for the Isabel6 API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Initiation Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1054281393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Initiation Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Initiation Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1976880575 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Payment Status Endpoint URL for the Isabel6 API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Status Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1976880575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Status Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Payment Status Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3865864673 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the certificate file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate File - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 3865864673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSL Certificate File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2915622946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the password of the SSL Certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Password - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2915622946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSL Certificate Password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 738574957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the SSL certificate is uploaded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Uploaded - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 738574957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSL Certificate Uploaded</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Uploaded - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2725035942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the SSL Certificate BLOB value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1222639931 - Field 2725035942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Isabel6 Setup - Field SSL Certificate Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Journal Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 1682139193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 1881692056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Beneficiary Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Beneficiary Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 2704330142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Journal Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 3684440170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Journal Template Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2422162901 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Payment Journal Buffer - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 821925896 - NamedType 3509362170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The requested responded with %1 status code and the reason is %2</source>
+          <note from="Developer" annotates="general" priority="2">%1= , %2= </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Codabox Bank Stmt API Mgt. - NamedType RequestErrLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 821925896 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line is not valid \%1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Codabox Bank Stmt API Mgt. - NamedType Text000Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4137793120 - NamedType 1523999682" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1?grant_type=%2&amp;code=%3&amp;redirect_uri=%4</source>
+          <note from="Developer" annotates="general" priority="2">%1 = URL, %2 = client ID,%3= ,%4 =</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Isabel6 Payment API Mgt. - NamedType EncodedUriLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4137793120 - NamedType 3509362170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The requested responded with %1 status code and the reason is %2</source>
+          <note from="Developer" annotates="general" priority="2">%1= , %2= </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Isabel6 Payment API Mgt. - NamedType RequestErrLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1181203637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Isabel Transaction Logs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Isabel Transaction Logs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1222639931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Isabel6 Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1222639931 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Isabel6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1222639931 - Action 1452324492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows to Delete the certificate file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Delete SSL Certificate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1222639931 - Action 1452324492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Certificate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Delete SSL Certificate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1222639931 - Action 1089855830 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows to Upload the certificate file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Upload SSL Certificate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1222639931 - Action 1089855830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload Certificate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Isabel6 Setup - Action Upload SSL Certificate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2233908647 - Control 2110632758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date to get the statement entries from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control From Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2233908647 - Control 2110632758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control From Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2233908647 - Control 2565971985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date to get the statement entries upto.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control To Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2233908647 - Control 2565971985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Isabel6 Bank Statement - Control To Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2292249509 - Action 1150806888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Allows to import CODA bank statement from Isabel API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card - Action Import Isabel CODA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2292249509 - Action 1150806888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Import Isabel CODA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card - Action Import Isabel CODA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3300710496 - Action 961547678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <source>Allows you to Check Payment Status for payment request to Isabel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action CheckStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3300710496 - Action 961547678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <source>Check Payment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action CheckStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3300710496 - Action 1876366554 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <source>Allows you to Export Payment for payment request to Isabel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action ExportPayment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3300710496 - Action 1876366554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <source>Export Payment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action ExportPayment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3300710496 - Action 1425475865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <source>Allows you to send to payment request to Isabel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action SendToIsabel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3300710496 - Action 1425475865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3300710496">
+          <source>Send to Isabel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EB Payment Journal - Action SendToIsabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 337631938 - Control 4141606492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
+          <source>Allow the user to process Isabel payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension User Setup - Control Allow Isabel Payments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1682139193 - Field 140215683 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>Specifies wether the following bank account is a Isabel bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account - Field Isabel Account - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1682139193 - Field 140215683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>Isabel Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account - Field Isabel Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 568091486 - NamedType 1312568423" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 568091486">
+          <source>The selected items have already been exported. Do you want to export again?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Export Protocol - NamedType ReExportQst</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3196174509 - Field 2717335242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <source>Specifies the Payment Request ID for the initiated payment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Request ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3196174509 - Field 2717335242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <source>Payment Request ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Request ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3196174509 - Field 931886930 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <source>Specifies the Payment Status for the initaited payment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3196174509 - Field 931886930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2439862127">
+          <source>Payment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Journal - Field Payment Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3130621048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEPA pain.001.001.03</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort SEPA pain.001.001.03 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 337631938 - Field 4141606492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <source>Allow the user to make Isabel Payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension User Setup - Field Allow Isabel Payments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 337631938 - Field 4141606492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <source>Allow Isabel Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension User Setup - Field Allow Isabel Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2593693414 - EnumValue 1250213512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2593693414">
+          <source>Finance Department</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Email Scenario - EnumValue Finance Department - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
